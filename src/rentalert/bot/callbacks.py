@@ -144,29 +144,31 @@ def _handle_country(
         ctx.notifier.answer_callback(cb_id, "❌")
         return
 
-    lang = user_svc.get_language(ctx.client, chat_id)
     old = user_svc.get_country(ctx.client, chat_id)
 
     if old == country:
+        lang = user_svc.get_language(ctx.client, chat_id)
         ctx.notifier.answer_callback(cb_id, T(f"country_{country}", lang))
         return
 
+    # Змінюємо країну (це також виставить мову за замовчуванням)
     user_svc.set_country(ctx.client, chat_id, country)
+
+    # Після зміни країни — беремо НОВУ мову
+    lang = user_svc.get_language(ctx.client, chat_id)
     country_label = T(f"country_{country}", lang)
 
-    db.log_activity(ctx.client, chat_id, "country_change", {"from": old, "to": country})
+    db.log_activity(
+        ctx.client,
+        chat_id,
+        "country_change",
+        {"from": old, "to": country},
+    )
+
+    # Toast (не повідомлення у чаті)
     ctx.notifier.answer_callback(cb_id, f"✅ {country_label}")
 
-    if message_id:
-        text = T("main_menu", lang, country=country_label)
-        ctx.notifier.edit_message(
-            chat_id,
-            message_id,
-            text,
-            keyboard={"inline_keyboard": []},
-        )
-
-    # Показуємо головне меню
+    # Одне повідомлення — головне меню
     ctx.notifier.send_message(
         chat_id,
         T("main_menu", lang, country=country_label),

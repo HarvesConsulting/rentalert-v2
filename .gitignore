@@ -1,0 +1,51 @@
+# ─── Python ───
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ─── Virtualenv ───
+.venv/
+venv/
+env/
+ENV/
+
+# ─── Testing ───
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# ─── Environment ───
+.env
+.env.local
+.env.*.local
+*.local
+
+# ─── IDE ───
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ─── OS ───
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Project ───
+data/*.local.json
+*.db
+*.sqlite
+*.sqlite3
+*.log

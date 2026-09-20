@@ -24,6 +24,7 @@ OUT = ROOT / "data" / "cities"
 # Утиліти
 # ─────────────────────────────────────────────────────────────
 
+
 def load_json(path: Path) -> dict | list:
     with open(path, encoding="utf-8") as f:
         return json.load(f)
@@ -103,6 +104,7 @@ def dedupe(cities: list[dict]) -> list[dict]:
 # UA — об'єднання OLX + DIM.RIA
 # ─────────────────────────────────────────────────────────────
 
+
 def build_ua() -> dict:
     olx_raw = load_json(RAW / "ua_olx.json")
     dimria_raw = load_json(RAW / "ua_dimria.json")
@@ -140,13 +142,15 @@ def build_ua() -> dict:
             refs["dimria"] = dimria_id
             used_dimria_ids.add(dimria_id)
 
-        cities.append({
-            "slug": slug,
-            "name": name,
-            "region": region,
-            "priority": is_priority,
-            "refs": refs,
-        })
+        cities.append(
+            {
+                "slug": slug,
+                "name": name,
+                "region": region,
+                "priority": is_priority,
+                "refs": refs,
+            }
+        )
 
     # ── Крок 2: решта DIM.RIA ──
     used_names: set[str] = {norm(c["name"]) for c in cities if c.get("priority")}
@@ -156,20 +160,24 @@ def build_ua() -> dict:
             continue
         if norm(d["name"]) in used_names:
             continue
-        cities.append({
-            "slug": f"dimria_{d['id']}",
-            "name": d["name"],
-            "region": d.get("state_name", ""),
-            "priority": False,
-            "refs": {"dimria": d["id"]},
-        })
+        cities.append(
+            {
+                "slug": f"dimria_{d['id']}",
+                "name": d["name"],
+                "region": d.get("state_name", ""),
+                "priority": False,
+                "refs": {"dimria": d["id"]},
+            }
+        )
 
     cities = dedupe(cities)
     cities.sort(key=lambda c: (not c["priority"], c["name"]))
 
-    print(f"  UA: {len(cities)} міст "
-          f"({sum(1 for c in cities if c['priority'])} priority, "
-          f"{sum(1 for c in cities if 'dimria' in c['refs'])} з DIM.RIA)")
+    print(
+        f"  UA: {len(cities)} міст "
+        f"({sum(1 for c in cities if c['priority'])} priority, "
+        f"{sum(1 for c in cities if 'dimria' in c['refs'])} з DIM.RIA)"
+    )
 
     return {"country": "ua", "cities": cities}
 
@@ -177,6 +185,7 @@ def build_ua() -> dict:
 # ─────────────────────────────────────────────────────────────
 # PL — OLX.pl
 # ─────────────────────────────────────────────────────────────
+
 
 def build_pl() -> dict:
     olx_raw = load_json(RAW / "pl_olx.json")
@@ -187,13 +196,15 @@ def build_pl() -> dict:
         name = o["city_name"]
         olx_id = o["city_id"]
         slug, is_priority = _priority_slug(name, priority, f"olx_pl_{olx_id}")
-        cities.append({
-            "slug": slug,
-            "name": name,
-            "region": o.get("region_name", ""),
-            "priority": is_priority,
-            "refs": {"olx_pl": olx_id},
-        })
+        cities.append(
+            {
+                "slug": slug,
+                "name": name,
+                "region": o.get("region_name", ""),
+                "priority": is_priority,
+                "refs": {"olx_pl": olx_id},
+            }
+        )
 
     cities = dedupe(cities)
     cities.sort(key=lambda c: (not c["priority"], c["name"]))
@@ -205,18 +216,21 @@ def build_pl() -> dict:
 # PT — регіони з override
 # ─────────────────────────────────────────────────────────────
 
+
 def build_pt() -> dict:
     pt_override = load_json(OVERRIDES / "priority_pt.json")
 
     cities = []
     for slug, info in pt_override.items():
-        cities.append({
-            "slug": slug,
-            "name": info["name"],
-            "region": "",
-            "priority": info.get("priority", False),
-            "refs": {"olx_pt": info["region_id"]},
-        })
+        cities.append(
+            {
+                "slug": slug,
+                "name": info["name"],
+                "region": "",
+                "priority": info.get("priority", False),
+                "refs": {"olx_pt": info["region_id"]},
+            }
+        )
 
     cities.sort(key=lambda c: (not c["priority"], c["name"]))
     print(f"  PT: {len(cities)} регіонів ({sum(1 for c in cities if c['priority'])} priority)")
@@ -227,6 +241,7 @@ def build_pt() -> dict:
 # RO — OLX.ro (priority вже в raw)
 # ─────────────────────────────────────────────────────────────
 
+
 def build_ro() -> dict:
     olx_raw = load_json(RAW / "ro_olx.json")
     priority = load_json(OVERRIDES / "priority_ro.json")
@@ -236,13 +251,15 @@ def build_ro() -> dict:
         olx_id = o["olx_city_id"]
         name = o["name"]
         slug, _ = _priority_slug(name, priority, f"olx_ro_{olx_id}")
-        cities.append({
-            "slug": slug,
-            "name": name,
-            "region": o.get("region", ""),
-            "priority": o.get("priority", False),
-            "refs": {"olx_ro": olx_id},
-        })
+        cities.append(
+            {
+                "slug": slug,
+                "name": name,
+                "region": o.get("region", ""),
+                "priority": o.get("priority", False),
+                "refs": {"olx_ro": olx_id},
+            }
+        )
 
     cities = dedupe(cities)
     cities.sort(key=lambda c: (not c["priority"], c["name"]))
@@ -254,6 +271,7 @@ def build_ro() -> dict:
 # BG — OLX.bg (override для priority)
 # ─────────────────────────────────────────────────────────────
 
+
 def build_bg() -> dict:
     olx_raw = load_json(RAW / "bg_olx.json")
     priority = load_json(OVERRIDES / "priority_bg.json")
@@ -263,13 +281,15 @@ def build_bg() -> dict:
         name = o["city_name"]
         olx_id = o["city_id"]
         slug, is_priority = _priority_slug(name, priority, f"olx_bg_{olx_id}")
-        cities.append({
-            "slug": slug,
-            "name": name,
-            "region": o.get("region_name", ""),
-            "priority": is_priority,
-            "refs": {"olx_bg": olx_id},
-        })
+        cities.append(
+            {
+                "slug": slug,
+                "name": name,
+                "region": o.get("region_name", ""),
+                "priority": is_priority,
+                "refs": {"olx_bg": olx_id},
+            }
+        )
 
     cities = dedupe(cities)
     cities.sort(key=lambda c: (not c["priority"], c["name"]))
@@ -281,19 +301,22 @@ def build_bg() -> dict:
 # DE — Kleinanzeigen
 # ─────────────────────────────────────────────────────────────
 
+
 def build_de() -> dict:
     raw = load_json(RAW / "de_kleinanzeigen.json")
 
     cities = []
     for o in raw:
         loc_id = o["location_id"]
-        cities.append({
-            "slug": o.get("slug") or f"de_{loc_id}",
-            "name": o["name"],
-            "region": o.get("region", ""),
-            "priority": o.get("priority", False),
-            "refs": {"kleinanzeigen": loc_id},
-        })
+        cities.append(
+            {
+                "slug": o.get("slug") or f"de_{loc_id}",
+                "name": o["name"],
+                "region": o.get("region", ""),
+                "priority": o.get("priority", False),
+                "refs": {"kleinanzeigen": loc_id},
+            }
+        )
 
     cities = dedupe(cities)
     cities.sort(key=lambda c: (not c["priority"], c["name"]))
@@ -305,19 +328,22 @@ def build_de() -> dict:
 # ES — Habitaclia
 # ─────────────────────────────────────────────────────────────
 
+
 def build_es() -> dict:
     raw = load_json(RAW / "es_habitaclia.json")
 
     cities = []
     for o in raw:
         slug = o.get("slug") or f"es_{o['location_id']}"
-        cities.append({
-            "slug": slug,
-            "name": o["name"],
-            "region": o.get("region", ""),
-            "priority": o.get("priority", False),
-            "refs": {"habitaclia": o["location_id"]},
-        })
+        cities.append(
+            {
+                "slug": slug,
+                "name": o["name"],
+                "region": o.get("region", ""),
+                "priority": o.get("priority", False),
+                "refs": {"habitaclia": o["location_id"]},
+            }
+        )
 
     cities = dedupe(cities)
     cities.sort(key=lambda c: (not c["priority"], c["name"]))
@@ -328,6 +354,7 @@ def build_es() -> dict:
 # ─────────────────────────────────────────────────────────────
 # Main
 # ─────────────────────────────────────────────────────────────
+
 
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)

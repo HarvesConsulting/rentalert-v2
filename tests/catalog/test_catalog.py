@@ -22,6 +22,7 @@ def catalog() -> Catalog:
 
 # ─── Базові властивості ───
 
+
 def test_stats(catalog: Catalog) -> None:
     s = catalog.stats()
     assert s["countries"] == 7
@@ -40,6 +41,7 @@ def test_all_sources(catalog: Catalog) -> None:
 
 
 # ─── Прямий доступ ───
+
 
 def test_country_lookup(catalog: Catalog) -> None:
     ua = catalog.country("ua")
@@ -76,6 +78,7 @@ def test_city_not_found(catalog: Catalog) -> None:
 
 # ─── Колекції ───
 
+
 def test_cities_of_ua(catalog: Catalog) -> None:
     cities = catalog.cities_of("ua")
     assert len(cities) > 20000
@@ -89,6 +92,7 @@ def test_sources_of_ua(catalog: Catalog) -> None:
 
 
 # ─── Зворотний пошук ───
+
 
 def test_find_city_by_external_id(catalog: Catalog) -> None:
     kyiv = catalog.find_city_by_external_id("olx_ua", 268)
@@ -105,6 +109,7 @@ def test_find_city_by_external_id_wrong_source(catalog: Catalog) -> None:
 
 
 # ─── Пошук міст ───
+
 
 def test_find_cities_exact(catalog: Catalog) -> None:
     results = catalog.find_cities("Київ", "ua", limit=5)
@@ -143,6 +148,7 @@ def test_find_cities_diacritics(catalog: Catalog) -> None:
 
 # ─── Джерела для міста ───
 
+
 def test_sources_for_city_kyiv(catalog: Catalog) -> None:
     sources = catalog.sources_for_city("kyiv")
     assert len(sources) == 1
@@ -158,6 +164,7 @@ def test_sources_for_city_not_found(catalog: Catalog) -> None:
 
 
 # ─── City helper methods ───
+
 
 def test_city_external_id(catalog: Catalog) -> None:
     kyiv = catalog.city("kyiv")

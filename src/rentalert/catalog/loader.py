@@ -15,6 +15,7 @@ from rentalert.catalog.models import City, Country, Source
 # Завантаження країн
 # ─────────────────────────────────────────────────────────────
 
+
 def load_countries(path: Path) -> dict[str, Country]:
     """Читає countries.json → dict[code, Country]."""
     with open(path, encoding="utf-8") as f:
@@ -37,6 +38,7 @@ def load_countries(path: Path) -> dict[str, Country]:
 # ─────────────────────────────────────────────────────────────
 # Завантаження джерел
 # ─────────────────────────────────────────────────────────────
+
 
 def load_sources(path: Path) -> dict[str, Source]:
     """Читає sources.json → dict[key, Source]."""
@@ -62,6 +64,7 @@ def load_sources(path: Path) -> dict[str, Source]:
 # ─────────────────────────────────────────────────────────────
 # Завантаження міст
 # ─────────────────────────────────────────────────────────────
+
 
 def load_cities_dir(path: Path) -> dict[str, City]:
     """Читає всі data/cities/*.json → dict[slug, City].

@@ -48,7 +48,7 @@ class Catalog:
             self._sources_by_country.setdefault(source.country, []).append(source)
 
     @classmethod
-    def load(cls, data_dir: Path) -> "Catalog":
+    def load(cls, data_dir: Path) -> Catalog:
         """Завантажує весь каталог з data/."""
         countries = load_countries(data_dir / "countries.json")
         sources = load_sources(data_dir / "sources.json")
@@ -148,8 +148,4 @@ class Catalog:
 
     def __repr__(self) -> str:
         s = self.stats()
-        return (
-            f"Catalog(countries={s['countries']}, "
-            f"sources={s['sources']}, "
-            f"cities={s['cities']})"
-        )
+        return f"Catalog(countries={s['countries']}, sources={s['sources']}, cities={s['cities']})"

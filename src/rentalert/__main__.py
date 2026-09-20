@@ -1,11 +1,11 @@
-"""Entry point: python -m renalert."""
+"""Entry point: python -m rentalert."""
 
 import os
 
 
 def main() -> None:
     """Запускає Flask-застосунок."""
-    from rentalert.app import create_app  # noqa: PLC0415
+    from rentalert.app import create_app
 
     port = int(os.environ.get("PORT", "3000"))
     app = create_app()

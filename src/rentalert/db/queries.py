@@ -275,7 +275,7 @@ def get_seen_ids(
 def save_listing(
     client: TursoClient,
     *,
-    id: str,  # noqa: A002
+    id: str,
     source_key: str,
     city_slug: str,
     title: str,

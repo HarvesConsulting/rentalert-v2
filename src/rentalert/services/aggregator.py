@@ -12,7 +12,7 @@ from dataclasses import dataclass
 from datetime import UTC, datetime, timedelta
 
 from rentalert.catalog.catalog import Catalog
-from rentalert.catalog.models import City, Source
+from rentalert.catalog.models import City
 from rentalert.db import queries as db
 from rentalert.db.client import TursoClient
 from rentalert.parsers.base import Listing
@@ -81,7 +81,7 @@ def run_aggregation_cycle(
 
     # 2. Унікальні пари (city_slug, source_key)
     pairs: set[tuple[str, str]] = set()
-    for chat_id, cities in all_subs.items():
+    for _chat_id, cities in all_subs.items():
         for city_slug in cities:
             city = catalog.city(city_slug)
             if city is None:

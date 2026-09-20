@@ -19,22 +19,12 @@ class TursoError(Exception):
 
 
 class TursoClient:
-    """HTTP-клієнт до Turso.
-
-    Приклад:
-        client = TursoClient(url, token)
-        rows = client.execute("SELECT * FROM user_settings")
-        count = client.execute_non_query(
-            "INSERT INTO user_settings (chat_id) VALUES (?)",
-            ["123"],
-        )
-    """
+    """HTTP-клієнт до Turso."""
 
     def __init__(self, url: str, token: str, *, timeout: int = 25) -> None:
         if not url or not token:
             raise ValueError("Turso URL і token обов'язкові")
 
-        # libsql:// → https://
         self._base_url = url.strip().replace("libsql://", "https://")
         self._token = token.strip()
         self._timeout = timeout
@@ -49,8 +39,10 @@ class TursoClient:
         params: list[Any] | None = None,
     ) -> list[list[Any]]:
         """Виконати SELECT. Повертає список рядків (кожен — список значень)."""
-        rows = self._pipeline(sql, params, return_rows=True)
-        return rows if rows is not None else []
+        result = self._pipeline(sql, params, return_rows=True)
+        if result is None or isinstance(result, int):
+            return []
+        return result
 
     def execute_non_query(
         self,
@@ -58,8 +50,12 @@ class TursoClient:
         params: list[Any] | None = None,
     ) -> int:
         """Виконати INSERT/UPDATE/DELETE. Повертає affected_row_count."""
-        count = self._pipeline(sql, params, return_rows=False)
-        return count if count is not None else 0
+        result = self._pipeline(sql, params, return_rows=False)
+        if result is None:
+            return 0
+        if isinstance(result, list):
+            return 0
+        return result
 
     # ─────────────────────────────────────────────────────
     # Внутрішнє

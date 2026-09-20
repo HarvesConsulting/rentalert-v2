@@ -13,11 +13,8 @@ import pytest
 from rentalert.catalog.models import City, Source
 from rentalert.parsers.base import Listing
 from rentalert.services.aggregator import (
-    RECENT_HOURS,
-    AggregationStats,
     run_aggregation_cycle,
 )
-
 
 # ─────────────────────────────────────────────────────────────
 # Спільні фікстури

@@ -9,7 +9,6 @@ from __future__ import annotations
 import logging
 
 from rentalert.catalog.catalog import Catalog
-from rentalert.catalog.models import Source
 from rentalert.parsers.base import Parser
 
 log = logging.getLogger(__name__)

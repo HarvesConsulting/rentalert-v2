@@ -13,10 +13,10 @@ from typing import Any
 
 from rentalert.catalog.models import City, Source
 
-
 # ─────────────────────────────────────────────────────────────
 # Listing — уніфіковане оголошення
 # ─────────────────────────────────────────────────────────────
+
 
 @dataclass(frozen=True, slots=True)
 class Listing:
@@ -87,7 +87,9 @@ class Listing:
         """Чи оголошення свіже (молодше за max_age_hours)."""
         if self.created_at is None:
             return True  # якщо невідомо — вважаємо свіжим
-        from datetime import UTC, datetime as dt
+        from datetime import UTC
+        from datetime import datetime as dt
+
         now = dt.now(UTC)
         delta = now - self.created_at
         return delta.total_seconds() < max_age_hours * 3600
@@ -96,6 +98,7 @@ class Listing:
 # ─────────────────────────────────────────────────────────────
 # Parser — базовий клас
 # ─────────────────────────────────────────────────────────────
+
 
 class Parser(ABC):
     """Абстрактний парсер одного джерела.

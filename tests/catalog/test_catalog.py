@@ -26,7 +26,7 @@ def catalog() -> Catalog:
 def test_stats(catalog: Catalog) -> None:
     s = catalog.stats()
     assert s["countries"] == 7
-    assert s["sources"] == 1
+    assert s["sources"] == 8
     assert s["cities"] == 34414
 
 
@@ -87,8 +87,8 @@ def test_cities_of_ua(catalog: Catalog) -> None:
 
 def test_sources_of_ua(catalog: Catalog) -> None:
     sources = catalog.sources_of("ua")
-    assert len(sources) == 1
-    assert sources[0].key == "olx_ua"
+    keys = {s.key for s in sources}
+    assert keys == {"olx_ua", "dimria"}
 
 
 # ─── Зворотний пошук ───
@@ -151,12 +151,14 @@ def test_find_cities_diacritics(catalog: Catalog) -> None:
 
 def test_sources_for_city_kyiv(catalog: Catalog) -> None:
     sources = catalog.sources_for_city("kyiv")
-    assert len(sources) == 1
-    assert sources[0].key == "olx_ua"
+    keys = {s.key for s in sources}
+    assert keys == {"olx_ua", "dimria"}
 
 
-def test_sources_for_city_warszawa_empty(catalog: Catalog) -> None:
-    assert catalog.sources_for_city("warszawa") == []
+def test_sources_for_city_warszawa(catalog: Catalog) -> None:
+    sources = catalog.sources_for_city("warszawa")
+    keys = {s.key for s in sources}
+    assert keys == {"olx_pl"}
 
 
 def test_sources_for_city_not_found(catalog: Catalog) -> None:

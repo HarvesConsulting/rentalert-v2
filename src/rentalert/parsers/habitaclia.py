@@ -8,7 +8,6 @@ from __future__ import annotations
 
 import logging
 import re
-from datetime import UTC, datetime
 from typing import Any
 
 from bs4 import BeautifulSoup
@@ -110,9 +109,7 @@ class HabitacliaParser(Parser):
             return None
         ad_id = m.group(1)
 
-        url_full = (
-            f"{self.source.base_url}{href}" if href.startswith("/") else href
-        )
+        url_full = f"{self.source.base_url}{href}" if href.startswith("/") else href
 
         title = link_tag.get_text(strip=True)
         if not title:

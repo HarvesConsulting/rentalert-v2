@@ -6,7 +6,6 @@
 from __future__ import annotations
 
 import logging
-import os
 import threading
 import time
 from datetime import UTC, datetime, timedelta
@@ -21,8 +20,8 @@ log = logging.getLogger(__name__)
 
 DIMRIA_BASE = "https://developers.ria.com/dom"
 DIMRIA_MIN_INTERVAL = 3.0  # секунд між запитами
-DIMRIA_RECENT_DAYS = 3     # днів — вікно свіжості для DIM.RIA
-DIMRIA_MAX_ITEMS = 15      # обмеження item за один цикл
+DIMRIA_RECENT_DAYS = 3  # днів — вікно свіжості для DIM.RIA
+DIMRIA_MAX_ITEMS = 15  # обмеження item за один цикл
 
 # ─── Rate limit (спільний для всіх екземплярів) ───
 _last_request_time = 0.0
@@ -52,6 +51,7 @@ class DimriaParser(Parser):
     def __init__(self, source) -> None:
         super().__init__(source)
         from rentalert import config
+
         self.api_key = config.DIMRIA_API_KEY
 
     def fetch(self, city: City, categories: list[str]) -> list[Listing]:
@@ -177,10 +177,7 @@ class DimriaParser(Parser):
     @staticmethod
     def _extract_price(data: dict[str, Any]) -> str:
         price = data.get("price") or {}
-        if isinstance(price, dict):
-            value = price.get("total") or price.get("price")
-        else:
-            value = price
+        value = price.get("total") or price.get("price") if isinstance(price, dict) else price
         return f"{value} $" if value else "—"
 
     @staticmethod
@@ -201,11 +198,7 @@ class DimriaParser(Parser):
         first = photos[0]
         if isinstance(first, dict):
             url = (
-                first.get("file")
-                or first.get("url")
-                or first.get("link")
-                or first.get("big")
-                or ""
+                first.get("file") or first.get("url") or first.get("link") or first.get("big") or ""
             )
         elif isinstance(first, str):
             url = first

@@ -15,7 +15,6 @@ from __future__ import annotations
 
 import json
 import os
-import sys
 import time
 from pathlib import Path
 
@@ -31,6 +30,7 @@ FIXTURES.mkdir(parents=True, exist_ok=True)
 # ─────────────────────────────────────────────────────────────
 # OLX.ua — реальний API
 # ─────────────────────────────────────────────────────────────
+
 
 def record_olx_ua() -> None:
     """OLX.ua API: 40 оголошень для Києва, категорія «Квартири»."""
@@ -72,6 +72,7 @@ def record_olx_ua() -> None:
 # DIM.RIA — потребує API-ключа
 # ─────────────────────────────────────────────────────────────
 
+
 def record_dimria() -> None:
     """DIM.RIA: search + info одного оголошення."""
     print("\n📡 DIM.RIA — fetch...")
@@ -92,7 +93,7 @@ def record_dimria() -> None:
                 "category": 1,
                 "realty_type": 2,
                 "operation_type": 1,  # ← оренда (не 2!)
-                "city_id": 10,        # Київ
+                "city_id": 10,  # Київ
                 "limit": 20,
             },
             timeout=25,
@@ -151,6 +152,7 @@ def record_dimria() -> None:
 # Kleinanzeigen — HTML
 # ─────────────────────────────────────────────────────────────
 
+
 def record_kleinanzeigen() -> None:
     """Kleinanzeigen: HTML-сторінка Берліна, категорія «Wohnungen»."""
     print("\n📡 Kleinanzeigen — fetch...")
@@ -179,6 +181,7 @@ def record_kleinanzeigen() -> None:
 # Habitaclia — HTML
 # ─────────────────────────────────────────────────────────────
 
+
 def record_habitaclia() -> None:
     """Habitaclia: HTML-сторінка Мадрида."""
     print("\n📡 Habitaclia — fetch...")
@@ -206,6 +209,7 @@ def record_habitaclia() -> None:
 # ─────────────────────────────────────────────────────────────
 # Main
 # ─────────────────────────────────────────────────────────────
+
 
 def main() -> None:
     print(f"Запис фікстур у {FIXTURES}\n")

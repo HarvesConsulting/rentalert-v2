@@ -9,7 +9,6 @@ from __future__ import annotations
 import json
 import logging
 import re
-from datetime import UTC, datetime
 from typing import Any
 
 from bs4 import BeautifulSoup
@@ -31,7 +30,6 @@ class KleinanzeigenParser(Parser):
             log.warning("City %r не має refs для %r", city.slug, self.source.key)
             return []
 
-        # city_slug — з City.slug (у нас slug = 'berlin', 'muenchen', ...)
         city_slug = city.slug
 
         category_slugs = self.source.config.get("category_slugs", {})
@@ -57,7 +55,6 @@ class KleinanzeigenParser(Parser):
                     location_id=location_id,
                     category_slug=cat_slug,
                     category_key=cat_key,
-                    city=city,
                 )
             except Exception as e:
                 log.exception("Помилка fetch %s/%s: %s", city.slug, cat_key, e)
@@ -81,13 +78,9 @@ class KleinanzeigenParser(Parser):
         location_id: int | str,
         category_slug: str,
         category_key: str,
-        city: City,
     ) -> list[Listing]:
         """Завантажує одну категорію."""
-        url = (
-            f"{self.source.base_url}/s-{category_slug}/"
-            f"{city_slug}/c203l{location_id}"
-        )
+        url = f"{self.source.base_url}/s-{category_slug}/{city_slug}/c203l{location_id}"
 
         try:
             response = cffi_requests.get(url, impersonate="chrome", timeout=30)
@@ -130,25 +123,20 @@ class KleinanzeigenParser(Parser):
         if not ad_id:
             return None
 
-        # URL
         href = art.get("data-href", "")
         if not href:
             a_tag = art.find("a", href=True)
             href = a_tag["href"] if a_tag else ""
         if not href:
             return None
-        url_full = (
-            f"{self.source.base_url}{href}" if href.startswith("/") else href
-        )
+        url_full = f"{self.source.base_url}{href}" if href.startswith("/") else href
 
-        # JSON-LD → title, photo, description
         title, photo, description = self._parse_jsonld(art)
 
-        # Fallback title
         if not title:
             h3 = art.find("h3")
             if h3:
-                title = h3.get_text(strip=True)
+                title = str(h3.get_text(strip=True))
 
         if not title:
             return None
@@ -172,7 +160,7 @@ class KleinanzeigenParser(Parser):
             category=category_key,
             category_icon=icon,
             category_label=label,
-            created_at=None,  # Kleinanzeigen не показує час у списку
+            created_at=None,
             raw={"description": description[:300] if description else ""},
         )
 
@@ -193,16 +181,16 @@ class KleinanzeigenParser(Parser):
             return "", "", ""
 
         return (
-            data.get("title", "") or "",
-            data.get("contentUrl", "") or "",
-            data.get("description", "") or "",
+            str(data.get("title", "") or ""),
+            str(data.get("contentUrl", "") or ""),
+            str(data.get("description", "") or ""),
         )
 
     @staticmethod
     def _extract_location(art: Any) -> str:
-        """Поштовий індекс + місто (regex ^\d{5}\s+\w)."""
+        r"""Поштовий індекс + місто (regex ^\d{5}\s+\w)."""
         for span in art.find_all("span"):
-            text = span.get_text(strip=True)
+            text = str(span.get_text(strip=True))
             if re.match(r"^\d{5}\s+\w", text):
                 return text
         return ""
@@ -214,7 +202,7 @@ class KleinanzeigenParser(Parser):
         area: str | None = None
 
         for p in art.find_all("p"):
-            text = p.get_text(strip=True)
+            text = str(p.get_text(strip=True))
             m_area = re.search(r"([\d,]+)\s*m²", text)
             m_rooms = re.search(r"(\d+)\s*Zi", text)
             if m_area:
@@ -230,7 +218,7 @@ class KleinanzeigenParser(Parser):
     def _extract_price(art: Any) -> str:
         """Перша ціна з €, не перекреслена."""
         for p in art.find_all("p"):
-            text = p.get_text(strip=True)
+            text = str(p.get_text(strip=True))
             if "€" in text and "line-through" not in " ".join(p.get("class", [])):
                 return text
         return ""

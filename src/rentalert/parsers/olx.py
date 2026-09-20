@@ -7,7 +7,7 @@
 from __future__ import annotations
 
 import logging
-from datetime import UTC, datetime
+from datetime import datetime
 from typing import Any
 
 from curl_cffi import requests as cffi_requests
@@ -93,7 +93,7 @@ class OLXParser(Parser):
             "sort_by": "created_at:desc",
         }
 
-        session = cffi_requests.Session(impersonate="chrome")
+        session: cffi_requests.Session = cffi_requests.Session(impersonate="chrome")
         response = session.get(
             f"{self.source.base_url}/api/v1/offers/",
             params=params,

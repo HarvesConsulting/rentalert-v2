@@ -51,7 +51,8 @@ class DimriaParser(Parser):
 
     def __init__(self, source) -> None:
         super().__init__(source)
-        self.api_key = os.environ.get("DIMRIA_API_KEY", "")
+        from rentalert import config
+        self.api_key = config.DIMRIA_API_KEY
 
     def fetch(self, city: City, categories: list[str]) -> list[Listing]:
         """Завантажує оголошення DIM.RIA для міста."""

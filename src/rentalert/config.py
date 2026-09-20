@@ -1,6 +1,16 @@
-"""Конфігурація з env. Заповнимо поетапно."""
+"""Конфігурація з env + .env файлу."""
+
+from __future__ import annotations
 
 import os
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+# Завантажуємо .env з кореня проєкту
+_PROJECT_ROOT = Path(__file__).parent.parent.parent
+load_dotenv(_PROJECT_ROOT / ".env")
+
 
 # ─── Telegram ───
 TELEGRAM_BOT_TOKEN: str = os.environ.get("TELEGRAM_BOT_TOKEN", "")

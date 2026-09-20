@@ -76,7 +76,7 @@ def _dispatch(
         return
 
     if action == "add_city":
-        _handle_add_city(args[0], chat_id, cb_id, ctx)
+        _handle_add_city(args[0], chat_id, message_id, cb_id, ctx)
         return
 
     if action == "remove_city":
@@ -182,12 +182,11 @@ def _handle_country(
 def _handle_add_city(
     city_slug: str,
     chat_id: str,
+    message_id: int | None,
     cb_id: str,
     ctx: BotContext,
 ) -> None:
     """Додає місто."""
-    user_svc.get_language(ctx.client, chat_id)
-
     if ctx.catalog.city(city_slug) is None:
         ctx.notifier.answer_callback(cb_id, "❌")
         return
@@ -195,9 +194,25 @@ def _handle_add_city(
     user_svc.add_city(ctx.client, chat_id, city_slug)
     city = ctx.catalog.city(city_slug)
     name = city.name if city else city_slug
+    region = city.region if city else ""
 
-    db.log_activity(ctx.client, chat_id, "add_city", {"slug": city_slug, "name": name})
+    db.log_activity(
+        ctx.client,
+        chat_id,
+        "add_city",
+        {"slug": city_slug, "name": name},
+    )
     ctx.notifier.answer_callback(cb_id, f"✅ {name}")
+
+    # Прибираємо клавіатуру вибору і показуємо підтвердження
+    if message_id:
+        location = f"{name} ({region})" if region else name
+        ctx.notifier.edit_message(
+            chat_id,
+            message_id,
+            f"✅ <b>Додано:</b> {location}",
+            keyboard={"inline_keyboard": []},
+        )
 
 
 def _handle_remove_city(

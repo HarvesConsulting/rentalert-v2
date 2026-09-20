@@ -1,11 +1,10 @@
 """Smoke-тест: перевіряє, що Flask-застосунок створюється і /health працює."""
 
-from rentalert.app import create_app
+from rentalert.app import app
 
 
-def test_health_endpoint_returns_ok():
+def test_health_endpoint_returns_ok() -> None:
     """Перевіряє, що /health повертає 200 і 'ok'."""
-    app = create_app()
     client = app.test_client()
 
     response = client.get("/health")

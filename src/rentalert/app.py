@@ -6,7 +6,6 @@ create_app(): factory.
 
 from __future__ import annotations
 
-import json
 import logging
 import threading
 from pathlib import Path
@@ -53,6 +52,7 @@ DATA_DIR = Path(__file__).parent.parent.parent / "data"
 # ─────────────────────────────────────────────────────────────
 # Startup
 # ─────────────────────────────────────────────────────────────
+
 
 def _startup() -> None:
     """Ініціалізація у фоновому потоці."""
@@ -266,8 +266,6 @@ def api_stats() -> Any:
         token = request.args.get("token") or request.headers.get("X-Admin-Token", "")
         if token != config.ADMIN_API_TOKEN:
             return jsonify({"error": "unauthorized"}), 401
-
-    from rentalert.db import queries as db
 
     # Топ-дії за останні 24 год
     rows = _ctx.client.execute(

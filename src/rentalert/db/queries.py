@@ -321,6 +321,40 @@ def clear_seen_listings(client: TursoClient) -> int:
 
 
 # ═════════════════════════════════════════════════════════════
+# User categories
+# ═════════════════════════════════════════════════════════════
+
+
+def get_user_categories(
+    client: TursoClient,
+    chat_id: str,
+) -> set[str]:
+    """Категорії користувача (порожньо = усе увімкнено)."""
+    rows = client.execute(
+        "SELECT category_key FROM user_categories WHERE chat_id = ?",
+        [chat_id],
+    )
+    return {str(r[0]) for r in rows}
+
+
+def set_user_categories(
+    client: TursoClient,
+    chat_id: str,
+    category_keys: set[str],
+) -> None:
+    """Замінює всі категорії."""
+    client.execute_non_query(
+        "DELETE FROM user_categories WHERE chat_id = ?",
+        [chat_id],
+    )
+    for key in category_keys:
+        client.execute_non_query(
+            "INSERT OR IGNORE INTO user_categories (chat_id, category_key) VALUES (?, ?)",
+            [chat_id, key],
+        )
+
+
+# ═════════════════════════════════════════════════════════════
 # Favorites
 # ═════════════════════════════════════════════════════════════
 

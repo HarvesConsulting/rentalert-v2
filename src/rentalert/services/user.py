@@ -109,6 +109,55 @@ def remove_city(client: TursoClient, chat_id: str, city_slug: str) -> None:
 
 
 # ─────────────────────────────────────────────────────────────
+# Категорії
+# ─────────────────────────────────────────────────────────────
+
+
+def get_categories(
+    client: TursoClient,
+    chat_id: str,
+    country: str,
+) -> set[str]:
+    """Увімкнені категорії. Якщо порожньо — усі доступні для країни."""
+    enabled = db.get_user_categories(client, chat_id)
+    if enabled:
+        return enabled
+    return _all_categories_for_country(country)
+
+
+def toggle_category(
+    client: TursoClient,
+    chat_id: str,
+    country: str,
+    category_key: str,
+) -> bool:
+    """Перемикає категорію. Повертає новий стан (True = увімкнено)."""
+    current = get_categories(client, chat_id, country)
+    if category_key in current:
+        current.discard(category_key)
+        enabled = False
+    else:
+        current.add(category_key)
+        enabled = True
+    db.set_user_categories(client, chat_id, current)
+    return enabled
+
+
+def _all_categories_for_country(country: str) -> set[str]:
+    """Усі категорії для країни (за замовчуванням)."""
+    data: dict[str, set[str]] = {
+        "ua": {"apartment", "house", "room", "daily"},
+        "pl": {"apartment", "house", "room"},
+        "pt": {"apartment", "house", "room"},
+        "ro": {"apartment", "house"},
+        "bg": {"apartment", "house"},
+        "de": {"apartment", "house", "room"},
+        "es": {"apartment", "house", "room"},
+    }
+    return data.get(country, data["ua"])
+
+
+# ─────────────────────────────────────────────────────────────
 # Джерела (з урахуванням blacklist)
 # ─────────────────────────────────────────────────────────────
 

@@ -80,6 +80,14 @@ TABLES: list[str] = [
         PRIMARY KEY (chat_id, listing_id)
     )
     """,
+    # ─── Категорії користувача ───
+    """
+    CREATE TABLE IF NOT EXISTS user_categories (
+        chat_id      TEXT NOT NULL,
+        category_key TEXT NOT NULL,
+        PRIMARY KEY (chat_id, category_key)
+    )
+    """,
     # ─── Лог дій ───
     """
     CREATE TABLE IF NOT EXISTS user_activity (
@@ -104,6 +112,7 @@ INDEXES: list[str] = [
     "CREATE INDEX IF NOT EXISTS idx_seen_listings_first_seen ON seen_listings(first_seen DESC)",
     "CREATE INDEX IF NOT EXISTS idx_favorites_chat ON user_favorites(chat_id)",
     "CREATE INDEX IF NOT EXISTS idx_favorites_listing ON user_favorites(listing_id)",
+    "CREATE INDEX IF NOT EXISTS idx_user_categories_chat ON user_categories(chat_id)",
     "CREATE INDEX IF NOT EXISTS idx_activity_chat ON user_activity(chat_id)",
     "CREATE INDEX IF NOT EXISTS idx_activity_action ON user_activity(action)",
     "CREATE INDEX IF NOT EXISTS idx_activity_created ON user_activity(created_at DESC)",

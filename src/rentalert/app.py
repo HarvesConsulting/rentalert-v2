@@ -254,9 +254,12 @@ def telegram_webhook() -> tuple[str, int]:
 def _safe_handle_callback(callback: dict[str, Any]) -> None:
     """Обгортка з try/except для callback."""
     if _ctx is None:
+        log.error("❌ _safe_handle_callback: _ctx is None!")
         return
     try:
+        log.info("→ callback: %s", callback.get("data"))
         handle_callback(callback, _ctx)
+        log.info("✓ callback ok")
     except Exception as e:
         log.exception("Callback error: %s", e)
 
@@ -264,9 +267,13 @@ def _safe_handle_callback(callback: dict[str, Any]) -> None:
 def _safe_handle_message(update: dict[str, Any]) -> None:
     """Обгортка з try/except для message."""
     if _ctx is None:
+        log.error("❌ _safe_handle_message: _ctx is None!")
         return
     try:
+        msg = update.get("message", {})
+        log.info("→ message: %s", (msg.get("text") or "")[:50])
         handle_update(update, _ctx)
+        log.info("✓ message ok")
     except Exception as e:
         log.exception("Update error: %s", e)
 

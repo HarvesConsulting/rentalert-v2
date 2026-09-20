@@ -1,0 +1,211 @@
+"""Тести для aggregator.py.
+
+Мокаємо catalog, client, notify_fn.
+"""
+
+from __future__ import annotations
+
+from datetime import UTC, datetime
+from unittest.mock import MagicMock
+
+import pytest
+
+from rentalert.catalog.models import City, Source
+from rentalert.parsers.base import Listing
+from rentalert.services.aggregator import (
+    RECENT_HOURS,
+    AggregationStats,
+    run_aggregation_cycle,
+)
+
+
+# ─────────────────────────────────────────────────────────────
+# Спільні фікстури
+# ─────────────────────────────────────────────────────────────
+
+
+@pytest.fixture
+def kyiv() -> City:
+    return City(
+        slug="kyiv",
+        country="ua",
+        name="Київ",
+        region="Київська область",
+        priority=True,
+        refs={"olx_ua": 268},
+    )
+
+
+@pytest.fixture
+def catalog(kyiv: City) -> MagicMock:
+    cat = MagicMock()
+    cat.city.side_effect = lambda slug: kyiv if slug == "kyiv" else None
+    return cat
+
+
+@pytest.fixture
+def listing() -> Listing:
+    return Listing(
+        id="olx_ua:12345",
+        source_key="olx_ua",
+        city_slug="kyiv",
+        title="Test listing",
+        price="1000",
+        location="Kyiv",
+        link="https://olx.ua/123",
+        photo="",
+        rooms="2",
+        category="apartment",
+        category_icon="🏢",
+        category_label="Квартири",
+        created_at=datetime.now(UTC),
+    )
+
+
+# ─────────────────────────────────────────────────────────────
+# Тести
+# ─────────────────────────────────────────────────────────────
+
+
+def test_cycle_no_subscriptions(catalog, mocker) -> None:
+    """Немає підписок → порожня статистика."""
+    mocker.patch(
+        "rentalert.services.aggregator.db.get_all_user_cities",
+        return_value={},
+    )
+    client = MagicMock()
+    notify = MagicMock()
+
+    stats = run_aggregation_cycle(catalog, client, notify)
+
+    assert stats.pairs_checked == 0
+    assert stats.listings_new == 0
+    notify.assert_not_called()
+
+
+def test_cycle_new_listing(catalog, listing, mocker) -> None:
+    """Знайдено нове оголошення → розсилка."""
+    mocker.patch(
+        "rentalert.services.aggregator.db.get_all_user_cities",
+        return_value={"123": ["kyiv"]},
+    )
+    mocker.patch(
+        "rentalert.services.aggregator.db.get_seen_ids",
+        return_value=set(),
+    )
+    mocker.patch(
+        "rentalert.services.aggregator.db.get_disabled_sources",
+        return_value=set(),
+    )
+    mock_save = mocker.patch("rentalert.services.aggregator.db.save_listing")
+
+    # Мокаємо парсер
+    mock_parser = MagicMock()
+    mock_parser.source = Source(
+        key="olx_ua",
+        country="ua",
+        name="OLX.ua",
+        icon="X",
+        kind="olx",
+        base_url="https://www.olx.ua",
+        enabled_by_default=True,
+        categories=("apartment",),
+        config={},
+    )
+    mock_parser.fetch.return_value = [listing]
+
+    mocker.patch(
+        "rentalert.services.aggregator.PARSER_REGISTRY",
+        {"olx_ua": mock_parser},
+    )
+
+    client = MagicMock()
+    notify = MagicMock()
+
+    stats = run_aggregation_cycle(catalog, client, notify)
+
+    assert stats.pairs_checked == 1
+    assert stats.listings_fetched == 1
+    assert stats.listings_new == 1
+    assert stats.users_notified == 1
+    assert stats.errors == 0
+    mock_save.assert_called_once()
+    notify.assert_called_once_with("123", "kyiv", [listing])
+
+
+def test_cycle_seen_listing(catalog, listing, mocker) -> None:
+    """Оголошення вже бачили → не розсилаємо."""
+    mocker.patch(
+        "rentalert.services.aggregator.db.get_all_user_cities",
+        return_value={"123": ["kyiv"]},
+    )
+    mocker.patch(
+        "rentalert.services.aggregator.db.get_seen_ids",
+        return_value={"olx_ua:12345"},
+    )
+    mocker.patch("rentalert.services.aggregator.db.get_disabled_sources", return_value=set())
+    mocker.patch("rentalert.services.aggregator.db.save_listing")
+
+    mock_parser = MagicMock()
+    mock_parser.source = Source(
+        key="olx_ua",
+        country="ua",
+        name="OLX.ua",
+        icon="X",
+        kind="olx",
+        base_url="https://www.olx.ua",
+        enabled_by_default=True,
+        categories=("apartment",),
+        config={},
+    )
+    mock_parser.fetch.return_value = [listing]
+
+    mocker.patch("rentalert.services.aggregator.PARSER_REGISTRY", {"olx_ua": mock_parser})
+
+    client = MagicMock()
+    notify = MagicMock()
+
+    stats = run_aggregation_cycle(catalog, client, notify)
+
+    assert stats.listings_new == 0
+    assert stats.users_notified == 0
+    notify.assert_not_called()
+
+
+def test_cycle_disabled_source(catalog, listing, mocker) -> None:
+    """Користувач вимкнув джерело → не отримує."""
+    mocker.patch(
+        "rentalert.services.aggregator.db.get_all_user_cities",
+        return_value={"123": ["kyiv"]},
+    )
+    mocker.patch("rentalert.services.aggregator.db.get_seen_ids", return_value=set())
+    mocker.patch(
+        "rentalert.services.aggregator.db.get_disabled_sources",
+        return_value={"olx_ua"},
+    )
+    mocker.patch("rentalert.services.aggregator.db.save_listing")
+
+    mock_parser = MagicMock()
+    mock_parser.source = Source(
+        key="olx_ua",
+        country="ua",
+        name="OLX.ua",
+        icon="X",
+        kind="olx",
+        base_url="https://www.olx.ua",
+        enabled_by_default=True,
+        categories=("apartment",),
+        config={},
+    )
+    mock_parser.fetch.return_value = [listing]
+
+    mocker.patch("rentalert.services.aggregator.PARSER_REGISTRY", {"olx_ua": mock_parser})
+
+    client = MagicMock()
+    notify = MagicMock()
+
+    stats = run_aggregation_cycle(catalog, client, notify)
+
+    assert stats.listings_new == 1  # зберігаємо в БД
+    assert stats.users_notified == 0  # але не розсилаємо
+    notify.assert_not_called()

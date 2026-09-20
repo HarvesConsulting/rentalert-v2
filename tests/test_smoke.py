@@ -1,0 +1,14 @@
+"""Smoke-тест: перевіряє, що Flask-застосунок створюється і /health працює."""
+
+from rentalert.app import create_app
+
+
+def test_health_endpoint_returns_ok():
+    """Перевіряє, що /health повертає 200 і 'ok'."""
+    app = create_app()
+    client = app.test_client()
+
+    response = client.get("/health")
+
+    assert response.status_code == 200
+    assert response.data == b"ok"

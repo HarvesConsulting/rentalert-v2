@@ -1,7 +1,7 @@
 """Flask + Telegram webhook + startup.
 
 app: Flask-застосунок для gunicorn.
-create_app(): factory.
+Startup запускається ліниво — у worker process при першому запиті.
 """
 
 from __future__ import annotations
@@ -43,6 +43,7 @@ log = logging.getLogger(__name__)
 _ctx: BotContext | None = None
 _scheduler: BackgroundScheduler | None = None
 _ready = threading.Event()
+_startup_lock = threading.Lock()
 
 AGGREGATION_INTERVAL_MINUTES = 2
 
@@ -50,63 +51,69 @@ DATA_DIR = Path(__file__).parent.parent.parent / "data"
 
 
 # ─────────────────────────────────────────────────────────────
-# Startup
+# Startup (lazy, у worker process)
 # ─────────────────────────────────────────────────────────────
 
 
-def _startup() -> None:
-    """Ініціалізація у фоновому потоці."""
+def _ensure_startup() -> None:
+    """Гарантує, що startup виконано (idempotent, з lock).
+
+    Викликається ліниво при першому запиті до webhook або root.
+    Це гарантує, що _ctx створюється у worker process (gunicorn),
+    а не у master.
+    """
     global _ctx, _scheduler
 
-    log.info("🔄 Startup...")
+    with _startup_lock:
+        if _ctx is not None:
+            return
 
-    # 1. Turso
-    if not config.TURSO_URL or not config.TURSO_TOKEN:
-        log.error("TURSO_URL або TURSO_TOKEN не встановлено — вихід")
-        return
+        log.info("🔄 Startup (worker)...")
 
-    client = TursoClient(config.TURSO_URL, config.TURSO_TOKEN)
-    log.info("✅ Turso client створено")
+        if not config.TURSO_URL or not config.TURSO_TOKEN:
+            log.error("TURSO_URL або TURSO_TOKEN не встановлено — вихід")
+            return
 
-    # 2. Schema
-    init_schema(client)
-    log.info("✅ Schema ініціалізовано")
+        client = TursoClient(config.TURSO_URL, config.TURSO_TOKEN)
+        log.info("✅ Turso client створено")
 
-    # 3. Catalog
-    catalog = Catalog.load(DATA_DIR)
-    log.info("✅ Catalog: %s", catalog.stats())
+        init_schema(client)
+        log.info("✅ Schema ініціалізовано")
 
-    # 4. Parser registry
-    build_registry(catalog)
-    log.info("✅ PARSER_REGISTRY: %d парсерів", len(PARSER_REGISTRY))
+        catalog = Catalog.load(DATA_DIR)
+        log.info("✅ Catalog: %s", catalog.stats())
 
-    # 5. Notifier
-    notifier = TelegramNotifier(config.TELEGRAM_BOT_TOKEN)
-    log.info("✅ Notifier створено")
+        build_registry(catalog)
+        log.info("✅ PARSER_REGISTRY: %d парсерів", len(PARSER_REGISTRY))
 
-    # 6. Контекст
-    _ctx = BotContext(
-        client=client,
-        catalog=catalog,
-        notifier=notifier,
-        admin_chat_id=config.TELEGRAM_CHAT_ID,
-    )
+        notifier = TelegramNotifier(config.TELEGRAM_BOT_TOKEN)
+        log.info("✅ Notifier створено")
 
-    # 7. Scheduler
-    _scheduler = BackgroundScheduler()
-    _scheduler.add_job(
-        func=_run_aggregation,
-        trigger="interval",
-        minutes=AGGREGATION_INTERVAL_MINUTES,
-        id="aggregation",
-        replace_existing=True,
-        max_instances=1,
-    )
-    _scheduler.start()
-    log.info("✅ Scheduler запущено (кожні %d хв)", AGGREGATION_INTERVAL_MINUTES)
+        _ctx = BotContext(
+            client=client,
+            catalog=catalog,
+            notifier=notifier,
+            admin_chat_id=config.TELEGRAM_CHAT_ID,
+        )
 
-    _ready.set()
-    log.info("🚀 Startup завершено")
+        if _scheduler is None:
+            _scheduler = BackgroundScheduler()
+            _scheduler.add_job(
+                func=_run_aggregation,
+                trigger="interval",
+                minutes=AGGREGATION_INTERVAL_MINUTES,
+                id="aggregation",
+                replace_existing=True,
+                max_instances=1,
+            )
+            _scheduler.start()
+            log.info(
+                "✅ Scheduler запущено (кожні %d хв)",
+                AGGREGATION_INTERVAL_MINUTES,
+            )
+
+        _ready.set()
+        log.info("🚀 Startup завершено")
 
 
 def _run_aggregation() -> None:
@@ -135,11 +142,9 @@ def _notify_user(chat_id: str, city_slug: str, listings: list[Any]) -> None:
     city = _ctx.catalog.city(city_slug)
     city_name = city.name if city else city_slug
 
-    # Заголовок
     header = T("notification_header", lang, city=city_name, count=len(listings))
     _ctx.notifier.send_message(chat_id, header)
 
-    # Оголошення (топ-5)
     for i, lst in enumerate(listings[:5], 1):
         icon = lst.category_icon or "🏠"
         price = lst.price or "—"
@@ -159,7 +164,6 @@ def _notify_user(chat_id: str, city_slug: str, listings: list[Any]) -> None:
 
         caption = "\n".join(lines)
 
-        # Кнопка обране
         buttons = [
             [
                 {
@@ -201,6 +205,12 @@ def health() -> tuple[str, int]:
 @app.route("/")
 def root() -> Any:
     """Корінь — базова інформація."""
+    if _ctx is None:
+        try:
+            _ensure_startup()
+        except Exception as e:
+            log.exception("Startup failed: %s", e)
+
     return jsonify(
         {
             "status": "ok",
@@ -214,11 +224,17 @@ def root() -> Any:
 def telegram_webhook() -> tuple[str, int]:
     """Telegram webhook."""
     if _ctx is None:
+        try:
+            _ensure_startup()
+        except Exception as e:
+            log.exception("Startup failed: %s", e)
+            return "startup failed", 503
+
+    if _ctx is None:
         return "not ready", 503
 
     update = request.get_json(silent=True) or {}
 
-    # Обробка у фоні (щоб Telegram не чекав)
     if "callback_query" in update:
         threading.Thread(
             target=_safe_handle_callback,
@@ -259,15 +275,20 @@ def _safe_handle_message(update: dict[str, Any]) -> None:
 def api_stats() -> Any:
     """Проста статистика (для адміна)."""
     if _ctx is None:
+        try:
+            _ensure_startup()
+        except Exception as e:
+            log.exception("Startup failed: %s", e)
+            return jsonify({"error": "startup failed"}), 503
+
+    if _ctx is None:
         return jsonify({"error": "not ready"}), 503
 
-    # Перевірка токена
     if config.ADMIN_API_TOKEN:
         token = request.args.get("token") or request.headers.get("X-Admin-Token", "")
         if token != config.ADMIN_API_TOKEN:
             return jsonify({"error": "unauthorized"}), 401
 
-    # Топ-дії за останні 24 год
     rows = _ctx.client.execute(
         """
         SELECT action, COUNT(*) as cnt
@@ -298,6 +319,13 @@ def api_stats() -> Any:
 @app.route("/api/users")
 def api_users() -> Any:
     """Список користувачів (тільки для адміна)."""
+    if _ctx is None:
+        try:
+            _ensure_startup()
+        except Exception as e:
+            log.exception("Startup failed: %s", e)
+            return jsonify({"error": "startup failed"}), 503
+
     if _ctx is None:
         return jsonify({"error": "not ready"}), 503
 
@@ -330,7 +358,6 @@ def api_users() -> Any:
 
 
 # ─────────────────────────────────────────────────────────────
-# Запуск startup у фоні
+# Startup запускається ліниво — при першому запиті до webhook/root
+# (у worker process gunicorn, а не в master)
 # ─────────────────────────────────────────────────────────────
-
-threading.Thread(target=_startup, daemon=True).start()

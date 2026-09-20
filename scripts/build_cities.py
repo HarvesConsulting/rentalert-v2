@@ -125,7 +125,7 @@ def build_ua() -> dict:
         region = o.get("region_name", "")
         olx_id = o["city_id"]
 
-        slug, is_priority = _priority_slug(name, priority, f"olx_{olx_id}")
+        slug, is_priority = _priority_slug(name, priority, f"olx_ua_{olx_id}")
 
         if is_priority:
             # Priority: матчимо за назвою
@@ -186,7 +186,7 @@ def build_pl() -> dict:
     for o in olx_raw:
         name = o["city_name"]
         olx_id = o["city_id"]
-        slug, is_priority = _priority_slug(name, priority, f"olx_{olx_id}")
+        slug, is_priority = _priority_slug(name, priority, f"olx_pl_{olx_id}")
         cities.append({
             "slug": slug,
             "name": name,
@@ -235,7 +235,7 @@ def build_ro() -> dict:
     for o in olx_raw:
         olx_id = o["olx_city_id"]
         name = o["name"]
-        slug, _ = _priority_slug(name, priority, f"olx_{olx_id}")
+        slug, _ = _priority_slug(name, priority, f"olx_ro_{olx_id}")
         cities.append({
             "slug": slug,
             "name": name,
@@ -262,7 +262,7 @@ def build_bg() -> dict:
     for o in olx_raw:
         name = o["city_name"]
         olx_id = o["city_id"]
-        slug, is_priority = _priority_slug(name, priority, f"olx_{olx_id}")
+        slug, is_priority = _priority_slug(name, priority, f"olx_bg_{olx_id}")
         cities.append({
             "slug": slug,
             "name": name,

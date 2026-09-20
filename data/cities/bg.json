@@ -92,7 +92,7 @@
       }
     },
     {
-      "slug": "olx_163",
+      "slug": "olx_bg_163",
       "name": "Айдемир",
       "region": "Област Силистра",
       "priority": false,
@@ -101,7 +101,7 @@
       }
     },
     {
-      "slug": "olx_25",
+      "slug": "olx_bg_25",
       "name": "Айтос",
       "region": "Област Бургас",
       "priority": false,
@@ -110,7 +110,7 @@
       }
     },
     {
-      "slug": "olx_31",
+      "slug": "olx_bg_31",
       "name": "Аксаково",
       "region": "Област Варна",
       "priority": false,
@@ -119,7 +119,7 @@
       }
     },
     {
-      "slug": "olx_10889",
+      "slug": "olx_bg_10889",
       "name": "Албена",
       "region": "Област Добрич",
       "priority": false,
@@ -128,7 +128,7 @@
       }
     },
     {
-      "slug": "olx_45",
+      "slug": "olx_bg_45",
       "name": "Алеко Константиново",
       "region": "Област Пазарджик",
       "priority": false,
@@ -137,7 +137,7 @@
       }
     },
     {
-      "slug": "olx_53",
+      "slug": "olx_bg_53",
       "name": "Александрово",
       "region": "Област Ловеч",
       "priority": false,
@@ -146,7 +146,7 @@
       }
     },
     {
-      "slug": "olx_55",
+      "slug": "olx_bg_55",
       "name": "Александрово",
       "region": "Област Стара Загора",
       "priority": false,
@@ -155,7 +155,7 @@
       }
     },
     {
-      "slug": "olx_10887",
+      "slug": "olx_bg_10887",
       "name": "Александър Стамболийски",
       "region": "Област Габрово",
       "priority": false,
@@ -164,7 +164,7 @@
       }
     },
     {
-      "slug": "olx_75",
+      "slug": "olx_bg_75",
       "name": "Алтимир",
       "region": "Област Враца",
       "priority": false,
@@ -173,7 +173,7 @@
       }
     },
     {
-      "slug": "olx_77",
+      "slug": "olx_bg_77",
       "name": "Алфатар",
       "region": "Област Силистра",
       "priority": false,
@@ -182,7 +182,7 @@
       }
     },
     {
-      "slug": "olx_167",
+      "slug": "olx_bg_167",
       "name": "Антимово",
       "region": "Област Видин",
       "priority": false,
@@ -191,7 +191,7 @@
       }
     },
     {
-      "slug": "olx_93",
+      "slug": "olx_bg_93",
       "name": "Антоново",
       "region": "Област Търговище",
       "priority": false,
@@ -200,7 +200,7 @@
       }
     },
     {
-      "slug": "olx_6569",
+      "slug": "olx_bg_6569",
       "name": "Априлци",
       "region": "Област Ловеч",
       "priority": false,
@@ -209,7 +209,7 @@
       }
     },
     {
-      "slug": "olx_109",
+      "slug": "olx_bg_109",
       "name": "Ардино",
       "region": "Област Кърджали",
       "priority": false,
@@ -218,7 +218,7 @@
       }
     },
     {
-      "slug": "olx_123",
+      "slug": "olx_bg_123",
       "name": "Арчар",
       "region": "Област Видин",
       "priority": false,
@@ -227,7 +227,7 @@
       }
     },
     {
-      "slug": "olx_127",
+      "slug": "olx_bg_127",
       "name": "Асеновград",
       "region": "Област Пловдив",
       "priority": false,
@@ -236,7 +236,7 @@
       }
     },
     {
-      "slug": "olx_151",
+      "slug": "olx_bg_151",
       "name": "Ахелой",
       "region": "Област Бургас",
       "priority": false,
@@ -245,7 +245,7 @@
       }
     },
     {
-      "slug": "olx_159",
+      "slug": "olx_bg_159",
       "name": "Ахтопол",
       "region": "Област Бургас",
       "priority": false,
@@ -254,7 +254,7 @@
       }
     },
     {
-      "slug": "olx_191",
+      "slug": "olx_bg_191",
       "name": "Багренци",
       "region": "Област Кюстендил",
       "priority": false,
@@ -263,7 +263,7 @@
       }
     },
     {
-      "slug": "olx_255",
+      "slug": "olx_bg_255",
       "name": "Балчик",
       "region": "Област Добрич",
       "priority": false,
@@ -272,7 +272,7 @@
       }
     },
     {
-      "slug": "olx_267",
+      "slug": "olx_bg_267",
       "name": "Баниска",
       "region": "Област Русе",
       "priority": false,
@@ -281,7 +281,7 @@
       }
     },
     {
-      "slug": "olx_5601",
+      "slug": "olx_bg_5601",
       "name": "Баните",
       "region": "Област Смолян",
       "priority": false,
@@ -290,7 +290,7 @@
       }
     },
     {
-      "slug": "olx_269",
+      "slug": "olx_bg_269",
       "name": "Баница",
       "region": "Област Враца",
       "priority": false,
@@ -299,7 +299,7 @@
       }
     },
     {
-      "slug": "olx_281",
+      "slug": "olx_bg_281",
       "name": "Банкя",
       "region": "Област София-град",
       "priority": false,
@@ -308,7 +308,7 @@
       }
     },
     {
-      "slug": "olx_285",
+      "slug": "olx_bg_285",
       "name": "Банско",
       "region": "Област Благоевград",
       "priority": false,
@@ -317,7 +317,7 @@
       }
     },
     {
-      "slug": "olx_297",
+      "slug": "olx_bg_297",
       "name": "Баня",
       "region": "Област Сливен",
       "priority": false,
@@ -326,7 +326,7 @@
       }
     },
     {
-      "slug": "olx_305",
+      "slug": "olx_bg_305",
       "name": "Барутин",
       "region": "Област Смолян",
       "priority": false,
@@ -335,7 +335,7 @@
       }
     },
     {
-      "slug": "olx_309",
+      "slug": "olx_bg_309",
       "name": "Басарбово",
       "region": "Област Русе",
       "priority": false,
@@ -344,7 +344,7 @@
       }
     },
     {
-      "slug": "olx_317",
+      "slug": "olx_bg_317",
       "name": "Батак",
       "region": "Област Пазарджик",
       "priority": false,
@@ -353,7 +353,7 @@
       }
     },
     {
-      "slug": "olx_9293",
+      "slug": "olx_bg_9293",
       "name": "Батановци",
       "region": "Област Перник",
       "priority": false,
@@ -362,7 +362,7 @@
       }
     },
     {
-      "slug": "olx_325",
+      "slug": "olx_bg_325",
       "name": "Батошево",
       "region": "Област Габрово",
       "priority": false,
@@ -371,7 +371,7 @@
       }
     },
     {
-      "slug": "olx_375",
+      "slug": "olx_bg_375",
       "name": "Бежаново",
       "region": "Област Ловеч",
       "priority": false,
@@ -380,7 +380,7 @@
       }
     },
     {
-      "slug": "olx_387",
+      "slug": "olx_bg_387",
       "name": "Безмер",
       "region": "Област Добрич",
       "priority": false,
@@ -389,7 +389,7 @@
       }
     },
     {
-      "slug": "olx_389",
+      "slug": "olx_bg_389",
       "name": "Безмер",
       "region": "Област Ямбол",
       "priority": false,
@@ -398,7 +398,7 @@
       }
     },
     {
-      "slug": "olx_401",
+      "slug": "olx_bg_401",
       "name": "Бела Рада",
       "region": "Област Видин",
       "priority": false,
@@ -407,7 +407,7 @@
       }
     },
     {
-      "slug": "olx_415",
+      "slug": "olx_bg_415",
       "name": "Белене",
       "region": "Област Плевен",
       "priority": false,
@@ -416,7 +416,7 @@
       }
     },
     {
-      "slug": "olx_3387",
+      "slug": "olx_bg_3387",
       "name": "Бели Лом",
       "region": "Област Разград",
       "priority": false,
@@ -425,7 +425,7 @@
       }
     },
     {
-      "slug": "olx_477",
+      "slug": "olx_bg_477",
       "name": "Бело поле",
       "region": "Област Видин",
       "priority": false,
@@ -434,7 +434,7 @@
       }
     },
     {
-      "slug": "olx_457",
+      "slug": "olx_bg_457",
       "name": "Беловец",
       "region": "Област Разград",
       "priority": false,
@@ -443,7 +443,7 @@
       }
     },
     {
-      "slug": "olx_461",
+      "slug": "olx_bg_461",
       "name": "Белово",
       "region": "Област Пазарджик",
       "priority": false,
@@ -452,7 +452,7 @@
       }
     },
     {
-      "slug": "olx_465",
+      "slug": "olx_bg_465",
       "name": "Белоградчик",
       "region": "Област Видин",
       "priority": false,
@@ -461,7 +461,7 @@
       }
     },
     {
-      "slug": "olx_485",
+      "slug": "olx_bg_485",
       "name": "Белослав",
       "region": "Област Варна",
       "priority": false,
@@ -470,7 +470,7 @@
       }
     },
     {
-      "slug": "olx_507",
+      "slug": "olx_bg_507",
       "name": "Бенковски",
       "region": "Област Кърджали",
       "priority": false,
@@ -479,7 +479,7 @@
       }
     },
     {
-      "slug": "olx_527",
+      "slug": "olx_bg_527",
       "name": "Берковица",
       "region": "Област Монтана",
       "priority": false,
@@ -488,7 +488,7 @@
       }
     },
     {
-      "slug": "olx_565",
+      "slug": "olx_bg_565",
       "name": "Бисерци",
       "region": "Област Разград",
       "priority": false,
@@ -497,7 +497,7 @@
       }
     },
     {
-      "slug": "olx_581",
+      "slug": "olx_bg_581",
       "name": "Бистрица",
       "region": "Област Кюстендил",
       "priority": false,
@@ -506,7 +506,7 @@
       }
     },
     {
-      "slug": "olx_583",
+      "slug": "olx_bg_583",
       "name": "Бистрица",
       "region": "Област София-град",
       "priority": false,
@@ -515,7 +515,7 @@
       }
     },
     {
-      "slug": "olx_591",
+      "slug": "olx_bg_591",
       "name": "Благоевград",
       "region": "Област Благоевград",
       "priority": false,
@@ -524,7 +524,7 @@
       }
     },
     {
-      "slug": "olx_635",
+      "slug": "olx_bg_635",
       "name": "Бобов дол",
       "region": "Област Кюстендил",
       "priority": false,
@@ -533,7 +533,7 @@
       }
     },
     {
-      "slug": "olx_641",
+      "slug": "olx_bg_641",
       "name": "Бобошево",
       "region": "Област Кюстендил",
       "priority": false,
@@ -542,7 +542,7 @@
       }
     },
     {
-      "slug": "olx_677",
+      "slug": "olx_bg_677",
       "name": "Богомилово",
       "region": "Област Стара Загора",
       "priority": false,
@@ -551,7 +551,7 @@
       }
     },
     {
-      "slug": "olx_723",
+      "slug": "olx_bg_723",
       "name": "Божурище",
       "region": "Област София-област",
       "priority": false,
@@ -560,7 +560,7 @@
       }
     },
     {
-      "slug": "olx_761",
+      "slug": "olx_bg_761",
       "name": "Бойчиновци",
       "region": "Област Монтана",
       "priority": false,
@@ -569,7 +569,7 @@
       }
     },
     {
-      "slug": "olx_771",
+      "slug": "olx_bg_771",
       "name": "Болярово",
       "region": "Област Ямбол",
       "priority": false,
@@ -578,7 +578,7 @@
       }
     },
     {
-      "slug": "olx_805",
+      "slug": "olx_bg_805",
       "name": "Борино",
       "region": "Област Смолян",
       "priority": false,
@@ -587,7 +587,7 @@
       }
     },
     {
-      "slug": "olx_821",
+      "slug": "olx_bg_821",
       "name": "Борован",
       "region": "Област Враца",
       "priority": false,
@@ -596,7 +596,7 @@
       }
     },
     {
-      "slug": "olx_10927",
+      "slug": "olx_bg_10927",
       "name": "Боровец",
       "region": "Област София-област",
       "priority": false,
@@ -605,7 +605,7 @@
       }
     },
     {
-      "slug": "olx_835",
+      "slug": "olx_bg_835",
       "name": "Борово",
       "region": "Област Русе",
       "priority": false,
@@ -614,7 +614,7 @@
       }
     },
     {
-      "slug": "olx_871",
+      "slug": "olx_bg_871",
       "name": "Ботевград",
       "region": "Област София-област",
       "priority": false,
@@ -623,7 +623,7 @@
       }
     },
     {
-      "slug": "olx_881",
+      "slug": "olx_bg_881",
       "name": "Ботево",
       "region": "Област Ямбол",
       "priority": false,
@@ -632,7 +632,7 @@
       }
     },
     {
-      "slug": "olx_897",
+      "slug": "olx_bg_897",
       "name": "Бояджик",
       "region": "Област Ямбол",
       "priority": false,
@@ -641,7 +641,7 @@
       }
     },
     {
-      "slug": "olx_907",
+      "slug": "olx_bg_907",
       "name": "Бояново",
       "region": "Област Ямбол",
       "priority": false,
@@ -650,7 +650,7 @@
       }
     },
     {
-      "slug": "olx_923",
+      "slug": "olx_bg_923",
       "name": "Браничево",
       "region": "Област Шумен",
       "priority": false,
@@ -659,7 +659,7 @@
       }
     },
     {
-      "slug": "olx_933",
+      "slug": "olx_bg_933",
       "name": "Братаница",
       "region": "Област Пазарджик",
       "priority": false,
@@ -668,7 +668,7 @@
       }
     },
     {
-      "slug": "olx_949",
+      "slug": "olx_bg_949",
       "name": "Брегово",
       "region": "Област Видин",
       "priority": false,
@@ -677,7 +677,7 @@
       }
     },
     {
-      "slug": "olx_961",
+      "slug": "olx_bg_961",
       "name": "Брезник",
       "region": "Област Перник",
       "priority": false,
@@ -686,7 +686,7 @@
       }
     },
     {
-      "slug": "olx_973",
+      "slug": "olx_bg_973",
       "name": "Бреница",
       "region": "Област Плевен",
       "priority": false,
@@ -695,7 +695,7 @@
       }
     },
     {
-      "slug": "olx_979",
+      "slug": "olx_bg_979",
       "name": "Брест",
       "region": "Област Плевен",
       "priority": false,
@@ -704,7 +704,7 @@
       }
     },
     {
-      "slug": "olx_989",
+      "slug": "olx_bg_989",
       "name": "Брестница",
       "region": "Област Ловеч",
       "priority": false,
@@ -713,7 +713,7 @@
       }
     },
     {
-      "slug": "olx_995",
+      "slug": "olx_bg_995",
       "name": "Брестовене",
       "region": "Област Разград",
       "priority": false,
@@ -722,7 +722,7 @@
       }
     },
     {
-      "slug": "olx_1013",
+      "slug": "olx_bg_1013",
       "name": "Брусарци",
       "region": "Област Монтана",
       "priority": false,
@@ -731,7 +731,7 @@
       }
     },
     {
-      "slug": "olx_1059",
+      "slug": "olx_bg_1059",
       "name": "Бузовград",
       "region": "Област Стара Загора",
       "priority": false,
@@ -740,7 +740,7 @@
       }
     },
     {
-      "slug": "olx_1081",
+      "slug": "olx_bg_1081",
       "name": "Буковец",
       "region": "Област Видин",
       "priority": false,
@@ -749,7 +749,7 @@
       }
     },
     {
-      "slug": "olx_1089",
+      "slug": "olx_bg_1089",
       "name": "Буковлък",
       "region": "Област Плевен",
       "priority": false,
@@ -758,7 +758,7 @@
       }
     },
     {
-      "slug": "olx_1111",
+      "slug": "olx_bg_1111",
       "name": "Бусманци",
       "region": "Област София-град",
       "priority": false,
@@ -767,7 +767,7 @@
       }
     },
     {
-      "slug": "olx_1113",
+      "slug": "olx_bg_1113",
       "name": "Бутан",
       "region": "Област Враца",
       "priority": false,
@@ -776,7 +776,7 @@
       }
     },
     {
-      "slug": "olx_1119",
+      "slug": "olx_bg_1119",
       "name": "Бухово",
       "region": "Област София-град",
       "priority": false,
@@ -785,7 +785,7 @@
       }
     },
     {
-      "slug": "olx_1137",
+      "slug": "olx_bg_1137",
       "name": "Бъзън",
       "region": "Област Русе",
       "priority": false,
@@ -794,7 +794,7 @@
       }
     },
     {
-      "slug": "olx_1141",
+      "slug": "olx_bg_1141",
       "name": "Българево",
       "region": "Област Добрич",
       "priority": false,
@@ -803,7 +803,7 @@
       }
     },
     {
-      "slug": "olx_1155",
+      "slug": "olx_bg_1155",
       "name": "Българово",
       "region": "Област Бургас",
       "priority": false,
@@ -812,7 +812,7 @@
       }
     },
     {
-      "slug": "olx_1159",
+      "slug": "olx_bg_1159",
       "name": "Български извор",
       "region": "Област Ловеч",
       "priority": false,
@@ -821,7 +821,7 @@
       }
     },
     {
-      "slug": "olx_1187",
+      "slug": "olx_bg_1187",
       "name": "Бързия",
       "region": "Област Монтана",
       "priority": false,
@@ -830,7 +830,7 @@
       }
     },
     {
-      "slug": "olx_1233",
+      "slug": "olx_bg_1233",
       "name": "Бял извор",
       "region": "Област Кърджали",
       "priority": false,
@@ -839,7 +839,7 @@
       }
     },
     {
-      "slug": "olx_1203",
+      "slug": "olx_bg_1203",
       "name": "Бяла",
       "region": "Област Варна",
       "priority": false,
@@ -848,7 +848,7 @@
       }
     },
     {
-      "slug": "olx_1205",
+      "slug": "olx_bg_1205",
       "name": "Бяла",
       "region": "Област Русе",
       "priority": false,
@@ -857,7 +857,7 @@
       }
     },
     {
-      "slug": "olx_1207",
+      "slug": "olx_bg_1207",
       "name": "Бяла",
       "region": "Област Сливен",
       "priority": false,
@@ -866,7 +866,7 @@
       }
     },
     {
-      "slug": "olx_1225",
+      "slug": "olx_bg_1225",
       "name": "Бяла Слатина",
       "region": "Област Враца",
       "priority": false,
@@ -875,7 +875,7 @@
       }
     },
     {
-      "slug": "olx_1223",
+      "slug": "olx_bg_1223",
       "name": "Бяла река",
       "region": "Област Шумен",
       "priority": false,
@@ -884,7 +884,7 @@
       }
     },
     {
-      "slug": "olx_1227",
+      "slug": "olx_bg_1227",
       "name": "Бяла черква",
       "region": "Област Велико Търново",
       "priority": false,
@@ -893,7 +893,7 @@
       }
     },
     {
-      "slug": "olx_1273",
+      "slug": "olx_bg_1273",
       "name": "Вазово",
       "region": "Област Разград",
       "priority": false,
@@ -902,7 +902,7 @@
       }
     },
     {
-      "slug": "olx_1317",
+      "slug": "olx_bg_1317",
       "name": "Василовци",
       "region": "Област Монтана",
       "priority": false,
@@ -911,7 +911,7 @@
       }
     },
     {
-      "slug": "olx_7489",
+      "slug": "olx_bg_7489",
       "name": "Велики Преслав",
       "region": "Област Шумен",
       "priority": false,
@@ -920,7 +920,7 @@
       }
     },
     {
-      "slug": "olx_1353",
+      "slug": "olx_bg_1353",
       "name": "Велико Търново",
       "region": "Област Велико Търново",
       "priority": false,
@@ -929,7 +929,7 @@
       }
     },
     {
-      "slug": "olx_1355",
+      "slug": "olx_bg_1355",
       "name": "Велинград",
       "region": "Област Пазарджик",
       "priority": false,
@@ -938,7 +938,7 @@
       }
     },
     {
-      "slug": "olx_1419",
+      "slug": "olx_bg_1419",
       "name": "Веселиново",
       "region": "Област Ямбол",
       "priority": false,
@@ -947,7 +947,7 @@
       }
     },
     {
-      "slug": "olx_1423",
+      "slug": "olx_bg_1423",
       "name": "Ветово",
       "region": "Област Русе",
       "priority": false,
@@ -956,7 +956,7 @@
       }
     },
     {
-      "slug": "olx_1453",
+      "slug": "olx_bg_1453",
       "name": "Видин",
       "region": "Област Видин",
       "priority": false,
@@ -965,7 +965,7 @@
       }
     },
     {
-      "slug": "olx_1473",
+      "slug": "olx_bg_1473",
       "name": "Винарово",
       "region": "Област Видин",
       "priority": false,
@@ -974,7 +974,7 @@
       }
     },
     {
-      "slug": "olx_1533",
+      "slug": "olx_bg_1533",
       "name": "Владая",
       "region": "Област София-град",
       "priority": false,
@@ -983,7 +983,7 @@
       }
     },
     {
-      "slug": "olx_1537",
+      "slug": "olx_bg_1537",
       "name": "Владимирово",
       "region": "Област Монтана",
       "priority": false,
@@ -992,7 +992,7 @@
       }
     },
     {
-      "slug": "olx_1543",
+      "slug": "olx_bg_1543",
       "name": "Владимировци",
       "region": "Област Разград",
       "priority": false,
@@ -1001,7 +1001,7 @@
       }
     },
     {
-      "slug": "olx_1619",
+      "slug": "olx_bg_1619",
       "name": "Войводово",
       "region": "Област Хасково",
       "priority": false,
@@ -1010,7 +1010,7 @@
       }
     },
     {
-      "slug": "olx_1647",
+      "slug": "olx_bg_1647",
       "name": "Вокил",
       "region": "Област Силистра",
       "priority": false,
@@ -1019,7 +1019,7 @@
       }
     },
     {
-      "slug": "olx_1657",
+      "slug": "olx_bg_1657",
       "name": "Волуяк",
       "region": "Област София-град",
       "priority": false,
@@ -1028,7 +1028,7 @@
       }
     },
     {
-      "slug": "olx_1689",
+      "slug": "olx_bg_1689",
       "name": "Враца",
       "region": "Област Враца",
       "priority": false,
@@ -1037,7 +1037,7 @@
       }
     },
     {
-      "slug": "olx_1733",
+      "slug": "olx_bg_1733",
       "name": "Вълнари",
       "region": "Област Шумен",
       "priority": false,
@@ -1046,7 +1046,7 @@
       }
     },
     {
-      "slug": "olx_1741",
+      "slug": "olx_bg_1741",
       "name": "Вълчедръм",
       "region": "Област Монтана",
       "priority": false,
@@ -1055,7 +1055,7 @@
       }
     },
     {
-      "slug": "olx_1747",
+      "slug": "olx_bg_1747",
       "name": "Вълчи дол",
       "region": "Област Варна",
       "priority": false,
@@ -1064,7 +1064,7 @@
       }
     },
     {
-      "slug": "olx_1783",
+      "slug": "olx_bg_1783",
       "name": "Върбица",
       "region": "Област Шумен",
       "priority": false,
@@ -1073,7 +1073,7 @@
       }
     },
     {
-      "slug": "olx_1815",
+      "slug": "olx_bg_1815",
       "name": "Вършец",
       "region": "Област Монтана",
       "priority": false,
@@ -1082,7 +1082,7 @@
       }
     },
     {
-      "slug": "olx_1827",
+      "slug": "olx_bg_1827",
       "name": "Габаре",
       "region": "Област Враца",
       "priority": false,
@@ -1091,7 +1091,7 @@
       }
     },
     {
-      "slug": "olx_1857",
+      "slug": "olx_bg_1857",
       "name": "Габровница",
       "region": "Област Монтана",
       "priority": false,
@@ -1100,7 +1100,7 @@
       }
     },
     {
-      "slug": "olx_1863",
+      "slug": "olx_bg_1863",
       "name": "Габрово",
       "region": "Област Габрово",
       "priority": false,
@@ -1109,7 +1109,7 @@
       }
     },
     {
-      "slug": "olx_1873",
+      "slug": "olx_bg_1873",
       "name": "Гавраилово",
       "region": "Област Сливен",
       "priority": false,
@@ -1118,7 +1118,7 @@
       }
     },
     {
-      "slug": "olx_1893",
+      "slug": "olx_bg_1893",
       "name": "Галата",
       "region": "Област Ловеч",
       "priority": false,
@@ -1127,7 +1127,7 @@
       }
     },
     {
-      "slug": "olx_1897",
+      "slug": "olx_bg_1897",
       "name": "Галиче",
       "region": "Област Враца",
       "priority": false,
@@ -1136,7 +1136,7 @@
       }
     },
     {
-      "slug": "olx_2625",
+      "slug": "olx_bg_2625",
       "name": "Гара Елин Пелин",
       "region": "Област София-област",
       "priority": false,
@@ -1145,7 +1145,7 @@
       }
     },
     {
-      "slug": "olx_1911",
+      "slug": "olx_bg_1911",
       "name": "Гара Орешец",
       "region": "Област Видин",
       "priority": false,
@@ -1154,7 +1154,7 @@
       }
     },
     {
-      "slug": "olx_4173",
+      "slug": "olx_bg_4173",
       "name": "Генерал Инзово",
       "region": "Област Ямбол",
       "priority": false,
@@ -1163,7 +1163,7 @@
       }
     },
     {
-      "slug": "olx_1947",
+      "slug": "olx_bg_1947",
       "name": "Генерал Тошево",
       "region": "Област Добрич",
       "priority": false,
@@ -1172,7 +1172,7 @@
       }
     },
     {
-      "slug": "olx_1965",
+      "slug": "olx_bg_1965",
       "name": "Герман",
       "region": "Област София-град",
       "priority": false,
@@ -1181,7 +1181,7 @@
       }
     },
     {
-      "slug": "olx_2641",
+      "slug": "olx_bg_2641",
       "name": "Гецово",
       "region": "Област Разград",
       "priority": false,
@@ -1190,7 +1190,7 @@
       }
     },
     {
-      "slug": "olx_1971",
+      "slug": "olx_bg_1971",
       "name": "Гиген",
       "region": "Област Плевен",
       "priority": false,
@@ -1199,7 +1199,7 @@
       }
     },
     {
-      "slug": "olx_2001",
+      "slug": "olx_bg_2001",
       "name": "Главиница",
       "region": "Област Пазарджик",
       "priority": false,
@@ -1208,7 +1208,7 @@
       }
     },
     {
-      "slug": "olx_2003",
+      "slug": "olx_bg_2003",
       "name": "Главиница",
       "region": "Област Силистра",
       "priority": false,
@@ -1217,7 +1217,7 @@
       }
     },
     {
-      "slug": "olx_2021",
+      "slug": "olx_bg_2021",
       "name": "Глогово",
       "region": "Област Ловеч",
       "priority": false,
@@ -1226,7 +1226,7 @@
       }
     },
     {
-      "slug": "olx_2023",
+      "slug": "olx_bg_2023",
       "name": "Глоджево",
       "region": "Област Русе",
       "priority": false,
@@ -1235,7 +1235,7 @@
       }
     },
     {
-      "slug": "olx_2627",
+      "slug": "olx_bg_2627",
       "name": "Гложене",
       "region": "Област Враца",
       "priority": false,
@@ -1244,7 +1244,7 @@
       }
     },
     {
-      "slug": "olx_2025",
+      "slug": "olx_bg_2025",
       "name": "Гложене",
       "region": "Област Ловеч",
       "priority": false,
@@ -1253,7 +1253,7 @@
       }
     },
     {
-      "slug": "olx_2033",
+      "slug": "olx_bg_2033",
       "name": "Глуфишево",
       "region": "Област Сливен",
       "priority": false,
@@ -1262,7 +1262,7 @@
       }
     },
     {
-      "slug": "olx_2035",
+      "slug": "olx_bg_2035",
       "name": "Глухар",
       "region": "Област Кърджали",
       "priority": false,
@@ -1271,7 +1271,7 @@
       }
     },
     {
-      "slug": "olx_2045",
+      "slug": "olx_bg_2045",
       "name": "Говедаре",
       "region": "Област Пазарджик",
       "priority": false,
@@ -1280,7 +1280,7 @@
       }
     },
     {
-      "slug": "olx_2051",
+      "slug": "olx_bg_2051",
       "name": "Годеч",
       "region": "Област София-област",
       "priority": false,
@@ -1289,7 +1289,7 @@
       }
     },
     {
-      "slug": "olx_2069",
+      "slug": "olx_bg_2069",
       "name": "Големаново",
       "region": "Област Видин",
       "priority": false,
@@ -1298,7 +1298,7 @@
       }
     },
     {
-      "slug": "olx_2085",
+      "slug": "olx_bg_2085",
       "name": "Големо Бучино",
       "region": "Област Перник",
       "priority": false,
@@ -1307,7 +1307,7 @@
       }
     },
     {
-      "slug": "olx_2097",
+      "slug": "olx_bg_2097",
       "name": "Голеш",
       "region": "Област Силистра",
       "priority": false,
@@ -1316,7 +1316,7 @@
       }
     },
     {
-      "slug": "olx_2165",
+      "slug": "olx_bg_2165",
       "name": "Голям Поровец",
       "region": "Област Разград",
       "priority": false,
@@ -1325,7 +1325,7 @@
       }
     },
     {
-      "slug": "olx_2119",
+      "slug": "olx_bg_2119",
       "name": "Голяма Желязна",
       "region": "Област Ловеч",
       "priority": false,
@@ -1334,7 +1334,7 @@
       }
     },
     {
-      "slug": "olx_2143",
+      "slug": "olx_bg_2143",
       "name": "Голямо Враново",
       "region": "Област Русе",
       "priority": false,
@@ -1343,7 +1343,7 @@
       }
     },
     {
-      "slug": "olx_2089",
+      "slug": "olx_bg_2089",
       "name": "Голямо Пещене",
       "region": "Област Враца",
       "priority": false,
@@ -1352,7 +1352,7 @@
       }
     },
     {
-      "slug": "olx_2145",
+      "slug": "olx_bg_2145",
       "name": "Голямо градище",
       "region": "Област Търговище",
       "priority": false,
@@ -1361,7 +1361,7 @@
       }
     },
     {
-      "slug": "olx_2155",
+      "slug": "olx_bg_2155",
       "name": "Голямо ново",
       "region": "Област Търговище",
       "priority": false,
@@ -1370,7 +1370,7 @@
       }
     },
     {
-      "slug": "olx_2173",
+      "slug": "olx_bg_2173",
       "name": "Гомотарци",
       "region": "Област Видин",
       "priority": false,
@@ -1379,7 +1379,7 @@
       }
     },
     {
-      "slug": "olx_2185",
+      "slug": "olx_bg_2185",
       "name": "Горен чифлик",
       "region": "Област Варна",
       "priority": false,
@@ -1388,7 +1388,7 @@
       }
     },
     {
-      "slug": "olx_2215",
+      "slug": "olx_bg_2215",
       "name": "Горна Диканя",
       "region": "Област Перник",
       "priority": false,
@@ -1397,7 +1397,7 @@
       }
     },
     {
-      "slug": "olx_2243",
+      "slug": "olx_bg_2243",
       "name": "Горна Митрополия",
       "region": "Област Плевен",
       "priority": false,
@@ -1406,7 +1406,7 @@
       }
     },
     {
-      "slug": "olx_2245",
+      "slug": "olx_bg_2245",
       "name": "Горна Оряховица",
       "region": "Област Велико Търново",
       "priority": false,
@@ -1415,7 +1415,7 @@
       }
     },
     {
-      "slug": "olx_2249",
+      "slug": "olx_bg_2249",
       "name": "Горна Росица",
       "region": "Област Габрово",
       "priority": false,
@@ -1424,7 +1424,7 @@
       }
     },
     {
-      "slug": "olx_2261",
+      "slug": "olx_bg_2261",
       "name": "Горни Богров",
       "region": "Област София-град",
       "priority": false,
@@ -1433,7 +1433,7 @@
       }
     },
     {
-      "slug": "olx_2275",
+      "slug": "olx_bg_2275",
       "name": "Горни Дъбник",
       "region": "Област Плевен",
       "priority": false,
@@ -1442,7 +1442,7 @@
       }
     },
     {
-      "slug": "olx_2283",
+      "slug": "olx_bg_2283",
       "name": "Горни Лом",
       "region": "Област Видин",
       "priority": false,
@@ -1451,7 +1451,7 @@
       }
     },
     {
-      "slug": "olx_2277",
+      "slug": "olx_bg_2277",
       "name": "Горник",
       "region": "Област Плевен",
       "priority": false,
@@ -1460,7 +1460,7 @@
       }
     },
     {
-      "slug": "olx_2301",
+      "slug": "olx_bg_2301",
       "name": "Горно Абланово",
       "region": "Област Русе",
       "priority": false,
@@ -1469,7 +1469,7 @@
       }
     },
     {
-      "slug": "olx_2303",
+      "slug": "olx_bg_2303",
       "name": "Горно Александрово",
       "region": "Област Сливен",
       "priority": false,
@@ -1478,7 +1478,7 @@
       }
     },
     {
-      "slug": "olx_2635",
+      "slug": "olx_bg_2635",
       "name": "Горно Кирково",
       "region": "Област Кърджали",
       "priority": false,
@@ -1487,7 +1487,7 @@
       }
     },
     {
-      "slug": "olx_2347",
+      "slug": "olx_bg_2347",
       "name": "Горно Сахране",
       "region": "Област Стара Загора",
       "priority": false,
@@ -1496,7 +1496,7 @@
       }
     },
     {
-      "slug": "olx_6237",
+      "slug": "olx_bg_6237",
       "name": "Горно Черковище",
       "region": "Област Стара Загора",
       "priority": false,
@@ -1505,7 +1505,7 @@
       }
     },
     {
-      "slug": "olx_2383",
+      "slug": "olx_bg_2383",
       "name": "Горски извор",
       "region": "Област Кърджали",
       "priority": false,
@@ -1514,7 +1514,7 @@
       }
     },
     {
-      "slug": "olx_2385",
+      "slug": "olx_bg_2385",
       "name": "Горски извор",
       "region": "Област Хасково",
       "priority": false,
@@ -1523,7 +1523,7 @@
       }
     },
     {
-      "slug": "olx_2405",
+      "slug": "olx_bg_2405",
       "name": "Горско Сливово",
       "region": "Област Ловеч",
       "priority": false,
@@ -1532,7 +1532,7 @@
       }
     },
     {
-      "slug": "olx_2423",
+      "slug": "olx_bg_2423",
       "name": "Гостилица",
       "region": "Област Габрово",
       "priority": false,
@@ -1541,7 +1541,7 @@
       }
     },
     {
-      "slug": "olx_2431",
+      "slug": "olx_bg_2431",
       "name": "Гоце Делчев",
       "region": "Област Благоевград",
       "priority": false,
@@ -1550,7 +1550,7 @@
       }
     },
     {
-      "slug": "olx_2435",
+      "slug": "olx_bg_2435",
       "name": "Градежница",
       "region": "Област Ловеч",
       "priority": false,
@@ -1559,7 +1559,7 @@
       }
     },
     {
-      "slug": "olx_2437",
+      "slug": "olx_bg_2437",
       "name": "Градец",
       "region": "Област Видин",
       "priority": false,
@@ -1568,7 +1568,7 @@
       }
     },
     {
-      "slug": "olx_2439",
+      "slug": "olx_bg_2439",
       "name": "Градец",
       "region": "Област Сливен",
       "priority": false,
@@ -1577,7 +1577,7 @@
       }
     },
     {
-      "slug": "olx_2449",
+      "slug": "olx_bg_2449",
       "name": "Градина",
       "region": "Област Пловдив",
       "priority": false,
@@ -1586,7 +1586,7 @@
       }
     },
     {
-      "slug": "olx_2459",
+      "slug": "olx_bg_2459",
       "name": "Градище",
       "region": "Област Габрово",
       "priority": false,
@@ -1595,7 +1595,7 @@
       }
     },
     {
-      "slug": "olx_2461",
+      "slug": "olx_bg_2461",
       "name": "Градище",
       "region": "Област Плевен",
       "priority": false,
@@ -1604,7 +1604,7 @@
       }
     },
     {
-      "slug": "olx_2463",
+      "slug": "olx_bg_2463",
       "name": "Градище",
       "region": "Област Шумен",
       "priority": false,
@@ -1613,7 +1613,7 @@
       }
     },
     {
-      "slug": "olx_2465",
+      "slug": "olx_bg_2465",
       "name": "Градница",
       "region": "Област Габрово",
       "priority": false,
@@ -1622,7 +1622,7 @@
       }
     },
     {
-      "slug": "olx_2475",
+      "slug": "olx_bg_2475",
       "name": "Грамада",
       "region": "Област Видин",
       "priority": false,
@@ -1631,7 +1631,7 @@
       }
     },
     {
-      "slug": "olx_2493",
+      "slug": "olx_bg_2493",
       "name": "Гранитово",
       "region": "Област Ямбол",
       "priority": false,
@@ -1640,7 +1640,7 @@
       }
     },
     {
-      "slug": "olx_2495",
+      "slug": "olx_bg_2495",
       "name": "Граница",
       "region": "Област Кюстендил",
       "priority": false,
@@ -1649,7 +1649,7 @@
       }
     },
     {
-      "slug": "olx_2505",
+      "slug": "olx_bg_2505",
       "name": "Граф Игнатиево",
       "region": "Област Пловдив",
       "priority": false,
@@ -1658,7 +1658,7 @@
       }
     },
     {
-      "slug": "olx_2513",
+      "slug": "olx_bg_2513",
       "name": "Гривица",
       "region": "Област Плевен",
       "priority": false,
@@ -1667,7 +1667,7 @@
       }
     },
     {
-      "slug": "olx_2523",
+      "slug": "olx_bg_2523",
       "name": "Гроздьово",
       "region": "Област Варна",
       "priority": false,
@@ -1676,7 +1676,7 @@
       }
     },
     {
-      "slug": "olx_2525",
+      "slug": "olx_bg_2525",
       "name": "Громшин",
       "region": "Област Монтана",
       "priority": false,
@@ -1685,7 +1685,7 @@
       }
     },
     {
-      "slug": "olx_2527",
+      "slug": "olx_bg_2527",
       "name": "Грохотно",
       "region": "Област Смолян",
       "priority": false,
@@ -1694,7 +1694,7 @@
       }
     },
     {
-      "slug": "olx_2533",
+      "slug": "olx_bg_2533",
       "name": "Груево",
       "region": "Област Кърджали",
       "priority": false,
@@ -1703,7 +1703,7 @@
       }
     },
     {
-      "slug": "olx_2553",
+      "slug": "olx_bg_2553",
       "name": "Гулянци",
       "region": "Област Плевен",
       "priority": false,
@@ -1712,7 +1712,7 @@
       }
     },
     {
-      "slug": "olx_2565",
+      "slug": "olx_bg_2565",
       "name": "Гурково",
       "region": "Област Стара Загора",
       "priority": false,
@@ -1721,7 +1721,7 @@
       }
     },
     {
-      "slug": "olx_2571",
+      "slug": "olx_bg_2571",
       "name": "Гусла",
       "region": "Област Шумен",
       "priority": false,
@@ -1730,7 +1730,7 @@
       }
     },
     {
-      "slug": "olx_2577",
+      "slug": "olx_bg_2577",
       "name": "Гъбене",
       "region": "Област Габрово",
       "priority": false,
@@ -1739,7 +1739,7 @@
       }
     },
     {
-      "slug": "olx_2585",
+      "slug": "olx_bg_2585",
       "name": "Гълъбник",
       "region": "Област Перник",
       "priority": false,
@@ -1748,7 +1748,7 @@
       }
     },
     {
-      "slug": "olx_2589",
+      "slug": "olx_bg_2589",
       "name": "Гълъбово",
       "region": "Област Стара Загора",
       "priority": false,
@@ -1757,7 +1757,7 @@
       }
     },
     {
-      "slug": "olx_2593",
+      "slug": "olx_bg_2593",
       "name": "Гъмзово",
       "region": "Област Видин",
       "priority": false,
@@ -1766,7 +1766,7 @@
       }
     },
     {
-      "slug": "olx_2605",
+      "slug": "olx_bg_2605",
       "name": "Гърмен",
       "region": "Област Благоевград",
       "priority": false,
@@ -1775,7 +1775,7 @@
       }
     },
     {
-      "slug": "olx_2611",
+      "slug": "olx_bg_2611",
       "name": "Гърчиново",
       "region": "Област Търговище",
       "priority": false,
@@ -1784,7 +1784,7 @@
       }
     },
     {
-      "slug": "olx_2615",
+      "slug": "olx_bg_2615",
       "name": "Гьоврен",
       "region": "Област Смолян",
       "priority": false,
@@ -1793,7 +1793,7 @@
       }
     },
     {
-      "slug": "olx_2645",
+      "slug": "olx_bg_2645",
       "name": "Давидково",
       "region": "Област Смолян",
       "priority": false,
@@ -1802,7 +1802,7 @@
       }
     },
     {
-      "slug": "olx_2659",
+      "slug": "olx_bg_2659",
       "name": "Дамяново",
       "region": "Област Габрово",
       "priority": false,
@@ -1811,7 +1811,7 @@
       }
     },
     {
-      "slug": "olx_2665",
+      "slug": "olx_bg_2665",
       "name": "Две могили",
       "region": "Област Русе",
       "priority": false,
@@ -1820,7 +1820,7 @@
       }
     },
     {
-      "slug": "olx_2675",
+      "slug": "olx_bg_2675",
       "name": "Дебелец",
       "region": "Област Велико Търново",
       "priority": false,
@@ -1829,7 +1829,7 @@
       }
     },
     {
-      "slug": "olx_2677",
+      "slug": "olx_bg_2677",
       "name": "Дебели лаг",
       "region": "Област Перник",
       "priority": false,
@@ -1838,7 +1838,7 @@
       }
     },
     {
-      "slug": "olx_2681",
+      "slug": "olx_bg_2681",
       "name": "Дебелт",
       "region": "Област Бургас",
       "priority": false,
@@ -1847,7 +1847,7 @@
       }
     },
     {
-      "slug": "olx_2687",
+      "slug": "olx_bg_2687",
       "name": "Дебнево",
       "region": "Област Ловеч",
       "priority": false,
@@ -1856,7 +1856,7 @@
       }
     },
     {
-      "slug": "olx_2693",
+      "slug": "olx_bg_2693",
       "name": "Дебрен",
       "region": "Област Благоевград",
       "priority": false,
@@ -1865,7 +1865,7 @@
       }
     },
     {
-      "slug": "olx_2701",
+      "slug": "olx_bg_2701",
       "name": "Девене",
       "region": "Област Враца",
       "priority": false,
@@ -1874,7 +1874,7 @@
       }
     },
     {
-      "slug": "olx_2717",
+      "slug": "olx_bg_2717",
       "name": "Девин",
       "region": "Област Смолян",
       "priority": false,
@@ -1883,7 +1883,7 @@
       }
     },
     {
-      "slug": "olx_2721",
+      "slug": "olx_bg_2721",
       "name": "Девня",
       "region": "Област Варна",
       "priority": false,
@@ -1892,7 +1892,7 @@
       }
     },
     {
-      "slug": "olx_2761",
+      "slug": "olx_bg_2761",
       "name": "Дерманци",
       "region": "Област Ловеч",
       "priority": false,
@@ -1901,7 +1901,7 @@
       }
     },
     {
-      "slug": "olx_2771",
+      "slug": "olx_bg_2771",
       "name": "Джебел",
       "region": "Област Кърджали",
       "priority": false,
@@ -1910,7 +1910,7 @@
       }
     },
     {
-      "slug": "olx_2775",
+      "slug": "olx_bg_2775",
       "name": "Джерман",
       "region": "Област Кюстендил",
       "priority": false,
@@ -1919,7 +1919,7 @@
       }
     },
     {
-      "slug": "olx_2785",
+      "slug": "olx_bg_2785",
       "name": "Джулюница",
       "region": "Област Велико Търново",
       "priority": false,
@@ -1928,7 +1928,7 @@
       }
     },
     {
-      "slug": "olx_2799",
+      "slug": "olx_bg_2799",
       "name": "Дибич",
       "region": "Област Шумен",
       "priority": false,
@@ -1937,7 +1937,7 @@
       }
     },
     {
-      "slug": "olx_2805",
+      "slug": "olx_bg_2805",
       "name": "Дивля",
       "region": "Област Перник",
       "priority": false,
@@ -1946,7 +1946,7 @@
       }
     },
     {
-      "slug": "olx_2807",
+      "slug": "olx_bg_2807",
       "name": "Дивотино",
       "region": "Област Перник",
       "priority": false,
@@ -1955,7 +1955,7 @@
       }
     },
     {
-      "slug": "olx_2817",
+      "slug": "olx_bg_2817",
       "name": "Димитровград",
       "region": "Област Хасково",
       "priority": false,
@@ -1964,7 +1964,7 @@
       }
     },
     {
-      "slug": "olx_2825",
+      "slug": "olx_bg_2825",
       "name": "Димово",
       "region": "Област Видин",
       "priority": false,
@@ -1973,7 +1973,7 @@
       }
     },
     {
-      "slug": "olx_2837",
+      "slug": "olx_bg_2837",
       "name": "Динево",
       "region": "Област Хасково",
       "priority": false,
@@ -1982,7 +1982,7 @@
       }
     },
     {
-      "slug": "olx_2905",
+      "slug": "olx_bg_2905",
       "name": "Добринище",
       "region": "Област Благоевград",
       "priority": false,
@@ -1991,7 +1991,7 @@
       }
     },
     {
-      "slug": "olx_2929",
+      "slug": "olx_bg_2929",
       "name": "Добромирка",
       "region": "Област Габрово",
       "priority": false,
@@ -2000,7 +2000,7 @@
       }
     },
     {
-      "slug": "olx_2937",
+      "slug": "olx_bg_2937",
       "name": "Доброславци",
       "region": "Област София-град",
       "priority": false,
@@ -2009,7 +2009,7 @@
       }
     },
     {
-      "slug": "olx_2967",
+      "slug": "olx_bg_2967",
       "name": "Дойренци",
       "region": "Област Ловеч",
       "priority": false,
@@ -2018,7 +2018,7 @@
       }
     },
     {
-      "slug": "olx_2971",
+      "slug": "olx_bg_2971",
       "name": "Доктор Йосифово",
       "region": "Област Монтана",
       "priority": false,
@@ -2027,7 +2027,7 @@
       }
     },
     {
-      "slug": "olx_2977",
+      "slug": "olx_bg_2977",
       "name": "Долен",
       "region": "Област Смолян",
       "priority": false,
@@ -2036,7 +2036,7 @@
       }
     },
     {
-      "slug": "olx_3017",
+      "slug": "olx_bg_3017",
       "name": "Долна Диканя",
       "region": "Област Перник",
       "priority": false,
@@ -2045,7 +2045,7 @@
       }
     },
     {
-      "slug": "olx_3041",
+      "slug": "olx_bg_3041",
       "name": "Долна Митрополия",
       "region": "Област Плевен",
       "priority": false,
@@ -2054,7 +2054,7 @@
       }
     },
     {
-      "slug": "olx_3045",
+      "slug": "olx_bg_3045",
       "name": "Долна Оряховица",
       "region": "Област Велико Търново",
       "priority": false,
@@ -2063,7 +2063,7 @@
       }
     },
     {
-      "slug": "olx_3051",
+      "slug": "olx_bg_3051",
       "name": "Долна Секирна",
       "region": "Област Перник",
       "priority": false,
@@ -2072,7 +2072,7 @@
       }
     },
     {
-      "slug": "olx_3053",
+      "slug": "olx_bg_3053",
       "name": "Долна Студена",
       "region": "Област Русе",
       "priority": false,
@@ -2081,7 +2081,7 @@
       }
     },
     {
-      "slug": "olx_3003",
+      "slug": "olx_bg_3003",
       "name": "Долна баня",
       "region": "Област София-област",
       "priority": false,
@@ -2090,7 +2090,7 @@
       }
     },
     {
-      "slug": "olx_3057",
+      "slug": "olx_bg_3057",
       "name": "Долни Богров",
       "region": "Област София-град",
       "priority": false,
@@ -2099,7 +2099,7 @@
       }
     },
     {
-      "slug": "olx_3073",
+      "slug": "olx_bg_3073",
       "name": "Долни Дъбник",
       "region": "Област Плевен",
       "priority": false,
@@ -2108,7 +2108,7 @@
       }
     },
     {
-      "slug": "olx_3079",
+      "slug": "olx_bg_3079",
       "name": "Долни Луковит",
       "region": "Област Плевен",
       "priority": false,
@@ -2117,7 +2117,7 @@
       }
     },
     {
-      "slug": "olx_3087",
+      "slug": "olx_bg_3087",
       "name": "Долни Пасарел",
       "region": "Област София-град",
       "priority": false,
@@ -2126,7 +2126,7 @@
       }
     },
     {
-      "slug": "olx_3091",
+      "slug": "olx_bg_3091",
       "name": "Долни Раковец",
       "region": "Област Перник",
       "priority": false,
@@ -2135,7 +2135,7 @@
       }
     },
     {
-      "slug": "olx_3099",
+      "slug": "olx_bg_3099",
       "name": "Долни Цибър",
       "region": "Област Монтана",
       "priority": false,
@@ -2144,7 +2144,7 @@
       }
     },
     {
-      "slug": "olx_2985",
+      "slug": "olx_bg_2985",
       "name": "Долни чифлик",
       "region": "Област Варна",
       "priority": false,
@@ -2153,7 +2153,7 @@
       }
     },
     {
-      "slug": "olx_3165",
+      "slug": "olx_bg_3165",
       "name": "Долно Церовене",
       "region": "Област Монтана",
       "priority": false,
@@ -2162,7 +2162,7 @@
       }
     },
     {
-      "slug": "olx_3179",
+      "slug": "olx_bg_3179",
       "name": "Донино",
       "region": "Област Габрово",
       "priority": false,
@@ -2171,7 +2171,7 @@
       }
     },
     {
-      "slug": "olx_3185",
+      "slug": "olx_bg_3185",
       "name": "Дончево",
       "region": "Област Добрич",
       "priority": false,
@@ -2180,7 +2180,7 @@
       }
     },
     {
-      "slug": "olx_3189",
+      "slug": "olx_bg_3189",
       "name": "Дорково",
       "region": "Област Пазарджик",
       "priority": false,
@@ -2189,7 +2189,7 @@
       }
     },
     {
-      "slug": "olx_10909",
+      "slug": "olx_bg_10909",
       "name": "Доспат",
       "region": "Област Смолян",
       "priority": false,
@@ -2198,7 +2198,7 @@
       }
     },
     {
-      "slug": "olx_3209",
+      "slug": "olx_bg_3209",
       "name": "Драганово",
       "region": "Област Велико Търново",
       "priority": false,
@@ -2207,7 +2207,7 @@
       }
     },
     {
-      "slug": "olx_3217",
+      "slug": "olx_bg_3217",
       "name": "Драгановци",
       "region": "Област Габрово",
       "priority": false,
@@ -2216,7 +2216,7 @@
       }
     },
     {
-      "slug": "olx_3233",
+      "slug": "olx_bg_3233",
       "name": "Драгиново",
       "region": "Област Пазарджик",
       "priority": false,
@@ -2225,7 +2225,7 @@
       }
     },
     {
-      "slug": "olx_3235",
+      "slug": "olx_bg_3235",
       "name": "Драгичево",
       "region": "Област Перник",
       "priority": false,
@@ -2234,7 +2234,7 @@
       }
     },
     {
-      "slug": "olx_3249",
+      "slug": "olx_bg_3249",
       "name": "Драгоданово",
       "region": "Област Сливен",
       "priority": false,
@@ -2243,7 +2243,7 @@
       }
     },
     {
-      "slug": "olx_3251",
+      "slug": "olx_bg_3251",
       "name": "Драгоево",
       "region": "Област Шумен",
       "priority": false,
@@ -2252,7 +2252,7 @@
       }
     },
     {
-      "slug": "olx_3259",
+      "slug": "olx_bg_3259",
       "name": "Драгоман",
       "region": "Област София-област",
       "priority": false,
@@ -2261,7 +2261,7 @@
       }
     },
     {
-      "slug": "olx_3277",
+      "slug": "olx_bg_3277",
       "name": "Дражево",
       "region": "Област Ямбол",
       "priority": false,
@@ -2270,7 +2270,7 @@
       }
     },
     {
-      "slug": "olx_3291",
+      "slug": "olx_bg_3291",
       "name": "Дрангово",
       "region": "Област Кърджали",
       "priority": false,
@@ -2279,7 +2279,7 @@
       }
     },
     {
-      "slug": "olx_3305",
+      "slug": "olx_bg_3305",
       "name": "Дрен",
       "region": "Област Перник",
       "priority": false,
@@ -2288,7 +2288,7 @@
       }
     },
     {
-      "slug": "olx_3311",
+      "slug": "olx_bg_3311",
       "name": "Дреновец",
       "region": "Област Видин",
       "priority": false,
@@ -2297,7 +2297,7 @@
       }
     },
     {
-      "slug": "olx_3521",
+      "slug": "olx_bg_3521",
       "name": "Друган",
       "region": "Област Перник",
       "priority": false,
@@ -2306,7 +2306,7 @@
       }
     },
     {
-      "slug": "olx_3337",
+      "slug": "olx_bg_3337",
       "name": "Друмево",
       "region": "Област Шумен",
       "priority": false,
@@ -2315,7 +2315,7 @@
       }
     },
     {
-      "slug": "olx_3353",
+      "slug": "olx_bg_3353",
       "name": "Дряновец",
       "region": "Област Разград",
       "priority": false,
@@ -2324,7 +2324,7 @@
       }
     },
     {
-      "slug": "olx_3355",
+      "slug": "olx_bg_3355",
       "name": "Дряновец",
       "region": "Област Русе",
       "priority": false,
@@ -2333,7 +2333,7 @@
       }
     },
     {
-      "slug": "olx_3361",
+      "slug": "olx_bg_3361",
       "name": "Дряново",
       "region": "Област Габрово",
       "priority": false,
@@ -2342,7 +2342,7 @@
       }
     },
     {
-      "slug": "olx_3375",
+      "slug": "olx_bg_3375",
       "name": "Дулово",
       "region": "Област Силистра",
       "priority": false,
@@ -2351,7 +2351,7 @@
       }
     },
     {
-      "slug": "olx_3381",
+      "slug": "olx_bg_3381",
       "name": "Дунавци",
       "region": "Област Видин",
       "priority": false,
@@ -2360,7 +2360,7 @@
       }
     },
     {
-      "slug": "olx_8883",
+      "slug": "olx_bg_8883",
       "name": "Дупница",
       "region": "Област Кюстендил",
       "priority": false,
@@ -2369,7 +2369,7 @@
       }
     },
     {
-      "slug": "olx_3397",
+      "slug": "olx_bg_3397",
       "name": "Духовец",
       "region": "Област Разград",
       "priority": false,
@@ -2378,7 +2378,7 @@
       }
     },
     {
-      "slug": "olx_3401",
+      "slug": "olx_bg_3401",
       "name": "Душево",
       "region": "Област Габрово",
       "priority": false,
@@ -2387,7 +2387,7 @@
       }
     },
     {
-      "slug": "olx_3413",
+      "slug": "olx_bg_3413",
       "name": "Дъбене",
       "region": "Област Пловдив",
       "priority": false,
@@ -2396,7 +2396,7 @@
       }
     },
     {
-      "slug": "olx_3417",
+      "slug": "olx_bg_3417",
       "name": "Дъбница",
       "region": "Област Благоевград",
       "priority": false,
@@ -2405,7 +2405,7 @@
       }
     },
     {
-      "slug": "olx_3433",
+      "slug": "olx_bg_3433",
       "name": "Дъбово",
       "region": "Област Стара Загора",
       "priority": false,
@@ -2414,7 +2414,7 @@
       }
     },
     {
-      "slug": "olx_3445",
+      "slug": "olx_bg_3445",
       "name": "Дъбравино",
       "region": "Област Варна",
       "priority": false,
@@ -2423,7 +2423,7 @@
       }
     },
     {
-      "slug": "olx_3461",
+      "slug": "olx_bg_3461",
       "name": "Дълбоки",
       "region": "Област Стара Загора",
       "priority": false,
@@ -2432,7 +2432,7 @@
       }
     },
     {
-      "slug": "olx_3479",
+      "slug": "olx_bg_3479",
       "name": "Дълго поле",
       "region": "Област Пловдив",
       "priority": false,
@@ -2441,7 +2441,7 @@
       }
     },
     {
-      "slug": "olx_3473",
+      "slug": "olx_bg_3473",
       "name": "Дългоделци",
       "region": "Област Монтана",
       "priority": false,
@@ -2450,7 +2450,7 @@
       }
     },
     {
-      "slug": "olx_3475",
+      "slug": "olx_bg_3475",
       "name": "Дългопол",
       "region": "Област Варна",
       "priority": false,
@@ -2459,7 +2459,7 @@
       }
     },
     {
-      "slug": "olx_10861",
+      "slug": "olx_bg_10861",
       "name": "Дюни",
       "region": "Област Бургас",
       "priority": false,
@@ -2468,7 +2468,7 @@
       }
     },
     {
-      "slug": "olx_3519",
+      "slug": "olx_bg_3519",
       "name": "Дянково",
       "region": "Област Разград",
       "priority": false,
@@ -2477,7 +2477,7 @@
       }
     },
     {
-      "slug": "olx_3543",
+      "slug": "olx_bg_3543",
       "name": "Егрек",
       "region": "Област Кърджали",
       "priority": false,
@@ -2486,7 +2486,7 @@
       }
     },
     {
-      "slug": "olx_3545",
+      "slug": "olx_bg_3545",
       "name": "Егълница",
       "region": "Област Перник",
       "priority": false,
@@ -2495,7 +2495,7 @@
       }
     },
     {
-      "slug": "olx_3557",
+      "slug": "olx_bg_3557",
       "name": "Езерово",
       "region": "Област Варна",
       "priority": false,
@@ -2504,7 +2504,7 @@
       }
     },
     {
-      "slug": "olx_3561",
+      "slug": "olx_bg_3561",
       "name": "Езерче",
       "region": "Област Разград",
       "priority": false,
@@ -2513,7 +2513,7 @@
       }
     },
     {
-      "slug": "olx_3567",
+      "slug": "olx_bg_3567",
       "name": "Елена",
       "region": "Област Велико Търново",
       "priority": false,
@@ -2522,7 +2522,7 @@
       }
     },
     {
-      "slug": "olx_10859",
+      "slug": "olx_bg_10859",
       "name": "Елените",
       "region": "Област Бургас",
       "priority": false,
@@ -2531,7 +2531,7 @@
       }
     },
     {
-      "slug": "olx_3587",
+      "slug": "olx_bg_3587",
       "name": "Елин Пелин",
       "region": "Област София-област",
       "priority": false,
@@ -2540,7 +2540,7 @@
       }
     },
     {
-      "slug": "olx_3591",
+      "slug": "olx_bg_3591",
       "name": "Еловдол",
       "region": "Област Перник",
       "priority": false,
@@ -2549,7 +2549,7 @@
       }
     },
     {
-      "slug": "olx_3599",
+      "slug": "olx_bg_3599",
       "name": "Елховец",
       "region": "Област Смолян",
       "priority": false,
@@ -2558,7 +2558,7 @@
       }
     },
     {
-      "slug": "olx_3603",
+      "slug": "olx_bg_3603",
       "name": "Елхово",
       "region": "Област Ямбол",
       "priority": false,
@@ -2567,7 +2567,7 @@
       }
     },
     {
-      "slug": "olx_3621",
+      "slug": "olx_bg_3621",
       "name": "Енина",
       "region": "Област Стара Загора",
       "priority": false,
@@ -2576,7 +2576,7 @@
       }
     },
     {
-      "slug": "olx_3631",
+      "slug": "olx_bg_3631",
       "name": "Ерден",
       "region": "Област Монтана",
       "priority": false,
@@ -2585,7 +2585,7 @@
       }
     },
     {
-      "slug": "olx_3635",
+      "slug": "olx_bg_3635",
       "name": "Ерма река",
       "region": "Област Смолян",
       "priority": false,
@@ -2594,7 +2594,7 @@
       }
     },
     {
-      "slug": "olx_3645",
+      "slug": "olx_bg_3645",
       "name": "Етрополе",
       "region": "Област София-област",
       "priority": false,
@@ -2603,7 +2603,7 @@
       }
     },
     {
-      "slug": "olx_3657",
+      "slug": "olx_bg_3657",
       "name": "Жабокрът",
       "region": "Област Кюстендил",
       "priority": false,
@@ -2612,7 +2612,7 @@
       }
     },
     {
-      "slug": "olx_3659",
+      "slug": "olx_bg_3659",
       "name": "Жегларци",
       "region": "Област Добрич",
       "priority": false,
@@ -2621,7 +2621,7 @@
       }
     },
     {
-      "slug": "olx_3679",
+      "slug": "olx_bg_3679",
       "name": "Железница",
       "region": "Област София-град",
       "priority": false,
@@ -2630,7 +2630,7 @@
       }
     },
     {
-      "slug": "olx_3687",
+      "slug": "olx_bg_3687",
       "name": "Желю войвода",
       "region": "Област Сливен",
       "priority": false,
@@ -2639,7 +2639,7 @@
       }
     },
     {
-      "slug": "olx_3691",
+      "slug": "olx_bg_3691",
       "name": "Желязковец",
       "region": "Област Разград",
       "priority": false,
@@ -2648,7 +2648,7 @@
       }
     },
     {
-      "slug": "olx_3713",
+      "slug": "olx_bg_3713",
       "name": "Живково",
       "region": "Област Шумен",
       "priority": false,
@@ -2657,7 +2657,7 @@
       }
     },
     {
-      "slug": "olx_3717",
+      "slug": "olx_bg_3717",
       "name": "Жиленци",
       "region": "Област Кюстендил",
       "priority": false,
@@ -2666,7 +2666,7 @@
       }
     },
     {
-      "slug": "olx_3725",
+      "slug": "olx_bg_3725",
       "name": "Житен",
       "region": "Област София-град",
       "priority": false,
@@ -2675,7 +2675,7 @@
       }
     },
     {
-      "slug": "olx_3747",
+      "slug": "olx_bg_3747",
       "name": "Жълтеш",
       "region": "Област Габрово",
       "priority": false,
@@ -2684,7 +2684,7 @@
       }
     },
     {
-      "slug": "olx_3749",
+      "slug": "olx_bg_3749",
       "name": "Жълти бряг",
       "region": "Област Хасково",
       "priority": false,
@@ -2693,7 +2693,7 @@
       }
     },
     {
-      "slug": "olx_3757",
+      "slug": "olx_bg_3757",
       "name": "Жълтуша",
       "region": "Област Кърджали",
       "priority": false,
@@ -2702,7 +2702,7 @@
       }
     },
     {
-      "slug": "olx_3773",
+      "slug": "olx_bg_3773",
       "name": "Завет",
       "region": "Област Разград",
       "priority": false,
@@ -2711,7 +2711,7 @@
       }
     },
     {
-      "slug": "olx_3779",
+      "slug": "olx_bg_3779",
       "name": "Завой",
       "region": "Област Ямбол",
       "priority": false,
@@ -2720,7 +2720,7 @@
       }
     },
     {
-      "slug": "olx_3785",
+      "slug": "olx_bg_3785",
       "name": "Загориче",
       "region": "Област Шумен",
       "priority": false,
@@ -2729,7 +2729,7 @@
       }
     },
     {
-      "slug": "olx_3815",
+      "slug": "olx_bg_3815",
       "name": "Замфир",
       "region": "Област Монтана",
       "priority": false,
@@ -2738,7 +2738,7 @@
       }
     },
     {
-      "slug": "olx_3817",
+      "slug": "olx_bg_3817",
       "name": "Замфирово",
       "region": "Област Монтана",
       "priority": false,
@@ -2747,7 +2747,7 @@
       }
     },
     {
-      "slug": "olx_3823",
+      "slug": "olx_bg_3823",
       "name": "Зараево",
       "region": "Област Търговище",
       "priority": false,
@@ -2756,7 +2756,7 @@
       }
     },
     {
-      "slug": "olx_3831",
+      "slug": "olx_bg_3831",
       "name": "Зафирово",
       "region": "Област Силистра",
       "priority": false,
@@ -2765,7 +2765,7 @@
       }
     },
     {
-      "slug": "olx_3855",
+      "slug": "olx_bg_3855",
       "name": "Звездица",
       "region": "Област Варна",
       "priority": false,
@@ -2774,7 +2774,7 @@
       }
     },
     {
-      "slug": "olx_4027",
+      "slug": "olx_bg_4027",
       "name": "Звездица",
       "region": "Област Търговище",
       "priority": false,
@@ -2783,7 +2783,7 @@
       }
     },
     {
-      "slug": "olx_3859",
+      "slug": "olx_bg_3859",
       "name": "Зверино",
       "region": "Област Враца",
       "priority": false,
@@ -2792,7 +2792,7 @@
       }
     },
     {
-      "slug": "olx_3863",
+      "slug": "olx_bg_3863",
       "name": "Звънарка",
       "region": "Област Кърджали",
       "priority": false,
@@ -2801,7 +2801,7 @@
       }
     },
     {
-      "slug": "olx_3871",
+      "slug": "olx_bg_3871",
       "name": "Звъничево",
       "region": "Област Пазарджик",
       "priority": false,
@@ -2810,7 +2810,7 @@
       }
     },
     {
-      "slug": "olx_3877",
+      "slug": "olx_bg_3877",
       "name": "Згориград",
       "region": "Област Враца",
       "priority": false,
@@ -2819,7 +2819,7 @@
       }
     },
     {
-      "slug": "olx_3893",
+      "slug": "olx_bg_3893",
       "name": "Зебил",
       "region": "Област Силистра",
       "priority": false,
@@ -2828,7 +2828,7 @@
       }
     },
     {
-      "slug": "olx_3895",
+      "slug": "olx_bg_3895",
       "name": "Зелена морава",
       "region": "Област Търговище",
       "priority": false,
@@ -2837,7 +2837,7 @@
       }
     },
     {
-      "slug": "olx_3911",
+      "slug": "olx_bg_3911",
       "name": "Земен",
       "region": "Област Перник",
       "priority": false,
@@ -2846,7 +2846,7 @@
       }
     },
     {
-      "slug": "olx_3919",
+      "slug": "olx_bg_3919",
       "name": "Зетьово",
       "region": "Област Стара Загора",
       "priority": false,
@@ -2855,7 +2855,7 @@
       }
     },
     {
-      "slug": "olx_3935",
+      "slug": "olx_bg_3935",
       "name": "Зимница",
       "region": "Област Ямбол",
       "priority": false,
@@ -2864,7 +2864,7 @@
       }
     },
     {
-      "slug": "olx_3941",
+      "slug": "olx_bg_3941",
       "name": "Златар",
       "region": "Област Шумен",
       "priority": false,
@@ -2873,7 +2873,7 @@
       }
     },
     {
-      "slug": "olx_3945",
+      "slug": "olx_bg_3945",
       "name": "Златарица",
       "region": "Област Велико Търново",
       "priority": false,
@@ -2882,7 +2882,7 @@
       }
     },
     {
-      "slug": "olx_3949",
+      "slug": "olx_bg_3949",
       "name": "Злати войвода",
       "region": "Област Сливен",
       "priority": false,
@@ -2891,7 +2891,7 @@
       }
     },
     {
-      "slug": "olx_3959",
+      "slug": "olx_bg_3959",
       "name": "Златица",
       "region": "Област София-област",
       "priority": false,
@@ -2900,7 +2900,7 @@
       }
     },
     {
-      "slug": "olx_3961",
+      "slug": "olx_bg_3961",
       "name": "Златия",
       "region": "Област Монтана",
       "priority": false,
@@ -2909,7 +2909,7 @@
       }
     },
     {
-      "slug": "olx_3969",
+      "slug": "olx_bg_3969",
       "name": "Златна Панега",
       "region": "Област Ловеч",
       "priority": false,
@@ -2918,7 +2918,7 @@
       }
     },
     {
-      "slug": "olx_3967",
+      "slug": "olx_bg_3967",
       "name": "Златна нива",
       "region": "Област Шумен",
       "priority": false,
@@ -2927,7 +2927,7 @@
       }
     },
     {
-      "slug": "olx_10869",
+      "slug": "olx_bg_10869",
       "name": "Златни пясъци",
       "region": "Област Варна",
       "priority": false,
@@ -2936,7 +2936,7 @@
       }
     },
     {
-      "slug": "olx_3973",
+      "slug": "olx_bg_3973",
       "name": "Златоград",
       "region": "Област Смолян",
       "priority": false,
@@ -2945,7 +2945,7 @@
       }
     },
     {
-      "slug": "olx_3975",
+      "slug": "olx_bg_3975",
       "name": "Златоклас",
       "region": "Област Силистра",
       "priority": false,
@@ -2954,7 +2954,7 @@
       }
     },
     {
-      "slug": "olx_3999",
+      "slug": "olx_bg_3999",
       "name": "Змеица",
       "region": "Област Смолян",
       "priority": false,
@@ -2963,7 +2963,7 @@
       }
     },
     {
-      "slug": "olx_4023",
+      "slug": "olx_bg_4023",
       "name": "Зърнево",
       "region": "Област Добрич",
       "priority": false,
@@ -2972,7 +2972,7 @@
       }
     },
     {
-      "slug": "olx_4033",
+      "slug": "olx_bg_4033",
       "name": "Ивайло",
       "region": "Област Пазарджик",
       "priority": false,
@@ -2981,7 +2981,7 @@
       }
     },
     {
-      "slug": "olx_10915",
+      "slug": "olx_bg_10915",
       "name": "Ивайловград",
       "region": "Област Хасково",
       "priority": false,
@@ -2990,7 +2990,7 @@
       }
     },
     {
-      "slug": "olx_4049",
+      "slug": "olx_bg_4049",
       "name": "Иваново",
       "region": "Област Русе",
       "priority": false,
@@ -2999,7 +2999,7 @@
       }
     },
     {
-      "slug": "olx_4061",
+      "slug": "olx_bg_4061",
       "name": "Ивански",
       "region": "Област Шумен",
       "priority": false,
@@ -3008,7 +3008,7 @@
       }
     },
     {
-      "slug": "olx_4081",
+      "slug": "olx_bg_4081",
       "name": "Игнатиево",
       "region": "Област Варна",
       "priority": false,
@@ -3017,7 +3017,7 @@
       }
     },
     {
-      "slug": "olx_4093",
+      "slug": "olx_bg_4093",
       "name": "Идилево",
       "region": "Област Габрово",
       "priority": false,
@@ -3026,7 +3026,7 @@
       }
     },
     {
-      "slug": "olx_4103",
+      "slug": "olx_bg_4103",
       "name": "Извор",
       "region": "Област Перник",
       "priority": false,
@@ -3035,7 +3035,7 @@
       }
     },
     {
-      "slug": "olx_4141",
+      "slug": "olx_bg_4141",
       "name": "Изгрев",
       "region": "Област Ямбол",
       "priority": false,
@@ -3044,7 +3044,7 @@
       }
     },
     {
-      "slug": "olx_4175",
+      "slug": "olx_bg_4175",
       "name": "Иново",
       "region": "Област Видин",
       "priority": false,
@@ -3053,7 +3053,7 @@
       }
     },
     {
-      "slug": "olx_4191",
+      "slug": "olx_bg_4191",
       "name": "Искра",
       "region": "Област Силистра",
       "priority": false,
@@ -3062,7 +3062,7 @@
       }
     },
     {
-      "slug": "olx_4193",
+      "slug": "olx_bg_4193",
       "name": "Искрец",
       "region": "Област София-област",
       "priority": false,
@@ -3071,7 +3071,7 @@
       }
     },
     {
-      "slug": "olx_7035",
+      "slug": "olx_bg_7035",
       "name": "Искър",
       "region": "Област Плевен",
       "priority": false,
@@ -3080,7 +3080,7 @@
       }
     },
     {
-      "slug": "olx_10919",
+      "slug": "olx_bg_10919",
       "name": "Искър",
       "region": "Област София-град",
       "priority": false,
@@ -3089,7 +3089,7 @@
       }
     },
     {
-      "slug": "olx_4199",
+      "slug": "olx_bg_4199",
       "name": "Исперих",
       "region": "Област Разград",
       "priority": false,
@@ -3098,7 +3098,7 @@
       }
     },
     {
-      "slug": "olx_4201",
+      "slug": "olx_bg_4201",
       "name": "Исперихово",
       "region": "Област Пазарджик",
       "priority": false,
@@ -3107,7 +3107,7 @@
       }
     },
     {
-      "slug": "olx_4205",
+      "slug": "olx_bg_4205",
       "name": "Ихтиман",
       "region": "Област София-област",
       "priority": false,
@@ -3116,7 +3116,7 @@
       }
     },
     {
-      "slug": "olx_4215",
+      "slug": "olx_bg_4215",
       "name": "Йоаким Груево",
       "region": "Област Пловдив",
       "priority": false,
@@ -3125,7 +3125,7 @@
       }
     },
     {
-      "slug": "olx_4231",
+      "slug": "olx_bg_4231",
       "name": "Йорданово",
       "region": "Област Силистра",
       "priority": false,
@@ -3134,7 +3134,7 @@
       }
     },
     {
-      "slug": "olx_4235",
+      "slug": "olx_bg_4235",
       "name": "Кабиле",
       "region": "Област Ямбол",
       "priority": false,
@@ -3143,7 +3143,7 @@
       }
     },
     {
-      "slug": "olx_4237",
+      "slug": "olx_bg_4237",
       "name": "Каблешково",
       "region": "Област Бургас",
       "priority": false,
@@ -3152,7 +3152,7 @@
       }
     },
     {
-      "slug": "olx_4241",
+      "slug": "olx_bg_4241",
       "name": "Каблешково",
       "region": "Област Добрич",
       "priority": false,
@@ -3161,7 +3161,7 @@
       }
     },
     {
-      "slug": "olx_4243",
+      "slug": "olx_bg_4243",
       "name": "Каварна",
       "region": "Област Добрич",
       "priority": false,
@@ -3170,7 +3170,7 @@
       }
     },
     {
-      "slug": "olx_4247",
+      "slug": "olx_bg_4247",
       "name": "Кавракирово",
       "region": "Област Благоевград",
       "priority": false,
@@ -3179,7 +3179,7 @@
       }
     },
     {
-      "slug": "olx_4261",
+      "slug": "olx_bg_4261",
       "name": "Казанлък",
       "region": "Област Стара Загора",
       "priority": false,
@@ -3188,7 +3188,7 @@
       }
     },
     {
-      "slug": "olx_4273",
+      "slug": "olx_bg_4273",
       "name": "Казичене",
       "region": "Област София-град",
       "priority": false,
@@ -3197,7 +3197,7 @@
       }
     },
     {
-      "slug": "olx_4275",
+      "slug": "olx_bg_4275",
       "name": "Кайнарджа",
       "region": "Област Силистра",
       "priority": false,
@@ -3206,7 +3206,7 @@
       }
     },
     {
-      "slug": "olx_4281",
+      "slug": "olx_bg_4281",
       "name": "Калейца",
       "region": "Област Ловеч",
       "priority": false,
@@ -3215,7 +3215,7 @@
       }
     },
     {
-      "slug": "olx_4283",
+      "slug": "olx_bg_4283",
       "name": "Калековец",
       "region": "Област Пловдив",
       "priority": false,
@@ -3224,7 +3224,7 @@
       }
     },
     {
-      "slug": "olx_5331",
+      "slug": "olx_bg_5331",
       "name": "Калипетрово",
       "region": "Област Силистра",
       "priority": false,
@@ -3233,7 +3233,7 @@
       }
     },
     {
-      "slug": "olx_4319",
+      "slug": "olx_bg_4319",
       "name": "Калофер",
       "region": "Област Пловдив",
       "priority": false,
@@ -3242,7 +3242,7 @@
       }
     },
     {
-      "slug": "olx_4325",
+      "slug": "olx_bg_4325",
       "name": "Калояново",
       "region": "Област Пловдив",
       "priority": false,
@@ -3251,7 +3251,7 @@
       }
     },
     {
-      "slug": "olx_4327",
+      "slug": "olx_bg_4327",
       "name": "Калояново",
       "region": "Област Сливен",
       "priority": false,
@@ -3260,7 +3260,7 @@
       }
     },
     {
-      "slug": "olx_4331",
+      "slug": "olx_bg_4331",
       "name": "Калугерене",
       "region": "Област Силистра",
       "priority": false,
@@ -3269,7 +3269,7 @@
       }
     },
     {
-      "slug": "olx_4345",
+      "slug": "olx_bg_4345",
       "name": "Камбурово",
       "region": "Област Търговище",
       "priority": false,
@@ -3278,7 +3278,7 @@
       }
     },
     {
-      "slug": "olx_4347",
+      "slug": "olx_bg_4347",
       "name": "Камен",
       "region": "Област Велико Търново",
       "priority": false,
@@ -3287,7 +3287,7 @@
       }
     },
     {
-      "slug": "olx_4349",
+      "slug": "olx_bg_4349",
       "name": "Камен",
       "region": "Област Сливен",
       "priority": false,
@@ -3296,7 +3296,7 @@
       }
     },
     {
-      "slug": "olx_4357",
+      "slug": "olx_bg_4357",
       "name": "Каменар",
       "region": "Област Варна",
       "priority": false,
@@ -3305,7 +3305,7 @@
       }
     },
     {
-      "slug": "olx_4389",
+      "slug": "olx_bg_4389",
       "name": "Камено",
       "region": "Област Бургас",
       "priority": false,
@@ -3314,7 +3314,7 @@
       }
     },
     {
-      "slug": "olx_10871",
+      "slug": "olx_bg_10871",
       "name": "Камчия",
       "region": "Област Варна",
       "priority": false,
@@ -3323,7 +3323,7 @@
       }
     },
     {
-      "slug": "olx_4421",
+      "slug": "olx_bg_4421",
       "name": "Каолиново",
       "region": "Област Шумен",
       "priority": false,
@@ -3332,7 +3332,7 @@
       }
     },
     {
-      "slug": "olx_4427",
+      "slug": "olx_bg_4427",
       "name": "Капитан Андреево",
       "region": "Област Хасково",
       "priority": false,
@@ -3341,7 +3341,7 @@
       }
     },
     {
-      "slug": "olx_4433",
+      "slug": "olx_bg_4433",
       "name": "Капитановци",
       "region": "Област Видин",
       "priority": false,
@@ -3350,7 +3350,7 @@
       }
     },
     {
-      "slug": "olx_4467",
+      "slug": "olx_bg_4467",
       "name": "Караманци",
       "region": "Област Хасково",
       "priority": false,
@@ -3359,7 +3359,7 @@
       }
     },
     {
-      "slug": "olx_4481",
+      "slug": "olx_bg_4481",
       "name": "Караново",
       "region": "Област Сливен",
       "priority": false,
@@ -3368,7 +3368,7 @@
       }
     },
     {
-      "slug": "olx_4485",
+      "slug": "olx_bg_4485",
       "name": "Карапелит",
       "region": "Област Добрич",
       "priority": false,
@@ -3377,7 +3377,7 @@
       }
     },
     {
-      "slug": "olx_4495",
+      "slug": "olx_bg_4495",
       "name": "Кардам",
       "region": "Област Добрич",
       "priority": false,
@@ -3386,7 +3386,7 @@
       }
     },
     {
-      "slug": "olx_4497",
+      "slug": "olx_bg_4497",
       "name": "Кардам",
       "region": "Област Търговище",
       "priority": false,
@@ -3395,7 +3395,7 @@
       }
     },
     {
-      "slug": "olx_4501",
+      "slug": "olx_bg_4501",
       "name": "Карлово",
       "region": "Област Пловдив",
       "priority": false,
@@ -3404,7 +3404,7 @@
       }
     },
     {
-      "slug": "olx_4505",
+      "slug": "olx_bg_4505",
       "name": "Карлуково",
       "region": "Област Ловеч",
       "priority": false,
@@ -3413,7 +3413,7 @@
       }
     },
     {
-      "slug": "olx_4507",
+      "slug": "olx_bg_4507",
       "name": "Карнобат",
       "region": "Област Бургас",
       "priority": false,
@@ -3422,7 +3422,7 @@
       }
     },
     {
-      "slug": "olx_4515",
+      "slug": "olx_bg_4515",
       "name": "Каспичан",
       "region": "Област Шумен",
       "priority": false,
@@ -3431,7 +3431,7 @@
       }
     },
     {
-      "slug": "olx_4531",
+      "slug": "olx_bg_4531",
       "name": "Катуница",
       "region": "Област Пловдив",
       "priority": false,
@@ -3440,7 +3440,7 @@
       }
     },
     {
-      "slug": "olx_4551",
+      "slug": "olx_bg_4551",
       "name": "Кермен",
       "region": "Област Сливен",
       "priority": false,
@@ -3449,7 +3449,7 @@
       }
     },
     {
-      "slug": "olx_4553",
+      "slug": "olx_bg_4553",
       "name": "Кесарево",
       "region": "Област Велико Търново",
       "priority": false,
@@ -3458,7 +3458,7 @@
       }
     },
     {
-      "slug": "olx_4559",
+      "slug": "olx_bg_4559",
       "name": "Киевци",
       "region": "Област Габрово",
       "priority": false,
@@ -3467,7 +3467,7 @@
       }
     },
     {
-      "slug": "olx_4561",
+      "slug": "olx_bg_4561",
       "name": "Килифарево",
       "region": "Област Велико Търново",
       "priority": false,
@@ -3476,7 +3476,7 @@
       }
     },
     {
-      "slug": "olx_4563",
+      "slug": "olx_bg_4563",
       "name": "Кипилово",
       "region": "Област Сливен",
       "priority": false,
@@ -3485,7 +3485,7 @@
       }
     },
     {
-      "slug": "olx_4577",
+      "slug": "olx_bg_4577",
       "name": "Кирково",
       "region": "Област Кърджали",
       "priority": false,
@@ -3494,7 +3494,7 @@
       }
     },
     {
-      "slug": "olx_4581",
+      "slug": "olx_bg_4581",
       "name": "Кирчево",
       "region": "Област Ловеч",
       "priority": false,
@@ -3503,7 +3503,7 @@
       }
     },
     {
-      "slug": "olx_4595",
+      "slug": "olx_bg_4595",
       "name": "Китанчево",
       "region": "Област Разград",
       "priority": false,
@@ -3512,7 +3512,7 @@
       }
     },
     {
-      "slug": "olx_4597",
+      "slug": "olx_bg_4597",
       "name": "Китен",
       "region": "Област Бургас",
       "priority": false,
@@ -3521,7 +3521,7 @@
       }
     },
     {
-      "slug": "olx_4609",
+      "slug": "olx_bg_4609",
       "name": "Кичево",
       "region": "Област Варна",
       "priority": false,
@@ -3530,7 +3530,7 @@
       }
     },
     {
-      "slug": "olx_4623",
+      "slug": "olx_bg_4623",
       "name": "Кладница",
       "region": "Област Перник",
       "priority": false,
@@ -3539,7 +3539,7 @@
       }
     },
     {
-      "slug": "olx_4635",
+      "slug": "olx_bg_4635",
       "name": "Климент",
       "region": "Област Шумен",
       "priority": false,
@@ -3548,7 +3548,7 @@
       }
     },
     {
-      "slug": "olx_4641",
+      "slug": "olx_bg_4641",
       "name": "Клисура",
       "region": "Област Пловдив",
       "priority": false,
@@ -3557,7 +3557,7 @@
       }
     },
     {
-      "slug": "olx_4661",
+      "slug": "olx_bg_4661",
       "name": "Кнежа",
       "region": "Област Плевен",
       "priority": false,
@@ -3566,7 +3566,7 @@
       }
     },
     {
-      "slug": "olx_4663",
+      "slug": "olx_bg_4663",
       "name": "Книжовник",
       "region": "Област Хасково",
       "priority": false,
@@ -3575,7 +3575,7 @@
       }
     },
     {
-      "slug": "olx_4677",
+      "slug": "olx_bg_4677",
       "name": "Ковачевец",
       "region": "Област Търговище",
       "priority": false,
@@ -3584,7 +3584,7 @@
       }
     },
     {
-      "slug": "olx_4683",
+      "slug": "olx_bg_4683",
       "name": "Ковачево",
       "region": "Област Пазарджик",
       "priority": false,
@@ -3593,7 +3593,7 @@
       }
     },
     {
-      "slug": "olx_4691",
+      "slug": "olx_bg_4691",
       "name": "Ковачите",
       "region": "Област Сливен",
       "priority": false,
@@ -3602,7 +3602,7 @@
       }
     },
     {
-      "slug": "olx_4693",
+      "slug": "olx_bg_4693",
       "name": "Ковачица",
       "region": "Област Монтана",
       "priority": false,
@@ -3611,7 +3611,7 @@
       }
     },
     {
-      "slug": "olx_4737",
+      "slug": "olx_bg_4737",
       "name": "Козловец",
       "region": "Област Велико Търново",
       "priority": false,
@@ -3620,7 +3620,7 @@
       }
     },
     {
-      "slug": "olx_4739",
+      "slug": "olx_bg_4739",
       "name": "Козлодуй",
       "region": "Област Враца",
       "priority": false,
@@ -3629,7 +3629,7 @@
       }
     },
     {
-      "slug": "olx_4743",
+      "slug": "olx_bg_4743",
       "name": "Козма презвитер",
       "region": "Област Търговище",
       "priority": false,
@@ -3638,7 +3638,7 @@
       }
     },
     {
-      "slug": "olx_4753",
+      "slug": "olx_bg_4753",
       "name": "Койнаре",
       "region": "Област Плевен",
       "priority": false,
@@ -3647,7 +3647,7 @@
       }
     },
     {
-      "slug": "olx_4757",
+      "slug": "olx_bg_4757",
       "name": "Кокаляне",
       "region": "Област София-град",
       "priority": false,
@@ -3656,7 +3656,7 @@
       }
     },
     {
-      "slug": "olx_4769",
+      "slug": "olx_bg_4769",
       "name": "Коларово",
       "region": "Област Благоевград",
       "priority": false,
@@ -3665,7 +3665,7 @@
       }
     },
     {
-      "slug": "olx_4777",
+      "slug": "olx_bg_4777",
       "name": "Коларци",
       "region": "Област Добрич",
       "priority": false,
@@ -3674,7 +3674,7 @@
       }
     },
     {
-      "slug": "olx_4787",
+      "slug": "olx_bg_4787",
       "name": "Колобър",
       "region": "Област Силистра",
       "priority": false,
@@ -3683,7 +3683,7 @@
       }
     },
     {
-      "slug": "olx_4801",
+      "slug": "olx_bg_4801",
       "name": "Комощица",
       "region": "Област Монтана",
       "priority": false,
@@ -3692,7 +3692,7 @@
       }
     },
     {
-      "slug": "olx_4805",
+      "slug": "olx_bg_4805",
       "name": "Комунига",
       "region": "Област Кърджали",
       "priority": false,
@@ -3701,7 +3701,7 @@
       }
     },
     {
-      "slug": "olx_4837",
+      "slug": "olx_bg_4837",
       "name": "Константин",
       "region": "Област Велико Търново",
       "priority": false,
@@ -3710,7 +3710,7 @@
       }
     },
     {
-      "slug": "olx_4841",
+      "slug": "olx_bg_4841",
       "name": "Константиново",
       "region": "Област Варна",
       "priority": false,
@@ -3719,7 +3719,7 @@
       }
     },
     {
-      "slug": "olx_4849",
+      "slug": "olx_bg_4849",
       "name": "Конуш",
       "region": "Област Хасково",
       "priority": false,
@@ -3728,7 +3728,7 @@
       }
     },
     {
-      "slug": "olx_4853",
+      "slug": "olx_bg_4853",
       "name": "Коньово",
       "region": "Област Сливен",
       "priority": false,
@@ -3737,7 +3737,7 @@
       }
     },
     {
-      "slug": "olx_4855",
+      "slug": "olx_bg_4855",
       "name": "Коняво",
       "region": "Област Кюстендил",
       "priority": false,
@@ -3746,7 +3746,7 @@
       }
     },
     {
-      "slug": "olx_4859",
+      "slug": "olx_bg_4859",
       "name": "Копиловци",
       "region": "Област Кюстендил",
       "priority": false,
@@ -3755,7 +3755,7 @@
       }
     },
     {
-      "slug": "olx_4873",
+      "slug": "olx_bg_4873",
       "name": "Копривщица",
       "region": "Област София-област",
       "priority": false,
@@ -3764,7 +3764,7 @@
       }
     },
     {
-      "slug": "olx_4875",
+      "slug": "olx_bg_4875",
       "name": "Копринка",
       "region": "Област Стара Загора",
       "priority": false,
@@ -3773,7 +3773,7 @@
       }
     },
     {
-      "slug": "olx_4891",
+      "slug": "olx_bg_4891",
       "name": "Кормянско",
       "region": "Област Габрово",
       "priority": false,
@@ -3782,7 +3782,7 @@
       }
     },
     {
-      "slug": "olx_4893",
+      "slug": "olx_bg_4893",
       "name": "Корница",
       "region": "Област Благоевград",
       "priority": false,
@@ -3791,7 +3791,7 @@
       }
     },
     {
-      "slug": "olx_4895",
+      "slug": "olx_bg_4895",
       "name": "Кортен",
       "region": "Област Сливен",
       "priority": false,
@@ -3800,7 +3800,7 @@
       }
     },
     {
-      "slug": "olx_4923",
+      "slug": "olx_bg_4923",
       "name": "Костандово",
       "region": "Област Пазарджик",
       "priority": false,
@@ -3809,7 +3809,7 @@
       }
     },
     {
-      "slug": "olx_4937",
+      "slug": "olx_bg_4937",
       "name": "Костенец",
       "region": "Област София-област",
       "priority": false,
@@ -3818,7 +3818,7 @@
       }
     },
     {
-      "slug": "olx_4945",
+      "slug": "olx_bg_4945",
       "name": "Костиево",
       "region": "Област Пловдив",
       "priority": false,
@@ -3827,7 +3827,7 @@
       }
     },
     {
-      "slug": "olx_4949",
+      "slug": "olx_bg_4949",
       "name": "Костинброд",
       "region": "Област София-област",
       "priority": false,
@@ -3836,7 +3836,7 @@
       }
     },
     {
-      "slug": "olx_4961",
+      "slug": "olx_bg_4961",
       "name": "Котел",
       "region": "Област Сливен",
       "priority": false,
@@ -3845,7 +3845,7 @@
       }
     },
     {
-      "slug": "olx_4971",
+      "slug": "olx_bg_4971",
       "name": "Кочан",
       "region": "Област Благоевград",
       "priority": false,
@@ -3854,7 +3854,7 @@
       }
     },
     {
-      "slug": "olx_4977",
+      "slug": "olx_bg_4977",
       "name": "Кочериново",
       "region": "Област Кюстендил",
       "priority": false,
@@ -3863,7 +3863,7 @@
       }
     },
     {
-      "slug": "olx_5005",
+      "slug": "olx_bg_5005",
       "name": "Краище",
       "region": "Област Благоевград",
       "priority": false,
@@ -3872,7 +3872,7 @@
       }
     },
     {
-      "slug": "olx_5015",
+      "slug": "olx_bg_5015",
       "name": "Крайници",
       "region": "Област Кюстендил",
       "priority": false,
@@ -3881,7 +3881,7 @@
       }
     },
     {
-      "slug": "olx_5025",
+      "slug": "olx_bg_5025",
       "name": "Кралев дол",
       "region": "Област Перник",
       "priority": false,
@@ -3890,7 +3890,7 @@
       }
     },
     {
-      "slug": "olx_5027",
+      "slug": "olx_bg_5027",
       "name": "Кралево",
       "region": "Област Търговище",
       "priority": false,
@@ -3899,7 +3899,7 @@
       }
     },
     {
-      "slug": "olx_5033",
+      "slug": "olx_bg_5033",
       "name": "Крамолин",
       "region": "Област Габрово",
       "priority": false,
@@ -3908,7 +3908,7 @@
       }
     },
     {
-      "slug": "olx_5037",
+      "slug": "olx_bg_5037",
       "name": "Кранево",
       "region": "Област Добрич",
       "priority": false,
@@ -3917,7 +3917,7 @@
       }
     },
     {
-      "slug": "olx_5075",
+      "slug": "olx_bg_5075",
       "name": "Крепост",
       "region": "Област Хасково",
       "priority": false,
@@ -3926,7 +3926,7 @@
       }
     },
     {
-      "slug": "olx_5077",
+      "slug": "olx_bg_5077",
       "name": "Крепча",
       "region": "Област Търговище",
       "priority": false,
@@ -3935,7 +3935,7 @@
       }
     },
     {
-      "slug": "olx_5091",
+      "slug": "olx_bg_5091",
       "name": "Крива бара",
       "region": "Област Монтана",
       "priority": false,
@@ -3944,7 +3944,7 @@
       }
     },
     {
-      "slug": "olx_5099",
+      "slug": "olx_bg_5099",
       "name": "Кривина",
       "region": "Област София-град",
       "priority": false,
@@ -3953,7 +3953,7 @@
       }
     },
     {
-      "slug": "olx_5113",
+      "slug": "olx_bg_5113",
       "name": "Криво поле",
       "region": "Област Хасково",
       "priority": false,
@@ -3962,7 +3962,7 @@
       }
     },
     {
-      "slug": "olx_5109",
+      "slug": "olx_bg_5109",
       "name": "Криводол",
       "region": "Област Враца",
       "priority": false,
@@ -3971,7 +3971,7 @@
       }
     },
     {
-      "slug": "olx_5123",
+      "slug": "olx_bg_5123",
       "name": "Кричим",
       "region": "Област Пловдив",
       "priority": false,
@@ -3980,7 +3980,7 @@
       }
     },
     {
-      "slug": "olx_5133",
+      "slug": "olx_bg_5133",
       "name": "Крумовград",
       "region": "Област Кърджали",
       "priority": false,
@@ -3989,7 +3989,7 @@
       }
     },
     {
-      "slug": "olx_5139",
+      "slug": "olx_bg_5139",
       "name": "Крумово",
       "region": "Област Пловдив",
       "priority": false,
@@ -3998,7 +3998,7 @@
       }
     },
     {
-      "slug": "olx_5141",
+      "slug": "olx_bg_5141",
       "name": "Крумово",
       "region": "Област Ямбол",
       "priority": false,
@@ -4007,7 +4007,7 @@
       }
     },
     {
-      "slug": "olx_5149",
+      "slug": "olx_bg_5149",
       "name": "Крупник",
       "region": "Област Благоевград",
       "priority": false,
@@ -4016,7 +4016,7 @@
       }
     },
     {
-      "slug": "olx_5155",
+      "slug": "olx_bg_5155",
       "name": "Крушаре",
       "region": "Област Сливен",
       "priority": false,
@@ -4025,7 +4025,7 @@
       }
     },
     {
-      "slug": "olx_5157",
+      "slug": "olx_bg_5157",
       "name": "Крушари",
       "region": "Област Добрич",
       "priority": false,
@@ -4034,7 +4034,7 @@
       }
     },
     {
-      "slug": "olx_5165",
+      "slug": "olx_bg_5165",
       "name": "Крушево",
       "region": "Област Габрово",
       "priority": false,
@@ -4043,7 +4043,7 @@
       }
     },
     {
-      "slug": "olx_5177",
+      "slug": "olx_bg_5177",
       "name": "Крушовица",
       "region": "Област Враца",
       "priority": false,
@@ -4052,7 +4052,7 @@
       }
     },
     {
-      "slug": "olx_5191",
+      "slug": "olx_bg_5191",
       "name": "Кръвеник",
       "region": "Област Габрово",
       "priority": false,
@@ -4061,7 +4061,7 @@
       }
     },
     {
-      "slug": "olx_5193",
+      "slug": "olx_bg_5193",
       "name": "Крън",
       "region": "Област Стара Загора",
       "priority": false,
@@ -4070,7 +4070,7 @@
       }
     },
     {
-      "slug": "olx_5215",
+      "slug": "olx_bg_5215",
       "name": "Кубрат",
       "region": "Област Разград",
       "priority": false,
@@ -4079,7 +4079,7 @@
       }
     },
     {
-      "slug": "olx_5223",
+      "slug": "olx_bg_5223",
       "name": "Куклен",
       "region": "Област Пловдив",
       "priority": false,
@@ -4088,7 +4088,7 @@
       }
     },
     {
-      "slug": "olx_5227",
+      "slug": "olx_bg_5227",
       "name": "Кукорево",
       "region": "Област Ямбол",
       "priority": false,
@@ -4097,7 +4097,7 @@
       }
     },
     {
-      "slug": "olx_5235",
+      "slug": "olx_bg_5235",
       "name": "Кула",
       "region": "Област Видин",
       "priority": false,
@@ -4106,7 +4106,7 @@
       }
     },
     {
-      "slug": "olx_5259",
+      "slug": "olx_bg_5259",
       "name": "Куртово Конаре",
       "region": "Област Пловдив",
       "priority": false,
@@ -4115,7 +4115,7 @@
       }
     },
     {
-      "slug": "olx_5347",
+      "slug": "olx_bg_5347",
       "name": "Кутово",
       "region": "Област Видин",
       "priority": false,
@@ -4124,7 +4124,7 @@
       }
     },
     {
-      "slug": "olx_5281",
+      "slug": "olx_bg_5281",
       "name": "Кънчево",
       "region": "Област Стара Загора",
       "priority": false,
@@ -4133,7 +4133,7 @@
       }
     },
     {
-      "slug": "olx_5289",
+      "slug": "olx_bg_5289",
       "name": "Кърджали",
       "region": "Област Кърджали",
       "priority": false,
@@ -4142,7 +4142,7 @@
       }
     },
     {
-      "slug": "olx_5291",
+      "slug": "olx_bg_5291",
       "name": "Кърналово",
       "region": "Област Благоевград",
       "priority": false,
@@ -4151,7 +4151,7 @@
       }
     },
     {
-      "slug": "olx_5309",
+      "slug": "olx_bg_5309",
       "name": "Късак",
       "region": "Област Смолян",
       "priority": false,
@@ -4160,7 +4160,7 @@
       }
     },
     {
-      "slug": "olx_5325",
+      "slug": "olx_bg_5325",
       "name": "Кюстендил",
       "region": "Област Кюстендил",
       "priority": false,
@@ -4169,7 +4169,7 @@
       }
     },
     {
-      "slug": "olx_5389",
+      "slug": "olx_bg_5389",
       "name": "Левски",
       "region": "Област Плевен",
       "priority": false,
@@ -4178,7 +4178,7 @@
       }
     },
     {
-      "slug": "olx_5407",
+      "slug": "olx_bg_5407",
       "name": "Лесидрен",
       "region": "Област Ловеч",
       "priority": false,
@@ -4187,7 +4187,7 @@
       }
     },
     {
-      "slug": "olx_5431",
+      "slug": "olx_bg_5431",
       "name": "Лесново",
       "region": "Област София-област",
       "priority": false,
@@ -4196,7 +4196,7 @@
       }
     },
     {
-      "slug": "olx_5433",
+      "slug": "olx_bg_5433",
       "name": "Лесово",
       "region": "Област Ямбол",
       "priority": false,
@@ -4205,7 +4205,7 @@
       }
     },
     {
-      "slug": "olx_5437",
+      "slug": "olx_bg_5437",
       "name": "Летница",
       "region": "Област Ловеч",
       "priority": false,
@@ -4214,7 +4214,7 @@
       }
     },
     {
-      "slug": "olx_5445",
+      "slug": "olx_bg_5445",
       "name": "Лехчево",
       "region": "Област Монтана",
       "priority": false,
@@ -4223,7 +4223,7 @@
       }
     },
     {
-      "slug": "olx_5475",
+      "slug": "olx_bg_5475",
       "name": "Лиляк",
       "region": "Област Търговище",
       "priority": false,
@@ -4232,7 +4232,7 @@
       }
     },
     {
-      "slug": "olx_5515",
+      "slug": "olx_bg_5515",
       "name": "Литаково",
       "region": "Област София-област",
       "priority": false,
@@ -4241,7 +4241,7 @@
       }
     },
     {
-      "slug": "olx_5525",
+      "slug": "olx_bg_5525",
       "name": "Ловеч",
       "region": "Област Ловеч",
       "priority": false,
@@ -4250,7 +4250,7 @@
       }
     },
     {
-      "slug": "olx_5527",
+      "slug": "olx_bg_5527",
       "name": "Ловнидол",
       "region": "Област Габрово",
       "priority": false,
@@ -4259,7 +4259,7 @@
       }
     },
     {
-      "slug": "olx_5531",
+      "slug": "olx_bg_5531",
       "name": "Ловчанци",
       "region": "Област Добрич",
       "priority": false,
@@ -4268,7 +4268,7 @@
       }
     },
     {
-      "slug": "olx_5543",
+      "slug": "olx_bg_5543",
       "name": "Лозен",
       "region": "Област София-град",
       "priority": false,
@@ -4277,7 +4277,7 @@
       }
     },
     {
-      "slug": "olx_5551",
+      "slug": "olx_bg_5551",
       "name": "Лозенец",
       "region": "Област Добрич",
       "priority": false,
@@ -4286,7 +4286,7 @@
       }
     },
     {
-      "slug": "olx_5553",
+      "slug": "olx_bg_5553",
       "name": "Лозенец",
       "region": "Област Ямбол",
       "priority": false,
@@ -4295,7 +4295,7 @@
       }
     },
     {
-      "slug": "olx_5561",
+      "slug": "olx_bg_5561",
       "name": "Лозница",
       "region": "Област Разград",
       "priority": false,
@@ -4304,7 +4304,7 @@
       }
     },
     {
-      "slug": "olx_5565",
+      "slug": "olx_bg_5565",
       "name": "Лозно",
       "region": "Област Кюстендил",
       "priority": false,
@@ -4313,7 +4313,7 @@
       }
     },
     {
-      "slug": "olx_5571",
+      "slug": "olx_bg_5571",
       "name": "Лом",
       "region": "Област Монтана",
       "priority": false,
@@ -4322,7 +4322,7 @@
       }
     },
     {
-      "slug": "olx_5581",
+      "slug": "olx_bg_5581",
       "name": "Ломци",
       "region": "Област Търговище",
       "priority": false,
@@ -4331,7 +4331,7 @@
       }
     },
     {
-      "slug": "olx_3391",
+      "slug": "olx_bg_3391",
       "name": "Лудогорци",
       "region": "Област Разград",
       "priority": false,
@@ -4340,7 +4340,7 @@
       }
     },
     {
-      "slug": "olx_5589",
+      "slug": "olx_bg_5589",
       "name": "Луковит",
       "region": "Област Ловеч",
       "priority": false,
@@ -4349,7 +4349,7 @@
       }
     },
     {
-      "slug": "olx_5595",
+      "slug": "olx_bg_5595",
       "name": "Лъвино",
       "region": "Област Разград",
       "priority": false,
@@ -4358,7 +4358,7 @@
       }
     },
     {
-      "slug": "olx_5603",
+      "slug": "olx_bg_5603",
       "name": "Лъжница",
       "region": "Област Благоевград",
       "priority": false,
@@ -4367,7 +4367,7 @@
       }
     },
     {
-      "slug": "olx_5613",
+      "slug": "olx_bg_5613",
       "name": "Лъки",
       "region": "Област Пловдив",
       "priority": false,
@@ -4376,7 +4376,7 @@
       }
     },
     {
-      "slug": "olx_5617",
+      "slug": "olx_bg_5617",
       "name": "Любен",
       "region": "Област Силистра",
       "priority": false,
@@ -4385,7 +4385,7 @@
       }
     },
     {
-      "slug": "olx_5621",
+      "slug": "olx_bg_5621",
       "name": "Любен Каравелово",
       "region": "Област Варна",
       "priority": false,
@@ -4394,7 +4394,7 @@
       }
     },
     {
-      "slug": "olx_5633",
+      "slug": "olx_bg_5633",
       "name": "Любимец",
       "region": "Област Хасково",
       "priority": false,
@@ -4403,7 +4403,7 @@
       }
     },
     {
-      "slug": "olx_5647",
+      "slug": "olx_bg_5647",
       "name": "Любча",
       "region": "Област Смолян",
       "priority": false,
@@ -4412,7 +4412,7 @@
       }
     },
     {
-      "slug": "olx_5649",
+      "slug": "olx_bg_5649",
       "name": "Люлин",
       "region": "Област Перник",
       "priority": false,
@@ -4421,7 +4421,7 @@
       }
     },
     {
-      "slug": "olx_5657",
+      "slug": "olx_bg_5657",
       "name": "Люляково",
       "region": "Област Бургас",
       "priority": false,
@@ -4430,7 +4430,7 @@
       }
     },
     {
-      "slug": "olx_5661",
+      "slug": "olx_bg_5661",
       "name": "Люляково",
       "region": "Област Добрич",
       "priority": false,
@@ -4439,7 +4439,7 @@
       }
     },
     {
-      "slug": "olx_5675",
+      "slug": "olx_bg_5675",
       "name": "Лясковец",
       "region": "Област Велико Търново",
       "priority": false,
@@ -4448,7 +4448,7 @@
       }
     },
     {
-      "slug": "olx_5681",
+      "slug": "olx_bg_5681",
       "name": "Лясково",
       "region": "Област Кърджали",
       "priority": false,
@@ -4457,7 +4457,7 @@
       }
     },
     {
-      "slug": "olx_5685",
+      "slug": "olx_bg_5685",
       "name": "Лясково",
       "region": "Област Смолян",
       "priority": false,
@@ -4466,7 +4466,7 @@
       }
     },
     {
-      "slug": "olx_5705",
+      "slug": "olx_bg_5705",
       "name": "Мадан",
       "region": "Област Смолян",
       "priority": false,
@@ -4475,7 +4475,7 @@
       }
     },
     {
-      "slug": "olx_5707",
+      "slug": "olx_bg_5707",
       "name": "Мадара",
       "region": "Област Шумен",
       "priority": false,
@@ -4484,7 +4484,7 @@
       }
     },
     {
-      "slug": "olx_5713",
+      "slug": "olx_bg_5713",
       "name": "Маджарово",
       "region": "Област Хасково",
       "priority": false,
@@ -4493,7 +4493,7 @@
       }
     },
     {
-      "slug": "olx_5727",
+      "slug": "olx_bg_5727",
       "name": "Макариополско",
       "region": "Област Търговище",
       "priority": false,
@@ -4502,7 +4502,7 @@
       }
     },
     {
-      "slug": "olx_5745",
+      "slug": "olx_bg_5745",
       "name": "Малево",
       "region": "Област Хасково",
       "priority": false,
@@ -4511,7 +4511,7 @@
       }
     },
     {
-      "slug": "olx_5813",
+      "slug": "olx_bg_5813",
       "name": "Малко Търново",
       "region": "Област Бургас",
       "priority": false,
@@ -4520,7 +4520,7 @@
       }
     },
     {
-      "slug": "olx_5795",
+      "slug": "olx_bg_5795",
       "name": "Малко градище",
       "region": "Област Хасково",
       "priority": false,
@@ -4529,7 +4529,7 @@
       }
     },
     {
-      "slug": "olx_5825",
+      "slug": "olx_bg_5825",
       "name": "Мало Конаре",
       "region": "Област Пазарджик",
       "priority": false,
@@ -4538,7 +4538,7 @@
       }
     },
     {
-      "slug": "olx_5833",
+      "slug": "olx_bg_5833",
       "name": "Маломир",
       "region": "Област Ямбол",
       "priority": false,
@@ -4547,7 +4547,7 @@
       }
     },
     {
-      "slug": "olx_5839",
+      "slug": "olx_bg_5839",
       "name": "Малорад",
       "region": "Област Враца",
       "priority": false,
@@ -4556,7 +4556,7 @@
       }
     },
     {
-      "slug": "olx_5891",
+      "slug": "olx_bg_5891",
       "name": "Маноле",
       "region": "Област Пловдив",
       "priority": false,
@@ -4565,7 +4565,7 @@
       }
     },
     {
-      "slug": "olx_5925",
+      "slug": "olx_bg_5925",
       "name": "Марково",
       "region": "Област Пловдив",
       "priority": false,
@@ -4574,7 +4574,7 @@
       }
     },
     {
-      "slug": "olx_5933",
+      "slug": "olx_bg_5933",
       "name": "Мартен",
       "region": "Област Русе",
       "priority": false,
@@ -4583,7 +4583,7 @@
       }
     },
     {
-      "slug": "olx_5975",
+      "slug": "olx_bg_5975",
       "name": "Медковец",
       "region": "Област Монтана",
       "priority": false,
@@ -4592,7 +4592,7 @@
       }
     },
     {
-      "slug": "olx_5981",
+      "slug": "olx_bg_5981",
       "name": "Медовец",
       "region": "Област Варна",
       "priority": false,
@@ -4601,7 +4601,7 @@
       }
     },
     {
-      "slug": "olx_5983",
+      "slug": "olx_bg_5983",
       "name": "Медовина",
       "region": "Област Търговище",
       "priority": false,
@@ -4610,7 +4610,7 @@
       }
     },
     {
-      "slug": "olx_5995",
+      "slug": "olx_bg_5995",
       "name": "Межден",
       "region": "Област Силистра",
       "priority": false,
@@ -4619,7 +4619,7 @@
       }
     },
     {
-      "slug": "olx_5999",
+      "slug": "olx_bg_5999",
       "name": "Мездра",
       "region": "Област Враца",
       "priority": false,
@@ -4628,7 +4628,7 @@
       }
     },
     {
-      "slug": "olx_6005",
+      "slug": "olx_bg_6005",
       "name": "Мелник",
       "region": "Област Благоевград",
       "priority": false,
@@ -4637,7 +4637,7 @@
       }
     },
     {
-      "slug": "olx_6021",
+      "slug": "olx_bg_6021",
       "name": "Меричлери",
       "region": "Област Хасково",
       "priority": false,
@@ -4646,7 +4646,7 @@
       }
     },
     {
-      "slug": "olx_6053",
+      "slug": "olx_bg_6053",
       "name": "Мещица",
       "region": "Област Перник",
       "priority": false,
@@ -4655,7 +4655,7 @@
       }
     },
     {
-      "slug": "olx_6055",
+      "slug": "olx_bg_6055",
       "name": "Мизия",
       "region": "Област Враца",
       "priority": false,
@@ -4664,7 +4664,7 @@
       }
     },
     {
-      "slug": "olx_6345",
+      "slug": "olx_bg_6345",
       "name": "Микрево",
       "region": "Област Благоевград",
       "priority": false,
@@ -4673,7 +4673,7 @@
       }
     },
     {
-      "slug": "olx_6083",
+      "slug": "olx_bg_6083",
       "name": "Милковица",
       "region": "Област Плевен",
       "priority": false,
@@ -4682,7 +4682,7 @@
       }
     },
     {
-      "slug": "olx_6099",
+      "slug": "olx_bg_6099",
       "name": "Минерални бани",
       "region": "Област Хасково",
       "priority": false,
@@ -4691,7 +4691,7 @@
       }
     },
     {
-      "slug": "olx_6103",
+      "slug": "olx_bg_6103",
       "name": "Мирково",
       "region": "Област София-област",
       "priority": false,
@@ -4700,7 +4700,7 @@
       }
     },
     {
-      "slug": "olx_6117",
+      "slug": "olx_bg_6117",
       "name": "Мировяне",
       "region": "Област София-град",
       "priority": false,
@@ -4709,7 +4709,7 @@
       }
     },
     {
-      "slug": "olx_6133",
+      "slug": "olx_bg_6133",
       "name": "Михайлово",
       "region": "Област Враца",
       "priority": false,
@@ -4718,7 +4718,7 @@
       }
     },
     {
-      "slug": "olx_6171",
+      "slug": "olx_bg_6171",
       "name": "Мламолово",
       "region": "Област Кюстендил",
       "priority": false,
@@ -4727,7 +4727,7 @@
       }
     },
     {
-      "slug": "olx_6201",
+      "slug": "olx_bg_6201",
       "name": "Мокрище",
       "region": "Област Пазарджик",
       "priority": false,
@@ -4736,7 +4736,7 @@
       }
     },
     {
-      "slug": "olx_6349",
+      "slug": "olx_bg_6349",
       "name": "Момин проход",
       "region": "Област София-област",
       "priority": false,
@@ -4745,7 +4745,7 @@
       }
     },
     {
-      "slug": "olx_6217",
+      "slug": "olx_bg_6217",
       "name": "Момково",
       "region": "Област Хасково",
       "priority": false,
@@ -4754,7 +4754,7 @@
       }
     },
     {
-      "slug": "olx_6221",
+      "slug": "olx_bg_6221",
       "name": "Момчилград",
       "region": "Област Кърджали",
       "priority": false,
@@ -4763,7 +4763,7 @@
       }
     },
     {
-      "slug": "olx_6225",
+      "slug": "olx_bg_6225",
       "name": "Момчиловци",
       "region": "Област Смолян",
       "priority": false,
@@ -4772,7 +4772,7 @@
       }
     },
     {
-      "slug": "olx_6131",
+      "slug": "olx_bg_6131",
       "name": "Монтана",
       "region": "Област Монтана",
       "priority": false,
@@ -4781,7 +4781,7 @@
       }
     },
     {
-      "slug": "olx_6239",
+      "slug": "olx_bg_6239",
       "name": "Мортагоново",
       "region": "Област Разград",
       "priority": false,
@@ -4790,7 +4790,7 @@
       }
     },
     {
-      "slug": "olx_6245",
+      "slug": "olx_bg_6245",
       "name": "Мост",
       "region": "Област Кърджали",
       "priority": false,
@@ -4799,7 +4799,7 @@
       }
     },
     {
-      "slug": "olx_6259",
+      "slug": "olx_bg_6259",
       "name": "Мрамор",
       "region": "Област София-град",
       "priority": false,
@@ -4808,7 +4808,7 @@
       }
     },
     {
-      "slug": "olx_6305",
+      "slug": "olx_bg_6305",
       "name": "Мусомища",
       "region": "Област Благоевград",
       "priority": false,
@@ -4817,7 +4817,7 @@
       }
     },
     {
-      "slug": "olx_6317",
+      "slug": "olx_bg_6317",
       "name": "Мъглиж",
       "region": "Област Стара Загора",
       "priority": false,
@@ -4826,7 +4826,7 @@
       }
     },
     {
-      "slug": "olx_6335",
+      "slug": "olx_bg_6335",
       "name": "Мърчаево",
       "region": "Област София-град",
       "priority": false,
@@ -4835,7 +4835,7 @@
       }
     },
     {
-      "slug": "olx_6387",
+      "slug": "olx_bg_6387",
       "name": "Невестино",
       "region": "Област Кюстендил",
       "priority": false,
@@ -4844,7 +4844,7 @@
       }
     },
     {
-      "slug": "olx_6391",
+      "slug": "olx_bg_6391",
       "name": "Негован",
       "region": "Област София-град",
       "priority": false,
@@ -4853,7 +4853,7 @@
       }
     },
     {
-      "slug": "olx_6393",
+      "slug": "olx_bg_6393",
       "name": "Неговановци",
       "region": "Област Видин",
       "priority": false,
@@ -4862,7 +4862,7 @@
       }
     },
     {
-      "slug": "olx_6399",
+      "slug": "olx_bg_6399",
       "name": "Недан",
       "region": "Област Велико Търново",
       "priority": false,
@@ -4871,7 +4871,7 @@
       }
     },
     {
-      "slug": "olx_6403",
+      "slug": "olx_bg_6403",
       "name": "Неделино",
       "region": "Област Смолян",
       "priority": false,
@@ -4880,7 +4880,7 @@
       }
     },
     {
-      "slug": "olx_6439",
+      "slug": "olx_bg_6439",
       "name": "Несебър",
       "region": "Област Бургас",
       "priority": false,
@@ -4889,7 +4889,7 @@
       }
     },
     {
-      "slug": "olx_6463",
+      "slug": "olx_bg_6463",
       "name": "Николаево",
       "region": "Област Стара Загора",
       "priority": false,
@@ -4898,7 +4898,7 @@
       }
     },
     {
-      "slug": "olx_6469",
+      "slug": "olx_bg_6469",
       "name": "Николово",
       "region": "Област Русе",
       "priority": false,
@@ -4907,7 +4907,7 @@
       }
     },
     {
-      "slug": "olx_6479",
+      "slug": "olx_bg_6479",
       "name": "Никопол",
       "region": "Област Плевен",
       "priority": false,
@@ -4916,7 +4916,7 @@
       }
     },
     {
-      "slug": "olx_6493",
+      "slug": "olx_bg_6493",
       "name": "Нова Загора",
       "region": "Област Сливен",
       "priority": false,
@@ -4925,7 +4925,7 @@
       }
     },
     {
-      "slug": "olx_6521",
+      "slug": "olx_bg_6521",
       "name": "Нова Черна",
       "region": "Област Силистра",
       "priority": false,
@@ -4934,7 +4934,7 @@
       }
     },
     {
-      "slug": "olx_6507",
+      "slug": "olx_bg_6507",
       "name": "Нова махала",
       "region": "Област Пазарджик",
       "priority": false,
@@ -4943,7 +4943,7 @@
       }
     },
     {
-      "slug": "olx_65",
+      "slug": "olx_bg_65",
       "name": "Нови Искър",
       "region": "Област София-град",
       "priority": false,
@@ -4952,7 +4952,7 @@
       }
     },
     {
-      "slug": "olx_6531",
+      "slug": "olx_bg_6531",
       "name": "Нови пазар",
       "region": "Област Шумен",
       "priority": false,
@@ -4961,7 +4961,7 @@
       }
     },
     {
-      "slug": "olx_6533",
+      "slug": "olx_bg_6533",
       "name": "Нови хан",
       "region": "Област София-област",
       "priority": false,
@@ -4970,7 +4970,7 @@
       }
     },
     {
-      "slug": "olx_6565",
+      "slug": "olx_bg_6565",
       "name": "Ново село",
       "region": "Област Видин",
       "priority": false,
@@ -4979,7 +4979,7 @@
       }
     },
     {
-      "slug": "olx_6571",
+      "slug": "olx_bg_6571",
       "name": "Ново село",
       "region": "Област Пловдив",
       "priority": false,
@@ -4988,7 +4988,7 @@
       }
     },
     {
-      "slug": "olx_6573",
+      "slug": "olx_bg_6573",
       "name": "Ново село",
       "region": "Област Русе",
       "priority": false,
@@ -4997,7 +4997,7 @@
       }
     },
     {
-      "slug": "olx_6581",
+      "slug": "olx_bg_6581",
       "name": "Новоселци",
       "region": "Област Видин",
       "priority": false,
@@ -5006,7 +5006,7 @@
       }
     },
     {
-      "slug": "olx_6589",
+      "slug": "olx_bg_6589",
       "name": "Ноевци",
       "region": "Област Перник",
       "priority": false,
@@ -5015,7 +5015,7 @@
       }
     },
     {
-      "slug": "olx_6609",
+      "slug": "olx_bg_6609",
       "name": "Обзор",
       "region": "Област Бургас",
       "priority": false,
@@ -5024,7 +5024,7 @@
       }
     },
     {
-      "slug": "olx_6613",
+      "slug": "olx_bg_6613",
       "name": "Обител",
       "region": "Област Търговище",
       "priority": false,
@@ -5033,7 +5033,7 @@
       }
     },
     {
-      "slug": "olx_6617",
+      "slug": "olx_bg_6617",
       "name": "Обнова",
       "region": "Област Плевен",
       "priority": false,
@@ -5042,7 +5042,7 @@
       }
     },
     {
-      "slug": "olx_6623",
+      "slug": "olx_bg_6623",
       "name": "Обретеник",
       "region": "Област Русе",
       "priority": false,
@@ -5051,7 +5051,7 @@
       }
     },
     {
-      "slug": "olx_6625",
+      "slug": "olx_bg_6625",
       "name": "Оброчище",
       "region": "Област Добрич",
       "priority": false,
@@ -5060,7 +5060,7 @@
       }
     },
     {
-      "slug": "olx_6627",
+      "slug": "olx_bg_6627",
       "name": "Обручище",
       "region": "Област Стара Загора",
       "priority": false,
@@ -5069,7 +5069,7 @@
       }
     },
     {
-      "slug": "olx_6629",
+      "slug": "olx_bg_6629",
       "name": "Овен",
       "region": "Област Силистра",
       "priority": false,
@@ -5078,7 +5078,7 @@
       }
     },
     {
-      "slug": "olx_6635",
+      "slug": "olx_bg_6635",
       "name": "Овощник",
       "region": "Област Стара Загора",
       "priority": false,
@@ -5087,7 +5087,7 @@
       }
     },
     {
-      "slug": "olx_6639",
+      "slug": "olx_bg_6639",
       "name": "Овча могила",
       "region": "Област Велико Търново",
       "priority": false,
@@ -5096,7 +5096,7 @@
       }
     },
     {
-      "slug": "olx_6645",
+      "slug": "olx_bg_6645",
       "name": "Овчарово",
       "region": "Област Търговище",
       "priority": false,
@@ -5105,7 +5105,7 @@
       }
     },
     {
-      "slug": "olx_6651",
+      "slug": "olx_bg_6651",
       "name": "Овчарци",
       "region": "Област Кюстендил",
       "priority": false,
@@ -5114,7 +5114,7 @@
       }
     },
     {
-      "slug": "olx_6665",
+      "slug": "olx_bg_6665",
       "name": "Огняново",
       "region": "Област Благоевград",
       "priority": false,
@@ -5123,7 +5123,7 @@
       }
     },
     {
-      "slug": "olx_6667",
+      "slug": "olx_bg_6667",
       "name": "Огняново",
       "region": "Област Пазарджик",
       "priority": false,
@@ -5132,7 +5132,7 @@
       }
     },
     {
-      "slug": "olx_6689",
+      "slug": "olx_bg_6689",
       "name": "Одърци",
       "region": "Област Добрич",
       "priority": false,
@@ -5141,7 +5141,7 @@
       }
     },
     {
-      "slug": "olx_6695",
+      "slug": "olx_bg_6695",
       "name": "Окоп",
       "region": "Област Ямбол",
       "priority": false,
@@ -5150,7 +5150,7 @@
       }
     },
     {
-      "slug": "olx_6697",
+      "slug": "olx_bg_6697",
       "name": "Окорш",
       "region": "Област Силистра",
       "priority": false,
@@ -5159,7 +5159,7 @@
       }
     },
     {
-      "slug": "olx_6705",
+      "slug": "olx_bg_6705",
       "name": "Омуртаг",
       "region": "Област Търговище",
       "priority": false,
@@ -5168,7 +5168,7 @@
       }
     },
     {
-      "slug": "olx_6709",
+      "slug": "olx_bg_6709",
       "name": "Опака",
       "region": "Област Търговище",
       "priority": false,
@@ -5177,7 +5177,7 @@
       }
     },
     {
-      "slug": "olx_6713",
+      "slug": "olx_bg_6713",
       "name": "Опанец",
       "region": "Област Плевен",
       "priority": false,
@@ -5186,7 +5186,7 @@
       }
     },
     {
-      "slug": "olx_6723",
+      "slug": "olx_bg_6723",
       "name": "Опълченско",
       "region": "Област Кърджали",
       "priority": false,
@@ -5195,7 +5195,7 @@
       }
     },
     {
-      "slug": "olx_6731",
+      "slug": "olx_bg_6731",
       "name": "Ореш",
       "region": "Област Велико Търново",
       "priority": false,
@@ -5204,7 +5204,7 @@
       }
     },
     {
-      "slug": "olx_6735",
+      "slug": "olx_bg_6735",
       "name": "Орешак",
       "region": "Област Ловеч",
       "priority": false,
@@ -5213,7 +5213,7 @@
       }
     },
     {
-      "slug": "olx_6755",
+      "slug": "olx_bg_6755",
       "name": "Орешник",
       "region": "Област Хасково",
       "priority": false,
@@ -5222,7 +5222,7 @@
       }
     },
     {
-      "slug": "olx_6759",
+      "slug": "olx_bg_6759",
       "name": "Оризаре",
       "region": "Област Бургас",
       "priority": false,
@@ -5231,7 +5231,7 @@
       }
     },
     {
-      "slug": "olx_6765",
+      "slug": "olx_bg_6765",
       "name": "Оризово",
       "region": "Област Стара Загора",
       "priority": false,
@@ -5240,7 +5240,7 @@
       }
     },
     {
-      "slug": "olx_6781",
+      "slug": "olx_bg_6781",
       "name": "Орляк",
       "region": "Област Добрич",
       "priority": false,
@@ -5249,7 +5249,7 @@
       }
     },
     {
-      "slug": "olx_6791",
+      "slug": "olx_bg_6791",
       "name": "Оряховец",
       "region": "Област Смолян",
       "priority": false,
@@ -5258,7 +5258,7 @@
       }
     },
     {
-      "slug": "olx_6795",
+      "slug": "olx_bg_6795",
       "name": "Оряхово",
       "region": "Област Враца",
       "priority": false,
@@ -5267,7 +5267,7 @@
       }
     },
     {
-      "slug": "olx_6857",
+      "slug": "olx_bg_6857",
       "name": "Остров",
       "region": "Област Враца",
       "priority": false,
@@ -5276,7 +5276,7 @@
       }
     },
     {
-      "slug": "olx_6863",
+      "slug": "olx_bg_6863",
       "name": "Острово",
       "region": "Област Разград",
       "priority": false,
@@ -5285,7 +5285,7 @@
       }
     },
     {
-      "slug": "olx_6895",
+      "slug": "olx_bg_6895",
       "name": "Павел баня",
       "region": "Област Стара Загора",
       "priority": false,
@@ -5294,7 +5294,7 @@
       }
     },
     {
-      "slug": "olx_6897",
+      "slug": "olx_bg_6897",
       "name": "Павелско",
       "region": "Област Смолян",
       "priority": false,
@@ -5303,7 +5303,7 @@
       }
     },
     {
-      "slug": "olx_6901",
+      "slug": "olx_bg_6901",
       "name": "Павликени",
       "region": "Област Велико Търново",
       "priority": false,
@@ -5312,7 +5312,7 @@
       }
     },
     {
-      "slug": "olx_6913",
+      "slug": "olx_bg_6913",
       "name": "Падина",
       "region": "Област Кърджали",
       "priority": false,
@@ -5321,7 +5321,7 @@
       }
     },
     {
-      "slug": "olx_6919",
+      "slug": "olx_bg_6919",
       "name": "Пазарджик",
       "region": "Област Пазарджик",
       "priority": false,
@@ -5330,7 +5330,7 @@
       }
     },
     {
-      "slug": "olx_10907",
+      "slug": "olx_bg_10907",
       "name": "Пампорово",
       "region": "Област Смолян",
       "priority": false,
@@ -5339,7 +5339,7 @@
       }
     },
     {
-      "slug": "olx_6945",
+      "slug": "olx_bg_6945",
       "name": "Памукчии",
       "region": "Област Шумен",
       "priority": false,
@@ -5348,7 +5348,7 @@
       }
     },
     {
-      "slug": "olx_6947",
+      "slug": "olx_bg_6947",
       "name": "Панагюрище",
       "region": "Област Пазарджик",
       "priority": false,
@@ -5357,7 +5357,7 @@
       }
     },
     {
-      "slug": "olx_3143",
+      "slug": "olx_bg_3143",
       "name": "Паничерево",
       "region": "Област Стара Загора",
       "priority": false,
@@ -5366,7 +5366,7 @@
       }
     },
     {
-      "slug": "olx_6967",
+      "slug": "olx_bg_6967",
       "name": "Панчарево",
       "region": "Област София-град",
       "priority": false,
@@ -5375,7 +5375,7 @@
       }
     },
     {
-      "slug": "olx_6979",
+      "slug": "olx_bg_6979",
       "name": "Партизани",
       "region": "Област Варна",
       "priority": false,
@@ -5384,7 +5384,7 @@
       }
     },
     {
-      "slug": "olx_6987",
+      "slug": "olx_bg_6987",
       "name": "Паскалево",
       "region": "Област Добрич",
       "priority": false,
@@ -5393,7 +5393,7 @@
       }
     },
     {
-      "slug": "olx_7031",
+      "slug": "olx_bg_7031",
       "name": "Пелин",
       "region": "Област Кърджали",
       "priority": false,
@@ -5402,7 +5402,7 @@
       }
     },
     {
-      "slug": "olx_7049",
+      "slug": "olx_bg_7049",
       "name": "Перник",
       "region": "Област Перник",
       "priority": false,
@@ -5411,7 +5411,7 @@
       }
     },
     {
-      "slug": "olx_7051",
+      "slug": "olx_bg_7051",
       "name": "Перперек",
       "region": "Област Кърджали",
       "priority": false,
@@ -5420,7 +5420,7 @@
       }
     },
     {
-      "slug": "olx_7055",
+      "slug": "olx_bg_7055",
       "name": "Перущица",
       "region": "Област Пловдив",
       "priority": false,
@@ -5429,7 +5429,7 @@
       }
     },
     {
-      "slug": "olx_7083",
+      "slug": "olx_bg_7083",
       "name": "Пет могили",
       "region": "Област Шумен",
       "priority": false,
@@ -5438,7 +5438,7 @@
       }
     },
     {
-      "slug": "olx_8275",
+      "slug": "olx_bg_8275",
       "name": "Петко Каравелово",
       "region": "Област Велико Търново",
       "priority": false,
@@ -5447,7 +5447,7 @@
       }
     },
     {
-      "slug": "olx_7075",
+      "slug": "olx_bg_7075",
       "name": "Петко Славейков",
       "region": "Област Габрово",
       "priority": false,
@@ -5456,7 +5456,7 @@
       }
     },
     {
-      "slug": "olx_7093",
+      "slug": "olx_bg_7093",
       "name": "Петрич",
       "region": "Област Благоевград",
       "priority": false,
@@ -5465,7 +5465,7 @@
       }
     },
     {
-      "slug": "olx_7109",
+      "slug": "olx_bg_7109",
       "name": "Петърч",
       "region": "Област София-област",
       "priority": false,
@@ -5474,7 +5474,7 @@
       }
     },
     {
-      "slug": "olx_7119",
+      "slug": "olx_bg_7119",
       "name": "Пещера",
       "region": "Област Пазарджик",
       "priority": false,
@@ -5483,7 +5483,7 @@
       }
     },
     {
-      "slug": "olx_7139",
+      "slug": "olx_bg_7139",
       "name": "Пиперков чифлик",
       "region": "Област Кюстендил",
       "priority": false,
@@ -5492,7 +5492,7 @@
       }
     },
     {
-      "slug": "olx_7143",
+      "slug": "olx_bg_7143",
       "name": "Пиргово",
       "region": "Област Русе",
       "priority": false,
@@ -5501,7 +5501,7 @@
       }
     },
     {
-      "slug": "olx_7145",
+      "slug": "olx_bg_7145",
       "name": "Пирдоп",
       "region": "Област София-област",
       "priority": false,
@@ -5510,7 +5510,7 @@
       }
     },
     {
-      "slug": "olx_7187",
+      "slug": "olx_bg_7187",
       "name": "Планиница",
       "region": "Област Бургас",
       "priority": false,
@@ -5519,7 +5519,7 @@
       }
     },
     {
-      "slug": "olx_7197",
+      "slug": "olx_bg_7197",
       "name": "Плачидол",
       "region": "Област Добрич",
       "priority": false,
@@ -5528,7 +5528,7 @@
       }
     },
     {
-      "slug": "olx_7201",
+      "slug": "olx_bg_7201",
       "name": "Плачковци",
       "region": "Област Габрово",
       "priority": false,
@@ -5537,7 +5537,7 @@
       }
     },
     {
-      "slug": "olx_7207",
+      "slug": "olx_bg_7207",
       "name": "Плетена",
       "region": "Област Благоевград",
       "priority": false,
@@ -5546,7 +5546,7 @@
       }
     },
     {
-      "slug": "olx_7213",
+      "slug": "olx_bg_7213",
       "name": "Плиска",
       "region": "Област Шумен",
       "priority": false,
@@ -5555,7 +5555,7 @@
       }
     },
     {
-      "slug": "olx_7229",
+      "slug": "olx_bg_7229",
       "name": "Плъстина",
       "region": "Област Търговище",
       "priority": false,
@@ -5564,7 +5564,7 @@
       }
     },
     {
-      "slug": "olx_2823",
+      "slug": "olx_bg_2823",
       "name": "Победа",
       "region": "Област Добрич",
       "priority": false,
@@ -5573,7 +5573,7 @@
       }
     },
     {
-      "slug": "olx_7233",
+      "slug": "olx_bg_7233",
       "name": "Победа",
       "region": "Област Ямбол",
       "priority": false,
@@ -5582,7 +5582,7 @@
       }
     },
     {
-      "slug": "olx_7245",
+      "slug": "olx_bg_7245",
       "name": "Подайва",
       "region": "Област Разград",
       "priority": false,
@@ -5591,7 +5591,7 @@
       }
     },
     {
-      "slug": "olx_7257",
+      "slug": "olx_bg_7257",
       "name": "Подгорица",
       "region": "Област Търговище",
       "priority": false,
@@ -5600,7 +5600,7 @@
       }
     },
     {
-      "slug": "olx_7283",
+      "slug": "olx_bg_7283",
       "name": "Покрайна",
       "region": "Област Видин",
       "priority": false,
@@ -5609,7 +5609,7 @@
       }
     },
     {
-      "slug": "olx_7299",
+      "slug": "olx_bg_7299",
       "name": "Поликраище",
       "region": "Област Велико Търново",
       "priority": false,
@@ -5618,7 +5618,7 @@
       }
     },
     {
-      "slug": "olx_7303",
+      "slug": "olx_bg_7303",
       "name": "Полковник Желязово",
       "region": "Област Кърджали",
       "priority": false,
@@ -5627,7 +5627,7 @@
       }
     },
     {
-      "slug": "olx_7325",
+      "slug": "olx_bg_7325",
       "name": "Полски Тръмбеш",
       "region": "Област Велико Търново",
       "priority": false,
@@ -5636,7 +5636,7 @@
       }
     },
     {
-      "slug": "olx_7327",
+      "slug": "olx_bg_7327",
       "name": "Полско Косово",
       "region": "Област Русе",
       "priority": false,
@@ -5645,7 +5645,7 @@
       }
     },
     {
-      "slug": "olx_7351",
+      "slug": "olx_bg_7351",
       "name": "Поморие",
       "region": "Област Бургас",
       "priority": false,
@@ -5654,7 +5654,7 @@
       }
     },
     {
-      "slug": "olx_7365",
+      "slug": "olx_bg_7365",
       "name": "Попгруево",
       "region": "Област Добрич",
       "priority": false,
@@ -5663,7 +5663,7 @@
       }
     },
     {
-      "slug": "olx_7369",
+      "slug": "olx_bg_7369",
       "name": "Попинци",
       "region": "Област Пазарджик",
       "priority": false,
@@ -5672,7 +5672,7 @@
       }
     },
     {
-      "slug": "olx_7371",
+      "slug": "olx_bg_7371",
       "name": "Попица",
       "region": "Област Враца",
       "priority": false,
@@ -5681,7 +5681,7 @@
       }
     },
     {
-      "slug": "olx_7381",
+      "slug": "olx_bg_7381",
       "name": "Попово",
       "region": "Област Търговище",
       "priority": false,
@@ -5690,7 +5690,7 @@
       }
     },
     {
-      "slug": "olx_7387",
+      "slug": "olx_bg_7387",
       "name": "Поповци",
       "region": "Област Габрово",
       "priority": false,
@@ -5699,7 +5699,7 @@
       }
     },
     {
-      "slug": "olx_7407",
+      "slug": "olx_bg_7407",
       "name": "Пордим",
       "region": "Област Плевен",
       "priority": false,
@@ -5708,7 +5708,7 @@
       }
     },
     {
-      "slug": "olx_7413",
+      "slug": "olx_bg_7413",
       "name": "Поройно",
       "region": "Област Силистра",
       "priority": false,
@@ -5717,7 +5717,7 @@
       }
     },
     {
-      "slug": "olx_7445",
+      "slug": "olx_bg_7445",
       "name": "Правда",
       "region": "Област Силистра",
       "priority": false,
@@ -5726,7 +5726,7 @@
       }
     },
     {
-      "slug": "olx_7453",
+      "slug": "olx_bg_7453",
       "name": "Правец",
       "region": "Област София-област",
       "priority": false,
@@ -5735,7 +5735,7 @@
       }
     },
     {
-      "slug": "olx_7515",
+      "slug": "olx_bg_7515",
       "name": "Приморско",
       "region": "Област Бургас",
       "priority": false,
@@ -5744,7 +5744,7 @@
       }
     },
     {
-      "slug": "olx_7521",
+      "slug": "olx_bg_7521",
       "name": "Припек",
       "region": "Област Кърджали",
       "priority": false,
@@ -5753,7 +5753,7 @@
       }
     },
     {
-      "slug": "olx_7543",
+      "slug": "olx_bg_7543",
       "name": "Провадия",
       "region": "Област Варна",
       "priority": false,
@@ -5762,7 +5762,7 @@
       }
     },
     {
-      "slug": "olx_7577",
+      "slug": "olx_bg_7577",
       "name": "Професор Иширково",
       "region": "Област Силистра",
       "priority": false,
@@ -5771,7 +5771,7 @@
       }
     },
     {
-      "slug": "olx_10901",
+      "slug": "olx_bg_10901",
       "name": "Пчелина",
       "region": "Област Перник",
       "priority": false,
@@ -5780,7 +5780,7 @@
       }
     },
     {
-      "slug": "olx_7617",
+      "slug": "olx_bg_7617",
       "name": "Пчелник",
       "region": "Област Варна",
       "priority": false,
@@ -5789,7 +5789,7 @@
       }
     },
     {
-      "slug": "olx_7627",
+      "slug": "olx_bg_7627",
       "name": "Пъдарино",
       "region": "Област Търговище",
       "priority": false,
@@ -5798,7 +5798,7 @@
       }
     },
     {
-      "slug": "olx_7637",
+      "slug": "olx_bg_7637",
       "name": "Първенец",
       "region": "Област Пловдив",
       "priority": false,
@@ -5807,7 +5807,7 @@
       }
     },
     {
-      "slug": "olx_7645",
+      "slug": "olx_bg_7645",
       "name": "Първомай",
       "region": "Област Благоевград",
       "priority": false,
@@ -5816,7 +5816,7 @@
       }
     },
     {
-      "slug": "olx_7647",
+      "slug": "olx_bg_7647",
       "name": "Първомай",
       "region": "Област Пловдив",
       "priority": false,
@@ -5825,7 +5825,7 @@
       }
     },
     {
-      "slug": "olx_7649",
+      "slug": "olx_bg_7649",
       "name": "Първомайци",
       "region": "Област Велико Търново",
       "priority": false,
@@ -5834,7 +5834,7 @@
       }
     },
     {
-      "slug": "olx_7703",
+      "slug": "olx_bg_7703",
       "name": "Равда",
       "region": "Област Бургас",
       "priority": false,
@@ -5843,7 +5843,7 @@
       }
     },
     {
-      "slug": "olx_7745",
+      "slug": "olx_bg_7745",
       "name": "Раданово",
       "region": "Област Велико Търново",
       "priority": false,
@@ -5852,7 +5852,7 @@
       }
     },
     {
-      "slug": "olx_7759",
+      "slug": "olx_bg_7759",
       "name": "Радиево",
       "region": "Област Хасково",
       "priority": false,
@@ -5861,7 +5861,7 @@
       }
     },
     {
-      "slug": "olx_7777",
+      "slug": "olx_bg_7777",
       "name": "Раднево",
       "region": "Област Стара Загора",
       "priority": false,
@@ -5870,7 +5870,7 @@
       }
     },
     {
-      "slug": "olx_7793",
+      "slug": "olx_bg_7793",
       "name": "Радомир",
       "region": "Област Перник",
       "priority": false,
@@ -5879,7 +5879,7 @@
       }
     },
     {
-      "slug": "olx_7819",
+      "slug": "olx_bg_7819",
       "name": "Разград",
       "region": "Област Разград",
       "priority": false,
@@ -5888,7 +5888,7 @@
       }
     },
     {
-      "slug": "olx_7837",
+      "slug": "olx_bg_7837",
       "name": "Разлог",
       "region": "Област Благоевград",
       "priority": false,
@@ -5897,7 +5897,7 @@
       }
     },
     {
-      "slug": "olx_7869",
+      "slug": "olx_bg_7869",
       "name": "Ракитово",
       "region": "Област Пазарджик",
       "priority": false,
@@ -5906,7 +5906,7 @@
       }
     },
     {
-      "slug": "olx_7881",
+      "slug": "olx_bg_7881",
       "name": "Раковски",
       "region": "Област Пловдив",
       "priority": false,
@@ -5915,7 +5915,7 @@
       }
     },
     {
-      "slug": "olx_7883",
+      "slug": "olx_bg_7883",
       "name": "Раковски",
       "region": "Област Разград",
       "priority": false,
@@ -5924,7 +5924,7 @@
       }
     },
     {
-      "slug": "olx_7909",
+      "slug": "olx_bg_7909",
       "name": "Расово",
       "region": "Област Монтана",
       "priority": false,
@@ -5933,7 +5933,7 @@
       }
     },
     {
-      "slug": "olx_7967",
+      "slug": "olx_bg_7967",
       "name": "Ресен",
       "region": "Област Велико Търново",
       "priority": false,
@@ -5942,7 +5942,7 @@
       }
     },
     {
-      "slug": "olx_7969",
+      "slug": "olx_bg_7969",
       "name": "Ресилово",
       "region": "Област Кюстендил",
       "priority": false,
@@ -5951,7 +5951,7 @@
       }
     },
     {
-      "slug": "olx_7977",
+      "slug": "olx_bg_7977",
       "name": "Рибарица",
       "region": "Област Ловеч",
       "priority": false,
@@ -5960,7 +5960,7 @@
       }
     },
     {
-      "slug": "olx_7991",
+      "slug": "olx_bg_7991",
       "name": "Рибново",
       "region": "Област Благоевград",
       "priority": false,
@@ -5969,7 +5969,7 @@
       }
     },
     {
-      "slug": "olx_7997",
+      "slug": "olx_bg_7997",
       "name": "Рила",
       "region": "Област Кюстендил",
       "priority": false,
@@ -5978,7 +5978,7 @@
       }
     },
     {
-      "slug": "olx_8041",
+      "slug": "olx_bg_8041",
       "name": "Роза",
       "region": "Област Ямбол",
       "priority": false,
@@ -5987,7 +5987,7 @@
       }
     },
     {
-      "slug": "olx_8053",
+      "slug": "olx_bg_8053",
       "name": "Роман",
       "region": "Област Враца",
       "priority": false,
@@ -5996,7 +5996,7 @@
       }
     },
     {
-      "slug": "olx_8085",
+      "slug": "olx_bg_8085",
       "name": "Рударци",
       "region": "Област Перник",
       "priority": false,
@@ -6005,7 +6005,7 @@
       }
     },
     {
-      "slug": "olx_8091",
+      "slug": "olx_bg_8091",
       "name": "Рудник",
       "region": "Област Бургас",
       "priority": false,
@@ -6014,7 +6014,7 @@
       }
     },
     {
-      "slug": "olx_8095",
+      "slug": "olx_bg_8095",
       "name": "Рудозем",
       "region": "Област Смолян",
       "priority": false,
@@ -6023,7 +6023,7 @@
       }
     },
     {
-      "slug": "olx_8099",
+      "slug": "olx_bg_8099",
       "name": "Руен",
       "region": "Област Бургас",
       "priority": false,
@@ -6032,7 +6032,7 @@
       }
     },
     {
-      "slug": "olx_8103",
+      "slug": "olx_bg_8103",
       "name": "Руец",
       "region": "Област Търговище",
       "priority": false,
@@ -6041,7 +6041,7 @@
       }
     },
     {
-      "slug": "olx_8105",
+      "slug": "olx_bg_8105",
       "name": "Ружинци",
       "region": "Област Видин",
       "priority": false,
@@ -6050,7 +6050,7 @@
       }
     },
     {
-      "slug": "olx_8177",
+      "slug": "olx_bg_8177",
       "name": "Ряхово",
       "region": "Област Русе",
       "priority": false,
@@ -6059,7 +6059,7 @@
       }
     },
     {
-      "slug": "olx_8179",
+      "slug": "olx_bg_8179",
       "name": "Ряховците",
       "region": "Област Габрово",
       "priority": false,
@@ -6068,7 +6068,7 @@
       }
     },
     {
-      "slug": "olx_8197",
+      "slug": "olx_bg_8197",
       "name": "Садина",
       "region": "Област Търговище",
       "priority": false,
@@ -6077,7 +6077,7 @@
       }
     },
     {
-      "slug": "olx_8199",
+      "slug": "olx_bg_8199",
       "name": "Садовец",
       "region": "Област Плевен",
       "priority": false,
@@ -6086,7 +6086,7 @@
       }
     },
     {
-      "slug": "olx_8225",
+      "slug": "olx_bg_8225",
       "name": "Самоводене",
       "region": "Област Велико Търново",
       "priority": false,
@@ -6095,7 +6095,7 @@
       }
     },
     {
-      "slug": "olx_8231",
+      "slug": "olx_bg_8231",
       "name": "Самоков",
       "region": "Област София-област",
       "priority": false,
@@ -6104,7 +6104,7 @@
       }
     },
     {
-      "slug": "olx_8233",
+      "slug": "olx_bg_8233",
       "name": "Самораново",
       "region": "Област Кюстендил",
       "priority": false,
@@ -6113,7 +6113,7 @@
       }
     },
     {
-      "slug": "olx_8239",
+      "slug": "olx_bg_8239",
       "name": "Самуил",
       "region": "Област Разград",
       "priority": false,
@@ -6122,7 +6122,7 @@
       }
     },
     {
-      "slug": "olx_8245",
+      "slug": "olx_bg_8245",
       "name": "Самуилово",
       "region": "Област Сливен",
       "priority": false,
@@ -6131,7 +6131,7 @@
       }
     },
     {
-      "slug": "olx_8251",
+      "slug": "olx_bg_8251",
       "name": "Сандански",
       "region": "Област Благоевград",
       "priority": false,
@@ -6140,7 +6140,7 @@
       }
     },
     {
-      "slug": "olx_8253",
+      "slug": "olx_bg_8253",
       "name": "Сандрово",
       "region": "Област Русе",
       "priority": false,
@@ -6149,7 +6149,7 @@
       }
     },
     {
-      "slug": "olx_8257",
+      "slug": "olx_bg_8257",
       "name": "Сапарева баня",
       "region": "Област Кюстендил",
       "priority": false,
@@ -6158,7 +6158,7 @@
       }
     },
     {
-      "slug": "olx_8259",
+      "slug": "olx_bg_8259",
       "name": "Сапарево",
       "region": "Област Кюстендил",
       "priority": false,
@@ -6167,7 +6167,7 @@
       }
     },
     {
-      "slug": "olx_8269",
+      "slug": "olx_bg_8269",
       "name": "Сатовча",
       "region": "Област Благоевград",
       "priority": false,
@@ -6176,7 +6176,7 @@
       }
     },
     {
-      "slug": "olx_8279",
+      "slug": "olx_bg_8279",
       "name": "Сборище",
       "region": "Област Сливен",
       "priority": false,
@@ -6185,7 +6185,7 @@
       }
     },
     {
-      "slug": "olx_10875",
+      "slug": "olx_bg_10875",
       "name": "Св.Св. Константин и Елена",
       "region": "Област Варна",
       "priority": false,
@@ -6194,7 +6194,7 @@
       }
     },
     {
-      "slug": "olx_8287",
+      "slug": "olx_bg_8287",
       "name": "Света Петка",
       "region": "Област Пазарджик",
       "priority": false,
@@ -6203,7 +6203,7 @@
       }
     },
     {
-      "slug": "olx_8291",
+      "slug": "olx_bg_8291",
       "name": "Светлен",
       "region": "Област Търговище",
       "priority": false,
@@ -6212,7 +6212,7 @@
       }
     },
     {
-      "slug": "olx_8301",
+      "slug": "olx_bg_8301",
       "name": "Световрачене",
       "region": "Област София-град",
       "priority": false,
@@ -6221,7 +6221,7 @@
       }
     },
     {
-      "slug": "olx_8315",
+      "slug": "olx_bg_8315",
       "name": "Свиленград",
       "region": "Област Хасково",
       "priority": false,
@@ -6230,7 +6230,7 @@
       }
     },
     {
-      "slug": "olx_8327",
+      "slug": "olx_bg_8327",
       "name": "Свищов",
       "region": "Област Велико Търново",
       "priority": false,
@@ -6239,7 +6239,7 @@
       }
     },
     {
-      "slug": "olx_8345",
+      "slug": "olx_bg_8345",
       "name": "Своге",
       "region": "Област София-област",
       "priority": false,
@@ -6248,7 +6248,7 @@
       }
     },
     {
-      "slug": "olx_8349",
+      "slug": "olx_bg_8349",
       "name": "Севар",
       "region": "Област Разград",
       "priority": false,
@@ -6257,7 +6257,7 @@
       }
     },
     {
-      "slug": "olx_8357",
+      "slug": "olx_bg_8357",
       "name": "Севлиево",
       "region": "Област Габрово",
       "priority": false,
@@ -6266,7 +6266,7 @@
       }
     },
     {
-      "slug": "olx_9233",
+      "slug": "olx_bg_9233",
       "name": "Селановци",
       "region": "Област Враца",
       "priority": false,
@@ -6275,7 +6275,7 @@
       }
     },
     {
-      "slug": "olx_8381",
+      "slug": "olx_bg_8381",
       "name": "Селиминово",
       "region": "Област Сливен",
       "priority": false,
@@ -6284,7 +6284,7 @@
       }
     },
     {
-      "slug": "olx_8397",
+      "slug": "olx_bg_8397",
       "name": "Селча",
       "region": "Област Смолян",
       "priority": false,
@@ -6293,7 +6293,7 @@
       }
     },
     {
-      "slug": "olx_8409",
+      "slug": "olx_bg_8409",
       "name": "Семчиново",
       "region": "Област Пазарджик",
       "priority": false,
@@ -6302,7 +6302,7 @@
       }
     },
     {
-      "slug": "olx_8411",
+      "slug": "olx_bg_8411",
       "name": "Сенник",
       "region": "Област Габрово",
       "priority": false,
@@ -6311,7 +6311,7 @@
       }
     },
     {
-      "slug": "olx_8413",
+      "slug": "olx_bg_8413",
       "name": "Сеново",
       "region": "Област Русе",
       "priority": false,
@@ -6320,7 +6320,7 @@
       }
     },
     {
-      "slug": "olx_8419",
+      "slug": "olx_bg_8419",
       "name": "Сенокос",
       "region": "Област Добрич",
       "priority": false,
@@ -6329,7 +6329,7 @@
       }
     },
     {
-      "slug": "olx_8421",
+      "slug": "olx_bg_8421",
       "name": "Септември",
       "region": "Област Пазарджик",
       "priority": false,
@@ -6338,7 +6338,7 @@
       }
     },
     {
-      "slug": "olx_2211",
+      "slug": "olx_bg_2211",
       "name": "Септемврийци",
       "region": "Област Монтана",
       "priority": false,
@@ -6347,7 +6347,7 @@
       }
     },
     {
-      "slug": "olx_8449",
+      "slug": "olx_bg_8449",
       "name": "Силистра",
       "region": "Област Силистра",
       "priority": false,
@@ -6356,7 +6356,7 @@
       }
     },
     {
-      "slug": "olx_5923",
+      "slug": "olx_bg_5923",
       "name": "Симеоновград",
       "region": "Област Хасково",
       "priority": false,
@@ -6365,7 +6365,7 @@
       }
     },
     {
-      "slug": "olx_8457",
+      "slug": "olx_bg_8457",
       "name": "Симитли",
       "region": "Област Благоевград",
       "priority": false,
@@ -6374,7 +6374,7 @@
       }
     },
     {
-      "slug": "olx_8473",
+      "slug": "olx_bg_8473",
       "name": "Синитово",
       "region": "Област Пазарджик",
       "priority": false,
@@ -6383,7 +6383,7 @@
       }
     },
     {
-      "slug": "olx_8509",
+      "slug": "olx_bg_8509",
       "name": "Скалица",
       "region": "Област Ямбол",
       "priority": false,
@@ -6392,7 +6392,7 @@
       }
     },
     {
-      "slug": "olx_8535",
+      "slug": "olx_bg_8535",
       "name": "Скравена",
       "region": "Област София-област",
       "priority": false,
@@ -6401,7 +6401,7 @@
       }
     },
     {
-      "slug": "olx_8573",
+      "slug": "olx_bg_8573",
       "name": "Славяново",
       "region": "Област Плевен",
       "priority": false,
@@ -6410,7 +6410,7 @@
       }
     },
     {
-      "slug": "olx_8575",
+      "slug": "olx_bg_8575",
       "name": "Славяново",
       "region": "Област Търговище",
       "priority": false,
@@ -6419,7 +6419,7 @@
       }
     },
     {
-      "slug": "olx_8595",
+      "slug": "olx_bg_8595",
       "name": "Сланотрън",
       "region": "Област Видин",
       "priority": false,
@@ -6428,7 +6428,7 @@
       }
     },
     {
-      "slug": "olx_8609",
+      "slug": "olx_bg_8609",
       "name": "Слащен",
       "region": "Област Благоевград",
       "priority": false,
@@ -6437,7 +6437,7 @@
       }
     },
     {
-      "slug": "olx_8629",
+      "slug": "olx_bg_8629",
       "name": "Сливница",
       "region": "Област София-област",
       "priority": false,
@@ -6446,7 +6446,7 @@
       }
     },
     {
-      "slug": "olx_8643",
+      "slug": "olx_bg_8643",
       "name": "Сливо поле",
       "region": "Област Русе",
       "priority": false,
@@ -6455,7 +6455,7 @@
       }
     },
     {
-      "slug": "olx_8647",
+      "slug": "olx_bg_8647",
       "name": "Слокощица",
       "region": "Област Кюстендил",
       "priority": false,
@@ -6464,7 +6464,7 @@
       }
     },
     {
-      "slug": "olx_10863",
+      "slug": "olx_bg_10863",
       "name": "Слънчев бряг",
       "region": "Област Бургас",
       "priority": false,
@@ -6473,7 +6473,7 @@
       }
     },
     {
-      "slug": "olx_10879",
+      "slug": "olx_bg_10879",
       "name": "Слънчев ден",
       "region": "Област Варна",
       "priority": false,
@@ -6482,7 +6482,7 @@
       }
     },
     {
-      "slug": "olx_8663",
+      "slug": "olx_bg_8663",
       "name": "Смилян",
       "region": "Област Смолян",
       "priority": false,
@@ -6491,7 +6491,7 @@
       }
     },
     {
-      "slug": "olx_8669",
+      "slug": "olx_bg_8669",
       "name": "Смирненски",
       "region": "Област Русе",
       "priority": false,
@@ -6500,7 +6500,7 @@
       }
     },
     {
-      "slug": "olx_8683",
+      "slug": "olx_bg_8683",
       "name": "Смолян",
       "region": "Област Смолян",
       "priority": false,
@@ -6509,7 +6509,7 @@
       }
     },
     {
-      "slug": "olx_8691",
+      "slug": "olx_bg_8691",
       "name": "Смядово",
       "region": "Област Шумен",
       "priority": false,
@@ -6518,7 +6518,7 @@
       }
     },
     {
-      "slug": "olx_8707",
+      "slug": "olx_bg_8707",
       "name": "Соволяно",
       "region": "Област Кюстендил",
       "priority": false,
@@ -6527,7 +6527,7 @@
       }
     },
     {
-      "slug": "olx_8709",
+      "slug": "olx_bg_8709",
       "name": "Созопол",
       "region": "Област Бургас",
       "priority": false,
@@ -6536,7 +6536,7 @@
       }
     },
     {
-      "slug": "olx_10895",
+      "slug": "olx_bg_10895",
       "name": "Сопот",
       "region": "Област Ловеч",
       "priority": false,
@@ -6545,7 +6545,7 @@
       }
     },
     {
-      "slug": "olx_8761",
+      "slug": "olx_bg_8761",
       "name": "Сопот",
       "region": "Област Пловдив",
       "priority": false,
@@ -6554,7 +6554,7 @@
       }
     },
     {
-      "slug": "olx_8767",
+      "slug": "olx_bg_8767",
       "name": "Сотиря",
       "region": "Област Сливен",
       "priority": false,
@@ -6563,7 +6563,7 @@
       }
     },
     {
-      "slug": "olx_8773",
+      "slug": "olx_bg_8773",
       "name": "Софрониево",
       "region": "Област Враца",
       "priority": false,
@@ -6572,7 +6572,7 @@
       }
     },
     {
-      "slug": "olx_2531",
+      "slug": "olx_bg_2531",
       "name": "Средец",
       "region": "Област Бургас",
       "priority": false,
@@ -6581,7 +6581,7 @@
       }
     },
     {
-      "slug": "olx_8807",
+      "slug": "olx_bg_8807",
       "name": "Средище",
       "region": "Област Силистра",
       "priority": false,
@@ -6590,7 +6590,7 @@
       }
     },
     {
-      "slug": "olx_8849",
+      "slug": "olx_bg_8849",
       "name": "Ставерци",
       "region": "Област Плевен",
       "priority": false,
@@ -6599,7 +6599,7 @@
       }
     },
     {
-      "slug": "olx_8863",
+      "slug": "olx_bg_8863",
       "name": "Сталийска махала",
       "region": "Област Монтана",
       "priority": false,
@@ -6608,7 +6608,7 @@
       }
     },
     {
-      "slug": "olx_6527",
+      "slug": "olx_bg_6527",
       "name": "Стамболийски",
       "region": "Област Пловдив",
       "priority": false,
@@ -6617,7 +6617,7 @@
       }
     },
     {
-      "slug": "olx_8919",
+      "slug": "olx_bg_8919",
       "name": "Старо Оряхово",
       "region": "Област Варна",
       "priority": false,
@@ -6626,7 +6626,7 @@
       }
     },
     {
-      "slug": "olx_8939",
+      "slug": "olx_bg_8939",
       "name": "Старцево",
       "region": "Област Смолян",
       "priority": false,
@@ -6635,7 +6635,7 @@
       }
     },
     {
-      "slug": "olx_8959",
+      "slug": "olx_bg_8959",
       "name": "Стефан Караджово",
       "region": "Област Ямбол",
       "priority": false,
@@ -6644,7 +6644,7 @@
       }
     },
     {
-      "slug": "olx_8971",
+      "slug": "olx_bg_8971",
       "name": "Стоб",
       "region": "Област Кюстендил",
       "priority": false,
@@ -6653,7 +6653,7 @@
       }
     },
     {
-      "slug": "olx_8979",
+      "slug": "olx_bg_8979",
       "name": "Стожер",
       "region": "Област Добрич",
       "priority": false,
@@ -6662,7 +6662,7 @@
       }
     },
     {
-      "slug": "olx_9249",
+      "slug": "olx_bg_9249",
       "name": "Стражец",
       "region": "Област Разград",
       "priority": false,
@@ -6671,7 +6671,7 @@
       }
     },
     {
-      "slug": "olx_9035",
+      "slug": "olx_bg_9035",
       "name": "Стражица",
       "region": "Област Велико Търново",
       "priority": false,
@@ -6680,7 +6680,7 @@
       }
     },
     {
-      "slug": "olx_9041",
+      "slug": "olx_bg_9041",
       "name": "Стралджа",
       "region": "Област Ямбол",
       "priority": false,
@@ -6689,7 +6689,7 @@
       }
     },
     {
-      "slug": "olx_9075",
+      "slug": "olx_bg_9075",
       "name": "Стрелча",
       "region": "Област Пазарджик",
       "priority": false,
@@ -6698,7 +6698,7 @@
       }
     },
     {
-      "slug": "olx_10893",
+      "slug": "olx_bg_10893",
       "name": "Студен Кладенец",
       "region": "Област Кърджали",
       "priority": false,
@@ -6707,7 +6707,7 @@
       }
     },
     {
-      "slug": "olx_9111",
+      "slug": "olx_bg_9111",
       "name": "Студена",
       "region": "Област Перник",
       "priority": false,
@@ -6716,7 +6716,7 @@
       }
     },
     {
-      "slug": "olx_9135",
+      "slug": "olx_bg_9135",
       "name": "Суворово",
       "region": "Област Варна",
       "priority": false,
@@ -6725,7 +6725,7 @@
       }
     },
     {
-      "slug": "olx_9147",
+      "slug": "olx_bg_9147",
       "name": "Сунгурларе",
       "region": "Област Бургас",
       "priority": false,
@@ -6734,7 +6734,7 @@
       }
     },
     {
-      "slug": "olx_9157",
+      "slug": "olx_bg_9157",
       "name": "Сухиндол",
       "region": "Област Велико Търново",
       "priority": false,
@@ -6743,7 +6743,7 @@
       }
     },
     {
-      "slug": "olx_9195",
+      "slug": "olx_bg_9195",
       "name": "Съединение",
       "region": "Област Пловдив",
       "priority": false,
@@ -6752,7 +6752,7 @@
       }
     },
     {
-      "slug": "olx_9219",
+      "slug": "olx_bg_9219",
       "name": "Сърница",
       "region": "Област Пазарджик",
       "priority": false,
@@ -6761,7 +6761,7 @@
       }
     },
     {
-      "slug": "olx_9281",
+      "slug": "olx_bg_9281",
       "name": "Твърдица",
       "region": "Област Сливен",
       "priority": false,
@@ -6770,7 +6770,7 @@
       }
     },
     {
-      "slug": "olx_9297",
+      "slug": "olx_bg_9297",
       "name": "Тенево",
       "region": "Област Ямбол",
       "priority": false,
@@ -6779,7 +6779,7 @@
       }
     },
     {
-      "slug": "olx_9303",
+      "slug": "olx_bg_9303",
       "name": "Тервел",
       "region": "Област Добрич",
       "priority": false,
@@ -6788,7 +6788,7 @@
       }
     },
     {
-      "slug": "olx_9315",
+      "slug": "olx_bg_9315",
       "name": "Тетевен",
       "region": "Област Ловеч",
       "priority": false,
@@ -6797,7 +6797,7 @@
       }
     },
     {
-      "slug": "olx_9317",
+      "slug": "olx_bg_9317",
       "name": "Тетово",
       "region": "Област Русе",
       "priority": false,
@@ -6806,7 +6806,7 @@
       }
     },
     {
-      "slug": "olx_9335",
+      "slug": "olx_bg_9335",
       "name": "Тихомир",
       "region": "Област Кърджали",
       "priority": false,
@@ -6815,7 +6815,7 @@
       }
     },
     {
-      "slug": "olx_10917",
+      "slug": "olx_bg_10917",
       "name": "Тича",
       "region": "Област Шумен",
       "priority": false,
@@ -6824,7 +6824,7 @@
       }
     },
     {
-      "slug": "olx_9351",
+      "slug": "olx_bg_9351",
       "name": "Тодор Икономово",
       "region": "Област Шумен",
       "priority": false,
@@ -6833,7 +6833,7 @@
       }
     },
     {
-      "slug": "olx_9381",
+      "slug": "olx_bg_9381",
       "name": "Тополи",
       "region": "Област Варна",
       "priority": false,
@@ -6842,7 +6842,7 @@
       }
     },
     {
-      "slug": "olx_9393",
+      "slug": "olx_bg_9393",
       "name": "Тополовград",
       "region": "Област Хасково",
       "priority": false,
@@ -6851,7 +6851,7 @@
       }
     },
     {
-      "slug": "olx_9403",
+      "slug": "olx_bg_9403",
       "name": "Тополчане",
       "region": "Област Сливен",
       "priority": false,
@@ -6860,7 +6860,7 @@
       }
     },
     {
-      "slug": "olx_5359",
+      "slug": "olx_bg_5359",
       "name": "Торос",
       "region": "Област Ловеч",
       "priority": false,
@@ -6869,7 +6869,7 @@
       }
     },
     {
-      "slug": "olx_9469",
+      "slug": "olx_bg_9469",
       "name": "Троян",
       "region": "Област Ловеч",
       "priority": false,
@@ -6878,7 +6878,7 @@
       }
     },
     {
-      "slug": "olx_9479",
+      "slug": "olx_bg_9479",
       "name": "Трудовец",
       "region": "Област София-област",
       "priority": false,
@@ -6887,7 +6887,7 @@
       }
     },
     {
-      "slug": "olx_9483",
+      "slug": "olx_bg_9483",
       "name": "Трън",
       "region": "Област Перник",
       "priority": false,
@@ -6896,7 +6896,7 @@
       }
     },
     {
-      "slug": "olx_9499",
+      "slug": "olx_bg_9499",
       "name": "Тръстеник",
       "region": "Област Плевен",
       "priority": false,
@@ -6905,7 +6905,7 @@
       }
     },
     {
-      "slug": "olx_9501",
+      "slug": "olx_bg_9501",
       "name": "Тръстеник",
       "region": "Област Русе",
       "priority": false,
@@ -6914,7 +6914,7 @@
       }
     },
     {
-      "slug": "olx_9509",
+      "slug": "olx_bg_9509",
       "name": "Трявна",
       "region": "Област Габрово",
       "priority": false,
@@ -6923,7 +6923,7 @@
       }
     },
     {
-      "slug": "olx_9527",
+      "slug": "olx_bg_9527",
       "name": "Тутракан",
       "region": "Област Силистра",
       "priority": false,
@@ -6932,7 +6932,7 @@
       }
     },
     {
-      "slug": "olx_9553",
+      "slug": "olx_bg_9553",
       "name": "Търговище",
       "region": "Област Търговище",
       "priority": false,
@@ -6941,7 +6941,7 @@
       }
     },
     {
-      "slug": "olx_9557",
+      "slug": "olx_bg_9557",
       "name": "Търнава",
       "region": "Област Враца",
       "priority": false,
@@ -6950,7 +6950,7 @@
       }
     },
     {
-      "slug": "olx_9561",
+      "slug": "olx_bg_9561",
       "name": "Търнак",
       "region": "Област Враца",
       "priority": false,
@@ -6959,7 +6959,7 @@
       }
     },
     {
-      "slug": "olx_9609",
+      "slug": "olx_bg_9609",
       "name": "Угърчин",
       "region": "Област Ловеч",
       "priority": false,
@@ -6968,7 +6968,7 @@
       }
     },
     {
-      "slug": "olx_9613",
+      "slug": "olx_bg_9613",
       "name": "Узунджово",
       "region": "Област Хасково",
       "priority": false,
@@ -6977,7 +6977,7 @@
       }
     },
     {
-      "slug": "olx_9685",
+      "slug": "olx_bg_9685",
       "name": "Хаджидимитрово",
       "region": "Област Стара Загора",
       "priority": false,
@@ -6986,7 +6986,7 @@
       }
     },
     {
-      "slug": "olx_9687",
+      "slug": "olx_bg_9687",
       "name": "Хаджидимитрово",
       "region": "Област Ямбол",
       "priority": false,
@@ -6995,7 +6995,7 @@
       }
     },
     {
-      "slug": "olx_9691",
+      "slug": "olx_bg_9691",
       "name": "Хаджидимово",
       "region": "Област Благоевград",
       "priority": false,
@@ -7004,7 +7004,7 @@
       }
     },
     {
-      "slug": "olx_9699",
+      "slug": "olx_bg_9699",
       "name": "Хайредин",
       "region": "Област Враца",
       "priority": false,
@@ -7013,7 +7013,7 @@
       }
     },
     {
-      "slug": "olx_9705",
+      "slug": "olx_bg_9705",
       "name": "Ханово",
       "region": "Област Ямбол",
       "priority": false,
@@ -7022,7 +7022,7 @@
       }
     },
     {
-      "slug": "olx_9711",
+      "slug": "olx_bg_9711",
       "name": "Харманли",
       "region": "Област Хасково",
       "priority": false,
@@ -7031,7 +7031,7 @@
       }
     },
     {
-      "slug": "olx_9713",
+      "slug": "olx_bg_9713",
       "name": "Хасково",
       "region": "Област Хасково",
       "priority": false,
@@ -7040,7 +7040,7 @@
       }
     },
     {
-      "slug": "olx_9729",
+      "slug": "olx_bg_9729",
       "name": "Хисаря",
       "region": "Област Пловдив",
       "priority": false,
@@ -7049,7 +7049,7 @@
       }
     },
     {
-      "slug": "olx_9767",
+      "slug": "olx_bg_9767",
       "name": "Хрищени",
       "region": "Област Стара Загора",
       "priority": false,
@@ -7058,7 +7058,7 @@
       }
     },
     {
-      "slug": "olx_9779",
+      "slug": "olx_bg_9779",
       "name": "Хърлец",
       "region": "Област Враца",
       "priority": false,
@@ -7067,7 +7067,7 @@
       }
     },
     {
-      "slug": "olx_9733",
+      "slug": "olx_bg_9733",
       "name": "Цар Калоян",
       "region": "Област Разград",
       "priority": false,
@@ -7076,7 +7076,7 @@
       }
     },
     {
-      "slug": "olx_9833",
+      "slug": "olx_bg_9833",
       "name": "Цар Самуил",
       "region": "Област Силистра",
       "priority": false,
@@ -7085,7 +7085,7 @@
       }
     },
     {
-      "slug": "olx_9807",
+      "slug": "olx_bg_9807",
       "name": "Царев брод",
       "region": "Област Шумен",
       "priority": false,
@@ -7094,7 +7094,7 @@
       }
     },
     {
-      "slug": "olx_1765",
+      "slug": "olx_bg_1765",
       "name": "Царева ливада",
       "region": "Област Габрово",
       "priority": false,
@@ -7103,7 +7103,7 @@
       }
     },
     {
-      "slug": "olx_9811",
+      "slug": "olx_bg_9811",
       "name": "Царевец",
       "region": "Област Велико Търново",
       "priority": false,
@@ -7112,7 +7112,7 @@
       }
     },
     {
-      "slug": "olx_6155",
+      "slug": "olx_bg_6155",
       "name": "Царево",
       "region": "Област Бургас",
       "priority": false,
@@ -7121,7 +7121,7 @@
       }
     },
     {
-      "slug": "olx_9859",
+      "slug": "olx_bg_9859",
       "name": "Ценово",
       "region": "Област Русе",
       "priority": false,
@@ -7130,7 +7130,7 @@
       }
     },
     {
-      "slug": "olx_9883",
+      "slug": "olx_bg_9883",
       "name": "Церово",
       "region": "Област София-област",
       "priority": false,
@@ -7139,7 +7139,7 @@
       }
     },
     {
-      "slug": "olx_9889",
+      "slug": "olx_bg_9889",
       "name": "Цонево",
       "region": "Област Варна",
       "priority": false,
@@ -7148,7 +7148,7 @@
       }
     },
     {
-      "slug": "olx_9935",
+      "slug": "olx_bg_9935",
       "name": "Чакаларово",
       "region": "Област Кърджали",
       "priority": false,
@@ -7157,7 +7157,7 @@
       }
     },
     {
-      "slug": "olx_9957",
+      "slug": "olx_bg_9957",
       "name": "Чарган",
       "region": "Област Ямбол",
       "priority": false,
@@ -7166,7 +7166,7 @@
       }
     },
     {
-      "slug": "olx_9985",
+      "slug": "olx_bg_9985",
       "name": "Чепеларе",
       "region": "Област Смолян",
       "priority": false,
@@ -7175,7 +7175,7 @@
       }
     },
     {
-      "slug": "olx_9989",
+      "slug": "olx_bg_9989",
       "name": "Чепинци",
       "region": "Област Смолян",
       "priority": false,
@@ -7184,7 +7184,7 @@
       }
     },
     {
-      "slug": "olx_9991",
+      "slug": "olx_bg_9991",
       "name": "Чепинци",
       "region": "Област София-град",
       "priority": false,
@@ -7193,7 +7193,7 @@
       }
     },
     {
-      "slug": "olx_10009",
+      "slug": "olx_bg_10009",
       "name": "Червен брег",
       "region": "Област Кюстендил",
       "priority": false,
@@ -7202,7 +7202,7 @@
       }
     },
     {
-      "slug": "olx_10011",
+      "slug": "olx_bg_10011",
       "name": "Червен бряг",
       "region": "Област Плевен",
       "priority": false,
@@ -7211,7 +7211,7 @@
       }
     },
     {
-      "slug": "olx_10003",
+      "slug": "olx_bg_10003",
       "name": "Червена вода",
       "region": "Област Русе",
       "priority": false,
@@ -7220,7 +7220,7 @@
       }
     },
     {
-      "slug": "olx_10063",
+      "slug": "olx_bg_10063",
       "name": "Черна гора",
       "region": "Област Стара Загора",
       "priority": false,
@@ -7229,7 +7229,7 @@
       }
     },
     {
-      "slug": "olx_10267",
+      "slug": "olx_bg_10267",
       "name": "Черник",
       "region": "Област Силистра",
       "priority": false,
@@ -7238,7 +7238,7 @@
       }
     },
     {
-      "slug": "olx_10127",
+      "slug": "olx_bg_10127",
       "name": "Черно море",
       "region": "Област Бургас",
       "priority": false,
@@ -7247,7 +7247,7 @@
       }
     },
     {
-      "slug": "olx_10111",
+      "slug": "olx_bg_10111",
       "name": "Черногорово",
       "region": "Област Пазарджик",
       "priority": false,
@@ -7256,7 +7256,7 @@
       }
     },
     {
-      "slug": "olx_10125",
+      "slug": "olx_bg_10125",
       "name": "Чернолик",
       "region": "Област Силистра",
       "priority": false,
@@ -7265,7 +7265,7 @@
       }
     },
     {
-      "slug": "olx_10129",
+      "slug": "olx_bg_10129",
       "name": "Черноморец",
       "region": "Област Бургас",
       "priority": false,
@@ -7274,7 +7274,7 @@
       }
     },
     {
-      "slug": "olx_10167",
+      "slug": "olx_bg_10167",
       "name": "Чинтулово",
       "region": "Област Сливен",
       "priority": false,
@@ -7283,7 +7283,7 @@
       }
     },
     {
-      "slug": "olx_10169",
+      "slug": "olx_bg_10169",
       "name": "Чипровци",
       "region": "Област Монтана",
       "priority": false,
@@ -7292,7 +7292,7 @@
       }
     },
     {
-      "slug": "olx_10173",
+      "slug": "olx_bg_10173",
       "name": "Чирпан",
       "region": "Област Стара Загора",
       "priority": false,
@@ -7301,7 +7301,7 @@
       }
     },
     {
-      "slug": "olx_10199",
+      "slug": "olx_bg_10199",
       "name": "Чорбаджийско",
       "region": "Област Кърджали",
       "priority": false,
@@ -7310,7 +7310,7 @@
       }
     },
     {
-      "slug": "olx_10235",
+      "slug": "olx_bg_10235",
       "name": "Чупрене",
       "region": "Област Видин",
       "priority": false,
@@ -7319,7 +7319,7 @@
       }
     },
     {
-      "slug": "olx_10271",
+      "slug": "olx_bg_10271",
       "name": "Шабла",
       "region": "Област Добрич",
       "priority": false,
@@ -7328,7 +7328,7 @@
       }
     },
     {
-      "slug": "olx_10283",
+      "slug": "olx_bg_10283",
       "name": "Шейново",
       "region": "Област Стара Загора",
       "priority": false,
@@ -7337,7 +7337,7 @@
       }
     },
     {
-      "slug": "olx_2163",
+      "slug": "olx_bg_2163",
       "name": "Шивачево",
       "region": "Област Сливен",
       "priority": false,
@@ -7346,7 +7346,7 @@
       }
     },
     {
-      "slug": "olx_10297",
+      "slug": "olx_bg_10297",
       "name": "Шипка",
       "region": "Област Стара Загора",
       "priority": false,
@@ -7355,7 +7355,7 @@
       }
     },
     {
-      "slug": "olx_10369",
+      "slug": "olx_bg_10369",
       "name": "Щръклево",
       "region": "Област Русе",
       "priority": false,
@@ -7364,7 +7364,7 @@
       }
     },
     {
-      "slug": "olx_10925",
+      "slug": "olx_bg_10925",
       "name": "Щъркелово гнездо",
       "region": "Област София-град",
       "priority": false,
@@ -7373,7 +7373,7 @@
       }
     },
     {
-      "slug": "olx_10397",
+      "slug": "olx_bg_10397",
       "name": "Ябланица",
       "region": "Област Ловеч",
       "priority": false,
@@ -7382,7 +7382,7 @@
       }
     },
     {
-      "slug": "olx_10401",
+      "slug": "olx_bg_10401",
       "name": "Ябланово",
       "region": "Област Сливен",
       "priority": false,
@@ -7391,7 +7391,7 @@
       }
     },
     {
-      "slug": "olx_10405",
+      "slug": "olx_bg_10405",
       "name": "Ябълково",
       "region": "Област Кюстендил",
       "priority": false,
@@ -7400,7 +7400,7 @@
       }
     },
     {
-      "slug": "olx_10407",
+      "slug": "olx_bg_10407",
       "name": "Ябълково",
       "region": "Област Хасково",
       "priority": false,
@@ -7409,7 +7409,7 @@
       }
     },
     {
-      "slug": "olx_10445",
+      "slug": "olx_bg_10445",
       "name": "Якимово",
       "region": "Област Монтана",
       "priority": false,
@@ -7418,7 +7418,7 @@
       }
     },
     {
-      "slug": "olx_10453",
+      "slug": "olx_bg_10453",
       "name": "Якоруда",
       "region": "Област Благоевград",
       "priority": false,
@@ -7427,7 +7427,7 @@
       }
     },
     {
-      "slug": "olx_10459",
+      "slug": "olx_bg_10459",
       "name": "Ямбол",
       "region": "Област Ямбол",
       "priority": false,
@@ -7436,7 +7436,7 @@
       }
     },
     {
-      "slug": "olx_10465",
+      "slug": "olx_bg_10465",
       "name": "Яна",
       "region": "Област София-град",
       "priority": false,
@@ -7445,7 +7445,7 @@
       }
     },
     {
-      "slug": "olx_10481",
+      "slug": "olx_bg_10481",
       "name": "Ярджиловци",
       "region": "Област Перник",
       "priority": false,
@@ -7454,7 +7454,7 @@
       }
     },
     {
-      "slug": "olx_10485",
+      "slug": "olx_bg_10485",
       "name": "Яребица",
       "region": "Област Силистра",
       "priority": false,
@@ -7463,7 +7463,7 @@
       }
     },
     {
-      "slug": "olx_10921",
+      "slug": "olx_bg_10921",
       "name": "Ярема",
       "region": "Област София-град",
       "priority": false,
@@ -7472,7 +7472,7 @@
       }
     },
     {
-      "slug": "olx_10503",
+      "slug": "olx_bg_10503",
       "name": "Ясен",
       "region": "Област Плевен",
       "priority": false,
@@ -7481,7 +7481,7 @@
       }
     },
     {
-      "slug": "olx_10507",
+      "slug": "olx_bg_10507",
       "name": "Ясенково",
       "region": "Област Шумен",
       "priority": false,
@@ -7490,7 +7490,7 @@
       }
     },
     {
-      "slug": "olx_10509",
+      "slug": "olx_bg_10509",
       "name": "Ясеновец",
       "region": "Област Разград",
       "priority": false,
@@ -7499,7 +7499,7 @@
       }
     },
     {
-      "slug": "olx_10529",
+      "slug": "olx_bg_10529",
       "name": "Яхиново",
       "region": "Област Кюстендил",
       "priority": false,

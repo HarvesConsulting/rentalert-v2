@@ -212,7 +212,7 @@
       }
     },
     {
-      "slug": "olx_19797",
+      "slug": "olx_ua_19797",
       "name": "Євгенівка",
       "region": "Житомирська область",
       "priority": false,
@@ -266,7 +266,7 @@
       }
     },
     {
-      "slug": "olx_77",
+      "slug": "olx_ua_77",
       "name": "Євпаторія",
       "region": "Крим (АРК)",
       "priority": false,
@@ -374,7 +374,7 @@
       }
     },
     {
-      "slug": "olx_677",
+      "slug": "olx_ua_677",
       "name": "Єланець",
       "region": "Миколаївська область",
       "priority": false,
@@ -429,7 +429,7 @@
       }
     },
     {
-      "slug": "olx_19799",
+      "slug": "olx_ua_19799",
       "name": "Єлизаветпіль",
       "region": "Житомирська область",
       "priority": false,
@@ -537,7 +537,7 @@
       }
     },
     {
-      "slug": "olx_11195",
+      "slug": "olx_ua_11195",
       "name": "Єлізаветпілля",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -627,7 +627,7 @@
       }
     },
     {
-      "slug": "olx_513",
+      "slug": "olx_ua_513",
       "name": "Ємільчине",
       "region": "Житомирська область",
       "priority": false,
@@ -637,7 +637,7 @@
       }
     },
     {
-      "slug": "olx_90",
+      "slug": "olx_ua_90",
       "name": "Єнакієве",
       "region": "Донецька область",
       "priority": false,
@@ -808,7 +808,7 @@
       }
     },
     {
-      "slug": "olx_69615",
+      "slug": "olx_ua_69615",
       "name": "Івангород",
       "region": "Чернігівська область",
       "priority": false,
@@ -872,7 +872,7 @@
       }
     },
     {
-      "slug": "olx_769",
+      "slug": "olx_ua_769",
       "name": "Іваниківка",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -900,7 +900,7 @@
       }
     },
     {
-      "slug": "olx_69617",
+      "slug": "olx_ua_69617",
       "name": "Іваниця",
       "region": "Чернігівська область",
       "priority": false,
@@ -919,7 +919,7 @@
       }
     },
     {
-      "slug": "olx_491",
+      "slug": "olx_ua_491",
       "name": "Іваничі",
       "region": "Волинська область",
       "priority": false,
@@ -1244,7 +1244,7 @@
       }
     },
     {
-      "slug": "olx_40093",
+      "slug": "olx_ua_40093",
       "name": "Івано-Франкове",
       "region": null,
       "priority": false,
@@ -1406,7 +1406,7 @@
       }
     },
     {
-      "slug": "olx_57737",
+      "slug": "olx_ua_57737",
       "name": "Іванчуківка",
       "region": "Харківська область",
       "priority": false,
@@ -1443,7 +1443,7 @@
       }
     },
     {
-      "slug": "olx_443",
+      "slug": "olx_ua_443",
       "name": "Іваньків",
       "region": "Київська область",
       "priority": false,
@@ -1461,7 +1461,7 @@
       }
     },
     {
-      "slug": "olx_8791",
+      "slug": "olx_ua_8791",
       "name": "Іванів",
       "region": "Волинська область",
       "priority": false,
@@ -1489,7 +1489,7 @@
       }
     },
     {
-      "slug": "olx_5415",
+      "slug": "olx_ua_5415",
       "name": "Іванівка",
       "region": "Вінницька область",
       "priority": false,
@@ -1498,7 +1498,7 @@
       }
     },
     {
-      "slug": "olx_8793",
+      "slug": "olx_ua_8793",
       "name": "Іванівка",
       "region": "Волинська область",
       "priority": false,
@@ -1507,7 +1507,7 @@
       }
     },
     {
-      "slug": "olx_24933",
+      "slug": "olx_ua_24933",
       "name": "Іванівка",
       "region": "Запорізька область",
       "priority": false,
@@ -1516,7 +1516,7 @@
       }
     },
     {
-      "slug": "olx_27359",
+      "slug": "olx_ua_27359",
       "name": "Іванівка",
       "region": "Кіровоградська область",
       "priority": false,
@@ -1526,7 +1526,7 @@
       }
     },
     {
-      "slug": "olx_40391",
+      "slug": "olx_ua_40391",
       "name": "Іванівка",
       "region": "Миколаївська область",
       "priority": false,
@@ -1535,7 +1535,7 @@
       }
     },
     {
-      "slug": "olx_42521",
+      "slug": "olx_ua_42521",
       "name": "Іванівка",
       "region": "Одеська область",
       "priority": false,
@@ -1545,7 +1545,7 @@
       }
     },
     {
-      "slug": "olx_45435",
+      "slug": "olx_ua_45435",
       "name": "Іванівка",
       "region": "Полтавська область",
       "priority": false,
@@ -1554,7 +1554,7 @@
       }
     },
     {
-      "slug": "olx_49505",
+      "slug": "olx_ua_49505",
       "name": "Іванівка",
       "region": "Рівненська область",
       "priority": false,
@@ -1563,7 +1563,7 @@
       }
     },
     {
-      "slug": "olx_57735",
+      "slug": "olx_ua_57735",
       "name": "Іванівка",
       "region": "Харківська область",
       "priority": false,
@@ -1572,7 +1572,7 @@
       }
     },
     {
-      "slug": "olx_61937",
+      "slug": "olx_ua_61937",
       "name": "Іванівка",
       "region": "Херсонська область",
       "priority": false,
@@ -1581,7 +1581,7 @@
       }
     },
     {
-      "slug": "olx_63601",
+      "slug": "olx_ua_63601",
       "name": "Іванівка",
       "region": "Хмельницька область",
       "priority": false,
@@ -2544,7 +2544,7 @@
       }
     },
     {
-      "slug": "olx_57365",
+      "slug": "olx_ua_57365",
       "name": "Івачів Горішній",
       "region": "Тернопільська область",
       "priority": false,
@@ -2554,7 +2554,7 @@
       }
     },
     {
-      "slug": "olx_57367",
+      "slug": "olx_ua_57367",
       "name": "Івачів Долішній",
       "region": "Тернопільська область",
       "priority": false,
@@ -2609,7 +2609,7 @@
       }
     },
     {
-      "slug": "olx_23483",
+      "slug": "olx_ua_23483",
       "name": "Івашковиця",
       "region": "Закарпатська область",
       "priority": false,
@@ -2853,7 +2853,7 @@
       }
     },
     {
-      "slug": "olx_57369",
+      "slug": "olx_ua_57369",
       "name": "Ігровиця",
       "region": "Тернопільська область",
       "priority": false,
@@ -2926,7 +2926,7 @@
       }
     },
     {
-      "slug": "olx_308",
+      "slug": "olx_ua_308",
       "name": "Ізмаїл",
       "region": "Одеська область",
       "priority": false,
@@ -2945,7 +2945,7 @@
       }
     },
     {
-      "slug": "olx_338",
+      "slug": "olx_ua_338",
       "name": "Ізюм",
       "region": "Харківська область",
       "priority": false,
@@ -2964,7 +2964,7 @@
       }
     },
     {
-      "slug": "olx_257",
+      "slug": "olx_ua_257",
       "name": "Ізяслав",
       "region": "Хмельницька область",
       "priority": false,
@@ -3010,7 +3010,7 @@
       }
     },
     {
-      "slug": "olx_19813",
+      "slug": "olx_ua_19813",
       "name": "Ілляшівка",
       "region": "Житомирська область",
       "priority": false,
@@ -3074,7 +3074,7 @@
       }
     },
     {
-      "slug": "olx_5417",
+      "slug": "olx_ua_5417",
       "name": "Іллінецьке",
       "region": "Вінницька область",
       "priority": false,
@@ -3120,7 +3120,7 @@
       }
     },
     {
-      "slug": "olx_463",
+      "slug": "olx_ua_463",
       "name": "Іллінці",
       "region": "Вінницька область",
       "priority": false,
@@ -3238,7 +3238,7 @@
       }
     },
     {
-      "slug": "olx_23485",
+      "slug": "olx_ua_23485",
       "name": "Ільниця",
       "region": "Закарпатська область",
       "priority": false,
@@ -3284,7 +3284,7 @@
       }
     },
     {
-      "slug": "olx_66713",
+      "slug": "olx_ua_66713",
       "name": "Ільчинкове",
       "region": "Черкаська область",
       "priority": false,
@@ -3329,7 +3329,7 @@
       }
     },
     {
-      "slug": "olx_23487",
+      "slug": "olx_ua_23487",
       "name": "Імстичово",
       "region": "Закарпатська область",
       "priority": false,
@@ -3420,7 +3420,7 @@
       }
     },
     {
-      "slug": "olx_561",
+      "slug": "olx_ua_561",
       "name": "Інкерман",
       "region": "Крим (АРК)",
       "priority": false,
@@ -3474,7 +3474,7 @@
       }
     },
     {
-      "slug": "olx_69619",
+      "slug": "olx_ua_69619",
       "name": "Іржавець",
       "region": "Чернігівська область",
       "priority": false,
@@ -3528,7 +3528,7 @@
       }
     },
     {
-      "slug": "olx_203",
+      "slug": "olx_ua_203",
       "name": "Ірміно",
       "region": "Луганська область",
       "priority": false,
@@ -3537,7 +3537,7 @@
       }
     },
     {
-      "slug": "olx_295",
+      "slug": "olx_ua_295",
       "name": "Ірпінь",
       "region": "Київська область",
       "priority": false,
@@ -3556,7 +3556,7 @@
       }
     },
     {
-      "slug": "olx_205",
+      "slug": "olx_ua_205",
       "name": "Іршава",
       "region": "Закарпатська область",
       "priority": false,
@@ -3566,7 +3566,7 @@
       }
     },
     {
-      "slug": "olx_515",
+      "slug": "olx_ua_515",
       "name": "Іршанськ",
       "region": "Житомирська область",
       "priority": false,
@@ -3648,7 +3648,7 @@
       }
     },
     {
-      "slug": "olx_57755",
+      "slug": "olx_ua_57755",
       "name": "Іскра",
       "region": "Харківська область",
       "priority": false,
@@ -3694,7 +3694,7 @@
       }
     },
     {
-      "slug": "olx_51951",
+      "slug": "olx_ua_51951",
       "name": "Іскрисківщина",
       "region": "Сумська область",
       "priority": false,
@@ -3740,7 +3740,7 @@
       }
     },
     {
-      "slug": "olx_68677",
+      "slug": "olx_ua_68677",
       "name": "Іспас",
       "region": "Чернівецька область",
       "priority": false,
@@ -3759,7 +3759,7 @@
       }
     },
     {
-      "slug": "olx_69621",
+      "slug": "olx_ua_69621",
       "name": "Іценків",
       "region": "Чернігівська область",
       "priority": false,
@@ -3768,7 +3768,7 @@
       }
     },
     {
-      "slug": "olx_323",
+      "slug": "olx_ua_323",
       "name": "Ічня",
       "region": "Чернігівська область",
       "priority": false,
@@ -3904,7 +3904,7 @@
       }
     },
     {
-      "slug": "olx_44353",
+      "slug": "olx_ua_44353",
       "name": "Авангард",
       "region": null,
       "priority": false,
@@ -3940,7 +3940,7 @@
       }
     },
     {
-      "slug": "olx_69633",
+      "slug": "olx_ua_69633",
       "name": "Августівка",
       "region": "Чернігівська область",
       "priority": false,
@@ -3977,7 +3977,7 @@
       }
     },
     {
-      "slug": "olx_288",
+      "slug": "olx_ua_288",
       "name": "Авдіївка",
       "region": "Донецька область",
       "priority": false,
@@ -4157,7 +4157,7 @@
       }
     },
     {
-      "slug": "olx_19815",
+      "slug": "olx_ua_19815",
       "name": "Адамове",
       "region": "Житомирська область",
       "priority": false,
@@ -4194,7 +4194,7 @@
       }
     },
     {
-      "slug": "olx_42531",
+      "slug": "olx_ua_42531",
       "name": "Адамівка",
       "region": "Одеська область",
       "priority": false,
@@ -4203,7 +4203,7 @@
       }
     },
     {
-      "slug": "olx_49507",
+      "slug": "olx_ua_49507",
       "name": "Адамівка",
       "region": "Рівненська область",
       "priority": false,
@@ -4375,7 +4375,7 @@
       }
     },
     {
-      "slug": "olx_191",
+      "slug": "olx_ua_191",
       "name": "Алмазна",
       "region": "Луганська область",
       "priority": false,
@@ -4402,7 +4402,7 @@
       }
     },
     {
-      "slug": "olx_232",
+      "slug": "olx_ua_232",
       "name": "Алупка",
       "region": "Крим (АРК)",
       "priority": false,
@@ -4411,7 +4411,7 @@
       }
     },
     {
-      "slug": "olx_234",
+      "slug": "olx_ua_234",
       "name": "Алушта",
       "region": "Крим (АРК)",
       "priority": false,
@@ -4420,7 +4420,7 @@
       }
     },
     {
-      "slug": "olx_235",
+      "slug": "olx_ua_235",
       "name": "Алчевськ",
       "region": "Луганська область",
       "priority": false,
@@ -4447,7 +4447,7 @@
       }
     },
     {
-      "slug": "olx_51953",
+      "slug": "olx_ua_51953",
       "name": "Амбари",
       "region": "Сумська область",
       "priority": false,
@@ -4502,7 +4502,7 @@
       }
     },
     {
-      "slug": "olx_144",
+      "slug": "olx_ua_144",
       "name": "Ананьїв",
       "region": "Одеська область",
       "priority": false,
@@ -4593,7 +4593,7 @@
       }
     },
     {
-      "slug": "olx_57371",
+      "slug": "olx_ua_57371",
       "name": "Ангелівка",
       "region": "Тернопільська область",
       "priority": false,
@@ -4711,7 +4711,7 @@
       }
     },
     {
-      "slug": "olx_45437",
+      "slug": "olx_ua_45437",
       "name": "Андрущине",
       "region": "Полтавська область",
       "priority": false,
@@ -4721,7 +4721,7 @@
       }
     },
     {
-      "slug": "olx_24937",
+      "slug": "olx_ua_24937",
       "name": "Андрівка",
       "region": "Запорізька область",
       "priority": false,
@@ -4802,7 +4802,7 @@
       }
     },
     {
-      "slug": "olx_19817",
+      "slug": "olx_ua_19817",
       "name": "Андрієвичі",
       "region": "Житомирська область",
       "priority": false,
@@ -4839,7 +4839,7 @@
       }
     },
     {
-      "slug": "olx_24935",
+      "slug": "olx_ua_24935",
       "name": "Андріївка",
       "region": "Запорізька область",
       "priority": false,
@@ -4848,7 +4848,7 @@
       }
     },
     {
-      "slug": "olx_57757",
+      "slug": "olx_ua_57757",
       "name": "Андріївка",
       "region": "Харківська область",
       "priority": false,
@@ -4857,7 +4857,7 @@
       }
     },
     {
-      "slug": "olx_69635",
+      "slug": "olx_ua_69635",
       "name": "Андріївка",
       "region": "Чернігівська область",
       "priority": false,
@@ -5325,7 +5325,7 @@
       }
     },
     {
-      "slug": "olx_19819",
+      "slug": "olx_ua_19819",
       "name": "Антонівка",
       "region": "Житомирська область",
       "priority": false,
@@ -5335,7 +5335,7 @@
       }
     },
     {
-      "slug": "olx_49509",
+      "slug": "olx_ua_49509",
       "name": "Антонівка",
       "region": "Рівненська область",
       "priority": false,
@@ -5345,7 +5345,7 @@
       }
     },
     {
-      "slug": "olx_587",
+      "slug": "olx_ua_587",
       "name": "Антонівка",
       "region": "Херсонська область",
       "priority": false,
@@ -5354,7 +5354,7 @@
       }
     },
     {
-      "slug": "olx_63621",
+      "slug": "olx_ua_63621",
       "name": "Антонівка",
       "region": "Хмельницька область",
       "priority": false,
@@ -5643,7 +5643,7 @@
       }
     },
     {
-      "slug": "olx_256",
+      "slug": "olx_ua_256",
       "name": "Антрацит",
       "region": "Луганська область",
       "priority": false,
@@ -5679,7 +5679,7 @@
       }
     },
     {
-      "slug": "olx_19821",
+      "slug": "olx_ua_19821",
       "name": "Аполлонівка",
       "region": "Житомирська область",
       "priority": false,
@@ -5716,7 +5716,7 @@
       }
     },
     {
-      "slug": "olx_161",
+      "slug": "olx_ua_161",
       "name": "Апостолове",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -5726,7 +5726,7 @@
       }
     },
     {
-      "slug": "olx_27361",
+      "slug": "olx_ua_27361",
       "name": "Апрелівка",
       "region": "Кіровоградська область",
       "priority": false,
@@ -5753,7 +5753,7 @@
       }
     },
     {
-      "slug": "olx_667",
+      "slug": "olx_ua_667",
       "name": "Арбузинка",
       "region": "Миколаївська область",
       "priority": false,
@@ -5763,7 +5763,7 @@
       }
     },
     {
-      "slug": "olx_23497",
+      "slug": "olx_ua_23497",
       "name": "Арданово",
       "region": "Закарпатська область",
       "priority": false,
@@ -5791,7 +5791,7 @@
       }
     },
     {
-      "slug": "olx_51955",
+      "slug": "olx_ua_51955",
       "name": "Аркавське",
       "region": "Сумська область",
       "priority": false,
@@ -5855,7 +5855,7 @@
       }
     },
     {
-      "slug": "olx_272",
+      "slug": "olx_ua_272",
       "name": "Армянськ",
       "region": "Крим (АРК)",
       "priority": false,
@@ -5981,7 +5981,7 @@
       }
     },
     {
-      "slug": "olx_371",
+      "slug": "olx_ua_371",
       "name": "Артемівськ",
       "region": "Луганська область",
       "priority": false,
@@ -6107,7 +6107,7 @@
       }
     },
     {
-      "slug": "olx_215",
+      "slug": "olx_ua_215",
       "name": "Арциз",
       "region": "Одеська область",
       "priority": false,
@@ -6171,7 +6171,7 @@
       }
     },
     {
-      "slug": "olx_51957",
+      "slug": "olx_ua_51957",
       "name": "Атинське",
       "region": "Сумська область",
       "priority": false,
@@ -6271,7 +6271,7 @@
       }
     },
     {
-      "slug": "olx_51989",
+      "slug": "olx_ua_51989",
       "name": "Бабаківка",
       "region": "Сумська область",
       "priority": false,
@@ -6317,7 +6317,7 @@
       }
     },
     {
-      "slug": "olx_57759",
+      "slug": "olx_ua_57759",
       "name": "Бабенкове",
       "region": "Харківська область",
       "priority": false,
@@ -6327,7 +6327,7 @@
       }
     },
     {
-      "slug": "olx_5435",
+      "slug": "olx_ua_5435",
       "name": "Бабин",
       "region": "Вінницька область",
       "priority": false,
@@ -6409,7 +6409,7 @@
       }
     },
     {
-      "slug": "olx_68679",
+      "slug": "olx_ua_68679",
       "name": "Бабине",
       "region": "Чернівецька область",
       "priority": false,
@@ -6590,7 +6590,7 @@
       }
     },
     {
-      "slug": "olx_771",
+      "slug": "olx_ua_771",
       "name": "Бабче",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -6636,7 +6636,7 @@
       }
     },
     {
-      "slug": "olx_57377",
+      "slug": "olx_ua_57377",
       "name": "Баворів",
       "region": "Тернопільська область",
       "priority": false,
@@ -6691,7 +6691,7 @@
       }
     },
     {
-      "slug": "olx_233",
+      "slug": "olx_ua_233",
       "name": "Багачеве",
       "region": "Черкаська область",
       "priority": false,
@@ -6781,7 +6781,7 @@
       }
     },
     {
-      "slug": "olx_68681",
+      "slug": "olx_ua_68681",
       "name": "Багна",
       "region": "Чернівецька область",
       "priority": false,
@@ -7070,7 +7070,7 @@
       }
     },
     {
-      "slug": "olx_57379",
+      "slug": "olx_ua_57379",
       "name": "Байківці",
       "region": "Тернопільська область",
       "priority": false,
@@ -7107,7 +7107,7 @@
       }
     },
     {
-      "slug": "olx_45445",
+      "slug": "olx_ua_45445",
       "name": "Байрак",
       "region": "Полтавська область",
       "priority": false,
@@ -7225,7 +7225,7 @@
       }
     },
     {
-      "slug": "olx_69639",
+      "slug": "olx_ua_69639",
       "name": "Бакаївка",
       "region": "Чернігівська область",
       "priority": false,
@@ -7325,7 +7325,7 @@
       }
     },
     {
-      "slug": "olx_51991",
+      "slug": "olx_ua_51991",
       "name": "Бакша",
       "region": "Сумська область",
       "priority": false,
@@ -7461,7 +7461,7 @@
       }
     },
     {
-      "slug": "olx_104",
+      "slug": "olx_ua_104",
       "name": "Балаклея",
       "region": "Полтавська область",
       "priority": false,
@@ -7479,7 +7479,7 @@
       }
     },
     {
-      "slug": "olx_57883",
+      "slug": "olx_ua_57883",
       "name": "Балаклія",
       "region": "Харківська область",
       "priority": false,
@@ -7525,7 +7525,7 @@
       }
     },
     {
-      "slug": "olx_45447",
+      "slug": "olx_ua_45447",
       "name": "Баланди",
       "region": "Полтавська область",
       "priority": false,
@@ -7544,7 +7544,7 @@
       }
     },
     {
-      "slug": "olx_42535",
+      "slug": "olx_ua_42535",
       "name": "Баланини",
       "region": "Одеська область",
       "priority": false,
@@ -7599,7 +7599,7 @@
       }
     },
     {
-      "slug": "olx_61943",
+      "slug": "olx_ua_61943",
       "name": "Балашове",
       "region": "Херсонська область",
       "priority": false,
@@ -7617,7 +7617,7 @@
       }
     },
     {
-      "slug": "olx_49515",
+      "slug": "olx_ua_49515",
       "name": "Балашівка",
       "region": "Рівненська область",
       "priority": false,
@@ -7753,7 +7753,7 @@
       }
     },
     {
-      "slug": "olx_181",
+      "slug": "olx_ua_181",
       "name": "Балта",
       "region": "Одеська область",
       "priority": false,
@@ -7781,7 +7781,7 @@
       }
     },
     {
-      "slug": "olx_45449",
+      "slug": "olx_ua_45449",
       "name": "Балюки",
       "region": "Полтавська область",
       "priority": false,
@@ -7881,7 +7881,7 @@
       }
     },
     {
-      "slug": "olx_68683",
+      "slug": "olx_ua_68683",
       "name": "Банилів",
       "region": "Чернівецька область",
       "priority": false,
@@ -7963,7 +7963,7 @@
       }
     },
     {
-      "slug": "olx_292",
+      "slug": "olx_ua_292",
       "name": "Бар",
       "region": "Вінницька область",
       "priority": false,
@@ -8027,7 +8027,7 @@
       }
     },
     {
-      "slug": "olx_42537",
+      "slug": "olx_ua_42537",
       "name": "Баранове",
       "region": "Одеська область",
       "priority": false,
@@ -8046,7 +8046,7 @@
       }
     },
     {
-      "slug": "olx_20143",
+      "slug": "olx_ua_20143",
       "name": "Баранівка",
       "region": "Житомирська область",
       "priority": false,
@@ -8164,7 +8164,7 @@
       }
     },
     {
-      "slug": "olx_19823",
+      "slug": "olx_ua_19823",
       "name": "Бараші",
       "region": "Житомирська область",
       "priority": false,
@@ -8192,7 +8192,7 @@
       }
     },
     {
-      "slug": "olx_69641",
+      "slug": "olx_ua_69641",
       "name": "Барбурське",
       "region": "Чернігівська область",
       "priority": false,
@@ -8219,7 +8219,7 @@
       }
     },
     {
-      "slug": "olx_359",
+      "slug": "olx_ua_359",
       "name": "Барвінкове",
       "region": "Харківська область",
       "priority": false,
@@ -8229,7 +8229,7 @@
       }
     },
     {
-      "slug": "olx_69643",
+      "slug": "olx_ua_69643",
       "name": "Барвінкове",
       "region": "Чернігівська область",
       "priority": false,
@@ -8328,7 +8328,7 @@
       }
     },
     {
-      "slug": "olx_51993",
+      "slug": "olx_ua_51993",
       "name": "Барило",
       "region": "Сумська область",
       "priority": false,
@@ -8383,7 +8383,7 @@
       }
     },
     {
-      "slug": "olx_697",
+      "slug": "olx_ua_697",
       "name": "Баришівка",
       "region": "Київська область",
       "priority": false,
@@ -8501,7 +8501,7 @@
       }
     },
     {
-      "slug": "olx_19825",
+      "slug": "olx_ua_19825",
       "name": "Бастова рудня",
       "region": "Житомирська область",
       "priority": false,
@@ -8655,7 +8655,7 @@
       }
     },
     {
-      "slug": "olx_53",
+      "slug": "olx_ua_53",
       "name": "Бахмач",
       "region": "Чернігівська область",
       "priority": false,
@@ -8683,7 +8683,7 @@
       }
     },
     {
-      "slug": "olx_15613",
+      "slug": "olx_ua_15613",
       "name": "Бахмут",
       "region": "Донецька область",
       "priority": false,
@@ -8719,7 +8719,7 @@
       }
     },
     {
-      "slug": "olx_260",
+      "slug": "olx_ua_260",
       "name": "Бахчисарай",
       "region": "Крим (АРК)",
       "priority": false,
@@ -8863,7 +8863,7 @@
       }
     },
     {
-      "slug": "olx_219",
+      "slug": "olx_ua_219",
       "name": "Баштанка",
       "region": "Миколаївська область",
       "priority": false,
@@ -8927,7 +8927,7 @@
       }
     },
     {
-      "slug": "olx_51987",
+      "slug": "olx_ua_51987",
       "name": "Баїха",
       "region": "Сумська область",
       "priority": false,
@@ -9036,7 +9036,7 @@
       }
     },
     {
-      "slug": "olx_69645",
+      "slug": "olx_ua_69645",
       "name": "Безбородьків",
       "region": "Чернігівська область",
       "priority": false,
@@ -9091,7 +9091,7 @@
       }
     },
     {
-      "slug": "olx_69647",
+      "slug": "olx_ua_69647",
       "name": "Безводівка",
       "region": "Чернігівська область",
       "priority": false,
@@ -9173,7 +9173,7 @@
       }
     },
     {
-      "slug": "olx_72950",
+      "slug": "olx_ua_72950",
       "name": "Безпалівка",
       "region": "Харківська область",
       "priority": false,
@@ -9255,7 +9255,7 @@
       }
     },
     {
-      "slug": "olx_51995",
+      "slug": "olx_ua_51995",
       "name": "Безсалівка",
       "region": "Сумська область",
       "priority": false,
@@ -9265,7 +9265,7 @@
       }
     },
     {
-      "slug": "olx_51997",
+      "slug": "olx_ua_51997",
       "name": "Безсокирне",
       "region": "Сумська область",
       "priority": false,
@@ -9347,7 +9347,7 @@
       }
     },
     {
-      "slug": "olx_63635",
+      "slug": "olx_ua_63635",
       "name": "Бейзими",
       "region": "Хмельницька область",
       "priority": false,
@@ -9393,7 +9393,7 @@
       }
     },
     {
-      "slug": "olx_143",
+      "slug": "olx_ua_143",
       "name": "Белз",
       "region": "Львівська область",
       "priority": false,
@@ -9520,7 +9520,7 @@
       }
     },
     {
-      "slug": "olx_318",
+      "slug": "olx_ua_318",
       "name": "Бердичів",
       "region": "Житомирська область",
       "priority": false,
@@ -9539,7 +9539,7 @@
       }
     },
     {
-      "slug": "olx_398",
+      "slug": "olx_ua_398",
       "name": "Бердянськ",
       "region": "Запорізька область",
       "priority": false,
@@ -9548,7 +9548,7 @@
       }
     },
     {
-      "slug": "olx_24993",
+      "slug": "olx_ua_24993",
       "name": "Бердянське",
       "region": "Запорізька область",
       "priority": false,
@@ -9602,7 +9602,7 @@
       }
     },
     {
-      "slug": "olx_23597",
+      "slug": "olx_ua_23597",
       "name": "Берегове",
       "region": "Закарпатська область",
       "priority": false,
@@ -9611,7 +9611,7 @@
       }
     },
     {
-      "slug": "olx_345",
+      "slug": "olx_ua_345",
       "name": "Берегове",
       "region": "Крим (АРК)",
       "priority": false,
@@ -9674,7 +9674,7 @@
       }
     },
     {
-      "slug": "olx_567",
+      "slug": "olx_ua_567",
       "name": "Берегомет",
       "region": "Чернівецька область",
       "priority": false,
@@ -9710,7 +9710,7 @@
       }
     },
     {
-      "slug": "olx_10",
+      "slug": "olx_ua_10",
       "name": "Бережани",
       "region": "Тернопільська область",
       "priority": false,
@@ -9846,7 +9846,7 @@
       }
     },
     {
-      "slug": "olx_68689",
+      "slug": "olx_ua_68689",
       "name": "Бережниця",
       "region": "Чернівецька область",
       "priority": false,
@@ -9937,7 +9937,7 @@
       }
     },
     {
-      "slug": "olx_68691",
+      "slug": "olx_ua_68691",
       "name": "Бережонка",
       "region": "Чернівецька область",
       "priority": false,
@@ -9956,7 +9956,7 @@
       }
     },
     {
-      "slug": "olx_69649",
+      "slug": "olx_ua_69649",
       "name": "Бережівка",
       "region": "Чернігівська область",
       "priority": false,
@@ -10029,7 +10029,7 @@
       }
     },
     {
-      "slug": "olx_146",
+      "slug": "olx_ua_146",
       "name": "Березань",
       "region": "Київська область",
       "priority": false,
@@ -10228,7 +10228,7 @@
       }
     },
     {
-      "slug": "olx_270",
+      "slug": "olx_ua_270",
       "name": "Березне",
       "region": "Рівненська область",
       "priority": false,
@@ -10256,7 +10256,7 @@
       }
     },
     {
-      "slug": "olx_669",
+      "slug": "olx_ua_669",
       "name": "Березнегувате",
       "region": "Миколаївська область",
       "priority": false,
@@ -10284,7 +10284,7 @@
       }
     },
     {
-      "slug": "olx_19829",
+      "slug": "olx_ua_19829",
       "name": "Березники",
       "region": "Житомирська область",
       "priority": false,
@@ -10537,7 +10537,7 @@
       }
     },
     {
-      "slug": "olx_19827",
+      "slug": "olx_ua_19827",
       "name": "Березівка",
       "region": "Житомирська область",
       "priority": false,
@@ -10547,7 +10547,7 @@
       }
     },
     {
-      "slug": "olx_27363",
+      "slug": "olx_ua_27363",
       "name": "Березівка",
       "region": "Кіровоградська область",
       "priority": false,
@@ -10556,7 +10556,7 @@
       }
     },
     {
-      "slug": "olx_661",
+      "slug": "olx_ua_661",
       "name": "Березівка",
       "region": "Одеська область",
       "priority": false,
@@ -10827,7 +10827,7 @@
       }
     },
     {
-      "slug": "olx_27365",
+      "slug": "olx_ua_27365",
       "name": "Береславка",
       "region": "Кіровоградська область",
       "priority": false,
@@ -10864,7 +10864,7 @@
       }
     },
     {
-      "slug": "olx_349",
+      "slug": "olx_ua_349",
       "name": "Берестин",
       "region": "Харківська область",
       "priority": false,
@@ -10882,7 +10882,7 @@
       }
     },
     {
-      "slug": "olx_24995",
+      "slug": "olx_ua_24995",
       "name": "Берестове",
       "region": "Запорізька область",
       "priority": false,
@@ -11089,7 +11089,7 @@
       }
     },
     {
-      "slug": "olx_391",
+      "slug": "olx_ua_391",
       "name": "Берислав",
       "region": "Херсонська область",
       "priority": false,
@@ -11207,7 +11207,7 @@
       }
     },
     {
-      "slug": "olx_209",
+      "slug": "olx_ua_209",
       "name": "Бершадь",
       "region": "Вінницька область",
       "priority": false,
@@ -11361,7 +11361,7 @@
       }
     },
     {
-      "slug": "olx_45451",
+      "slug": "olx_ua_45451",
       "name": "Бехтерщина",
       "region": "Полтавська область",
       "priority": false,
@@ -11677,7 +11677,7 @@
       }
     },
     {
-      "slug": "olx_49531",
+      "slug": "olx_ua_49531",
       "name": "Бистричі",
       "region": "Рівненська область",
       "priority": false,
@@ -11903,7 +11903,7 @@
       }
     },
     {
-      "slug": "olx_61945",
+      "slug": "olx_ua_61945",
       "name": "Благодатне",
       "region": "Херсонська область",
       "priority": false,
@@ -12236,7 +12236,7 @@
       }
     },
     {
-      "slug": "olx_42541",
+      "slug": "olx_ua_42541",
       "name": "Блонське",
       "region": "Одеська область",
       "priority": false,
@@ -12372,7 +12372,7 @@
       }
     },
     {
-      "slug": "olx_51999",
+      "slug": "olx_ua_51999",
       "name": "Бобрик",
       "region": "Сумська область",
       "priority": false,
@@ -12462,7 +12462,7 @@
       }
     },
     {
-      "slug": "olx_188",
+      "slug": "olx_ua_188",
       "name": "Бобринець",
       "region": "Кіровоградська область",
       "priority": false,
@@ -12472,7 +12472,7 @@
       }
     },
     {
-      "slug": "olx_27373",
+      "slug": "olx_ua_27373",
       "name": "Бобринка",
       "region": "Кіровоградська область",
       "priority": false,
@@ -12482,7 +12482,7 @@
       }
     },
     {
-      "slug": "olx_19831",
+      "slug": "olx_ua_19831",
       "name": "Бобрицька Болярка",
       "region": "Житомирська область",
       "priority": false,
@@ -12500,7 +12500,7 @@
       }
     },
     {
-      "slug": "olx_19833",
+      "slug": "olx_ua_19833",
       "name": "Бобриця",
       "region": "Житомирська область",
       "priority": false,
@@ -12573,7 +12573,7 @@
       }
     },
     {
-      "slug": "olx_376",
+      "slug": "olx_ua_376",
       "name": "Бобровиця",
       "region": "Чернігівська область",
       "priority": false,
@@ -12718,7 +12718,7 @@
       }
     },
     {
-      "slug": "olx_23501",
+      "slug": "olx_ua_23501",
       "name": "Богаревиця",
       "region": "Закарпатська область",
       "priority": false,
@@ -13151,7 +13151,7 @@
       }
     },
     {
-      "slug": "olx_40393",
+      "slug": "olx_ua_40393",
       "name": "Богодарівка",
       "region": "Миколаївська область",
       "priority": false,
@@ -13197,7 +13197,7 @@
       }
     },
     {
-      "slug": "olx_210",
+      "slug": "olx_ua_210",
       "name": "Богодухів",
       "region": "Харківська область",
       "priority": false,
@@ -13288,7 +13288,7 @@
       }
     },
     {
-      "slug": "olx_539",
+      "slug": "olx_ua_539",
       "name": "Богородчани",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -13307,7 +13307,7 @@
       }
     },
     {
-      "slug": "olx_785",
+      "slug": "olx_ua_785",
       "name": "Богрівка",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -13317,7 +13317,7 @@
       }
     },
     {
-      "slug": "olx_42543",
+      "slug": "olx_ua_42543",
       "name": "Богунове",
       "region": "Одеська область",
       "priority": false,
@@ -13345,7 +13345,7 @@
       }
     },
     {
-      "slug": "olx_208",
+      "slug": "olx_ua_208",
       "name": "Богуслав",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -13391,7 +13391,7 @@
       }
     },
     {
-      "slug": "olx_49533",
+      "slug": "olx_ua_49533",
       "name": "Богуші",
       "region": "Рівненська область",
       "priority": false,
@@ -13581,7 +13581,7 @@
       }
     },
     {
-      "slug": "olx_787",
+      "slug": "olx_ua_787",
       "name": "Бойки",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -13707,7 +13707,7 @@
       }
     },
     {
-      "slug": "olx_358",
+      "slug": "olx_ua_358",
       "name": "Болград",
       "region": "Одеська область",
       "priority": false,
@@ -13735,7 +13735,7 @@
       }
     },
     {
-      "slug": "olx_397",
+      "slug": "olx_ua_397",
       "name": "Болехів",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -13889,7 +13889,7 @@
       }
     },
     {
-      "slug": "olx_19835",
+      "slug": "olx_ua_19835",
       "name": "Болярка",
       "region": "Житомирська область",
       "priority": false,
@@ -14105,7 +14105,7 @@
       }
     },
     {
-      "slug": "olx_45453",
+      "slug": "olx_ua_45453",
       "name": "Бондусі",
       "region": "Полтавська область",
       "priority": false,
@@ -14249,7 +14249,7 @@
       }
     },
     {
-      "slug": "olx_357",
+      "slug": "olx_ua_357",
       "name": "Борзна",
       "region": "Чернігівська область",
       "priority": false,
@@ -14304,7 +14304,7 @@
       }
     },
     {
-      "slug": "olx_74",
+      "slug": "olx_ua_74",
       "name": "Борислав",
       "region": "Львівська область",
       "priority": false,
@@ -14314,7 +14314,7 @@
       }
     },
     {
-      "slug": "olx_328",
+      "slug": "olx_ua_328",
       "name": "Бориспіль",
       "region": "Київська область",
       "priority": false,
@@ -14324,7 +14324,7 @@
       }
     },
     {
-      "slug": "olx_63637",
+      "slug": "olx_ua_63637",
       "name": "Борисів",
       "region": "Хмельницька область",
       "priority": false,
@@ -14343,7 +14343,7 @@
       }
     },
     {
-      "slug": "olx_27375",
+      "slug": "olx_ua_27375",
       "name": "Борисівка",
       "region": "Кіровоградська область",
       "priority": false,
@@ -14847,7 +14847,7 @@
       }
     },
     {
-      "slug": "olx_8801",
+      "slug": "olx_ua_8801",
       "name": "Бортнів",
       "region": "Волинська область",
       "priority": false,
@@ -14983,7 +14983,7 @@
       }
     },
     {
-      "slug": "olx_83",
+      "slug": "olx_ua_83",
       "name": "Борщів",
       "region": "Тернопільська область",
       "priority": false,
@@ -15191,7 +15191,7 @@
       }
     },
     {
-      "slug": "olx_72959",
+      "slug": "olx_ua_72959",
       "name": "Ботар",
       "region": "Закарпатська область",
       "priority": false,
@@ -15372,7 +15372,7 @@
       }
     },
     {
-      "slug": "olx_48",
+      "slug": "olx_ua_48",
       "name": "Боярка",
       "region": "Київська область",
       "priority": false,
@@ -15490,7 +15490,7 @@
       }
     },
     {
-      "slug": "olx_57761",
+      "slug": "olx_ua_57761",
       "name": "Бражківка",
       "region": "Харківська область",
       "priority": false,
@@ -15653,7 +15653,7 @@
       }
     },
     {
-      "slug": "olx_40395",
+      "slug": "olx_ua_40395",
       "name": "Братолюбівка",
       "region": "Миколаївська область",
       "priority": false,
@@ -15690,7 +15690,7 @@
       }
     },
     {
-      "slug": "olx_671",
+      "slug": "olx_ua_671",
       "name": "Братське",
       "region": "Миколаївська область",
       "priority": false,
@@ -15835,7 +15835,7 @@
       }
     },
     {
-      "slug": "olx_27377",
+      "slug": "olx_ua_27377",
       "name": "Бредихине",
       "region": "Кіровоградська область",
       "priority": false,
@@ -15872,7 +15872,7 @@
       }
     },
     {
-      "slug": "olx_57763",
+      "slug": "olx_ua_57763",
       "name": "Бригадирівка",
       "region": "Харківська область",
       "priority": false,
@@ -16106,7 +16106,7 @@
       }
     },
     {
-      "slug": "olx_84",
+      "slug": "olx_ua_84",
       "name": "Бровари",
       "region": "Київська область",
       "priority": false,
@@ -16242,7 +16242,7 @@
       }
     },
     {
-      "slug": "olx_360",
+      "slug": "olx_ua_360",
       "name": "Броди",
       "region": "Волинська область",
       "priority": false,
@@ -16414,7 +16414,7 @@
       }
     },
     {
-      "slug": "olx_49535",
+      "slug": "olx_ua_49535",
       "name": "Бронне",
       "region": "Рівненська область",
       "priority": false,
@@ -16451,7 +16451,7 @@
       }
     },
     {
-      "slug": "olx_23505",
+      "slug": "olx_ua_23505",
       "name": "Бронька",
       "region": "Закарпатська область",
       "priority": false,
@@ -16668,7 +16668,7 @@
       }
     },
     {
-      "slug": "olx_24",
+      "slug": "olx_ua_24",
       "name": "Брянка",
       "region": "Луганська область",
       "priority": false,
@@ -16677,7 +16677,7 @@
       }
     },
     {
-      "slug": "olx_23503",
+      "slug": "olx_ua_23503",
       "name": "Брід",
       "region": "Закарпатська область",
       "priority": false,
@@ -16885,7 +16885,7 @@
       }
     },
     {
-      "slug": "olx_57765",
+      "slug": "olx_ua_57765",
       "name": "Бугаївка",
       "region": "Харківська область",
       "priority": false,
@@ -16949,7 +16949,7 @@
       }
     },
     {
-      "slug": "olx_40397",
+      "slug": "olx_ua_40397",
       "name": "Бугорок",
       "region": "Миколаївська область",
       "priority": false,
@@ -17075,7 +17075,7 @@
       }
     },
     {
-      "slug": "olx_66715",
+      "slug": "olx_ua_66715",
       "name": "Буда-Орловецька",
       "region": "Черкаська область",
       "priority": false,
@@ -17147,7 +17147,7 @@
       }
     },
     {
-      "slug": "olx_69651",
+      "slug": "olx_ua_69651",
       "name": "Буди",
       "region": "Чернігівська область",
       "priority": false,
@@ -17517,7 +17517,7 @@
       }
     },
     {
-      "slug": "olx_8803",
+      "slug": "olx_ua_8803",
       "name": "Будятичі",
       "region": "Волинська область",
       "priority": false,
@@ -17554,7 +17554,7 @@
       }
     },
     {
-      "slug": "olx_8805",
+      "slug": "olx_ua_8805",
       "name": "Бужанка",
       "region": "Волинська область",
       "priority": false,
@@ -17582,7 +17582,7 @@
       }
     },
     {
-      "slug": "olx_8807",
+      "slug": "olx_ua_8807",
       "name": "Бужковичі",
       "region": "Волинська область",
       "priority": false,
@@ -18204,7 +18204,7 @@
       }
     },
     {
-      "slug": "olx_226",
+      "slug": "olx_ua_226",
       "name": "Буринь",
       "region": "Сумська область",
       "priority": false,
@@ -18448,7 +18448,7 @@
       }
     },
     {
-      "slug": "olx_45455",
+      "slug": "olx_ua_45455",
       "name": "Буряківщина",
       "region": "Полтавська область",
       "priority": false,
@@ -18485,7 +18485,7 @@
       }
     },
     {
-      "slug": "olx_69653",
+      "slug": "olx_ua_69653",
       "name": "Бурімка",
       "region": "Чернігівська область",
       "priority": false,
@@ -18522,7 +18522,7 @@
       }
     },
     {
-      "slug": "olx_311",
+      "slug": "olx_ua_311",
       "name": "Буськ",
       "region": "Львівська область",
       "priority": false,
@@ -18577,7 +18577,7 @@
       }
     },
     {
-      "slug": "olx_45457",
+      "slug": "olx_ua_45457",
       "name": "Бутова Долина",
       "region": "Полтавська область",
       "priority": false,
@@ -18722,7 +18722,7 @@
       }
     },
     {
-      "slug": "olx_27379",
+      "slug": "olx_ua_27379",
       "name": "Буховецьке",
       "region": "Кіровоградська область",
       "priority": false,
@@ -18822,7 +18822,7 @@
       }
     },
     {
-      "slug": "olx_57381",
+      "slug": "olx_ua_57381",
       "name": "Буцнів",
       "region": "Тернопільська область",
       "priority": false,
@@ -18868,7 +18868,7 @@
       }
     },
     {
-      "slug": "olx_28",
+      "slug": "olx_ua_28",
       "name": "Буча",
       "region": "Київська область",
       "priority": false,
@@ -18887,7 +18887,7 @@
       }
     },
     {
-      "slug": "olx_214",
+      "slug": "olx_ua_214",
       "name": "Бучач",
       "region": "Тернопільська область",
       "priority": false,
@@ -18996,7 +18996,7 @@
       }
     },
     {
-      "slug": "olx_519",
+      "slug": "olx_ua_519",
       "name": "Буштино",
       "region": "Закарпатська область",
       "priority": false,
@@ -19051,7 +19051,7 @@
       }
     },
     {
-      "slug": "olx_136",
+      "slug": "olx_ua_136",
       "name": "Бібрка",
       "region": "Львівська область",
       "priority": false,
@@ -19142,7 +19142,7 @@
       }
     },
     {
-      "slug": "olx_57373",
+      "slug": "olx_ua_57373",
       "name": "Біла",
       "region": "Тернопільська область",
       "priority": false,
@@ -19259,7 +19259,7 @@
       }
     },
     {
-      "slug": "olx_60",
+      "slug": "olx_ua_60",
       "name": "Біла Церква",
       "region": "Київська область",
       "priority": false,
@@ -19278,7 +19278,7 @@
       }
     },
     {
-      "slug": "olx_51959",
+      "slug": "olx_ua_51959",
       "name": "Білани",
       "region": "Сумська область",
       "priority": false,
@@ -19360,7 +19360,7 @@
       }
     },
     {
-      "slug": "olx_30",
+      "slug": "olx_ua_30",
       "name": "Білгород-Дністровський",
       "region": "Одеська область",
       "priority": false,
@@ -19406,7 +19406,7 @@
       }
     },
     {
-      "slug": "olx_63623",
+      "slug": "olx_ua_63623",
       "name": "Білеве",
       "region": "Хмельницька область",
       "priority": false,
@@ -19524,7 +19524,7 @@
       }
     },
     {
-      "slug": "olx_63625",
+      "slug": "olx_ua_63625",
       "name": "Білижинці",
       "region": "Хмельницька область",
       "priority": false,
@@ -19624,7 +19624,7 @@
       }
     },
     {
-      "slug": "olx_51961",
+      "slug": "olx_ua_51961",
       "name": "Біликівка",
       "region": "Сумська область",
       "priority": false,
@@ -19724,7 +19724,7 @@
       }
     },
     {
-      "slug": "olx_8799",
+      "slug": "olx_ua_8799",
       "name": "Біличі",
       "region": "Волинська область",
       "priority": false,
@@ -19743,7 +19743,7 @@
       }
     },
     {
-      "slug": "olx_42533",
+      "slug": "olx_ua_42533",
       "name": "Білка",
       "region": "Одеська область",
       "priority": false,
@@ -19753,7 +19753,7 @@
       }
     },
     {
-      "slug": "olx_49511",
+      "slug": "olx_ua_49511",
       "name": "Білка",
       "region": "Рівненська область",
       "priority": false,
@@ -19817,7 +19817,7 @@
       }
     },
     {
-      "slug": "olx_5433",
+      "slug": "olx_ua_5433",
       "name": "Білки",
       "region": "Вінницька область",
       "priority": false,
@@ -19827,7 +19827,7 @@
       }
     },
     {
-      "slug": "olx_23499",
+      "slug": "olx_ua_23499",
       "name": "Білки",
       "region": "Закарпатська область",
       "priority": false,
@@ -19900,7 +19900,7 @@
       }
     },
     {
-      "slug": "olx_51963",
+      "slug": "olx_ua_51963",
       "name": "Біловишневе",
       "region": "Сумська область",
       "priority": false,
@@ -19954,7 +19954,7 @@
       }
     },
     {
-      "slug": "olx_63627",
+      "slug": "olx_ua_63627",
       "name": "Білогородка",
       "region": "Хмельницька область",
       "priority": false,
@@ -20036,7 +20036,7 @@
       }
     },
     {
-      "slug": "olx_213",
+      "slug": "olx_ua_213",
       "name": "Білогірськ",
       "region": "Крим (АРК)",
       "priority": false,
@@ -20045,7 +20045,7 @@
       }
     },
     {
-      "slug": "olx_589",
+      "slug": "olx_ua_589",
       "name": "Білозерка",
       "region": "Херсонська область",
       "priority": false,
@@ -20235,7 +20235,7 @@
       }
     },
     {
-      "slug": "olx_51965",
+      "slug": "olx_ua_51965",
       "name": "Білопілля",
       "region": "Сумська область",
       "priority": false,
@@ -20290,7 +20290,7 @@
       }
     },
     {
-      "slug": "olx_57375",
+      "slug": "olx_ua_57375",
       "name": "Білоскірка",
       "region": "Тернопільська область",
       "priority": false,
@@ -20309,7 +20309,7 @@
       }
     },
     {
-      "slug": "olx_63629",
+      "slug": "olx_ua_63629",
       "name": "Білотин",
       "region": "Хмельницька область",
       "priority": false,
@@ -20409,7 +20409,7 @@
       }
     },
     {
-      "slug": "olx_45439",
+      "slug": "olx_ua_45439",
       "name": "Білоцерківка",
       "region": "Полтавська область",
       "priority": false,
@@ -20500,7 +20500,7 @@
       }
     },
     {
-      "slug": "olx_69637",
+      "slug": "olx_ua_69637",
       "name": "Більмачівка",
       "region": "Чернігівська область",
       "priority": false,
@@ -20537,7 +20537,7 @@
       }
     },
     {
-      "slug": "olx_49513",
+      "slug": "olx_ua_49513",
       "name": "Більчаки",
       "region": "Рівненська область",
       "priority": false,
@@ -20574,7 +20574,7 @@
       }
     },
     {
-      "slug": "olx_63631",
+      "slug": "olx_ua_63631",
       "name": "Більчин",
       "region": "Хмельницька область",
       "priority": false,
@@ -20584,7 +20584,7 @@
       }
     },
     {
-      "slug": "olx_63633",
+      "slug": "olx_ua_63633",
       "name": "Більчинка",
       "region": "Хмельницька область",
       "priority": false,
@@ -20684,7 +20684,7 @@
       }
     },
     {
-      "slug": "olx_475",
+      "slug": "olx_ua_475",
       "name": "Біляївка",
       "region": "Запорізька область",
       "priority": false,
@@ -20694,7 +20694,7 @@
       }
     },
     {
-      "slug": "olx_43045",
+      "slug": "olx_ua_43045",
       "name": "Біляївка",
       "region": "Одеська область",
       "priority": false,
@@ -20830,7 +20830,7 @@
       }
     },
     {
-      "slug": "olx_45441",
+      "slug": "olx_ua_45441",
       "name": "Бірки",
       "region": "Полтавська область",
       "priority": false,
@@ -21154,7 +21154,7 @@
       }
     },
     {
-      "slug": "olx_66727",
+      "slug": "olx_ua_66727",
       "name": "В'язівок",
       "region": "Черкаська область",
       "priority": false,
@@ -21335,7 +21335,7 @@
       }
     },
     {
-      "slug": "olx_68693",
+      "slug": "olx_ua_68693",
       "name": "Вали",
       "region": "Чернівецька область",
       "priority": false,
@@ -21345,7 +21345,7 @@
       }
     },
     {
-      "slug": "olx_193",
+      "slug": "olx_ua_193",
       "name": "Валки",
       "region": "Житомирська область",
       "priority": false,
@@ -21408,7 +21408,7 @@
       }
     },
     {
-      "slug": "olx_66721",
+      "slug": "olx_ua_66721",
       "name": "Валява",
       "region": "Черкаська область",
       "priority": false,
@@ -21553,7 +21553,7 @@
       }
     },
     {
-      "slug": "olx_202",
+      "slug": "olx_ua_202",
       "name": "Вараш",
       "region": "Рівненська область",
       "priority": false,
@@ -21734,7 +21734,7 @@
       }
     },
     {
-      "slug": "olx_27381",
+      "slug": "olx_ua_27381",
       "name": "Варламівка",
       "region": "Кіровоградська область",
       "priority": false,
@@ -21879,7 +21879,7 @@
       }
     },
     {
-      "slug": "olx_245",
+      "slug": "olx_ua_245",
       "name": "Васильків",
       "region": "Київська область",
       "priority": false,
@@ -22006,7 +22006,7 @@
       }
     },
     {
-      "slug": "olx_25295",
+      "slug": "olx_ua_25295",
       "name": "Василівка",
       "region": "Запорізька область",
       "priority": false,
@@ -22015,7 +22015,7 @@
       }
     },
     {
-      "slug": "olx_27383",
+      "slug": "olx_ua_27383",
       "name": "Василівка",
       "region": "Кіровоградська область",
       "priority": false,
@@ -22429,7 +22429,7 @@
       }
     },
     {
-      "slug": "olx_63639",
+      "slug": "olx_ua_63639",
       "name": "Васьківці",
       "region": "Хмельницька область",
       "priority": false,
@@ -22574,7 +22574,7 @@
       }
     },
     {
-      "slug": "olx_68695",
+      "slug": "olx_ua_68695",
       "name": "Вахнівці",
       "region": "Чернівецька область",
       "priority": false,
@@ -22593,7 +22593,7 @@
       }
     },
     {
-      "slug": "olx_148",
+      "slug": "olx_ua_148",
       "name": "Вахрушеве",
       "region": "Луганська область",
       "priority": false,
@@ -22647,7 +22647,7 @@
       }
     },
     {
-      "slug": "olx_100",
+      "slug": "olx_ua_100",
       "name": "Вашківці",
       "region": "Чернівецька область",
       "priority": false,
@@ -22719,7 +22719,7 @@
       }
     },
     {
-      "slug": "olx_49543",
+      "slug": "olx_ua_49543",
       "name": "Ведмедівка",
       "region": "Рівненська область",
       "priority": false,
@@ -22836,7 +22836,7 @@
       }
     },
     {
-      "slug": "olx_45459",
+      "slug": "olx_ua_45459",
       "name": "Велика Багачка",
       "region": "Полтавська область",
       "priority": false,
@@ -22882,7 +22882,7 @@
       }
     },
     {
-      "slug": "olx_617",
+      "slug": "olx_ua_617",
       "name": "Велика Березовиця",
       "region": "Тернопільська область",
       "priority": false,
@@ -23396,7 +23396,7 @@
       }
     },
     {
-      "slug": "olx_11207",
+      "slug": "olx_ua_11207",
       "name": "Велика Костромка",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -23469,7 +23469,7 @@
       }
     },
     {
-      "slug": "olx_593",
+      "slug": "olx_ua_593",
       "name": "Велика Лепетиха",
       "region": "Херсонська область",
       "priority": false,
@@ -23586,7 +23586,7 @@
       }
     },
     {
-      "slug": "olx_591",
+      "slug": "olx_ua_591",
       "name": "Велика Олександрівка",
       "region": "Херсонська область",
       "priority": false,
@@ -23695,7 +23695,7 @@
       }
     },
     {
-      "slug": "olx_63643",
+      "slug": "olx_ua_63643",
       "name": "Велика Радогощ",
       "region": "Хмельницька область",
       "priority": false,
@@ -23732,7 +23732,7 @@
       }
     },
     {
-      "slug": "olx_23509",
+      "slug": "olx_ua_23509",
       "name": "Велика Розтока",
       "region": "Закарпатська область",
       "priority": false,
@@ -24012,7 +24012,7 @@
       }
     },
     {
-      "slug": "olx_68701",
+      "slug": "olx_ua_68701",
       "name": "Велике",
       "region": "Чернівецька область",
       "priority": false,
@@ -24166,7 +24166,7 @@
       }
     },
     {
-      "slug": "olx_521",
+      "slug": "olx_ua_521",
       "name": "Великий Бичків",
       "region": "Закарпатська область",
       "priority": false,
@@ -24203,7 +24203,7 @@
       }
     },
     {
-      "slug": "olx_21",
+      "slug": "olx_ua_21",
       "name": "Великий Бурлук",
       "region": "Харківська область",
       "priority": false,
@@ -24771,7 +24771,7 @@
       }
     },
     {
-      "slug": "olx_477",
+      "slug": "olx_ua_477",
       "name": "Великодолинське",
       "region": "Одеська область",
       "priority": false,
@@ -24781,7 +24781,7 @@
       }
     },
     {
-      "slug": "olx_27385",
+      "slug": "olx_ua_27385",
       "name": "Великодрюкове",
       "region": "Кіровоградська область",
       "priority": false,
@@ -24934,7 +24934,7 @@
       }
     },
     {
-      "slug": "olx_40401",
+      "slug": "olx_ua_40401",
       "name": "Великосербулівка",
       "region": "Миколаївська область",
       "priority": false,
@@ -25052,7 +25052,7 @@
       }
     },
     {
-      "slug": "olx_57383",
+      "slug": "olx_ua_57383",
       "name": "Великі Бірки",
       "region": "Тернопільська область",
       "priority": false,
@@ -25089,7 +25089,7 @@
       }
     },
     {
-      "slug": "olx_57385",
+      "slug": "olx_ua_57385",
       "name": "Великі Гаї",
       "region": "Тернопільська область",
       "priority": false,
@@ -25414,7 +25414,7 @@
       }
     },
     {
-      "slug": "olx_347",
+      "slug": "olx_ua_347",
       "name": "Великі Мости",
       "region": "Львівська область",
       "priority": false,
@@ -25523,7 +25523,7 @@
       }
     },
     {
-      "slug": "olx_63641",
+      "slug": "olx_ua_63641",
       "name": "Великі Пузирки",
       "region": "Хмельницька область",
       "priority": false,
@@ -25551,7 +25551,7 @@
       }
     },
     {
-      "slug": "olx_49545",
+      "slug": "olx_ua_49545",
       "name": "Великі Селища",
       "region": "Рівненська область",
       "priority": false,
@@ -25732,7 +25732,7 @@
       }
     },
     {
-      "slug": "olx_40399",
+      "slug": "olx_ua_40399",
       "name": "Велідарівка",
       "region": "Миколаївська область",
       "priority": false,
@@ -26255,7 +26255,7 @@
       }
     },
     {
-      "slug": "olx_66723",
+      "slug": "olx_ua_66723",
       "name": "Вербівка",
       "region": "Черкаська область",
       "priority": false,
@@ -26507,7 +26507,7 @@
       }
     },
     {
-      "slug": "olx_27387",
+      "slug": "olx_ua_27387",
       "name": "Вереміївка",
       "region": "Кіровоградська область",
       "priority": false,
@@ -26814,7 +26814,7 @@
       }
     },
     {
-      "slug": "olx_319",
+      "slug": "olx_ua_319",
       "name": "Верхньодніпровськ",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -26842,7 +26842,7 @@
       }
     },
     {
-      "slug": "olx_27389",
+      "slug": "olx_ua_27389",
       "name": "Верхньоінгульське",
       "region": "Кіровоградська область",
       "priority": false,
@@ -27239,7 +27239,7 @@
       }
     },
     {
-      "slug": "olx_8809",
+      "slug": "olx_ua_8809",
       "name": "Верхнів",
       "region": "Волинська область",
       "priority": false,
@@ -27771,7 +27771,7 @@
       }
     },
     {
-      "slug": "olx_25403",
+      "slug": "olx_ua_25403",
       "name": "Веселе",
       "region": "Запорізька область",
       "priority": false,
@@ -28069,7 +28069,7 @@
       }
     },
     {
-      "slug": "olx_40403",
+      "slug": "olx_ua_40403",
       "name": "Веселий Поділ",
       "region": "Миколаївська область",
       "priority": false,
@@ -28142,7 +28142,7 @@
       }
     },
     {
-      "slug": "olx_673",
+      "slug": "olx_ua_673",
       "name": "Веселинове",
       "region": "Миколаївська область",
       "priority": false,
@@ -28224,7 +28224,7 @@
       }
     },
     {
-      "slug": "olx_11209",
+      "slug": "olx_ua_11209",
       "name": "Веселі Чумаки",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -28234,7 +28234,7 @@
       }
     },
     {
-      "slug": "olx_61947",
+      "slug": "olx_ua_61947",
       "name": "Веселівка",
       "region": "Херсонська область",
       "priority": false,
@@ -28792,7 +28792,7 @@
       }
     },
     {
-      "slug": "olx_68703",
+      "slug": "olx_ua_68703",
       "name": "Виженка",
       "region": "Чернівецька область",
       "priority": false,
@@ -28811,7 +28811,7 @@
       }
     },
     {
-      "slug": "olx_11",
+      "slug": "olx_ua_11",
       "name": "Вижниця",
       "region": "Чернівецька область",
       "priority": false,
@@ -28965,7 +28965,7 @@
       }
     },
     {
-      "slug": "olx_37885",
+      "slug": "olx_ua_37885",
       "name": "Винники",
       "region": null,
       "priority": false,
@@ -29145,7 +29145,7 @@
       }
     },
     {
-      "slug": "olx_264",
+      "slug": "olx_ua_264",
       "name": "Виноградів",
       "region": "Закарпатська область",
       "priority": false,
@@ -29596,7 +29596,7 @@
       }
     },
     {
-      "slug": "olx_607",
+      "slug": "olx_ua_607",
       "name": "Високий",
       "region": "Харківська область",
       "priority": false,
@@ -30029,7 +30029,7 @@
       }
     },
     {
-      "slug": "olx_81",
+      "slug": "olx_ua_81",
       "name": "Вишгород",
       "region": "Київська область",
       "priority": false,
@@ -30147,7 +30147,7 @@
       }
     },
     {
-      "slug": "olx_523",
+      "slug": "olx_ua_523",
       "name": "Вишково",
       "region": "Закарпатська область",
       "priority": false,
@@ -30202,7 +30202,7 @@
       }
     },
     {
-      "slug": "olx_31893",
+      "slug": "olx_ua_31893",
       "name": "Вишневе",
       "region": "Київська область",
       "priority": false,
@@ -30842,7 +30842,7 @@
       }
     },
     {
-      "slug": "olx_547",
+      "slug": "olx_ua_547",
       "name": "Власівка",
       "region": "Кіровоградська область",
       "priority": false,
@@ -30888,7 +30888,7 @@
       }
     },
     {
-      "slug": "olx_63645",
+      "slug": "olx_ua_63645",
       "name": "Влашанівка",
       "region": "Хмельницька область",
       "priority": false,
@@ -31177,7 +31177,7 @@
       }
     },
     {
-      "slug": "olx_230",
+      "slug": "olx_ua_230",
       "name": "Вовчанськ",
       "region": "Харківська область",
       "priority": false,
@@ -31249,7 +31249,7 @@
       }
     },
     {
-      "slug": "olx_761",
+      "slug": "olx_ua_761",
       "name": "Вовчинець",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -31259,7 +31259,7 @@
       }
     },
     {
-      "slug": "olx_68715",
+      "slug": "olx_ua_68715",
       "name": "Вовчинець",
       "region": "Чернівецька область",
       "priority": false,
@@ -31511,7 +31511,7 @@
       }
     },
     {
-      "slug": "olx_40405",
+      "slug": "olx_ua_40405",
       "name": "Водяне",
       "region": "Миколаївська область",
       "priority": false,
@@ -31656,7 +31656,7 @@
       }
     },
     {
-      "slug": "olx_40407",
+      "slug": "olx_ua_40407",
       "name": "Водяно-Лорине",
       "region": "Миколаївська область",
       "priority": false,
@@ -31747,7 +31747,7 @@
       }
     },
     {
-      "slug": "olx_22",
+      "slug": "olx_ua_22",
       "name": "Вознесенськ",
       "region": "Миколаївська область",
       "priority": false,
@@ -31829,7 +31829,7 @@
       }
     },
     {
-      "slug": "olx_40409",
+      "slug": "olx_ua_40409",
       "name": "Возсіятське",
       "region": "Миколаївська область",
       "priority": false,
@@ -32172,7 +32172,7 @@
       }
     },
     {
-      "slug": "olx_8811",
+      "slug": "olx_ua_8811",
       "name": "Волиця-Морозовецька",
       "region": "Волинська область",
       "priority": false,
@@ -32199,7 +32199,7 @@
       }
     },
     {
-      "slug": "olx_386",
+      "slug": "olx_ua_386",
       "name": "Волноваха",
       "region": "Донецька область",
       "priority": false,
@@ -32289,7 +32289,7 @@
       }
     },
     {
-      "slug": "olx_445",
+      "slug": "olx_ua_445",
       "name": "Володарка",
       "region": "Київська область",
       "priority": false,
@@ -32317,7 +32317,7 @@
       }
     },
     {
-      "slug": "olx_96",
+      "slug": "olx_ua_96",
       "name": "Володимир",
       "region": "Волинська область",
       "priority": false,
@@ -32327,7 +32327,7 @@
       }
     },
     {
-      "slug": "olx_637",
+      "slug": "olx_ua_637",
       "name": "Володимирець",
       "region": "Рівненська область",
       "priority": false,
@@ -32382,7 +32382,7 @@
       }
     },
     {
-      "slug": "olx_11211",
+      "slug": "olx_ua_11211",
       "name": "Володимирівка",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -32634,7 +32634,7 @@
       }
     },
     {
-      "slug": "olx_68717",
+      "slug": "olx_ua_68717",
       "name": "Волока",
       "region": "Чернівецька область",
       "priority": false,
@@ -32823,7 +32823,7 @@
       }
     },
     {
-      "slug": "olx_108",
+      "slug": "olx_ua_108",
       "name": "Волочиськ",
       "region": "Хмельницька область",
       "priority": false,
@@ -33265,7 +33265,7 @@
       }
     },
     {
-      "slug": "olx_30599",
+      "slug": "olx_ua_30599",
       "name": "Ворзель",
       "region": null,
       "priority": false,
@@ -33409,7 +33409,7 @@
       }
     },
     {
-      "slug": "olx_627",
+      "slug": "olx_ua_627",
       "name": "Ворожба",
       "region": "Сумська область",
       "priority": false,
@@ -33733,7 +33733,7 @@
       }
     },
     {
-      "slug": "olx_66725",
+      "slug": "olx_ua_66725",
       "name": "Воронівка",
       "region": "Черкаська область",
       "priority": false,
@@ -33842,7 +33842,7 @@
       }
     },
     {
-      "slug": "olx_629",
+      "slug": "olx_ua_629",
       "name": "Вороніж",
       "region": "Сумська область",
       "priority": false,
@@ -33978,7 +33978,7 @@
       }
     },
     {
-      "slug": "olx_61949",
+      "slug": "olx_ua_61949",
       "name": "Воскресенка",
       "region": "Херсонська область",
       "priority": false,
@@ -34185,7 +34185,7 @@
       }
     },
     {
-      "slug": "olx_469",
+      "slug": "olx_ua_469",
       "name": "Врадіївка",
       "region": "Миколаївська область",
       "priority": false,
@@ -34231,7 +34231,7 @@
       }
     },
     {
-      "slug": "olx_223",
+      "slug": "olx_ua_223",
       "name": "Вугледар",
       "region": "Донецька область",
       "priority": false,
@@ -34546,7 +34546,7 @@
       }
     },
     {
-      "slug": "olx_99",
+      "slug": "olx_ua_99",
       "name": "Війтівці",
       "region": "Вінницька область",
       "priority": false,
@@ -34853,7 +34853,7 @@
       }
     },
     {
-      "slug": "olx_49537",
+      "slug": "olx_ua_49537",
       "name": "Вілля",
       "region": "Рівненська область",
       "priority": false,
@@ -34917,7 +34917,7 @@
       }
     },
     {
-      "slug": "olx_11205",
+      "slug": "olx_ua_11205",
       "name": "Вільне",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -35179,7 +35179,7 @@
       }
     },
     {
-      "slug": "olx_367",
+      "slug": "olx_ua_367",
       "name": "Вільногірськ",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -35243,7 +35243,7 @@
       }
     },
     {
-      "slug": "olx_43",
+      "slug": "olx_ua_43",
       "name": "Вільнянськ",
       "region": "Запорізька область",
       "priority": false,
@@ -35469,7 +35469,7 @@
       }
     },
     {
-      "slug": "olx_23507",
+      "slug": "olx_ua_23507",
       "name": "Вільхівка",
       "region": "Закарпатська область",
       "priority": false,
@@ -35479,7 +35479,7 @@
       }
     },
     {
-      "slug": "olx_49539",
+      "slug": "olx_ua_49539",
       "name": "Вільхівка",
       "region": "Рівненська область",
       "priority": false,
@@ -35624,7 +35624,7 @@
       }
     },
     {
-      "slug": "olx_66717",
+      "slug": "olx_ua_66717",
       "name": "Вільшана",
       "region": "Черкаська область",
       "priority": false,
@@ -35949,7 +35949,7 @@
       }
     },
     {
-      "slug": "olx_579",
+      "slug": "olx_ua_579",
       "name": "Віньківці",
       "region": "Хмельницька область",
       "priority": false,
@@ -36103,7 +36103,7 @@
       }
     },
     {
-      "slug": "olx_49541",
+      "slug": "olx_ua_49541",
       "name": "Вітковичі",
       "region": "Рівненська область",
       "priority": false,
@@ -36518,7 +36518,7 @@
       }
     },
     {
-      "slug": "olx_378",
+      "slug": "olx_ua_378",
       "name": "Гадяч",
       "region": "Полтавська область",
       "priority": false,
@@ -36600,7 +36600,7 @@
       }
     },
     {
-      "slug": "olx_134",
+      "slug": "olx_ua_134",
       "name": "Гайворон",
       "region": "Кіровоградська область",
       "priority": false,
@@ -36808,7 +36808,7 @@
       }
     },
     {
-      "slug": "olx_17",
+      "slug": "olx_ua_17",
       "name": "Гайсин",
       "region": "Вінницька область",
       "priority": false,
@@ -36953,7 +36953,7 @@
       }
     },
     {
-      "slug": "olx_41469",
+      "slug": "olx_ua_41469",
       "name": "Галицинове",
       "region": null,
       "priority": false,
@@ -37007,7 +37007,7 @@
       }
     },
     {
-      "slug": "olx_5",
+      "slug": "olx_ua_5",
       "name": "Галич",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -37944,7 +37944,7 @@
       }
     },
     {
-      "slug": "olx_31899",
+      "slug": "olx_ua_31899",
       "name": "Гатне",
       "region": null,
       "priority": false,
@@ -38502,7 +38502,7 @@
       }
     },
     {
-      "slug": "olx_140",
+      "slug": "olx_ua_140",
       "name": "Генічеськ",
       "region": "Херсонська область",
       "priority": false,
@@ -38673,7 +38673,7 @@
       }
     },
     {
-      "slug": "olx_71",
+      "slug": "olx_ua_71",
       "name": "Герца",
       "region": "Чернівецька область",
       "priority": false,
@@ -38899,7 +38899,7 @@
       }
     },
     {
-      "slug": "olx_695",
+      "slug": "olx_ua_695",
       "name": "Глеваха",
       "region": "Київська область",
       "priority": false,
@@ -38945,7 +38945,7 @@
       }
     },
     {
-      "slug": "olx_569",
+      "slug": "olx_ua_569",
       "name": "Глибока",
       "region": "Чернівецька область",
       "priority": false,
@@ -39036,7 +39036,7 @@
       }
     },
     {
-      "slug": "olx_791",
+      "slug": "olx_ua_791",
       "name": "Глибоке",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -39271,7 +39271,7 @@
       }
     },
     {
-      "slug": "olx_789",
+      "slug": "olx_ua_789",
       "name": "Глибівка",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -39515,7 +39515,7 @@
       }
     },
     {
-      "slug": "olx_73",
+      "slug": "olx_ua_73",
       "name": "Глиняни",
       "region": "Львівська область",
       "priority": false,
@@ -39570,7 +39570,7 @@
       }
     },
     {
-      "slug": "olx_65",
+      "slug": "olx_ua_65",
       "name": "Глобине",
       "region": "Полтавська область",
       "priority": false,
@@ -39598,7 +39598,7 @@
       }
     },
     {
-      "slug": "olx_25001",
+      "slug": "olx_ua_25001",
       "name": "Глодове",
       "region": "Запорізька область",
       "priority": false,
@@ -39670,7 +39670,7 @@
       }
     },
     {
-      "slug": "olx_406",
+      "slug": "olx_ua_406",
       "name": "Глухів",
       "region": "Сумська область",
       "priority": false,
@@ -40067,7 +40067,7 @@
       }
     },
     {
-      "slug": "olx_461",
+      "slug": "olx_ua_461",
       "name": "Гнівань",
       "region": "Вінницька область",
       "priority": false,
@@ -40374,7 +40374,7 @@
       }
     },
     {
-      "slug": "olx_409",
+      "slug": "olx_ua_409",
       "name": "Гола  Пристань",
       "region": "Херсонська область",
       "priority": false,
@@ -42093,7 +42093,7 @@
       }
     },
     {
-      "slug": "olx_388",
+      "slug": "olx_ua_388",
       "name": "Горлівка",
       "region": "Донецька область",
       "priority": false,
@@ -42201,7 +42201,7 @@
       }
     },
     {
-      "slug": "olx_404",
+      "slug": "olx_ua_404",
       "name": "Городенка",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -42328,7 +42328,7 @@
       }
     },
     {
-      "slug": "olx_225",
+      "slug": "olx_ua_225",
       "name": "Городище",
       "region": "Черкаська область",
       "priority": false,
@@ -42671,7 +42671,7 @@
       }
     },
     {
-      "slug": "olx_102",
+      "slug": "olx_ua_102",
       "name": "Городня",
       "region": "Чернігівська область",
       "priority": false,
@@ -42735,7 +42735,7 @@
       }
     },
     {
-      "slug": "olx_251",
+      "slug": "olx_ua_251",
       "name": "Городок",
       "region": "Вінницька область",
       "priority": false,
@@ -42745,7 +42745,7 @@
       }
     },
     {
-      "slug": "olx_262",
+      "slug": "olx_ua_262",
       "name": "Городок",
       "region": "Львівська область",
       "priority": false,
@@ -42935,7 +42935,7 @@
       }
     },
     {
-      "slug": "olx_309",
+      "slug": "olx_ua_309",
       "name": "Горохів",
       "region": "Волинська область",
       "priority": false,
@@ -43233,7 +43233,7 @@
       }
     },
     {
-      "slug": "olx_282",
+      "slug": "olx_ua_282",
       "name": "Горішні Плавні",
       "region": "Полтавська область",
       "priority": false,
@@ -43297,7 +43297,7 @@
       }
     },
     {
-      "slug": "olx_435",
+      "slug": "olx_ua_435",
       "name": "Гостомель",
       "region": "Київська область",
       "priority": false,
@@ -43685,7 +43685,7 @@
       }
     },
     {
-      "slug": "olx_649",
+      "slug": "olx_ua_649",
       "name": "Градизьк",
       "region": "Полтавська область",
       "priority": false,
@@ -43722,7 +43722,7 @@
       }
     },
     {
-      "slug": "olx_40411",
+      "slug": "olx_ua_40411",
       "name": "Гражданка",
       "region": "Миколаївська область",
       "priority": false,
@@ -43858,7 +43858,7 @@
       }
     },
     {
-      "slug": "olx_11213",
+      "slug": "olx_ua_11213",
       "name": "Гранітне",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -44336,7 +44336,7 @@
       }
     },
     {
-      "slug": "olx_8813",
+      "slug": "olx_ua_8813",
       "name": "Грибовиця",
       "region": "Волинська область",
       "priority": false,
@@ -44436,7 +44436,7 @@
       }
     },
     {
-      "slug": "olx_40413",
+      "slug": "olx_ua_40413",
       "name": "Григорівка",
       "region": "Миколаївська область",
       "priority": false,
@@ -44445,7 +44445,7 @@
       }
     },
     {
-      "slug": "olx_63647",
+      "slug": "olx_ua_63647",
       "name": "Григорівка",
       "region": "Хмельницька область",
       "priority": false,
@@ -45661,7 +45661,7 @@
       }
     },
     {
-      "slug": "olx_8815",
+      "slug": "olx_ua_8815",
       "name": "Грушів",
       "region": "Волинська область",
       "priority": false,
@@ -45707,7 +45707,7 @@
       }
     },
     {
-      "slug": "olx_11225",
+      "slug": "olx_ua_11225",
       "name": "Грушівка",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -45807,7 +45807,7 @@
       }
     },
     {
-      "slug": "olx_8817",
+      "slug": "olx_ua_8817",
       "name": "Гряди",
       "region": "Волинська область",
       "priority": false,
@@ -46276,7 +46276,7 @@
       }
     },
     {
-      "slug": "olx_115",
+      "slug": "olx_ua_115",
       "name": "Гуляйполе",
       "region": "Запорізька область",
       "priority": false,
@@ -46843,7 +46843,7 @@
       }
     },
     {
-      "slug": "olx_619",
+      "slug": "olx_ua_619",
       "name": "Гусятин",
       "region": "Тернопільська область",
       "priority": false,
@@ -47537,7 +47537,7 @@
       }
     },
     {
-      "slug": "olx_380",
+      "slug": "olx_ua_380",
       "name": "Гірне",
       "region": "Луганська область",
       "priority": false,
@@ -48221,7 +48221,7 @@
       }
     },
     {
-      "slug": "olx_25003",
+      "slug": "olx_ua_25003",
       "name": "Дахно",
       "region": "Запорізька область",
       "priority": false,
@@ -48536,7 +48536,7 @@
       }
     },
     {
-      "slug": "olx_395",
+      "slug": "olx_ua_395",
       "name": "Дебальцеве",
       "region": "Донецька область",
       "priority": false,
@@ -48725,7 +48725,7 @@
       }
     },
     {
-      "slug": "olx_541",
+      "slug": "olx_ua_541",
       "name": "Делятин",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -49203,7 +49203,7 @@
       }
     },
     {
-      "slug": "olx_175",
+      "slug": "olx_ua_175",
       "name": "Деражня",
       "region": "Сумська область",
       "priority": false,
@@ -49230,7 +49230,7 @@
       }
     },
     {
-      "slug": "olx_277",
+      "slug": "olx_ua_277",
       "name": "Дергачі",
       "region": "Полтавська область",
       "priority": false,
@@ -49239,7 +49239,7 @@
       }
     },
     {
-      "slug": "olx_59415",
+      "slug": "olx_ua_59415",
       "name": "Дергачі",
       "region": "Харківська область",
       "priority": false,
@@ -49312,7 +49312,7 @@
       }
     },
     {
-      "slug": "olx_25005",
+      "slug": "olx_ua_25005",
       "name": "Деревецьке",
       "region": "Запорізька область",
       "priority": false,
@@ -49699,7 +49699,7 @@
       }
     },
     {
-      "slug": "olx_70481",
+      "slug": "olx_ua_70481",
       "name": "Десна",
       "region": "Чернігівська область",
       "priority": false,
@@ -49781,7 +49781,7 @@
       }
     },
     {
-      "slug": "olx_34",
+      "slug": "olx_ua_34",
       "name": "Джанкой",
       "region": "Крим (АРК)",
       "priority": false,
@@ -49988,7 +49988,7 @@
       }
     },
     {
-      "slug": "olx_320",
+      "slug": "olx_ua_320",
       "name": "Дземброня",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -50304,7 +50304,7 @@
       }
     },
     {
-      "slug": "olx_66745",
+      "slug": "olx_ua_66745",
       "name": "Дирдин",
       "region": "Черкаська область",
       "priority": false,
@@ -50521,7 +50521,7 @@
       }
     },
     {
-      "slug": "olx_25007",
+      "slug": "olx_ua_25007",
       "name": "Дмитрівка",
       "region": "Запорізька область",
       "priority": false,
@@ -50530,7 +50530,7 @@
       }
     },
     {
-      "slug": "olx_61951",
+      "slug": "olx_ua_61951",
       "name": "Дмитрівка",
       "region": "Херсонська область",
       "priority": false,
@@ -50926,7 +50926,7 @@
       }
     },
     {
-      "slug": "olx_413",
+      "slug": "olx_ua_413",
       "name": "Дніпрорудне",
       "region": "Запорізька область",
       "priority": false,
@@ -51277,7 +51277,7 @@
       }
     },
     {
-      "slug": "olx_159",
+      "slug": "olx_ua_159",
       "name": "Добромиль",
       "region": "Львівська область",
       "priority": false,
@@ -51332,7 +51332,7 @@
       }
     },
     {
-      "slug": "olx_217",
+      "slug": "olx_ua_217",
       "name": "Добропілля",
       "region": "Донецька область",
       "priority": false,
@@ -52197,7 +52197,7 @@
       }
     },
     {
-      "slug": "olx_207",
+      "slug": "olx_ua_207",
       "name": "Докучаєвськ",
       "region": "Донецька область",
       "priority": false,
@@ -52215,7 +52215,7 @@
       }
     },
     {
-      "slug": "olx_298",
+      "slug": "olx_ua_298",
       "name": "Долина",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -52324,7 +52324,7 @@
       }
     },
     {
-      "slug": "olx_8819",
+      "slug": "olx_ua_8819",
       "name": "Долинка",
       "region": "Волинська область",
       "priority": false,
@@ -52388,7 +52388,7 @@
       }
     },
     {
-      "slug": "olx_249",
+      "slug": "olx_ua_249",
       "name": "Долинська",
       "region": "Кіровоградська область",
       "priority": false,
@@ -52632,7 +52632,7 @@
       }
     },
     {
-      "slug": "olx_68719",
+      "slug": "olx_ua_68719",
       "name": "Долішній Шепіт",
       "region": "Чернівецька область",
       "priority": false,
@@ -52696,7 +52696,7 @@
       }
     },
     {
-      "slug": "olx_675",
+      "slug": "olx_ua_675",
       "name": "Доманівка",
       "region": "Миколаївська область",
       "priority": false,
@@ -52832,7 +52832,7 @@
       }
     },
     {
-      "slug": "olx_141",
+      "slug": "olx_ua_141",
       "name": "Донецьк",
       "region": "Донецька область",
       "priority": false,
@@ -53237,7 +53237,7 @@
       }
     },
     {
-      "slug": "olx_453",
+      "slug": "olx_ua_453",
       "name": "Драбів",
       "region": "Черкаська область",
       "priority": false,
@@ -53391,7 +53391,7 @@
       }
     },
     {
-      "slug": "olx_8821",
+      "slug": "olx_ua_8821",
       "name": "Древині",
       "region": "Волинська область",
       "priority": false,
@@ -53455,7 +53455,7 @@
       }
     },
     {
-      "slug": "olx_240",
+      "slug": "olx_ua_240",
       "name": "Дрогобич",
       "region": "Львівська область",
       "priority": false,
@@ -53699,7 +53699,7 @@
       }
     },
     {
-      "slug": "olx_61953",
+      "slug": "olx_ua_61953",
       "name": "Дружбівка",
       "region": "Херсонська область",
       "priority": false,
@@ -53780,7 +53780,7 @@
       }
     },
     {
-      "slug": "olx_410",
+      "slug": "olx_ua_410",
       "name": "Дружківка",
       "region": "Донецька область",
       "priority": false,
@@ -54177,7 +54177,7 @@
       }
     },
     {
-      "slug": "olx_302",
+      "slug": "olx_ua_302",
       "name": "Дубляни",
       "region": "Львівська область",
       "priority": false,
@@ -54241,7 +54241,7 @@
       }
     },
     {
-      "slug": "olx_25",
+      "slug": "olx_ua_25",
       "name": "Дубно",
       "region": "Рівненська область",
       "priority": false,
@@ -54323,7 +54323,7 @@
       }
     },
     {
-      "slug": "olx_525",
+      "slug": "olx_ua_525",
       "name": "Дубове",
       "region": "Закарпатська область",
       "priority": false,
@@ -54558,7 +54558,7 @@
       }
     },
     {
-      "slug": "olx_173",
+      "slug": "olx_ua_173",
       "name": "Дубровиця",
       "region": "Рівненська область",
       "priority": false,
@@ -55090,7 +55090,7 @@
       }
     },
     {
-      "slug": "olx_112",
+      "slug": "olx_ua_112",
       "name": "Дунаївці",
       "region": "Хмельницька область",
       "priority": false,
@@ -56081,7 +56081,7 @@
       }
     },
     {
-      "slug": "olx_8",
+      "slug": "olx_ua_8",
       "name": "Енергодар",
       "region": "Запорізька область",
       "priority": false,
@@ -56414,7 +56414,7 @@
       }
     },
     {
-      "slug": "olx_227",
+      "slug": "olx_ua_227",
       "name": "Жашків",
       "region": "Черкаська область",
       "priority": false,
@@ -56793,7 +56793,7 @@
       }
     },
     {
-      "slug": "olx_379",
+      "slug": "olx_ua_379",
       "name": "Жидачiв",
       "region": null,
       "priority": false,
@@ -57027,7 +57027,7 @@
       }
     },
     {
-      "slug": "olx_21003",
+      "slug": "olx_ua_21003",
       "name": "Житомирське",
       "region": null,
       "priority": false,
@@ -57054,7 +57054,7 @@
       }
     },
     {
-      "slug": "olx_330",
+      "slug": "olx_ua_330",
       "name": "Жмеринка",
       "region": "Вінницька область",
       "priority": false,
@@ -57109,7 +57109,7 @@
       }
     },
     {
-      "slug": "olx_27",
+      "slug": "olx_ua_27",
       "name": "Жовква",
       "region": "Львівська область",
       "priority": false,
@@ -57164,7 +57164,7 @@
       }
     },
     {
-      "slug": "olx_11215",
+      "slug": "olx_ua_11215",
       "name": "Жовте",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -57749,7 +57749,7 @@
       }
     },
     {
-      "slug": "olx_122",
+      "slug": "olx_ua_122",
       "name": "Жовті  Води",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -58271,7 +58271,7 @@
       }
     },
     {
-      "slug": "olx_66747",
+      "slug": "olx_ua_66747",
       "name": "Журавка",
       "region": "Черкаська область",
       "priority": false,
@@ -59504,7 +59504,7 @@
       }
     },
     {
-      "slug": "olx_286",
+      "slug": "olx_ua_286",
       "name": "Заводське",
       "region": "Полтавська область",
       "priority": false,
@@ -61422,7 +61422,7 @@
       }
     },
     {
-      "slug": "olx_131",
+      "slug": "olx_ua_131",
       "name": "Заліщики",
       "region": "Тернопільська область",
       "priority": false,
@@ -61594,7 +61594,7 @@
       }
     },
     {
-      "slug": "olx_68721",
+      "slug": "olx_ua_68721",
       "name": "Замостя",
       "region": "Чернівецька область",
       "priority": false,
@@ -62000,7 +62000,7 @@
       }
     },
     {
-      "slug": "olx_11217",
+      "slug": "olx_ua_11217",
       "name": "Запорізьке",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -62522,7 +62522,7 @@
       }
     },
     {
-      "slug": "olx_639",
+      "slug": "olx_ua_639",
       "name": "Зарічне",
       "region": "Рівненська область",
       "priority": false,
@@ -62649,7 +62649,7 @@
       }
     },
     {
-      "slug": "olx_68723",
+      "slug": "olx_ua_68723",
       "name": "Заріччя",
       "region": "Чернівецька область",
       "priority": false,
@@ -62893,7 +62893,7 @@
       }
     },
     {
-      "slug": "olx_57",
+      "slug": "olx_ua_57",
       "name": "Заставна",
       "region": "Чернівецька область",
       "priority": false,
@@ -63272,7 +63272,7 @@
       }
     },
     {
-      "slug": "olx_61955",
+      "slug": "olx_ua_61955",
       "name": "Захарівка",
       "region": "Херсонська область",
       "priority": false,
@@ -63524,7 +63524,7 @@
       }
     },
     {
-      "slug": "olx_114",
+      "slug": "olx_ua_114",
       "name": "Збараж",
       "region": "Вінницька область",
       "priority": false,
@@ -63588,7 +63588,7 @@
       }
     },
     {
-      "slug": "olx_299",
+      "slug": "olx_ua_299",
       "name": "Зборів",
       "region": "Тернопільська область",
       "priority": false,
@@ -63706,7 +63706,7 @@
       }
     },
     {
-      "slug": "olx_67021",
+      "slug": "olx_ua_67021",
       "name": "Звенигородка",
       "region": "Черкаська область",
       "priority": false,
@@ -64022,7 +64022,7 @@
       }
     },
     {
-      "slug": "olx_321",
+      "slug": "olx_ua_321",
       "name": "Здолбунів",
       "region": "Рівненська область",
       "priority": false,
@@ -64176,7 +64176,7 @@
       }
     },
     {
-      "slug": "olx_66749",
+      "slug": "olx_ua_66749",
       "name": "Зелена Діброва",
       "region": "Черкаська область",
       "priority": false,
@@ -64870,7 +64870,7 @@
       }
     },
     {
-      "slug": "olx_11219",
+      "slug": "olx_ua_11219",
       "name": "Зеленодольськ",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -65195,7 +65195,7 @@
       }
     },
     {
-      "slug": "olx_377",
+      "slug": "olx_ua_377",
       "name": "Зимогір'я",
       "region": "Луганська область",
       "priority": false,
@@ -65240,7 +65240,7 @@
       }
     },
     {
-      "slug": "olx_61007",
+      "slug": "olx_ua_61007",
       "name": "Златопіль",
       "region": "Харківська область",
       "priority": false,
@@ -65331,7 +65331,7 @@
       }
     },
     {
-      "slug": "olx_275",
+      "slug": "olx_ua_275",
       "name": "Зміїв",
       "region": "Харківська область",
       "priority": false,
@@ -65359,7 +65359,7 @@
       }
     },
     {
-      "slug": "olx_28057",
+      "slug": "olx_ua_28057",
       "name": "Знам'янка",
       "region": "Кіровоградська область",
       "priority": false,
@@ -65369,7 +65369,7 @@
       }
     },
     {
-      "slug": "olx_372",
+      "slug": "olx_ua_372",
       "name": "Знам'янка",
       "region": "Крим (АРК)",
       "priority": false,
@@ -65639,7 +65639,7 @@
       }
     },
     {
-      "slug": "olx_12341",
+      "slug": "olx_ua_12341",
       "name": "Золота Поляна",
       "region": null,
       "priority": false,
@@ -65702,7 +65702,7 @@
       }
     },
     {
-      "slug": "olx_119",
+      "slug": "olx_ua_119",
       "name": "Золоте",
       "region": "Луганська область",
       "priority": false,
@@ -65783,7 +65783,7 @@
       }
     },
     {
-      "slug": "olx_174",
+      "slug": "olx_ua_174",
       "name": "Золотоноша",
       "region": "Черкаська область",
       "priority": false,
@@ -65847,7 +65847,7 @@
       }
     },
     {
-      "slug": "olx_63",
+      "slug": "olx_ua_63",
       "name": "Золочів",
       "region": "Львівська область",
       "priority": false,
@@ -65947,7 +65947,7 @@
       }
     },
     {
-      "slug": "olx_88",
+      "slug": "olx_ua_88",
       "name": "Зоринськ",
       "region": "Луганська область",
       "priority": false,
@@ -67108,7 +67108,7 @@
       }
     },
     {
-      "slug": "olx_197",
+      "slug": "olx_ua_197",
       "name": "Кагарлик",
       "region": "Київська область",
       "priority": false,
@@ -67199,7 +67199,7 @@
       }
     },
     {
-      "slug": "olx_258",
+      "slug": "olx_ua_258",
       "name": "Кадіївка",
       "region": "Луганська область",
       "priority": false,
@@ -67217,7 +67217,7 @@
       }
     },
     {
-      "slug": "olx_679",
+      "slug": "olx_ua_679",
       "name": "Казанка",
       "region": "Миколаївська область",
       "priority": false,
@@ -67407,7 +67407,7 @@
       }
     },
     {
-      "slug": "olx_595",
+      "slug": "olx_ua_595",
       "name": "Каланчак",
       "region": "Херсонська область",
       "priority": false,
@@ -67614,7 +67614,7 @@
       }
     },
     {
-      "slug": "olx_137",
+      "slug": "olx_ua_137",
       "name": "Калинівка",
       "region": "Вінницька область",
       "priority": false,
@@ -68020,7 +68020,7 @@
       }
     },
     {
-      "slug": "olx_76",
+      "slug": "olx_ua_76",
       "name": "Калуш",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -68345,7 +68345,7 @@
       }
     },
     {
-      "slug": "olx_107",
+      "slug": "olx_ua_107",
       "name": "Кам'янець-Подільський",
       "region": "Хмельницька область",
       "priority": false,
@@ -68436,7 +68436,7 @@
       }
     },
     {
-      "slug": "olx_11221",
+      "slug": "olx_ua_11221",
       "name": "Кам'янка",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -68446,7 +68446,7 @@
       }
     },
     {
-      "slug": "olx_370",
+      "slug": "olx_ua_370",
       "name": "Кам'янка",
       "region": "Черкаська область",
       "priority": false,
@@ -68780,7 +68780,7 @@
       }
     },
     {
-      "slug": "olx_42",
+      "slug": "olx_ua_42",
       "name": "Кам'янка-Дніпровська",
       "region": "Запорізька область",
       "priority": false,
@@ -68987,7 +68987,7 @@
       }
     },
     {
-      "slug": "olx_231",
+      "slug": "olx_ua_231",
       "name": "Камінь-Каширський",
       "region": "Волинська область",
       "priority": false,
@@ -69285,7 +69285,7 @@
       }
     },
     {
-      "slug": "olx_1",
+      "slug": "olx_ua_1",
       "name": "Кам’янське",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -69510,7 +69510,7 @@
       }
     },
     {
-      "slug": "olx_344",
+      "slug": "olx_ua_344",
       "name": "Канів",
       "region": "Черкаська область",
       "priority": false,
@@ -70294,7 +70294,7 @@
       }
     },
     {
-      "slug": "olx_171",
+      "slug": "olx_ua_171",
       "name": "Карлівка",
       "region": "Полтавська область",
       "priority": false,
@@ -70853,7 +70853,7 @@
       }
     },
     {
-      "slug": "olx_11223",
+      "slug": "olx_ua_11223",
       "name": "Катеринівка",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -71078,7 +71078,7 @@
       }
     },
     {
-      "slug": "olx_7",
+      "slug": "olx_ua_7",
       "name": "Каховка",
       "region": "Херсонська область",
       "priority": false,
@@ -71384,7 +71384,7 @@
       }
     },
     {
-      "slug": "olx_641",
+      "slug": "olx_ua_641",
       "name": "Квасилів",
       "region": "Рівненська область",
       "priority": false,
@@ -71457,7 +71457,7 @@
       }
     },
     {
-      "slug": "olx_61959",
+      "slug": "olx_ua_61959",
       "name": "Квіткове",
       "region": "Херсонська область",
       "priority": false,
@@ -71664,7 +71664,7 @@
       }
     },
     {
-      "slug": "olx_571",
+      "slug": "olx_ua_571",
       "name": "Кельменці",
       "region": "Чернівецька область",
       "priority": false,
@@ -71737,7 +71737,7 @@
       }
     },
     {
-      "slug": "olx_361",
+      "slug": "olx_ua_361",
       "name": "Керч",
       "region": "Крим (АРК)",
       "priority": false,
@@ -72673,7 +72673,7 @@
       }
     },
     {
-      "slug": "olx_643",
+      "slug": "olx_ua_643",
       "name": "Клевань",
       "region": "Рівненська область",
       "priority": false,
@@ -73817,7 +73817,7 @@
       }
     },
     {
-      "slug": "olx_182",
+      "slug": "olx_ua_182",
       "name": "Кобеляки",
       "region": "Полтавська область",
       "priority": false,
@@ -74439,7 +74439,7 @@
       }
     },
     {
-      "slug": "olx_64",
+      "slug": "olx_ua_64",
       "name": "Ковель",
       "region": "Волинська область",
       "priority": false,
@@ -74665,7 +74665,7 @@
       }
     },
     {
-      "slug": "olx_305",
+      "slug": "olx_ua_305",
       "name": "Кодима",
       "region": "Одеська область",
       "priority": false,
@@ -75404,7 +75404,7 @@
       }
     },
     {
-      "slug": "olx_621",
+      "slug": "olx_ua_621",
       "name": "Козова",
       "region": "Тернопільська область",
       "priority": false,
@@ -75495,7 +75495,7 @@
       }
     },
     {
-      "slug": "olx_190",
+      "slug": "olx_ua_190",
       "name": "Козятин",
       "region": "Вінницька область",
       "priority": false,
@@ -76090,7 +76090,7 @@
       }
     },
     {
-      "slug": "olx_333",
+      "slug": "olx_ua_333",
       "name": "Коломия",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -76757,7 +76757,7 @@
       }
     },
     {
-      "slug": "olx_597",
+      "slug": "olx_ua_597",
       "name": "Комишани",
       "region": "Херсонська область",
       "priority": false,
@@ -77361,7 +77361,7 @@
       }
     },
     {
-      "slug": "olx_158",
+      "slug": "olx_ua_158",
       "name": "Конотоп",
       "region": "Сумська область",
       "priority": false,
@@ -78190,7 +78190,7 @@
       }
     },
     {
-      "slug": "olx_266",
+      "slug": "olx_ua_266",
       "name": "Корець",
       "region": "Рівненська область",
       "priority": false,
@@ -78830,7 +78830,7 @@
       }
     },
     {
-      "slug": "olx_527",
+      "slug": "olx_ua_527",
       "name": "Королево",
       "region": "Закарпатська область",
       "priority": false,
@@ -79083,7 +79083,7 @@
       }
     },
     {
-      "slug": "olx_238",
+      "slug": "olx_ua_238",
       "name": "Коростень",
       "region": "Житомирська область",
       "priority": false,
@@ -79102,7 +79102,7 @@
       }
     },
     {
-      "slug": "olx_375",
+      "slug": "olx_ua_375",
       "name": "Коростишів",
       "region": "Житомирська область",
       "priority": false,
@@ -79265,7 +79265,7 @@
       }
     },
     {
-      "slug": "olx_43783",
+      "slug": "olx_ua_43783",
       "name": "Корсунці",
       "region": null,
       "priority": false,
@@ -79292,7 +79292,7 @@
       }
     },
     {
-      "slug": "olx_170",
+      "slug": "olx_ua_170",
       "name": "Корсунь-Шевченківський",
       "region": "Черкаська область",
       "priority": false,
@@ -79554,7 +79554,7 @@
       }
     },
     {
-      "slug": "olx_41",
+      "slug": "olx_ua_41",
       "name": "Корюківка",
       "region": "Чернігівська область",
       "priority": false,
@@ -79951,7 +79951,7 @@
       }
     },
     {
-      "slug": "olx_401",
+      "slug": "olx_ua_401",
       "name": "Костопіль",
       "region": "Рівненська область",
       "priority": false,
@@ -80087,7 +80087,7 @@
       }
     },
     {
-      "slug": "olx_185",
+      "slug": "olx_ua_185",
       "name": "Костянтинівка",
       "region": "Донецька область",
       "priority": false,
@@ -80295,7 +80295,7 @@
       }
     },
     {
-      "slug": "olx_138",
+      "slug": "olx_ua_138",
       "name": "Косів",
       "region": "Тернопільська область",
       "priority": false,
@@ -80386,7 +80386,7 @@
       }
     },
     {
-      "slug": "olx_653",
+      "slug": "olx_ua_653",
       "name": "Котельва",
       "region": "Полтавська область",
       "priority": false,
@@ -80909,7 +80909,7 @@
       }
     },
     {
-      "slug": "olx_437",
+      "slug": "olx_ua_437",
       "name": "Коцюбинське",
       "region": "Київська область",
       "priority": false,
@@ -81531,7 +81531,7 @@
       }
     },
     {
-      "slug": "olx_304",
+      "slug": "olx_ua_304",
       "name": "Краматорськ",
       "region": "Донецька область",
       "priority": false,
@@ -81568,7 +81568,7 @@
       }
     },
     {
-      "slug": "olx_334",
+      "slug": "olx_ua_334",
       "name": "Красилів",
       "region": "Хмельницька область",
       "priority": false,
@@ -82064,7 +82064,7 @@
       }
     },
     {
-      "slug": "olx_3",
+      "slug": "olx_ua_3",
       "name": "Красний лиман",
       "region": "Донецька область",
       "priority": false,
@@ -82074,7 +82074,7 @@
       }
     },
     {
-      "slug": "olx_17749",
+      "slug": "olx_ua_17749",
       "name": "Красний лиман",
       "region": null,
       "priority": false,
@@ -82146,7 +82146,7 @@
       }
     },
     {
-      "slug": "olx_691",
+      "slug": "olx_ua_691",
       "name": "Красногвардійське",
       "region": "Крим (АРК)",
       "priority": false,
@@ -82236,7 +82236,7 @@
       }
     },
     {
-      "slug": "olx_13",
+      "slug": "olx_ua_13",
       "name": "Краснодон",
       "region": "Луганська область",
       "priority": false,
@@ -82317,7 +82317,7 @@
       }
     },
     {
-      "slug": "olx_142",
+      "slug": "olx_ua_142",
       "name": "Красноперекопськ",
       "region": "Крим (АРК)",
       "priority": false,
@@ -82371,7 +82371,7 @@
       }
     },
     {
-      "slug": "olx_633",
+      "slug": "olx_ua_633",
       "name": "Краснопілля",
       "region": "Сумська область",
       "priority": false,
@@ -82732,7 +82732,7 @@
       }
     },
     {
-      "slug": "olx_573",
+      "slug": "olx_ua_573",
       "name": "Красноїльськ",
       "region": "Чернівецька область",
       "priority": false,
@@ -82994,7 +82994,7 @@
       }
     },
     {
-      "slug": "olx_97",
+      "slug": "olx_ua_97",
       "name": "Кременець",
       "region": "Волинська область",
       "priority": false,
@@ -83031,7 +83031,7 @@
       }
     },
     {
-      "slug": "olx_221",
+      "slug": "olx_ua_221",
       "name": "Кременчук",
       "region": "Полтавська область",
       "priority": false,
@@ -83329,7 +83329,7 @@
       }
     },
     {
-      "slug": "olx_471",
+      "slug": "olx_ua_471",
       "name": "Криве Озеро",
       "region": "Миколаївська область",
       "priority": false,
@@ -83411,7 +83411,7 @@
       }
     },
     {
-      "slug": "olx_340",
+      "slug": "olx_ua_340",
       "name": "Кривий Ріг",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -83763,7 +83763,7 @@
       }
     },
     {
-      "slug": "olx_43791",
+      "slug": "olx_ua_43791",
       "name": "Крижанівка",
       "region": null,
       "priority": false,
@@ -83826,7 +83826,7 @@
       }
     },
     {
-      "slug": "olx_689",
+      "slug": "olx_ua_689",
       "name": "Крижопіль",
       "region": "Вінницька область",
       "priority": false,
@@ -84295,7 +84295,7 @@
       }
     },
     {
-      "slug": "olx_763",
+      "slug": "olx_ua_763",
       "name": "Крихівці",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -84475,7 +84475,7 @@
       }
     },
     {
-      "slug": "olx_162",
+      "slug": "olx_ua_162",
       "name": "Кролевець",
       "region": "Сумська область",
       "priority": false,
@@ -85439,7 +85439,7 @@
       }
     },
     {
-      "slug": "olx_31927",
+      "slug": "olx_ua_31927",
       "name": "Крюківщина",
       "region": null,
       "priority": false,
@@ -86006,7 +86006,7 @@
       }
     },
     {
-      "slug": "olx_19801",
+      "slug": "olx_ua_19801",
       "name": "Куйбишеве",
       "region": "Житомирська область",
       "priority": false,
@@ -86015,7 +86015,7 @@
       }
     },
     {
-      "slug": "olx_533",
+      "slug": "olx_ua_533",
       "name": "Куйбишеве",
       "region": "Запорізька область",
       "priority": false,
@@ -86420,7 +86420,7 @@
       }
     },
     {
-      "slug": "olx_61537",
+      "slug": "olx_ua_61537",
       "name": "Кулиничі",
       "region": null,
       "priority": false,
@@ -86870,7 +86870,7 @@
       }
     },
     {
-      "slug": "olx_93",
+      "slug": "olx_ua_93",
       "name": "Куп'янськ",
       "region": "Харківська область",
       "priority": false,
@@ -88284,7 +88284,7 @@
       }
     },
     {
-      "slug": "olx_535",
+      "slug": "olx_ua_535",
       "name": "Кушугум",
       "region": "Запорізька область",
       "priority": false,
@@ -88519,7 +88519,7 @@
       }
     },
     {
-      "slug": "olx_285",
+      "slug": "olx_ua_285",
       "name": "Кілія",
       "region": "Одеська область",
       "priority": false,
@@ -88754,7 +88754,7 @@
       }
     },
     {
-      "slug": "olx_61957",
+      "slug": "olx_ua_61957",
       "name": "Кірове",
       "region": "Херсонська область",
       "priority": false,
@@ -88970,7 +88970,7 @@
       }
     },
     {
-      "slug": "olx_392",
+      "slug": "olx_ua_392",
       "name": "Кіровське",
       "region": "Донецька область",
       "priority": false,
@@ -89015,7 +89015,7 @@
       }
     },
     {
-      "slug": "olx_94",
+      "slug": "olx_ua_94",
       "name": "Кіцмань",
       "region": "Чернівецька область",
       "priority": false,
@@ -89286,7 +89286,7 @@
       }
     },
     {
-      "slug": "olx_38",
+      "slug": "olx_ua_38",
       "name": "Ладижин",
       "region": "Вінницька область",
       "priority": false,
@@ -89602,7 +89602,7 @@
       }
     },
     {
-      "slug": "olx_543",
+      "slug": "olx_ua_543",
       "name": "Ланчин",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -89621,7 +89621,7 @@
       }
     },
     {
-      "slug": "olx_405",
+      "slug": "olx_ua_405",
       "name": "Ланівці",
       "region": "Тернопільська область",
       "priority": false,
@@ -90972,7 +90972,7 @@
       }
     },
     {
-      "slug": "olx_581",
+      "slug": "olx_ua_581",
       "name": "Летичів",
       "region": "Хмельницька область",
       "priority": false,
@@ -91279,7 +91279,7 @@
       }
     },
     {
-      "slug": "olx_44411",
+      "slug": "olx_ua_44411",
       "name": "Лиманка",
       "region": null,
       "priority": false,
@@ -91504,7 +91504,7 @@
       }
     },
     {
-      "slug": "olx_10029",
+      "slug": "olx_ua_10029",
       "name": "Липини",
       "region": null,
       "priority": false,
@@ -91765,7 +91765,7 @@
       }
     },
     {
-      "slug": "olx_487",
+      "slug": "olx_ua_487",
       "name": "Липовець",
       "region": "Вінницька область",
       "priority": false,
@@ -92369,7 +92369,7 @@
       }
     },
     {
-      "slug": "olx_575",
+      "slug": "olx_ua_575",
       "name": "Лисянка",
       "region": "Черкаська область",
       "priority": false,
@@ -93018,7 +93018,7 @@
       }
     },
     {
-      "slug": "olx_82",
+      "slug": "olx_ua_82",
       "name": "Лозова",
       "region": "Харківська область",
       "priority": false,
@@ -93028,7 +93028,7 @@
       }
     },
     {
-      "slug": "olx_8329",
+      "slug": "olx_ua_8329",
       "name": "Лозова",
       "region": "Хмельницька область",
       "priority": false,
@@ -93839,7 +93839,7 @@
       }
     },
     {
-      "slug": "olx_19",
+      "slug": "olx_ua_19",
       "name": "Лохвиця",
       "region": "Полтавська область",
       "priority": false,
@@ -94020,7 +94020,7 @@
       }
     },
     {
-      "slug": "olx_206",
+      "slug": "olx_ua_206",
       "name": "Лубни",
       "region": "Полтавська область",
       "priority": false,
@@ -94129,7 +94129,7 @@
       }
     },
     {
-      "slug": "olx_152",
+      "slug": "olx_ua_152",
       "name": "Луганськ",
       "region": "Луганська область",
       "priority": false,
@@ -95191,7 +95191,7 @@
       }
     },
     {
-      "slug": "olx_261",
+      "slug": "olx_ua_261",
       "name": "Лутугине",
       "region": "Луганська область",
       "priority": false,
@@ -95614,7 +95614,7 @@
       }
     },
     {
-      "slug": "olx_493",
+      "slug": "olx_ua_493",
       "name": "Любешів",
       "region": "Волинська область",
       "priority": false,
@@ -95642,7 +95642,7 @@
       }
     },
     {
-      "slug": "olx_61961",
+      "slug": "olx_ua_61961",
       "name": "Любимівка",
       "region": "Херсонська область",
       "priority": false,
@@ -95840,7 +95840,7 @@
       }
     },
     {
-      "slug": "olx_9701",
+      "slug": "olx_ua_9701",
       "name": "Люблинець",
       "region": null,
       "priority": false,
@@ -96002,7 +96002,7 @@
       }
     },
     {
-      "slug": "olx_80",
+      "slug": "olx_ua_80",
       "name": "Люботин",
       "region": "Харківська область",
       "priority": false,
@@ -96741,7 +96741,7 @@
       }
     },
     {
-      "slug": "olx_43795",
+      "slug": "olx_ua_43795",
       "name": "Ліски",
       "region": null,
       "priority": false,
@@ -97479,7 +97479,7 @@
       }
     },
     {
-      "slug": "olx_72954",
+      "slug": "olx_ua_72954",
       "name": "Літин",
       "region": "Вінницька область",
       "priority": false,
@@ -98281,7 +98281,7 @@
       }
     },
     {
-      "slug": "olx_373",
+      "slug": "olx_ua_373",
       "name": "Майорськ",
       "region": "Донецька область",
       "priority": false,
@@ -98929,7 +98929,7 @@
       }
     },
     {
-      "slug": "olx_384",
+      "slug": "olx_ua_384",
       "name": "Макіївка",
       "region": "Донецька область",
       "priority": false,
@@ -99181,7 +99181,7 @@
       }
     },
     {
-      "slug": "olx_105",
+      "slug": "olx_ua_105",
       "name": "Мала Виска",
       "region": "Кіровоградська область",
       "priority": false,
@@ -102530,7 +102530,7 @@
       }
     },
     {
-      "slug": "olx_495",
+      "slug": "olx_ua_495",
       "name": "Маневичі",
       "region": "Волинська область",
       "priority": false,
@@ -102666,7 +102666,7 @@
       }
     },
     {
-      "slug": "olx_577",
+      "slug": "olx_ua_577",
       "name": "Маньківка",
       "region": "Черкаська область",
       "priority": false,
@@ -103144,7 +103144,7 @@
       }
     },
     {
-      "slug": "olx_133",
+      "slug": "olx_ua_133",
       "name": "Марганець",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -103865,7 +103865,7 @@
       }
     },
     {
-      "slug": "olx_79",
+      "slug": "olx_ua_79",
       "name": "Маріуполь",
       "region": "Донецька область",
       "priority": false,
@@ -105593,7 +105593,7 @@
       }
     },
     {
-      "slug": "olx_4083",
+      "slug": "olx_ua_4083",
       "name": "Межове",
       "region": "Крим (АРК)",
       "priority": false,
@@ -105935,7 +105935,7 @@
       }
     },
     {
-      "slug": "olx_297",
+      "slug": "olx_ua_297",
       "name": "Мелітополь",
       "region": "Запорізька область",
       "priority": false,
@@ -105944,7 +105944,7 @@
       }
     },
     {
-      "slug": "olx_44",
+      "slug": "olx_ua_44",
       "name": "Мена",
       "region": "Чернігівська область",
       "priority": false,
@@ -106035,7 +106035,7 @@
       }
     },
     {
-      "slug": "olx_51",
+      "slug": "olx_ua_51",
       "name": "Мерефа",
       "region": "Харківська область",
       "priority": false,
@@ -106297,7 +106297,7 @@
       }
     },
     {
-      "slug": "olx_765",
+      "slug": "olx_ua_765",
       "name": "Микитинці",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -107494,7 +107494,7 @@
       }
     },
     {
-      "slug": "olx_95",
+      "slug": "olx_ua_95",
       "name": "Миргород",
       "region": "Полтавська область",
       "priority": false,
@@ -107765,7 +107765,7 @@
       }
     },
     {
-      "slug": "olx_394",
+      "slug": "olx_ua_394",
       "name": "Мирноград",
       "region": "Донецька область",
       "priority": false,
@@ -108440,7 +108440,7 @@
       }
     },
     {
-      "slug": "olx_4085",
+      "slug": "olx_ua_4085",
       "name": "Митрофанівка",
       "region": "Крим (АРК)",
       "priority": false,
@@ -108656,7 +108656,7 @@
       }
     },
     {
-      "slug": "olx_417",
+      "slug": "olx_ua_417",
       "name": "Михайлівка",
       "region": "Запорізька область",
       "priority": false,
@@ -108665,7 +108665,7 @@
       }
     },
     {
-      "slug": "olx_4087",
+      "slug": "olx_ua_4087",
       "name": "Михайлівка",
       "region": "Крим (АРК)",
       "priority": false,
@@ -109169,7 +109169,7 @@
       }
     },
     {
-      "slug": "olx_45443",
+      "slug": "olx_ua_45443",
       "name": "Михайлівка Перша",
       "region": "Полтавська область",
       "priority": false,
@@ -109755,7 +109755,7 @@
       }
     },
     {
-      "slug": "olx_645",
+      "slug": "olx_ua_645",
       "name": "Млинів",
       "region": "Рівненська область",
       "priority": false,
@@ -109963,7 +109963,7 @@
       }
     },
     {
-      "slug": "olx_58",
+      "slug": "olx_ua_58",
       "name": "Могилів-Подільський",
       "region": "Вінницька область",
       "priority": false,
@@ -110522,7 +110522,7 @@
       }
     },
     {
-      "slug": "olx_29",
+      "slug": "olx_ua_29",
       "name": "Молодогвардійськ",
       "region": "Луганська область",
       "priority": false,
@@ -110666,7 +110666,7 @@
       }
     },
     {
-      "slug": "olx_276",
+      "slug": "olx_ua_276",
       "name": "Молочанськ",
       "region": "Запорізька область",
       "priority": false,
@@ -110801,7 +110801,7 @@
       }
     },
     {
-      "slug": "olx_278",
+      "slug": "olx_ua_278",
       "name": "Монастирище",
       "region": "Черкаська область",
       "priority": false,
@@ -111477,7 +111477,7 @@
       }
     },
     {
-      "slug": "olx_180",
+      "slug": "olx_ua_180",
       "name": "Мостиська",
       "region": "Львівська область",
       "priority": false,
@@ -112126,7 +112126,7 @@
       }
     },
     {
-      "slug": "olx_186",
+      "slug": "olx_ua_186",
       "name": "Мукачево",
       "region": "Закарпатська область",
       "priority": false,
@@ -112658,7 +112658,7 @@
       }
     },
     {
-      "slug": "olx_529",
+      "slug": "olx_ua_529",
       "name": "Міжгір'я",
       "region": "Закарпатська область",
       "priority": false,
@@ -113415,7 +113415,7 @@
       }
     },
     {
-      "slug": "olx_327",
+      "slug": "olx_ua_327",
       "name": "Надвірна",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -114343,7 +114343,7 @@
       }
     },
     {
-      "slug": "olx_72958",
+      "slug": "olx_ua_72958",
       "name": "Неветленфолу",
       "region": "Закарпатська область",
       "priority": false,
@@ -114785,7 +114785,7 @@
       }
     },
     {
-      "slug": "olx_237",
+      "slug": "olx_ua_237",
       "name": "Немирів",
       "region": "Вінницька область",
       "priority": false,
@@ -115344,7 +115344,7 @@
       }
     },
     {
-      "slug": "olx_169",
+      "slug": "olx_ua_169",
       "name": "Нетішин",
       "region": "Хмельницька область",
       "priority": false,
@@ -115642,7 +115642,7 @@
       }
     },
     {
-      "slug": "olx_4091",
+      "slug": "olx_ua_4091",
       "name": "Нижньогірський",
       "region": "Крим (АРК)",
       "priority": false,
@@ -116623,7 +116623,7 @@
       }
     },
     {
-      "slug": "olx_611",
+      "slug": "olx_ua_611",
       "name": "Нова Водолага",
       "region": "Харківська область",
       "priority": false,
@@ -116966,7 +116966,7 @@
       }
     },
     {
-      "slug": "olx_374",
+      "slug": "olx_ua_374",
       "name": "Нова Каховка",
       "region": "Херсонська область",
       "priority": false,
@@ -117110,7 +117110,7 @@
       }
     },
     {
-      "slug": "olx_599",
+      "slug": "olx_ua_599",
       "name": "Нова Маячка",
       "region": "Херсонська область",
       "priority": false,
@@ -117236,7 +117236,7 @@
       }
     },
     {
-      "slug": "olx_366",
+      "slug": "olx_ua_366",
       "name": "Нова Одеса",
       "region": "Миколаївська область",
       "priority": false,
@@ -117408,7 +117408,7 @@
       }
     },
     {
-      "slug": "olx_549",
+      "slug": "olx_ua_549",
       "name": "Нова Прага",
       "region": "Кіровоградська область",
       "priority": false,
@@ -117787,7 +117787,7 @@
       }
     },
     {
-      "slug": "olx_154",
+      "slug": "olx_ua_154",
       "name": "Новгород-Сіверський",
       "region": "Чернігівська область",
       "priority": false,
@@ -117815,7 +117815,7 @@
       }
     },
     {
-      "slug": "olx_553",
+      "slug": "olx_ua_553",
       "name": "Нове",
       "region": "Кіровоградська область",
       "priority": false,
@@ -118662,7 +118662,7 @@
       }
     },
     {
-      "slug": "olx_242",
+      "slug": "olx_ua_242",
       "name": "Новий Розділ",
       "region": "Львівська область",
       "priority": false,
@@ -118996,7 +118996,7 @@
       }
     },
     {
-      "slug": "olx_551",
+      "slug": "olx_ua_551",
       "name": "Новоархангельськ",
       "region": "Кіровоградська область",
       "priority": false,
@@ -119303,7 +119303,7 @@
       }
     },
     {
-      "slug": "olx_315",
+      "slug": "olx_ua_315",
       "name": "Нововолинськ",
       "region": "Волинська область",
       "priority": false,
@@ -119673,7 +119673,7 @@
       }
     },
     {
-      "slug": "olx_26",
+      "slug": "olx_ua_26",
       "name": "Новогродівка",
       "region": "Донецька область",
       "priority": false,
@@ -119817,7 +119817,7 @@
       }
     },
     {
-      "slug": "olx_139",
+      "slug": "olx_ua_139",
       "name": "Новодністровськ",
       "region": "Чернівецька область",
       "priority": false,
@@ -119854,7 +119854,7 @@
       }
     },
     {
-      "slug": "olx_6",
+      "slug": "olx_ua_6",
       "name": "Новодружеськ",
       "region": "Луганська область",
       "priority": false,
@@ -120898,7 +120898,7 @@
       }
     },
     {
-      "slug": "olx_601",
+      "slug": "olx_ua_601",
       "name": "Новоолексіївка",
       "region": "Херсонська область",
       "priority": false,
@@ -121357,7 +121357,7 @@
       }
     },
     {
-      "slug": "olx_72957",
+      "slug": "olx_ua_72957",
       "name": "Новопросянське",
       "region": "Харківська область",
       "priority": false,
@@ -121376,7 +121376,7 @@
       }
     },
     {
-      "slug": "olx_199",
+      "slug": "olx_ua_199",
       "name": "Новопсков",
       "region": "Луганська область",
       "priority": false,
@@ -121592,7 +121592,7 @@
       }
     },
     {
-      "slug": "olx_218",
+      "slug": "olx_ua_218",
       "name": "Новоселиця",
       "region": "Чернівецька область",
       "priority": false,
@@ -122700,7 +122700,7 @@
       }
     },
     {
-      "slug": "olx_72952",
+      "slug": "olx_ua_72952",
       "name": "Новосілки",
       "region": null,
       "priority": false,
@@ -122961,7 +122961,7 @@
       }
     },
     {
-      "slug": "olx_603",
+      "slug": "olx_ua_603",
       "name": "Новотроїцьке",
       "region": "Херсонська область",
       "priority": false,
@@ -123042,7 +123042,7 @@
       }
     },
     {
-      "slug": "olx_28993",
+      "slug": "olx_ua_28993",
       "name": "Новоукраїнка",
       "region": "Кіровоградська область",
       "priority": false,
@@ -123439,7 +123439,7 @@
       }
     },
     {
-      "slug": "olx_40259",
+      "slug": "olx_ua_40259",
       "name": "Новояворівськ",
       "region": null,
       "priority": false,
@@ -123520,7 +123520,7 @@
       }
     },
     {
-      "slug": "olx_4101",
+      "slug": "olx_ua_4101",
       "name": "Новоіванівка",
       "region": "Крим (АРК)",
       "priority": false,
@@ -123988,7 +123988,7 @@
       }
     },
     {
-      "slug": "olx_655",
+      "slug": "olx_ua_655",
       "name": "Нові Санжари",
       "region": "Полтавська область",
       "priority": false,
@@ -124259,7 +124259,7 @@
       }
     },
     {
-      "slug": "olx_239",
+      "slug": "olx_ua_239",
       "name": "Носівки",
       "region": "Житомирська область",
       "priority": false,
@@ -124377,7 +124377,7 @@
       }
     },
     {
-      "slug": "olx_12",
+      "slug": "olx_ua_12",
       "name": "Ніжин",
       "region": "Чернігівська область",
       "priority": false,
@@ -124387,7 +124387,7 @@
       }
     },
     {
-      "slug": "olx_4089",
+      "slug": "olx_ua_4089",
       "name": "Ніжинське",
       "region": "Крим (АРК)",
       "priority": false,
@@ -124414,7 +124414,7 @@
       }
     },
     {
-      "slug": "olx_229",
+      "slug": "olx_ua_229",
       "name": "Нікополь",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -124973,7 +124973,7 @@
       }
     },
     {
-      "slug": "olx_479",
+      "slug": "olx_ua_479",
       "name": "Овідіополь",
       "region": "Одеська область",
       "priority": false,
@@ -126063,7 +126063,7 @@
       }
     },
     {
-      "slug": "olx_455",
+      "slug": "olx_ua_455",
       "name": "Олевськ",
       "region": "Житомирська область",
       "priority": false,
@@ -126172,7 +126172,7 @@
       }
     },
     {
-      "slug": "olx_665",
+      "slug": "olx_ua_665",
       "name": "Олександрівка",
       "region": "Миколаївська область",
       "priority": false,
@@ -126694,7 +126694,7 @@
       }
     },
     {
-      "slug": "olx_269",
+      "slug": "olx_ua_269",
       "name": "Олександрівськ",
       "region": "Луганська область",
       "priority": false,
@@ -126721,7 +126721,7 @@
       }
     },
     {
-      "slug": "olx_126",
+      "slug": "olx_ua_126",
       "name": "Олександрія",
       "region": "Кіровоградська область",
       "priority": false,
@@ -127298,7 +127298,7 @@
       }
     },
     {
-      "slug": "olx_325",
+      "slug": "olx_ua_325",
       "name": "Олешки",
       "region": "Херсонська область",
       "priority": false,
@@ -128270,7 +128270,7 @@
       }
     },
     {
-      "slug": "olx_32",
+      "slug": "olx_ua_32",
       "name": "Орджонікідзе",
       "region": "Крим (АРК)",
       "priority": false,
@@ -128828,7 +128828,7 @@
       }
     },
     {
-      "slug": "olx_241",
+      "slug": "olx_ua_241",
       "name": "Оріхів",
       "region": "Запорізька область",
       "priority": false,
@@ -129657,7 +129657,7 @@
       }
     },
     {
-      "slug": "olx_91",
+      "slug": "olx_ua_91",
       "name": "Острог",
       "region": "Рівненська область",
       "priority": false,
@@ -130261,7 +130261,7 @@
       }
     },
     {
-      "slug": "olx_125",
+      "slug": "olx_ua_125",
       "name": "Очаків",
       "region": "Миколаївська область",
       "priority": false,
@@ -130469,7 +130469,7 @@
       }
     },
     {
-      "slug": "olx_279",
+      "slug": "olx_ua_279",
       "name": "П'ятихатки",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -130695,7 +130695,7 @@
       }
     },
     {
-      "slug": "olx_118",
+      "slug": "olx_ua_118",
       "name": "Павлоград",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -132883,7 +132883,7 @@
       }
     },
     {
-      "slug": "olx_56",
+      "slug": "olx_ua_56",
       "name": "Первомайськ",
       "region": "Кіровоградська область",
       "priority": false,
@@ -132893,7 +132893,7 @@
       }
     },
     {
-      "slug": "olx_326",
+      "slug": "olx_ua_326",
       "name": "Первомайськ",
       "region": "Луганська область",
       "priority": false,
@@ -132902,7 +132902,7 @@
       }
     },
     {
-      "slug": "olx_42323",
+      "slug": "olx_ua_42323",
       "name": "Первомайськ",
       "region": "Миколаївська область",
       "priority": false,
@@ -133083,7 +133083,7 @@
       }
     },
     {
-      "slug": "olx_303",
+      "slug": "olx_ua_303",
       "name": "Перевальськ",
       "region": "Луганська область",
       "priority": false,
@@ -133227,7 +133227,7 @@
       }
     },
     {
-      "slug": "olx_545",
+      "slug": "olx_ua_545",
       "name": "Перегінське",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -133255,7 +133255,7 @@
       }
     },
     {
-      "slug": "olx_3387",
+      "slug": "olx_ua_3387",
       "name": "Передмістне",
       "region": "Херсонська область",
       "priority": false,
@@ -133498,7 +133498,7 @@
       }
     },
     {
-      "slug": "olx_177",
+      "slug": "olx_ua_177",
       "name": "Перемишляни",
       "region": "Львівська область",
       "priority": false,
@@ -134084,7 +134084,7 @@
       }
     },
     {
-      "slug": "olx_322",
+      "slug": "olx_ua_322",
       "name": "Перещепине",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -134094,7 +134094,7 @@
       }
     },
     {
-      "slug": "olx_46",
+      "slug": "olx_ua_46",
       "name": "Переяслав",
       "region": "Київська область",
       "priority": false,
@@ -134860,7 +134860,7 @@
       }
     },
     {
-      "slug": "olx_29515",
+      "slug": "olx_ua_29515",
       "name": "Петрово",
       "region": "Кіровоградська область",
       "priority": false,
@@ -135004,7 +135004,7 @@
       }
     },
     {
-      "slug": "olx_31959",
+      "slug": "olx_ua_31959",
       "name": "Петропавлівська Борщагівка",
       "region": null,
       "priority": false,
@@ -137884,7 +137884,7 @@
       }
     },
     {
-      "slug": "olx_87",
+      "slug": "olx_ua_87",
       "name": "Погребище",
       "region": "Вінницька область",
       "priority": false,
@@ -138308,7 +138308,7 @@
       }
     },
     {
-      "slug": "olx_352",
+      "slug": "olx_ua_352",
       "name": "Подільськ",
       "region": "Одеська область",
       "priority": false,
@@ -138678,7 +138678,7 @@
       }
     },
     {
-      "slug": "olx_39",
+      "slug": "olx_ua_39",
       "name": "Покровськ",
       "region": "Донецька область",
       "priority": false,
@@ -138993,7 +138993,7 @@
       }
     },
     {
-      "slug": "olx_274",
+      "slug": "olx_ua_274",
       "name": "Пологи",
       "region": "Запорізька область",
       "priority": false,
@@ -139164,7 +139164,7 @@
       }
     },
     {
-      "slug": "olx_354",
+      "slug": "olx_ua_354",
       "name": "Полонне",
       "region": "Хмельницька область",
       "priority": false,
@@ -139660,7 +139660,7 @@
       }
     },
     {
-      "slug": "olx_2565",
+      "slug": "olx_ua_2565",
       "name": "Поляниця (Буковель)",
       "region": null,
       "priority": false,
@@ -139993,7 +139993,7 @@
       }
     },
     {
-      "slug": "olx_557",
+      "slug": "olx_ua_557",
       "name": "Помічна",
       "region": "Кіровоградська область",
       "priority": false,
@@ -140551,7 +140551,7 @@
       }
     },
     {
-      "slug": "olx_517",
+      "slug": "olx_ua_517",
       "name": "Попільня",
       "region": "Житомирська область",
       "priority": false,
@@ -141434,7 +141434,7 @@
       }
     },
     {
-      "slug": "olx_129",
+      "slug": "olx_ua_129",
       "name": "Почаїв",
       "region": "Тернопільська область",
       "priority": false,
@@ -141921,7 +141921,7 @@
       }
     },
     {
-      "slug": "olx_248",
+      "slug": "olx_ua_248",
       "name": "Привілля",
       "region": "Луганська область",
       "priority": false,
@@ -142236,7 +142236,7 @@
       }
     },
     {
-      "slug": "olx_72960",
+      "slug": "olx_ua_72960",
       "name": "Придніпрянське",
       "region": "Полтавська область",
       "priority": false,
@@ -142399,7 +142399,7 @@
       }
     },
     {
-      "slug": "olx_363",
+      "slug": "olx_ua_363",
       "name": "Прилуки",
       "region": "Чернігівська область",
       "priority": false,
@@ -142463,7 +142463,7 @@
       }
     },
     {
-      "slug": "olx_50",
+      "slug": "olx_ua_50",
       "name": "Приморськ",
       "region": "Запорізька область",
       "priority": false,
@@ -142580,7 +142580,7 @@
       }
     },
     {
-      "slug": "olx_195",
+      "slug": "olx_ua_195",
       "name": "Прип'ять",
       "region": "Київська область",
       "priority": false,
@@ -144002,7 +144002,7 @@
       }
     },
     {
-      "slug": "olx_332",
+      "slug": "olx_ua_332",
       "name": "Пустомити",
       "region": "Львівська область",
       "priority": false,
@@ -144057,7 +144057,7 @@
       }
     },
     {
-      "slug": "olx_402",
+      "slug": "olx_ua_402",
       "name": "Путивль",
       "region": "Сумська область",
       "priority": false,
@@ -144391,7 +144391,7 @@
       }
     },
     {
-      "slug": "olx_294",
+      "slug": "olx_ua_294",
       "name": "Південне",
       "region": "Одеська область",
       "priority": false,
@@ -144428,7 +144428,7 @@
       }
     },
     {
-      "slug": "olx_343",
+      "slug": "olx_ua_343",
       "name": "Південноукраїнськ",
       "region": "Миколаївська область",
       "priority": false,
@@ -144680,7 +144680,7 @@
       }
     },
     {
-      "slug": "olx_312",
+      "slug": "olx_ua_312",
       "name": "Підволочиськ",
       "region": "Тернопільська область",
       "priority": false,
@@ -144726,7 +144726,7 @@
       }
     },
     {
-      "slug": "olx_149",
+      "slug": "olx_ua_149",
       "name": "Підгайці",
       "region": "Тернопільська область",
       "priority": false,
@@ -144898,7 +144898,7 @@
       }
     },
     {
-      "slug": "olx_111",
+      "slug": "olx_ua_111",
       "name": "Підгородне",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -146411,7 +146411,7 @@
       }
     },
     {
-      "slug": "olx_613",
+      "slug": "olx_ua_613",
       "name": "Пісочин",
       "region": "Вінницька область",
       "priority": false,
@@ -146547,7 +146547,7 @@
       }
     },
     {
-      "slug": "olx_3153",
+      "slug": "olx_ua_3153",
       "name": "Піщане",
       "region": "Херсонська область",
       "priority": false,
@@ -146862,7 +146862,7 @@
       }
     },
     {
-      "slug": "olx_147",
+      "slug": "olx_ua_147",
       "name": "Рава-Руська",
       "region": "Львівська область",
       "priority": false,
@@ -146980,7 +146980,7 @@
       }
     },
     {
-      "slug": "olx_130",
+      "slug": "olx_ua_130",
       "name": "Радехів",
       "region": "Львівська область",
       "priority": false,
@@ -147161,7 +147161,7 @@
       }
     },
     {
-      "slug": "olx_117",
+      "slug": "olx_ua_117",
       "name": "Радомишль",
       "region": "Житомирська область",
       "priority": false,
@@ -148179,7 +148179,7 @@
       }
     },
     {
-      "slug": "olx_497",
+      "slug": "olx_ua_497",
       "name": "Ратне",
       "region": "Волинська область",
       "priority": false,
@@ -148324,7 +148324,7 @@
       }
     },
     {
-      "slug": "olx_18",
+      "slug": "olx_ua_18",
       "name": "Рахів",
       "region": "Закарпатська область",
       "priority": false,
@@ -148793,7 +148793,7 @@
       }
     },
     {
-      "slug": "olx_483",
+      "slug": "olx_ua_483",
       "name": "Рені",
       "region": "Одеська область",
       "priority": false,
@@ -148992,7 +148992,7 @@
       }
     },
     {
-      "slug": "olx_301",
+      "slug": "olx_ua_301",
       "name": "Ржищів",
       "region": "Київська область",
       "priority": false,
@@ -149560,7 +149560,7 @@
       }
     },
     {
-      "slug": "olx_290",
+      "slug": "olx_ua_290",
       "name": "Ровеньки",
       "region": "Луганська область",
       "priority": false,
@@ -149605,7 +149605,7 @@
       }
     },
     {
-      "slug": "olx_89",
+      "slug": "olx_ua_89",
       "name": "Рогатин",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -150083,7 +150083,7 @@
       }
     },
     {
-      "slug": "olx_396",
+      "slug": "olx_ua_396",
       "name": "Рожище",
       "region": "Волинська область",
       "priority": false,
@@ -150363,7 +150363,7 @@
       }
     },
     {
-      "slug": "olx_563",
+      "slug": "olx_ua_563",
       "name": "Роздольне",
       "region": "Крим (АРК)",
       "priority": false,
@@ -150435,7 +150435,7 @@
       }
     },
     {
-      "slug": "olx_481",
+      "slug": "olx_ua_481",
       "name": "Роздільна",
       "region": "Одеська область",
       "priority": false,
@@ -150958,7 +150958,7 @@
       }
     },
     {
-      "slug": "olx_537",
+      "slug": "olx_ua_537",
       "name": "Розівка",
       "region": "Запорізька область",
       "priority": false,
@@ -151102,7 +151102,7 @@
       }
     },
     {
-      "slug": "olx_449",
+      "slug": "olx_ua_449",
       "name": "Рокитне",
       "region": "Київська область",
       "priority": false,
@@ -151112,7 +151112,7 @@
       }
     },
     {
-      "slug": "olx_699",
+      "slug": "olx_ua_699",
       "name": "Рокитне",
       "region": "Рівненська область",
       "priority": false,
@@ -151374,7 +151374,7 @@
       }
     },
     {
-      "slug": "olx_459",
+      "slug": "olx_ua_459",
       "name": "Романів",
       "region": "Житомирська область",
       "priority": false,
@@ -151690,7 +151690,7 @@
       }
     },
     {
-      "slug": "olx_9",
+      "slug": "olx_ua_9",
       "name": "Ромни",
       "region": "Сумська область",
       "priority": false,
@@ -152303,7 +152303,7 @@
       }
     },
     {
-      "slug": "olx_15",
+      "slug": "olx_ua_15",
       "name": "Рубіжне",
       "region": "Луганська область",
       "priority": false,
@@ -152717,7 +152717,7 @@
       }
     },
     {
-      "slug": "olx_33",
+      "slug": "olx_ua_33",
       "name": "Рудки",
       "region": "Львівська область",
       "priority": false,
@@ -153789,7 +153789,7 @@
       }
     },
     {
-      "slug": "olx_40301",
+      "slug": "olx_ua_40301",
       "name": "Рясне-Руське",
       "region": null,
       "priority": false,
@@ -155175,7 +155175,7 @@
       }
     },
     {
-      "slug": "olx_337",
+      "slug": "olx_ua_337",
       "name": "Саки",
       "region": "Крим (АРК)",
       "priority": false,
@@ -155391,7 +155391,7 @@
       }
     },
     {
-      "slug": "olx_316",
+      "slug": "olx_ua_316",
       "name": "Самар",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -155491,7 +155491,7 @@
       }
     },
     {
-      "slug": "olx_128",
+      "slug": "olx_ua_128",
       "name": "Самбір",
       "region": "Львівська область",
       "priority": false,
@@ -155942,7 +155942,7 @@
       }
     },
     {
-      "slug": "olx_356",
+      "slug": "olx_ua_356",
       "name": "Сарни",
       "region": "Рівненська область",
       "priority": false,
@@ -156339,7 +156339,7 @@
       }
     },
     {
-      "slug": "olx_236",
+      "slug": "olx_ua_236",
       "name": "Свалява",
       "region": "Закарпатська область",
       "priority": false,
@@ -156448,7 +156448,7 @@
       }
     },
     {
-      "slug": "olx_78",
+      "slug": "olx_ua_78",
       "name": "Свердловськ",
       "region": "Луганська область",
       "priority": false,
@@ -156475,7 +156475,7 @@
       }
     },
     {
-      "slug": "olx_635",
+      "slug": "olx_ua_635",
       "name": "Свеса",
       "region": "Сумська область",
       "priority": false,
@@ -156764,7 +156764,7 @@
       }
     },
     {
-      "slug": "olx_31957",
+      "slug": "olx_ua_31957",
       "name": "Святопетрівське",
       "region": null,
       "priority": false,
@@ -157079,7 +157079,7 @@
       }
     },
     {
-      "slug": "olx_14",
+      "slug": "olx_ua_14",
       "name": "Світловодськ",
       "region": "Кіровоградська область",
       "priority": false,
@@ -157242,7 +157242,7 @@
       }
     },
     {
-      "slug": "olx_300",
+      "slug": "olx_ua_300",
       "name": "Севастополь",
       "region": "Крим (АРК)",
       "priority": false,
@@ -157368,7 +157368,7 @@
       }
     },
     {
-      "slug": "olx_172",
+      "slug": "olx_ua_172",
       "name": "Седнів",
       "region": "Чернігівська область",
       "priority": false,
@@ -157558,7 +157558,7 @@
       }
     },
     {
-      "slug": "olx_40",
+      "slug": "olx_ua_40",
       "name": "Селидове",
       "region": "Донецька область",
       "priority": false,
@@ -157909,7 +157909,7 @@
       }
     },
     {
-      "slug": "olx_368",
+      "slug": "olx_ua_368",
       "name": "Семенівка",
       "region": "Чернігівська область",
       "priority": false,
@@ -159620,7 +159620,7 @@
       }
     },
     {
-      "slug": "olx_293",
+      "slug": "olx_ua_293",
       "name": "Синельникове",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -160143,7 +160143,7 @@
       }
     },
     {
-      "slug": "olx_39855",
+      "slug": "olx_ua_39855",
       "name": "Сихів",
       "region": null,
       "priority": false,
@@ -160233,7 +160233,7 @@
       }
     },
     {
-      "slug": "olx_4",
+      "slug": "olx_ua_4",
       "name": "Скалат",
       "region": "Тернопільська область",
       "priority": false,
@@ -161170,7 +161170,7 @@
       }
     },
     {
-      "slug": "olx_287",
+      "slug": "olx_ua_287",
       "name": "Славута",
       "region": "Хмельницька область",
       "priority": false,
@@ -161180,7 +161180,7 @@
       }
     },
     {
-      "slug": "olx_16",
+      "slug": "olx_ua_16",
       "name": "Славутич",
       "region": "Київська область",
       "priority": false,
@@ -161604,7 +161604,7 @@
       }
     },
     {
-      "slug": "olx_59715",
+      "slug": "olx_ua_59715",
       "name": "Слобожанське",
       "region": "Харківська область",
       "priority": false,
@@ -161614,7 +161614,7 @@
       }
     },
     {
-      "slug": "olx_12053",
+      "slug": "olx_ua_12053",
       "name": "Слобожанське",
       "region": null,
       "priority": false,
@@ -162055,7 +162055,7 @@
       }
     },
     {
-      "slug": "olx_246",
+      "slug": "olx_ua_246",
       "name": "Слов'янськ",
       "region": "Донецька область",
       "priority": false,
@@ -162668,7 +162668,7 @@
       }
     },
     {
-      "slug": "olx_306",
+      "slug": "olx_ua_306",
       "name": "Сміла",
       "region": "Черкаська область",
       "priority": false,
@@ -162786,7 +162786,7 @@
       }
     },
     {
-      "slug": "olx_201",
+      "slug": "olx_ua_201",
       "name": "Сновськ",
       "region": "Чернігівська область",
       "priority": false,
@@ -162814,7 +162814,7 @@
       }
     },
     {
-      "slug": "olx_353",
+      "slug": "olx_ua_353",
       "name": "Снятин",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -162851,7 +162851,7 @@
       }
     },
     {
-      "slug": "olx_339",
+      "slug": "olx_ua_339",
       "name": "Снігурівка",
       "region": "Миколаївська область",
       "priority": false,
@@ -162933,7 +162933,7 @@
       }
     },
     {
-      "slug": "olx_250",
+      "slug": "olx_ua_250",
       "name": "Сніжне",
       "region": "Донецька область",
       "priority": false,
@@ -163167,7 +163167,7 @@
       }
     },
     {
-      "slug": "olx_216",
+      "slug": "olx_ua_216",
       "name": "Сокаль",
       "region": "Львівська область",
       "priority": false,
@@ -163276,7 +163276,7 @@
       }
     },
     {
-      "slug": "olx_341",
+      "slug": "olx_ua_341",
       "name": "Сокиряни",
       "region": "Чернівецька область",
       "priority": false,
@@ -163817,7 +163817,7 @@
       }
     },
     {
-      "slug": "olx_103",
+      "slug": "olx_ua_103",
       "name": "Соледар",
       "region": "Донецька область",
       "priority": false,
@@ -164051,7 +164051,7 @@
       }
     },
     {
-      "slug": "olx_615",
+      "slug": "olx_ua_615",
       "name": "Солоницівка",
       "region": "Харківська область",
       "priority": false,
@@ -164151,7 +164151,7 @@
       }
     },
     {
-      "slug": "olx_531",
+      "slug": "olx_ua_531",
       "name": "Солотвино",
       "region": "Закарпатська область",
       "priority": false,
@@ -164305,7 +164305,7 @@
       }
     },
     {
-      "slug": "olx_72956",
+      "slug": "olx_ua_72956",
       "name": "Сонячне",
       "region": "Кіровоградська область",
       "priority": false,
@@ -165314,7 +165314,7 @@
       }
     },
     {
-      "slug": "olx_31963",
+      "slug": "olx_ua_31963",
       "name": "Софіївська Борщагівка",
       "region": null,
       "priority": false,
@@ -166556,7 +166556,7 @@
       }
     },
     {
-      "slug": "olx_10943",
+      "slug": "olx_ua_10943",
       "name": "Стара  Вижівка",
       "region": null,
       "priority": false,
@@ -167375,7 +167375,7 @@
       }
     },
     {
-      "slug": "olx_92",
+      "slug": "olx_ua_92",
       "name": "Старий Крим",
       "region": "Крим (АРК)",
       "priority": false,
@@ -167555,7 +167555,7 @@
       }
     },
     {
-      "slug": "olx_314",
+      "slug": "olx_ua_314",
       "name": "Старий Самбір",
       "region": "Львівська область",
       "priority": false,
@@ -167844,7 +167844,7 @@
       }
     },
     {
-      "slug": "olx_259",
+      "slug": "olx_ua_259",
       "name": "Старокостянтинів",
       "region": "Хмельницька область",
       "priority": false,
@@ -168448,7 +168448,7 @@
       }
     },
     {
-      "slug": "olx_687",
+      "slug": "olx_ua_687",
       "name": "Стебник",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -169646,7 +169646,7 @@
       }
     },
     {
-      "slug": "olx_167",
+      "slug": "olx_ua_167",
       "name": "Сторожинець",
       "region": "Чернівецька область",
       "priority": false,
@@ -169989,7 +169989,7 @@
       }
     },
     {
-      "slug": "olx_489",
+      "slug": "olx_ua_489",
       "name": "Стрижавка",
       "region": "Вінницька область",
       "priority": false,
@@ -170044,7 +170044,7 @@
       }
     },
     {
-      "slug": "olx_346",
+      "slug": "olx_ua_346",
       "name": "Стрий",
       "region": "Львівська область",
       "priority": false,
@@ -171044,7 +171044,7 @@
       }
     },
     {
-      "slug": "olx_389",
+      "slug": "olx_ua_389",
       "name": "Судак",
       "region": "Крим (АРК)",
       "priority": false,
@@ -172142,7 +172142,7 @@
       }
     },
     {
-      "slug": "olx_296",
+      "slug": "olx_ua_296",
       "name": "Суходільськ",
       "region": "Луганська область",
       "priority": false,
@@ -172574,7 +172574,7 @@
       }
     },
     {
-      "slug": "olx_156",
+      "slug": "olx_ua_156",
       "name": "Сєверодонецьк",
       "region": "Луганська область",
       "priority": false,
@@ -172799,7 +172799,7 @@
       }
     },
     {
-      "slug": "olx_37",
+      "slug": "olx_ua_37",
       "name": "Сімферополь",
       "region": "Крим (АРК)",
       "priority": false,
@@ -173033,7 +173033,7 @@
       }
     },
     {
-      "slug": "olx_408",
+      "slug": "olx_ua_408",
       "name": "Таврійськ",
       "region": "Херсонська область",
       "priority": false,
@@ -173213,7 +173213,7 @@
       }
     },
     {
-      "slug": "olx_407",
+      "slug": "olx_ua_407",
       "name": "Тальне",
       "region": "Черкаська область",
       "priority": false,
@@ -173763,7 +173763,7 @@
       }
     },
     {
-      "slug": "olx_135",
+      "slug": "olx_ua_135",
       "name": "Тараща",
       "region": "Київська область",
       "priority": false,
@@ -173917,7 +173917,7 @@
       }
     },
     {
-      "slug": "olx_163",
+      "slug": "olx_ua_163",
       "name": "Татарбунари",
       "region": "Одеська область",
       "priority": false,
@@ -174359,7 +174359,7 @@
       }
     },
     {
-      "slug": "olx_585",
+      "slug": "olx_ua_585",
       "name": "Теофіполь",
       "region": "Хмельницька область",
       "priority": false,
@@ -174423,7 +174423,7 @@
       }
     },
     {
-      "slug": "olx_273",
+      "slug": "olx_ua_273",
       "name": "Теплодар",
       "region": "Одеська область",
       "priority": false,
@@ -174505,7 +174505,7 @@
       }
     },
     {
-      "slug": "olx_281",
+      "slug": "olx_ua_281",
       "name": "Теребовля",
       "region": "Тернопільська область",
       "priority": false,
@@ -175019,7 +175019,7 @@
       }
     },
     {
-      "slug": "olx_307",
+      "slug": "olx_ua_307",
       "name": "Тернівка",
       "region": "Вінницька область",
       "priority": false,
@@ -175361,7 +175361,7 @@
       }
     },
     {
-      "slug": "olx_283",
+      "slug": "olx_ua_283",
       "name": "Тетіїв",
       "region": "Київська область",
       "priority": false,
@@ -175686,7 +175686,7 @@
       }
     },
     {
-      "slug": "olx_2",
+      "slug": "olx_ua_2",
       "name": "Тисмениця",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -176119,7 +176119,7 @@
       }
     },
     {
-      "slug": "olx_244",
+      "slug": "olx_ua_244",
       "name": "Тлумач",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -176489,7 +176489,7 @@
       }
     },
     {
-      "slug": "olx_393",
+      "slug": "olx_ua_393",
       "name": "Токмак",
       "region": "Запорізька область",
       "priority": false,
@@ -177110,7 +177110,7 @@
       }
     },
     {
-      "slug": "olx_75",
+      "slug": "olx_ua_75",
       "name": "Торез",
       "region": "Донецька область",
       "priority": false,
@@ -177128,7 +177128,7 @@
       }
     },
     {
-      "slug": "olx_243",
+      "slug": "olx_ua_243",
       "name": "Торецьк",
       "region": "Донецька область",
       "priority": false,
@@ -177839,7 +177839,7 @@
       }
     },
     {
-      "slug": "olx_271",
+      "slug": "olx_ua_271",
       "name": "Тростянець",
       "region": "Сумська область",
       "priority": false,
@@ -178677,7 +178677,7 @@
       }
     },
     {
-      "slug": "olx_110",
+      "slug": "olx_ua_110",
       "name": "Трускавець",
       "region": "Львівська область",
       "priority": false,
@@ -178948,7 +178948,7 @@
       }
     },
     {
-      "slug": "olx_183",
+      "slug": "olx_ua_183",
       "name": "Тульчин",
       "region": "Вінницька область",
       "priority": false,
@@ -179435,7 +179435,7 @@
       }
     },
     {
-      "slug": "olx_501",
+      "slug": "olx_ua_501",
       "name": "Турійськ",
       "region": "Волинська область",
       "priority": false,
@@ -179796,7 +179796,7 @@
       }
     },
     {
-      "slug": "olx_220",
+      "slug": "olx_ua_220",
       "name": "Тячів",
       "region": "Закарпатська область",
       "priority": false,
@@ -179986,7 +179986,7 @@
       }
     },
     {
-      "slug": "olx_45",
+      "slug": "olx_ua_45",
       "name": "Угнів",
       "region": "Львівська область",
       "priority": false,
@@ -179996,7 +179996,7 @@
       }
     },
     {
-      "slug": "olx_767",
+      "slug": "olx_ua_767",
       "name": "Угорники",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -180257,7 +180257,7 @@
       }
     },
     {
-      "slug": "olx_198",
+      "slug": "olx_ua_198",
       "name": "Узин",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -180267,7 +180267,7 @@
       }
     },
     {
-      "slug": "olx_30737",
+      "slug": "olx_ua_30737",
       "name": "Узин",
       "region": "Київська область",
       "priority": false,
@@ -180313,7 +180313,7 @@
       }
     },
     {
-      "slug": "olx_265",
+      "slug": "olx_ua_265",
       "name": "Українка",
       "region": "Київська область",
       "priority": false,
@@ -180881,7 +180881,7 @@
       }
     },
     {
-      "slug": "olx_68",
+      "slug": "olx_ua_68",
       "name": "Умань",
       "region": "Черкаська область",
       "priority": false,
@@ -181197,7 +181197,7 @@
       }
     },
     {
-      "slug": "olx_342",
+      "slug": "olx_ua_342",
       "name": "Устилуг",
       "region": "Волинська область",
       "priority": false,
@@ -181684,7 +181684,7 @@
       }
     },
     {
-      "slug": "olx_335",
+      "slug": "olx_ua_335",
       "name": "Фастів",
       "region": "Київська область",
       "priority": false,
@@ -182108,7 +182108,7 @@
       }
     },
     {
-      "slug": "olx_31",
+      "slug": "olx_ua_31",
       "name": "Феодосія",
       "region": "Крим (АРК)",
       "priority": false,
@@ -182261,7 +182261,7 @@
       }
     },
     {
-      "slug": "olx_43857",
+      "slug": "olx_ua_43857",
       "name": "Фонтанка",
       "region": null,
       "priority": false,
@@ -182909,7 +182909,7 @@
       }
     },
     {
-      "slug": "olx_224",
+      "slug": "olx_ua_224",
       "name": "Харцизьк",
       "region": "Донецька область",
       "priority": false,
@@ -183161,7 +183161,7 @@
       }
     },
     {
-      "slug": "olx_61",
+      "slug": "olx_ua_61",
       "name": "Херсон",
       "region": "Херсонська область",
       "priority": false,
@@ -183342,7 +183342,7 @@
       }
     },
     {
-      "slug": "olx_263",
+      "slug": "olx_ua_263",
       "name": "Хирiв",
       "region": "Львівська область",
       "priority": false,
@@ -183729,7 +183729,7 @@
       }
     },
     {
-      "slug": "olx_57303",
+      "slug": "olx_ua_57303",
       "name": "Хмелівка",
       "region": "Тернопільська область",
       "priority": false,
@@ -183829,7 +183829,7 @@
       }
     },
     {
-      "slug": "olx_348",
+      "slug": "olx_ua_348",
       "name": "Хмільник",
       "region": "Вінницька область",
       "priority": false,
@@ -184613,7 +184613,7 @@
       }
     },
     {
-      "slug": "olx_625",
+      "slug": "olx_ua_625",
       "name": "Хоростків",
       "region": "Тернопільська область",
       "priority": false,
@@ -184704,7 +184704,7 @@
       }
     },
     {
-      "slug": "olx_511",
+      "slug": "olx_ua_511",
       "name": "Хорошів",
       "region": "Житомирська область",
       "priority": false,
@@ -184849,7 +184849,7 @@
       }
     },
     {
-      "slug": "olx_403",
+      "slug": "olx_ua_403",
       "name": "Хотин",
       "region": "Чернівецька область",
       "priority": false,
@@ -185264,7 +185264,7 @@
       }
     },
     {
-      "slug": "olx_72951",
+      "slug": "olx_ua_72951",
       "name": "Хриплин",
       "region": "Івано-Франківська область",
       "priority": false,
@@ -185310,7 +185310,7 @@
       }
     },
     {
-      "slug": "olx_116",
+      "slug": "olx_ua_116",
       "name": "Христинівка",
       "region": "Черкаська область",
       "priority": false,
@@ -185338,7 +185338,7 @@
       }
     },
     {
-      "slug": "olx_42539",
+      "slug": "olx_ua_42539",
       "name": "Христо-Ботеве",
       "region": "Одеська область",
       "priority": false,
@@ -185591,7 +185591,7 @@
       }
     },
     {
-      "slug": "olx_253",
+      "slug": "olx_ua_253",
       "name": "Хуст",
       "region": "Закарпатська область",
       "priority": false,
@@ -185709,7 +185709,7 @@
       }
     },
     {
-      "slug": "olx_55281",
+      "slug": "olx_ua_55281",
       "name": "Хутір-Михайлівський",
       "region": "Сумська область",
       "priority": false,
@@ -186447,7 +186447,7 @@
       }
     },
     {
-      "slug": "olx_503",
+      "slug": "olx_ua_503",
       "name": "Цумань",
       "region": "Волинська область",
       "priority": false,
@@ -186565,7 +186565,7 @@
       }
     },
     {
-      "slug": "olx_31975",
+      "slug": "olx_ua_31975",
       "name": "Чабани",
       "region": null,
       "priority": false,
@@ -186745,7 +186745,7 @@
       }
     },
     {
-      "slug": "olx_31979",
+      "slug": "olx_ua_31979",
       "name": "Чайки",
       "region": null,
       "priority": false,
@@ -187033,7 +187033,7 @@
       }
     },
     {
-      "slug": "olx_605",
+      "slug": "olx_ua_605",
       "name": "Чаплинка",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -188401,7 +188401,7 @@
       }
     },
     {
-      "slug": "olx_52",
+      "slug": "olx_ua_52",
       "name": "Червоний Промінь",
       "region": "Луганська область",
       "priority": false,
@@ -188860,7 +188860,7 @@
       }
     },
     {
-      "slug": "olx_336",
+      "slug": "olx_ua_336",
       "name": "Червонопартизанськ",
       "region": "Луганська область",
       "priority": false,
@@ -190084,7 +190084,7 @@
       }
     },
     {
-      "slug": "olx_457",
+      "slug": "olx_ua_457",
       "name": "Черняхів",
       "region": "Житомирська область",
       "priority": false,
@@ -190517,7 +190517,7 @@
       }
     },
     {
-      "slug": "olx_123",
+      "slug": "olx_ua_123",
       "name": "Чигирин",
       "region": "Одеська область",
       "priority": false,
@@ -190527,7 +190527,7 @@
       }
     },
     {
-      "slug": "olx_68465",
+      "slug": "olx_ua_68465",
       "name": "Чигирин",
       "region": "Черкаська область",
       "priority": false,
@@ -191014,7 +191014,7 @@
       }
     },
     {
-      "slug": "olx_382",
+      "slug": "olx_ua_382",
       "name": "Чоп",
       "region": "Закарпатська область",
       "priority": false,
@@ -191240,7 +191240,7 @@
       }
     },
     {
-      "slug": "olx_68585",
+      "slug": "olx_ua_68585",
       "name": "Чорнобай",
       "region": "Черкаська область",
       "priority": false,
@@ -191286,7 +191286,7 @@
       }
     },
     {
-      "slug": "olx_179",
+      "slug": "olx_ua_179",
       "name": "Чорнобиль",
       "region": "Київська область",
       "priority": false,
@@ -191431,7 +191431,7 @@
       }
     },
     {
-      "slug": "olx_331",
+      "slug": "olx_ua_331",
       "name": "Чорноморськ",
       "region": "Одеська область",
       "priority": false,
@@ -191441,7 +191441,7 @@
       }
     },
     {
-      "slug": "olx_565",
+      "slug": "olx_ua_565",
       "name": "Чорноморське",
       "region": "Крим (АРК)",
       "priority": false,
@@ -191603,7 +191603,7 @@
       }
     },
     {
-      "slug": "olx_189",
+      "slug": "olx_ua_189",
       "name": "Чортків",
       "region": "Тернопільська область",
       "priority": false,
@@ -191730,7 +191730,7 @@
       }
     },
     {
-      "slug": "olx_20",
+      "slug": "olx_ua_20",
       "name": "Чугуїв",
       "region": "Харківська область",
       "priority": false,
@@ -192415,7 +192415,7 @@
       }
     },
     {
-      "slug": "olx_54",
+      "slug": "olx_ua_54",
       "name": "Шаргород",
       "region": "Вінницька область",
       "priority": false,
@@ -192650,7 +192650,7 @@
       }
     },
     {
-      "slug": "olx_166",
+      "slug": "olx_ua_166",
       "name": "Шахтарськ",
       "region": "Донецька область",
       "priority": false,
@@ -192659,7 +192659,7 @@
       }
     },
     {
-      "slug": "olx_212",
+      "slug": "olx_ua_212",
       "name": "Шахтарське",
       "region": "Дніпропетровська область",
       "priority": false,
@@ -193551,7 +193551,7 @@
       }
     },
     {
-      "slug": "olx_255",
+      "slug": "olx_ua_255",
       "name": "Шепетівка",
       "region": "Хмельницька область",
       "priority": false,
@@ -193579,7 +193579,7 @@
       }
     },
     {
-      "slug": "olx_355",
+      "slug": "olx_ua_355",
       "name": "Шептицький",
       "region": "Львівська область",
       "priority": false,
@@ -194317,7 +194317,7 @@
       }
     },
     {
-      "slug": "olx_485",
+      "slug": "olx_ua_485",
       "name": "Ширяєве",
       "region": "Одеська область",
       "priority": false,
@@ -194597,7 +194597,7 @@
       }
     },
     {
-      "slug": "olx_40359",
+      "slug": "olx_ua_40359",
       "name": "Шкло",
       "region": null,
       "priority": false,
@@ -195119,7 +195119,7 @@
       }
     },
     {
-      "slug": "olx_153",
+      "slug": "olx_ua_153",
       "name": "Шостка",
       "region": "Сумська область",
       "priority": false,
@@ -195282,7 +195282,7 @@
       }
     },
     {
-      "slug": "olx_31983",
+      "slug": "olx_ua_31983",
       "name": "Шпитьки",
       "region": null,
       "priority": false,
@@ -195336,7 +195336,7 @@
       }
     },
     {
-      "slug": "olx_400",
+      "slug": "olx_ua_400",
       "name": "Шпола",
       "region": "Черкаська область",
       "priority": false,
@@ -195976,7 +195976,7 @@
       }
     },
     {
-      "slug": "olx_211",
+      "slug": "olx_ua_211",
       "name": "Щастя",
       "region": "Луганська область",
       "priority": false,
@@ -196327,7 +196327,7 @@
       }
     },
     {
-      "slug": "olx_399",
+      "slug": "olx_ua_399",
       "name": "Щолкіне",
       "region": "Крим (АРК)",
       "priority": false,
@@ -197587,7 +197587,7 @@
       }
     },
     {
-      "slug": "olx_155",
+      "slug": "olx_ua_155",
       "name": "Яворів",
       "region": "Львівська область",
       "priority": false,
@@ -197768,7 +197768,7 @@
       }
     },
     {
-      "slug": "olx_364",
+      "slug": "olx_ua_364",
       "name": "Яготин",
       "region": "Київська область",
       "priority": false,
@@ -197976,7 +197976,7 @@
       }
     },
     {
-      "slug": "olx_411",
+      "slug": "olx_ua_411",
       "name": "Якимівка",
       "region": "Запорізька область",
       "priority": false,
@@ -198372,7 +198372,7 @@
       }
     },
     {
-      "slug": "olx_291",
+      "slug": "olx_ua_291",
       "name": "Ялта",
       "region": "Крим (АРК)",
       "priority": false,
@@ -198480,7 +198480,7 @@
       }
     },
     {
-      "slug": "olx_187",
+      "slug": "olx_ua_187",
       "name": "Ямпіль",
       "region": "Вінницька область",
       "priority": false,
@@ -199345,7 +199345,7 @@
       }
     },
     {
-      "slug": "olx_228",
+      "slug": "olx_ua_228",
       "name": "Ясинувата",
       "region": "Донецька область",
       "priority": false,
@@ -199750,7 +199750,7 @@
       }
     },
     {
-      "slug": "olx_72955",
+      "slug": "olx_ua_72955",
       "name": "Ясіня",
       "region": "Закарпатська область",
       "priority": false,

@@ -63,6 +63,7 @@ ignore = [
 
 [tool.ruff.lint.per-file-ignores]
 "tests/**" = ["S101"]
+"src/rentalert/translations.py" = ["N802"]
 
 [tool.ruff.format]
 quote-style = "double"

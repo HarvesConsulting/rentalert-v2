@@ -19,6 +19,7 @@ from rentalert.translations import T
 # Reply-клавіатури (під полем вводу)
 # ─────────────────────────────────────────────────────────────
 
+
 def main_menu_keyboard(lang: str = "uk") -> dict[str, Any]:
     """Головне меню — 5 кнопок у 3 ряди."""
     return {
@@ -46,6 +47,7 @@ def remove_keyboard() -> dict[str, Any]:
 # ─────────────────────────────────────────────────────────────
 # Inline-клавіатури (під повідомленням)
 # ─────────────────────────────────────────────────────────────
+
 
 def country_selector_keyboard(
     countries: list[dict[str, Any]],
@@ -311,6 +313,7 @@ def help_keyboard(lang: str = "uk") -> dict[str, Any]:
 # ─────────────────────────────────────────────────────────────
 # Внутрішнє
 # ─────────────────────────────────────────────────────────────
+
 
 def _categories_for_country(country: str) -> list[tuple[str, str, str]]:
     """Повертає список (cat_key, icon, label) для країни.

@@ -22,6 +22,7 @@ DEFAULT_LANGUAGE = "uk"
 # Користувач
 # ─────────────────────────────────────────────────────────────
 
+
 def ensure_user(
     client: TursoClient,
     chat_id: str,
@@ -74,6 +75,7 @@ def set_country(client: TursoClient, chat_id: str, country: str) -> None:
 # Міста користувача
 # ─────────────────────────────────────────────────────────────
 
+
 def get_city_slugs(client: TursoClient, chat_id: str) -> list[str]:
     """Slug міст користувача."""
     return db.get_user_cities(client, chat_id)
@@ -109,6 +111,7 @@ def remove_city(client: TursoClient, chat_id: str, city_slug: str) -> None:
 # ─────────────────────────────────────────────────────────────
 # Джерела (з урахуванням blacklist)
 # ─────────────────────────────────────────────────────────────
+
 
 def get_enabled_sources(
     catalog: Catalog,

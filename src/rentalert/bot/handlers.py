@@ -25,6 +25,7 @@ log = logging.getLogger(__name__)
 # Контекст
 # ─────────────────────────────────────────────────────────────
 
+
 @dataclass
 class BotContext:
     """Залежності, які потрібні handlers + callbacks."""
@@ -38,6 +39,7 @@ class BotContext:
 # ─────────────────────────────────────────────────────────────
 # Головна точка входу
 # ─────────────────────────────────────────────────────────────
+
 
 def handle_update(update: dict[str, Any], ctx: BotContext) -> None:
     """Обробляє один Telegram update."""
@@ -81,6 +83,7 @@ def handle_update(update: dict[str, Any], ctx: BotContext) -> None:
 # ─────────────────────────────────────────────────────────────
 # Команди
 # ─────────────────────────────────────────────────────────────
+
 
 def _handle_command(chat_id: str, text: str, ctx: BotContext) -> None:
     lang = user_svc.get_language(ctx.client, chat_id)
@@ -127,8 +130,8 @@ def _handle_command(chat_id: str, text: str, ctx: BotContext) -> None:
 # Кнопки головного меню (reply)
 # ─────────────────────────────────────────────────────────────
 
+
 def _handle_menu_button(chat_id: str, text: str, ctx: BotContext) -> bool:
-    lang = user_svc.get_language(ctx.client, chat_id)
 
     if text == T("btn_my_cities", "uk") or text == T("btn_my_cities", "en"):
         _send_my_cities(chat_id, ctx)
@@ -158,6 +161,7 @@ def _handle_menu_button(chat_id: str, text: str, ctx: BotContext) -> bool:
 # FSM
 # ─────────────────────────────────────────────────────────────
 
+
 def _handle_waiting_state(
     chat_id: str,
     text: str,
@@ -166,8 +170,6 @@ def _handle_waiting_state(
     state = states.get_state(chat_id)
     if state is None or text.startswith("/"):
         return False
-
-    lang = user_svc.get_language(ctx.client, chat_id)
 
     # Натиснув кнопку меню — скасовуємо стан
     if _is_menu_button(text):
@@ -196,6 +198,7 @@ def _is_menu_button(text: str) -> bool:
 # ─────────────────────────────────────────────────────────────
 # Дії
 # ─────────────────────────────────────────────────────────────
+
 
 def _send_main_menu(chat_id: str, ctx: BotContext) -> None:
     lang = user_svc.get_language(ctx.client, chat_id)
@@ -343,6 +346,7 @@ def _send_main_menu_with_text(
 # Пошук міста (FSM)
 # ─────────────────────────────────────────────────────────────
 
+
 def _process_city_search(chat_id: str, query: str, ctx: BotContext) -> None:
     lang = user_svc.get_language(ctx.client, chat_id)
     states.clear_state(chat_id)
@@ -374,6 +378,7 @@ def _process_city_search(chat_id: str, query: str, ctx: BotContext) -> None:
 # ─────────────────────────────────────────────────────────────
 # Feedback (FSM)
 # ─────────────────────────────────────────────────────────────
+
 
 def _process_feedback(chat_id: str, text: str, ctx: BotContext) -> None:
     lang = user_svc.get_language(ctx.client, chat_id)
@@ -408,6 +413,7 @@ def _process_feedback(chat_id: str, text: str, ctx: BotContext) -> None:
 # Admin reply на feedback
 # ─────────────────────────────────────────────────────────────
 
+
 def _handle_admin_reply(
     message: dict[str, Any],
     chat_id: str,
@@ -425,6 +431,7 @@ def _handle_admin_reply(
     replied_text = replied.get("text") or ""
 
     import re
+
     match = re.search(r"🆔\s*(\d+)", replied_text)
     if not match or not text:
         return False

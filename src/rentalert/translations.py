@@ -10,7 +10,6 @@ from __future__ import annotations
 
 from typing import Any
 
-
 TEXTS: dict[str, dict[str, str]] = {
     # ═════════════════════════════════════════════════════════
     # УКРАЇНСЬКА

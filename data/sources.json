@@ -16,5 +16,110 @@
         "daily": 3709
       }
     }
+  },
+  "dimria": {
+    "key": "dimria",
+    "country": "ua",
+    "name": "DIM.RIA",
+    "icon": "🏘",
+    "kind": "dimria",
+    "base_url": "https://dom.ria.com",
+    "enabled_by_default": false,
+    "categories": ["apartment", "house"],
+    "config": {}
+  },
+  "olx_pl": {
+    "key": "olx_pl",
+    "country": "pl",
+    "name": "OLX.pl",
+    "icon": "🟢",
+    "kind": "olx",
+    "base_url": "https://www.olx.pl",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house", "room"],
+    "config": {
+      "category_ids": {
+        "apartment": 15,
+        "house": 18,
+        "room": 11
+      }
+    }
+  },
+  "olx_pt": {
+    "key": "olx_pt",
+    "country": "pt",
+    "name": "OLX.pt",
+    "icon": "🟢",
+    "kind": "olx",
+    "base_url": "https://www.olx.pt",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house", "room"],
+    "config": {
+      "category_ids": {
+        "apartment": 16,
+        "house": 16,
+        "room": 16
+      }
+    }
+  },
+  "olx_ro": {
+    "key": "olx_ro",
+    "country": "ro",
+    "name": "OLX.ro",
+    "icon": "🟢",
+    "kind": "olx",
+    "base_url": "https://www.olx.ro",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house"],
+    "config": {
+      "category_ids": {
+        "apartment": 909,
+        "house": 913
+      }
+    }
+  },
+  "olx_bg": {
+    "key": "olx_bg",
+    "country": "bg",
+    "name": "OLX.bg",
+    "icon": "🟢",
+    "kind": "olx",
+    "base_url": "https://www.olx.bg",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house"],
+    "config": {
+      "category_ids": {
+        "apartment": 536,
+        "house": 541
+      }
+    }
+  },
+  "kleinanzeigen": {
+    "key": "kleinanzeigen",
+    "country": "de",
+    "name": "Kleinanzeigen",
+    "icon": "🇩🇪",
+    "kind": "kleinanzeigen",
+    "base_url": "https://www.kleinanzeigen.de",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house", "room"],
+    "config": {
+      "category_slugs": {
+        "apartment": "wohnung-mieten",
+        "house": "haus-mieten",
+        "room": "wg-zimmer"
+      }
+    }
+  },
+  "habitaclia": {
+    "key": "habitaclia",
+    "country": "es",
+    "name": "Habitaclia",
+    "icon": "🇪🇸",
+    "kind": "habitaclia",
+    "base_url": "https://www.habitaclia.com",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house", "room"],
+    "config": {}
   }
 }

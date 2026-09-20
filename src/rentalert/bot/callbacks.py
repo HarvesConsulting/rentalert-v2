@@ -348,13 +348,131 @@ def _handle_cfg(
     cb_id: str,
     ctx: BotContext,
 ) -> None:
-    """Налаштування. Тимчасова заглушка — реалізуємо у частині 2."""
-    ctx.notifier.answer_callback(cb_id, "⚙️")
+    """Меню налаштувань."""
+    if not args:
+        ctx.notifier.answer_callback(cb_id)
+        return
+
+    sub = args[0]
+    lang = user_svc.get_language(ctx.client, chat_id)
+
+    if sub == "country":
+        ctx.notifier.answer_callback(cb_id)
+        _show_country_selector(chat_id, ctx)
+        return
+
+    if sub == "language":
+        ctx.notifier.answer_callback(cb_id)
+        current = "Українська" if lang == "uk" else "English"
+        ctx.notifier.send_message(
+            chat_id,
+            T("language_title", lang, current=current),
+            keyboard=kb.language_keyboard(),
+        )
+        return
+
+    if sub == "clear_cities":
+        ctx.notifier.answer_callback(cb_id)
+        ctx.notifier.send_message(
+            chat_id,
+            "🗑 Очистити всі міста?",
+            keyboard=kb.confirm_keyboard("clear_cities", lang),
+        )
+        return
+
+    if sub == "types":
+        ctx.notifier.answer_callback(cb_id)
+        _show_categories(chat_id, ctx)
+        return
+
+    if sub == "sources":
+        ctx.notifier.answer_callback(cb_id)
+        _show_sources_menu(chat_id, ctx)
+        return
+
+    ctx.notifier.answer_callback(cb_id)
 
 
-# ─────────────────────────────────────────────────────────────
-# toggle_cat / save_categories / toggle_source (заглушки)
-# ─────────────────────────────────────────────────────────────
+def _show_country_selector(chat_id: str, ctx: BotContext) -> None:
+    """Показує вибір країни (завжди нове повідомлення)."""
+    lang = user_svc.get_language(ctx.client, chat_id)
+    current = user_svc.get_country(ctx.client, chat_id)
+
+    countries = [
+        {
+            "code": c.code,
+            "name": T(f"country_{c.code}", lang),
+            "free": c.free,
+            "price_stars": c.price_stars,
+        }
+        for c in ctx.catalog.all_countries()
+    ]
+
+    text = T("country_selector_title", lang)
+    keyboard = kb.country_selector_keyboard(countries, current, lang)
+    ctx.notifier.send_message(chat_id, text, keyboard=keyboard)
+
+
+def _show_categories(chat_id: str, ctx: BotContext) -> None:
+    """Показує категорії (завжди нове повідомлення)."""
+    lang = user_svc.get_language(ctx.client, chat_id)
+    country = user_svc.get_country(ctx.client, chat_id)
+    enabled = user_svc.get_categories(ctx.client, chat_id, country)
+
+    text = T("btn_types", lang)
+    keyboard = kb.categories_keyboard(ctx.catalog, country, enabled, lang)
+    ctx.notifier.send_message(chat_id, text, keyboard=keyboard)
+
+
+def _show_sources_menu(chat_id: str, ctx: BotContext) -> None:
+    """Показує джерела для міст користувача."""
+    lang = user_svc.get_language(ctx.client, chat_id)
+    cities = user_svc.get_cities(ctx.catalog, ctx.client, chat_id)
+
+    if not cities:
+        ctx.notifier.send_message(
+            chat_id,
+            T("my_cities_empty", lang),
+            keyboard=kb.main_menu_keyboard(lang),
+        )
+        return
+
+    disabled = user_svc.get_disabled_sources(ctx.client, chat_id)
+
+    lines = ["📡 <b>Джерела</b>", ""]
+    for city in cities:
+        lines.append(f"<b>{city.name}</b>:")
+        for source_key in city.refs:
+            source = ctx.catalog.source(source_key)
+            if source is None:
+                continue
+            check = "⬜" if source_key in disabled else "✅"
+            lines.append(f"  {check} {source.icon} {source.name}")
+        lines.append("")
+
+    text = "\n".join(lines)
+
+    buttons: list[list[dict[str, str]]] = []
+    first_city = cities[0]
+    for source_key in first_city.refs:
+        source = ctx.catalog.source(source_key)
+        if source is None:
+            continue
+        check = "⬜" if source_key in disabled else "✅"
+        buttons.append(
+            [
+                {
+                    "text": f"{check} {source.icon} {source.name}",
+                    "callback_data": f"toggle_source:{first_city.slug}:{source_key}",
+                }
+            ]
+        )
+
+    ctx.notifier.send_message(
+        chat_id,
+        text,
+        keyboard={"inline_keyboard": buttons},
+    )
 
 
 def _handle_toggle_cat(
@@ -364,7 +482,15 @@ def _handle_toggle_cat(
     cb_id: str,
     ctx: BotContext,
 ) -> None:
+    """Перемикає категорію."""
+    country = user_svc.get_country(ctx.client, chat_id)
+    user_svc.toggle_category(ctx.client, chat_id, country, cat_key)
     ctx.notifier.answer_callback(cb_id, "✅")
+
+    if message_id:
+        enabled = user_svc.get_categories(ctx.client, chat_id, country)
+        kb_dict = kb.categories_keyboard(ctx.catalog, country, enabled, "uk")
+        ctx.notifier.edit_reply_markup(chat_id, message_id, kb_dict)
 
 
 def _handle_save_categories(
@@ -373,7 +499,21 @@ def _handle_save_categories(
     cb_id: str,
     ctx: BotContext,
 ) -> None:
+    """Зберігає категорії."""
+    lang = user_svc.get_language(ctx.client, chat_id)
+    country = user_svc.get_country(ctx.client, chat_id)
+    enabled = user_svc.get_categories(ctx.client, chat_id, country)
+
+    db.log_activity(ctx.client, chat_id, "save_categories", {"enabled": list(enabled)})
     ctx.notifier.answer_callback(cb_id, "💾")
+
+    if message_id:
+        ctx.notifier.edit_message(
+            chat_id,
+            message_id,
+            T("btn_save_categories", lang) + " ✅",
+            keyboard={"inline_keyboard": []},
+        )
 
 
 def _handle_toggle_source(
@@ -382,7 +522,14 @@ def _handle_toggle_source(
     cb_id: str,
     ctx: BotContext,
 ) -> None:
-    ctx.notifier.answer_callback(cb_id, "✅")
+    """Перемикає джерело для міста (args: [city_slug, source_key])."""
+    if len(args) != 2:
+        ctx.notifier.answer_callback(cb_id, "❌")
+        return
+
+    _city_slug, source_key = args
+    new_state = user_svc.toggle_source(ctx.client, chat_id, source_key)
+    ctx.notifier.answer_callback(cb_id, "✅" if new_state else "⬜")
 
 
 # ─────────────────────────────────────────────────────────────

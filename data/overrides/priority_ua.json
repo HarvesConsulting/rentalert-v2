@@ -1,0 +1,23 @@
+{
+  "kyiv":            "Київ",
+  "lviv":            "Львів",
+  "kharkiv":         "Харків",
+  "odesa":           "Одеса",
+  "dnipro":          "Дніпро",
+  "zaporizhzhia":    "Запоріжжя",
+  "vinnytsia":       "Вінниця",
+  "ivano-frankivsk": "Івано-Франківськ",
+  "ternopil":        "Тернопіль",
+  "uzhhorod":        "Ужгород",
+  "chernivtsi":      "Чернівці",
+  "khmelnytskyi":    "Хмельницький",
+  "lutsk":           "Луцьк",
+  "rivne":           "Рівне",
+  "zhytomyr":        "Житомир",
+  "cherkasy":        "Черкаси",
+  "poltava":         "Полтава",
+  "sumy":            "Суми",
+  "chernihiv":       "Чернігів",
+  "kropyvnytskyi":   "Кропивницький",
+  "mykolaiv":        "Миколаїв"
+}

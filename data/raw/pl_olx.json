@@ -1,0 +1,6758 @@
+[
+  {
+    "city_id": 627,
+    "city_name": "Aleksandrów Kujawski",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 53,
+    "city_name": "Aleksandrów Łódzki",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 741,
+    "city_name": "Anastazewo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 913,
+    "city_name": "Annowo",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 1753,
+    "city_name": "Antoniów",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 1765,
+    "city_name": "Apolonia",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 1873,
+    "city_name": "Augustowo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 397,
+    "city_name": "Augustów",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 163,
+    "city_name": "Baborów",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 113545,
+    "city_name": "Bachmackie Kolonie",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 2311,
+    "city_name": "Baranów",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 130071,
+    "city_name": "Barszczówka",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 2357,
+    "city_name": "Bartochów",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 425,
+    "city_name": "Bartodzieje",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 1369,
+    "city_name": "Baszków",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 479,
+    "city_name": "Bełchatów",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 41969,
+    "city_name": "Biała Piska",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 1555,
+    "city_name": "Biała Podlaska",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 2151,
+    "city_name": "Białobrzegi",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 2527,
+    "city_name": "Białogard",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 1079,
+    "city_name": "Białystok",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 21325,
+    "city_name": "Bielany Wrocławskie",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 3227,
+    "city_name": "Bielsk Podlaski",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 3231,
+    "city_name": "Bielsko-Biała",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 3277,
+    "city_name": "Biertowice",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 24357,
+    "city_name": "Bierutów",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 3279,
+    "city_name": "Bieruń",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 130557,
+    "city_name": "Bieżuń",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 3299,
+    "city_name": "Binarowa",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 111941,
+    "city_name": "Biskupice",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 21423,
+    "city_name": "Biłgoraj",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 21445,
+    "city_name": "Blenda",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 24485,
+    "city_name": "Bochnia",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 130681,
+    "city_name": "Boduszewo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 42421,
+    "city_name": "Bodzentyn",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 24495,
+    "city_name": "Bogatynia",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 60631,
+    "city_name": "Bogdaj",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 24509,
+    "city_name": "Bogucice",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 60655,
+    "city_name": "Bogunice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 42471,
+    "city_name": "Boguszów-Gorce",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 130731,
+    "city_name": "Boksycka",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 24545,
+    "city_name": "Bolesławiec",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 130753,
+    "city_name": "Bolków",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 3487,
+    "city_name": "Boniewo",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 24579,
+    "city_name": "Borek",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 42533,
+    "city_name": "Borek Wielkopolski",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 24599,
+    "city_name": "Borki Walkowskie",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 21685,
+    "city_name": "Borne Sulinowo",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 60795,
+    "city_name": "Borowiec",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 112157,
+    "city_name": "Borowno",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 24643,
+    "city_name": "Borowy Młyn",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 21715,
+    "city_name": "Borówek",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 24723,
+    "city_name": "Braniewo",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 21803,
+    "city_name": "Brodnica",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 42697,
+    "city_name": "Brok",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 130989,
+    "city_name": "Brusy",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 130999,
+    "city_name": "Brzana",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 24811,
+    "city_name": "Brzeg Dolny",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 42791,
+    "city_name": "Brzesko",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 42811,
+    "city_name": "Brzezie k. Sulechowa",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 78859,
+    "city_name": "Brzezina",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 3791,
+    "city_name": "Brzeziny",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 78893,
+    "city_name": "Brzezno",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 61035,
+    "city_name": "Brzeźno",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 42923,
+    "city_name": "Budczyce",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 25025,
+    "city_name": "Bukowa",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 3971,
+    "city_name": "Bukowno",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 3997,
+    "city_name": "Busko-Zdrój",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 22157,
+    "city_name": "Bychawa",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 4019,
+    "city_name": "Bydgoszcz",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 25269,
+    "city_name": "Byszyce",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 4197,
+    "city_name": "Bytom",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 4203,
+    "city_name": "Bytom Odrzański",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 131447,
+    "city_name": "Bytoń",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 4205,
+    "city_name": "Bytów",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 24425,
+    "city_name": "Błażowa Górna",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 78439,
+    "city_name": "Błonie",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 61475,
+    "city_name": "Chalin",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 22477,
+    "city_name": "Charbrowo",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 112847,
+    "city_name": "Chełmek",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 22501,
+    "city_name": "Chełmno",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 61523,
+    "city_name": "Chełmża",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 61553,
+    "city_name": "Choceń",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 112893,
+    "city_name": "Chocianów",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 22559,
+    "city_name": "Chociwel",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 131575,
+    "city_name": "Chodecz",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 4359,
+    "city_name": "Chojna",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 4363,
+    "city_name": "Chojnice",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 131601,
+    "city_name": "Chojnów",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 131623,
+    "city_name": "Choroszcz",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 22603,
+    "city_name": "Chorzele",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 22611,
+    "city_name": "Chorzów",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 22619,
+    "city_name": "Choszczno",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 25477,
+    "city_name": "Chotel",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 4437,
+    "city_name": "Chrzanów",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 43525,
+    "city_name": "Chrzypsko Wielkie",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 4461,
+    "city_name": "Chwalęcice",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 43559,
+    "city_name": "Ciechanowiec",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 25555,
+    "city_name": "Ciechanów",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 4499,
+    "city_name": "Ciechocinek",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 25565,
+    "city_name": "Ciechowice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 4541,
+    "city_name": "Cieszyn",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 43637,
+    "city_name": "Ciężkowice",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 43663,
+    "city_name": "Cybinka",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 113231,
+    "city_name": "Czaplinek",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 4615,
+    "city_name": "Czarna Białostocka",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 131907,
+    "city_name": "Czarna Wieś",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 4625,
+    "city_name": "Czarna Woda",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 4687,
+    "city_name": "Czchów",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 25767,
+    "city_name": "Czechowice-Dziedzice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 4705,
+    "city_name": "Czeladź",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 79801,
+    "city_name": "Czempiń",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 25795,
+    "city_name": "Czersk",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 4747,
+    "city_name": "Czerwionka-Leszczyny",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 79837,
+    "city_name": "Czerwona Woda",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 4801,
+    "city_name": "Czuszów",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 132089,
+    "city_name": "Czyżew",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 4765,
+    "city_name": "Częstochowa",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 43883,
+    "city_name": "Człuchów",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 4837,
+    "city_name": "Daleszyce",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 23055,
+    "city_name": "Dankowice Drugie",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 23057,
+    "city_name": "Danków A",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 25915,
+    "city_name": "Darłowo",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 62217,
+    "city_name": "Debrzno",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 62335,
+    "city_name": "Dobiegniew",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 23367,
+    "city_name": "Dobra",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 80201,
+    "city_name": "Dobre Miasto",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 44219,
+    "city_name": "Dobrodzień",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 132475,
+    "city_name": "Dobrzyca",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 80231,
+    "city_name": "Dolany",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 5181,
+    "city_name": "Dolsk",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 44271,
+    "city_name": "Domaniewice",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 80259,
+    "city_name": "Domaszowice",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 5219,
+    "city_name": "Dopiewo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 113939,
+    "city_name": "Downary Plac",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 26303,
+    "city_name": "Dołgie",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 5231,
+    "city_name": "Drawsko Pomorskie",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 80291,
+    "city_name": "Drewniki",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 62473,
+    "city_name": "Drezdenko",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 23487,
+    "city_name": "Drobin",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 114021,
+    "city_name": "Drzewica",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 5299,
+    "city_name": "Dubiecko",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 62523,
+    "city_name": "Dubin",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 26443,
+    "city_name": "Duszniki",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 114055,
+    "city_name": "Duszniki-Zdrój",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 62581,
+    "city_name": "Dynów",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 26493,
+    "city_name": "Działdowo",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 80455,
+    "city_name": "Dziwnów",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 4895,
+    "city_name": "Dąbrowa",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 4905,
+    "city_name": "Dąbrowa Górnicza",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 4929,
+    "city_name": "Dąbrowa Tarnowska",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 4941,
+    "city_name": "Dąbrowice Stare",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 26031,
+    "city_name": "Dąbrówka",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 80071,
+    "city_name": "Dęba",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 23239,
+    "city_name": "Dębica",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 113745,
+    "city_name": "Dębinki",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 26115,
+    "city_name": "Dęblin",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 44119,
+    "city_name": "Dębno",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 132407,
+    "city_name": "Długopole Dolne",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 132413,
+    "city_name": "Dłużyna Dolna",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 5453,
+    "city_name": "Elbląg",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 5469,
+    "city_name": "Ełk",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 26603,
+    "city_name": "Fajsławice",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 44589,
+    "city_name": "Feliksowo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 23775,
+    "city_name": "Frampol",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 23799,
+    "city_name": "Frednowy",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 132857,
+    "city_name": "Frysztak",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 132927,
+    "city_name": "Garbatka-Letnisko",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 23883,
+    "city_name": "Garwolin",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 5659,
+    "city_name": "Gdańsk",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 5849,
+    "city_name": "Gdynia",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 114777,
+    "city_name": "Gisiel",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 45125,
+    "city_name": "Gizałki",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 6049,
+    "city_name": "Giżycko",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 114841,
+    "city_name": "Glinojeck",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 63299,
+    "city_name": "Glisno",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 6091,
+    "city_name": "Gliwice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 63387,
+    "city_name": "Gniew",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 27227,
+    "city_name": "Gniewkowo",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 6179,
+    "city_name": "Gniezno",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 114941,
+    "city_name": "Gnojnik",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 63425,
+    "city_name": "Gola",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 45283,
+    "city_name": "Golczewo",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 81179,
+    "city_name": "Golina Wielka",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 45303,
+    "city_name": "Golub-Dobrzyń",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 115027,
+    "city_name": "Goniądz",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 63489,
+    "city_name": "Gorazdowo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 115039,
+    "city_name": "Gordejki",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 6331,
+    "city_name": "Gorzów Wielkopolski",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 6349,
+    "city_name": "Gostynin",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 27385,
+    "city_name": "Gostyń",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 45393,
+    "city_name": "Gostyń",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 133665,
+    "city_name": "Goszcz",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 6375,
+    "city_name": "Gozdnica",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 45317,
+    "city_name": "Gołdap",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 85515,
+    "city_name": "Gościęcice",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 27505,
+    "city_name": "Grabniak",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 85671,
+    "city_name": "Grabów nad Prosną",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 27567,
+    "city_name": "Grajewo",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 63733,
+    "city_name": "Granowo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 27611,
+    "city_name": "Grochowo",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 27625,
+    "city_name": "Grodziec Mały",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 81515,
+    "city_name": "Grodzisk",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 27633,
+    "city_name": "Grodzisk Mazowiecki",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 85793,
+    "city_name": "Grudki",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 6653,
+    "city_name": "Grudziądz",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 63865,
+    "city_name": "Grybów",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 27709,
+    "city_name": "Gryfice",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 6681,
+    "city_name": "Gryfino",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 133971,
+    "city_name": "Gryfów Śląski",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 115361,
+    "city_name": "Grzegorzew",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 6709,
+    "city_name": "Grzybowo",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 81563,
+    "city_name": "Grójec",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 81469,
+    "city_name": "Grądy",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 85841,
+    "city_name": "Gubin",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 27775,
+    "city_name": "Gutowo Małe",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 115409,
+    "city_name": "Gułów",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 63589,
+    "city_name": "Góra Kalwaria",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 133709,
+    "city_name": "Góralice",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 85567,
+    "city_name": "Górki",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 81329,
+    "city_name": "Górki",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 85589,
+    "city_name": "Górsko",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 115171,
+    "city_name": "Górzyn",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 114387,
+    "city_name": "Gąsów",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 27191,
+    "city_name": "Głogów",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 27195,
+    "city_name": "Głogówek",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 45219,
+    "city_name": "Głowno",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 6145,
+    "city_name": "Głubczyce",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 85303,
+    "city_name": "Głuchołazy",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 81091,
+    "city_name": "Głuszyca",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 6769,
+    "city_name": "Hajnówka",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 63955,
+    "city_name": "Hańsk-Kolonia",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 85903,
+    "city_name": "Hel",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 81713,
+    "city_name": "Henryków",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 85973,
+    "city_name": "Hrubieszów",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 81829,
+    "city_name": "Ignatowizna",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 6903,
+    "city_name": "Imielin",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 6909,
+    "city_name": "Inowrocław",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 45901,
+    "city_name": "Iwonicz",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 86073,
+    "city_name": "Izabelin",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 64127,
+    "city_name": "Izdebki",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 134259,
+    "city_name": "Izdebnik",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 81837,
+    "city_name": "Iłowa",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 115571,
+    "city_name": "Iłża",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 64141,
+    "city_name": "Jabłonowo Pomorskie",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 6967,
+    "city_name": "Jacowlany",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 45945,
+    "city_name": "Jaczowice",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 134319,
+    "city_name": "Jakubowice",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 64231,
+    "city_name": "Janikowo",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 7037,
+    "city_name": "Janki",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 86219,
+    "city_name": "Janowiec",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 82015,
+    "city_name": "Janowiec",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 134415,
+    "city_name": "Janów Lubelski",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 86283,
+    "city_name": "Jarocin",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 7127,
+    "city_name": "Jarosław",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 46121,
+    "city_name": "Jaryszów",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 64381,
+    "city_name": "Jastarnia",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 86337,
+    "city_name": "Jastrowie",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 28301,
+    "city_name": "Jastrzygowice",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 134501,
+    "city_name": "Jastrząbka Młoda",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 7175,
+    "city_name": "Jastrzębie-Zdrój",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 115875,
+    "city_name": "Jaszczew",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 82147,
+    "city_name": "Jaszkowo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 7161,
+    "city_name": "Jasło",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 82153,
+    "city_name": "Jawiszowice",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 64413,
+    "city_name": "Jawor",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 7225,
+    "city_name": "Jaworzno",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 46225,
+    "city_name": "Jaworzyna Śląska",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 7199,
+    "city_name": "Jaśkowice",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 134525,
+    "city_name": "Jaśliska",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 7249,
+    "city_name": "Jedlina-Zdrój",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 7257,
+    "city_name": "Jelenia Góra",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 7271,
+    "city_name": "Jelitowo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 115951,
+    "city_name": "Jemielnica",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 64495,
+    "city_name": "Jerka",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 82237,
+    "city_name": "Jeziorko",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 7317,
+    "city_name": "Jeziorzany",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 28425,
+    "city_name": "Jezuicka Struga",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 86523,
+    "city_name": "Jordanów",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 134693,
+    "city_name": "Juchnowiec Dolny",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 86585,
+    "city_name": "Julianów",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 46373,
+    "city_name": "Józefkowo",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 7381,
+    "city_name": "Józefów",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 86509,
+    "city_name": "Jędrzejów",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 7339,
+    "city_name": "Jędrzychowice",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 82401,
+    "city_name": "Kajnity",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 64691,
+    "city_name": "Kalinów",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 86687,
+    "city_name": "Kaliska",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 7509,
+    "city_name": "Kalisz",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 64751,
+    "city_name": "Kamieniec",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 28625,
+    "city_name": "Kamieniec Wrocławski",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 116325,
+    "city_name": "Kamień Krajeński",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 116329,
+    "city_name": "Kamień Śląski",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 64781,
+    "city_name": "Kamieńczyk",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 28645,
+    "city_name": "Kamieńsk",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 116343,
+    "city_name": "Kamionka",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 82535,
+    "city_name": "Karczew",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 82545,
+    "city_name": "Kargowa",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 116443,
+    "city_name": "Karolewo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 28743,
+    "city_name": "Karpacz",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 28761,
+    "city_name": "Kartuzy",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 86909,
+    "city_name": "Kasina Wielka",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 7691,
+    "city_name": "Katowice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 46921,
+    "city_name": "Kazimierz",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 29001,
+    "city_name": "Kazimierz Dolny",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 82839,
+    "city_name": "Kazimierza Wielka",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 82433,
+    "city_name": "Kałuszyn",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 7919,
+    "city_name": "Kcynia",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 7971,
+    "city_name": "Kielce",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 83121,
+    "city_name": "Kietrz",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 135499,
+    "city_name": "Kisielice",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 8175,
+    "city_name": "Kiszkowo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 87437,
+    "city_name": "Kleszczele",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 29321,
+    "city_name": "Klikuszowa",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 29337,
+    "city_name": "Kluczbork",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 29397,
+    "city_name": "Knurów",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 8321,
+    "city_name": "Knybawa",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 83269,
+    "city_name": "Knyszyn",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 65569,
+    "city_name": "Kobyłka",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 47389,
+    "city_name": "Kocikowa",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 83305,
+    "city_name": "Kock",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 117185,
+    "city_name": "Kolbuszowa",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 29477,
+    "city_name": "Kolebki",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 29493,
+    "city_name": "Kolno",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 117239,
+    "city_name": "Kolonia Myśliborzyce",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 65673,
+    "city_name": "Kolonia Wola Zaradzyńska",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 8427,
+    "city_name": "Kolonia Zamieńska",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 83399,
+    "city_name": "Kolonowskie",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 87785,
+    "city_name": "Koniczynka",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 65749,
+    "city_name": "Koniecpol",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 8523,
+    "city_name": "Konin",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 117385,
+    "city_name": "Konstancin-Jeziorna",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 29685,
+    "city_name": "Konstantynów Łódzki",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 8581,
+    "city_name": "Koprzywnica",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 8609,
+    "city_name": "Korsze",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 83559,
+    "city_name": "Kostomłoty Pierwsze",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 65887,
+    "city_name": "Kostrzyn",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 135991,
+    "city_name": "Kostrzyn nad Odrą",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 8679,
+    "city_name": "Koszalin",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 8819,
+    "city_name": "Koszyce Wielkie",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 66069,
+    "city_name": "Kowal",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 47905,
+    "city_name": "Kowalewo Pomorskie",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 117755,
+    "city_name": "Kowalowa",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 47913,
+    "city_name": "Kowary",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 30015,
+    "city_name": "Kozie Doły",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 8903,
+    "city_name": "Koziegłowy",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 8907,
+    "city_name": "Kozienice",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 8433,
+    "city_name": "Kołaczyce",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 8445,
+    "city_name": "Kołobrzeg",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 135763,
+    "city_name": "Kołoząb",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 65789,
+    "city_name": "Końskie",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 29929,
+    "city_name": "Kościan",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 29941,
+    "city_name": "Kościerzyna",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 29947,
+    "city_name": "Kośminy",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 136239,
+    "city_name": "Koźmin",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 30055,
+    "city_name": "Koźmin Wielkopolski",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 117821,
+    "city_name": "Kożuchów",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 117833,
+    "city_name": "Krajenka",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 8959,
+    "city_name": "Kraków",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 30401,
+    "city_name": "Kramsk",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 9265,
+    "city_name": "Krapkowice",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 118173,
+    "city_name": "Krasiejów",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 66543,
+    "city_name": "Krasnobród",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 9291,
+    "city_name": "Krasnybór",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 136619,
+    "city_name": "Krasnystaw",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 30429,
+    "city_name": "Kraśnik",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 9339,
+    "city_name": "Krobia",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 9359,
+    "city_name": "Krosno",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 30485,
+    "city_name": "Krosno Odrzańskie",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 66605,
+    "city_name": "Krotoszyn",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 88693,
+    "city_name": "Krościenko nad Dunajcem",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 118279,
+    "city_name": "Krośniewice",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 66657,
+    "city_name": "Kruszwica",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 88747,
+    "city_name": "Kruszyn",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 9415,
+    "city_name": "Krynica Morska",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 84323,
+    "city_name": "Krynica-Zdrój",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 48465,
+    "city_name": "Krynice",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 66679,
+    "city_name": "Krzanowice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 9437,
+    "city_name": "Krzelów",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 118371,
+    "city_name": "Krzewica",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 30595,
+    "city_name": "Krzymów",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 118403,
+    "city_name": "Krzywe",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 84487,
+    "city_name": "Krzyż Wielkopolski",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 66627,
+    "city_name": "Królowa Polska",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 9533,
+    "city_name": "Książenice",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 136875,
+    "city_name": "Kucharówka",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 136887,
+    "city_name": "Kucze Wielkie",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 66815,
+    "city_name": "Kudowa-Zdrój",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 66867,
+    "city_name": "Kupientyn",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 9649,
+    "city_name": "Kurów",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 66927,
+    "city_name": "Kutno",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 66941,
+    "city_name": "Kuźnia Raciborska",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 88999,
+    "city_name": "Kuźnica Ligocka",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 9707,
+    "city_name": "Kwidzyn",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 89025,
+    "city_name": "Kwilina",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 66183,
+    "city_name": "Kórnik",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 7899,
+    "city_name": "Kąkolewo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 7923,
+    "city_name": "Kędzierzyn-Koźle",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 29059,
+    "city_name": "Kępice",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 135303,
+    "city_name": "Kępno",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 7965,
+    "city_name": "Kętrzyn",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 29073,
+    "city_name": "Kęty",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 47303,
+    "city_name": "Kłodzko",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 117099,
+    "city_name": "Kłuśno",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 30783,
+    "city_name": "Lachowice",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 48781,
+    "city_name": "Laskowo",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 100333,
+    "city_name": "Lednogóra",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 9775,
+    "city_name": "Legnica",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 9785,
+    "city_name": "Leksandrowa",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 9807,
+    "city_name": "Lesko",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 9827,
+    "city_name": "Leszno",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 100411,
+    "city_name": "Leśniewo",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 89213,
+    "city_name": "Leżajsk",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 9877,
+    "city_name": "Leżenica",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 30981,
+    "city_name": "Limanowa",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 30997,
+    "city_name": "Lipa",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 89287,
+    "city_name": "Lipiany",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 9961,
+    "city_name": "Lipinka",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 137243,
+    "city_name": "Lipnica Wielka",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 48987,
+    "city_name": "Lipno",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 137267,
+    "city_name": "Lipsk",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 118893,
+    "city_name": "Lipsko",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 67265,
+    "city_name": "Lisia Góra",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 118909,
+    "city_name": "Lisiczyn",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 31097,
+    "city_name": "Lubaczów",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 67313,
+    "city_name": "Lubartów",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 118961,
+    "city_name": "Lubawa",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 89413,
+    "city_name": "Lubawka",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 89409,
+    "city_name": "Lubań",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 10087,
+    "city_name": "Lubień",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 10091,
+    "city_name": "Lubień Kujawski",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 10101,
+    "city_name": "Lubin",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 10119,
+    "city_name": "Lublin",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 89633,
+    "city_name": "Lubliniec",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 137537,
+    "city_name": "Lubomino",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 49261,
+    "city_name": "Lubotyń",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 67521,
+    "city_name": "Luboń",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 67533,
+    "city_name": "Lubraniec",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 89659,
+    "city_name": "Lubska",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 119201,
+    "city_name": "Lubycza Królewska",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 137619,
+    "city_name": "Lututów",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 137627,
+    "city_name": "Lwówek",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 31345,
+    "city_name": "Lwówek Śląski",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 9879,
+    "city_name": "Lębork",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 9885,
+    "city_name": "Lędziny",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 68305,
+    "city_name": "Majdan",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 68341,
+    "city_name": "Makowiec",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 138425,
+    "city_name": "Maków Mazowiecki",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 90555,
+    "city_name": "Maków Podhalański",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 11227,
+    "city_name": "Malbork",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 138533,
+    "city_name": "Margonin",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 90707,
+    "city_name": "Markowa",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 138611,
+    "city_name": "Masłońskie",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 120289,
+    "city_name": "Matysówka",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 50269,
+    "city_name": "Małe Rudy",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 50267,
+    "city_name": "Małe Łąkie",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 32165,
+    "city_name": "Małogoszcz",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 101773,
+    "city_name": "Małomice",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 11447,
+    "city_name": "Melanów",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 90829,
+    "city_name": "Miasteczko Śląskie",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 120347,
+    "city_name": "Miastko",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 120339,
+    "city_name": "Miałka",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 102005,
+    "city_name": "Michałów",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 11533,
+    "city_name": "Miechów",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 120407,
+    "city_name": "Miedzichowo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 32399,
+    "city_name": "Mielec",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 102063,
+    "city_name": "Mieroszów",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 120463,
+    "city_name": "Mierzowice",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 50583,
+    "city_name": "Mierzyn",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 138803,
+    "city_name": "Mieścisko",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 11631,
+    "city_name": "Mikołów",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 120523,
+    "city_name": "Mikstat",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 90951,
+    "city_name": "Milanówek",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 90953,
+    "city_name": "Milcz",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 11675,
+    "city_name": "Milicz",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 50699,
+    "city_name": "Mircze",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 68815,
+    "city_name": "Mirosławiec",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 68723,
+    "city_name": "Międzychód",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 68731,
+    "city_name": "Międzyrzec Podlaski",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 11605,
+    "city_name": "Międzyrzecz",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 50611,
+    "city_name": "Międzyzdroje",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 120543,
+    "city_name": "Miłachowo",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 120557,
+    "city_name": "Miłogoszcz",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 11711,
+    "city_name": "Miłosław",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 11729,
+    "city_name": "Mińsk Mazowiecki",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 91083,
+    "city_name": "Modliborzyce",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 91097,
+    "city_name": "Mogielnica",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 32661,
+    "city_name": "Mogilno",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 102295,
+    "city_name": "Mokobody",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 68953,
+    "city_name": "Mokrelipie",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 120767,
+    "city_name": "Mordy",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 32719,
+    "city_name": "Moryń",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 68977,
+    "city_name": "Morąg",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 139065,
+    "city_name": "Mosina",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 32693,
+    "city_name": "Mońki",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 50871,
+    "city_name": "Mościska",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 69047,
+    "city_name": "Mrocza",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 120845,
+    "city_name": "Mroczkowice",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 32763,
+    "city_name": "Mrągowo",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 139101,
+    "city_name": "Mszana Dolna",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 69071,
+    "city_name": "Mszczonów",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 32815,
+    "city_name": "Muszyna",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 11959,
+    "city_name": "Mystków",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 69109,
+    "city_name": "Myszyniec",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 50917,
+    "city_name": "Mysłowice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 91275,
+    "city_name": "Myślenice",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 32319,
+    "city_name": "Męcina Mała",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 102207,
+    "city_name": "Mława",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 68863,
+    "city_name": "Młynary",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 102485,
+    "city_name": "Nacmierz",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 11987,
+    "city_name": "Nacław",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 50957,
+    "city_name": "Nakło",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 32863,
+    "city_name": "Nakło nad Notecią",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 102513,
+    "city_name": "Namysłów",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 91331,
+    "city_name": "Narol-Wieś",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 102533,
+    "city_name": "Nasale",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 69173,
+    "city_name": "Nasale",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 32905,
+    "city_name": "Nawojowa",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 12025,
+    "city_name": "Nałęczów",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 139221,
+    "city_name": "Nekla",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 121001,
+    "city_name": "Nidzica",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 121021,
+    "city_name": "Niedoradz",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 91415,
+    "city_name": "Niemcza",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 121091,
+    "city_name": "Niepołomice",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 69283,
+    "city_name": "Nieszawa",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 69297,
+    "city_name": "Niewolno",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 51147,
+    "city_name": "Nisko",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 91503,
+    "city_name": "Nowa Dęba",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 102707,
+    "city_name": "Nowa Gorzelnia",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 12231,
+    "city_name": "Nowa Ruda",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 33099,
+    "city_name": "Nowa Sól",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 91569,
+    "city_name": "Nowa Wieś",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 69457,
+    "city_name": "Nowe Miasto Lubawskie",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 91667,
+    "city_name": "Nowe Miasto nad Pilicą",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 33235,
+    "city_name": "Nowe Skalmierzyce",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 102881,
+    "city_name": "Nowe Warpno",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 51357,
+    "city_name": "Nowogard",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 91725,
+    "city_name": "Nowogród",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 91727,
+    "city_name": "Nowogród Bobrzański",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 51399,
+    "city_name": "Nowy Dwór Gdański",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 12439,
+    "city_name": "Nowy Dwór Mazowiecki",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 91779,
+    "city_name": "Nowy Korczyn",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 33369,
+    "city_name": "Nowy Sącz",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 91819,
+    "city_name": "Nowy Tomyśl",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 121461,
+    "city_name": "Nowy Wiec",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 91825,
+    "city_name": "Nowy Żmigród",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 33387,
+    "city_name": "Nurzyna",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 12523,
+    "city_name": "Nysa",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 50995,
+    "city_name": "Nędzówka",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 12535,
+    "city_name": "Obora",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 69609,
+    "city_name": "Oborniki",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 103047,
+    "city_name": "Obryta",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 91867,
+    "city_name": "Odrynki",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 121535,
+    "city_name": "Ogrodzieniec",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 139705,
+    "city_name": "Okarpiec",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 12581,
+    "city_name": "Okonek",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 139741,
+    "city_name": "Olchówka",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 139749,
+    "city_name": "Oleksin",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 69715,
+    "city_name": "Olesno",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 139755,
+    "city_name": "Oleszna Podgórska",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 51607,
+    "city_name": "Oleszno",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 103121,
+    "city_name": "Oleszyce",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 12635,
+    "city_name": "Olkusz",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 12673,
+    "city_name": "Olsztyn",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 103323,
+    "city_name": "Olsztynek",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 92159,
+    "city_name": "Olszyna",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 69947,
+    "city_name": "Opalenica",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 33803,
+    "city_name": "Opatów",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 92181,
+    "city_name": "Opatówek",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 33807,
+    "city_name": "Opoczno",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 12885,
+    "city_name": "Opole",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 140129,
+    "city_name": "Opole Lubelskie",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 92321,
+    "city_name": "Oporowo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 121907,
+    "city_name": "Oraczew",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 33937,
+    "city_name": "Orchowo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 51981,
+    "city_name": "Orneta",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 33965,
+    "city_name": "Orzech",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 13057,
+    "city_name": "Orzesze",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 52007,
+    "city_name": "Orzysz",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 92371,
+    "city_name": "Ose",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 121965,
+    "city_name": "Osetno",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 121971,
+    "city_name": "Osieczna",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 92403,
+    "city_name": "Osiek nad Notecią",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 121993,
+    "city_name": "Osięciny",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 70199,
+    "city_name": "Ossa",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 140261,
+    "city_name": "Ostroszowice",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 13159,
+    "city_name": "Ostrowiec Świętokrzyski",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 13147,
+    "city_name": "Ostrołęka",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 122107,
+    "city_name": "Ostrzeszów",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 34105,
+    "city_name": "Ostróda",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 52127,
+    "city_name": "Ostrów Lubelski",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 70247,
+    "city_name": "Ostrów Mazowiecka",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 70249,
+    "city_name": "Ostrów Wielkopolski",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 122127,
+    "city_name": "Otmuchów",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 103723,
+    "city_name": "Otrębusy",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 13229,
+    "city_name": "Otwock",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 52197,
+    "city_name": "Ozorków",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 12869,
+    "city_name": "Oława",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 122115,
+    "city_name": "Ośno Lubuskie",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 13205,
+    "city_name": "Oświęcim",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 13243,
+    "city_name": "Ożarów Mazowiecki",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 13247,
+    "city_name": "Pabianice",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 92577,
+    "city_name": "Pacyna",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 34181,
+    "city_name": "Paczków",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 92579,
+    "city_name": "Paczyna",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 70327,
+    "city_name": "Pajęczno",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 70331,
+    "city_name": "Pakość",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 122199,
+    "city_name": "Panienka",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 70359,
+    "city_name": "Paprotnia",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 122225,
+    "city_name": "Parczew",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 103811,
+    "city_name": "Parszów",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 52279,
+    "city_name": "Paruchów",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 103831,
+    "city_name": "Pasłęk",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 13361,
+    "city_name": "Pawłowice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 103879,
+    "city_name": "Pawłowo",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 52349,
+    "city_name": "Pcim",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 34301,
+    "city_name": "Pełczyce",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 70513,
+    "city_name": "Piaski",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 140553,
+    "city_name": "Piaski",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 13459,
+    "city_name": "Piastów",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 92751,
+    "city_name": "Piechcin",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 52419,
+    "city_name": "Piechowice",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 13477,
+    "city_name": "Piekary Śląskie",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 140611,
+    "city_name": "Piekoszów",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 70605,
+    "city_name": "Pierściec",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 70625,
+    "city_name": "Pieszowola",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 70627,
+    "city_name": "Pieszyce",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 34459,
+    "city_name": "Pietrowice Wielkie",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 70649,
+    "city_name": "Pikutkowo",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 104049,
+    "city_name": "Pilawa",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 13553,
+    "city_name": "Pilzno",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 52523,
+    "city_name": "Pionki",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 52541,
+    "city_name": "Piotrków Kujawski",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 13573,
+    "city_name": "Piotrków Trybunalski",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 122499,
+    "city_name": "Piotrowice",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 92887,
+    "city_name": "Pisarzowice",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 70707,
+    "city_name": "Piwniczna-Zdrój",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 52515,
+    "city_name": "Piła",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 52521,
+    "city_name": "Pińczów",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 13627,
+    "city_name": "Pleszew",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 13631,
+    "city_name": "Plewiska",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 122631,
+    "city_name": "Pniewy",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 122637,
+    "city_name": "Pobiedziska",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 70807,
+    "city_name": "Podbór",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 104239,
+    "city_name": "Poddębice",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 70837,
+    "city_name": "Podjazy",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 140885,
+    "city_name": "Podkowa Leśna",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 122773,
+    "city_name": "Pogorzela",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 104381,
+    "city_name": "Polanica-Zdrój",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 52831,
+    "city_name": "Polanowice",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 34785,
+    "city_name": "Polańczyk",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 70985,
+    "city_name": "Polichno",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 141031,
+    "city_name": "Polkajmy",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 141033,
+    "city_name": "Polkowice",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 93163,
+    "city_name": "Ponary",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 13897,
+    "city_name": "Poniatowa",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 104459,
+    "city_name": "Poniec",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 52943,
+    "city_name": "Poręba",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 34895,
+    "city_name": "Poręba",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 34923,
+    "city_name": "Postolin",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 13977,
+    "city_name": "Powielin",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 104559,
+    "city_name": "Pozezdrze",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 13983,
+    "city_name": "Poznań",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 93127,
+    "city_name": "Połaniec",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 93133,
+    "city_name": "Połczyn-Zdrój",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 141549,
+    "city_name": "Prabuty",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 123337,
+    "city_name": "Praszka",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 141589,
+    "city_name": "Prosity",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 35349,
+    "city_name": "Pruchnik",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 93641,
+    "city_name": "Prudnik",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 35361,
+    "city_name": "Pruszcz Gdański",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 14389,
+    "city_name": "Pruszków",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 71579,
+    "city_name": "Przasnysz",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 53457,
+    "city_name": "Przedbórz",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 14401,
+    "city_name": "Przedecz",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 53487,
+    "city_name": "Przemków",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 14417,
+    "city_name": "Przemyśl",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 93719,
+    "city_name": "Przeworsk",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 14519,
+    "city_name": "Przyprostynia",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 53591,
+    "city_name": "Przysucha",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 35511,
+    "city_name": "Pszenno",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 71739,
+    "city_name": "Pszów",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 105195,
+    "city_name": "Puszczykowo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 71757,
+    "city_name": "Puławy",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 14597,
+    "city_name": "Pułtusk",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 93847,
+    "city_name": "Pyskowice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 93853,
+    "city_name": "Pyzdry",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 140539,
+    "city_name": "Pępowo",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 34587,
+    "city_name": "Pławniowice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 13663,
+    "city_name": "Płock",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 140799,
+    "city_name": "Płoskie",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 70761,
+    "city_name": "Płoskinia",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 104195,
+    "city_name": "Płoty",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 92951,
+    "city_name": "Płońsk",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 53681,
+    "city_name": "Rabka-Zdrój",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 53689,
+    "city_name": "Racibórz",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 35569,
+    "city_name": "Racławice",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 93869,
+    "city_name": "Racławice Śląskie",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 105233,
+    "city_name": "Radlin",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 141875,
+    "city_name": "Radochów",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 14673,
+    "city_name": "Radom",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 141889,
+    "city_name": "Radomin",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 71851,
+    "city_name": "Radomsko",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 71857,
+    "city_name": "Radomyśl Wielki",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 71867,
+    "city_name": "Radoszyce",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 123737,
+    "city_name": "Radziejów",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 93937,
+    "city_name": "Radzionków",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 53813,
+    "city_name": "Radzymin",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 141957,
+    "city_name": "Radzyń Chełmiński",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 14721,
+    "city_name": "Radzyń Podlaski",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 123681,
+    "city_name": "Radłów",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 71839,
+    "city_name": "Radłów",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 53825,
+    "city_name": "Rakoniewice",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 93993,
+    "city_name": "Rawa Mazowiecka",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 14787,
+    "city_name": "Rawicz",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 94007,
+    "city_name": "Recz",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 53881,
+    "city_name": "Reda",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 142021,
+    "city_name": "Reduchów-Kolonia",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 53919,
+    "city_name": "Resko",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 105443,
+    "city_name": "Rogalin",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 123927,
+    "city_name": "Rogoziniec",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 94097,
+    "city_name": "Rogoźno",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 72061,
+    "city_name": "Rogów",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 142137,
+    "city_name": "Rogóźno",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 35825,
+    "city_name": "Rokiciny-Kolonia",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 14887,
+    "city_name": "Rokietnica",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 35851,
+    "city_name": "Romanów",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 94147,
+    "city_name": "Ropczyce",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 35873,
+    "city_name": "Rosiejów",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 94179,
+    "city_name": "Rotmanka",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 94197,
+    "city_name": "Rozdrażew",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 142237,
+    "city_name": "Rozprza",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 124009,
+    "city_name": "Rościsławice",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 54119,
+    "city_name": "Rożnów",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 15041,
+    "city_name": "Ruda Śląska",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 94301,
+    "city_name": "Rudna",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 142363,
+    "city_name": "Rudnik",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 94315,
+    "city_name": "Rudnik nad Sanem",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 105703,
+    "city_name": "Rumia",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 94351,
+    "city_name": "Rusiec",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 94395,
+    "city_name": "Rybarzowice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 54263,
+    "city_name": "Rybienko Nowe",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 15167,
+    "city_name": "Rybnik",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 105795,
+    "city_name": "Rychtal",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 15189,
+    "city_name": "Rychwał",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 72375,
+    "city_name": "Ryczywół",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 105801,
+    "city_name": "Ryczów",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 36149,
+    "city_name": "Rydzyna",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 124245,
+    "city_name": "Ryki",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 54307,
+    "city_name": "Rymanów-Zdrój",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 94443,
+    "city_name": "Ryn",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 36161,
+    "city_name": "Rynia",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 72393,
+    "city_name": "Rynki",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 36169,
+    "city_name": "Rypin",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 72399,
+    "city_name": "Ryszkowa Wola",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 72437,
+    "city_name": "Rzepin",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 94517,
+    "city_name": "Rzepnowo",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 15241,
+    "city_name": "Rzeszów",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 36269,
+    "city_name": "Rzgów",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 15293,
+    "city_name": "Rzozów",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 105581,
+    "city_name": "Równe",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 15309,
+    "city_name": "Sadków",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 124375,
+    "city_name": "Sadowo",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 36333,
+    "city_name": "Sandomierz",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 72583,
+    "city_name": "Sanok",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 36343,
+    "city_name": "Sarbinowo",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 142699,
+    "city_name": "Sarnów",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 36383,
+    "city_name": "Sejny",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 54515,
+    "city_name": "Serock",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 124465,
+    "city_name": "Serokomla",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 106039,
+    "city_name": "Serpelice",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 36419,
+    "city_name": "Siarcza Łąka",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 72681,
+    "city_name": "Siczki",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 54553,
+    "city_name": "Siechnice",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 72689,
+    "city_name": "Sieciemin",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 15459,
+    "city_name": "Siedlce",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 124523,
+    "city_name": "Siedlice",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 54575,
+    "city_name": "Siedlnica",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 54587,
+    "city_name": "Siemianowice Śląskie",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 142831,
+    "city_name": "Siemiatycze",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 15517,
+    "city_name": "Sieniawa",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 15533,
+    "city_name": "Sieradz",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 142861,
+    "city_name": "Sieraków",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 15549,
+    "city_name": "Sierpc",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 15567,
+    "city_name": "Siewierz",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 15619,
+    "city_name": "Skarżysko-Kamienna",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 72863,
+    "city_name": "Skawa",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 142911,
+    "city_name": "Skała",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 15635,
+    "city_name": "Skierniewice",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 36613,
+    "city_name": "Skoki",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 36653,
+    "city_name": "Skrwilno",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 124747,
+    "city_name": "Skwierzyna",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 36639,
+    "city_name": "Skórcz",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 15855,
+    "city_name": "Smaszew",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 73053,
+    "city_name": "Smolna",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 15861,
+    "city_name": "Smętowo Graniczne",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 36827,
+    "city_name": "Sobótka",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 36833,
+    "city_name": "Sochaczew",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 15955,
+    "city_name": "Sokołowiec",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 143173,
+    "city_name": "Sokołów Małopolski",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 15963,
+    "city_name": "Sokołów Podlaski",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 36875,
+    "city_name": "Sokółka",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 54995,
+    "city_name": "Solec Kujawski",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 95165,
+    "city_name": "Sompolno",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 73161,
+    "city_name": "Sonina",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 15983,
+    "city_name": "Sopot",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 36941,
+    "city_name": "Sopotnia Mała",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 16027,
+    "city_name": "Sosnowiec",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 95265,
+    "city_name": "Spytkowice",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 143315,
+    "city_name": "Srock",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 143317,
+    "city_name": "Sromowce Niżne",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 55111,
+    "city_name": "Stalowa Wola",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 106697,
+    "city_name": "Staniszewskie",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 55119,
+    "city_name": "Stanisławów",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 16097,
+    "city_name": "Stanisławów",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 106693,
+    "city_name": "Stanisławów Pierwszy",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 37061,
+    "city_name": "Stara Wieś",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 16157,
+    "city_name": "Starachowice",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 16225,
+    "city_name": "Stare Strącze",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 55283,
+    "city_name": "Stargard",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 95447,
+    "city_name": "Starogard Gdański",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 37177,
+    "city_name": "Stary Jasiniec",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 37189,
+    "city_name": "Stary Kostrzynek",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 37193,
+    "city_name": "Stary Lubliniec",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 55351,
+    "city_name": "Stary Olesiec",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 16309,
+    "city_name": "Stary Sącz",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 55391,
+    "city_name": "Staszów",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 125345,
+    "city_name": "Stawiski",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 95531,
+    "city_name": "Stawiszyn",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 125367,
+    "city_name": "Stegna",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 73549,
+    "city_name": "Stelągi",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 143609,
+    "city_name": "Stepnica",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 106951,
+    "city_name": "Stojowice",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 55477,
+    "city_name": "Stok Nowy",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 37323,
+    "city_name": "Stopnica",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 125427,
+    "city_name": "Stronie Śląskie",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 143683,
+    "city_name": "Strumień",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 73675,
+    "city_name": "Strykowo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 125447,
+    "city_name": "Stryszów",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 143707,
+    "city_name": "Strzegom",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 125469,
+    "city_name": "Strzelce Krajeńskie",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 16513,
+    "city_name": "Strzelno",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 55573,
+    "city_name": "Strzepcz",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 73743,
+    "city_name": "Strzyżowice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 37451,
+    "city_name": "Studzienice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 125353,
+    "city_name": "Stąporków",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 106929,
+    "city_name": "Stęszew",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 125523,
+    "city_name": "Subkowy",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 107113,
+    "city_name": "Sucha Beskidzka",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 37471,
+    "city_name": "Suchań",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 95731,
+    "city_name": "Suchedniów",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 107123,
+    "city_name": "Suchowola",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 73801,
+    "city_name": "Sulechów",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 16591,
+    "city_name": "Sulejów",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 107141,
+    "city_name": "Sulejówek",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 125575,
+    "city_name": "Sulmierzyce",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 73839,
+    "city_name": "Supraśl",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 73843,
+    "city_name": "Susiec",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 73849,
+    "city_name": "Susz",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 37573,
+    "city_name": "Suwałki",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 16643,
+    "city_name": "Swarzędz",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 55713,
+    "city_name": "Syców",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 16665,
+    "city_name": "Sytki",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 125631,
+    "city_name": "Szamocin",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 55749,
+    "city_name": "Szamotuły",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 107247,
+    "city_name": "Szczebrzeszyn",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 16705,
+    "city_name": "Szczecin",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 17013,
+    "city_name": "Szczecinek",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 107529,
+    "city_name": "Szczekociny",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 96185,
+    "city_name": "Szczepanek",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 125993,
+    "city_name": "Szczepanów",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 37937,
+    "city_name": "Szczucin",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 144297,
+    "city_name": "Szczuczarz",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 107563,
+    "city_name": "Szczuczyn",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 37941,
+    "city_name": "Szczuki",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 37945,
+    "city_name": "Szczyrk",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 107575,
+    "city_name": "Szczytna",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 37951,
+    "city_name": "Szczytno",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 144333,
+    "city_name": "Szepietowo",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 96251,
+    "city_name": "Szklarska Poręba",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 144375,
+    "city_name": "Szprotawa",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 56185,
+    "city_name": "Sztutowo",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 107683,
+    "city_name": "Szydłowiec",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 74407,
+    "city_name": "Szymbark",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 96339,
+    "city_name": "Szymonków",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 126127,
+    "city_name": "Szynwałd",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 124445,
+    "city_name": "Sągnity",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 54529,
+    "city_name": "Sędziszów Małopolski",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 36695,
+    "city_name": "Sławków",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 15743,
+    "city_name": "Sławno",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 36705,
+    "city_name": "Sławoborze",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 72967,
+    "city_name": "Sławutowo",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 106407,
+    "city_name": "Słubice",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 15815,
+    "city_name": "Słupca",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 15833,
+    "city_name": "Słupsk",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 17335,
+    "city_name": "Tarchały Wielkie",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 38259,
+    "city_name": "Tarnawa Dolna",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 56407,
+    "city_name": "Tarnobrzeg",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 17365,
+    "city_name": "Tarnowskie Góry",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 144631,
+    "city_name": "Tarnów Opolski",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 38293,
+    "city_name": "Tenczynek",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 144691,
+    "city_name": "Terespol",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 17453,
+    "city_name": "Tolkmicko",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 96667,
+    "city_name": "Tomaszów Lubelski",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 56509,
+    "city_name": "Tomaszów Mazowiecki",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 108035,
+    "city_name": "Topólka",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 126457,
+    "city_name": "Topólno",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 38395,
+    "city_name": "Toruń",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 144773,
+    "city_name": "Trojanów",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 96737,
+    "city_name": "Troszyn",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 38431,
+    "city_name": "Truskolasy",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 126511,
+    "city_name": "Tryńcza",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 74809,
+    "city_name": "Trzcianka",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 74815,
+    "city_name": "Trzciel",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 74831,
+    "city_name": "Trzebiatów",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 144825,
+    "city_name": "Trzebicz Nowy",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 74837,
+    "city_name": "Trzebinia",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 96783,
+    "city_name": "Trzebnica",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 56659,
+    "city_name": "Trzęsacz",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 38415,
+    "city_name": "Trębaczew",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 38535,
+    "city_name": "Tuchola",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 96813,
+    "city_name": "Tuchów",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 38553,
+    "city_name": "Tuplice",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 56677,
+    "city_name": "Turek",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 56683,
+    "city_name": "Turka",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 108215,
+    "city_name": "Turobin",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 108221,
+    "city_name": "Turośl",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 96859,
+    "city_name": "Turów",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 96869,
+    "city_name": "Tuszyma",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 38583,
+    "city_name": "Tuszyn",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 108261,
+    "city_name": "Tworóg Mały",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 108267,
+    "city_name": "Tychowo",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 17705,
+    "city_name": "Tychy",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 38613,
+    "city_name": "Tylkowo",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 56733,
+    "city_name": "Tymin",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 38327,
+    "city_name": "Tłuszcz",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 38637,
+    "city_name": "Ujście Jezuickie",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 108331,
+    "city_name": "Ulhówek",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 75005,
+    "city_name": "Uniejów",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 38687,
+    "city_name": "Ustka",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 17791,
+    "city_name": "Ustronie Morskie",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 97005,
+    "city_name": "Ustroń",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 75025,
+    "city_name": "Ustrzyki Dolne",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 56849,
+    "city_name": "Wadowice",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 17809,
+    "city_name": "Waganiec",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 17867,
+    "city_name": "Warka",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 17871,
+    "city_name": "Warszawa",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 39813,
+    "city_name": "Warszyn",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 98173,
+    "city_name": "Warzymice",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 58091,
+    "city_name": "Wasilków",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 17829,
+    "city_name": "Wałbrzych",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 17833,
+    "city_name": "Wałcz Pierwszy",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 58121,
+    "city_name": "Wejherowo",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 98213,
+    "city_name": "Werbkowice",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 76233,
+    "city_name": "Widawa",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 58215,
+    "city_name": "Wielbark Kolonia III",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 76255,
+    "city_name": "Wieleń",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 76261,
+    "city_name": "Wielichowo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 146395,
+    "city_name": "Wielkie Wierzno",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 58273,
+    "city_name": "Wieruszów",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 98357,
+    "city_name": "Wierzbica",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 19191,
+    "city_name": "Wierzchosławice",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 19199,
+    "city_name": "Wierzchowo",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 40065,
+    "city_name": "Wietrzychowice",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 128195,
+    "city_name": "Wijewo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 98451,
+    "city_name": "Wilczęta",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 98471,
+    "city_name": "Wilenko",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 98479,
+    "city_name": "Wilkasy",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 58393,
+    "city_name": "Wilkowice",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 58391,
+    "city_name": "Wilkowice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 98521,
+    "city_name": "Wiskitki",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 128321,
+    "city_name": "Wisła",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 98549,
+    "city_name": "Witkowo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 98551,
+    "city_name": "Witnica",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 109959,
+    "city_name": "Witoszyn",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 109681,
+    "city_name": "Wiązowna",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 109811,
+    "city_name": "Więcbork",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 40077,
+    "city_name": "Więcmierzyce",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 19349,
+    "city_name": "Wiślica",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 146583,
+    "city_name": "Wiśniowo Ełckie",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 40215,
+    "city_name": "Wleń",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 19427,
+    "city_name": "Wodzisław Śląski",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 58545,
+    "city_name": "Wojaszówka",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 98621,
+    "city_name": "Wojciechowice",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 128431,
+    "city_name": "Wojkowice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 19453,
+    "city_name": "Wojnicz",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 58601,
+    "city_name": "Wola",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 76701,
+    "city_name": "Wola Krzysztoporska",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 19547,
+    "city_name": "Wola Rafałowska",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 40383,
+    "city_name": "Wola Wielka",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 58695,
+    "city_name": "Wola Zarczycka",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 58697,
+    "city_name": "Wola Zgłobieńska",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 19581,
+    "city_name": "Wolbrom",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 98757,
+    "city_name": "Wolbórz",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 76775,
+    "city_name": "Wolin",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 76779,
+    "city_name": "Wolsztyn",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 110223,
+    "city_name": "Wołomin",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 58729,
+    "city_name": "Wołów",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 58751,
+    "city_name": "Woźniki",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 19701,
+    "city_name": "Wrocław",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 129001,
+    "city_name": "Wronki",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 77345,
+    "city_name": "Września",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 99261,
+    "city_name": "Wróblowice",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 77439,
+    "city_name": "Wyrzysk",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 147421,
+    "city_name": "Wysogotowo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 99377,
+    "city_name": "Wysokie Mazowieckie",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 20253,
+    "city_name": "Wystok",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 147453,
+    "city_name": "Wyszogród",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 59405,
+    "city_name": "Wyszyny Kościelne",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 110845,
+    "city_name": "Wyśmierzyce",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 77483,
+    "city_name": "Wyżnianka Kolonia",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 146913,
+    "city_name": "Wólka Tanewska",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 19011,
+    "city_name": "Wąbrzeźno",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 19023,
+    "city_name": "Wągrowiec",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 76135,
+    "city_name": "Wąsosz",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 109623,
+    "city_name": "Wąwolnica",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 128021,
+    "city_name": "Węgierska Górka",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 76193,
+    "city_name": "Węgorzewo",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 19071,
+    "city_name": "Węgrów",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 19403,
+    "city_name": "Włocławek",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 58515,
+    "city_name": "Włodawa",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 19411,
+    "city_name": "Włoki",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 146657,
+    "city_name": "Włoszakowice",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 76589,
+    "city_name": "Włoszczowa",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 59413,
+    "city_name": "Zabajka",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 20327,
+    "city_name": "Zabrze",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 77501,
+    "city_name": "Zabłotce",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 77561,
+    "city_name": "Zagajnik",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 41131,
+    "city_name": "Zagrody Łukówieckie",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 110967,
+    "city_name": "Zagórz",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 147575,
+    "city_name": "Zagórzany",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 99491,
+    "city_name": "Zagórze",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 59497,
+    "city_name": "Zagórów",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 20429,
+    "city_name": "Zakliczyn",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 77607,
+    "city_name": "Zaklików",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 59535,
+    "city_name": "Zakopane",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 147637,
+    "city_name": "Zakroczym",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 59565,
+    "city_name": "Zalasewo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 147695,
+    "city_name": "Zalesie Kańskie",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 20493,
+    "city_name": "Zambrów",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 20507,
+    "city_name": "Zamość",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 129425,
+    "city_name": "Zapolice",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 41301,
+    "city_name": "Zator",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 59699,
+    "city_name": "Zawadka",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 41339,
+    "city_name": "Zawadzkie",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 129509,
+    "city_name": "Zawidów",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 20641,
+    "city_name": "Zawiercie",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 41365,
+    "city_name": "Zawoja",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 129379,
+    "city_name": "Załom",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 99821,
+    "city_name": "Zdunowo",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 41415,
+    "city_name": "Zduńska Wola",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 41425,
+    "city_name": "Zdzieszowice",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 20729,
+    "city_name": "Zebrzydowice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 99839,
+    "city_name": "Zelów",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 59837,
+    "city_name": "Zgierz",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 129619,
+    "city_name": "Zgorzelec",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 20787,
+    "city_name": "Zielona Góra",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 129737,
+    "city_name": "Zielonka",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 60055,
+    "city_name": "Zubrzyca Dolna",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 100031,
+    "city_name": "Zwierzyn",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 78099,
+    "city_name": "Zwoleń",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 99775,
+    "city_name": "Ząb",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 99777,
+    "city_name": "Ząbki",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 59751,
+    "city_name": "Ząbkowice Śląskie",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 78027,
+    "city_name": "Zławieś Mała",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 111443,
+    "city_name": "Złocieniec",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 20931,
+    "city_name": "Złoczew",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 129779,
+    "city_name": "Złota",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 41663,
+    "city_name": "Złotokłos",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 78045,
+    "city_name": "Złoty Stok",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 129789,
+    "city_name": "Złotów",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 100845,
+    "city_name": "Łabiszyn",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 31365,
+    "city_name": "Łagów",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 100893,
+    "city_name": "Łapy",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 137675,
+    "city_name": "Łasin",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 10411,
+    "city_name": "Łask",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 10435,
+    "city_name": "Łaziska Górne",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 10451,
+    "city_name": "Łazy",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 31385,
+    "city_name": "Łańcut",
+    "region_id": 17,
+    "region_name": "Podkarpackie"
+  },
+  {
+    "city_id": 10495,
+    "city_name": "Łeba",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 101019,
+    "city_name": "Łobez",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 101021,
+    "city_name": "Łochów",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 67763,
+    "city_name": "Łomianki",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 10561,
+    "city_name": "Łomża",
+    "region_id": 18,
+    "region_name": "Podlaskie"
+  },
+  {
+    "city_id": 67775,
+    "city_name": "Łopuszno",
+    "region_id": 13,
+    "region_name": "Świętokrzyskie"
+  },
+  {
+    "city_id": 89937,
+    "city_name": "Łosice",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 137835,
+    "city_name": "Łosiów",
+    "region_id": 12,
+    "region_name": "Opolskie"
+  },
+  {
+    "city_id": 10603,
+    "city_name": "Łowicz",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 11099,
+    "city_name": "Łuków",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 68281,
+    "city_name": "Łysów",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 10609,
+    "city_name": "Łódź",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 31463,
+    "city_name": "Łęczna",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 89839,
+    "city_name": "Łęczyca",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 89867,
+    "city_name": "Łęknica",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 17177,
+    "city_name": "Ścinawa",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 96393,
+    "city_name": "Śmigiel",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 96413,
+    "city_name": "Śrem",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 17227,
+    "city_name": "Środa Wielkopolska",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 17225,
+    "city_name": "Środa Śląska",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 56287,
+    "city_name": "Świdnik",
+    "region_id": 8,
+    "region_name": "Lubelskie"
+  },
+  {
+    "city_id": 56293,
+    "city_name": "Świdwin",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 38163,
+    "city_name": "Świebodzice",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 38165,
+    "city_name": "Świebodzin",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 74511,
+    "city_name": "Świecie",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 107811,
+    "city_name": "Świeradów-Zdrój",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 56321,
+    "city_name": "Świerklany",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 17303,
+    "city_name": "Świnice Warckie",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 17307,
+    "city_name": "Świnoujście",
+    "region_id": 11,
+    "region_name": "Zachodniopomorskie"
+  },
+  {
+    "city_id": 107785,
+    "city_name": "Świątniki Górne",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 17291,
+    "city_name": "Święta Lipka",
+    "region_id": 14,
+    "region_name": "Warmińsko-mazurskie"
+  },
+  {
+    "city_id": 74557,
+    "city_name": "Świętochłowice",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 41723,
+    "city_name": "Żabno",
+    "region_id": 4,
+    "region_name": "Małopolskie"
+  },
+  {
+    "city_id": 21033,
+    "city_name": "Żagań",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 60121,
+    "city_name": "Żarki",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 78153,
+    "city_name": "Żary",
+    "region_id": 9,
+    "region_name": "Lubuskie"
+  },
+  {
+    "city_id": 111565,
+    "city_name": "Żarów",
+    "region_id": 3,
+    "region_name": "Dolnośląskie"
+  },
+  {
+    "city_id": 21091,
+    "city_name": "Żelechów",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 41793,
+    "city_name": "Żnin",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 21141,
+    "city_name": "Żory",
+    "region_id": 6,
+    "region_name": "Śląskie"
+  },
+  {
+    "city_id": 41809,
+    "city_name": "Żołędowo",
+    "region_id": 15,
+    "region_name": "Kujawsko-pomorskie"
+  },
+  {
+    "city_id": 21153,
+    "city_name": "Żukowo",
+    "region_id": 5,
+    "region_name": "Pomorskie"
+  },
+  {
+    "city_id": 130037,
+    "city_name": "Żuromin",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 41843,
+    "city_name": "Żychlin",
+    "region_id": 7,
+    "region_name": "Łódzkie"
+  },
+  {
+    "city_id": 78281,
+    "city_name": "Żydowo",
+    "region_id": 1,
+    "region_name": "Wielkopolskie"
+  },
+  {
+    "city_id": 78283,
+    "city_name": "Żydy",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  },
+  {
+    "city_id": 60255,
+    "city_name": "Żyrardów",
+    "region_id": 2,
+    "region_name": "Mazowieckie"
+  }
+]

@@ -1,0 +1,4740 @@
+[
+  {
+    "city_id": 769,
+    "city_name": "Іваниківка",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 132,
+    "city_name": "Івано-Франківськ",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 771,
+    "city_name": "Бабче",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 539,
+    "city_name": "Богородчани",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 785,
+    "city_name": "Богрівка",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 787,
+    "city_name": "Бойки",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 397,
+    "city_name": "Болехів",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 761,
+    "city_name": "Вовчинець",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 5,
+    "city_name": "Галич",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 789,
+    "city_name": "Глибівка",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 791,
+    "city_name": "Глибоке",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 404,
+    "city_name": "Городенка",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 541,
+    "city_name": "Делятин",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 320,
+    "city_name": "Дземброня",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 298,
+    "city_name": "Долина",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 76,
+    "city_name": "Калуш",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 333,
+    "city_name": "Коломия",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 763,
+    "city_name": "Крихівці",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 543,
+    "city_name": "Ланчин",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 765,
+    "city_name": "Микитинці",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 327,
+    "city_name": "Надвірна",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 545,
+    "city_name": "Перегінське",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 89,
+    "city_name": "Рогатин",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 353,
+    "city_name": "Снятин",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 687,
+    "city_name": "Стебник",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 2,
+    "city_name": "Тисмениця",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 244,
+    "city_name": "Тлумач",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 767,
+    "city_name": "Угорники",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 198,
+    "city_name": "Узин",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 72951,
+    "city_name": "Хриплин",
+    "region_id": 13,
+    "region_name": "Івано-Франківська область"
+  },
+  {
+    "city_id": 5415,
+    "city_name": "Іванівка",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 5417,
+    "city_name": "Іллінецьке",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 463,
+    "city_name": "Іллінці",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 5433,
+    "city_name": "Білки",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 5435,
+    "city_name": "Бабин",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 292,
+    "city_name": "Бар",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 209,
+    "city_name": "Бершадь",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 99,
+    "city_name": "Війтівці",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 313,
+    "city_name": "Вінниця",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 17,
+    "city_name": "Гайсин",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 461,
+    "city_name": "Гнівань",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 251,
+    "city_name": "Городок",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 330,
+    "city_name": "Жмеринка",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 114,
+    "city_name": "Збараж",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 137,
+    "city_name": "Калинівка",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 190,
+    "city_name": "Козятин",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 689,
+    "city_name": "Крижопіль",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 72954,
+    "city_name": "Літин",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 38,
+    "city_name": "Ладижин",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 487,
+    "city_name": "Липовець",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 58,
+    "city_name": "Могилів-Подільський",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 237,
+    "city_name": "Немирів",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 613,
+    "city_name": "Пісочин",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 87,
+    "city_name": "Погребище",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 489,
+    "city_name": "Стрижавка",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 307,
+    "city_name": "Тернівка",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 183,
+    "city_name": "Тульчин",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 348,
+    "city_name": "Хмільник",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 54,
+    "city_name": "Шаргород",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 187,
+    "city_name": "Ямпіль",
+    "region_id": 24,
+    "region_name": "Вінницька область"
+  },
+  {
+    "city_id": 8791,
+    "city_name": "Іванів",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 8793,
+    "city_name": "Іванівка",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 491,
+    "city_name": "Іваничі",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 8799,
+    "city_name": "Біличі",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 8801,
+    "city_name": "Бортнів",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 360,
+    "city_name": "Броди",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 8803,
+    "city_name": "Будятичі",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 8805,
+    "city_name": "Бужанка",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 8807,
+    "city_name": "Бужковичі",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 8809,
+    "city_name": "Верхнів",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 8811,
+    "city_name": "Волиця-Морозовецька",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 96,
+    "city_name": "Володимир",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 309,
+    "city_name": "Горохів",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 8813,
+    "city_name": "Грибовиця",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 8815,
+    "city_name": "Грушів",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 8817,
+    "city_name": "Гряди",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 8819,
+    "city_name": "Долинка",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 8821,
+    "city_name": "Древині",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 231,
+    "city_name": "Камінь-Каширський",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 64,
+    "city_name": "Ковель",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 97,
+    "city_name": "Кременець",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 72,
+    "city_name": "Луцьк",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 493,
+    "city_name": "Любешів",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 495,
+    "city_name": "Маневичі",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 315,
+    "city_name": "Нововолинськ",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 497,
+    "city_name": "Ратне",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 396,
+    "city_name": "Рожище",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 501,
+    "city_name": "Турійськ",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 342,
+    "city_name": "Устилуг",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 503,
+    "city_name": "Цумань",
+    "region_id": 22,
+    "region_name": "Волинська область"
+  },
+  {
+    "city_id": 11195,
+    "city_name": "Єлізаветпілля",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 161,
+    "city_name": "Апостолове",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 208,
+    "city_name": "Богуслав",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 11205,
+    "city_name": "Вільне",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 367,
+    "city_name": "Вільногірськ",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 11207,
+    "city_name": "Велика Костромка",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 319,
+    "city_name": "Верхньодніпровськ",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 11209,
+    "city_name": "Веселі Чумаки",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 11211,
+    "city_name": "Володимирівка",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 11213,
+    "city_name": "Гранітне",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 11225,
+    "city_name": "Грушівка",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 121,
+    "city_name": "Дніпро",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 122,
+    "city_name": "Жовті  Води",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 11215,
+    "city_name": "Жовте",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 11217,
+    "city_name": "Запорізьке",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 11219,
+    "city_name": "Зеленодольськ",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 11221,
+    "city_name": "Кам'янка",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 1,
+    "city_name": "Кам’янське",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 11223,
+    "city_name": "Катеринівка",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 340,
+    "city_name": "Кривий Ріг",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 133,
+    "city_name": "Марганець",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 229,
+    "city_name": "Нікополь",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 279,
+    "city_name": "П'ятихатки",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 111,
+    "city_name": "Підгородне",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 118,
+    "city_name": "Павлоград",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 322,
+    "city_name": "Перещепине",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 316,
+    "city_name": "Самар",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 293,
+    "city_name": "Синельникове",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 605,
+    "city_name": "Чаплинка",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 212,
+    "city_name": "Шахтарське",
+    "region_id": 21,
+    "region_name": "Дніпропетровська область"
+  },
+  {
+    "city_id": 90,
+    "city_name": "Єнакієве",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 288,
+    "city_name": "Авдіївка",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 15613,
+    "city_name": "Бахмут",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 386,
+    "city_name": "Волноваха",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 223,
+    "city_name": "Вугледар",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 388,
+    "city_name": "Горлівка",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 395,
+    "city_name": "Дебальцеве",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 217,
+    "city_name": "Добропілля",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 207,
+    "city_name": "Докучаєвськ",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 141,
+    "city_name": "Донецьк",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 410,
+    "city_name": "Дружківка",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 392,
+    "city_name": "Кіровське",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 185,
+    "city_name": "Костянтинівка",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 304,
+    "city_name": "Краматорськ",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 3,
+    "city_name": "Красний лиман",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 373,
+    "city_name": "Майорськ",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 384,
+    "city_name": "Макіївка",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 79,
+    "city_name": "Маріуполь",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 394,
+    "city_name": "Мирноград",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 26,
+    "city_name": "Новогродівка",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 39,
+    "city_name": "Покровськ",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 40,
+    "city_name": "Селидове",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 246,
+    "city_name": "Слов'янськ",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 250,
+    "city_name": "Сніжне",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 103,
+    "city_name": "Соледар",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 75,
+    "city_name": "Торез",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 243,
+    "city_name": "Торецьк",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 224,
+    "city_name": "Харцизьк",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 166,
+    "city_name": "Шахтарськ",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 228,
+    "city_name": "Ясинувата",
+    "region_id": 4,
+    "region_name": "Донецька область"
+  },
+  {
+    "city_id": 19797,
+    "city_name": "Євгенівка",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 19799,
+    "city_name": "Єлизаветпіль",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 513,
+    "city_name": "Ємільчине",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 19813,
+    "city_name": "Ілляшівка",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 515,
+    "city_name": "Іршанськ",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 19815,
+    "city_name": "Адамове",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 19817,
+    "city_name": "Андрієвичі",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 19819,
+    "city_name": "Антонівка",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 19821,
+    "city_name": "Аполлонівка",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 20143,
+    "city_name": "Баранівка",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 19823,
+    "city_name": "Бараші",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 19825,
+    "city_name": "Бастова рудня",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 318,
+    "city_name": "Бердичів",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 19827,
+    "city_name": "Березівка",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 19829,
+    "city_name": "Березники",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 19831,
+    "city_name": "Бобрицька Болярка",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 19833,
+    "city_name": "Бобриця",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 19835,
+    "city_name": "Болярка",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 193,
+    "city_name": "Валки",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 324,
+    "city_name": "Житомир",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 238,
+    "city_name": "Коростень",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 375,
+    "city_name": "Коростишів",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 19801,
+    "city_name": "Куйбишеве",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 239,
+    "city_name": "Носівки",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 455,
+    "city_name": "Олевськ",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 517,
+    "city_name": "Попільня",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 117,
+    "city_name": "Радомишль",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 459,
+    "city_name": "Романів",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 511,
+    "city_name": "Хорошів",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 457,
+    "city_name": "Черняхів",
+    "region_id": 6,
+    "region_name": "Житомирська область"
+  },
+  {
+    "city_id": 23483,
+    "city_name": "Івашковиця",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 23485,
+    "city_name": "Ільниця",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 23487,
+    "city_name": "Імстичово",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 205,
+    "city_name": "Іршава",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 23497,
+    "city_name": "Арданово",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 23499,
+    "city_name": "Білки",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 23597,
+    "city_name": "Берегове",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 23501,
+    "city_name": "Богаревиця",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 72959,
+    "city_name": "Ботар",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 23503,
+    "city_name": "Брід",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 23505,
+    "city_name": "Бронька",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 519,
+    "city_name": "Буштино",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 23507,
+    "city_name": "Вільхівка",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 23509,
+    "city_name": "Велика Розтока",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 521,
+    "city_name": "Великий Бичків",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 264,
+    "city_name": "Виноградів",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 523,
+    "city_name": "Вишково",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 525,
+    "city_name": "Дубове",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 527,
+    "city_name": "Королево",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 529,
+    "city_name": "Міжгір'я",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 186,
+    "city_name": "Мукачево",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 72958,
+    "city_name": "Неветленфолу",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 18,
+    "city_name": "Рахів",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 236,
+    "city_name": "Свалява",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 531,
+    "city_name": "Солотвино",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 220,
+    "city_name": "Тячів",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 247,
+    "city_name": "Ужгород",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 253,
+    "city_name": "Хуст",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 382,
+    "city_name": "Чоп",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 72955,
+    "city_name": "Ясіня",
+    "region_id": 10,
+    "region_name": "Закарпатська область"
+  },
+  {
+    "city_id": 24933,
+    "city_name": "Іванівка",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 24935,
+    "city_name": "Андріївка",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 24937,
+    "city_name": "Андрівка",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 475,
+    "city_name": "Біляївка",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 398,
+    "city_name": "Бердянськ",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 24993,
+    "city_name": "Бердянське",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 24995,
+    "city_name": "Берестове",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 43,
+    "city_name": "Вільнянськ",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 25295,
+    "city_name": "Василівка",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 25403,
+    "city_name": "Веселе",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 25001,
+    "city_name": "Глодове",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 115,
+    "city_name": "Гуляйполе",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 25003,
+    "city_name": "Дахно",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 25005,
+    "city_name": "Деревецьке",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 25007,
+    "city_name": "Дмитрівка",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 413,
+    "city_name": "Дніпрорудне",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 8,
+    "city_name": "Енергодар",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 194,
+    "city_name": "Запоріжжя",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 42,
+    "city_name": "Кам'янка-Дніпровська",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 533,
+    "city_name": "Куйбишеве",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 535,
+    "city_name": "Кушугум",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 297,
+    "city_name": "Мелітополь",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 417,
+    "city_name": "Михайлівка",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 276,
+    "city_name": "Молочанськ",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 241,
+    "city_name": "Оріхів",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 274,
+    "city_name": "Пологи",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 50,
+    "city_name": "Приморськ",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 537,
+    "city_name": "Розівка",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 393,
+    "city_name": "Токмак",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 411,
+    "city_name": "Якимівка",
+    "region_id": 17,
+    "region_name": "Запорізька область"
+  },
+  {
+    "city_id": 27359,
+    "city_name": "Іванівка",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 27361,
+    "city_name": "Апрелівка",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 27363,
+    "city_name": "Березівка",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 27365,
+    "city_name": "Береславка",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 188,
+    "city_name": "Бобринець",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 27373,
+    "city_name": "Бобринка",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 27375,
+    "city_name": "Борисівка",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 27377,
+    "city_name": "Бредихине",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 27379,
+    "city_name": "Буховецьке",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 27381,
+    "city_name": "Варламівка",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 27383,
+    "city_name": "Василівка",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 27385,
+    "city_name": "Великодрюкове",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 27387,
+    "city_name": "Вереміївка",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 27389,
+    "city_name": "Верхньоінгульське",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 547,
+    "city_name": "Власівка",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 134,
+    "city_name": "Гайворон",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 249,
+    "city_name": "Долинська",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 28057,
+    "city_name": "Знам'янка",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 69,
+    "city_name": "Кропивницький",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 105,
+    "city_name": "Мала Виска",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 549,
+    "city_name": "Нова Прага",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 553,
+    "city_name": "Нове",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 551,
+    "city_name": "Новоархангельськ",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 28993,
+    "city_name": "Новоукраїнка",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 126,
+    "city_name": "Олександрія",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 56,
+    "city_name": "Первомайськ",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 29515,
+    "city_name": "Петрово",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 557,
+    "city_name": "Помічна",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 14,
+    "city_name": "Світловодськ",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 72956,
+    "city_name": "Сонячне",
+    "region_id": 7,
+    "region_name": "Кіровоградська область"
+  },
+  {
+    "city_id": 443,
+    "city_name": "Іваньків",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 295,
+    "city_name": "Ірпінь",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 60,
+    "city_name": "Біла Церква",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 697,
+    "city_name": "Баришівка",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 146,
+    "city_name": "Березань",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 328,
+    "city_name": "Бориспіль",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 48,
+    "city_name": "Боярка",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 84,
+    "city_name": "Бровари",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 28,
+    "city_name": "Буча",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 245,
+    "city_name": "Васильків",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 81,
+    "city_name": "Вишгород",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 31893,
+    "city_name": "Вишневе",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 445,
+    "city_name": "Володарка",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 695,
+    "city_name": "Глеваха",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 435,
+    "city_name": "Гостомель",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 197,
+    "city_name": "Кагарлик",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 268,
+    "city_name": "Київ",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 437,
+    "city_name": "Коцюбинське",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 46,
+    "city_name": "Переяслав",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 195,
+    "city_name": "Прип'ять",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 301,
+    "city_name": "Ржищів",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 449,
+    "city_name": "Рокитне",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 16,
+    "city_name": "Славутич",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 135,
+    "city_name": "Тараща",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 283,
+    "city_name": "Тетіїв",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 30737,
+    "city_name": "Узин",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 265,
+    "city_name": "Українка",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 335,
+    "city_name": "Фастів",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 179,
+    "city_name": "Чорнобиль",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 364,
+    "city_name": "Яготин",
+    "region_id": 25,
+    "region_name": "Київська область"
+  },
+  {
+    "city_id": 77,
+    "city_name": "Євпаторія",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 561,
+    "city_name": "Інкерман",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 232,
+    "city_name": "Алупка",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 234,
+    "city_name": "Алушта",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 272,
+    "city_name": "Армянськ",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 213,
+    "city_name": "Білогірськ",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 260,
+    "city_name": "Бахчисарай",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 345,
+    "city_name": "Берегове",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 34,
+    "city_name": "Джанкой",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 372,
+    "city_name": "Знам'янка",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 361,
+    "city_name": "Керч",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 691,
+    "city_name": "Красногвардійське",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 142,
+    "city_name": "Красноперекопськ",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 4083,
+    "city_name": "Межове",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 4085,
+    "city_name": "Митрофанівка",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 4087,
+    "city_name": "Михайлівка",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 4089,
+    "city_name": "Ніжинське",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 4091,
+    "city_name": "Нижньогірський",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 4101,
+    "city_name": "Новоіванівка",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 32,
+    "city_name": "Орджонікідзе",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 563,
+    "city_name": "Роздольне",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 37,
+    "city_name": "Сімферополь",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 337,
+    "city_name": "Саки",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 300,
+    "city_name": "Севастополь",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 92,
+    "city_name": "Старий Крим",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 389,
+    "city_name": "Судак",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 31,
+    "city_name": "Феодосія",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 565,
+    "city_name": "Чорноморське",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 399,
+    "city_name": "Щолкіне",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 291,
+    "city_name": "Ялта",
+    "region_id": 16,
+    "region_name": "Крим (АРК)"
+  },
+  {
+    "city_id": 203,
+    "city_name": "Ірміно",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 191,
+    "city_name": "Алмазна",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 235,
+    "city_name": "Алчевськ",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 256,
+    "city_name": "Антрацит",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 371,
+    "city_name": "Артемівськ",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 24,
+    "city_name": "Брянка",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 148,
+    "city_name": "Вахрушеве",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 380,
+    "city_name": "Гірне",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 377,
+    "city_name": "Зимогір'я",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 119,
+    "city_name": "Золоте",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 88,
+    "city_name": "Зоринськ",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 258,
+    "city_name": "Кадіївка",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 13,
+    "city_name": "Краснодон",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 152,
+    "city_name": "Луганськ",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 261,
+    "city_name": "Лутугине",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 29,
+    "city_name": "Молодогвардійськ",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 6,
+    "city_name": "Новодружеськ",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 199,
+    "city_name": "Новопсков",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 269,
+    "city_name": "Олександрівськ",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 326,
+    "city_name": "Первомайськ",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 303,
+    "city_name": "Перевальськ",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 248,
+    "city_name": "Привілля",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 290,
+    "city_name": "Ровеньки",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 15,
+    "city_name": "Рубіжне",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 156,
+    "city_name": "Сєверодонецьк",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 78,
+    "city_name": "Свердловськ",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 296,
+    "city_name": "Суходільськ",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 52,
+    "city_name": "Червоний Промінь",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 336,
+    "city_name": "Червонопартизанськ",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 211,
+    "city_name": "Щастя",
+    "region_id": 2,
+    "region_name": "Луганська область"
+  },
+  {
+    "city_id": 136,
+    "city_name": "Бібрка",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 143,
+    "city_name": "Белз",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 74,
+    "city_name": "Борислав",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 311,
+    "city_name": "Буськ",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 347,
+    "city_name": "Великі Мости",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 73,
+    "city_name": "Глиняни",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 262,
+    "city_name": "Городок",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 159,
+    "city_name": "Добромиль",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 240,
+    "city_name": "Дрогобич",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 302,
+    "city_name": "Дубляни",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 27,
+    "city_name": "Жовква",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 63,
+    "city_name": "Золочів",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 176,
+    "city_name": "Львів",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 85,
+    "city_name": "Миколаїв",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 180,
+    "city_name": "Мостиська",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 242,
+    "city_name": "Новий Розділ",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 177,
+    "city_name": "Перемишляни",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 332,
+    "city_name": "Пустомити",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 147,
+    "city_name": "Рава-Руська",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 130,
+    "city_name": "Радехів",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 33,
+    "city_name": "Рудки",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 128,
+    "city_name": "Самбір",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 216,
+    "city_name": "Сокаль",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 314,
+    "city_name": "Старий Самбір",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 346,
+    "city_name": "Стрий",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 110,
+    "city_name": "Трускавець",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 45,
+    "city_name": "Угнів",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 263,
+    "city_name": "Хирiв",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 355,
+    "city_name": "Шептицький",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 155,
+    "city_name": "Яворів",
+    "region_id": 5,
+    "region_name": "Львівська область"
+  },
+  {
+    "city_id": 677,
+    "city_name": "Єланець",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 40391,
+    "city_name": "Іванівка",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 667,
+    "city_name": "Арбузинка",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 219,
+    "city_name": "Баштанка",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 669,
+    "city_name": "Березнегувате",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 40393,
+    "city_name": "Богодарівка",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 40395,
+    "city_name": "Братолюбівка",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 671,
+    "city_name": "Братське",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 40397,
+    "city_name": "Бугорок",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 40399,
+    "city_name": "Велідарівка",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 40401,
+    "city_name": "Великосербулівка",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 40403,
+    "city_name": "Веселий Поділ",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 673,
+    "city_name": "Веселинове",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 40405,
+    "city_name": "Водяне",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 40407,
+    "city_name": "Водяно-Лорине",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 22,
+    "city_name": "Вознесенськ",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 40409,
+    "city_name": "Возсіятське",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 469,
+    "city_name": "Врадіївка",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 40411,
+    "city_name": "Гражданка",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 40413,
+    "city_name": "Григорівка",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 675,
+    "city_name": "Доманівка",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 679,
+    "city_name": "Казанка",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 471,
+    "city_name": "Криве Озеро",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 106,
+    "city_name": "Миколаїв",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 366,
+    "city_name": "Нова Одеса",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 665,
+    "city_name": "Олександрівка",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 125,
+    "city_name": "Очаків",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 343,
+    "city_name": "Південноукраїнськ",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 42323,
+    "city_name": "Первомайськ",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 339,
+    "city_name": "Снігурівка",
+    "region_id": 19,
+    "region_name": "Миколаївська область"
+  },
+  {
+    "city_id": 42521,
+    "city_name": "Іванівка",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 308,
+    "city_name": "Ізмаїл",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 42531,
+    "city_name": "Адамівка",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 144,
+    "city_name": "Ананьїв",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 215,
+    "city_name": "Арциз",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 30,
+    "city_name": "Білгород-Дністровський",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 42533,
+    "city_name": "Білка",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 43045,
+    "city_name": "Біляївка",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 42535,
+    "city_name": "Баланини",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 181,
+    "city_name": "Балта",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 42537,
+    "city_name": "Баранове",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 661,
+    "city_name": "Березівка",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 42541,
+    "city_name": "Блонське",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 42543,
+    "city_name": "Богунове",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 358,
+    "city_name": "Болград",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 477,
+    "city_name": "Великодолинське",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 285,
+    "city_name": "Кілія",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 305,
+    "city_name": "Кодима",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 479,
+    "city_name": "Овідіополь",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 62,
+    "city_name": "Одеса",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 294,
+    "city_name": "Південне",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 352,
+    "city_name": "Подільськ",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 483,
+    "city_name": "Рені",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 481,
+    "city_name": "Роздільна",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 163,
+    "city_name": "Татарбунари",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 273,
+    "city_name": "Теплодар",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 42539,
+    "city_name": "Христо-Ботеве",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 123,
+    "city_name": "Чигирин",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 331,
+    "city_name": "Чорноморськ",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 485,
+    "city_name": "Ширяєве",
+    "region_id": 9,
+    "region_name": "Одеська область"
+  },
+  {
+    "city_id": 45435,
+    "city_name": "Іванівка",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 45437,
+    "city_name": "Андрущине",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 45439,
+    "city_name": "Білоцерківка",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 45441,
+    "city_name": "Бірки",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 45445,
+    "city_name": "Байрак",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 104,
+    "city_name": "Балаклея",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 45447,
+    "city_name": "Баланди",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 45449,
+    "city_name": "Балюки",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 45451,
+    "city_name": "Бехтерщина",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 45453,
+    "city_name": "Бондусі",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 45455,
+    "city_name": "Буряківщина",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 45457,
+    "city_name": "Бутова Долина",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 45459,
+    "city_name": "Велика Багачка",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 378,
+    "city_name": "Гадяч",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 65,
+    "city_name": "Глобине",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 282,
+    "city_name": "Горішні Плавні",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 649,
+    "city_name": "Градизьк",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 277,
+    "city_name": "Дергачі",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 286,
+    "city_name": "Заводське",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 171,
+    "city_name": "Карлівка",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 182,
+    "city_name": "Кобеляки",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 653,
+    "city_name": "Котельва",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 221,
+    "city_name": "Кременчук",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 19,
+    "city_name": "Лохвиця",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 206,
+    "city_name": "Лубни",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 95,
+    "city_name": "Миргород",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 45443,
+    "city_name": "Михайлівка Перша",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 655,
+    "city_name": "Нові Санжари",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 284,
+    "city_name": "Полтава",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 72960,
+    "city_name": "Придніпрянське",
+    "region_id": 15,
+    "region_name": "Полтавська область"
+  },
+  {
+    "city_id": 49505,
+    "city_name": "Іванівка",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 49507,
+    "city_name": "Адамівка",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 49509,
+    "city_name": "Антонівка",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 49511,
+    "city_name": "Білка",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 49513,
+    "city_name": "Більчаки",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 49515,
+    "city_name": "Балашівка",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 270,
+    "city_name": "Березне",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 49531,
+    "city_name": "Бистричі",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 49533,
+    "city_name": "Богуші",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 49535,
+    "city_name": "Бронне",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 49537,
+    "city_name": "Вілля",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 49539,
+    "city_name": "Вільхівка",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 49541,
+    "city_name": "Вітковичі",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 202,
+    "city_name": "Вараш",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 49543,
+    "city_name": "Ведмедівка",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 49545,
+    "city_name": "Великі Селища",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 637,
+    "city_name": "Володимирець",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 25,
+    "city_name": "Дубно",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 173,
+    "city_name": "Дубровиця",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 639,
+    "city_name": "Зарічне",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 321,
+    "city_name": "Здолбунів",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 641,
+    "city_name": "Квасилів",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 643,
+    "city_name": "Клевань",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 266,
+    "city_name": "Корець",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 401,
+    "city_name": "Костопіль",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 645,
+    "city_name": "Млинів",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 91,
+    "city_name": "Острог",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 124,
+    "city_name": "Рівне",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 699,
+    "city_name": "Рокитне",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 356,
+    "city_name": "Сарни",
+    "region_id": 14,
+    "region_name": "Рівненська область"
+  },
+  {
+    "city_id": 51951,
+    "city_name": "Іскрисківщина",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 51953,
+    "city_name": "Амбари",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 51955,
+    "city_name": "Аркавське",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 51957,
+    "city_name": "Атинське",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 51959,
+    "city_name": "Білани",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 51961,
+    "city_name": "Біликівка",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 51963,
+    "city_name": "Біловишневе",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 51965,
+    "city_name": "Білопілля",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 51987,
+    "city_name": "Баїха",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 51989,
+    "city_name": "Бабаківка",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 51991,
+    "city_name": "Бакша",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 51993,
+    "city_name": "Барило",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 51995,
+    "city_name": "Безсалівка",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 51997,
+    "city_name": "Безсокирне",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 51999,
+    "city_name": "Бобрик",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 226,
+    "city_name": "Буринь",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 627,
+    "city_name": "Ворожба",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 629,
+    "city_name": "Вороніж",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 406,
+    "city_name": "Глухів",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 175,
+    "city_name": "Деражня",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 158,
+    "city_name": "Конотоп",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 633,
+    "city_name": "Краснопілля",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 162,
+    "city_name": "Кролевець",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 402,
+    "city_name": "Путивль",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 9,
+    "city_name": "Ромни",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 635,
+    "city_name": "Свеса",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 47,
+    "city_name": "Суми",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 271,
+    "city_name": "Тростянець",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 55281,
+    "city_name": "Хутір-Михайлівський",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 153,
+    "city_name": "Шостка",
+    "region_id": 1,
+    "region_name": "Сумська область"
+  },
+  {
+    "city_id": 57365,
+    "city_name": "Івачів Горішній",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 57367,
+    "city_name": "Івачів Долішній",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 57369,
+    "city_name": "Ігровиця",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 57371,
+    "city_name": "Ангелівка",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 57373,
+    "city_name": "Біла",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 57375,
+    "city_name": "Білоскірка",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 57377,
+    "city_name": "Баворів",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 57379,
+    "city_name": "Байківці",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 10,
+    "city_name": "Бережани",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 83,
+    "city_name": "Борщів",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 57381,
+    "city_name": "Буцнів",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 214,
+    "city_name": "Бучач",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 57383,
+    "city_name": "Великі Бірки",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 57385,
+    "city_name": "Великі Гаї",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 617,
+    "city_name": "Велика Березовиця",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 619,
+    "city_name": "Гусятин",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 131,
+    "city_name": "Заліщики",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 299,
+    "city_name": "Зборів",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 621,
+    "city_name": "Козова",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 138,
+    "city_name": "Косів",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 405,
+    "city_name": "Ланівці",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 312,
+    "city_name": "Підволочиськ",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 149,
+    "city_name": "Підгайці",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 129,
+    "city_name": "Почаїв",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 4,
+    "city_name": "Скалат",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 281,
+    "city_name": "Теребовля",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 362,
+    "city_name": "Тернопіль",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 57303,
+    "city_name": "Хмелівка",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 625,
+    "city_name": "Хоростків",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 189,
+    "city_name": "Чортків",
+    "region_id": 11,
+    "region_name": "Тернопільська область"
+  },
+  {
+    "city_id": 57735,
+    "city_name": "Іванівка",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 57737,
+    "city_name": "Іванчуківка",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 338,
+    "city_name": "Ізюм",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 57755,
+    "city_name": "Іскра",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 57757,
+    "city_name": "Андріївка",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 57759,
+    "city_name": "Бабенкове",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 57883,
+    "city_name": "Балаклія",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 359,
+    "city_name": "Барвінкове",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 72950,
+    "city_name": "Безпалівка",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 349,
+    "city_name": "Берестин",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 210,
+    "city_name": "Богодухів",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 57761,
+    "city_name": "Бражківка",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 57763,
+    "city_name": "Бригадирівка",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 57765,
+    "city_name": "Бугаївка",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 21,
+    "city_name": "Великий Бурлук",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 607,
+    "city_name": "Високий",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 230,
+    "city_name": "Вовчанськ",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 59415,
+    "city_name": "Дергачі",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 61007,
+    "city_name": "Златопіль",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 275,
+    "city_name": "Зміїв",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 93,
+    "city_name": "Куп'янськ",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 82,
+    "city_name": "Лозова",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 80,
+    "city_name": "Люботин",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 51,
+    "city_name": "Мерефа",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 611,
+    "city_name": "Нова Водолага",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 72957,
+    "city_name": "Новопросянське",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 59715,
+    "city_name": "Слобожанське",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 615,
+    "city_name": "Солоницівка",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 280,
+    "city_name": "Харків",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 20,
+    "city_name": "Чугуїв",
+    "region_id": 8,
+    "region_name": "Харківська область"
+  },
+  {
+    "city_id": 61937,
+    "city_name": "Іванівка",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 587,
+    "city_name": "Антонівка",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 589,
+    "city_name": "Білозерка",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 61943,
+    "city_name": "Балашове",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 391,
+    "city_name": "Берислав",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 61945,
+    "city_name": "Благодатне",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 593,
+    "city_name": "Велика Лепетиха",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 591,
+    "city_name": "Велика Олександрівка",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 61947,
+    "city_name": "Веселівка",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 61949,
+    "city_name": "Воскресенка",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 140,
+    "city_name": "Генічеськ",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 409,
+    "city_name": "Гола  Пристань",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 61951,
+    "city_name": "Дмитрівка",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 61953,
+    "city_name": "Дружбівка",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 61955,
+    "city_name": "Захарівка",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 61957,
+    "city_name": "Кірове",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 595,
+    "city_name": "Каланчак",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 7,
+    "city_name": "Каховка",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 61959,
+    "city_name": "Квіткове",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 597,
+    "city_name": "Комишани",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 61961,
+    "city_name": "Любимівка",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 374,
+    "city_name": "Нова Каховка",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 599,
+    "city_name": "Нова Маячка",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 601,
+    "city_name": "Новоолексіївка",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 603,
+    "city_name": "Новотроїцьке",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 325,
+    "city_name": "Олешки",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 3153,
+    "city_name": "Піщане",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 3387,
+    "city_name": "Передмістне",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 408,
+    "city_name": "Таврійськ",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 61,
+    "city_name": "Херсон",
+    "region_id": 3,
+    "region_name": "Херсонська область"
+  },
+  {
+    "city_id": 63601,
+    "city_name": "Іванівка",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 257,
+    "city_name": "Ізяслав",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 63621,
+    "city_name": "Антонівка",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 63623,
+    "city_name": "Білеве",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 63625,
+    "city_name": "Білижинці",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 63627,
+    "city_name": "Білогородка",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 63629,
+    "city_name": "Білотин",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 63631,
+    "city_name": "Більчин",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 63633,
+    "city_name": "Більчинка",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 63635,
+    "city_name": "Бейзими",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 63637,
+    "city_name": "Борисів",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 579,
+    "city_name": "Віньківці",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 63639,
+    "city_name": "Васьківці",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 63641,
+    "city_name": "Великі Пузирки",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 63643,
+    "city_name": "Велика Радогощ",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 63645,
+    "city_name": "Влашанівка",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 108,
+    "city_name": "Волочиськ",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 63647,
+    "city_name": "Григорівка",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 112,
+    "city_name": "Дунаївці",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 107,
+    "city_name": "Кам'янець-Подільський",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 334,
+    "city_name": "Красилів",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 581,
+    "city_name": "Летичів",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 8329,
+    "city_name": "Лозова",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 169,
+    "city_name": "Нетішин",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 354,
+    "city_name": "Полонне",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 287,
+    "city_name": "Славута",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 259,
+    "city_name": "Старокостянтинів",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 585,
+    "city_name": "Теофіполь",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 101,
+    "city_name": "Хмельницький",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 255,
+    "city_name": "Шепетівка",
+    "region_id": 20,
+    "region_name": "Хмельницька область"
+  },
+  {
+    "city_id": 66713,
+    "city_name": "Ільчинкове",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 233,
+    "city_name": "Багачеве",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 66715,
+    "city_name": "Буда-Орловецька",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 66727,
+    "city_name": "В'язівок",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 66717,
+    "city_name": "Вільшана",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 66721,
+    "city_name": "Валява",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 66723,
+    "city_name": "Вербівка",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 66725,
+    "city_name": "Воронівка",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 225,
+    "city_name": "Городище",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 66745,
+    "city_name": "Дирдин",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 453,
+    "city_name": "Драбів",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 227,
+    "city_name": "Жашків",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 66747,
+    "city_name": "Журавка",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 67021,
+    "city_name": "Звенигородка",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 66749,
+    "city_name": "Зелена Діброва",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 174,
+    "city_name": "Золотоноша",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 370,
+    "city_name": "Кам'янка",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 344,
+    "city_name": "Канів",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 170,
+    "city_name": "Корсунь-Шевченківський",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 575,
+    "city_name": "Лисянка",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 577,
+    "city_name": "Маньківка",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 278,
+    "city_name": "Монастирище",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 306,
+    "city_name": "Сміла",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 407,
+    "city_name": "Тальне",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 68,
+    "city_name": "Умань",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 116,
+    "city_name": "Христинівка",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 145,
+    "city_name": "Черкаси",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 68465,
+    "city_name": "Чигирин",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 68585,
+    "city_name": "Чорнобай",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 400,
+    "city_name": "Шпола",
+    "region_id": 12,
+    "region_name": "Черкаська область"
+  },
+  {
+    "city_id": 68677,
+    "city_name": "Іспас",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 68679,
+    "city_name": "Бабине",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 68681,
+    "city_name": "Багна",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 68683,
+    "city_name": "Банилів",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 567,
+    "city_name": "Берегомет",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 68689,
+    "city_name": "Бережниця",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 68691,
+    "city_name": "Бережонка",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 68693,
+    "city_name": "Вали",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 68695,
+    "city_name": "Вахнівці",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 100,
+    "city_name": "Вашківці",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 68701,
+    "city_name": "Велике",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 68703,
+    "city_name": "Виженка",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 11,
+    "city_name": "Вижниця",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 68715,
+    "city_name": "Вовчинець",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 68717,
+    "city_name": "Волока",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 71,
+    "city_name": "Герца",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 569,
+    "city_name": "Глибока",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 68719,
+    "city_name": "Долішній Шепіт",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 68721,
+    "city_name": "Замостя",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 68723,
+    "city_name": "Заріччя",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 57,
+    "city_name": "Заставна",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 94,
+    "city_name": "Кіцмань",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 571,
+    "city_name": "Кельменці",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 573,
+    "city_name": "Красноїльськ",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 139,
+    "city_name": "Новодністровськ",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 218,
+    "city_name": "Новоселиця",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 341,
+    "city_name": "Сокиряни",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 167,
+    "city_name": "Сторожинець",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 403,
+    "city_name": "Хотин",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 369,
+    "city_name": "Чернівці",
+    "region_id": 18,
+    "region_name": "Чернівецька область"
+  },
+  {
+    "city_id": 69615,
+    "city_name": "Івангород",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 69617,
+    "city_name": "Іваниця",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 69619,
+    "city_name": "Іржавець",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 69621,
+    "city_name": "Іценків",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 323,
+    "city_name": "Ічня",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 69633,
+    "city_name": "Августівка",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 69635,
+    "city_name": "Андріївка",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 69637,
+    "city_name": "Більмачівка",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 69639,
+    "city_name": "Бакаївка",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 69641,
+    "city_name": "Барбурське",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 69643,
+    "city_name": "Барвінкове",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 53,
+    "city_name": "Бахмач",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 69645,
+    "city_name": "Безбородьків",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 69647,
+    "city_name": "Безводівка",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 69649,
+    "city_name": "Бережівка",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 376,
+    "city_name": "Бобровиця",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 357,
+    "city_name": "Борзна",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 69651,
+    "city_name": "Буди",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 69653,
+    "city_name": "Бурімка",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 102,
+    "city_name": "Городня",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 70481,
+    "city_name": "Десна",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 41,
+    "city_name": "Корюківка",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 44,
+    "city_name": "Мена",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 12,
+    "city_name": "Ніжин",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 154,
+    "city_name": "Новгород-Сіверський",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 363,
+    "city_name": "Прилуки",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 172,
+    "city_name": "Седнів",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 368,
+    "city_name": "Семенівка",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 201,
+    "city_name": "Сновськ",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 178,
+    "city_name": "Чернігів",
+    "region_id": 23,
+    "region_name": "Чернігівська область"
+  },
+  {
+    "city_id": 31963,
+    "city_name": "Софіївська Борщагівка",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 72952,
+    "city_name": "Новосілки",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 31927,
+    "city_name": "Крюківщина",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 44353,
+    "city_name": "Авангард",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 31899,
+    "city_name": "Гатне",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 31979,
+    "city_name": "Чайки",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 31959,
+    "city_name": "Петропавлівська Борщагівка",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 12341,
+    "city_name": "Золота Поляна",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 31983,
+    "city_name": "Шпитьки",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 43857,
+    "city_name": "Фонтанка",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 61897,
+    "city_name": "Полтава",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 21003,
+    "city_name": "Житомирське",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 40359,
+    "city_name": "Шкло",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 43795,
+    "city_name": "Ліски",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 31957,
+    "city_name": "Святопетрівське",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 30599,
+    "city_name": "Ворзель",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 37885,
+    "city_name": "Винники",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 61537,
+    "city_name": "Кулиничі",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 17749,
+    "city_name": "Красний лиман",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 10943,
+    "city_name": "Стара  Вижівка",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 12053,
+    "city_name": "Слобожанське",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 31975,
+    "city_name": "Чабани",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 379,
+    "city_name": "Жидачiв",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 9701,
+    "city_name": "Люблинець",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 40301,
+    "city_name": "Рясне-Руське",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 43783,
+    "city_name": "Корсунці",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 44411,
+    "city_name": "Лиманка",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 10029,
+    "city_name": "Липини",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 39855,
+    "city_name": "Сихів",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 40093,
+    "city_name": "Івано-Франкове",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 41469,
+    "city_name": "Галицинове",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 2565,
+    "city_name": "Поляниця (Буковель)",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 40259,
+    "city_name": "Новояворівськ",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  },
+  {
+    "city_id": 43791,
+    "city_name": "Крижанівка",
+    "region_id": null,
+    "region_name": null,
+    "source": "from_offers"
+  }
+]

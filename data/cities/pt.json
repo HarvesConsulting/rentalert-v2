@@ -1,0 +1,239 @@
+{
+  "country": "pt",
+  "cities": [
+    {
+      "slug": "faro",
+      "name": "Faro",
+      "region": "",
+      "priority": true,
+      "refs": {
+        "olx_pt": 8
+      }
+    },
+    {
+      "slug": "lisboa",
+      "name": "Lisboa",
+      "region": "",
+      "priority": true,
+      "refs": {
+        "olx_pt": 11
+      }
+    },
+    {
+      "slug": "porto",
+      "name": "Porto",
+      "region": "",
+      "priority": true,
+      "refs": {
+        "olx_pt": 13
+      }
+    },
+    {
+      "slug": "aveiro",
+      "name": "Aveiro",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 1
+      }
+    },
+    {
+      "slug": "beja",
+      "name": "Beja",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 2
+      }
+    },
+    {
+      "slug": "braga",
+      "name": "Braga",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 3
+      }
+    },
+    {
+      "slug": "braganca",
+      "name": "Bragança",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 4
+      }
+    },
+    {
+      "slug": "castelo-branco",
+      "name": "Castelo Branco",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 5
+      }
+    },
+    {
+      "slug": "coimbra",
+      "name": "Coimbra",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 6
+      }
+    },
+    {
+      "slug": "guarda",
+      "name": "Guarda",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 9
+      }
+    },
+    {
+      "slug": "terceira",
+      "name": "Ilha Terceira",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 43
+      }
+    },
+    {
+      "slug": "madeira",
+      "name": "Ilha da Madeira",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 31
+      }
+    },
+    {
+      "slug": "flores",
+      "name": "Ilha das Flores",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 48
+      }
+    },
+    {
+      "slug": "porto-santo",
+      "name": "Ilha de Porto Santo",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 32
+      }
+    },
+    {
+      "slug": "santa-maria",
+      "name": "Ilha de Santa Maria",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 41
+      }
+    },
+    {
+      "slug": "sao-jorge",
+      "name": "Ilha de São Jorge",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 45
+      }
+    },
+    {
+      "slug": "sao-miguel",
+      "name": "Ilha de São Miguel",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 42
+      }
+    },
+    {
+      "slug": "pico",
+      "name": "Ilha do Pico",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 46
+      }
+    },
+    {
+      "slug": "leiria",
+      "name": "Leiria",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 10
+      }
+    },
+    {
+      "slug": "portalegre",
+      "name": "Portalegre",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 12
+      }
+    },
+    {
+      "slug": "santarem",
+      "name": "Santarém",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 14
+      }
+    },
+    {
+      "slug": "setubal",
+      "name": "Setúbal",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 15
+      }
+    },
+    {
+      "slug": "viana-do-castelo",
+      "name": "Viana do Castelo",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 16
+      }
+    },
+    {
+      "slug": "vila-real",
+      "name": "Vila Real",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 17
+      }
+    },
+    {
+      "slug": "viseu",
+      "name": "Viseu",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 18
+      }
+    },
+    {
+      "slug": "evora",
+      "name": "Évora",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "olx_pt": 7
+      }
+    }
+  ]
+}

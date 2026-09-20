@@ -1,0 +1,5882 @@
+[
+  {
+    "city_id": 163,
+    "city_name": "Айдемир",
+    "normalized_name": "aydemir",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 25,
+    "city_name": "Айтос",
+    "normalized_name": "aytos",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 31,
+    "city_name": "Аксаково",
+    "normalized_name": "aksakovo",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 10889,
+    "city_name": "Албена",
+    "normalized_name": "albena",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 45,
+    "city_name": "Алеко Константиново",
+    "normalized_name": "aleko-konstantinovo",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 53,
+    "city_name": "Александрово",
+    "normalized_name": "aleksandrovo_53",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 55,
+    "city_name": "Александрово",
+    "normalized_name": "aleksandrovo",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 10887,
+    "city_name": "Александър Стамболийски",
+    "normalized_name": "aleksandar-stamboliyski_10887",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 75,
+    "city_name": "Алтимир",
+    "normalized_name": "altimir",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 77,
+    "city_name": "Алфатар",
+    "normalized_name": "alfatar",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 167,
+    "city_name": "Антимово",
+    "normalized_name": "antimovo",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 93,
+    "city_name": "Антоново",
+    "normalized_name": "antonovo",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 6569,
+    "city_name": "Априлци",
+    "normalized_name": "apriltsi",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 109,
+    "city_name": "Ардино",
+    "normalized_name": "ardino",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 123,
+    "city_name": "Арчар",
+    "normalized_name": "archar",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 127,
+    "city_name": "Асеновград",
+    "normalized_name": "asenovgrad",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 151,
+    "city_name": "Ахелой",
+    "normalized_name": "aheloy",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 159,
+    "city_name": "Ахтопол",
+    "normalized_name": "ahtopol",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 191,
+    "city_name": "Багренци",
+    "normalized_name": "bagrentsi",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 255,
+    "city_name": "Балчик",
+    "normalized_name": "balchik",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 267,
+    "city_name": "Баниска",
+    "normalized_name": "baniska",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 5601,
+    "city_name": "Баните",
+    "normalized_name": "banite",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 269,
+    "city_name": "Баница",
+    "normalized_name": "banitsa",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 281,
+    "city_name": "Банкя",
+    "normalized_name": "bankya",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 285,
+    "city_name": "Банско",
+    "normalized_name": "bansko",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 297,
+    "city_name": "Баня",
+    "normalized_name": "banya_297",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 305,
+    "city_name": "Барутин",
+    "normalized_name": "barutin",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 309,
+    "city_name": "Басарбово",
+    "normalized_name": "basarbovo",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 317,
+    "city_name": "Батак",
+    "normalized_name": "batak",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 9293,
+    "city_name": "Батановци",
+    "normalized_name": "batanovtsi",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 325,
+    "city_name": "Батошево",
+    "normalized_name": "batoshevo",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 375,
+    "city_name": "Бежаново",
+    "normalized_name": "bezhanovo",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 387,
+    "city_name": "Безмер",
+    "normalized_name": "bezmer",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 389,
+    "city_name": "Безмер",
+    "normalized_name": "bezmer_389",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 401,
+    "city_name": "Бела Рада",
+    "normalized_name": "bela-rada",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 415,
+    "city_name": "Белене",
+    "normalized_name": "belene",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 3387,
+    "city_name": "Бели Лом",
+    "normalized_name": "beli-lom",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 477,
+    "city_name": "Бело поле",
+    "normalized_name": "belo-pole",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 457,
+    "city_name": "Беловец",
+    "normalized_name": "belovets",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 461,
+    "city_name": "Белово",
+    "normalized_name": "belovo",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 465,
+    "city_name": "Белоградчик",
+    "normalized_name": "belogradchik",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 485,
+    "city_name": "Белослав",
+    "normalized_name": "beloslav",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 507,
+    "city_name": "Бенковски",
+    "normalized_name": "benkovski",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 527,
+    "city_name": "Берковица",
+    "normalized_name": "berkovitsa",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 565,
+    "city_name": "Бисерци",
+    "normalized_name": "bisertsi",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 581,
+    "city_name": "Бистрица",
+    "normalized_name": "bistritsa_581",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 583,
+    "city_name": "Бистрица",
+    "normalized_name": "bistritsa",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 591,
+    "city_name": "Благоевград",
+    "normalized_name": "blagoevgrad",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 635,
+    "city_name": "Бобов дол",
+    "normalized_name": "bobov-dol",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 641,
+    "city_name": "Бобошево",
+    "normalized_name": "boboshevo",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 677,
+    "city_name": "Богомилово",
+    "normalized_name": "bogomilovo",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 723,
+    "city_name": "Божурище",
+    "normalized_name": "bozhurische",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 761,
+    "city_name": "Бойчиновци",
+    "normalized_name": "boychinovtsi",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 771,
+    "city_name": "Болярово",
+    "normalized_name": "bolyarovo",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 805,
+    "city_name": "Борино",
+    "normalized_name": "borino",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 821,
+    "city_name": "Борован",
+    "normalized_name": "borovan",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 10927,
+    "city_name": "Боровец",
+    "normalized_name": "borovets_10927",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 835,
+    "city_name": "Борово",
+    "normalized_name": "borovo",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 871,
+    "city_name": "Ботевград",
+    "normalized_name": "botevgrad",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 881,
+    "city_name": "Ботево",
+    "normalized_name": "botevo",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 897,
+    "city_name": "Бояджик",
+    "normalized_name": "boyadzhik",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 907,
+    "city_name": "Бояново",
+    "normalized_name": "boyanovo",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 923,
+    "city_name": "Браничево",
+    "normalized_name": "branichevo",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 933,
+    "city_name": "Братаница",
+    "normalized_name": "bratanitsa",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 949,
+    "city_name": "Брегово",
+    "normalized_name": "bregovo",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 961,
+    "city_name": "Брезник",
+    "normalized_name": "breznik",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 973,
+    "city_name": "Бреница",
+    "normalized_name": "brenitsa",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 979,
+    "city_name": "Брест",
+    "normalized_name": "brest",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 989,
+    "city_name": "Брестница",
+    "normalized_name": "brestnitsa",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 995,
+    "city_name": "Брестовене",
+    "normalized_name": "brestovene",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 1013,
+    "city_name": "Брусарци",
+    "normalized_name": "brusartsi",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 1059,
+    "city_name": "Бузовград",
+    "normalized_name": "buzovgrad",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 1081,
+    "city_name": "Буковец",
+    "normalized_name": "bukovets",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 1089,
+    "city_name": "Буковлък",
+    "normalized_name": "bukovlak",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 1105,
+    "city_name": "Бургас",
+    "normalized_name": "burgas",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 1111,
+    "city_name": "Бусманци",
+    "normalized_name": "busmantsi",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 1113,
+    "city_name": "Бутан",
+    "normalized_name": "butan",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 1119,
+    "city_name": "Бухово",
+    "normalized_name": "buhovo",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 1137,
+    "city_name": "Бъзън",
+    "normalized_name": "bazan",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 1141,
+    "city_name": "Българево",
+    "normalized_name": "balgarevo",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 1155,
+    "city_name": "Българово",
+    "normalized_name": "balgarovo",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 1159,
+    "city_name": "Български извор",
+    "normalized_name": "balgarski-izvor",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 1187,
+    "city_name": "Бързия",
+    "normalized_name": "barziya",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 1233,
+    "city_name": "Бял извор",
+    "normalized_name": "byal-izvor",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 1203,
+    "city_name": "Бяла",
+    "normalized_name": "byala_1203",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 1205,
+    "city_name": "Бяла",
+    "normalized_name": "byala",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 1207,
+    "city_name": "Бяла",
+    "normalized_name": "byala_1207",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 1223,
+    "city_name": "Бяла река",
+    "normalized_name": "byala-reka",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 1225,
+    "city_name": "Бяла Слатина",
+    "normalized_name": "byala-slatina",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 1227,
+    "city_name": "Бяла черква",
+    "normalized_name": "byala-cherkva",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 1273,
+    "city_name": "Вазово",
+    "normalized_name": "vazovo",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 1295,
+    "city_name": "Варна",
+    "normalized_name": "varna",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 1317,
+    "city_name": "Василовци",
+    "normalized_name": "vasilovtsi",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 7489,
+    "city_name": "Велики Преслав",
+    "normalized_name": "veliki-preslav",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 1353,
+    "city_name": "Велико Търново",
+    "normalized_name": "veliko-tarnovo",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 1355,
+    "city_name": "Велинград",
+    "normalized_name": "velingrad",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 1419,
+    "city_name": "Веселиново",
+    "normalized_name": "veselinovo",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 1423,
+    "city_name": "Ветово",
+    "normalized_name": "vetovo",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 1453,
+    "city_name": "Видин",
+    "normalized_name": "vidin",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 1473,
+    "city_name": "Винарово",
+    "normalized_name": "vinarovo",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 1533,
+    "city_name": "Владая",
+    "normalized_name": "vladaya",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 1537,
+    "city_name": "Владимирово",
+    "normalized_name": "vladimirovo",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 1543,
+    "city_name": "Владимировци",
+    "normalized_name": "vladimirovtsi",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 1619,
+    "city_name": "Войводово",
+    "normalized_name": "voyvodovo",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 1647,
+    "city_name": "Вокил",
+    "normalized_name": "vokil",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 1657,
+    "city_name": "Волуяк",
+    "normalized_name": "voluyak",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 1689,
+    "city_name": "Враца",
+    "normalized_name": "vratsa",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 1733,
+    "city_name": "Вълнари",
+    "normalized_name": "valnari",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 1741,
+    "city_name": "Вълчедръм",
+    "normalized_name": "valchedram",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 1747,
+    "city_name": "Вълчи дол",
+    "normalized_name": "valchi-dol",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 1783,
+    "city_name": "Върбица",
+    "normalized_name": "varbitsa",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 1815,
+    "city_name": "Вършец",
+    "normalized_name": "varshets",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 1827,
+    "city_name": "Габаре",
+    "normalized_name": "gabare",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 1857,
+    "city_name": "Габровница",
+    "normalized_name": "gabrovnitsa",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 1863,
+    "city_name": "Габрово",
+    "normalized_name": "gabrovo",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 1873,
+    "city_name": "Гавраилово",
+    "normalized_name": "gavrailovo",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 1893,
+    "city_name": "Галата",
+    "normalized_name": "galata",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 1897,
+    "city_name": "Галиче",
+    "normalized_name": "galiche",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 2625,
+    "city_name": "Гара Елин Пелин",
+    "normalized_name": "gara-elin-pelin",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 1911,
+    "city_name": "Гара Орешец",
+    "normalized_name": "gara-oreshets",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 4173,
+    "city_name": "Генерал Инзово",
+    "normalized_name": "general-inzovo",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 1947,
+    "city_name": "Генерал Тошево",
+    "normalized_name": "general-toshevo",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 1965,
+    "city_name": "Герман",
+    "normalized_name": "german",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 2641,
+    "city_name": "Гецово",
+    "normalized_name": "getsovo",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 1971,
+    "city_name": "Гиген",
+    "normalized_name": "gigen",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 2001,
+    "city_name": "Главиница",
+    "normalized_name": "glavinitsa_2001",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 2003,
+    "city_name": "Главиница",
+    "normalized_name": "glavinitsa",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 2021,
+    "city_name": "Глогово",
+    "normalized_name": "glogovo",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 2023,
+    "city_name": "Глоджево",
+    "normalized_name": "glodzhevo",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 2627,
+    "city_name": "Гложене",
+    "normalized_name": "glozhene",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 2025,
+    "city_name": "Гложене",
+    "normalized_name": "glozhene_2025",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 2033,
+    "city_name": "Глуфишево",
+    "normalized_name": "glufishevo",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 2035,
+    "city_name": "Глухар",
+    "normalized_name": "gluhar",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 2045,
+    "city_name": "Говедаре",
+    "normalized_name": "govedare",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 2051,
+    "city_name": "Годеч",
+    "normalized_name": "godech",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 2069,
+    "city_name": "Големаново",
+    "normalized_name": "golemanovo",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 2085,
+    "city_name": "Големо Бучино",
+    "normalized_name": "golemo-buchino",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 2097,
+    "city_name": "Голеш",
+    "normalized_name": "golesh",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 2165,
+    "city_name": "Голям Поровец",
+    "normalized_name": "golyam-porovets",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 2119,
+    "city_name": "Голяма Желязна",
+    "normalized_name": "golyama-zhelyazna",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 2143,
+    "city_name": "Голямо Враново",
+    "normalized_name": "golyamo-vranovo",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 2145,
+    "city_name": "Голямо градище",
+    "normalized_name": "golyamo-gradische",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 2155,
+    "city_name": "Голямо ново",
+    "normalized_name": "golyamo-novo",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 2089,
+    "city_name": "Голямо Пещене",
+    "normalized_name": "golyamo-peschene",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 2173,
+    "city_name": "Гомотарци",
+    "normalized_name": "gomotartsi",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 2185,
+    "city_name": "Горен чифлик",
+    "normalized_name": "goren-chiflik",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 2215,
+    "city_name": "Горна Диканя",
+    "normalized_name": "gorna-dikanya",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 2243,
+    "city_name": "Горна Митрополия",
+    "normalized_name": "gorna-mitropoliya",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 2245,
+    "city_name": "Горна Оряховица",
+    "normalized_name": "gorna-oryahovitsa",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 2249,
+    "city_name": "Горна Росица",
+    "normalized_name": "gorna-rositsa",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 2261,
+    "city_name": "Горни Богров",
+    "normalized_name": "gorni-bogrov",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 2275,
+    "city_name": "Горни Дъбник",
+    "normalized_name": "gorni-dabnik",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 2283,
+    "city_name": "Горни Лом",
+    "normalized_name": "gorni-lom",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 2277,
+    "city_name": "Горник",
+    "normalized_name": "gornik",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 2301,
+    "city_name": "Горно Абланово",
+    "normalized_name": "gorno-ablanovo",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 2303,
+    "city_name": "Горно Александрово",
+    "normalized_name": "gorno-aleksandrovo",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 2635,
+    "city_name": "Горно Кирково",
+    "normalized_name": "gorno-kirkovo",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 2347,
+    "city_name": "Горно Сахране",
+    "normalized_name": "gorno-sahrane",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 6237,
+    "city_name": "Горно Черковище",
+    "normalized_name": "gorno-cherkovische",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 2383,
+    "city_name": "Горски извор",
+    "normalized_name": "gorski-izvor_2383",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 2385,
+    "city_name": "Горски извор",
+    "normalized_name": "gorski-izvor",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 2405,
+    "city_name": "Горско Сливово",
+    "normalized_name": "gorsko-slivovo",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 2423,
+    "city_name": "Гостилица",
+    "normalized_name": "gostilitsa",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 2431,
+    "city_name": "Гоце Делчев",
+    "normalized_name": "gotse-delchev",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 2435,
+    "city_name": "Градежница",
+    "normalized_name": "gradezhnitsa",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 2437,
+    "city_name": "Градец",
+    "normalized_name": "gradets_2437",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 2439,
+    "city_name": "Градец",
+    "normalized_name": "gradets",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 2449,
+    "city_name": "Градина",
+    "normalized_name": "gradina",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 2459,
+    "city_name": "Градище",
+    "normalized_name": "gradische_2459",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 2461,
+    "city_name": "Градище",
+    "normalized_name": "gradische",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 2463,
+    "city_name": "Градище",
+    "normalized_name": "gradische_2463",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 2465,
+    "city_name": "Градница",
+    "normalized_name": "gradnitsa",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 2475,
+    "city_name": "Грамада",
+    "normalized_name": "gramada",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 2493,
+    "city_name": "Гранитово",
+    "normalized_name": "granitovo",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 2495,
+    "city_name": "Граница",
+    "normalized_name": "granitsa",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 2505,
+    "city_name": "Граф Игнатиево",
+    "normalized_name": "graf-ignatievo",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 2513,
+    "city_name": "Гривица",
+    "normalized_name": "grivitsa",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 2523,
+    "city_name": "Гроздьово",
+    "normalized_name": "grozdovo",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 2525,
+    "city_name": "Громшин",
+    "normalized_name": "gromshin",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 2527,
+    "city_name": "Грохотно",
+    "normalized_name": "grohotno",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 2533,
+    "city_name": "Груево",
+    "normalized_name": "gruevo",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 2553,
+    "city_name": "Гулянци",
+    "normalized_name": "gulyantsi",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 2565,
+    "city_name": "Гурково",
+    "normalized_name": "gurkovo",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 2571,
+    "city_name": "Гусла",
+    "normalized_name": "gusla",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 2577,
+    "city_name": "Гъбене",
+    "normalized_name": "gabene",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 2585,
+    "city_name": "Гълъбник",
+    "normalized_name": "galabnik",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 2589,
+    "city_name": "Гълъбово",
+    "normalized_name": "galabovo",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 2593,
+    "city_name": "Гъмзово",
+    "normalized_name": "gamzovo",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 2605,
+    "city_name": "Гърмен",
+    "normalized_name": "garmen",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 2611,
+    "city_name": "Гърчиново",
+    "normalized_name": "garchinovo",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 2615,
+    "city_name": "Гьоврен",
+    "normalized_name": "govren",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 2645,
+    "city_name": "Давидково",
+    "normalized_name": "davidkovo",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 2659,
+    "city_name": "Дамяново",
+    "normalized_name": "damyanovo",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 2665,
+    "city_name": "Две могили",
+    "normalized_name": "dve-mogili",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 2675,
+    "city_name": "Дебелец",
+    "normalized_name": "debelets",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 2677,
+    "city_name": "Дебели лаг",
+    "normalized_name": "debeli-lag",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 2681,
+    "city_name": "Дебелт",
+    "normalized_name": "debelt",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 2687,
+    "city_name": "Дебнево",
+    "normalized_name": "debnevo",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 2693,
+    "city_name": "Дебрен",
+    "normalized_name": "debren",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 2701,
+    "city_name": "Девене",
+    "normalized_name": "devene",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 2717,
+    "city_name": "Девин",
+    "normalized_name": "devin",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 2721,
+    "city_name": "Девня",
+    "normalized_name": "devnya",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 2761,
+    "city_name": "Дерманци",
+    "normalized_name": "dermantsi",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 2771,
+    "city_name": "Джебел",
+    "normalized_name": "dzhebel",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 2775,
+    "city_name": "Джерман",
+    "normalized_name": "dzherman",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 2785,
+    "city_name": "Джулюница",
+    "normalized_name": "dzhulyunitsa",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 2799,
+    "city_name": "Дибич",
+    "normalized_name": "dibich",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 2805,
+    "city_name": "Дивля",
+    "normalized_name": "divlya",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 2807,
+    "city_name": "Дивотино",
+    "normalized_name": "divotino",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 2817,
+    "city_name": "Димитровград",
+    "normalized_name": "dimitrovgrad",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 2825,
+    "city_name": "Димово",
+    "normalized_name": "dimovo",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 2837,
+    "city_name": "Динево",
+    "normalized_name": "dinevo",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 2905,
+    "city_name": "Добринище",
+    "normalized_name": "dobrinische",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 9367,
+    "city_name": "Добрич",
+    "normalized_name": "dobrich",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 2913,
+    "city_name": "Добрич",
+    "normalized_name": "dobrich_2913",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 2929,
+    "city_name": "Добромирка",
+    "normalized_name": "dobromirka",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 2937,
+    "city_name": "Доброславци",
+    "normalized_name": "dobroslavtsi",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 2967,
+    "city_name": "Дойренци",
+    "normalized_name": "doyrentsi",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 2971,
+    "city_name": "Доктор Йосифово",
+    "normalized_name": "doktor-yosifovo",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 2977,
+    "city_name": "Долен",
+    "normalized_name": "dolen",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 3003,
+    "city_name": "Долна баня",
+    "normalized_name": "dolna-banya",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 3017,
+    "city_name": "Долна Диканя",
+    "normalized_name": "dolna-dikanya",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 3041,
+    "city_name": "Долна Митрополия",
+    "normalized_name": "dolna-mitropoliya",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 3045,
+    "city_name": "Долна Оряховица",
+    "normalized_name": "dolna-oryahovitsa",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 3051,
+    "city_name": "Долна Секирна",
+    "normalized_name": "dolna-sekirna",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 3053,
+    "city_name": "Долна Студена",
+    "normalized_name": "dolna-studena",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 3057,
+    "city_name": "Долни Богров",
+    "normalized_name": "dolni-bogrov",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 3073,
+    "city_name": "Долни Дъбник",
+    "normalized_name": "dolni-dabnik",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 3079,
+    "city_name": "Долни Луковит",
+    "normalized_name": "dolni-lukovit",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 3087,
+    "city_name": "Долни Пасарел",
+    "normalized_name": "dolni-pasarel",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 3091,
+    "city_name": "Долни Раковец",
+    "normalized_name": "dolni-rakovets",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 3099,
+    "city_name": "Долни Цибър",
+    "normalized_name": "dolni-tsibar",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 2985,
+    "city_name": "Долни чифлик",
+    "normalized_name": "dolni-chiflik",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 3165,
+    "city_name": "Долно Церовене",
+    "normalized_name": "dolno-tserovene",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 3179,
+    "city_name": "Донино",
+    "normalized_name": "donino",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 3185,
+    "city_name": "Дончево",
+    "normalized_name": "donchevo",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 3189,
+    "city_name": "Дорково",
+    "normalized_name": "dorkovo",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 10909,
+    "city_name": "Доспат",
+    "normalized_name": "dospat_10909",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 3193,
+    "city_name": "Доспат",
+    "normalized_name": "dospat",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 3209,
+    "city_name": "Драганово",
+    "normalized_name": "draganovo",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 3217,
+    "city_name": "Драгановци",
+    "normalized_name": "draganovtsi",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 3233,
+    "city_name": "Драгиново",
+    "normalized_name": "draginovo",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 3235,
+    "city_name": "Драгичево",
+    "normalized_name": "dragichevo",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 3249,
+    "city_name": "Драгоданово",
+    "normalized_name": "dragodanovo",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 3251,
+    "city_name": "Драгоево",
+    "normalized_name": "dragoevo",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 3259,
+    "city_name": "Драгоман",
+    "normalized_name": "dragoman",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 3277,
+    "city_name": "Дражево",
+    "normalized_name": "drazhevo",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 3291,
+    "city_name": "Дрангово",
+    "normalized_name": "drangovo",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 3305,
+    "city_name": "Дрен",
+    "normalized_name": "dren",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 3311,
+    "city_name": "Дреновец",
+    "normalized_name": "drenovets",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 3521,
+    "city_name": "Друган",
+    "normalized_name": "drugan",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 3337,
+    "city_name": "Друмево",
+    "normalized_name": "drumevo",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 3353,
+    "city_name": "Дряновец",
+    "normalized_name": "dryanovets_3353",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 3355,
+    "city_name": "Дряновец",
+    "normalized_name": "dryanovets",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 3361,
+    "city_name": "Дряново",
+    "normalized_name": "dryanovo",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 3375,
+    "city_name": "Дулово",
+    "normalized_name": "dulovo",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 3381,
+    "city_name": "Дунавци",
+    "normalized_name": "dunavtsi",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 8883,
+    "city_name": "Дупница",
+    "normalized_name": "dupnitsa",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 3397,
+    "city_name": "Духовец",
+    "normalized_name": "duhovets",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 3401,
+    "city_name": "Душево",
+    "normalized_name": "dushevo",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 3413,
+    "city_name": "Дъбене",
+    "normalized_name": "dabene",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 3417,
+    "city_name": "Дъбница",
+    "normalized_name": "dabnitsa",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 3433,
+    "city_name": "Дъбово",
+    "normalized_name": "dabovo",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 3445,
+    "city_name": "Дъбравино",
+    "normalized_name": "dabravino",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 3461,
+    "city_name": "Дълбоки",
+    "normalized_name": "dalboki",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 3479,
+    "city_name": "Дълго поле",
+    "normalized_name": "dalgo-pole",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 3473,
+    "city_name": "Дългоделци",
+    "normalized_name": "dalgodeltsi",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 3475,
+    "city_name": "Дългопол",
+    "normalized_name": "dalgopol",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 10861,
+    "city_name": "Дюни",
+    "normalized_name": "dyuni",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 3519,
+    "city_name": "Дянково",
+    "normalized_name": "dyankovo",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 3543,
+    "city_name": "Егрек",
+    "normalized_name": "egrek",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 3545,
+    "city_name": "Егълница",
+    "normalized_name": "egalnitsa",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 3557,
+    "city_name": "Езерово",
+    "normalized_name": "ezerovo",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 3561,
+    "city_name": "Езерче",
+    "normalized_name": "ezerche",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 3567,
+    "city_name": "Елена",
+    "normalized_name": "elena",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 10859,
+    "city_name": "Елените",
+    "normalized_name": "elenite",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 3587,
+    "city_name": "Елин Пелин",
+    "normalized_name": "elin-pelin",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 3591,
+    "city_name": "Еловдол",
+    "normalized_name": "elovdol",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 3599,
+    "city_name": "Елховец",
+    "normalized_name": "elhovets",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 3603,
+    "city_name": "Елхово",
+    "normalized_name": "elhovo",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 3621,
+    "city_name": "Енина",
+    "normalized_name": "enina",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 3631,
+    "city_name": "Ерден",
+    "normalized_name": "erden",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 3635,
+    "city_name": "Ерма река",
+    "normalized_name": "erma-reka",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 3645,
+    "city_name": "Етрополе",
+    "normalized_name": "etropole",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 3657,
+    "city_name": "Жабокрът",
+    "normalized_name": "zhabokrat",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 3659,
+    "city_name": "Жегларци",
+    "normalized_name": "zheglartsi",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 3679,
+    "city_name": "Железница",
+    "normalized_name": "zheleznitsa",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 3687,
+    "city_name": "Желю войвода",
+    "normalized_name": "zhelyu-voyvoda",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 3691,
+    "city_name": "Желязковец",
+    "normalized_name": "zhelyazkovets",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 3713,
+    "city_name": "Живково",
+    "normalized_name": "zhivkovo",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 3717,
+    "city_name": "Жиленци",
+    "normalized_name": "zhilentsi",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 3725,
+    "city_name": "Житен",
+    "normalized_name": "zhiten",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 3747,
+    "city_name": "Жълтеш",
+    "normalized_name": "zhaltesh",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 3749,
+    "city_name": "Жълти бряг",
+    "normalized_name": "zhalti-bryag",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 3757,
+    "city_name": "Жълтуша",
+    "normalized_name": "zhaltusha",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 3773,
+    "city_name": "Завет",
+    "normalized_name": "zavet",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 3779,
+    "city_name": "Завой",
+    "normalized_name": "zavoy",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 3785,
+    "city_name": "Загориче",
+    "normalized_name": "zagoriche",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 3815,
+    "city_name": "Замфир",
+    "normalized_name": "zamfir",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 3817,
+    "city_name": "Замфирово",
+    "normalized_name": "zamfirovo",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 3823,
+    "city_name": "Зараево",
+    "normalized_name": "zaraevo",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 3831,
+    "city_name": "Зафирово",
+    "normalized_name": "zafirovo",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 3855,
+    "city_name": "Звездица",
+    "normalized_name": "zvezditsa",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 4027,
+    "city_name": "Звездица",
+    "normalized_name": "zvezditsa_4027",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 3859,
+    "city_name": "Зверино",
+    "normalized_name": "zverino",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 3863,
+    "city_name": "Звънарка",
+    "normalized_name": "zvanarka",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 3871,
+    "city_name": "Звъничево",
+    "normalized_name": "zvanichevo",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 3877,
+    "city_name": "Згориград",
+    "normalized_name": "zgorigrad",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 3893,
+    "city_name": "Зебил",
+    "normalized_name": "zebil",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 3895,
+    "city_name": "Зелена морава",
+    "normalized_name": "zelena-morava",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 3911,
+    "city_name": "Земен",
+    "normalized_name": "zemen",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 3919,
+    "city_name": "Зетьово",
+    "normalized_name": "zetovo",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 3935,
+    "city_name": "Зимница",
+    "normalized_name": "zimnitsa",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 3941,
+    "city_name": "Златар",
+    "normalized_name": "zlatar",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 3945,
+    "city_name": "Златарица",
+    "normalized_name": "zlataritsa",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 3949,
+    "city_name": "Злати войвода",
+    "normalized_name": "zlati-voyvoda",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 3959,
+    "city_name": "Златица",
+    "normalized_name": "zlatitsa",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 3961,
+    "city_name": "Златия",
+    "normalized_name": "zlatiya",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 3967,
+    "city_name": "Златна нива",
+    "normalized_name": "zlatna-niva",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 3969,
+    "city_name": "Златна Панега",
+    "normalized_name": "zlatna-panega",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 10869,
+    "city_name": "Златни пясъци",
+    "normalized_name": "zlatni-pyasatsi",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 3973,
+    "city_name": "Златоград",
+    "normalized_name": "zlatograd",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 3975,
+    "city_name": "Златоклас",
+    "normalized_name": "zlatoklas",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 3999,
+    "city_name": "Змеица",
+    "normalized_name": "zmeitsa",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 4023,
+    "city_name": "Зърнево",
+    "normalized_name": "zarnevo",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 4033,
+    "city_name": "Ивайло",
+    "normalized_name": "ivaylo",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 10915,
+    "city_name": "Ивайловград",
+    "normalized_name": "ivaylovgrad_10915",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 4035,
+    "city_name": "Ивайловград",
+    "normalized_name": "ivaylovgrad",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 4049,
+    "city_name": "Иваново",
+    "normalized_name": "ivanovo",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 4061,
+    "city_name": "Ивански",
+    "normalized_name": "ivanski",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 4081,
+    "city_name": "Игнатиево",
+    "normalized_name": "ignatievo",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 4093,
+    "city_name": "Идилево",
+    "normalized_name": "idilevo",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 4103,
+    "city_name": "Извор",
+    "normalized_name": "izvor_4103",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 4141,
+    "city_name": "Изгрев",
+    "normalized_name": "izgrev_4141",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 4175,
+    "city_name": "Иново",
+    "normalized_name": "inovo",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 4191,
+    "city_name": "Искра",
+    "normalized_name": "iskra",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 4193,
+    "city_name": "Искрец",
+    "normalized_name": "iskrets",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 7035,
+    "city_name": "Искър",
+    "normalized_name": "iskar",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 10919,
+    "city_name": "Искър",
+    "normalized_name": "iskar_10919",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 4199,
+    "city_name": "Исперих",
+    "normalized_name": "isperih",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 4201,
+    "city_name": "Исперихово",
+    "normalized_name": "isperihovo",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 4205,
+    "city_name": "Ихтиман",
+    "normalized_name": "ihtiman",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 4215,
+    "city_name": "Йоаким Груево",
+    "normalized_name": "yoakim-gruevo",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 4231,
+    "city_name": "Йорданово",
+    "normalized_name": "yordanovo",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 4235,
+    "city_name": "Кабиле",
+    "normalized_name": "kabile",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 4237,
+    "city_name": "Каблешково",
+    "normalized_name": "kableshkovo",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 4241,
+    "city_name": "Каблешково",
+    "normalized_name": "kableshkovo_4241",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 4243,
+    "city_name": "Каварна",
+    "normalized_name": "kavarna",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 4247,
+    "city_name": "Кавракирово",
+    "normalized_name": "kavrakirovo",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 4261,
+    "city_name": "Казанлък",
+    "normalized_name": "kazanlak",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 4273,
+    "city_name": "Казичене",
+    "normalized_name": "kazichene",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 4275,
+    "city_name": "Кайнарджа",
+    "normalized_name": "kaynardzha",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 4281,
+    "city_name": "Калейца",
+    "normalized_name": "kaleytsa",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 4283,
+    "city_name": "Калековец",
+    "normalized_name": "kalekovets",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 5331,
+    "city_name": "Калипетрово",
+    "normalized_name": "kalipetrovo",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 4319,
+    "city_name": "Калофер",
+    "normalized_name": "kalofer",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 4325,
+    "city_name": "Калояново",
+    "normalized_name": "kaloyanovo",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 4327,
+    "city_name": "Калояново",
+    "normalized_name": "kaloyanovo_4327",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 4331,
+    "city_name": "Калугерене",
+    "normalized_name": "kalugerene",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 4345,
+    "city_name": "Камбурово",
+    "normalized_name": "kamburovo",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 4347,
+    "city_name": "Камен",
+    "normalized_name": "kamen",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 4349,
+    "city_name": "Камен",
+    "normalized_name": "kamen_4349",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 4357,
+    "city_name": "Каменар",
+    "normalized_name": "kamenar",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 4389,
+    "city_name": "Камено",
+    "normalized_name": "kameno",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 10871,
+    "city_name": "Камчия",
+    "normalized_name": "kamchiya_10871",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 4421,
+    "city_name": "Каолиново",
+    "normalized_name": "kaolinovo",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 4427,
+    "city_name": "Капитан Андреево",
+    "normalized_name": "kapitan-andreevo",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 4433,
+    "city_name": "Капитановци",
+    "normalized_name": "kapitanovtsi",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 4467,
+    "city_name": "Караманци",
+    "normalized_name": "karamantsi",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 4481,
+    "city_name": "Караново",
+    "normalized_name": "karanovo",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 4485,
+    "city_name": "Карапелит",
+    "normalized_name": "karapelit",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 4495,
+    "city_name": "Кардам",
+    "normalized_name": "kardam_4495",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 4497,
+    "city_name": "Кардам",
+    "normalized_name": "kardam",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 4501,
+    "city_name": "Карлово",
+    "normalized_name": "karlovo",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 4505,
+    "city_name": "Карлуково",
+    "normalized_name": "karlukovo",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 4507,
+    "city_name": "Карнобат",
+    "normalized_name": "karnobat",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 4515,
+    "city_name": "Каспичан",
+    "normalized_name": "kaspichan",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 4517,
+    "city_name": "Каспичан",
+    "normalized_name": "kaspichan_4517",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 4531,
+    "city_name": "Катуница",
+    "normalized_name": "katunitsa",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 4551,
+    "city_name": "Кермен",
+    "normalized_name": "kermen",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 4553,
+    "city_name": "Кесарево",
+    "normalized_name": "kesarevo",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 4559,
+    "city_name": "Киевци",
+    "normalized_name": "kievtsi",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 4561,
+    "city_name": "Килифарево",
+    "normalized_name": "kilifarevo",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 4563,
+    "city_name": "Кипилово",
+    "normalized_name": "kipilovo",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 4577,
+    "city_name": "Кирково",
+    "normalized_name": "kirkovo",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 4581,
+    "city_name": "Кирчево",
+    "normalized_name": "kirchevo",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 4595,
+    "city_name": "Китанчево",
+    "normalized_name": "kitanchevo",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 4597,
+    "city_name": "Китен",
+    "normalized_name": "kiten",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 4609,
+    "city_name": "Кичево",
+    "normalized_name": "kichevo",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 4623,
+    "city_name": "Кладница",
+    "normalized_name": "kladnitsa",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 4635,
+    "city_name": "Климент",
+    "normalized_name": "kliment_4635",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 4641,
+    "city_name": "Клисура",
+    "normalized_name": "klisura",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 4661,
+    "city_name": "Кнежа",
+    "normalized_name": "knezha",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 4663,
+    "city_name": "Книжовник",
+    "normalized_name": "knizhovnik",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 4677,
+    "city_name": "Ковачевец",
+    "normalized_name": "kovachevets",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 4683,
+    "city_name": "Ковачево",
+    "normalized_name": "kovachevo",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 4691,
+    "city_name": "Ковачите",
+    "normalized_name": "kovachite",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 4693,
+    "city_name": "Ковачица",
+    "normalized_name": "kovachitsa",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 4737,
+    "city_name": "Козловец",
+    "normalized_name": "kozlovets",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 4739,
+    "city_name": "Козлодуй",
+    "normalized_name": "kozloduy",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 4743,
+    "city_name": "Козма презвитер",
+    "normalized_name": "kozma-prezviter",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 4753,
+    "city_name": "Койнаре",
+    "normalized_name": "koynare",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 4757,
+    "city_name": "Кокаляне",
+    "normalized_name": "kokalyane",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 4769,
+    "city_name": "Коларово",
+    "normalized_name": "kolarovo",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 4777,
+    "city_name": "Коларци",
+    "normalized_name": "kolartsi",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 4787,
+    "city_name": "Колобър",
+    "normalized_name": "kolobar",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 4801,
+    "city_name": "Комощица",
+    "normalized_name": "komoschitsa",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 4805,
+    "city_name": "Комунига",
+    "normalized_name": "komuniga",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 4837,
+    "city_name": "Константин",
+    "normalized_name": "konstantin",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 4841,
+    "city_name": "Константиново",
+    "normalized_name": "konstantinovo",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 4849,
+    "city_name": "Конуш",
+    "normalized_name": "konush_4849",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 4853,
+    "city_name": "Коньово",
+    "normalized_name": "konovo",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 4855,
+    "city_name": "Коняво",
+    "normalized_name": "konyavo",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 4859,
+    "city_name": "Копиловци",
+    "normalized_name": "kopilovtsi",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 4873,
+    "city_name": "Копривщица",
+    "normalized_name": "koprivschitsa",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 4875,
+    "city_name": "Копринка",
+    "normalized_name": "koprinka",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 4891,
+    "city_name": "Кормянско",
+    "normalized_name": "kormyansko",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 4893,
+    "city_name": "Корница",
+    "normalized_name": "kornitsa",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 4895,
+    "city_name": "Кортен",
+    "normalized_name": "korten",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 4923,
+    "city_name": "Костандово",
+    "normalized_name": "kostandovo",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 4937,
+    "city_name": "Костенец",
+    "normalized_name": "kostenets_4937",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 4935,
+    "city_name": "Костенец",
+    "normalized_name": "kostenets",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 4945,
+    "city_name": "Костиево",
+    "normalized_name": "kostievo",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 4949,
+    "city_name": "Костинброд",
+    "normalized_name": "kostinbrod",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 4961,
+    "city_name": "Котел",
+    "normalized_name": "kotel",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 4971,
+    "city_name": "Кочан",
+    "normalized_name": "kochan",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 4977,
+    "city_name": "Кочериново",
+    "normalized_name": "kocherinovo",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 5005,
+    "city_name": "Краище",
+    "normalized_name": "kraische",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 5015,
+    "city_name": "Крайници",
+    "normalized_name": "kraynitsi",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 5025,
+    "city_name": "Кралев дол",
+    "normalized_name": "kralev-dol",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 5027,
+    "city_name": "Кралево",
+    "normalized_name": "kralevo",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 5033,
+    "city_name": "Крамолин",
+    "normalized_name": "kramolin",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 5037,
+    "city_name": "Кранево",
+    "normalized_name": "kranevo",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 5075,
+    "city_name": "Крепост",
+    "normalized_name": "krepost",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 5077,
+    "city_name": "Крепча",
+    "normalized_name": "krepcha",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 5091,
+    "city_name": "Крива бара",
+    "normalized_name": "kriva-bara",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 5099,
+    "city_name": "Кривина",
+    "normalized_name": "krivina",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 5113,
+    "city_name": "Криво поле",
+    "normalized_name": "krivo-pole",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 5109,
+    "city_name": "Криводол",
+    "normalized_name": "krivodol",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 5123,
+    "city_name": "Кричим",
+    "normalized_name": "krichim",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 5133,
+    "city_name": "Крумовград",
+    "normalized_name": "krumovgrad",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 5139,
+    "city_name": "Крумово",
+    "normalized_name": "krumovo",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 5141,
+    "city_name": "Крумово",
+    "normalized_name": "krumovo_5141",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 5149,
+    "city_name": "Крупник",
+    "normalized_name": "krupnik",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 5155,
+    "city_name": "Крушаре",
+    "normalized_name": "krushare",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 5157,
+    "city_name": "Крушари",
+    "normalized_name": "krushari",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 5165,
+    "city_name": "Крушево",
+    "normalized_name": "krushevo_5165",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 5177,
+    "city_name": "Крушовица",
+    "normalized_name": "krushovitsa",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 5191,
+    "city_name": "Кръвеник",
+    "normalized_name": "kravenik",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 5193,
+    "city_name": "Крън",
+    "normalized_name": "kran",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 5215,
+    "city_name": "Кубрат",
+    "normalized_name": "kubrat",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 5223,
+    "city_name": "Куклен",
+    "normalized_name": "kuklen",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 5227,
+    "city_name": "Кукорево",
+    "normalized_name": "kukorevo",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 5235,
+    "city_name": "Кула",
+    "normalized_name": "kula",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 5259,
+    "city_name": "Куртово Конаре",
+    "normalized_name": "kurtovo-konare",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 5347,
+    "city_name": "Кутово",
+    "normalized_name": "kutovo",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 5281,
+    "city_name": "Кънчево",
+    "normalized_name": "kanchevo",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 5289,
+    "city_name": "Кърджали",
+    "normalized_name": "kardzhali",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 10891,
+    "city_name": "Кърджали",
+    "normalized_name": "kardzhali_10891",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 5291,
+    "city_name": "Кърналово",
+    "normalized_name": "karnalovo",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 5309,
+    "city_name": "Късак",
+    "normalized_name": "kasak",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 5325,
+    "city_name": "Кюстендил",
+    "normalized_name": "kyustendil",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 5389,
+    "city_name": "Левски",
+    "normalized_name": "levski",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 5407,
+    "city_name": "Лесидрен",
+    "normalized_name": "lesidren",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 5431,
+    "city_name": "Лесново",
+    "normalized_name": "lesnovo",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 5433,
+    "city_name": "Лесово",
+    "normalized_name": "lesovo",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 5437,
+    "city_name": "Летница",
+    "normalized_name": "letnitsa",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 5445,
+    "city_name": "Лехчево",
+    "normalized_name": "lehchevo",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 5475,
+    "city_name": "Лиляк",
+    "normalized_name": "lilyak",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 5515,
+    "city_name": "Литаково",
+    "normalized_name": "litakovo",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 5525,
+    "city_name": "Ловеч",
+    "normalized_name": "lovech",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 5527,
+    "city_name": "Ловнидол",
+    "normalized_name": "lovnidol",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 5531,
+    "city_name": "Ловчанци",
+    "normalized_name": "lovchantsi",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 5543,
+    "city_name": "Лозен",
+    "normalized_name": "lozen",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 5551,
+    "city_name": "Лозенец",
+    "normalized_name": "lozenets_5551",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 5553,
+    "city_name": "Лозенец",
+    "normalized_name": "lozenets",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 5561,
+    "city_name": "Лозница",
+    "normalized_name": "loznitsa",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 5565,
+    "city_name": "Лозно",
+    "normalized_name": "lozno",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 5571,
+    "city_name": "Лом",
+    "normalized_name": "lom",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 5581,
+    "city_name": "Ломци",
+    "normalized_name": "lomtsi",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 3391,
+    "city_name": "Лудогорци",
+    "normalized_name": "ludogortsi",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 5589,
+    "city_name": "Луковит",
+    "normalized_name": "lukovit",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 5595,
+    "city_name": "Лъвино",
+    "normalized_name": "lavino",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 5603,
+    "city_name": "Лъжница",
+    "normalized_name": "lazhnitsa",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 5613,
+    "city_name": "Лъки",
+    "normalized_name": "laki",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 5617,
+    "city_name": "Любен",
+    "normalized_name": "lyuben",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 5621,
+    "city_name": "Любен Каравелово",
+    "normalized_name": "lyuben-karavelovo",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 5633,
+    "city_name": "Любимец",
+    "normalized_name": "lyubimets",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 5647,
+    "city_name": "Любча",
+    "normalized_name": "lyubcha",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 5649,
+    "city_name": "Люлин",
+    "normalized_name": "lyulin",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 5657,
+    "city_name": "Люляково",
+    "normalized_name": "lyulyakovo",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 5661,
+    "city_name": "Люляково",
+    "normalized_name": "lyulyakovo_5661",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 5675,
+    "city_name": "Лясковец",
+    "normalized_name": "lyaskovets",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 5681,
+    "city_name": "Лясково",
+    "normalized_name": "lyaskovo_5681",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 5685,
+    "city_name": "Лясково",
+    "normalized_name": "lyaskovo",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 5705,
+    "city_name": "Мадан",
+    "normalized_name": "madan",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 5707,
+    "city_name": "Мадара",
+    "normalized_name": "madara",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 5713,
+    "city_name": "Маджарово",
+    "normalized_name": "madzharovo",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 5727,
+    "city_name": "Макариополско",
+    "normalized_name": "makariopolsko",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 5745,
+    "city_name": "Малево",
+    "normalized_name": "malevo",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 5795,
+    "city_name": "Малко градище",
+    "normalized_name": "malko-gradische",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 5813,
+    "city_name": "Малко Търново",
+    "normalized_name": "malko-tarnovo",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 5825,
+    "city_name": "Мало Конаре",
+    "normalized_name": "malo-konare",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 5833,
+    "city_name": "Маломир",
+    "normalized_name": "malomir",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 5839,
+    "city_name": "Малорад",
+    "normalized_name": "malorad",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 5891,
+    "city_name": "Маноле",
+    "normalized_name": "manole",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 5925,
+    "city_name": "Марково",
+    "normalized_name": "markovo",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 5933,
+    "city_name": "Мартен",
+    "normalized_name": "marten",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 5975,
+    "city_name": "Медковец",
+    "normalized_name": "medkovets",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 5981,
+    "city_name": "Медовец",
+    "normalized_name": "medovets",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 5983,
+    "city_name": "Медовина",
+    "normalized_name": "medovina",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 5995,
+    "city_name": "Межден",
+    "normalized_name": "mezhden",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 5999,
+    "city_name": "Мездра",
+    "normalized_name": "mezdra",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 6005,
+    "city_name": "Мелник",
+    "normalized_name": "melnik",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 6021,
+    "city_name": "Меричлери",
+    "normalized_name": "merichleri",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 6053,
+    "city_name": "Мещица",
+    "normalized_name": "meschitsa",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 6055,
+    "city_name": "Мизия",
+    "normalized_name": "miziya",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 6345,
+    "city_name": "Микрево",
+    "normalized_name": "mikrevo",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 6083,
+    "city_name": "Милковица",
+    "normalized_name": "milkovitsa",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 6099,
+    "city_name": "Минерални бани",
+    "normalized_name": "mineralni-bani",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 6103,
+    "city_name": "Мирково",
+    "normalized_name": "mirkovo",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 6117,
+    "city_name": "Мировяне",
+    "normalized_name": "mirovyane",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 6133,
+    "city_name": "Михайлово",
+    "normalized_name": "mihaylovo",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 6171,
+    "city_name": "Мламолово",
+    "normalized_name": "mlamolovo",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 6201,
+    "city_name": "Мокрище",
+    "normalized_name": "mokrische",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 6349,
+    "city_name": "Момин проход",
+    "normalized_name": "momin-prohod",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 6217,
+    "city_name": "Момково",
+    "normalized_name": "momkovo",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 6221,
+    "city_name": "Момчилград",
+    "normalized_name": "momchilgrad",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 6225,
+    "city_name": "Момчиловци",
+    "normalized_name": "momchilovtsi",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 6131,
+    "city_name": "Монтана",
+    "normalized_name": "montana",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 6239,
+    "city_name": "Мортагоново",
+    "normalized_name": "mortagonovo",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 6245,
+    "city_name": "Мост",
+    "normalized_name": "most",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 6259,
+    "city_name": "Мрамор",
+    "normalized_name": "mramor",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 6305,
+    "city_name": "Мусомища",
+    "normalized_name": "musomischa",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 6317,
+    "city_name": "Мъглиж",
+    "normalized_name": "maglizh",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 6335,
+    "city_name": "Мърчаево",
+    "normalized_name": "marchaevo",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 6387,
+    "city_name": "Невестино",
+    "normalized_name": "nevestino",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 6391,
+    "city_name": "Негован",
+    "normalized_name": "negovan",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 6393,
+    "city_name": "Неговановци",
+    "normalized_name": "negovanovtsi",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 6399,
+    "city_name": "Недан",
+    "normalized_name": "nedan",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 6403,
+    "city_name": "Неделино",
+    "normalized_name": "nedelino",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 6439,
+    "city_name": "Несебър",
+    "normalized_name": "nesebar",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 6463,
+    "city_name": "Николаево",
+    "normalized_name": "nikolaevo",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 6469,
+    "city_name": "Николово",
+    "normalized_name": "nikolovo",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 6479,
+    "city_name": "Никопол",
+    "normalized_name": "nikopol",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 6493,
+    "city_name": "Нова Загора",
+    "normalized_name": "nova-zagora",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 6507,
+    "city_name": "Нова махала",
+    "normalized_name": "nova-mahala",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 6521,
+    "city_name": "Нова Черна",
+    "normalized_name": "nova-cherna",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 65,
+    "city_name": "Нови Искър",
+    "normalized_name": "novi-iskar",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 6531,
+    "city_name": "Нови пазар",
+    "normalized_name": "novi-pazar",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 6533,
+    "city_name": "Нови хан",
+    "normalized_name": "novi-han",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 6565,
+    "city_name": "Ново село",
+    "normalized_name": "novo-selo_6565",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 6571,
+    "city_name": "Ново село",
+    "normalized_name": "novo-selo",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 6573,
+    "city_name": "Ново село",
+    "normalized_name": "novo-selo_6573",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 6581,
+    "city_name": "Новоселци",
+    "normalized_name": "novoseltsi",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 6589,
+    "city_name": "Ноевци",
+    "normalized_name": "noevtsi",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 6609,
+    "city_name": "Обзор",
+    "normalized_name": "obzor",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 6613,
+    "city_name": "Обител",
+    "normalized_name": "obitel",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 6617,
+    "city_name": "Обнова",
+    "normalized_name": "obnova",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 6623,
+    "city_name": "Обретеник",
+    "normalized_name": "obretenik",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 6625,
+    "city_name": "Оброчище",
+    "normalized_name": "obrochische",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 6627,
+    "city_name": "Обручище",
+    "normalized_name": "obruchische",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 6629,
+    "city_name": "Овен",
+    "normalized_name": "oven",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 6635,
+    "city_name": "Овощник",
+    "normalized_name": "ovoschnik",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 6639,
+    "city_name": "Овча могила",
+    "normalized_name": "ovcha-mogila",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 6645,
+    "city_name": "Овчарово",
+    "normalized_name": "ovcharovo",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 6651,
+    "city_name": "Овчарци",
+    "normalized_name": "ovchartsi",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 6665,
+    "city_name": "Огняново",
+    "normalized_name": "ognyanovo_6665",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 6667,
+    "city_name": "Огняново",
+    "normalized_name": "ognyanovo",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 6689,
+    "city_name": "Одърци",
+    "normalized_name": "odartsi",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 6695,
+    "city_name": "Окоп",
+    "normalized_name": "okop",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 6697,
+    "city_name": "Окорш",
+    "normalized_name": "okorsh",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 6705,
+    "city_name": "Омуртаг",
+    "normalized_name": "omurtag",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 6709,
+    "city_name": "Опака",
+    "normalized_name": "opaka",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 6713,
+    "city_name": "Опанец",
+    "normalized_name": "opanets",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 6723,
+    "city_name": "Опълченско",
+    "normalized_name": "opalchensko",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 6731,
+    "city_name": "Ореш",
+    "normalized_name": "oresh",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 6735,
+    "city_name": "Орешак",
+    "normalized_name": "oreshak",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 6755,
+    "city_name": "Орешник",
+    "normalized_name": "oreshnik",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 6759,
+    "city_name": "Оризаре",
+    "normalized_name": "orizare",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 6765,
+    "city_name": "Оризово",
+    "normalized_name": "orizovo",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 6781,
+    "city_name": "Орляк",
+    "normalized_name": "orlyak",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 6791,
+    "city_name": "Оряховец",
+    "normalized_name": "oryahovets",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 6795,
+    "city_name": "Оряхово",
+    "normalized_name": "oryahovo",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 6857,
+    "city_name": "Остров",
+    "normalized_name": "ostrov",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 6863,
+    "city_name": "Острово",
+    "normalized_name": "ostrovo",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 6895,
+    "city_name": "Павел баня",
+    "normalized_name": "pavel-banya",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 6897,
+    "city_name": "Павелско",
+    "normalized_name": "pavelsko",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 6901,
+    "city_name": "Павликени",
+    "normalized_name": "pavlikeni",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 6913,
+    "city_name": "Падина",
+    "normalized_name": "padina",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 6919,
+    "city_name": "Пазарджик",
+    "normalized_name": "pazardzhik",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 10907,
+    "city_name": "Пампорово",
+    "normalized_name": "pamporovo",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 6945,
+    "city_name": "Памукчии",
+    "normalized_name": "pamukchii",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 6947,
+    "city_name": "Панагюрище",
+    "normalized_name": "panagyurische",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 3143,
+    "city_name": "Паничерево",
+    "normalized_name": "panicherevo",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 6967,
+    "city_name": "Панчарево",
+    "normalized_name": "pancharevo",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 6979,
+    "city_name": "Партизани",
+    "normalized_name": "partizani",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 6987,
+    "city_name": "Паскалево",
+    "normalized_name": "paskalevo",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 7031,
+    "city_name": "Пелин",
+    "normalized_name": "pelin",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 7049,
+    "city_name": "Перник",
+    "normalized_name": "pernik",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 7051,
+    "city_name": "Перперек",
+    "normalized_name": "perperek",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 7055,
+    "city_name": "Перущица",
+    "normalized_name": "peruschitsa",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 7083,
+    "city_name": "Пет могили",
+    "normalized_name": "pet-mogili",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 8275,
+    "city_name": "Петко Каравелово",
+    "normalized_name": "petko-karavelovo",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 7075,
+    "city_name": "Петко Славейков",
+    "normalized_name": "petko-slaveykov",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 7093,
+    "city_name": "Петрич",
+    "normalized_name": "petrich",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 7109,
+    "city_name": "Петърч",
+    "normalized_name": "petarch",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 7119,
+    "city_name": "Пещера",
+    "normalized_name": "peschera",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 7139,
+    "city_name": "Пиперков чифлик",
+    "normalized_name": "piperkov-chiflik",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 7143,
+    "city_name": "Пиргово",
+    "normalized_name": "pirgovo",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 7145,
+    "city_name": "Пирдоп",
+    "normalized_name": "pirdop",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 7187,
+    "city_name": "Планиница",
+    "normalized_name": "planinitsa",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 7197,
+    "city_name": "Плачидол",
+    "normalized_name": "plachidol",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 7201,
+    "city_name": "Плачковци",
+    "normalized_name": "plachkovtsi",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 7203,
+    "city_name": "Плевен",
+    "normalized_name": "pleven",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 7207,
+    "city_name": "Плетена",
+    "normalized_name": "pletena",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 7213,
+    "city_name": "Плиска",
+    "normalized_name": "pliska",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 7215,
+    "city_name": "Пловдив",
+    "normalized_name": "plovdiv",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 7229,
+    "city_name": "Плъстина",
+    "normalized_name": "plastina",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 2823,
+    "city_name": "Победа",
+    "normalized_name": "pobeda",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 7233,
+    "city_name": "Победа",
+    "normalized_name": "pobeda_7233",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 7245,
+    "city_name": "Подайва",
+    "normalized_name": "podayva",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 7257,
+    "city_name": "Подгорица",
+    "normalized_name": "podgoritsa",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 7283,
+    "city_name": "Покрайна",
+    "normalized_name": "pokrayna",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 7299,
+    "city_name": "Поликраище",
+    "normalized_name": "polikraische",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 7303,
+    "city_name": "Полковник Желязово",
+    "normalized_name": "polkovnik-zhelyazovo",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 7325,
+    "city_name": "Полски Тръмбеш",
+    "normalized_name": "polski-trambesh",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 7327,
+    "city_name": "Полско Косово",
+    "normalized_name": "polsko-kosovo",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 7351,
+    "city_name": "Поморие",
+    "normalized_name": "pomorie",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 7365,
+    "city_name": "Попгруево",
+    "normalized_name": "popgruevo",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 7369,
+    "city_name": "Попинци",
+    "normalized_name": "popintsi",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 7371,
+    "city_name": "Попица",
+    "normalized_name": "popitsa",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 7381,
+    "city_name": "Попово",
+    "normalized_name": "popovo",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 7387,
+    "city_name": "Поповци",
+    "normalized_name": "popovtsi",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 7407,
+    "city_name": "Пордим",
+    "normalized_name": "pordim",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 7413,
+    "city_name": "Поройно",
+    "normalized_name": "poroyno",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 7445,
+    "city_name": "Правда",
+    "normalized_name": "pravda",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 7453,
+    "city_name": "Правец",
+    "normalized_name": "pravets",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 7515,
+    "city_name": "Приморско",
+    "normalized_name": "primorsko",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 7521,
+    "city_name": "Припек",
+    "normalized_name": "pripek",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 7543,
+    "city_name": "Провадия",
+    "normalized_name": "provadiya",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 7577,
+    "city_name": "Професор Иширково",
+    "normalized_name": "profesor-ishirkovo",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 10901,
+    "city_name": "Пчелина",
+    "normalized_name": "pchelina_10901",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 7617,
+    "city_name": "Пчелник",
+    "normalized_name": "pchelnik",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 7627,
+    "city_name": "Пъдарино",
+    "normalized_name": "padarino",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 7637,
+    "city_name": "Първенец",
+    "normalized_name": "parvenets",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 7645,
+    "city_name": "Първомай",
+    "normalized_name": "parvomay_7645",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 7647,
+    "city_name": "Първомай",
+    "normalized_name": "parvomay",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 7649,
+    "city_name": "Първомайци",
+    "normalized_name": "parvomaytsi",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 7703,
+    "city_name": "Равда",
+    "normalized_name": "ravda",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 7745,
+    "city_name": "Раданово",
+    "normalized_name": "radanovo",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 7759,
+    "city_name": "Радиево",
+    "normalized_name": "radievo",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 7777,
+    "city_name": "Раднево",
+    "normalized_name": "radnevo",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 7793,
+    "city_name": "Радомир",
+    "normalized_name": "radomir",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 7819,
+    "city_name": "Разград",
+    "normalized_name": "razgrad",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 7837,
+    "city_name": "Разлог",
+    "normalized_name": "razlog",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 7869,
+    "city_name": "Ракитово",
+    "normalized_name": "rakitovo",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 7881,
+    "city_name": "Раковски",
+    "normalized_name": "rakovski",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 7883,
+    "city_name": "Раковски",
+    "normalized_name": "rakovski_7883",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 7909,
+    "city_name": "Расово",
+    "normalized_name": "rasovo",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 7967,
+    "city_name": "Ресен",
+    "normalized_name": "resen",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 7969,
+    "city_name": "Ресилово",
+    "normalized_name": "resilovo",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 7977,
+    "city_name": "Рибарица",
+    "normalized_name": "ribaritsa",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 7991,
+    "city_name": "Рибново",
+    "normalized_name": "ribnovo",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 7997,
+    "city_name": "Рила",
+    "normalized_name": "rila",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 8041,
+    "city_name": "Роза",
+    "normalized_name": "roza",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 8053,
+    "city_name": "Роман",
+    "normalized_name": "roman",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 8085,
+    "city_name": "Рударци",
+    "normalized_name": "rudartsi",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 8091,
+    "city_name": "Рудник",
+    "normalized_name": "rudnik",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 8095,
+    "city_name": "Рудозем",
+    "normalized_name": "rudozem",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 8099,
+    "city_name": "Руен",
+    "normalized_name": "ruen",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 8103,
+    "city_name": "Руец",
+    "normalized_name": "ruets",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 8105,
+    "city_name": "Ружинци",
+    "normalized_name": "ruzhintsi",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 8137,
+    "city_name": "Русе",
+    "normalized_name": "ruse",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 8177,
+    "city_name": "Ряхово",
+    "normalized_name": "ryahovo",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 8179,
+    "city_name": "Ряховците",
+    "normalized_name": "ryahovtsite",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 8197,
+    "city_name": "Садина",
+    "normalized_name": "sadina",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 8199,
+    "city_name": "Садовец",
+    "normalized_name": "sadovets",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 8225,
+    "city_name": "Самоводене",
+    "normalized_name": "samovodene",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 8231,
+    "city_name": "Самоков",
+    "normalized_name": "samokov",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 8233,
+    "city_name": "Самораново",
+    "normalized_name": "samoranovo",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 8239,
+    "city_name": "Самуил",
+    "normalized_name": "samuil",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 8245,
+    "city_name": "Самуилово",
+    "normalized_name": "samuilovo",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 8251,
+    "city_name": "Сандански",
+    "normalized_name": "sandanski",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 8253,
+    "city_name": "Сандрово",
+    "normalized_name": "sandrovo",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 8257,
+    "city_name": "Сапарева баня",
+    "normalized_name": "sapareva-banya",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 8259,
+    "city_name": "Сапарево",
+    "normalized_name": "saparevo",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 8269,
+    "city_name": "Сатовча",
+    "normalized_name": "satovcha",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 8279,
+    "city_name": "Сборище",
+    "normalized_name": "sborische",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 10875,
+    "city_name": "Св.Св. Константин и Елена",
+    "normalized_name": "sv.sv.-konstantin-i-elena",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 8287,
+    "city_name": "Света Петка",
+    "normalized_name": "sveta-petka",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 8291,
+    "city_name": "Светлен",
+    "normalized_name": "svetlen",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 8301,
+    "city_name": "Световрачене",
+    "normalized_name": "svetovrachene",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 8315,
+    "city_name": "Свиленград",
+    "normalized_name": "svilengrad",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 8327,
+    "city_name": "Свищов",
+    "normalized_name": "svischov",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 8345,
+    "city_name": "Своге",
+    "normalized_name": "svoge",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 8349,
+    "city_name": "Севар",
+    "normalized_name": "sevar",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 8357,
+    "city_name": "Севлиево",
+    "normalized_name": "sevlievo",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 9233,
+    "city_name": "Селановци",
+    "normalized_name": "selanovtsi",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 8381,
+    "city_name": "Селиминово",
+    "normalized_name": "seliminovo",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 8397,
+    "city_name": "Селча",
+    "normalized_name": "selcha",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 8409,
+    "city_name": "Семчиново",
+    "normalized_name": "semchinovo",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 8411,
+    "city_name": "Сенник",
+    "normalized_name": "sennik",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 8413,
+    "city_name": "Сеново",
+    "normalized_name": "senovo",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 8419,
+    "city_name": "Сенокос",
+    "normalized_name": "senokos",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 8421,
+    "city_name": "Септември",
+    "normalized_name": "septemvri",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 2211,
+    "city_name": "Септемврийци",
+    "normalized_name": "septemvriytsi",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 8449,
+    "city_name": "Силистра",
+    "normalized_name": "silistra",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 5923,
+    "city_name": "Симеоновград",
+    "normalized_name": "simeonovgrad",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 8457,
+    "city_name": "Симитли",
+    "normalized_name": "simitli",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 8473,
+    "city_name": "Синитово",
+    "normalized_name": "sinitovo",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 8509,
+    "city_name": "Скалица",
+    "normalized_name": "skalitsa",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 8535,
+    "city_name": "Скравена",
+    "normalized_name": "skravena",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 8573,
+    "city_name": "Славяново",
+    "normalized_name": "slavyanovo",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 8575,
+    "city_name": "Славяново",
+    "normalized_name": "slavyanovo_8575",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 8595,
+    "city_name": "Сланотрън",
+    "normalized_name": "slanotran",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 8609,
+    "city_name": "Слащен",
+    "normalized_name": "slaschen",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 8621,
+    "city_name": "Сливен",
+    "normalized_name": "sliven",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 8629,
+    "city_name": "Сливница",
+    "normalized_name": "slivnitsa",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 8643,
+    "city_name": "Сливо поле",
+    "normalized_name": "slivo-pole",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 8647,
+    "city_name": "Слокощица",
+    "normalized_name": "slokoschitsa",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 10863,
+    "city_name": "Слънчев бряг",
+    "normalized_name": "slanchev-bryag",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 10879,
+    "city_name": "Слънчев ден",
+    "normalized_name": "slanchev-den",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 8663,
+    "city_name": "Смилян",
+    "normalized_name": "smilyan",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 8669,
+    "city_name": "Смирненски",
+    "normalized_name": "smirnenski",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 8683,
+    "city_name": "Смолян",
+    "normalized_name": "smolyan",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 8691,
+    "city_name": "Смядово",
+    "normalized_name": "smyadovo",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 8707,
+    "city_name": "Соволяно",
+    "normalized_name": "sovolyano",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 8709,
+    "city_name": "Созопол",
+    "normalized_name": "sozopol",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 10895,
+    "city_name": "Сопот",
+    "normalized_name": "sopot_10895",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 8761,
+    "city_name": "Сопот",
+    "normalized_name": "sopot",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 8767,
+    "city_name": "Сотиря",
+    "normalized_name": "sotirya",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 8771,
+    "city_name": "София",
+    "normalized_name": "sofiya",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 8773,
+    "city_name": "Софрониево",
+    "normalized_name": "sofronievo",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 2531,
+    "city_name": "Средец",
+    "normalized_name": "sredets",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 8807,
+    "city_name": "Средище",
+    "normalized_name": "sredische",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 8849,
+    "city_name": "Ставерци",
+    "normalized_name": "stavertsi",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 8863,
+    "city_name": "Сталийска махала",
+    "normalized_name": "staliyska-mahala",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 6527,
+    "city_name": "Стамболийски",
+    "normalized_name": "stamboliyski",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 8897,
+    "city_name": "Стара Загора",
+    "normalized_name": "stara-zagora",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 8919,
+    "city_name": "Старо Оряхово",
+    "normalized_name": "staro-oryahovo",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 8939,
+    "city_name": "Старцево",
+    "normalized_name": "startsevo",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 8959,
+    "city_name": "Стефан Караджово",
+    "normalized_name": "stefan-karadzhovo",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 8971,
+    "city_name": "Стоб",
+    "normalized_name": "stob",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 8979,
+    "city_name": "Стожер",
+    "normalized_name": "stozher",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 9249,
+    "city_name": "Стражец",
+    "normalized_name": "strazhets",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 9035,
+    "city_name": "Стражица",
+    "normalized_name": "strazhitsa",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 9041,
+    "city_name": "Стралджа",
+    "normalized_name": "straldzha",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 9075,
+    "city_name": "Стрелча",
+    "normalized_name": "strelcha",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 10893,
+    "city_name": "Студен Кладенец",
+    "normalized_name": "studen-kladenets_10893",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 9111,
+    "city_name": "Студена",
+    "normalized_name": "studena",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 9135,
+    "city_name": "Суворово",
+    "normalized_name": "suvorovo",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 9147,
+    "city_name": "Сунгурларе",
+    "normalized_name": "sungurlare",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 9157,
+    "city_name": "Сухиндол",
+    "normalized_name": "suhindol",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 9195,
+    "city_name": "Съединение",
+    "normalized_name": "saedinenie",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 9219,
+    "city_name": "Сърница",
+    "normalized_name": "sarnitsa",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 9281,
+    "city_name": "Твърдица",
+    "normalized_name": "tvarditsa",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 9297,
+    "city_name": "Тенево",
+    "normalized_name": "tenevo",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 9303,
+    "city_name": "Тервел",
+    "normalized_name": "tervel",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 9315,
+    "city_name": "Тетевен",
+    "normalized_name": "teteven",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 9317,
+    "city_name": "Тетово",
+    "normalized_name": "tetovo",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 9335,
+    "city_name": "Тихомир",
+    "normalized_name": "tihomir",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 10917,
+    "city_name": "Тича",
+    "normalized_name": "ticha_10917",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 9351,
+    "city_name": "Тодор Икономово",
+    "normalized_name": "todor-ikonomovo",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 9381,
+    "city_name": "Тополи",
+    "normalized_name": "topoli",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 9393,
+    "city_name": "Тополовград",
+    "normalized_name": "topolovgrad",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 9403,
+    "city_name": "Тополчане",
+    "normalized_name": "topolchane",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 5359,
+    "city_name": "Торос",
+    "normalized_name": "toros",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 9469,
+    "city_name": "Троян",
+    "normalized_name": "troyan",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 9479,
+    "city_name": "Трудовец",
+    "normalized_name": "trudovets",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 9483,
+    "city_name": "Трън",
+    "normalized_name": "tran",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 9499,
+    "city_name": "Тръстеник",
+    "normalized_name": "trastenik",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 9501,
+    "city_name": "Тръстеник",
+    "normalized_name": "trastenik_9501",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 9509,
+    "city_name": "Трявна",
+    "normalized_name": "tryavna",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 9527,
+    "city_name": "Тутракан",
+    "normalized_name": "tutrakan",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 9553,
+    "city_name": "Търговище",
+    "normalized_name": "targovische",
+    "region_id": 25,
+    "region_name": "Област Търговище"
+  },
+  {
+    "city_id": 9557,
+    "city_name": "Търнава",
+    "normalized_name": "tarnava",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 9561,
+    "city_name": "Търнак",
+    "normalized_name": "tarnak",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 9609,
+    "city_name": "Угърчин",
+    "normalized_name": "ugarchin",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 9613,
+    "city_name": "Узунджово",
+    "normalized_name": "uzundzhovo",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 9685,
+    "city_name": "Хаджидимитрово",
+    "normalized_name": "hadzhidimitrovo",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 9687,
+    "city_name": "Хаджидимитрово",
+    "normalized_name": "hadzhidimitrovo_9687",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 9691,
+    "city_name": "Хаджидимово",
+    "normalized_name": "hadzhidimovo",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 9699,
+    "city_name": "Хайредин",
+    "normalized_name": "hayredin",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 9705,
+    "city_name": "Ханово",
+    "normalized_name": "hanovo",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 9711,
+    "city_name": "Харманли",
+    "normalized_name": "harmanli",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 9713,
+    "city_name": "Хасково",
+    "normalized_name": "haskovo",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 9729,
+    "city_name": "Хисаря",
+    "normalized_name": "hisarya",
+    "region_id": 16,
+    "region_name": "Област Пловдив"
+  },
+  {
+    "city_id": 9767,
+    "city_name": "Хрищени",
+    "normalized_name": "hrischeni",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 9779,
+    "city_name": "Хърлец",
+    "normalized_name": "harlets",
+    "region_id": 6,
+    "region_name": "Област Враца"
+  },
+  {
+    "city_id": 9733,
+    "city_name": "Цар Калоян",
+    "normalized_name": "tsar-kaloyan",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 9833,
+    "city_name": "Цар Самуил",
+    "normalized_name": "tsar-samuil",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 9807,
+    "city_name": "Царев брод",
+    "normalized_name": "tsarev-brod",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 1765,
+    "city_name": "Царева ливада",
+    "normalized_name": "tsareva-livada",
+    "region_id": 7,
+    "region_name": "Област Габрово"
+  },
+  {
+    "city_id": 9811,
+    "city_name": "Царевец",
+    "normalized_name": "tsarevets",
+    "region_id": 4,
+    "region_name": "Област Велико Търново"
+  },
+  {
+    "city_id": 6155,
+    "city_name": "Царево",
+    "normalized_name": "tsarevo",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 9859,
+    "city_name": "Ценово",
+    "normalized_name": "tsenovo",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 9883,
+    "city_name": "Церово",
+    "normalized_name": "tserovo",
+    "region_id": 23,
+    "region_name": "Област София-област"
+  },
+  {
+    "city_id": 9889,
+    "city_name": "Цонево",
+    "normalized_name": "tsonevo",
+    "region_id": 3,
+    "region_name": "Област Варна"
+  },
+  {
+    "city_id": 9935,
+    "city_name": "Чакаларово",
+    "normalized_name": "chakalarovo",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 9957,
+    "city_name": "Чарган",
+    "normalized_name": "chargan",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 9985,
+    "city_name": "Чепеларе",
+    "normalized_name": "chepelare",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 9989,
+    "city_name": "Чепинци",
+    "normalized_name": "chepintsi_9989",
+    "region_id": 21,
+    "region_name": "Област Смолян"
+  },
+  {
+    "city_id": 9991,
+    "city_name": "Чепинци",
+    "normalized_name": "chepintsi",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 10009,
+    "city_name": "Червен брег",
+    "normalized_name": "cherven-breg",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 10011,
+    "city_name": "Червен бряг",
+    "normalized_name": "cherven-bryag",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 10003,
+    "city_name": "Червена вода",
+    "normalized_name": "chervena-voda",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 10063,
+    "city_name": "Черна гора",
+    "normalized_name": "cherna-gora",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 10267,
+    "city_name": "Черник",
+    "normalized_name": "chernik",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 10127,
+    "city_name": "Черно море",
+    "normalized_name": "cherno-more",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 10111,
+    "city_name": "Черногорово",
+    "normalized_name": "chernogorovo",
+    "region_id": 13,
+    "region_name": "Област Пазарджик"
+  },
+  {
+    "city_id": 10125,
+    "city_name": "Чернолик",
+    "normalized_name": "chernolik",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 10129,
+    "city_name": "Черноморец",
+    "normalized_name": "chernomorets",
+    "region_id": 2,
+    "region_name": "Област Бургас"
+  },
+  {
+    "city_id": 10167,
+    "city_name": "Чинтулово",
+    "normalized_name": "chintulovo",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 10169,
+    "city_name": "Чипровци",
+    "normalized_name": "chiprovtsi",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 10173,
+    "city_name": "Чирпан",
+    "normalized_name": "chirpan",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 10199,
+    "city_name": "Чорбаджийско",
+    "normalized_name": "chorbadzhiysko",
+    "region_id": 9,
+    "region_name": "Област Кърджали"
+  },
+  {
+    "city_id": 10235,
+    "city_name": "Чупрене",
+    "normalized_name": "chuprene",
+    "region_id": 5,
+    "region_name": "Област Видин"
+  },
+  {
+    "city_id": 10271,
+    "city_name": "Шабла",
+    "normalized_name": "shabla",
+    "region_id": 8,
+    "region_name": "Област Добрич"
+  },
+  {
+    "city_id": 10283,
+    "city_name": "Шейново",
+    "normalized_name": "sheynovo",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 2163,
+    "city_name": "Шивачево",
+    "normalized_name": "shivachevo",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 10297,
+    "city_name": "Шипка",
+    "normalized_name": "shipka",
+    "region_id": 24,
+    "region_name": "Област Стара Загора"
+  },
+  {
+    "city_id": 10353,
+    "city_name": "Шумен",
+    "normalized_name": "shumen",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 10369,
+    "city_name": "Щръклево",
+    "normalized_name": "schraklevo",
+    "region_id": 18,
+    "region_name": "Област Русе"
+  },
+  {
+    "city_id": 10925,
+    "city_name": "Щъркелово гнездо",
+    "normalized_name": "scharkelovo-gnezdo",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 10397,
+    "city_name": "Ябланица",
+    "normalized_name": "yablanitsa",
+    "region_id": 11,
+    "region_name": "Област Ловеч"
+  },
+  {
+    "city_id": 10401,
+    "city_name": "Ябланово",
+    "normalized_name": "yablanovo",
+    "region_id": 20,
+    "region_name": "Област Сливен"
+  },
+  {
+    "city_id": 10405,
+    "city_name": "Ябълково",
+    "normalized_name": "yabalkovo_10405",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  },
+  {
+    "city_id": 10407,
+    "city_name": "Ябълково",
+    "normalized_name": "yabalkovo",
+    "region_id": 26,
+    "region_name": "Област Хасково"
+  },
+  {
+    "city_id": 10445,
+    "city_name": "Якимово",
+    "normalized_name": "yakimovo",
+    "region_id": 12,
+    "region_name": "Област Монтана"
+  },
+  {
+    "city_id": 10453,
+    "city_name": "Якоруда",
+    "normalized_name": "yakoruda",
+    "region_id": 1,
+    "region_name": "Област Благоевград"
+  },
+  {
+    "city_id": 10459,
+    "city_name": "Ямбол",
+    "normalized_name": "yambol",
+    "region_id": 28,
+    "region_name": "Област Ямбол"
+  },
+  {
+    "city_id": 10465,
+    "city_name": "Яна",
+    "normalized_name": "yana",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 10481,
+    "city_name": "Ярджиловци",
+    "normalized_name": "yardzhilovtsi",
+    "region_id": 14,
+    "region_name": "Област Перник"
+  },
+  {
+    "city_id": 10485,
+    "city_name": "Яребица",
+    "normalized_name": "yarebitsa",
+    "region_id": 19,
+    "region_name": "Област Силистра"
+  },
+  {
+    "city_id": 10921,
+    "city_name": "Ярема",
+    "normalized_name": "yarema",
+    "region_id": 306,
+    "region_name": "Област София-град"
+  },
+  {
+    "city_id": 10503,
+    "city_name": "Ясен",
+    "normalized_name": "yasen",
+    "region_id": 15,
+    "region_name": "Област Плевен"
+  },
+  {
+    "city_id": 10507,
+    "city_name": "Ясенково",
+    "normalized_name": "yasenkovo",
+    "region_id": 27,
+    "region_name": "Област Шумен"
+  },
+  {
+    "city_id": 10509,
+    "city_name": "Ясеновец",
+    "normalized_name": "yasenovets",
+    "region_id": 17,
+    "region_name": "Област Разград"
+  },
+  {
+    "city_id": 10529,
+    "city_name": "Яхиново",
+    "normalized_name": "yahinovo",
+    "region_id": 10,
+    "region_name": "Област Кюстендил"
+  }
+]

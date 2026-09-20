@@ -1,0 +1,20 @@
+{
+  "olx_ua": {
+    "key": "olx_ua",
+    "country": "ua",
+    "name": "OLX.ua",
+    "icon": "🟢",
+    "kind": "olx",
+    "base_url": "https://www.olx.ua",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house", "room", "daily"],
+    "config": {
+      "category_ids": {
+        "apartment": 1760,
+        "house": 330,
+        "room": 1756,
+        "daily": 3709
+      }
+    }
+  }
+}

@@ -193,11 +193,8 @@ def _handle_country(
     ctx.notifier.answer_callback(cb_id, f"✅ {country_label}")
 
     # Одне повідомлення — головне меню
-    ctx.notifier.send_message(
-        chat_id,
-        T("main_menu", lang, country=country_label),
-        keyboard=kb.main_menu_keyboard(lang),
-    )
+    from rentalert.bot.handlers import _send_main_menu
+    _send_main_menu(chat_id, ctx)
 
 
 # ─────────────────────────────────────────────────────────────
@@ -371,11 +368,8 @@ def _handle_lang(
 
     country = user_svc.get_country(ctx.client, chat_id)
     country_label = T(f"country_{country}", lang)
-    ctx.notifier.send_message(
-        chat_id,
-        T("main_menu", lang, country=country_label),
-        keyboard=kb.main_menu_keyboard(lang),
-    )
+    from rentalert.bot.handlers import _send_main_menu
+    _send_main_menu(chat_id, ctx)
 
 
 # ─────────────────────────────────────────────────────────────

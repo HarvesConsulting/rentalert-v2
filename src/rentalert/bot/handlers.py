@@ -22,6 +22,26 @@ log = logging.getLogger(__name__)
 
 
 # ─────────────────────────────────────────────────────────────
+# Прапори країн
+# ─────────────────────────────────────────────────────────────
+
+_COUNTRY_FLAGS: dict[str, str] = {
+    "ua": "🇺🇦",
+    "pl": "🇵🇱",
+    "pt": "🇵🇹",
+    "ro": "🇷🇴",
+    "bg": "🇧🇬",
+    "de": "🇩🇪",
+    "es": "🇪🇸",
+    "hr": "🇭🇷",
+}
+
+
+def _country_flag(code: str) -> str:
+    """Повертає прапор для коду країни (або 🌍, якщо невідомо)."""
+    return _COUNTRY_FLAGS.get(code, "🌍")
+
+# ─────────────────────────────────────────────────────────────
 # Контекст
 # ─────────────────────────────────────────────────────────────
 
@@ -208,10 +228,11 @@ def _send_main_menu(chat_id: str, ctx: BotContext) -> None:
     lang = user_svc.get_language(ctx.client, chat_id)
     country = user_svc.get_country(ctx.client, chat_id)
     country_label = T(f"country_{country}", lang)
+    flag = _country_flag(country)
 
     ctx.notifier.send_message(
         chat_id,
-        T("main_menu", lang, country=country_label),
+        T("main_menu", lang, country=country_label, flag=flag),
         keyboard=kb.main_menu_keyboard(lang),
     )
 

@@ -322,7 +322,40 @@ def api_stats() -> Any:
         }
     )
 
+@app.route("/api/debug/njuskalo")
+def debug_njuskalo() -> Any:
+    """Тимчасово: перевірити, що повертає NJUSKALO з Render."""
+    from bs4 import BeautifulSoup
+    from curl_cffi import requests as cffi_requests
 
+    url = "https://www.njuskalo.hr/iznajmljivanje-stanova/zagreb"
+    try:
+        r = cffi_requests.get(url, impersonate="chrome", timeout=30)
+    except Exception as e:
+        return jsonify({"error": str(e)})
+
+    soup = BeautifulSoup(r.text, "html.parser")
+
+    items_regular = soup.find_all(
+        "li",
+        class_=lambda x: x and "EntityList-item" in x and "EntityList-item--Regular" in x,
+    )
+    items_all = soup.find_all(
+        "li",
+        class_=lambda x: x and "EntityList-item" in x,
+    )
+
+    return jsonify(
+        {
+            "url": url,
+            "status": r.status_code,
+            "size": len(r.text),
+            "title": ((soup.title.string or "") if soup.title else "")[:200],
+            "items_regular": len(items_regular),
+            "items_all": len(items_all),
+            "text_sample": r.text[:1000],
+        }
+    )
 @app.route("/api/users")
 def api_users() -> Any:
     """Список користувачів (тільки для адміна)."""

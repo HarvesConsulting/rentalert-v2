@@ -93,12 +93,40 @@ class NjuskaloParser(Parser):
             log.warning("Njuskalo %s → HTTP %d", url, response.status_code)
             return []
 
+        text_len = len(response.text)
+        log.info("Njuskalo %s: отримано %d байт", url, text_len)
+
         soup = BeautifulSoup(response.text, "html.parser")
 
         # Тільки звичайні оголошення (без FeaturedStore, VauVau)
         items = soup.find_all(
             "li",
             class_=lambda x: x and "EntityList-item" in x and "EntityList-item--Regular" in x,
+        )
+
+        # Діагностика
+        all_entity_items = soup.find_all(
+            "li",
+            class_=lambda x: x and "EntityList-item" in x,
+        )
+
+        if not items:
+            log.warning(
+                "Njuskalo %s: 0 <li> EntityList-item--Regular "
+                "(всього EntityList-item: %d, HTML: %d байт)",
+                url,
+                len(all_entity_items),
+                text_len,
+            )
+            # Дамп перших 500 символів для дебагу
+            log.warning("Njuskalo HTML sample: %s", response.text[:500])
+            return []
+
+        log.info(
+            "Njuskalo %s: знайдено %d <li> EntityList-item--Regular (всього: %d)",
+            url,
+            len(items),
+            len(all_entity_items),
         )
 
         listings: list[Listing] = []
@@ -165,7 +193,7 @@ class NjuskaloParser(Parser):
         # Description: тип + площа + локація
         description = li.select_one(".entity-description")
         location = ""
-        rooms = None  # NJUSKALO не має явного поля rooms у списку
+        rooms = None
 
         if description:
             text = description.get_text("\n", strip=True)
@@ -175,15 +203,12 @@ class NjuskaloParser(Parser):
             if m:
                 location = m.group(1).strip()
 
-            # Кімнати: спроба витягнути з title (наприклад "3-sobni")
             # Кімнати: спроба витягнути з title
-            # Варіанти: "3-sobni", "2S stan", "3S", "trosoban", "dvosoban"
             title_lower = title.lower()
             m_rooms = re.search(r"(\d+)-sobn", title_lower)
             if not m_rooms:
                 m_rooms = re.search(r"(\d+)s\b", title_lower)
             if not m_rooms:
-                # Хорватські числівники
                 croatian_rooms = {
                     "jednosoban": "1",
                     "dvosoban": "2",

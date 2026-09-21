@@ -121,5 +121,22 @@
     "enabled_by_default": true,
     "categories": ["apartment", "house", "room"],
     "config": {}
+  },
+    "njuskalo": {
+    "key": "njuskalo",
+    "country": "hr",
+    "name": "Njuškalo",
+    "icon": "🇭🇷",
+    "kind": "njuskalo",
+    "base_url": "https://www.njuskalo.hr",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house", "room"],
+    "config": {
+      "category_slugs": {
+        "apartment": "iznajmljivanje-stanova",
+        "house": "iznajmljivanje-kuca",
+        "room": "iznajmljivanje-soba"
+      }
+    }
   }
 }

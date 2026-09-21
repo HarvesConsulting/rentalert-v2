@@ -46,6 +46,7 @@ TEXTS: dict[str, dict[str, str]] = {
         "country_bg": "🇧🇬 Болгарія",
         "country_de": "🇩🇪 Німеччина",
         "country_es": "🇪🇸 Іспанія",
+        "country_hr": "🇭🇷 Хорватія",
         # ─── Мої міста ───
         "my_cities_title": "📍 <b>Мої міста</b> ({count}):",
         "my_cities_empty": "📍 <b>Мої міста</b>\n\nУ вас ще немає доданих міст.\n\nНатисніть <b>➕ Додати місто</b>, щоб почати.",
@@ -133,6 +134,7 @@ TEXTS: dict[str, dict[str, str]] = {
         "country_bg": "🇧🇬 Bulgaria",
         "country_de": "🇩🇪 Germany",
         "country_es": "🇪🇸 Spain",
+        "country_hr": "🇭🇷 Croatia",
         # ─── My cities ───
         "my_cities_title": "📍 <b>My cities</b> ({count}):",
         "my_cities_empty": "📍 <b>My cities</b>\n\nYou haven't added any cities yet.\n\nTap <b>➕ Add City</b> to start.",

@@ -153,6 +153,7 @@ def _all_categories_for_country(country: str) -> set[str]:
         "bg": {"apartment", "house"},
         "de": {"apartment", "house", "room"},
         "es": {"apartment", "house", "room"},
+        "hr": {"apartment", "house", "room"},
     }
     return data.get(country, data["ua"])
 

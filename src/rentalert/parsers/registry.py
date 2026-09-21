@@ -23,10 +23,6 @@ _PARSER_BY_KIND: dict[str, type[Parser]] = {}
 
 
 def _register_parser_classes() -> None:
-    """Реєструє класи парсерів за 'kind'.
-
-    Викликається один раз при першому build_registry().
-    """
     global _PARSER_BY_KIND
     if _PARSER_BY_KIND:
         return
@@ -34,6 +30,7 @@ def _register_parser_classes() -> None:
     from rentalert.parsers.dimria import DimriaParser
     from rentalert.parsers.habitaclia import HabitacliaParser
     from rentalert.parsers.kleinanzeigen import KleinanzeigenParser
+    from rentalert.parsers.njuskalo import NjuskaloParser
     from rentalert.parsers.olx import OLXParser
 
     _PARSER_BY_KIND = {
@@ -41,6 +38,7 @@ def _register_parser_classes() -> None:
         "dimria": DimriaParser,
         "kleinanzeigen": KleinanzeigenParser,
         "habitaclia": HabitacliaParser,
+        "njuskalo": NjuskaloParser,
     }
 
 

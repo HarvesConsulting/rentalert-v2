@@ -61,5 +61,14 @@
     "currency": "€",
     "free": false,
     "price_stars": 100
+  },
+  "hr": {
+    "code": "hr",
+    "name": "🇭🇷 Хорватія",
+    "name_en": "Croatia",
+    "language": "hr",
+    "currency": "€",
+    "free": false,
+    "price_stars": 100
   }
 }

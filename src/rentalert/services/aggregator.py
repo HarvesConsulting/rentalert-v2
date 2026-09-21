@@ -145,16 +145,16 @@ def run_aggregation_cycle(
             if not raw_to_send:
                 continue
 
-            # Фільтруємо ігноровані
-            listing_ids = [l.id for l in raw_to_send]
+             # Фільтруємо ігноровані
+            listing_ids = [lst.id for lst in raw_to_send]
             fingerprints = [
-                db.make_fingerprint(l.title, l.location) for l in raw_to_send
+                db.make_fingerprint(lst.title, lst.location) for lst in raw_to_send
             ]
             ignored_ids = db.get_ignored_ids(
                 client, chat_id, listing_ids, fingerprints
             )
 
-            to_send = [l for l in raw_to_send if l.id not in ignored_ids]
+            to_send = [lst for lst in raw_to_send if lst.id not in ignored_ids]
 
             if to_send:
                 try:
@@ -218,7 +218,7 @@ def fetch_city_now(
 
     # Сортуємо за created_at (новіші — першими)
     all_listings.sort(
-        key=lambda l: l.created_at or datetime.min.replace(tzinfo=UTC),
+        key=lambda lst: lst.created_at or datetime.min.replace(tzinfo=UTC),
         reverse=True,
     )
 

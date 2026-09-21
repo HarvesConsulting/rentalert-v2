@@ -35,8 +35,8 @@ from rentalert.bot.handlers import (
 )
 from rentalert.db import queries as db
 from rentalert.services import user as user_svc
-from rentalert.translations import T
 from rentalert.services.aggregator import fetch_city_now
+from rentalert.translations import T
 
 log = logging.getLogger(__name__)
 
@@ -366,8 +366,6 @@ def _handle_lang(
             keyboard={"inline_keyboard": []},
         )
 
-    country = user_svc.get_country(ctx.client, chat_id)
-    country_label = T(f"country_{country}", lang)
     from rentalert.bot.handlers import _send_main_menu
     _send_main_menu(chat_id, ctx)
 

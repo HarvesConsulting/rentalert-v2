@@ -502,7 +502,7 @@ def get_ignored_ids(
     # 2. За fingerprint — мапимо локально, щоб повернути САМЕ ті id, що передані
     if fingerprints and len(fingerprints) == len(listing_ids):
         fp_to_ids: dict[str, list[str]] = {}
-        for lid, fp in zip(listing_ids, fingerprints):
+        for lid, fp in zip(listing_ids, fingerprints, strict=False):
             fp_to_ids.setdefault(fp, []).append(lid)
 
         unique_fps = list(fp_to_ids.keys())

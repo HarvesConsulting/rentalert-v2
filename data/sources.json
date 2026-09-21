@@ -122,20 +122,19 @@
     "categories": ["apartment", "house", "room"],
     "config": {}
   },
-    "njuskalo": {
-    "key": "njuskalo",
+  "nekretnine": {
+    "key": "nekretnine",
     "country": "hr",
-    "name": "Njuškalo",
+    "name": "Nekretnine.hr",
     "icon": "🇭🇷",
-    "kind": "njuskalo",
-    "base_url": "https://www.njuskalo.hr",
+    "kind": "nekretnine",
+    "base_url": "https://www.nekretnine.hr",
     "enabled_by_default": true,
-    "categories": ["apartment", "house", "room"],
+    "categories": ["apartment", "house"],
     "config": {
       "category_slugs": {
-        "apartment": "iznajmljivanje-stanova",
-        "house": "iznajmljivanje-kuca",
-        "room": "iznajmljivanje-soba"
+        "apartment": "najam-stanovi",
+        "house": "najam-stambene-nekretnine"
       }
     }
   }

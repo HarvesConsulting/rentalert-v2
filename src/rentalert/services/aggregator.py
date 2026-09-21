@@ -172,6 +172,62 @@ def run_aggregation_cycle(
     )
     return stats
 
+def fetch_city_now(
+    catalog: Catalog,
+    client: TursoClient,
+    city_slug: str,
+) -> list[Listing]:
+    """Парсить одне місто ЗАРАЗ і повертає свіжі оголошення.
+
+    Використовується для "першого показу" після додавання міста.
+    НЕ оновлює базову лінію — усе знайдене йде користувачу.
+
+    Args:
+        catalog: каталог
+        client: Turso-клієнт
+        city_slug: slug міста
+
+    Returns:
+        Список свіжих оголошень (з усіх джерел міста).
+    """
+    city = catalog.city(city_slug)
+    if city is None:
+        log.warning("fetch_city_now: місто %r не знайдено", city_slug)
+        return []
+
+    # Вікно свіжості — 7 днів (щоб показати хоч щось навіть у тихому місті)
+    cutoff = datetime.now(UTC) - timedelta(days=7)
+
+    all_listings: list[Listing] = []
+    for source_key in city.refs:
+        parser = PARSER_REGISTRY.get(source_key)
+        if parser is None:
+            continue
+
+        try:
+            listings = _fetch_and_save(
+                parser=parser,
+                city=city,
+                source_key=source_key,
+                client=client,
+                cutoff=cutoff,
+            )
+            all_listings.extend(listings)
+        except Exception as e:
+            log.exception("fetch_city_now %s/%s: %s", city_slug, source_key, e)
+
+    # Сортуємо за created_at (новіші — першими)
+    all_listings.sort(
+        key=lambda l: l.created_at or datetime.min.replace(tzinfo=UTC),
+        reverse=True,
+    )
+
+    log.info(
+        "fetch_city_now %s: %d оголошень",
+        city_slug,
+        len(all_listings),
+    )
+    return all_listings
 
 # ─────────────────────────────────────────────────────────────
 # Внутрішнє

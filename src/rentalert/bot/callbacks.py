@@ -36,6 +36,7 @@ from rentalert.bot.handlers import (
 from rentalert.db import queries as db
 from rentalert.services import user as user_svc
 from rentalert.translations import T
+from rentalert.services.aggregator import fetch_city_now
 
 log = logging.getLogger(__name__)
 
@@ -211,7 +212,7 @@ def _handle_add_city(
     cb_id: str,
     ctx: BotContext,
 ) -> None:
-    """Додає місто."""
+    """Додає місто і одразу показує свіжі оголошення."""
     if ctx.catalog.city(city_slug) is None:
         ctx.notifier.answer_callback(cb_id, "❌")
         return
@@ -229,7 +230,7 @@ def _handle_add_city(
     )
     ctx.notifier.answer_callback(cb_id, f"✅ {name}")
 
-    # Прибираємо клавіатуру вибору і показуємо підтвердження
+    # Прибираємо клавіатуру вибору
     if message_id:
         location = f"{name} ({region})" if region else name
         ctx.notifier.edit_message(
@@ -238,6 +239,81 @@ def _handle_add_city(
             f"✅ <b>Додано:</b> {location}",
             keyboard={"inline_keyboard": []},
         )
+
+    lang = user_svc.get_language(ctx.client, chat_id)
+
+    # ── Перший показ ──
+    ctx.notifier.send_message(
+        chat_id,
+        T("first_show_loading", lang, city=name),
+    )
+
+    try:
+        listings = fetch_city_now(ctx.catalog, ctx.client, city_slug)
+    except Exception as e:
+        log.exception("fetch_city_now failed: %s", e)
+        listings = []
+
+    if not listings:
+        ctx.notifier.send_message(
+            chat_id,
+            T("first_show_empty", lang, city=name),
+        )
+        return
+
+    # Показуємо перші 5
+    shown = listings[:5]
+    ctx.notifier.send_message(
+        chat_id,
+        T("first_show_header", lang, city=name, count=len(shown)),
+    )
+
+    for i, lst in enumerate(shown, 1):
+        icon = lst.category_icon or "🏠"
+        price = lst.price or "—"
+        title = (lst.title or "")[:100]
+        location = lst.location or ""
+        link = lst.link or ""
+        photo = lst.photo or ""
+
+        lines = [f"{icon} <b>{i}. {price}</b>"]
+        if lst.rooms:
+            lines.append(f"🛏 {lst.rooms} кімн.")
+        lines.append(title)
+        if location:
+            lines.append(f"📍 {location}")
+        if link:
+            lines.append(f'🔗 <a href="{link}">Відкрити</a>')
+
+        caption = "\n".join(lines)
+
+        buttons = [
+            [
+                {
+                    "text": T("btn_add_favorite", lang),
+                    "callback_data": f"fav:{lst.id}",
+                },
+                {
+                    "text": T("btn_ignore", lang),
+                    "callback_data": f"ign:{lst.id}",
+                },
+            ]
+        ]
+        keyboard = {"inline_keyboard": buttons}
+
+        ctx.notifier.send_photo_or_message(
+            chat_id,
+            photo,
+            caption,
+            keyboard=keyboard,
+        )
+
+    # Фінальне пояснення
+    ctx.notifier.send_message(
+        chat_id,
+        T("first_show_footer", lang),
+        keyboard=kb.main_menu_keyboard(lang),
+    )
 
 
 def _handle_remove_city(

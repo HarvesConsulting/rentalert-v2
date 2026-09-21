@@ -322,6 +322,7 @@ def api_stats() -> Any:
         }
     )
 
+
 @app.route("/api/debug/njuskalo")
 def debug_njuskalo() -> Any:
     """Тимчасово: перевірити, що повертає NJUSKALO з Render."""
@@ -356,6 +357,72 @@ def debug_njuskalo() -> Any:
             "text_sample": r.text[:1000],
         }
     )
+
+
+@app.route("/api/debug/sources")
+def debug_sources() -> Any:
+    """Перевіряє, які джерела доступні з Render."""
+    from bs4 import BeautifulSoup
+    from curl_cffi import requests as cffi_requests
+
+    results: dict[str, Any] = {}
+
+    # OLX.ua API
+    try:
+        r = cffi_requests.get(
+            "https://www.olx.ua/api/v1/offers/",
+            params={"city_id": 268, "category_id": 1760, "limit": 3},
+            impersonate="chrome",
+            timeout=30,
+        )
+        results["olx_ua"] = {
+            "status": r.status_code,
+            "size": len(r.text),
+            "is_json": r.text.strip().startswith("{"),
+            "preview": r.text[:150],
+        }
+    except Exception as e:
+        results["olx_ua"] = {"error": str(e)}
+
+    # Kleinanzeigen
+    try:
+        r = cffi_requests.get(
+            "https://www.kleinanzeigen.de/s-wohnung-mieten/berlin/c203l3331",
+            impersonate="chrome",
+            timeout=30,
+        )
+        soup = BeautifulSoup(r.text, "html.parser")
+        title = soup.title.string if soup.title and soup.title.string else ""
+        results["kleinanzeigen"] = {
+            "status": r.status_code,
+            "size": len(r.text),
+            "title": title[:100],
+            "articles": len(soup.find_all("article")),
+        }
+    except Exception as e:
+        results["kleinanzeigen"] = {"error": str(e)}
+
+    # Habitaclia
+    try:
+        r = cffi_requests.get(
+            "https://www.habitaclia.com/alquiler-madrid.htm",
+            impersonate="chrome",
+            timeout=30,
+        )
+        soup = BeautifulSoup(r.text, "html.parser")
+        title = soup.title.string if soup.title and soup.title.string else ""
+        results["habitaclia"] = {
+            "status": r.status_code,
+            "size": len(r.text),
+            "title": title[:100],
+            "articles": len(soup.find_all("article")),
+        }
+    except Exception as e:
+        results["habitaclia"] = {"error": str(e)}
+
+    return jsonify(results)
+
+
 @app.route("/api/users")
 def api_users() -> Any:
     """Список користувачів (тільки для адміна)."""

@@ -14,6 +14,8 @@
     save_categories
     toggle_source:kyiv:dimria
     fav:LISTING_ID
+    ign:LISTING_ID
+    unign:LISTING_ID
     feedback
     rate | rate:5
 """
@@ -95,6 +97,10 @@ def _dispatch(
         _handle_clear_favorites(args[0], chat_id, message_id, cb_id, ctx)
         return
 
+    if action == "clear_ignored":
+        _handle_clear_ignored(args[0], chat_id, message_id, cb_id, ctx)
+        return
+
     if action == "cfg":
         _handle_cfg(args, chat_id, message_id, cb_id, ctx)
         return
@@ -113,6 +119,14 @@ def _dispatch(
 
     if action == "fav":
         _handle_favorite(args[0], chat_id, message_id, cb_id, ctx)
+        return
+
+    if action == "ign":
+        _handle_ignore(args[0], chat_id, message_id, cb_id, ctx)
+        return
+
+    if action == "unign":
+        _handle_unignore(args[0], chat_id, message_id, cb_id, ctx)
         return
 
     if action == "feedback":
@@ -337,7 +351,37 @@ def _handle_clear_favorites(
     else:
         ctx.notifier.answer_callback(cb_id, "✓")
 
+def _handle_clear_ignored(
+    confirm: str,
+    chat_id: str,
+    message_id: int | None,
+    cb_id: str,
+    ctx: BotContext,
+) -> None:
+    """Очищення ігнорованих оголошень."""
+    lang = user_svc.get_language(ctx.client, chat_id)
 
+    if confirm == "yes":
+        n = db.count_ignored(ctx.client, chat_id)
+        db.clear_ignored(ctx.client, chat_id)
+        db.log_activity(ctx.client, chat_id, "clear_ignored", {"count": n})
+        ctx.notifier.answer_callback(cb_id, "🗑")
+        if message_id:
+            ctx.notifier.edit_message(
+                chat_id,
+                message_id,
+                T("ignored_cleared", lang, count=n),
+                keyboard={"inline_keyboard": []},
+            )
+    else:
+        ctx.notifier.answer_callback(cb_id, "✓")
+        if message_id:
+            ctx.notifier.edit_message(
+                chat_id,
+                message_id,
+                "✓",
+                keyboard={"inline_keyboard": []},
+            )
 # ─────────────────────────────────────────────────────────────
 # cfg (заглушка — реалізація у частині 2)
 # ─────────────────────────────────────────────────────────────
@@ -556,6 +600,65 @@ def _handle_favorite(
         db.log_activity(ctx.client, chat_id, "add_favorite", {"id": listing_id})
 
 
+# ─────────────────────────────────────────────────────────────
+# ign / unign
+# ─────────────────────────────────────────────────────────────
+
+
+def _handle_ignore(
+    listing_id: str,
+    chat_id: str,
+    message_id: int | None,
+    cb_id: str,
+    ctx: BotContext,
+) -> None:
+    """Додає оголошення в ігнор-лист користувача."""
+    lang = user_svc.get_language(ctx.client, chat_id)
+
+    row = db.get_listing(ctx.client, listing_id)
+    if row is None:
+        ctx.notifier.answer_callback(cb_id, T("error_listing_not_found", lang))
+        return
+
+    fp = db.make_fingerprint(row["title"], row["location"])
+    db.add_ignored(ctx.client, chat_id, listing_id, fp)
+    db.log_activity(
+        ctx.client,
+        chat_id,
+        "ignore",
+        {"listing_id": listing_id, "fingerprint": fp},
+    )
+
+    # Прибираємо кнопки з повідомлення, щоб не натиснули ще раз
+    if message_id:
+        ctx.notifier.edit_reply_markup(
+            chat_id,
+            message_id,
+            {"inline_keyboard": []},
+        )
+
+    ctx.notifier.answer_callback(cb_id, T("ignored_done", lang))
+
+
+def _handle_unignore(
+    listing_id: str,
+    chat_id: str,
+    message_id: int | None,
+    cb_id: str,
+    ctx: BotContext,
+) -> None:
+    """Повертає оголошення з ігнор-листа."""
+    lang = user_svc.get_language(ctx.client, chat_id)
+
+    db.remove_ignored(ctx.client, chat_id, listing_id)
+    db.log_activity(
+        ctx.client,
+        chat_id,
+        "unignore",
+        {"listing_id": listing_id},
+    )
+
+    ctx.notifier.answer_callback(cb_id, T("ignored_removed", lang))
 # ─────────────────────────────────────────────────────────────
 # feedback / rate
 # ─────────────────────────────────────────────────────────────

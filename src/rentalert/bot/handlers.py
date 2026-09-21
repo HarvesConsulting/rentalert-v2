@@ -110,6 +110,14 @@ def _handle_command(chat_id: str, text: str, ctx: BotContext) -> None:
         _send_favorites(chat_id, ctx)
         return
 
+    if text.startswith("/ignored"):
+        _send_ignored(chat_id, ctx)
+        return
+
+    if text.startswith("/clear_ignored"):
+        _clear_ignored(chat_id, ctx)
+        return
+
     if text.startswith("/settings"):
         _send_settings(chat_id, ctx)
         return
@@ -287,6 +295,59 @@ def _send_favorites(chat_id: str, ctx: BotContext) -> None:
         keyboard={"inline_keyboard": buttons},
     )
 
+def _send_ignored(chat_id: str, ctx: BotContext) -> None:
+    """Показує список ігнорованих оголошень з кнопками «Повернути»."""
+    lang = user_svc.get_language(ctx.client, chat_id)
+    rows = db.get_ignored_list(ctx.client, chat_id, limit=20)
+
+    if not rows:
+        _send_main_menu_with_text(chat_id, ctx, T("ignored_empty", lang))
+        return
+
+    lines = [T("ignored_title", lang, count=len(rows)), ""]
+    buttons: list[list[dict[str, str]]] = []
+
+    for r in rows:
+        price = r.get("price") or "—"
+        title = (r.get("title") or "—")[:60]
+        lines.append(f"• <b>{price}</b> — {title}")
+        buttons.append(
+            [
+                {
+                    "text": f"↩️ {title[:30]}",
+                    "callback_data": f"unign:{r['id']}",
+                }
+            ]
+        )
+
+    buttons.append(
+        [
+            {
+                "text": T("btn_clear_ignored", lang),
+                "callback_data": "clear_ignored:yes",
+            }
+        ]
+    )
+
+    ctx.notifier.send_message(
+        chat_id,
+        "\n".join(lines),
+        keyboard={"inline_keyboard": buttons},
+    )
+
+
+def _clear_ignored(chat_id: str, ctx: BotContext) -> None:
+    """Очищає весь ігнор-лист."""
+    lang = user_svc.get_language(ctx.client, chat_id)
+    n = db.count_ignored(ctx.client, chat_id)
+    db.clear_ignored(ctx.client, chat_id)
+    db.log_activity(ctx.client, chat_id, "clear_ignored", {"count": n})
+
+    _send_main_menu_with_text(
+        chat_id,
+        ctx,
+        T("ignored_cleared", lang, count=n),
+    )
 
 def _send_settings(chat_id: str, ctx: BotContext) -> None:
     lang = user_svc.get_language(ctx.client, chat_id)

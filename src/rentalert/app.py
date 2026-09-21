@@ -169,7 +169,11 @@ def _notify_user(chat_id: str, city_slug: str, listings: list[Any]) -> None:
                 {
                     "text": T("btn_add_favorite", lang),
                     "callback_data": f"fav:{lst.id}",
-                }
+                },
+                {
+                    "text": T("btn_ignore", lang),
+                    "callback_data": f"ign:{lst.id}",
+                },
             ]
         ]
         keyboard = {"inline_keyboard": buttons}

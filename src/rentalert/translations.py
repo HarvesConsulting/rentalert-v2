@@ -29,6 +29,8 @@ TEXTS: dict[str, dict[str, str]] = {
         "btn_add_favorite": "В обране",
         "btn_remove_favorite": "Видалити з обраного",
         "btn_open": "🔗 Відкрити",
+        "btn_ignore": "🚫 Ігнорувати",
+        "btn_unignore": "↩️ Повернути",
         "btn_feedback": "💬 Зворотний зв'язок",
         "btn_rate": "⭐ Оцінити бота",
         "btn_country": "🌍 Країна: {country}",
@@ -92,6 +94,16 @@ TEXTS: dict[str, dict[str, str]] = {
         # ─── Feedback ───
         "feedback_prompt": "💬 <b>Зворотний зв'язок</b>\n\nНапишіть ваше повідомлення — побажання, питання, скаргу чи ідею.\n\n<i>Я отримаю його особисто та відповім.</i>",
         "feedback_thanks": "✅ <b>Дякую!</b>\n\nВаше повідомлення надіслано розробнику.",
+        # ─── Ігноровані ───
+        "ignored_title": "🚫 <b>Ігноровані</b> ({count}):",
+        "ignored_empty": "🚫 <b>Ігноровані</b>\n\nТут порожньо.\n\nКоли отримаєте оголошення — натисніть <b>🚫 Ігнорувати</b>, і воно більше не приходитиме (навіть якщо продавець перевипустить його з новим ID).",
+        "ignored_done": "✅ Більше не показуватиму це оголошення",
+        "ignored_removed": "↩️ Оголошення повернено у стрічку",
+        "ignored_cleared": "✅ Очищено {count} ігнорованих оголошень",
+        "ignored_clear_confirm": "🗑 Очистити всі ігноровані?",
+        "btn_clear_ignored": "🗑 Очистити ігноровані",
+        "btn_ignored": "🚫 Ігноровані",
+        "error_listing_not_found": "😕 Оголошення не знайдено",
         # ─── Сповіщення ───
         "notification_header": "🔔 <b>{city}</b> — нових оголошень: <b>{count}</b>",
         "notification_more": "…та ще <b>{count}</b> оголошень у наступному циклі.",
@@ -117,6 +129,8 @@ TEXTS: dict[str, dict[str, str]] = {
         "btn_add_favorite": "Add to favorites",
         "btn_remove_favorite": "Remove from favorites",
         "btn_open": "🔗 Open",
+        "btn_ignore": "🚫 Ignore",
+        "btn_unignore": "↩️ Return",
         "btn_feedback": "💬 Feedback",
         "btn_rate": "⭐ Rate bot",
         "btn_country": "🌍 Country: {country}",
@@ -180,6 +194,16 @@ TEXTS: dict[str, dict[str, str]] = {
         # ─── Feedback ───
         "feedback_prompt": "💬 <b>Feedback</b>\n\nType your message — suggestion, question, complaint, or idea.\n\n<i>I'll receive it personally and reply.</i>",
         "feedback_thanks": "✅ <b>Thanks!</b>\n\nYour message has been sent to the developer.",
+        # ─── Ignored ───
+        "ignored_title": "🚫 <b>Ignored</b> ({count}):",
+        "ignored_empty": "🚫 <b>Ignored</b>\n\nNothing here yet.\n\nWhen you receive a listing — tap <b>🚫 Ignore</b> and it won't come back (even if the seller reposts it with a new ID).",
+        "ignored_done": "✅ Won't show this listing again",
+        "ignored_removed": "↩️ Listing returned to feed",
+        "ignored_cleared": "✅ Cleared {count} ignored listings",
+        "ignored_clear_confirm": "🗑 Clear all ignored?",
+        "btn_clear_ignored": "🗑 Clear ignored",
+        "btn_ignored": "🚫 Ignored",
+        "error_listing_not_found": "😕 Listing not found",
         # ─── Notifications ───
         "notification_header": "🔔 <b>{city}</b> — new listings: <b>{count}</b>",
         "notification_more": "…and <b>{count}</b> more listings in the next cycle.",

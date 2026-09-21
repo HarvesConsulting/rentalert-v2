@@ -6,6 +6,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 import logging
 from datetime import UTC, datetime
@@ -314,12 +315,57 @@ def save_listing(
         ],
     )
 
+def get_listing(
+    client: TursoClient,
+    listing_id: str,
+) -> dict[str, Any] | None:
+    """Повертає оголошення з seen_listings за id, або None."""
+    rows = client.execute(
+        """
+        SELECT id, source_key, city_slug, title, price, location, link,
+               photo, rooms, category, category_icon, category_label, created_at
+        FROM seen_listings
+        WHERE id = ?
+        """,
+        [listing_id],
+    )
+    if not rows:
+        return None
+    r = rows[0]
+    return {
+        "id": r[0],
+        "source_key": r[1],
+        "city_slug": r[2],
+        "title": r[3] or "",
+        "price": r[4] or "",
+        "location": r[5] or "",
+        "link": r[6] or "",
+        "photo": r[7] or "",
+        "rooms": r[8],
+        "category": r[9] or "",
+        "category_icon": r[10] or "🏠",
+        "category_label": r[11] or "",
+        "created_at": r[12],
+    }
 
 def clear_seen_listings(client: TursoClient) -> int:
     """Видаляє ВСІ оголошення (для тестів)."""
     return client.execute_non_query("DELETE FROM seen_listings")
 
 
+# ═════════════════════════════════════════════════════════════
+# Fingerprint (для ігнорування)
+# ═════════════════════════════════════════════════════════════
+
+def make_fingerprint(title: str | None, location: str | None) -> str:
+    """Стабільний хеш оголошення.
+
+    Використовується для перехоплення перевипусків:
+    продавець перевипустив оголошення з тим самим title + location —
+    але новий ID → fingerprint той самий → не приходить.
+    """
+    key = f"{(title or '').lower().strip()}|{(location or '').lower().strip()}"
+    return hashlib.sha256(key.encode("utf-8")).hexdigest()[:16]
 # ═════════════════════════════════════════════════════════════
 # User categories
 # ═════════════════════════════════════════════════════════════
@@ -354,6 +400,172 @@ def set_user_categories(
         )
 
 
+# ═════════════════════════════════════════════════════════════
+# User ignored (blacklist оголошень)
+# ═════════════════════════════════════════════════════════════
+
+def add_ignored(
+    client: TursoClient,
+    chat_id: str,
+    listing_id: str,
+    fingerprint: str,
+) -> None:
+    """Додає оголошення в чорний список користувача."""
+    client.execute_non_query(
+        """
+        INSERT OR REPLACE INTO user_ignored (chat_id, listing_id, fingerprint)
+        VALUES (?, ?, ?)
+        """,
+        [chat_id, listing_id, fingerprint],
+    )
+
+
+def remove_ignored(
+    client: TursoClient,
+    chat_id: str,
+    listing_id: str,
+) -> None:
+    """Прибирає оголошення з чорного списку."""
+    client.execute_non_query(
+        "DELETE FROM user_ignored WHERE chat_id = ? AND listing_id = ?",
+        [chat_id, listing_id],
+    )
+
+
+def clear_ignored(client: TursoClient, chat_id: str) -> None:
+    """Очищає весь чорний список користувача."""
+    client.execute_non_query(
+        "DELETE FROM user_ignored WHERE chat_id = ?",
+        [chat_id],
+    )
+
+
+def is_ignored(
+    client: TursoClient,
+    chat_id: str,
+    listing_id: str,
+    fingerprint: str | None = None,
+) -> bool:
+    """Перевіряє, чи ігнорується оголошення.
+
+    Перевіряє за ID АБО (якщо вказано) за fingerprint.
+    """
+    if fingerprint:
+        rows = client.execute(
+            """
+            SELECT 1 FROM user_ignored
+            WHERE chat_id = ?
+              AND (listing_id = ? OR fingerprint = ?)
+            LIMIT 1
+            """,
+            [chat_id, listing_id, fingerprint],
+        )
+    else:
+        rows = client.execute(
+            "SELECT 1 FROM user_ignored WHERE chat_id = ? AND listing_id = ?",
+            [chat_id, listing_id],
+        )
+    return bool(rows)
+
+
+def get_ignored_ids(
+    client: TursoClient,
+    chat_id: str,
+    listing_ids: list[str],
+    fingerprints: list[str] | None = None,
+) -> set[str]:
+    """Повертає set ID (з переданих), які ігноруються за ID або fingerprint.
+
+    Args:
+        listing_ids: id оголошень, які треба перевірити.
+        fingerprints: паралельний список (тієї ж довжини) або None.
+    """
+    if not listing_ids:
+        return set()
+
+    result: set[str] = set()
+    chunk = 500
+
+    # 1. За ID — тут усе ок
+    for i in range(0, len(listing_ids), chunk):
+        part = listing_ids[i : i + chunk]
+        placeholders = ",".join("?" * len(part))
+        rows = client.execute(
+            f"""
+            SELECT listing_id FROM user_ignored
+            WHERE chat_id = ? AND listing_id IN ({placeholders})
+            """,
+            [chat_id, *part],
+        )
+        result.update(str(r[0]) for r in rows)
+
+    # 2. За fingerprint — мапимо локально, щоб повернути САМЕ ті id, що передані
+    if fingerprints and len(fingerprints) == len(listing_ids):
+        fp_to_ids: dict[str, list[str]] = {}
+        for lid, fp in zip(listing_ids, fingerprints):
+            fp_to_ids.setdefault(fp, []).append(lid)
+
+        unique_fps = list(fp_to_ids.keys())
+        for i in range(0, len(unique_fps), chunk):
+            part = unique_fps[i : i + chunk]
+            placeholders = ",".join("?" * len(part))
+            rows = client.execute(
+                f"""
+                SELECT fingerprint FROM user_ignored
+                WHERE chat_id = ? AND fingerprint IN ({placeholders})
+                """,
+                [chat_id, *part],
+            )
+            for r in rows:
+                fp = str(r[0])
+                result.update(fp_to_ids.get(fp, []))
+
+    return result
+
+
+def get_ignored_list(
+    client: TursoClient,
+    chat_id: str,
+    *,
+    limit: int = 20,
+) -> list[dict[str, Any]]:
+    """Список ігнорованих оголошень користувача (для /ignored)."""
+    rows = client.execute(
+        """
+        SELECT i.listing_id, i.fingerprint, i.ignored_at,
+               l.title, l.price, l.location, l.link
+        FROM user_ignored i
+        LEFT JOIN seen_listings l ON i.listing_id = l.id
+        WHERE i.chat_id = ?
+        ORDER BY i.ignored_at DESC
+        LIMIT ?
+        """,
+        [chat_id, limit],
+    )
+    result: list[dict[str, Any]] = []
+    for r in rows or []:
+        result.append(
+            {
+                "id": r[0],
+                "fingerprint": r[1],
+                "ignored_at": r[2],
+                "title": r[3] or "",
+                "price": r[4] or "",
+                "location": r[5] or "",
+                "link": r[6] or "",
+            }
+        )
+    return result
+
+def count_ignored(client: TursoClient, chat_id: str) -> int:
+    """Кількість ігнорованих оголошень."""
+    rows = client.execute(
+        "SELECT COUNT(*) FROM user_ignored WHERE chat_id = ?",
+        [chat_id],
+    )
+    if not rows:
+        return 0
+    return int(rows[0][0] or 0)
 # ═════════════════════════════════════════════════════════════
 # Favorites
 # ═════════════════════════════════════════════════════════════

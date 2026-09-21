@@ -133,12 +133,28 @@ def run_aggregation_cycle(
         disabled = db.get_disabled_sources(client, chat_id)
 
         for city_slug in cities:
-            to_send = _collect_for_user(
+            # Спочатку збираємо "сирі" оголошення
+            raw_to_send = _collect_for_user(
                 city_slug=city_slug,
                 disabled=disabled,
                 catalog=catalog,
                 fresh_by_pair=fresh_by_pair,
+                ignored_ids=set(),  # поки що порожньо
             )
+
+            if not raw_to_send:
+                continue
+
+            # Фільтруємо ігноровані
+            listing_ids = [l.id for l in raw_to_send]
+            fingerprints = [
+                db.make_fingerprint(l.title, l.location) for l in raw_to_send
+            ]
+            ignored_ids = db.get_ignored_ids(
+                client, chat_id, listing_ids, fingerprints
+            )
+
+            to_send = [l for l in raw_to_send if l.id not in ignored_ids]
 
             if to_send:
                 try:
@@ -218,8 +234,9 @@ def _collect_for_user(
     disabled: set[str],
     catalog: Catalog,
     fresh_by_pair: dict[tuple[str, str], list[Listing]],
+    ignored_ids: set[str],
 ) -> list[Listing]:
-    """Збирає оголошення для користувача з урахуванням disabled."""
+    """Збирає оголошення для користувача з урахуванням disabled + ignored."""
     city = catalog.city(city_slug)
     if city is None:
         return []
@@ -228,5 +245,8 @@ def _collect_for_user(
     for source_key in city.refs:
         if source_key in disabled:
             continue
-        result.extend(fresh_by_pair.get((city_slug, source_key), []))
+        for lst in fresh_by_pair.get((city_slug, source_key), []):
+            if lst.id in ignored_ids:
+                continue  # користувач ігнорує це оголошення
+            result.append(lst)
     return result

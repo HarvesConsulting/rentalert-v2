@@ -88,6 +88,16 @@ TABLES: list[str] = [
         PRIMARY KEY (chat_id, category_key)
     )
     """,
+        # ─── Ігноровані оголошення ───
+    """
+    CREATE TABLE IF NOT EXISTS user_ignored (
+        chat_id      TEXT NOT NULL,
+        listing_id   TEXT NOT NULL,
+        fingerprint  TEXT NOT NULL,
+        ignored_at   DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+        PRIMARY KEY (chat_id, listing_id)
+    )
+    """,
     # ─── Лог дій ───
     """
     CREATE TABLE IF NOT EXISTS user_activity (
@@ -113,6 +123,8 @@ INDEXES: list[str] = [
     "CREATE INDEX IF NOT EXISTS idx_favorites_chat ON user_favorites(chat_id)",
     "CREATE INDEX IF NOT EXISTS idx_favorites_listing ON user_favorites(listing_id)",
     "CREATE INDEX IF NOT EXISTS idx_user_categories_chat ON user_categories(chat_id)",
+    "CREATE INDEX IF NOT EXISTS idx_ignored_fingerprint ON user_ignored(chat_id, fingerprint)",
+    "CREATE INDEX IF NOT EXISTS idx_ignored_chat ON user_ignored(chat_id)",
     "CREATE INDEX IF NOT EXISTS idx_activity_chat ON user_activity(chat_id)",
     "CREATE INDEX IF NOT EXISTS idx_activity_action ON user_activity(action)",
     "CREATE INDEX IF NOT EXISTS idx_activity_created ON user_activity(created_at DESC)",

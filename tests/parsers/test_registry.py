@@ -35,7 +35,7 @@ def _build(catalog: Catalog):
 
 
 def test_registry_has_all_sources() -> None:
-    """Реєстр містить усі 8 джерел з каталогу."""
+    """Реєстр містить усі 9 джерел з каталогу."""
     keys = registered_keys()
     expected = {
         "olx_ua",
@@ -46,6 +46,7 @@ def test_registry_has_all_sources() -> None:
         "olx_bg",
         "kleinanzeigen",
         "habitaclia",
+        "njuskalo",
     }
     assert set(keys) == expected
 
@@ -60,6 +61,9 @@ def test_registry_parser_types() -> None:
     assert isinstance(PARSER_REGISTRY["dimria"], DimriaParser)
     assert isinstance(PARSER_REGISTRY["kleinanzeigen"], KleinanzeigenParser)
     assert isinstance(PARSER_REGISTRY["habitaclia"], HabitacliaParser)
+    from rentalert.parsers.njuskalo import NjuskaloParser
+
+    assert isinstance(PARSER_REGISTRY["njuskalo"], NjuskaloParser)
 
 
 def test_get_parser_unknown() -> None:

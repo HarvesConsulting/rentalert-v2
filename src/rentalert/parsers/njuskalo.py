@@ -6,6 +6,7 @@
 
 from __future__ import annotations
 
+import contextlib
 import logging
 import re
 from datetime import datetime
@@ -202,10 +203,8 @@ class NjuskaloParser(Parser):
         time_el = li.select_one("time.date[datetime]")
         if time_el:
             raw = time_el.get("datetime", "")
-            try:
+            with contextlib.suppress(Exception):
                 created_at = datetime.fromisoformat(raw.replace("Z", "+00:00"))
-            except Exception:
-                pass
 
         icon, label = self._category_meta(category_key)
 

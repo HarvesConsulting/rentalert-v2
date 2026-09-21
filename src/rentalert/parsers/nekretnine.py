@@ -20,6 +20,11 @@ from curl_cffi import requests as cffi_requests
 
 from rentalert.catalog.models import City
 from rentalert.parsers.base import Listing, Parser
+from rentalert.parsers.stealth import (
+    fetch_with_retry,
+    human_delay,
+    stealth_headers,
+)
 
 log = logging.getLogger(__name__)
 
@@ -92,10 +97,18 @@ class NekretnineParser(Parser):
         """
         url = f"{self.source.base_url}/{category_slug}/{city_slug}/"
 
-        try:
-            response = cffi_requests.get(url, impersonate="chrome", timeout=30)
-        except Exception as e:
-            log.warning("Nekretnine GET failed: %s", e)
+        human_delay()  # людино-подібна пауза перед запитом
+
+        response = fetch_with_retry(
+            cffi_requests.get,
+            url,
+            impersonate="chrome",
+            headers=stealth_headers(),
+            timeout=30,
+        )
+
+        if response is None:
+            log.warning("Nekretnine GET failed після retry")
             return []
 
         if response.status_code != 200:

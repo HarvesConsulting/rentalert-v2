@@ -45,7 +45,7 @@ _scheduler: BackgroundScheduler | None = None
 _ready = threading.Event()
 _startup_lock = threading.Lock()
 
-AGGREGATION_INTERVAL_MINUTES = 2
+AGGREGATION_INTERVAL_MINUTES = 15
 
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 

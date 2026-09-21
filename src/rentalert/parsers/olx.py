@@ -14,6 +14,11 @@ from curl_cffi import requests as cffi_requests
 
 from rentalert.catalog.models import City
 from rentalert.parsers.base import Listing, Parser
+from rentalert.parsers.stealth import (
+    fetch_with_retry,
+    human_delay,
+    stealth_headers,
+)
 
 log = logging.getLogger(__name__)
 
@@ -93,12 +98,20 @@ class OLXParser(Parser):
             "sort_by": "created_at:desc",
         }
 
+        human_delay()  # людино-подібна пауза перед запитом
+
         session: cffi_requests.Session = cffi_requests.Session(impersonate="chrome")
-        response = session.get(
+        response = fetch_with_retry(
+            session.get,
             f"{self.source.base_url}/api/v1/offers/",
             params=params,
+            headers=stealth_headers(),
             timeout=30,
         )
+
+        if response is None:
+            log.warning("OLX %s/%s: GET failed після retry", city_slug, category_key)
+            return []
 
         if response.status_code != 200:
             log.warning(

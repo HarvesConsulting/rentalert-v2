@@ -15,6 +15,11 @@ from curl_cffi import requests as cffi_requests
 
 from rentalert.catalog.models import City
 from rentalert.parsers.base import Listing, Parser
+from rentalert.parsers.stealth import (
+    fetch_with_retry,
+    human_delay,
+    stealth_headers,
+)
 
 log = logging.getLogger(__name__)
 
@@ -63,10 +68,18 @@ class HabitacliaParser(Parser):
         """Завантажує всі оголошення (без фільтрації за категорією)."""
         url = f"{self.source.base_url}/alquiler-{city_slug}.htm"
 
-        try:
-            response = cffi_requests.get(url, impersonate="chrome", timeout=30)
-        except Exception as e:
-            log.warning("Habitaclia GET failed: %s", e)
+        human_delay()  # людино-подібна пауза перед запитом
+
+        response = fetch_with_retry(
+            cffi_requests.get,
+            url,
+            impersonate="chrome",
+            headers=stealth_headers(),
+            timeout=30,
+        )
+
+        if response is None:
+            log.warning("Habitaclia GET failed після retry")
             return []
 
         if response.status_code != 200:

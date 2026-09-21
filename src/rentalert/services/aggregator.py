@@ -145,14 +145,10 @@ def run_aggregation_cycle(
             if not raw_to_send:
                 continue
 
-             # Фільтруємо ігноровані
+            # Фільтруємо ігноровані
             listing_ids = [lst.id for lst in raw_to_send]
-            fingerprints = [
-                db.make_fingerprint(lst.title, lst.location) for lst in raw_to_send
-            ]
-            ignored_ids = db.get_ignored_ids(
-                client, chat_id, listing_ids, fingerprints
-            )
+            fingerprints = [db.make_fingerprint(lst.title, lst.location) for lst in raw_to_send]
+            ignored_ids = db.get_ignored_ids(client, chat_id, listing_ids, fingerprints)
 
             to_send = [lst for lst in raw_to_send if lst.id not in ignored_ids]
 
@@ -171,6 +167,7 @@ def run_aggregation_cycle(
         stats.users_notified,
     )
     return stats
+
 
 def fetch_city_now(
     catalog: Catalog,
@@ -228,6 +225,7 @@ def fetch_city_now(
         len(all_listings),
     )
     return all_listings
+
 
 # ─────────────────────────────────────────────────────────────
 # Внутрішнє

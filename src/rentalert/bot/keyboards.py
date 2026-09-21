@@ -33,6 +33,7 @@ def main_menu_keyboard(lang: str = "uk") -> dict[str, Any]:
         "is_persistent": True,
     }
 
+
 def subscriptions_menu_keyboard(lang: str = "uk") -> dict[str, Any]:
     """Inline-меню «Мої підписки»: Мої міста / Обране / Ігноровані."""
     return {
@@ -57,6 +58,7 @@ def subscriptions_menu_keyboard(lang: str = "uk") -> dict[str, Any]:
             ],
         ]
     }
+
 
 def remove_keyboard() -> dict[str, Any]:
     """Прибирає reply-клавіатуру."""

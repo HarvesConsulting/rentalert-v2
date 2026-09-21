@@ -315,6 +315,7 @@ def save_listing(
         ],
     )
 
+
 def get_listing(
     client: TursoClient,
     listing_id: str,
@@ -348,6 +349,7 @@ def get_listing(
         "created_at": r[12],
     }
 
+
 def clear_seen_listings(client: TursoClient) -> int:
     """Видаляє ВСІ оголошення (для тестів)."""
     return client.execute_non_query("DELETE FROM seen_listings")
@@ -356,6 +358,7 @@ def clear_seen_listings(client: TursoClient) -> int:
 # ═════════════════════════════════════════════════════════════
 # Fingerprint (для ігнорування)
 # ═════════════════════════════════════════════════════════════
+
 
 def make_fingerprint(title: str | None, location: str | None) -> str:
     """Стабільний хеш оголошення.
@@ -366,6 +369,8 @@ def make_fingerprint(title: str | None, location: str | None) -> str:
     """
     key = f"{(title or '').lower().strip()}|{(location or '').lower().strip()}"
     return hashlib.sha256(key.encode("utf-8")).hexdigest()[:16]
+
+
 # ═════════════════════════════════════════════════════════════
 # User categories
 # ═════════════════════════════════════════════════════════════
@@ -403,6 +408,7 @@ def set_user_categories(
 # ═════════════════════════════════════════════════════════════
 # User ignored (blacklist оголошень)
 # ═════════════════════════════════════════════════════════════
+
 
 def add_ignored(
     client: TursoClient,
@@ -557,6 +563,7 @@ def get_ignored_list(
         )
     return result
 
+
 def count_ignored(client: TursoClient, chat_id: str) -> int:
     """Кількість ігнорованих оголошень."""
     rows = client.execute(
@@ -566,6 +573,8 @@ def count_ignored(client: TursoClient, chat_id: str) -> int:
     if not rows:
         return 0
     return int(rows[0][0] or 0)
+
+
 # ═════════════════════════════════════════════════════════════
 # Favorites
 # ═════════════════════════════════════════════════════════════

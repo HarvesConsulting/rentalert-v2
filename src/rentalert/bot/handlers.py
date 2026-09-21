@@ -41,6 +41,7 @@ def _country_flag(code: str) -> str:
     """Повертає прапор для коду країни (або 🌍, якщо невідомо)."""
     return _COUNTRY_FLAGS.get(code, "🌍")
 
+
 # ─────────────────────────────────────────────────────────────
 # Контекст
 # ─────────────────────────────────────────────────────────────
@@ -236,6 +237,7 @@ def _send_main_menu(chat_id: str, ctx: BotContext) -> None:
         keyboard=kb.main_menu_keyboard(lang),
     )
 
+
 def _send_subscriptions_menu(chat_id: str, ctx: BotContext) -> None:
     """Показує inline-меню «Мої підписки»."""
     lang = user_svc.get_language(ctx.client, chat_id)
@@ -244,6 +246,7 @@ def _send_subscriptions_menu(chat_id: str, ctx: BotContext) -> None:
         T("subscriptions_menu_title", lang),
         keyboard=kb.subscriptions_menu_keyboard(lang),
     )
+
 
 def _send_country_selector(chat_id: str, ctx: BotContext) -> None:
     lang = user_svc.get_language(ctx.client, chat_id)
@@ -320,6 +323,7 @@ def _send_favorites(chat_id: str, ctx: BotContext) -> None:
         keyboard={"inline_keyboard": buttons},
     )
 
+
 def _send_ignored(chat_id: str, ctx: BotContext) -> None:
     """Показує список ігнорованих оголошень з кнопками «Повернути»."""
     lang = user_svc.get_language(ctx.client, chat_id)
@@ -373,6 +377,7 @@ def _clear_ignored(chat_id: str, ctx: BotContext) -> None:
         ctx,
         T("ignored_cleared", lang, count=n),
     )
+
 
 def _send_settings(chat_id: str, ctx: BotContext) -> None:
     lang = user_svc.get_language(ctx.client, chat_id)

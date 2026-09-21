@@ -194,6 +194,7 @@ def _handle_country(
 
     # Одне повідомлення — головне меню
     from rentalert.bot.handlers import _send_main_menu
+
     _send_main_menu(chat_id, ctx)
 
 
@@ -367,6 +368,7 @@ def _handle_lang(
         )
 
     from rentalert.bot.handlers import _send_main_menu
+
     _send_main_menu(chat_id, ctx)
 
 
@@ -428,6 +430,7 @@ def _handle_clear_favorites(
     else:
         ctx.notifier.answer_callback(cb_id, "✓")
 
+
 def _handle_clear_ignored(
     confirm: str,
     chat_id: str,
@@ -459,6 +462,8 @@ def _handle_clear_ignored(
                 "✓",
                 keyboard={"inline_keyboard": []},
             )
+
+
 # ─────────────────────────────────────────────────────────────
 # cfg (заглушка — реалізація у частині 2)
 # ─────────────────────────────────────────────────────────────
@@ -676,6 +681,7 @@ def _handle_favorite(
         ctx.notifier.answer_callback(cb_id, "⭐")
         db.log_activity(ctx.client, chat_id, "add_favorite", {"id": listing_id})
 
+
 # ─────────────────────────────────────────────────────────────
 # subs (Мої підписки)
 # ─────────────────────────────────────────────────────────────
@@ -696,6 +702,7 @@ def _handle_subs(
         _send_favorites(chat_id, ctx)
     elif sub == "ignored":
         _send_ignored(chat_id, ctx)
+
 
 # ─────────────────────────────────────────────────────────────
 # ign / unign
@@ -756,6 +763,8 @@ def _handle_unignore(
     )
 
     ctx.notifier.answer_callback(cb_id, T("ignored_removed", lang))
+
+
 # ─────────────────────────────────────────────────────────────
 # feedback / rate
 # ─────────────────────────────────────────────────────────────

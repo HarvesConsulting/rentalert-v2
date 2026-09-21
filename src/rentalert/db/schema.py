@@ -88,7 +88,7 @@ TABLES: list[str] = [
         PRIMARY KEY (chat_id, category_key)
     )
     """,
-        # ─── Ігноровані оголошення ───
+    # ─── Ігноровані оголошення ───
     """
     CREATE TABLE IF NOT EXISTS user_ignored (
         chat_id      TEXT NOT NULL,

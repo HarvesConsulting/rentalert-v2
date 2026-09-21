@@ -50,8 +50,7 @@ def stealth_headers(extra: dict[str, str] | None = None) -> dict[str, str]:
     headers = {
         "User-Agent": random.choice(USER_AGENTS),
         "Accept": (
-            "text/html,application/xhtml+xml,application/xml;q=0.9,"
-            "image/avif,image/webp,*/*;q=0.8"
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
         ),
         "Accept-Language": "en-US,en;q=0.9,pl;q=0.8,uk;q=0.7",
         "Accept-Encoding": "gzip, deflate, br",
@@ -83,6 +82,7 @@ def human_delay(min_sec: float = 1.5, max_sec: float = 4.0) -> None:
     delay = random.uniform(min_sec, max_sec)
     log.debug("stealth: пауза %.2f сек", delay)
     time.sleep(delay)
+
 
 # ─────────────────────────────────────────────────────────────
 # Retry

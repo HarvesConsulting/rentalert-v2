@@ -22,6 +22,59 @@ def _normalize(text: str | None) -> str:
     return "".join(c for c in s if not unicodedata.combining(c))
 
 
+# ─────────────────────────────────────────────────────────────
+# Транслітерація: кирилиця ↔ латиниця
+# ─────────────────────────────────────────────────────────────
+
+_UA_TO_LATIN: dict[str, str] = {
+    "а": "a", "б": "b", "в": "v", "г": "h", "ґ": "g",
+    "д": "d", "е": "e", "є": "ie", "ж": "zh", "з": "z",
+    "и": "y", "і": "i", "ї": "i", "й": "i", "к": "k",
+    "л": "l", "м": "m", "н": "n", "о": "o", "п": "p",
+    "р": "r", "с": "s", "т": "t", "у": "u", "ф": "f",
+    "х": "kh", "ц": "ts", "ч": "ch", "ш": "sh", "щ": "shch",
+    "ь": "", "ю": "iu", "я": "ia",
+    # російські, які часто трапляються
+    "ы": "y", "э": "e", "ё": "e", "ъ": "",
+}
+
+_LATIN_TO_UA: dict[str, str] = {
+    "a": "а", "b": "б", "v": "в", "h": "г", "g": "ґ",
+    "d": "д", "e": "е", "z": "з", "y": "и", "i": "і",
+    "k": "к", "l": "л", "m": "м", "n": "н", "o": "о",
+    "p": "п", "r": "р", "s": "с", "t": "т", "u": "у",
+    "f": "ф", "c": "ц", "j": "й", "w": "в",
+}
+
+
+def _translit_to_latin(text: str) -> str:
+    """Кирилиця → латиниця (для пошуку в латиномовних каталогах)."""
+    if not text:
+        return ""
+    s = _normalize(text)
+    result: list[str] = []
+    for ch in s:
+        if ch in _UA_TO_LATIN:
+            result.append(_UA_TO_LATIN[ch])
+        else:
+            result.append(ch)
+    return "".join(result)
+
+
+def _translit_to_cyrillic(text: str) -> str:
+    """Латиниця → кирилиця (для пошуку в кириличних каталогах)."""
+    if not text:
+        return ""
+    s = _normalize(text)
+    result: list[str] = []
+    for ch in s:
+        if ch in _LATIN_TO_UA:
+            result.append(_LATIN_TO_UA[ch])
+        else:
+            result.append(ch)
+    return "".join(result)
+
+
 class Catalog:
     """Immutable довідник країн, джерел, міст."""
 
@@ -99,8 +152,66 @@ class Catalog:
         if not query or len(query) < 2:
             return []
 
-        q = _normalize(query)
         candidates = self._cities_by_country.get(country, [])
+        if not candidates:
+            return []
+
+        # 1. Точний пошук
+        result = self._search_exact(query, candidates, limit)
+        if len(result) >= limit:
+            return result[:limit]
+
+        seen: set[str] = {c.slug for c in result}
+
+        # 2. Транслітерація: кирилиця → латиниця
+        translit_lat = _translit_to_latin(query)
+        if translit_lat != _normalize(query):
+            for c in self._search_exact(translit_lat, candidates, limit):
+                if c.slug not in seen:
+                    result.append(c)
+                    seen.add(c.slug)
+
+        if len(result) >= limit:
+            return result[:limit]
+
+        # 3. Транслітерація: латиниця → кирилиця
+        translit_cyr = _translit_to_cyrillic(query)
+        if translit_cyr != _normalize(query):
+            for c in self._search_exact(translit_cyr, candidates, limit):
+                if c.slug not in seen:
+                    result.append(c)
+                    seen.add(c.slug)
+
+        if len(result) >= limit:
+            return result[:limit]
+
+        # 4. Fuzzy на оригіналі
+        for c in self._search_fuzzy(query, candidates, limit - len(result)):
+            if c.slug not in seen:
+                result.append(c)
+                seen.add(c.slug)
+
+        if len(result) >= limit:
+            return result[:limit]
+
+        # 5. Fuzzy на трансліті (латиниця)
+        for c in self._search_fuzzy(translit_lat, candidates, limit - len(result)):
+            if c.slug not in seen:
+                result.append(c)
+                seen.add(c.slug)
+
+        return result[:limit]
+
+    def _search_exact(
+        self,
+        query: str,
+        candidates: list[City],
+        limit: int,
+    ) -> list[City]:
+        """Точний пошук: exact → startswith → contains."""
+        q = _normalize(query)
+        if not q:
+            return []
 
         exact: list[City] = []
         starts: list[City] = []
@@ -123,6 +234,30 @@ class Catalog:
         contains.sort(key=sort_key)
 
         return (exact + starts + contains)[:limit]
+
+    def _search_fuzzy(
+        self,
+        query: str,
+        candidates: list[City],
+        limit: int,
+    ) -> list[City]:
+        """Fuzzy-пошук через difflib."""
+        from difflib import get_close_matches
+
+        q = _normalize(query)
+        if not q or limit <= 0:
+            return []
+
+        name_map: dict[str, City] = {}
+        for city in candidates:
+            n = _normalize(city.name)
+            if n and n not in name_map:
+                name_map[n] = city
+
+        matches = get_close_matches(
+            q, list(name_map.keys()), n=limit, cutoff=0.75,
+        )
+        return [name_map[m] for m in matches]
 
     # ─── Джерела для міста ───
 

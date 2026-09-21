@@ -18,6 +18,8 @@ TEXTS: dict[str, dict[str, str]] = {
         # ─── Головне меню ───
         "main_menu": "🏠 <b>RentAlert</b>\n\nКраїна: <b>{country}</b>\n\nОберіть дію нижче 👇",
         "btn_my_cities": "📍 Мої міста",
+        "btn_my_subscriptions": "📍 Мої підписки",
+        "subscriptions_menu_title": "📍 <b>Мої підписки</b>\n\nОберіть розділ:",
         "btn_add_city": "➕ Додати місто",
         "btn_favorites": "📌 Обране",
         "btn_settings": "⚙️ Налаштування",
@@ -118,6 +120,8 @@ TEXTS: dict[str, dict[str, str]] = {
         # ─── Main menu ───
         "main_menu": "🏠 <b>RentAlert</b>\n\nCountry: <b>{country}</b>\n\nChoose an action below 👇",
         "btn_my_cities": "📍 My Cities",
+        "btn_my_subscriptions": "📍 My Subscriptions",
+        "subscriptions_menu_title": "📍 <b>My Subscriptions</b>\n\nChoose a section:",
         "btn_add_city": "➕ Add City",
         "btn_favorites": "📌 Favorites",
         "btn_settings": "⚙️ Settings",

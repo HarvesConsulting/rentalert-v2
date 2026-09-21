@@ -27,7 +27,12 @@ from typing import Any
 
 from rentalert.bot import keyboards as kb
 from rentalert.bot import states
-from rentalert.bot.handlers import BotContext
+from rentalert.bot.handlers import (
+    BotContext,
+    _send_favorites,
+    _send_ignored,
+    _send_my_cities,
+)
 from rentalert.db import queries as db
 from rentalert.services import user as user_svc
 from rentalert.translations import T
@@ -119,6 +124,10 @@ def _dispatch(
 
     if action == "fav":
         _handle_favorite(args[0], chat_id, message_id, cb_id, ctx)
+        return
+
+    if action == "subs":
+        _handle_subs(args[0], chat_id, cb_id, ctx)
         return
 
     if action == "ign":
@@ -599,6 +608,26 @@ def _handle_favorite(
         ctx.notifier.answer_callback(cb_id, "⭐")
         db.log_activity(ctx.client, chat_id, "add_favorite", {"id": listing_id})
 
+# ─────────────────────────────────────────────────────────────
+# subs (Мої підписки)
+# ─────────────────────────────────────────────────────────────
+
+
+def _handle_subs(
+    sub: str,
+    chat_id: str,
+    cb_id: str,
+    ctx: BotContext,
+) -> None:
+    """Обробляє inline-меню «Мої підписки»."""
+    ctx.notifier.answer_callback(cb_id)
+
+    if sub == "my_cities":
+        _send_my_cities(chat_id, ctx)
+    elif sub == "favorites":
+        _send_favorites(chat_id, ctx)
+    elif sub == "ignored":
+        _send_ignored(chat_id, ctx)
 
 # ─────────────────────────────────────────────────────────────
 # ign / unign

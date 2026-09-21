@@ -21,23 +21,42 @@ from rentalert.translations import T
 
 
 def main_menu_keyboard(lang: str = "uk") -> dict[str, Any]:
-    """Головне меню — 5 кнопок у 3 ряди."""
+    """Головне меню — 4 кнопки у 4 ряди."""
     return {
         "keyboard": [
-            [
-                {"text": T("btn_my_cities", lang)},
-                {"text": T("btn_add_city", lang)},
-            ],
-            [
-                {"text": T("btn_favorites", lang)},
-                {"text": T("btn_settings", lang)},
-            ],
+            [{"text": T("btn_my_subscriptions", lang)}],
+            [{"text": T("btn_add_city", lang)}],
+            [{"text": T("btn_settings", lang)}],
             [{"text": T("btn_help", lang)}],
         ],
         "resize_keyboard": True,
         "is_persistent": True,
     }
 
+def subscriptions_menu_keyboard(lang: str = "uk") -> dict[str, Any]:
+    """Inline-меню «Мої підписки»: Мої міста / Обране / Ігноровані."""
+    return {
+        "inline_keyboard": [
+            [
+                {
+                    "text": T("btn_my_cities", lang),
+                    "callback_data": "subs:my_cities",
+                }
+            ],
+            [
+                {
+                    "text": T("btn_favorites", lang),
+                    "callback_data": "subs:favorites",
+                }
+            ],
+            [
+                {
+                    "text": T("btn_ignored", lang),
+                    "callback_data": "subs:ignored",
+                }
+            ],
+        ]
+    }
 
 def remove_keyboard() -> dict[str, Any]:
     """Прибирає reply-клавіатуру."""

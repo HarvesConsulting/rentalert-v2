@@ -141,16 +141,12 @@ def _handle_command(chat_id: str, text: str, ctx: BotContext) -> None:
 
 def _handle_menu_button(chat_id: str, text: str, ctx: BotContext) -> bool:
 
-    if text == T("btn_my_cities", "uk") or text == T("btn_my_cities", "en"):
-        _send_my_cities(chat_id, ctx)
+    if text == T("btn_my_subscriptions", "uk") or text == T("btn_my_subscriptions", "en"):
+        _send_subscriptions_menu(chat_id, ctx)
         return True
 
     if text == T("btn_add_city", "uk") or text == T("btn_add_city", "en"):
         _send_add_city_prompt(chat_id, ctx)
-        return True
-
-    if text == T("btn_favorites", "uk") or text == T("btn_favorites", "en"):
-        _send_favorites(chat_id, ctx)
         return True
 
     if text == T("btn_settings", "uk") or text == T("btn_settings", "en"):
@@ -197,7 +193,7 @@ def _handle_waiting_state(
 
 def _is_menu_button(text: str) -> bool:
     """Чи це кнопка головного меню (uk або en)."""
-    for key in ("btn_my_cities", "btn_add_city", "btn_favorites", "btn_settings", "btn_help"):
+    for key in ("btn_my_subscriptions", "btn_add_city", "btn_settings", "btn_help"):
         if text in (T(key, "uk"), T(key, "en")):
             return True
     return False
@@ -219,6 +215,14 @@ def _send_main_menu(chat_id: str, ctx: BotContext) -> None:
         keyboard=kb.main_menu_keyboard(lang),
     )
 
+def _send_subscriptions_menu(chat_id: str, ctx: BotContext) -> None:
+    """Показує inline-меню «Мої підписки»."""
+    lang = user_svc.get_language(ctx.client, chat_id)
+    ctx.notifier.send_message(
+        chat_id,
+        T("subscriptions_menu_title", lang),
+        keyboard=kb.subscriptions_menu_keyboard(lang),
+    )
 
 def _send_country_selector(chat_id: str, ctx: BotContext) -> None:
     lang = user_svc.get_language(ctx.client, chat_id)

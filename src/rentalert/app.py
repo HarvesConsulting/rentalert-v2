@@ -205,6 +205,28 @@ def health() -> tuple[str, int]:
     """Health check для Render."""
     return "ok", 200
 
+@app.route("/api/check-all")
+def api_check_all() -> tuple[str, int]:
+    """Примусовий запуск агрегації (для cron-job.org).
+
+    Це НЕ health check — це реальна робота.
+    Render бачить зовнішній трафік і не засинає.
+    """
+    if _ctx is None:
+        try:
+            _ensure_startup()
+        except Exception as e:
+            log.exception("Startup failed у /api/check-all: %s", e)
+            return "startup failed", 503
+
+    if _ctx is None:
+        return "not ready", 503
+
+    # Запускаємо у фоновому потоці, щоб не блокувати HTTP-відповідь
+    threading.Thread(target=_run_aggregation, daemon=True).start()
+
+    return "ok", 200
+
 
 @app.route("/")
 def root() -> Any:

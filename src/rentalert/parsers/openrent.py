@@ -63,10 +63,26 @@ class OpenRentParser(Parser):
 
         human_delay()
 
+        headers = stealth_headers()
+        headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+        headers["Referer"] = "https://www.openrent.co.uk/"
+
+        headers = stealth_headers()
+        headers["Accept"] = (
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+        )
+        headers["Accept-Language"] = "en-GB,en;q=0.9"
+        headers["Referer"] = "https://www.openrent.co.uk/"
+        headers["Sec-Fetch-Dest"] = "document"
+        headers["Sec-Fetch-Mode"] = "navigate"
+        headers["Sec-Fetch-Site"] = "same-origin"
+        headers["Sec-Fetch-User"] = "?1"
+        headers["Upgrade-Insecure-Requests"] = "1"
+
         response = cffi_requests.get(
             url,
-            impersonate="chrome",
-            headers=stealth_headers(),
+            impersonate="chrome131",
+            headers=headers,
             timeout=30,
         )
 

@@ -122,7 +122,7 @@
     "categories": ["apartment", "house", "room"],
     "config": {}
   },
-  "nekretnine": {
+    "nekretnine": {
     "key": "nekretnine",
     "country": "hr",
     "name": "Nekretnine.hr",
@@ -137,5 +137,16 @@
         "house": "najam-stambene-nekretnine"
       }
     }
+  },
+  "bienici": {
+    "key": "bienici",
+    "country": "fr",
+    "name": "Bien'ici",
+    "icon": "🇫🇷",
+    "kind": "bienici",
+    "base_url": "https://www.bienici.com",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house"],
+    "config": {}
   }
 }

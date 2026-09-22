@@ -205,6 +205,7 @@ def health() -> tuple[str, int]:
     """Health check для Render."""
     return "ok", 200
 
+
 @app.route("/api/check-all")
 def api_check_all() -> tuple[str, int]:
     """Примусовий запуск агрегації (для cron-job.org).

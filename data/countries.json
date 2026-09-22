@@ -70,5 +70,15 @@
     "currency": "€",
     "free": false,
     "price_stars": 100
+  },    
+  "fr": {
+    "code": "fr",
+    "name": "🇫🇷 Франція",
+    "name_en": "France",
+    "language": "fr",
+    "currency": "€",
+    "free": false,
+    "price_stars": 100
   }
+
 }

@@ -48,4 +48,4 @@ data/*.local.json
 *.db
 *.sqlite
 *.sqlite3
-*.log
+*.logscripts/.cache_fr.json

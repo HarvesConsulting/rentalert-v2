@@ -27,6 +27,7 @@ def _register_parser_classes() -> None:
     if _PARSER_BY_KIND:
         return
 
+    from rentalert.parsers.bienici import BienIciParser
     from rentalert.parsers.dimria import DimriaParser
     from rentalert.parsers.habitaclia import HabitacliaParser
     from rentalert.parsers.kleinanzeigen import KleinanzeigenParser
@@ -39,6 +40,7 @@ def _register_parser_classes() -> None:
         "kleinanzeigen": KleinanzeigenParser,
         "habitaclia": HabitacliaParser,
         "nekretnine": NekretnineParser,
+        "bienici": BienIciParser,
     }
 
 

@@ -7,6 +7,7 @@ from pathlib import Path
 import pytest
 
 from rentalert.catalog.catalog import Catalog
+from rentalert.parsers.bienici import BienIciParser
 from rentalert.parsers.dimria import DimriaParser
 from rentalert.parsers.habitaclia import HabitacliaParser
 from rentalert.parsers.kleinanzeigen import KleinanzeigenParser
@@ -35,7 +36,7 @@ def _build(catalog: Catalog):
 
 
 def test_registry_has_all_sources() -> None:
-    """Реєстр містить усі 9 джерел з каталогу."""
+    """Реєстр містить усі 10 джерел з каталогу."""
     keys = registered_keys()
     expected = {
         "olx_ua",
@@ -47,6 +48,7 @@ def test_registry_has_all_sources() -> None:
         "kleinanzeigen",
         "habitaclia",
         "nekretnine",
+        "bienici",
     }
     assert set(keys) == expected
 
@@ -64,6 +66,7 @@ def test_registry_parser_types() -> None:
     from rentalert.parsers.nekretnine import NekretnineParser
 
     assert isinstance(PARSER_REGISTRY["nekretnine"], NekretnineParser)
+    assert isinstance(PARSER_REGISTRY["bienici"], BienIciParser)
 
 
 def test_get_parser_unknown() -> None:

@@ -243,8 +243,19 @@ def _fetch_and_save(
     """Парсить, дедуплікує, зберігає, повертає свіжі нові оголошення."""
     source = parser.source
 
-    # Парсимо
-    listings = parser.fetch(city, list(source.categories))
+    # Callback: чи ВСІ id з переданого списку вже в БД?
+    def _is_all_seen(ids: list[str]) -> bool:
+        if not ids:
+            return False
+        seen = db.get_seen_ids(client, ids)
+        return len(seen) == len(ids)
+
+    # Парсимо (з підтримкою пагінації через seen_checker)
+    listings = parser.fetch(
+        city,
+        list(source.categories),
+        seen_checker=_is_all_seen,
+    )
     if not listings:
         return []
 

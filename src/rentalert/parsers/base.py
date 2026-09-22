@@ -113,12 +113,21 @@ class Parser(ABC):
         self.source = source
 
     @abstractmethod
-    def fetch(self, city: City, categories: list[str]) -> list[Listing]:
+    def fetch(
+        self,
+        city: City,
+        categories: list[str],
+        *,
+        seen_checker: Callable[[list[str]], bool] | None = None,
+    ) -> list[Listing]:
         """Повертає оголошення для міста й категорій.
 
         Args:
             city: об'єкт City з каталогу
             categories: список ключів категорій ('apartment', 'house', ...)
+            seen_checker: опційний callback. Отримує список ID і повертає True,
+                якщо ВСІ ці ID вже є в БД. Використовується для пагінації —
+                щоб зупинитись, коли догнали оновлення.
 
         Returns:
             Список Listing. Порожній список, якщо нічого не знайдено.

@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import logging
 import re
+from collections.abc import Callable
 from typing import Any
 
 from bs4 import BeautifulSoup
@@ -16,7 +17,6 @@ from curl_cffi import requests as cffi_requests
 from rentalert.catalog.models import City
 from rentalert.parsers.base import Listing, Parser
 from rentalert.parsers.stealth import (
-    fetch_with_retry,
     human_delay,
     stealth_headers,
 )
@@ -33,16 +33,27 @@ _ROOM_WORDS = ("habitación", "cuarto")
 class HabitacliaParser(Parser):
     """Парсер Habitaclia.com (ES)."""
 
-    def fetch(self, city: City, categories: list[str]) -> list[Listing]:
-        """Завантажує оголошення для міста й категорій."""
+    MAX_PAGES = 15  # запобіжник від зациклення
+
+    def fetch(
+        self,
+        city: City,
+        categories: list[str],
+        *,
+        seen_checker: Callable[[list[str]], bool] | None = None,
+    ) -> list[Listing]:
+        """Завантажує оголошення для міста й категорій (з пагінацією)."""
         city_slug = self.external_id(city)
         if city_slug is None:
             log.warning("City %r не має refs для %r", city.slug, self.source.key)
             return []
 
-        # Один URL повертає все — тягнемо один раз
         try:
-            all_listings = self._fetch_all(city_slug=str(city_slug), city=city)
+            all_listings = self._fetch_all_pages(
+                city_slug=str(city_slug),
+                city=city,
+                seen_checker=seen_checker,
+            )
         except Exception as e:
             log.exception("Habitaclia %s failed: %s", city_slug, e)
             return []
@@ -64,42 +75,91 @@ class HabitacliaParser(Parser):
     # Внутрішнє
     # ─────────────────────────────────────────────────────
 
-    def _fetch_all(self, *, city_slug: str, city: City) -> list[Listing]:
-        """Завантажує всі оголошення (без фільтрації за категорією)."""
-        url = f"{self.source.base_url}/alquiler-{city_slug}.htm"
+    def _fetch_all_pages(
+        self,
+        *,
+        city_slug: str,
+        city: City,
+        seen_checker: Callable[[list[str]], bool] | None = None,
+    ) -> list[Listing]:
+        """Завантажує всі сторінки, поки не догнали оновлення."""
+        all_listings: list[Listing] = []
+        seen_in_run: set[str] = set()
 
-        human_delay()  # людино-подібна пауза перед запитом
+        for page in range(1, self.MAX_PAGES + 1):
+            url = self._make_page_url(city_slug, page)
 
-        response = fetch_with_retry(
-            cffi_requests.get,
-            url,
-            impersonate="chrome",
-            headers=stealth_headers(),
-            timeout=30,
-        )
+            human_delay()
 
-        if response is None:
-            log.warning("Habitaclia GET failed після retry")
-            return []
-
-        if response.status_code != 200:
-            log.warning("Habitaclia %s → HTTP %d", url, response.status_code)
-            return []
-
-        soup = BeautifulSoup(response.text, "html.parser")
-        articles = soup.find_all("article")
-
-        listings: list[Listing] = []
-        for art in articles:
             try:
-                lst = self._parse_article(art=art, city_slug=city.slug)
-                if lst is not None:
-                    listings.append(lst)
+                response = cffi_requests.get(
+                    url,
+                    impersonate="chrome",
+                    headers=stealth_headers(),
+                    timeout=30,
+                )
             except Exception as e:
-                log.exception("Помилка парсингу article: %s", e)
+                log.warning("Habitaclia GET failed (page %d): %s", page, e)
+                break
 
-        log.info("Habitaclia %s: %d сирих оголошень", city_slug, len(listings))
-        return listings
+            if response.status_code != 200:
+                log.warning(
+                    "Habitaclia %s page %d → HTTP %d",
+                    city_slug,
+                    page,
+                    response.status_code,
+                )
+                break
+
+            soup = BeautifulSoup(response.text, "html.parser")
+            articles = soup.find_all("article")
+
+            if not articles:
+                log.info("Habitaclia %s: сторінка %d порожня — СТОП", city_slug, page)
+                break
+
+            page_listings: list[Listing] = []
+            for art in articles:
+                try:
+                    lst = self._parse_article(art=art, city_slug=city.slug)
+                    if lst is not None and lst.id not in seen_in_run:
+                        seen_in_run.add(lst.id)
+                        page_listings.append(lst)
+                except Exception as e:
+                    log.exception("Помилка парсингу article: %s", e)
+
+            if not page_listings:
+                log.info("Habitaclia %s: сторінка %d — всі дублікати — СТОП", city_slug, page)
+                break
+
+            # Перевірка: чи всі вже в БД?
+            if seen_checker:
+                page_ids = [lst.id for lst in page_listings]
+                if seen_checker(page_ids):
+                    log.info(
+                        "Habitaclia %s: сторінка %d — всі вже в БД — СТОП",
+                        city_slug,
+                        page,
+                    )
+                    break
+
+            all_listings.extend(page_listings)
+            log.info(
+                "Habitaclia %s: сторінка %d — %d оголошень",
+                city_slug,
+                page,
+                len(page_listings),
+            )
+
+        return all_listings
+
+    @staticmethod
+    def _make_page_url(city_slug: str, page: int) -> str:
+        """Формує URL сторінки."""
+        base = "https://www.habitaclia.com"
+        if page == 1:
+            return f"{base}/alquiler-{city_slug}.htm"
+        return f"{base}/alquiler-{city_slug}-{page}.htm"
 
     def _parse_article(
         self,

@@ -16,7 +16,7 @@ TEXTS: dict[str, dict[str, str]] = {
     # ═════════════════════════════════════════════════════════
     "uk": {
         # ─── Головне меню ───
-        "main_menu": "🏠 <b>RentAlert</b>\n\nКраїна: <b>{country}</b>\n\nОберіть дію нижче 👇",
+        "main_menu": "🏠 <b>RentAlert</b>\n\n{flag} <b>{country}</b>\n\nОберіть дію нижче 👇",
         "btn_my_cities": "📍 Мої міста",
         "btn_my_subscriptions": "📍 Мої підписки",
         "subscriptions_menu_title": "📍 <b>Мої підписки</b>\n\nОберіть розділ:",
@@ -51,6 +51,7 @@ TEXTS: dict[str, dict[str, str]] = {
         "country_de": "🇩🇪 Німеччина",
         "country_es": "🇪🇸 Іспанія",
         "country_hr": "🇭🇷 Хорватія",
+        "country_fr": "🇫🇷 Франція",
         # ─── Мої міста ───
         "my_cities_title": "📍 <b>Мої міста</b> ({count}):",
         "my_cities_empty": "📍 <b>Мої міста</b>\n\nУ вас ще немає доданих міст.\n\nНатисніть <b>➕ Додати місто</b>, щоб почати.",
@@ -84,6 +85,7 @@ TEXTS: dict[str, dict[str, str]] = {
             "• 🇧🇬 Болгарія (OLX.bg)\n"
             "• 🇩🇪 Німеччина (Kleinanzeigen)\n"
             "• 🇪🇸 Іспанія (Habitaclia)\n\n"
+            "• 🇫🇷 Франція (Bien'ici)\n\n"
             "✅ <b>Переваги:</b>\n"
             "• ⚡ Нові оголошення кожні 2 хвилини\n"
             "• 🔔 Тільки нові — без спаму\n"
@@ -122,7 +124,7 @@ TEXTS: dict[str, dict[str, str]] = {
     # ═════════════════════════════════════════════════════════
     "en": {
         # ─── Main menu ───
-        "main_menu": "🏠 <b>RentAlert</b>\n\nCountry: <b>{country}</b>\n\nChoose an action below 👇",
+        "main_menu": "🏠 <b>RentAlert</b>\n\n{flag} <b>{country}</b>\n\nChoose an action below 👇",
         "btn_my_cities": "📍 My Cities",
         "btn_my_subscriptions": "📍 My Subscriptions",
         "subscriptions_menu_title": "📍 <b>My Subscriptions</b>\n\nChoose a section:",
@@ -157,6 +159,7 @@ TEXTS: dict[str, dict[str, str]] = {
         "country_de": "🇩🇪 Germany",
         "country_es": "🇪🇸 Spain",
         "country_hr": "🇭🇷 Croatia",
+        "country_fr": "🇫🇷 France",
         # ─── My cities ───
         "my_cities_title": "📍 <b>My cities</b> ({count}):",
         "my_cities_empty": "📍 <b>My cities</b>\n\nYou haven't added any cities yet.\n\nTap <b>➕ Add City</b> to start.",
@@ -186,6 +189,7 @@ TEXTS: dict[str, dict[str, str]] = {
             "• 🇧🇬 Bulgaria (OLX.bg)\n"
             "• 🇩🇪 Germany (Kleinanzeigen)\n"
             "• 🇪🇸 Spain (Habitaclia)\n\n"
+            "• 🇫🇷 France (Bien'ici)\n\n"
             "✅ <b>Benefits:</b>\n"
             "• ⚡ New listings every 2 minutes\n"
             "• 🔔 Only new — no spam\n"

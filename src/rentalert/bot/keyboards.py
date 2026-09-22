@@ -381,5 +381,9 @@ def _categories_for_country(country: str) -> list[tuple[str, str, str]]:
             ("house", "🏠", "Kuće"),
             ("room", "🚪", "Sobe"),
         ],
+                "fr": [
+            ("apartment", "🏢", "Appartements"),
+            ("house", "🏠", "Maisons"),
+        ],
     }
     return data.get(country, data["ua"])

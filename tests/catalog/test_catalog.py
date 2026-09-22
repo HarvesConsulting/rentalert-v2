@@ -25,14 +25,14 @@ def catalog() -> Catalog:
 
 def test_stats(catalog: Catalog) -> None:
     s = catalog.stats()
-    assert s["countries"] == 8
-    assert s["sources"] == 9
+    assert s["countries"] == 9
+    assert s["sources"] == 10
     assert s["cities"] > 34414
 
 
 def test_all_countries(catalog: Catalog) -> None:
     codes = {c.code for c in catalog.all_countries()}
-    assert codes == {"ua", "pl", "pt", "ro", "bg", "de", "es", "hr"}
+    assert codes == {"ua", "pl", "pt", "ro", "bg", "de", "es", "hr", "fr"}
 
 
 def test_all_sources(catalog: Catalog) -> None:

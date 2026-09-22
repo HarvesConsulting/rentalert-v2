@@ -79,6 +79,15 @@
     "currency": "€",
     "free": false,
     "price_stars": 100
+  }  ,
+  "gb": {
+    "code": "gb",
+    "name": "🇬🇧 Велика Британія",
+    "name_en": "United Kingdom",
+    "language": "en",
+    "currency": "£",
+    "free": false,
+    "price_stars": 150
   }
 
 }

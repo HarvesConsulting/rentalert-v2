@@ -49,6 +49,7 @@ def test_registry_has_all_sources() -> None:
         "habitaclia",
         "nekretnine",
         "bienici",
+        "openrent",
     }
     assert set(keys) == expected
 
@@ -67,6 +68,9 @@ def test_registry_parser_types() -> None:
 
     assert isinstance(PARSER_REGISTRY["nekretnine"], NekretnineParser)
     assert isinstance(PARSER_REGISTRY["bienici"], BienIciParser)
+    from rentalert.parsers.openrent import OpenRentParser
+
+    assert isinstance(PARSER_REGISTRY["openrent"], OpenRentParser)
 
 
 def test_get_parser_unknown() -> None:

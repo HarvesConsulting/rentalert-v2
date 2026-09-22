@@ -148,5 +148,16 @@
     "enabled_by_default": true,
     "categories": ["apartment", "house"],
     "config": {}
+  }  ,
+  "openrent": {
+    "key": "openrent",
+    "country": "gb",
+    "name": "OpenRent",
+    "icon": "🇬🇧",
+    "kind": "openrent",
+    "base_url": "https://www.openrent.co.uk",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house", "room"],
+    "config": {}
   }
 }

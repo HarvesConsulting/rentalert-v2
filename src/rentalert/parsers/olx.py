@@ -87,6 +87,8 @@ class OLXParser(Parser):
     # Внутрішнє
     # ─────────────────────────────────────────────────────
 
+    MAX_PAGES = 20  # запобіжник від зациклення
+
     def _fetch_category(
         self,
         *,
@@ -95,57 +97,104 @@ class OLXParser(Parser):
         category_id: int,
         category_key: str,
         city_slug: str,
+        seen_checker: Callable[[list[str]], bool] | None = None,
     ) -> list[Listing]:
-        """Завантажує одну категорію."""
-        params = {
-            "offset": 0,
-            "limit": 40,
-            location_param: location_id,
-            "category_id": category_id,
-            "sort_by": "created_at:desc",
-        }
-
-        human_delay()  # людино-подібна пауза перед запитом
+        """Завантажує одну категорію (з пагінацією)."""
+        all_listings: list[Listing] = []
+        seen_in_run: set[str] = set()
+        offset = 0
 
         session: cffi_requests.Session = cffi_requests.Session(impersonate="chrome")
-        response = fetch_with_retry(
-            session.get,
-            f"{self.source.base_url}/api/v1/offers/",
-            params=params,
-            headers=stealth_headers(),
-            timeout=30,
-        )
 
-        if response is None:
-            log.warning("OLX %s/%s: GET failed після retry", city_slug, category_key)
-            return []
+        for page in range(1, self.MAX_PAGES + 1):
+            params = {
+                "offset": offset,
+                "limit": 40,
+                location_param: location_id,
+                "category_id": category_id,
+                "sort_by": "created_at:desc",
+            }
 
-        if response.status_code != 200:
-            log.warning(
-                "OLX %s/%s → HTTP %d",
+            human_delay()
+
+            response = fetch_with_retry(
+                session.get,
+                f"{self.source.base_url}/api/v1/offers/",
+                params=params,
+                headers=stealth_headers(),
+                timeout=30,
+            )
+
+            if response is None or response.status_code != 200:
+                log.warning(
+                    "OLX %s/%s offset=%d → HTTP %s",
+                    city_slug,
+                    category_key,
+                    offset,
+                    response.status_code if response else "None",
+                )
+                break
+
+            data = response.json()
+            items = data.get("data", []) or []
+
+            if not items:
+                log.info(
+                    "OLX %s/%s: offset=%d — порожня сторінка — СТОП",
+                    city_slug,
+                    category_key,
+                    offset,
+                )
+                break
+
+            page_listings: list[Listing] = []
+            for item in items:
+                try:
+                    lst = self._parse_item(
+                        item=item,
+                        city_slug=city_slug,
+                        category_key=category_key,
+                    )
+                    if lst is not None and lst.id not in seen_in_run:
+                        seen_in_run.add(lst.id)
+                        page_listings.append(lst)
+                except Exception as e:
+                    log.exception("Помилка парсингу item: %s", e)
+
+            if not page_listings:
+                log.info(
+                    "OLX %s/%s: offset=%d — всі дублікати — СТОП",
+                    city_slug,
+                    category_key,
+                    offset,
+                )
+                break
+
+            # Перевірка: чи всі вже в БД?
+            if seen_checker:
+                page_ids = [lst.id for lst in page_listings]
+                if seen_checker(page_ids):
+                    log.info(
+                        "OLX %s/%s: offset=%d — всі вже в БД — СТОП",
+                        city_slug,
+                        category_key,
+                        offset,
+                    )
+                    break
+
+            all_listings.extend(page_listings)
+            log.info(
+                "OLX %s/%s: сторінка %d (offset=%d) — %d оголошень",
                 city_slug,
                 category_key,
-                response.status_code,
+                page,
+                offset,
+                len(page_listings),
             )
-            return []
 
-        data = response.json()
-        items = data.get("data", []) or []
+            offset += 52  # OLX повертає 52 за один запит
 
-        listings: list[Listing] = []
-        for item in items:
-            try:
-                lst = self._parse_item(
-                    item=item,
-                    city_slug=city_slug,
-                    category_key=category_key,
-                )
-                if lst is not None:
-                    listings.append(lst)
-            except Exception as e:
-                log.exception("Помилка парсингу item: %s", e)
-
-        return listings
+        return all_listings
 
     def _parse_item(
         self,

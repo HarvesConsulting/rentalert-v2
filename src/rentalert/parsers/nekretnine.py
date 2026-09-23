@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import logging
 import re
+from collections.abc import Callable
 from typing import Any
 
 from bs4 import BeautifulSoup
@@ -37,7 +38,13 @@ HOUSE_KEYWORDS = ("kuća", "kuca", "vila", "samostalna", "dvojna", "obiteljska")
 class NekretnineParser(Parser):
     """Парсер Nekretnine.hr (HR)."""
 
-    def fetch(self, city: City, categories: list[str]) -> list[Listing]:
+    def fetch(
+        self,
+        city: City,
+        categories: list[str],
+        *,
+        seen_checker: Callable[[list[str]], bool] | None = None,
+    ) -> list[Listing]:
         """Завантажує оголошення для міста й категорій."""
         city_slug = self.external_id(city)
         if city_slug is None:

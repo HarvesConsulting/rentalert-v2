@@ -8,6 +8,7 @@ from __future__ import annotations
 import logging
 import threading
 import time
+from collections.abc import Callable
 from datetime import UTC, datetime, timedelta
 from typing import Any
 
@@ -54,7 +55,13 @@ class DimriaParser(Parser):
 
         self.api_key = config.DIMRIA_API_KEY
 
-    def fetch(self, city: City, categories: list[str]) -> list[Listing]:
+    def fetch(
+        self,
+        city: City,
+        categories: list[str],
+        *,
+        seen_checker: Callable[[list[str]], bool] | None = None,
+    ) -> list[Listing]:
         """Завантажує оголошення DIM.RIA для міста."""
         if not self.api_key:
             log.warning("DIMRIA_API_KEY не встановлено — пропускаю DIM.RIA")

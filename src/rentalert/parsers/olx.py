@@ -7,6 +7,7 @@
 from __future__ import annotations
 
 import logging
+from collections.abc import Callable
 from datetime import datetime
 from typing import Any
 
@@ -29,7 +30,13 @@ class OLXParser(Parser):
     Використовує публічний API: {base_url}/api/v1/offers/
     """
 
-    def fetch(self, city: City, categories: list[str]) -> list[Listing]:
+    def fetch(
+        self,
+        city: City,
+        categories: list[str],
+        *,
+        seen_checker: Callable[[list[str]], bool] | None = None,
+    ) -> list[Listing]:
         """Завантажує оголошення для міста й категорій."""
         external_id = self.external_id(city)
         if external_id is None:

@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import logging
 import re
+from collections.abc import Callable
 from typing import Any
 
 from bs4 import BeautifulSoup
@@ -28,7 +29,13 @@ log = logging.getLogger(__name__)
 class KleinanzeigenParser(Parser):
     """Парсер Kleinanzeigen.de (DE)."""
 
-    def fetch(self, city: City, categories: list[str]) -> list[Listing]:
+    def fetch(
+        self,
+        city: City,
+        categories: list[str],
+        *,
+        seen_checker: Callable[[list[str]], bool] | None = None,
+    ) -> list[Listing]:
         """Завантажує оголошення для міста й категорій."""
         location_id = self.external_id(city)
         if location_id is None:

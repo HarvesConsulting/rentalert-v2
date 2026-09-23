@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import logging
 import re
+from collections.abc import Callable
 from typing import Any
 
 from bs4 import BeautifulSoup
@@ -26,7 +27,13 @@ log = logging.getLogger(__name__)
 class OpenRentParser(Parser):
     """Парсер OpenRent.co.uk (GB)."""
 
-    def fetch(self, city: City, categories: list[str]) -> list[Listing]:
+    def fetch(
+        self,
+        city: City,
+        categories: list[str],
+        *,
+        seen_checker: Callable[[list[str]], bool] | None = None,
+    ) -> list[Listing]:
         """Завантажує оголошення для міста й категорій."""
         city_slug = self.external_id(city)
         if city_slug is None:
@@ -62,10 +69,6 @@ class OpenRentParser(Parser):
         url = f"{self.source.base_url}/properties-to-rent/{city_slug}"
 
         human_delay()
-
-        headers = stealth_headers()
-        headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
-        headers["Referer"] = "https://www.openrent.co.uk/"
 
         headers = stealth_headers()
         headers["Accept"] = (

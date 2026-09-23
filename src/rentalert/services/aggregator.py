@@ -250,12 +250,19 @@ def _fetch_and_save(
         seen = db.get_seen_ids(client, ids)
         return len(seen) == len(ids)
 
-    # Парсимо (з підтримкою пагінації через seen_checker)
-    listings = parser.fetch(
-        city,
-        list(source.categories),
-        seen_checker=_is_all_seen,
-    )
+    # Парсимо — seen_checker підтримують не всі парсери
+    import inspect
+
+    fetch_sig = inspect.signature(parser.fetch)
+    if "seen_checker" in fetch_sig.parameters:
+        listings = parser.fetch(
+            city,
+            list(source.categories),
+            seen_checker=_is_all_seen,
+        )
+    else:
+        listings = parser.fetch(city, list(source.categories))
+
     if not listings:
         return []
 

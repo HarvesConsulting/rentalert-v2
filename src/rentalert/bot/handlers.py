@@ -170,6 +170,10 @@ def _handle_menu_button(chat_id: str, text: str, ctx: BotContext) -> bool:
         _send_add_city_prompt(chat_id, ctx)
         return True
 
+    if text == T("btn_country_menu", "uk") or text == T("btn_country_menu", "en"):
+        _send_country_selector(chat_id, ctx)
+        return True
+
     if text == T("btn_settings", "uk") or text == T("btn_settings", "en"):
         _send_settings(chat_id, ctx)
         return True
@@ -214,7 +218,13 @@ def _handle_waiting_state(
 
 def _is_menu_button(text: str) -> bool:
     """Чи це кнопка головного меню (uk або en)."""
-    for key in ("btn_my_subscriptions", "btn_add_city", "btn_settings", "btn_help"):
+    for key in (
+        "btn_my_subscriptions",
+        "btn_add_city",
+        "btn_country_menu",
+        "btn_settings",
+        "btn_help",
+    ):
         if text in (T(key, "uk"), T(key, "en")):
             return True
     return False

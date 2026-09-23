@@ -23,6 +23,7 @@ TEXTS: dict[str, dict[str, str]] = {
         "btn_add_city": "➕ Додати місто",
         "btn_favorites": "📌 Обране",
         "btn_settings": "⚙️ Налаштування",
+        "btn_country_menu": "🌍 Країна",
         "btn_help": "❓ Довідка",
         # ─── Кнопки ───
         "btn_yes": "Так",
@@ -132,6 +133,7 @@ TEXTS: dict[str, dict[str, str]] = {
         "btn_add_city": "➕ Add City",
         "btn_favorites": "📌 Favorites",
         "btn_settings": "⚙️ Settings",
+        "btn_country_menu": "🌍 Country",
         "btn_help": "❓ Help",
         # ─── Buttons ───
         "btn_yes": "Yes",

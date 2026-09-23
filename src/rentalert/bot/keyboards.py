@@ -21,11 +21,12 @@ from rentalert.translations import T
 
 
 def main_menu_keyboard(lang: str = "uk") -> dict[str, Any]:
-    """Головне меню — 4 кнопки у 4 ряди."""
+    """Головне меню — 5 кнопок у 5 рядів."""
     return {
         "keyboard": [
             [{"text": T("btn_my_subscriptions", lang)}],
             [{"text": T("btn_add_city", lang)}],
+            [{"text": T("btn_country_menu", lang)}],
             [{"text": T("btn_settings", lang)}],
             [{"text": T("btn_help", lang)}],
         ],
@@ -287,12 +288,6 @@ def settings_keyboard(
     """Меню налаштувань."""
     return {
         "inline_keyboard": [
-            [
-                {
-                    "text": T("btn_country", lang, country=country_name),
-                    "callback_data": "cfg:country",
-                }
-            ],
             [
                 {
                     "text": f"📡 {T('btn_sources', lang)} ({enabled_sources}/{total_sources})",

@@ -98,7 +98,7 @@ class BienIciParser(Parser):
     ) -> list[Listing]:
         """Завантажує одну категорію."""
         filters = {
-            "size": 24,
+            "size": 500,
             "from": 0,
             "filterType": "rent",
             "propertyType": [property_type],

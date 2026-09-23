@@ -44,6 +44,7 @@ _ctx: BotContext | None = None
 _scheduler: BackgroundScheduler | None = None
 _ready = threading.Event()
 _startup_lock = threading.Lock()
+_aggregation_lock = threading.Lock()
 
 AGGREGATION_INTERVAL_MINUTES = 15
 
@@ -96,30 +97,37 @@ def _ensure_startup() -> None:
             admin_chat_id=config.TELEGRAM_CHAT_ID,
         )
 
-        if _scheduler is None:
-            _scheduler = BackgroundScheduler()
-            _scheduler.add_job(
-                func=_run_aggregation,
-                trigger="interval",
-                minutes=AGGREGATION_INTERVAL_MINUTES,
-                id="aggregation",
-                replace_existing=True,
-                max_instances=1,
-            )
-            _scheduler.start()
-            log.info(
-                "✅ Scheduler запущено (кожні %d хв)",
-                AGGREGATION_INTERVAL_MINUTES,
-            )
+        # APScheduler вимкнено — використовуємо cron-job.org (кожні 5 хв).
+        # Це запобігає дублюванню агрегації (два процеси одночасно).
+        # if _scheduler is None:
+        #     _scheduler = BackgroundScheduler()
+        #     _scheduler.add_job(
+        #         func=_run_aggregation,
+        #         trigger="interval",
+        #         minutes=AGGREGATION_INTERVAL_MINUTES,
+        #         id="aggregation",
+        #         replace_existing=True,
+        #         max_instances=1,
+        #     )
+        #     _scheduler.start()
+        #     log.info(
+        #         "✅ Scheduler запущено (кожні %d хв)",
+        #         AGGREGATION_INTERVAL_MINUTES,
+        #     )
 
         _ready.set()
         log.info("🚀 Startup завершено")
 
 
 def _run_aggregation() -> None:
-    """Один цикл агрегації."""
+    """Один цикл агрегації (з lock — запобігає паралельним запускам)."""
     if _ctx is None:
         log.warning("_ctx не готовий — пропускаю агрегацію")
+        return
+
+    # Якщо вже запущено — пропускаємо
+    if not _aggregation_lock.acquire(blocking=False):
+        log.info("⏭ Агрегація вже запущена — пропускаю")
         return
 
     try:
@@ -131,6 +139,8 @@ def _run_aggregation() -> None:
         log.info("Агрегація: %s", stats)
     except Exception as e:
         log.exception("Агрегація впала: %s", e)
+    finally:
+        _aggregation_lock.release()
 
 
 def _notify_user(chat_id: str, city_slug: str, listings: list[Any]) -> None:

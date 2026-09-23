@@ -198,6 +198,11 @@ class HabitacliaParser(Parser):
         photo = self._extract_photo(art)
         rooms, _baths, _floor = self._extract_features(art)
 
+        # Додаємо ціну до title (щоб уникнути візуальних дублікатів,
+        # бо Habitaclia — агрегатор і часто дає однакові title)
+        if price:
+            title = f"{title} — {price}"
+
         return Listing(
             id=self.make_id(ad_id),
             source_key=self.source.key,

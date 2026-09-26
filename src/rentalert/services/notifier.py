@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import logging
 import threading
+import time
 from typing import Any
 
 from curl_cffi import requests as cffi_requests
@@ -195,6 +196,33 @@ class TelegramNotifier:
                     payload.get("chat_id"),
                 )
                 return False
+
+                        # 403 — користувач заблокував бота
+            if error_code == 403:
+                log.info(
+                    "Telegram %s: 403 (%s) для chat_id=%r",
+                    method,
+                    description,
+                    payload.get("chat_id"),
+                )
+                return False
+
+            # 429 — перевищено rate limit. Чекаємо retry_after і повторюємо ОДИН раз.
+            if error_code == 429:
+                retry_after = (
+                    result.get("parameters", {}).get("retry_after", 5)
+                )
+                log.warning(
+                    "Telegram %s: 429 rate limit, чекаю %ds і повторюю",
+                    method,
+                    retry_after,
+                )
+                time.sleep(retry_after)
+                # Рекурсивний виклик — один retry
+                return self._call(method, payload)
+
+            log.warning("Telegram %s: %s", method, result)
+            return False
 
             log.warning("Telegram %s: %s", method, result)
             return False

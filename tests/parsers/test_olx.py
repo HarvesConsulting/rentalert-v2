@@ -182,6 +182,7 @@ def test_olx_parser_http_error(
 
     assert listings == []
 
+
 def test_olx_parser_pt_skips_sale() -> None:
     """Для Португалії оголошення 'venda' (продаж) не парсяться."""
     from rentalert.catalog.models import City, Source
@@ -225,12 +226,8 @@ def test_olx_parser_pt_skips_sale() -> None:
         "photos": [],
     }
 
-    parsed_sale = parser._parse_item(
-        item=sale_item, city_slug=city.slug, category_key="apartment"
-    )
-    parsed_rent = parser._parse_item(
-        item=rent_item, city_slug=city.slug, category_key="apartment"
-    )
+    parsed_sale = parser._parse_item(item=sale_item, city_slug=city.slug, category_key="apartment")
+    parsed_rent = parser._parse_item(item=rent_item, city_slug=city.slug, category_key="apartment")
 
     assert parsed_sale is None  # продаж — пропущено
     assert parsed_rent is not None  # оренда — ок
@@ -265,9 +262,7 @@ def test_olx_parser_ua_keeps_sale() -> None:
         "photos": [],
     }
 
-    parsed = parser._parse_item(
-        item=item, city_slug="kyiv", category_key="apartment"
-    )
+    parsed = parser._parse_item(item=item, city_slug="kyiv", category_key="apartment")
 
     # Для ua фільтр не застосовується — оголошення проходить
     assert parsed is not None

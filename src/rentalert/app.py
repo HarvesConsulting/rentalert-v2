@@ -238,6 +238,7 @@ def api_check_all() -> tuple[str, int]:
 
     return "ok", 200
 
+
 @app.route("/api/wake")
 def api_wake() -> tuple[str, int]:
     """Швидкий endpoint для cron-job.org.
@@ -258,6 +259,7 @@ def api_wake() -> tuple[str, int]:
     threading.Thread(target=_run_aggregation, daemon=True).start()
 
     return "ok", 200
+
 
 @app.route("/")
 def root() -> Any:

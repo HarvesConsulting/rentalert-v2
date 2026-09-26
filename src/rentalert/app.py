@@ -270,6 +270,18 @@ def telegram_webhook() -> tuple[str, int]:
     if _ctx is None:
         return "not ready", 503
 
+    # ── Перевірка секрету від Telegram ──
+    # Якщо WEBHOOK_SECRET встановлено — перевіряємо header.
+    # Якщо ні — пропускаємо (для локальної розробки).
+    if config.WEBHOOK_SECRET:
+        secret = request.headers.get("X-Telegram-Bot-Api-Secret-Token", "")
+        if secret != config.WEBHOOK_SECRET:
+            log.warning(
+                "Webhook: невірний secret_token від %s",
+                request.remote_addr,
+            )
+            return "forbidden", 403
+
     update = request.get_json(silent=True) or {}
 
     if "callback_query" in update:

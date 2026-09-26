@@ -148,6 +148,18 @@ def _notify_user(chat_id: str, city_slug: str, listings: list[Any]) -> None:
     if _ctx is None:
         return
 
+    # ── Перевірка доступу ──
+    from rentalert.services import subscription as sub_svc
+
+    status = sub_svc.get_access_status(_ctx.client, chat_id)
+    if not status["has_access"]:
+        log.info(
+            "⏭ Пропущено notify для %s (reason=%s)",
+            chat_id,
+            status.get("reason"),
+        )
+        return
+
     lang = user_svc.get_language(_ctx.client, chat_id)
     city = _ctx.catalog.city(city_slug)
     city_name = city.name if city else city_slug

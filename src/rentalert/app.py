@@ -330,10 +330,18 @@ def telegram_webhook() -> tuple[str, int]:
             log.exception("pre_checkout_query error: %s", e)
         return "ok", 200
 
+    # ── Callback query (натискання inline-кнопок) ──
+    if "callback_query" in update:
+        threading.Thread(
+            target=_safe_handle_callback,
+            args=(update["callback_query"],),
+            daemon=True,
+        ).start()
+
+    # ── Message (включно з successful_payment) ──
     elif "message" in update:
         msg = update["message"]
 
-        # ── Успішна оплата? ──
         if msg.get("successful_payment"):
             threading.Thread(
                 target=_safe_handle_payment,
@@ -341,12 +349,14 @@ def telegram_webhook() -> tuple[str, int]:
                 daemon=True,
             ).start()
         else:
-            # Звичайне повідомлення
             threading.Thread(
                 target=_safe_handle_message,
                 args=(update,),
                 daemon=True,
             ).start()
+
+    # ── ЗАВЖДИ повертаємо 200 (інакше Telegram повторює update!) ──
+    return "ok", 200
 
 
 def _safe_handle_callback(callback: dict[str, Any]) -> None:

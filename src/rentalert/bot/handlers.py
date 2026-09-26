@@ -111,20 +111,20 @@ def _handle_command(chat_id: str, text: str, ctx: BotContext) -> None:
     lang = user_svc.get_language(ctx.client, chat_id)
 
     if text.startswith("/start"):
-     states.clear_state(chat_id)
+        states.clear_state(chat_id)
 
-    # 1. Даємо trial, якщо ще немає
-    sub_svc.ensure_trial(ctx.client, chat_id)
+        # 1. Даємо trial, якщо ще немає
+        sub_svc.ensure_trial(ctx.client, chat_id)
 
-    user = db.get_user(ctx.client, chat_id)
-    if user is None or not user.get("first_seen"):
-        _send_country_selector(chat_id, ctx)
-    else:
-        _send_main_menu(chat_id, ctx)
+        user = db.get_user(ctx.client, chat_id)
+        if user is None or not user.get("first_seen"):
+            _send_country_selector(chat_id, ctx)
+        else:
+            _send_main_menu(chat_id, ctx)
 
-    # 2. Інформуємо, якщо trial/premium закінчився
-    _maybe_warn_about_expired_access(chat_id, ctx)
-    return
+        # 2. Інформуємо, якщо trial/premium закінчився
+        _maybe_warn_about_expired_access(chat_id, ctx)
+        return
 
     if text.startswith("/help"):
         _send_help(chat_id, ctx)

@@ -194,6 +194,17 @@ def get_all_user_cities(client: TursoClient) -> dict[str, list[str]]:
         result.setdefault(str(chat_id), []).append(str(slug))
     return result
 
+def get_distinct_city_slugs(client: TursoClient) -> list[str]:
+    """Унікальні міста, на які хтось підписаний.
+
+    Використовується для парсингу: не треба парсити Київ 500 разів,
+    якщо на нього підписані 500 користувачів.
+    """
+    rows = client.execute(
+        "SELECT DISTINCT city_slug FROM user_cities ORDER BY city_slug"
+    )
+    return [str(r[0]) for r in rows]
+
 
 # ═════════════════════════════════════════════════════════════
 # User disabled sources (blacklist)

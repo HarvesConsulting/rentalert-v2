@@ -73,22 +73,26 @@ def run_aggregation_cycle(
     """
     stats = AggregationStats()
 
-    # 1. Отримуємо всі підписки
+    # 1. Отримуємо всі підписки (потрібні для розсилки)
     all_subs = db.get_all_user_cities(client)
     if not all_subs:
         log.info("Немає підписок — цикл пропущено")
         return stats
 
-    # 2. Унікальні пари (city_slug, source_key)
+    # 2. Унікальні міста для парсингу — окремий легкий запит.
+    #    Не тягнемо всі пари (chat_id, city_slug), бо парсити
+    #    треба кожне місто ЛИШЕ ОДИН раз.
+    distinct_cities = db.get_distinct_city_slugs(client)
+
+    # 3. Унікальні пари (city_slug, source_key)
     pairs: set[tuple[str, str]] = set()
-    for _chat_id, cities in all_subs.items():
-        for city_slug in cities:
-            city = catalog.city(city_slug)
-            if city is None:
-                log.warning("Місто %r не знайдено в каталозі", city_slug)
-                continue
-            for source_key in city.refs:
-                pairs.add((city_slug, source_key))
+    for city_slug in distinct_cities:
+        city = catalog.city(city_slug)
+        if city is None:
+            log.warning("Місто %r не знайдено в каталозі", city_slug)
+            continue
+        for source_key in city.refs:
+            pairs.add((city_slug, source_key))
 
     if not pairs:
         log.info("Немає пар для перевірки")
@@ -128,7 +132,7 @@ def run_aggregation_cycle(
             fresh_by_pair[(city_slug, source_key)] = listings
             log.info("  + %s/%s: %d нових", city_slug, source_key, len(listings))
 
-# 4. Розсилаємо
+    # 4. Розсилаємо
     #    Одним запитом — disabled sources для всіх
     #    Одним запитом — enabled categories для всіх
     all_categories = db.get_all_user_categories(client)

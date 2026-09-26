@@ -318,6 +318,18 @@ def telegram_webhook() -> tuple[str, int]:
 
     update = request.get_json(silent=True) or {}
 
+    # ── Telegram Payments: pre_checkout_query ──
+    # КРИТИЧНО: Telegram чекає відповідь протягом 10 секунд,
+    # інакше скасовує оплату.
+    if "pre_checkout_query" in update:
+        pcq = update["pre_checkout_query"]
+        try:
+            if _ctx is not None:
+                _ctx.notifier.answer_pre_checkout(pcq["id"], ok=True)
+        except Exception as e:
+            log.exception("pre_checkout_query error: %s", e)
+        return "ok", 200
+
     if "callback_query" in update:
         threading.Thread(
             target=_safe_handle_callback,

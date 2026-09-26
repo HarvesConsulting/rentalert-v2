@@ -387,6 +387,25 @@ def get_user_categories(
     )
     return {str(r[0]) for r in rows}
 
+def get_all_user_categories(
+    client: TursoClient,
+) -> dict[str, set[str]]:
+    """Усі категорії всіх користувачів одним запитом.
+
+    Returns:
+        {chat_id: {category_key, ...}}
+
+    Якщо у користувача порожній set — це означає
+    «усе увімкнено» (як у поточній логіці user_svc.get_categories).
+    """
+    rows = client.execute(
+        "SELECT chat_id, category_key FROM user_categories"
+    )
+    result: dict[str, set[str]] = {}
+    for chat_id, cat_key in rows:
+        result.setdefault(str(chat_id), set()).add(str(cat_key))
+    return result
+
 
 def set_user_categories(
     client: TursoClient,

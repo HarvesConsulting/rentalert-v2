@@ -128,18 +128,23 @@ def run_aggregation_cycle(
             fresh_by_pair[(city_slug, source_key)] = listings
             log.info("  + %s/%s: %d нових", city_slug, source_key, len(listings))
 
-    # 4. Розсилаємо
+# 4. Розсилаємо
+    #    Одним запитом — disabled sources для всіх
+    #    Одним запитом — enabled categories для всіх
+    all_categories = db.get_all_user_categories(client)
+
     for chat_id, cities in all_subs.items():
         disabled = db.get_disabled_sources(client, chat_id)
+        enabled_categories = all_categories.get(str(chat_id), set())
 
         for city_slug in cities:
-            # Спочатку збираємо "сирі" оголошення
             raw_to_send = _collect_for_user(
                 city_slug=city_slug,
                 disabled=disabled,
+                enabled_categories=enabled_categories,
                 catalog=catalog,
                 fresh_by_pair=fresh_by_pair,
-                ignored_ids=set(),  # поки що порожньо
+                ignored_ids=set(),
             )
 
             if not raw_to_send:
@@ -304,14 +309,25 @@ def _collect_for_user(
     *,
     city_slug: str,
     disabled: set[str],
+    enabled_categories: set[str],
     catalog: Catalog,
     fresh_by_pair: dict[tuple[str, str], list[Listing]],
     ignored_ids: set[str],
 ) -> list[Listing]:
-    """Збирає оголошення для користувача з урахуванням disabled + ignored."""
+    """Збирає оголошення для користувача.
+
+    Фільтри:
+      - disabled: вимкнені джерела (source_key)
+      - enabled_categories: якщо непорожній — тільки ці категорії.
+        Порожній set = «усе увімкнено» (як у user_svc.get_categories).
+      - ignored_ids: id оголошень, які користувач ігнорує
+    """
     city = catalog.city(city_slug)
     if city is None:
         return []
+
+    # Якщо set непорожній — фільтруємо. Якщо порожній — усе увімкнено.
+    filter_categories = bool(enabled_categories)
 
     result: list[Listing] = []
     for source_key in city.refs:
@@ -319,6 +335,8 @@ def _collect_for_user(
             continue
         for lst in fresh_by_pair.get((city_slug, source_key), []):
             if lst.id in ignored_ids:
-                continue  # користувач ігнорує це оголошення
+                continue
+            if filter_categories and lst.category not in enabled_categories:
+                continue
             result.append(lst)
     return result

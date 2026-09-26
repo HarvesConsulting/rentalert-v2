@@ -215,6 +215,18 @@ def _handle_add_city(
         ctx.notifier.answer_callback(cb_id, "❌")
         return
 
+    # ── Перевірка доступу ──
+    from rentalert.services import subscription as sub_svc
+
+    status = sub_svc.get_access_status(ctx.client, chat_id)
+    if not status["has_access"]:
+        lang = user_svc.get_language(ctx.client, chat_id)
+        ctx.notifier.answer_callback(cb_id, "🔒")
+        ctx.notifier.send_message(
+            chat_id,
+            T("access_trial_expired", lang),
+        )
+        return
     user_svc.add_city(ctx.client, chat_id, city_slug)
     city = ctx.catalog.city(city_slug)
     name = city.name if city else city_slug

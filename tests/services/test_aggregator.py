@@ -425,4 +425,4 @@ def test_cycle_parses_distinct_cities_only(catalog, listing, mocker) -> None:
     assert stats.pairs_checked == 1
 
     # Але розсилка — на всіх 500
-    assert notify.call_count == 500 
+    assert notify.call_count == 500

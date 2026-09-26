@@ -579,7 +579,10 @@ def _send_subscription_status(chat_id: str, ctx: BotContext) -> None:
     status = sub_svc.get_access_status(ctx.client, chat_id)
     reason = status.get("reason")
 
-    if reason == "free_country":
+    if reason == "admin":
+        text = T("subscription_admin", lang)
+        buttons = None
+    elif reason == "free_country":
         text = T("subscription_free_ua", lang)
         buttons = None
     elif reason == "premium":

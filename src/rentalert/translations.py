@@ -46,6 +46,7 @@ TEXTS: dict[str, dict[str, str]] = {
         # ─── Підписка ───
         "subscription_title": "💳 <b>Моя підписка</b>",
         "subscription_free_ua": "✅ <b>Безкоштовно назавжди</b>\n\nДля користувачів з 🇺🇦 України RentAlert — повністю безкоштовний.\n\nДякуємо, що ви з нами! 💙💛",
+        "subscription_admin": "👑 <b>Режим адміністратора</b>\n\nДоступ активний без обмежень.\n\nДякуємо, що ви з нами! 💙💛",
         "subscription_trial": "🎁 <b>Пробний період</b>\n\nЗалишилось: <b>{days} дн.</b>\nДо: <b>{until}</b>\n\nПісля цього — підписка:\n⭐ 150 ₴ (~300 ⭐) / місяць\n⭐ 999 ₴ (~2000 ⭐) / рік (−17%)",
         "subscription_premium": "✅ <b>Підписка активна</b>\n\nЗалишилось: <b>{days} дн.</b>\nДо: <b>{until}</b>",
         "subscription_expired": "🔒 <b>Підписка неактивна</b>\n\nБезкоштовний тиждень закінчився.\n\nЩоб продовжити отримувати нові оголошення — оформіть підписку:\n⭐ 150 ₴ (~300 ⭐) / місяць\n⭐ 999 ₴ (~2000 ⭐) / рік (−17%)",
@@ -167,6 +168,7 @@ TEXTS: dict[str, dict[str, str]] = {
         # ─── Subscription ───
         "subscription_title": "💳 <b>My Subscription</b>",
         "subscription_free_ua": "✅ <b>Free forever</b>\n\nFor users from 🇺🇦 Ukraine, RentAlert is completely free.\n\nThanks for being with us! 💙💛",
+        "subscription_admin": "👑 <b>Admin mode</b>\n\nAccess active without restrictions.\n\nThanks for being with us! 💙💛",
         "subscription_trial": "🎁 <b>Free trial</b>\n\nLeft: <b>{days} days</b>\nUntil: <b>{until}</b>\n\nAfter that — subscription:\n⭐ 150 UAH (~300 ⭐) / month\n⭐ 999 UAH (~2000 ⭐) / year (−17%)",
         "subscription_premium": "✅ <b>Subscription active</b>\n\nLeft: <b>{days} days</b>\nUntil: <b>{until}</b>",
         "subscription_expired": "🔒 <b>Subscription inactive</b>\n\nYour free trial has ended.\n\nTo keep receiving new listings — subscribe:\n⭐ 150 UAH (~300 ⭐) / month\n⭐ 999 UAH (~2000 ⭐) / year (−17%)",

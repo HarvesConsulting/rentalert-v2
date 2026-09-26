@@ -131,6 +131,10 @@ def _dispatch(
         _handle_subs(args[0], chat_id, cb_id, ctx)
         return
 
+    if action == "buy":
+        _handle_buy(args[0], chat_id, cb_id, ctx)
+        return
+
     if action == "ign":
         _handle_ignore(args[0], chat_id, message_id, cb_id, ctx)
         return
@@ -866,3 +870,69 @@ def _handle_rate(
             f"⭐ <b>Дякую за оцінку {rating}/5!</b>",
             keyboard={"inline_keyboard": []},
         )
+def _handle_buy(
+    period: str,
+    chat_id: str,
+    cb_id: str,
+    ctx: BotContext,
+) -> None:
+    """Обробляє натискання кнопки купівлі підписки.
+
+    Args:
+        period: 'monthly' або 'yearly'
+        chat_id: ID чату
+        cb_id: callback ID
+        ctx: контекст бота
+    """
+    # 1. Перевірка періоду
+    if period not in ("monthly", "yearly"):
+        ctx.notifier.answer_callback(cb_id, "❌")
+        return
+
+    # 2. Ціни в Stars
+    PRICES = {
+        "monthly": 300,   # ⭐
+        "yearly": 2000,   # ⭐
+    }
+    stars = PRICES[period]
+
+    # 3. Payload (унікальний ID для обробки в successful_payment)
+    payload = f"sub:{period}:{stars}"
+
+    # 4. Назва та опис
+    if period == "monthly":
+        title = "RentAlert — 1 місяць"
+        description = "Доступ до нових оголошень на 30 днів"
+    else:
+        title = "RentAlert — 12 місяців"
+        description = "Доступ до нових оголошень на 365 днів (−17%)"
+
+    # 5. Відповідаємо на callback (прибираємо «годинник»)
+    ctx.notifier.answer_callback(cb_id)
+
+    # 6. Надсилаємо invoice
+    success = ctx.notifier.send_invoice(
+        chat_id=chat_id,
+        title=title,
+        description=description,
+        payload=payload,
+        amount_stars=stars,
+        label="Підписка RentAlert",
+    )
+
+    if not success:
+        lang = user_svc.get_language(ctx.client, chat_id)
+        ctx.notifier.send_message(
+            chat_id,
+            "❌ Не вдалось створити рахунок. Спробуйте пізніше.",
+            keyboard=kb.main_menu_keyboard(lang),
+        )
+        return
+
+    # 7. Логуємо спробу
+    db.log_activity(
+        ctx.client,
+        chat_id,
+        "buy_attempt",
+        {"period": period, "stars": stars},
+    )

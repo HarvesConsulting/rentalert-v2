@@ -211,6 +211,24 @@ class OLXParser(Parser):
 
         title = item.get("title", "") or ""
 
+        # ── Фільтр для Португалії: тільки оренда ──
+        # OLX.pt API не підтримує параметр фільтру за орендою,
+        # тому фільтруємо за заголовком.
+        if self.source.country == "pt":
+            title_lower = title.lower()
+            sale_markers = (
+                "venda",
+                "vender",
+                "à venda",
+                "para venda",
+                "comprar",
+                "compra",
+                "vendido",
+                "vendida",
+            )
+            if any(marker in title_lower for marker in sale_markers):
+                return None  # пропускаємо продаж
+
         url = item.get("url", "") or ""
         if url and not url.startswith("http"):
             url = f"{self.source.base_url}{url}"

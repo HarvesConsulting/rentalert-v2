@@ -181,3 +181,93 @@ def test_olx_parser_http_error(
     listings = parser.fetch(kyiv, ["apartment"])
 
     assert listings == []
+
+def test_olx_parser_pt_skips_sale() -> None:
+    """Для Португалії оголошення 'venda' (продаж) не парсяться."""
+    from rentalert.catalog.models import City, Source
+    from rentalert.parsers.olx import OLXParser
+
+    source = Source(
+        key="olx_pt",
+        country="pt",
+        name="OLX.pt",
+        icon="🟢",
+        kind="olx",
+        base_url="https://www.olx.pt",
+        enabled_by_default=True,
+        categories=("apartment",),
+        config={"category_ids": {"apartment": 16}},
+    )
+    parser = OLXParser(source)
+    city = City(
+        slug="porto",
+        country="pt",
+        name="Porto",
+        region="",
+        priority=False,
+        refs={"olx_pt": 11},
+    )
+
+    sale_item = {
+        "id": 111,
+        "title": "Apartamento T2 para venda",
+        "url": "/d/anuncio/111",
+        "params": [],
+        "location": {},
+        "photos": [],
+    }
+    rent_item = {
+        "id": 222,
+        "title": "Apartamento T2 para arrendamento",
+        "url": "/d/anuncio/222",
+        "params": [],
+        "location": {},
+        "photos": [],
+    }
+
+    parsed_sale = parser._parse_item(
+        item=sale_item, city_slug="porto", category_key="apartment"
+    )
+    parsed_rent = parser._parse_item(
+        item=rent_item, city_slug="porto", category_key="apartment"
+    )
+
+    assert parsed_sale is None  # продаж — пропущено
+    assert parsed_rent is not None  # оренда — ок
+    assert parsed_rent.id == "olx_pt:222"
+
+
+def test_olx_parser_ua_keeps_sale() -> None:
+    """Для України фільтр 'venda' НЕ застосовується (це PT-специфіка)."""
+    from rentalert.catalog.models import Source
+    from rentalert.parsers.olx import OLXParser
+
+    source = Source(
+        key="olx_ua",
+        country="ua",
+        name="OLX.ua",
+        icon="🟢",
+        kind="olx",
+        base_url="https://www.olx.ua",
+        enabled_by_default=True,
+        categories=("apartment",),
+        config={"category_ids": {"apartment": 1760}},
+    )
+    parser = OLXParser(source)
+
+    # Оголошення з "venda" в заголовку — має пройти (бо це ua)
+    item = {
+        "id": 333,
+        "title": "Квартира для venda (тест)",
+        "url": "/d/anuncio/333",
+        "params": [],
+        "location": {},
+        "photos": [],
+    }
+
+    parsed = parser._parse_item(
+        item=item, city_slug="kyiv", category_key="apartment"
+    )
+
+    # Для ua фільтр не застосовується — оголошення проходить
+    assert parsed is not None

@@ -371,6 +371,7 @@ def _safe_handle_callback(callback: dict[str, Any]) -> None:
     except Exception as e:
         log.exception("Callback error: %s", e)
 
+
 def _safe_handle_payment(message: dict[str, Any]) -> None:
     """Обгортка для обробки успішної оплати."""
     if _ctx is None:
@@ -391,6 +392,7 @@ def _safe_handle_payment(message: dict[str, Any]) -> None:
         log.info("✓ payment ok")
     except Exception as e:
         log.exception("Payment error: %s", e)
+
 
 def _safe_handle_message(update: dict[str, Any]) -> None:
     """Обгортка з try/except для message."""

@@ -111,7 +111,7 @@ TABLES: list[str] = [
         created_at  DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
     )
     """,
-        # ─── Платежі ───
+    # ─── Платежі ───
     """
     CREATE TABLE IF NOT EXISTS payments (
         id            TEXT PRIMARY KEY,
@@ -225,9 +225,7 @@ def _apply_column_migrations(client: TursoClient) -> None:
             rows = client.execute(f"PRAGMA table_info({table})")
             existing = {str(r[1]) for r in rows}
             if column not in existing:
-                client.execute_non_query(
-                    f"ALTER TABLE {table} ADD COLUMN {column} {column_type}"
-                )
+                client.execute_non_query(f"ALTER TABLE {table} ADD COLUMN {column} {column_type}")
                 log.info("Міграція: додано %s.%s (%s)", table, column, column_type)
         except Exception as e:
             log.exception("Помилка міграції %s.%s: %s", table, column, e)

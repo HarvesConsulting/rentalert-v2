@@ -51,6 +51,7 @@ def touch_user(
         [username, first_name, chat_id],
     )
 
+
 def get_user_country(client: TursoClient, chat_id: str) -> str:
     """Країна користувача (default 'ua')."""
     rows = client.execute(
@@ -71,6 +72,7 @@ def get_user_language(client: TursoClient, chat_id: str) -> str:
     if not rows or not rows[0][0]:
         return "uk"
     return str(rows[0][0])
+
 
 def get_user(client: TursoClient, chat_id: str) -> dict[str, Any] | None:
     """Повертає dict з налаштуваннями або None."""
@@ -102,6 +104,7 @@ def get_user(client: TursoClient, chat_id: str) -> dict[str, Any] | None:
         "referred_by": r[11],
         "referrals_count": int(r[12] or 0),
     }
+
 
 def set_user_country(client: TursoClient, chat_id: str, country: str) -> None:
     """Зберігає країну."""
@@ -308,6 +311,7 @@ def clear_user_cities(client: TursoClient, chat_id: str) -> None:
         "DELETE FROM user_cities WHERE chat_id = ?",
         [chat_id],
     )
+
 
 def get_user_cities(client: TursoClient, chat_id: str) -> list[str]:
     """Міста користувача в порядку додавання."""

@@ -156,6 +156,7 @@ class TelegramNotifier:
         if text:
             payload["text"] = text[:200]
         return self._call("answerCallbackQuery", payload)
+
     def send_invoice(
         self,
         chat_id: str | int,
@@ -176,17 +177,20 @@ class TelegramNotifier:
             amount_stars: ціна в зірках (XTR)
             label: назва позиції в invoice
         """
-        return self._call("sendInvoice", {
-            "chat_id": str(chat_id),
-            "title": title,
-            "description": description,
-            "payload": payload,
-            "currency": "XTR",              # Telegram Stars
-            "prices": [
-                {"label": label, "amount": amount_stars},
-            ],
-            "provider_token": "",            # для Stars — порожній
-        })
+        return self._call(
+            "sendInvoice",
+            {
+                "chat_id": str(chat_id),
+                "title": title,
+                "description": description,
+                "payload": payload,
+                "currency": "XTR",  # Telegram Stars
+                "prices": [
+                    {"label": label, "amount": amount_stars},
+                ],
+                "provider_token": "",  # для Stars — порожній
+            },
+        )
 
     def answer_pre_checkout(
         self,
@@ -208,7 +212,6 @@ class TelegramNotifier:
         if not ok and error_message:
             payload["error_message"] = error_message[:200]
         return self._call("answerPreCheckoutQuery", payload)
-    
 
     # ─────────────────────────────────────────────────────
     # Внутрішнє

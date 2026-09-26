@@ -34,11 +34,29 @@ def get_access_status(
     Returns:
         {
             "has_access": bool,
-            "reason": "free_country" | "premium" | "trial" | "trial_expired" | "no_user",
-            "until": iso_datetime | None,   # коли закінчується (trial або premium)
-            "days_left": int | None,        # скільки днів залишилось
+            "reason": "admin" | "free_country" | "premium" | "trial"
+                      | "trial_expired" | "no_user",
+            "until": iso_datetime | None,
+            "days_left": int | None,
         }
     """
+    # ── Адмін — завжди доступ ──
+    from rentalert import config
+
+    admin_ids = {x.strip() for x in config.ADMIN_CHAT_IDS.split(",") if x.strip()}
+    if chat_id in admin_ids:
+        return {
+            "has_access": True,
+            "reason": "admin",
+            "until": None,
+            "days_left": None,
+        }
+
+    user = db.get_user(client, chat_id)
+    if not user:
+        return {"has_access": False, "reason": "no_user"}
+
+    # ... далі без змін ...
     user = db.get_user(client, chat_id)
     if not user:
         return {"has_access": False, "reason": "no_user"}

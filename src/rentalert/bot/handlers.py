@@ -14,8 +14,8 @@ from rentalert.bot import states
 from rentalert.catalog.catalog import Catalog
 from rentalert.db import queries as db
 from rentalert.db.client import TursoClient
-from rentalert.services import user as user_svc
 from rentalert.services import subscription as sub_svc
+from rentalert.services import user as user_svc
 from rentalert.services.notifier import TelegramNotifier
 from rentalert.translations import T
 
@@ -555,6 +555,7 @@ def _handle_admin_reply(
     )
     return True
 
+
 def _maybe_warn_about_expired_access(chat_id: str, ctx: BotContext) -> None:
     """Показує попередження, якщо trial/premium закінчився."""
     status = sub_svc.get_access_status(ctx.client, chat_id)
@@ -638,7 +639,8 @@ def _format_date(iso: str | None) -> str:
         return dt.strftime("%d.%m.%Y")
     except Exception:
         return "—"
-    
+
+
 def handle_successful_payment(
     chat_id: str,
     payment: dict[str, Any],

@@ -42,7 +42,7 @@ TEXTS: dict[str, dict[str, str]] = {
         "btn_language": "🌍 Мова / Language",
         "btn_clear_cities": "🗑 Очистити всі міста",
         "btn_clear_favorites": "🗑 Очистити обране",
-                "btn_subscription": "💳 Моя підписка",
+        "btn_subscription": "💳 Моя підписка",
         # ─── Підписка ───
         "subscription_title": "💳 <b>Моя підписка</b>",
         "subscription_free_ua": "✅ <b>Безкоштовно назавжди</b>\n\nДля користувачів з 🇺🇦 України RentAlert — повністю безкоштовний.\n\nДякуємо, що ви з нами! 💙💛",
@@ -164,7 +164,7 @@ TEXTS: dict[str, dict[str, str]] = {
         "btn_language": "🌍 Language",
         "btn_clear_cities": "🗑 Clear all cities",
         "btn_clear_favorites": "🗑 Clear favorites",
-                "btn_subscription": "💳 My Subscription",
+        "btn_subscription": "💳 My Subscription",
         # ─── Subscription ───
         "subscription_title": "💳 <b>My Subscription</b>",
         "subscription_free_ua": "✅ <b>Free forever</b>\n\nFor users from 🇺🇦 Ukraine, RentAlert is completely free.\n\nThanks for being with us! 💙💛",

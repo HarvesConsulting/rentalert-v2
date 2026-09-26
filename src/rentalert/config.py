@@ -16,6 +16,7 @@ load_dotenv(_PROJECT_ROOT / ".env")
 TELEGRAM_BOT_TOKEN: str = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID: str = os.environ.get("TELEGRAM_CHAT_ID", "")
 WEBHOOK_SECRET: str = os.environ.get("WEBHOOK_SECRET", "")
+ADMIN_CHAT_IDS: str = os.environ.get("ADMIN_CHAT_IDS", "")  # ← НОВИЙ рядок
 
 # ─── Turso ───
 TURSO_URL: str = os.environ.get("TURSO_DATABASE_URL", "")

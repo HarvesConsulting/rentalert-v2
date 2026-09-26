@@ -8,7 +8,6 @@ import pytest
 
 from rentalert.bot import callbacks
 
-
 # ─── _handle_buy ───
 
 

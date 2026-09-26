@@ -870,6 +870,8 @@ def _handle_rate(
             f"⭐ <b>Дякую за оцінку {rating}/5!</b>",
             keyboard={"inline_keyboard": []},
         )
+
+
 def _handle_buy(
     period: str,
     chat_id: str,
@@ -890,11 +892,11 @@ def _handle_buy(
         return
 
     # 2. Ціни в Stars
-    PRICES = {
-        "monthly": 300,   # ⭐
-        "yearly": 2000,   # ⭐
+    prices = {
+        "monthly": 300,  # ⭐
+        "yearly": 2000,  # ⭐
     }
-    stars = PRICES[period]
+    stars = prices[period]
 
     # 3. Payload (унікальний ID для обробки в successful_payment)
     payload = f"sub:{period}:{stars}"

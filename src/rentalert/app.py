@@ -330,20 +330,23 @@ def telegram_webhook() -> tuple[str, int]:
             log.exception("pre_checkout_query error: %s", e)
         return "ok", 200
 
-    if "callback_query" in update:
-        threading.Thread(
-            target=_safe_handle_callback,
-            args=(update["callback_query"],),
-            daemon=True,
-        ).start()
     elif "message" in update:
-        threading.Thread(
-            target=_safe_handle_message,
-            args=(update,),
-            daemon=True,
-        ).start()
+        msg = update["message"]
 
-    return "ok", 200
+        # ── Успішна оплата? ──
+        if msg.get("successful_payment"):
+            threading.Thread(
+                target=_safe_handle_payment,
+                args=(msg,),
+                daemon=True,
+            ).start()
+        else:
+            # Звичайне повідомлення
+            threading.Thread(
+                target=_safe_handle_message,
+                args=(update,),
+                daemon=True,
+            ).start()
 
 
 def _safe_handle_callback(callback: dict[str, Any]) -> None:
@@ -358,6 +361,26 @@ def _safe_handle_callback(callback: dict[str, Any]) -> None:
     except Exception as e:
         log.exception("Callback error: %s", e)
 
+def _safe_handle_payment(message: dict[str, Any]) -> None:
+    """Обгортка для обробки успішної оплати."""
+    if _ctx is None:
+        log.error("❌ _safe_handle_payment: _ctx is None!")
+        return
+    try:
+        from rentalert.bot.handlers import handle_successful_payment
+
+        chat_id = str(message["chat"]["id"])
+        payment = message["successful_payment"]
+        log.info(
+            "💰 Успішна оплата від %s: %s ⭐",
+            chat_id,
+            payment.get("total_amount"),
+        )
+
+        handle_successful_payment(chat_id, payment, _ctx)
+        log.info("✓ payment ok")
+    except Exception as e:
+        log.exception("Payment error: %s", e)
 
 def _safe_handle_message(update: dict[str, Any]) -> None:
     """Обгортка з try/except для message."""

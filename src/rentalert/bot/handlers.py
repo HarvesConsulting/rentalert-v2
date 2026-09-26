@@ -635,3 +635,108 @@ def _format_date(iso: str | None) -> str:
         return dt.strftime("%d.%m.%Y")
     except Exception:
         return "—"
+    
+def handle_successful_payment(
+    chat_id: str,
+    payment: dict[str, Any],
+    ctx: BotContext,
+) -> None:
+    """Обробляє успішну оплату від Telegram.
+
+    Args:
+        chat_id: ID чату
+        payment: dict з successful_payment
+        ctx: контекст бота
+    """
+    import json
+
+    from rentalert.services import subscription as sub_svc
+
+    # 1. Розбираємо payload
+    # Формат: "sub:monthly:300" або "sub:yearly:2000"
+    payload = payment.get("invoice_payload", "")
+    parts = payload.split(":")
+    period = parts[1] if len(parts) > 1 else "monthly"
+    stars = int(parts[2]) if len(parts) > 2 else 0
+
+    # Тривалість
+    days = 365 if period == "yearly" else 30
+
+    # 2. Зберігаємо платіж у БД
+    db.save_payment(
+        ctx.client,
+        id=payment.get("telegram_payment_charge_id", ""),
+        chat_id=chat_id,
+        amount_stars=stars,
+        kind="subscription",
+        period=period,
+        days=days,
+        raw_payload=json.dumps(payment, ensure_ascii=False),
+    )
+
+    # 3. Продовжуємо premium
+    new_until_iso = sub_svc.extend_premium(ctx.client, chat_id, days)
+
+    # 4. Логуємо
+    db.log_activity(
+        ctx.client,
+        chat_id,
+        "payment_success",
+        {"period": period, "days": days, "stars": stars},
+    )
+
+    # 5. Форматуємо дату
+    try:
+        from datetime import datetime
+
+        dt = datetime.fromisoformat(new_until_iso.replace("Z", "+00:00"))
+        date_str = dt.strftime("%d.%m.%Y")
+    except Exception:
+        date_str = new_until_iso
+
+    # 6. Надсилаємо підтвердження
+    lang = user_svc.get_language(ctx.client, chat_id)
+    period_label = "рік" if period == "yearly" else "місяць"
+    ctx.notifier.send_message(
+        chat_id,
+        f"✅ <b>Оплата успішна!</b>\n\n"
+        f"💎 <b>{stars} ⭐</b> ({period_label})\n"
+        f"📅 Підписка активна до <b>{date_str}</b>\n\n"
+        f"Дякуємо за підтримку! 🎉",
+        keyboard=kb.main_menu_keyboard(lang),
+    )
+
+    # 7. Реферальний бонус
+    _handle_referral_bonus(chat_id, ctx)
+
+
+def _handle_referral_bonus(chat_id: str, ctx: BotContext) -> None:
+    """Дає бонус тому, хто запросив користувача."""
+    from rentalert.services import subscription as sub_svc
+
+    user = db.get_user(ctx.client, chat_id)
+    if not user:
+        return
+
+    referrer_id = user.get("referred_by")
+    if not referrer_id:
+        return
+
+    # Збільшуємо лічильник
+    count = db.increment_referrals(ctx.client, referrer_id)
+    log.info("👥 Реферал: %s → %s (всього: %d)", chat_id, referrer_id, count)
+
+    # Кожні 3 → +30 днів
+    if count % 3 == 0:
+        sub_svc.extend_premium(ctx.client, referrer_id, 30)
+
+        try:
+            ctx.notifier.send_message(
+                referrer_id,
+                f"🎉 <b>Бонус за друзів!</b>\n\n"
+                f"Ви запросили {count} друзів — і отримали "
+                f"<b>+30 днів</b> безкоштовно!\n\n"
+                f"Запрошуйте ще! 🚀",
+            )
+        except Exception as e:
+            log.exception("Referral notify failed: %s", e)

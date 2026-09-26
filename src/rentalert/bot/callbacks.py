@@ -702,6 +702,10 @@ def _handle_subs(
         _send_favorites(chat_id, ctx)
     elif sub == "ignored":
         _send_ignored(chat_id, ctx)
+    elif sub == "subscription":
+        from rentalert.bot.handlers import _send_subscription_status
+
+        _send_subscription_status(chat_id, ctx)
 
 
 # ─────────────────────────────────────────────────────────────

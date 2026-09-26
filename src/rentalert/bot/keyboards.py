@@ -36,7 +36,7 @@ def main_menu_keyboard(lang: str = "uk") -> dict[str, Any]:
 
 
 def subscriptions_menu_keyboard(lang: str = "uk") -> dict[str, Any]:
-    """Inline-меню «Мої підписки»: Мої міста / Обране / Ігноровані."""
+    """Inline-меню «Мої підписки»: Мої міста / Обране / Ігноровані / Підписка."""
     return {
         "inline_keyboard": [
             [
@@ -55,6 +55,12 @@ def subscriptions_menu_keyboard(lang: str = "uk") -> dict[str, Any]:
                 {
                     "text": T("btn_ignored", lang),
                     "callback_data": "subs:ignored",
+                }
+            ],
+            [
+                {
+                    "text": T("btn_subscription", lang),
+                    "callback_data": "subs:subscription",
                 }
             ],
         ]

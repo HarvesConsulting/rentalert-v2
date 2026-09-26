@@ -15,6 +15,7 @@ from rentalert.catalog.catalog import Catalog
 from rentalert.db import queries as db
 from rentalert.db.client import TursoClient
 from rentalert.services import user as user_svc
+from rentalert.services import subscription as sub_svc
 from rentalert.services.notifier import TelegramNotifier
 from rentalert.translations import T
 
@@ -110,14 +111,20 @@ def _handle_command(chat_id: str, text: str, ctx: BotContext) -> None:
     lang = user_svc.get_language(ctx.client, chat_id)
 
     if text.startswith("/start"):
-        states.clear_state(chat_id)
-        # Перший запуск?
-        user = db.get_user(ctx.client, chat_id)
-        if user is None or not user.get("first_seen"):
-            _send_country_selector(chat_id, ctx)
-        else:
-            _send_main_menu(chat_id, ctx)
-        return
+     states.clear_state(chat_id)
+
+    # 1. Даємо trial, якщо ще немає
+    sub_svc.ensure_trial(ctx.client, chat_id)
+
+    user = db.get_user(ctx.client, chat_id)
+    if user is None or not user.get("first_seen"):
+        _send_country_selector(chat_id, ctx)
+    else:
+        _send_main_menu(chat_id, ctx)
+
+    # 2. Інформуємо, якщо trial/premium закінчився
+    _maybe_warn_about_expired_access(chat_id, ctx)
+    return
 
     if text.startswith("/help"):
         _send_help(chat_id, ctx)
@@ -547,3 +554,84 @@ def _handle_admin_reply(
         f"✅ Відповідь надіслано користувачу <code>{target_id}</code>",
     )
     return True
+
+def _maybe_warn_about_expired_access(chat_id: str, ctx: BotContext) -> None:
+    """Показує попередження, якщо trial/premium закінчився."""
+    status = sub_svc.get_access_status(ctx.client, chat_id)
+    if status["has_access"]:
+        return
+
+    lang = user_svc.get_language(ctx.client, chat_id)
+    reason = status.get("reason")
+
+    if reason == "trial_expired":
+        ctx.notifier.send_message(
+            chat_id,
+            T("access_trial_expired", lang),
+        )
+    elif reason == "no_user":
+        return
+
+
+def _send_subscription_status(chat_id: str, ctx: BotContext) -> None:
+    """Показує статус підписки."""
+    lang = user_svc.get_language(ctx.client, chat_id)
+    status = sub_svc.get_access_status(ctx.client, chat_id)
+    reason = status.get("reason")
+
+    if reason == "free_country":
+        text = T("subscription_free_ua", lang)
+        buttons = None
+    elif reason == "premium":
+        text = T(
+            "subscription_premium",
+            lang,
+            until=_format_date(status["until"]),
+            days=status["days_left"] or 0,
+        )
+        buttons = _subscription_buttons(lang)
+    elif reason == "trial":
+        text = T(
+            "subscription_trial",
+            lang,
+            until=_format_date(status["until"]),
+            days=status["days_left"] or 0,
+        )
+        buttons = _subscription_buttons(lang)
+    else:  # trial_expired
+        text = T("subscription_expired", lang)
+        buttons = _subscription_buttons(lang)
+
+    keyboard = {"inline_keyboard": buttons} if buttons else None
+    ctx.notifier.send_message(chat_id, text, keyboard=keyboard)
+
+
+def _subscription_buttons(lang: str) -> list[list[dict[str, str]]]:
+    """Кнопки купівлі підписки."""
+    return [
+        [
+            {
+                "text": T("subscription_buy_monthly", lang),
+                "callback_data": "buy:monthly",
+            }
+        ],
+        [
+            {
+                "text": T("subscription_buy_yearly", lang),
+                "callback_data": "buy:yearly",
+            }
+        ],
+    ]
+
+
+def _format_date(iso: str | None) -> str:
+    """Форматує ISO-дату як '03.10.2026'."""
+    if not iso:
+        return "—"
+    try:
+        from datetime import datetime
+
+        dt = datetime.fromisoformat(str(iso).replace("Z", "+00:00"))
+        return dt.strftime("%d.%m.%Y")
+    except Exception:
+        return "—"

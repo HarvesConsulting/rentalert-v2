@@ -42,6 +42,16 @@ TEXTS: dict[str, dict[str, str]] = {
         "btn_language": "🌍 Мова / Language",
         "btn_clear_cities": "🗑 Очистити всі міста",
         "btn_clear_favorites": "🗑 Очистити обране",
+                "btn_subscription": "💳 Моя підписка",
+        # ─── Підписка ───
+        "subscription_title": "💳 <b>Моя підписка</b>",
+        "subscription_free_ua": "✅ <b>Безкоштовно назавжди</b>\n\nДля користувачів з 🇺🇦 України RentAlert — повністю безкоштовний.\n\nДякуємо, що ви з нами! 💙💛",
+        "subscription_trial": "🎁 <b>Пробний період</b>\n\nЗалишилось: <b>{days} дн.</b>\nДо: <b>{until}</b>\n\nПісля цього — підписка:\n⭐ 150 ₴ (~300 ⭐) / місяць\n⭐ 999 ₴ (~2000 ⭐) / рік (−17%)",
+        "subscription_premium": "✅ <b>Підписка активна</b>\n\nЗалишилось: <b>{days} дн.</b>\nДо: <b>{until}</b>",
+        "subscription_expired": "🔒 <b>Підписка неактивна</b>\n\nБезкоштовний тиждень закінчився.\n\nЩоб продовжити отримувати нові оголошення — оформіть підписку:\n⭐ 150 ₴ (~300 ⭐) / місяць\n⭐ 999 ₴ (~2000 ⭐) / рік (−17%)",
+        "subscription_buy_monthly": "⭐ 150 ₴ / місяць",
+        "subscription_buy_yearly": "⭐ 999 ₴ / рік (−17%)",
+        "access_trial_expired": "🔒 <b>Безкоштовний тиждень закінчився</b>\n\nЩоб продовжити отримувати нові оголошення — оформіть підписку:\n⭐ 150 ₴ (~300 ⭐) / місяць\n⭐ 999 ₴ (~2000 ⭐) / рік",
         # ─── Вибір країни ───
         "country_selector_title": "🌍 <b>Оберіть країну</b>\n\nВід цього залежить:\n• Мова інтерфейсу\n• Список локацій\n• Джерела оголошень\n• Валюта цін\n\n<i>Змінити можна в ⚙️ Налаштування.</i>",
         "country_ua": "🇺🇦 Україна",
@@ -153,6 +163,16 @@ TEXTS: dict[str, dict[str, str]] = {
         "btn_language": "🌍 Language",
         "btn_clear_cities": "🗑 Clear all cities",
         "btn_clear_favorites": "🗑 Clear favorites",
+                "btn_subscription": "💳 My Subscription",
+        # ─── Subscription ───
+        "subscription_title": "💳 <b>My Subscription</b>",
+        "subscription_free_ua": "✅ <b>Free forever</b>\n\nFor users from 🇺🇦 Ukraine, RentAlert is completely free.\n\nThanks for being with us! 💙💛",
+        "subscription_trial": "🎁 <b>Free trial</b>\n\nLeft: <b>{days} days</b>\nUntil: <b>{until}</b>\n\nAfter that — subscription:\n⭐ 150 UAH (~300 ⭐) / month\n⭐ 999 UAH (~2000 ⭐) / year (−17%)",
+        "subscription_premium": "✅ <b>Subscription active</b>\n\nLeft: <b>{days} days</b>\nUntil: <b>{until}</b>",
+        "subscription_expired": "🔒 <b>Subscription inactive</b>\n\nYour free trial has ended.\n\nTo keep receiving new listings — subscribe:\n⭐ 150 UAH (~300 ⭐) / month\n⭐ 999 UAH (~2000 ⭐) / year (−17%)",
+        "subscription_buy_monthly": "⭐ 150 UAH / month",
+        "subscription_buy_yearly": "⭐ 999 UAH / year (−17%)",
+        "access_trial_expired": "🔒 <b>Your free week has ended</b>\n\nTo keep receiving new listings — subscribe:\n⭐ 150 UAH (~300 ⭐) / month\n⭐ 999 UAH (~2000 ⭐) / year",
         # ─── Country selector ───
         "country_selector_title": "🌍 <b>Choose a country</b>\n\nThis affects:\n• Interface language\n• Location list\n• Listing sources\n• Price currency\n\n<i>Change anytime in ⚙️ Settings.</i>",
         "country_ua": "🇺🇦 Ukraine",

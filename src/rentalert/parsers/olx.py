@@ -71,6 +71,7 @@ class OLXParser(Parser):
                     category_id=cat_id,
                     category_key=cat_key,
                     city_slug=city.slug,
+                    seen_checker=seen_checker,
                 )
             except Exception as e:
                 log.exception("Помилка fetch %s/%s: %s", city.slug, cat_key, e)

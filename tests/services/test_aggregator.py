@@ -429,6 +429,7 @@ def test_cycle_parses_distinct_cities_only(catalog, listing, mocker) -> None:
     # Але розсилка — на всіх 500
     assert notify.call_count == 500
 
+
 def test_cycle_old_listings_not_saved(catalog, mocker) -> None:
     """Старі оголошення (>6 год) не зберігаються в БД і не надсилаються."""
     from datetime import UTC, datetime, timedelta

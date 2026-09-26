@@ -177,6 +177,7 @@ def run_aggregation_cycle(
     )
     return stats
 
+
 def fetch_city_now(
     catalog: Catalog,
     client: TursoClient,
@@ -306,6 +307,7 @@ def _fetch_and_save(
         fresh.append(lst)
 
     return fresh
+
 
 def _collect_for_user(
     *,

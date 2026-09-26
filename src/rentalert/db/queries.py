@@ -147,7 +147,136 @@ def is_premium(client: TursoClient, chat_id: str) -> bool:
     except Exception:
         return False
 
+def set_trial_ends_at(
+    client: TursoClient,
+    chat_id: str,
+    iso_datetime: str,
+) -> None:
+    """Встановлює дату закінчення trial."""
+    ensure_user(client, chat_id)
+    client.execute_non_query(
+        """
+        UPDATE user_settings
+        SET trial_ends_at = ?
+        WHERE chat_id = ?
+        """,
+        [iso_datetime, chat_id],
+    )
 
+
+def set_premium_until(
+    client: TursoClient,
+    chat_id: str,
+    iso_datetime: str,
+) -> None:
+    """Встановлює дату закінчення premium."""
+    ensure_user(client, chat_id)
+    client.execute_non_query(
+        """
+        UPDATE user_settings
+        SET is_premium = 1, premium_until = ?
+        WHERE chat_id = ?
+        """,
+        [iso_datetime, chat_id],
+    )
+
+
+def set_referred_by(
+    client: TursoClient,
+    chat_id: str,
+    referrer_id: str,
+) -> None:
+    """Зберігає, хто запросив користувача."""
+    ensure_user(client, chat_id)
+    client.execute_non_query(
+        "UPDATE user_settings SET referred_by = ? WHERE chat_id = ?",
+        [referrer_id, chat_id],
+    )
+
+
+def increment_referrals(client: TursoClient, chat_id: str) -> int:
+    """Збільшує лічильник запрошених. Повертає нове значення."""
+    client.execute_non_query(
+        """
+        UPDATE user_settings
+        SET referrals_count = COALESCE(referrals_count, 0) + 1
+        WHERE chat_id = ?
+        """,
+        [chat_id],
+    )
+    rows = client.execute(
+        "SELECT referrals_count FROM user_settings WHERE chat_id = ?",
+        [chat_id],
+    )
+    return int(rows[0][0] or 0) if rows else 0
+
+
+# ═════════════════════════════════════════════════════════════
+# Payments
+# ═════════════════════════════════════════════════════════════
+
+
+def save_payment(
+    client: TursoClient,
+    *,
+    id: str,
+    chat_id: str,
+    amount_stars: int,
+    kind: str = "subscription",
+    period: str | None = None,
+    days: int | None = None,
+    country_code: str | None = None,
+    raw_payload: str | None = None,
+) -> None:
+    """Зберігає платіж."""
+    client.execute_non_query(
+        """
+        INSERT OR IGNORE INTO payments
+            (id, chat_id, amount_stars, currency, kind, period, days, country_code, raw_payload)
+        VALUES (?, ?, ?, 'XTR', ?, ?, ?, ?, ?)
+        """,
+        [id, chat_id, amount_stars, kind, period, days, country_code, raw_payload],
+    )
+
+
+def get_payments(
+    client: TursoClient,
+    chat_id: str,
+    *,
+    limit: int = 20,
+) -> list[dict[str, Any]]:
+    """Історія платежів користувача."""
+    rows = client.execute(
+        """
+        SELECT id, amount_stars, currency, kind, period, days, paid_at
+        FROM payments
+        WHERE chat_id = ?
+        ORDER BY paid_at DESC
+        LIMIT ?
+        """,
+        [chat_id, limit],
+    )
+    return [
+        {
+            "id": r[0],
+            "amount_stars": int(r[1]),
+            "currency": r[2],
+            "kind": r[3],
+            "period": r[4],
+            "days": r[5],
+            "paid_at": r[6],
+        }
+        for r in rows
+    ]
+
+
+def total_paid_stars(client: TursoClient, chat_id: str) -> int:
+    """Загальна сума платежів у зірках."""
+    rows = client.execute(
+        "SELECT COALESCE(SUM(amount_stars), 0) FROM payments WHERE chat_id = ?",
+        [chat_id],
+    )
+    return int(rows[0][0] or 0) if rows else 0
 # ═════════════════════════════════════════════════════════════
 # User cities
 # ═════════════════════════════════════════════════════════════
@@ -177,6 +306,37 @@ def clear_user_cities(client: TursoClient, chat_id: str) -> None:
     )
 
 
+def get_user(client: TursoClient, chat_id: str) -> dict[str, Any] | None:
+    """Повертає dict з налаштуваннями або None."""
+    rows = client.execute(
+        """
+        SELECT chat_id, country, language, is_premium, premium_until,
+               username, first_name, first_seen, last_seen, message_count,
+               trial_ends_at, referred_by, referrals_count
+        FROM user_settings
+        WHERE chat_id = ?
+        """,
+        [chat_id],
+    )
+    if not rows:
+        return None
+    r = rows[0]
+    return {
+        "chat_id": r[0],
+        "country": r[1] or "ua",
+        "language": r[2] or "uk",
+        "is_premium": bool(r[3]),
+        "premium_until": r[4],
+        "username": r[5] or "",
+        "first_name": r[6] or "",
+        "first_seen": r[7],
+        "last_seen": r[8],
+        "message_count": int(r[9] or 0),
+        "trial_ends_at": r[10],
+        "referred_by": r[11],
+        "referrals_count": int(r[12] or 0),
+    }
+
 def get_user_cities(client: TursoClient, chat_id: str) -> list[str]:
     """Міста користувача в порядку додавання."""
     rows = client.execute(
@@ -184,7 +344,6 @@ def get_user_cities(client: TursoClient, chat_id: str) -> list[str]:
         [chat_id],
     )
     return [str(r[0]) for r in rows]
-
 
 def get_all_user_cities(client: TursoClient) -> dict[str, list[str]]:
     """Усі підписки: {chat_id: [city_slug, ...]}."""

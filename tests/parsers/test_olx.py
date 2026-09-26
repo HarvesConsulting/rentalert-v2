@@ -226,10 +226,10 @@ def test_olx_parser_pt_skips_sale() -> None:
     }
 
     parsed_sale = parser._parse_item(
-        item=sale_item, city_slug="porto", category_key="apartment"
+        item=sale_item, city_slug=city.slug, category_key="apartment"
     )
     parsed_rent = parser._parse_item(
-        item=rent_item, city_slug="porto", category_key="apartment"
+        item=rent_item, city_slug=city.slug, category_key="apartment"
     )
 
     assert parsed_sale is None  # продаж — пропущено

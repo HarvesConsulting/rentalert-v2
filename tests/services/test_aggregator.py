@@ -428,3 +428,78 @@ def test_cycle_parses_distinct_cities_only(catalog, listing, mocker) -> None:
 
     # Але розсилка — на всіх 500
     assert notify.call_count == 500
+
+def test_cycle_old_listings_not_saved(catalog, mocker) -> None:
+    """Старі оголошення (>6 год) не зберігаються в БД і не надсилаються."""
+    from datetime import UTC, datetime, timedelta
+
+    from rentalert.catalog.models import Source
+    from rentalert.parsers.base import Listing
+
+    old_listing = Listing(
+        id="olx_ua:old",
+        source_key="olx_ua",
+        city_slug="kyiv",
+        title="Old listing",
+        price="500",
+        location="Kyiv",
+        link="https://olx.ua/old",
+        photo="",
+        rooms="1",
+        category="apartment",
+        category_icon="🏢",
+        category_label="Квартири",
+        created_at=datetime.now(UTC) - timedelta(days=30),
+    )
+
+    mocker.patch(
+        "rentalert.services.aggregator.db.get_all_user_cities",
+        return_value={"123": ["kyiv"]},
+    )
+    mocker.patch(
+        "rentalert.services.aggregator.db.get_distinct_city_slugs",
+        return_value=["kyiv"],
+    )
+    mocker.patch(
+        "rentalert.services.aggregator.db.get_seen_ids",
+        return_value=set(),
+    )
+    mocker.patch(
+        "rentalert.services.aggregator.db.get_disabled_sources",
+        return_value=set(),
+    )
+    mocker.patch(
+        "rentalert.services.aggregator.db.get_all_user_categories",
+        return_value={},
+    )
+    mock_save = mocker.patch("rentalert.services.aggregator.db.save_listing")
+
+    mock_parser = MagicMock()
+    mock_parser.source = Source(
+        key="olx_ua",
+        country="ua",
+        name="OLX.ua",
+        icon="X",
+        kind="olx",
+        base_url="https://www.olx.ua",
+        enabled_by_default=True,
+        categories=("apartment",),
+        config={},
+    )
+    mock_parser.fetch.return_value = [old_listing]
+
+    mocker.patch(
+        "rentalert.services.aggregator.PARSER_REGISTRY",
+        {"olx_ua": mock_parser},
+    )
+
+    client = MagicMock()
+    notify = MagicMock()
+
+    stats = run_aggregation_cycle(catalog, client, notify)
+
+    # Старе НЕ збережено
+    mock_save.assert_not_called()
+    # І НЕ надіслано
+    assert stats.listings_new == 0
+    notify.assert_not_called()

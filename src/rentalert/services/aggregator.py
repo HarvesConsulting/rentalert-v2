@@ -177,7 +177,6 @@ def run_aggregation_cycle(
     )
     return stats
 
-
 def fetch_city_now(
     catalog: Catalog,
     client: TursoClient,
@@ -236,11 +235,6 @@ def fetch_city_now(
     return all_listings
 
 
-# ─────────────────────────────────────────────────────────────
-# Внутрішнє
-# ─────────────────────────────────────────────────────────────
-
-
 def _fetch_and_save(
     *,
     parser,
@@ -284,7 +278,14 @@ def _fetch_and_save(
         if lst.id in seen:
             continue
 
-        # Зберігаємо у БД
+        # Фільтр свіжості — ПЕРЕД збереженням
+        is_fresh = lst.created_at is None or lst.created_at >= cutoff
+
+        if not is_fresh:
+            # Старе — не зберігаємо, не показуємо
+            continue
+
+        # Зберігаємо у БД (тільки свіжі)
         db.save_listing(
             client,
             id=lst.id,
@@ -302,12 +303,9 @@ def _fetch_and_save(
             created_at=lst.created_at.isoformat() if lst.created_at else None,
         )
 
-        # Фільтр свіжості
-        if lst.created_at is None or lst.created_at >= cutoff:
-            fresh.append(lst)
+        fresh.append(lst)
 
     return fresh
-
 
 def _collect_for_user(
     *,

@@ -238,6 +238,26 @@ def api_check_all() -> tuple[str, int]:
 
     return "ok", 200
 
+@app.route("/api/wake")
+def api_wake() -> tuple[str, int]:
+    """Швидкий endpoint для cron-job.org.
+
+    Миттєво повертає 200 і запускає startup + агрегацію у фоні.
+    """
+    if _ctx is None:
+        try:
+            _ensure_startup()
+        except Exception as e:
+            log.exception("Startup failed у /api/wake: %s", e)
+            return "startup failed", 503
+
+    if _ctx is None:
+        return "not ready", 503
+
+    # Миттєво повертаємо 200 + агрегація у фоні
+    threading.Thread(target=_run_aggregation, daemon=True).start()
+
+    return "ok", 200
 
 @app.route("/")
 def root() -> Any:

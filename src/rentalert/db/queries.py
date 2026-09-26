@@ -194,15 +194,14 @@ def get_all_user_cities(client: TursoClient) -> dict[str, list[str]]:
         result.setdefault(str(chat_id), []).append(str(slug))
     return result
 
+
 def get_distinct_city_slugs(client: TursoClient) -> list[str]:
     """Унікальні міста, на які хтось підписаний.
 
     Використовується для парсингу: не треба парсити Київ 500 разів,
     якщо на нього підписані 500 користувачів.
     """
-    rows = client.execute(
-        "SELECT DISTINCT city_slug FROM user_cities ORDER BY city_slug"
-    )
+    rows = client.execute("SELECT DISTINCT city_slug FROM user_cities ORDER BY city_slug")
     return [str(r[0]) for r in rows]
 
 
@@ -398,6 +397,7 @@ def get_user_categories(
     )
     return {str(r[0]) for r in rows}
 
+
 def get_all_user_categories(
     client: TursoClient,
 ) -> dict[str, set[str]]:
@@ -409,9 +409,7 @@ def get_all_user_categories(
     Якщо у користувача порожній set — це означає
     «усе увімкнено» (як у поточній логіці user_svc.get_categories).
     """
-    rows = client.execute(
-        "SELECT chat_id, category_key FROM user_categories"
-    )
+    rows = client.execute("SELECT chat_id, category_key FROM user_categories")
     result: dict[str, set[str]] = {}
     for chat_id, cat_key in rows:
         result.setdefault(str(chat_id), set()).add(str(cat_key))

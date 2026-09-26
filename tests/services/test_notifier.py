@@ -50,8 +50,8 @@ def test_call_429_retries_once(notifier, mocker) -> None:
     result = notifier._call("sendMessage", {"chat_id": "1", "text": "hi"})
 
     assert result is True
-    assert mock_post.call_count == 2      # спочатку 429, потім retry
-    mock_sleep.assert_called_once_with(1) # retry_after = 1
+    assert mock_post.call_count == 2  # спочатку 429, потім retry
+    mock_sleep.assert_called_once_with(1)  # retry_after = 1
 
 
 def test_call_403_returns_false(notifier, mocker) -> None:

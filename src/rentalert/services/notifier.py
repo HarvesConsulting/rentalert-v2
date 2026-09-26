@@ -197,7 +197,7 @@ class TelegramNotifier:
                 )
                 return False
 
-                        # 403 — користувач заблокував бота
+                # 403 — користувач заблокував бота
             if error_code == 403:
                 log.info(
                     "Telegram %s: 403 (%s) для chat_id=%r",
@@ -209,9 +209,7 @@ class TelegramNotifier:
 
             # 429 — перевищено rate limit. Чекаємо retry_after і повторюємо ОДИН раз.
             if error_code == 429:
-                retry_after = (
-                    result.get("parameters", {}).get("retry_after", 5)
-                )
+                retry_after = result.get("parameters", {}).get("retry_after", 5)
                 log.warning(
                     "Telegram %s: 429 rate limit, чекаю %ds і повторюю",
                     method,

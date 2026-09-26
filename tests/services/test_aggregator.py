@@ -87,8 +87,8 @@ def test_cycle_new_listing(catalog, listing, mocker) -> None:
         return_value={"123": ["kyiv"]},
     )
     mocker.patch(
-    "rentalert.services.aggregator.db.get_distinct_city_slugs",
-    return_value=["kyiv"],
+        "rentalert.services.aggregator.db.get_distinct_city_slugs",
+        return_value=["kyiv"],
     )
     mocker.patch(
         "rentalert.services.aggregator.db.get_seen_ids",
@@ -180,8 +180,8 @@ def test_cycle_disabled_source(catalog, listing, mocker) -> None:
         return_value={"123": ["kyiv"]},
     )
     mocker.patch(
-    "rentalert.services.aggregator.db.get_distinct_city_slugs",
-    return_value=["kyiv"],
+        "rentalert.services.aggregator.db.get_distinct_city_slugs",
+        return_value=["kyiv"],
     )
     mocker.patch("rentalert.services.aggregator.db.get_seen_ids", return_value=set())
     mocker.patch(
@@ -215,6 +215,7 @@ def test_cycle_disabled_source(catalog, listing, mocker) -> None:
     assert stats.users_notified == 0  # але не розсилаємо
     notify.assert_not_called()
 
+
 def test_cycle_respects_enabled_categories(catalog, listing, mocker) -> None:
     """Користувач увімкнув тільки 'apartment' → отримує лише квартири."""
     # Друге оголошення — кімната
@@ -239,8 +240,8 @@ def test_cycle_respects_enabled_categories(catalog, listing, mocker) -> None:
         return_value={"123": ["kyiv"]},
     )
     mocker.patch(
-    "rentalert.services.aggregator.db.get_distinct_city_slugs",
-    return_value=["kyiv"],
+        "rentalert.services.aggregator.db.get_distinct_city_slugs",
+        return_value=["kyiv"],
     )
     mocker.patch(
         "rentalert.services.aggregator.db.get_seen_ids",
@@ -317,8 +318,8 @@ def test_cycle_empty_categories_means_all(catalog, listing, mocker) -> None:
         return_value={"123": ["kyiv"]},
     )
     mocker.patch(
-    "rentalert.services.aggregator.db.get_distinct_city_slugs",
-    return_value=["kyiv"],
+        "rentalert.services.aggregator.db.get_distinct_city_slugs",
+        return_value=["kyiv"],
     )
     mocker.patch(
         "rentalert.services.aggregator.db.get_seen_ids",
@@ -367,6 +368,7 @@ def test_cycle_empty_categories_means_all(catalog, listing, mocker) -> None:
     assert len(sent_listings) == 2
     categories = {lst.category for lst in sent_listings}
     assert categories == {"apartment", "room"}
+
 
 def test_cycle_parses_distinct_cities_only(catalog, listing, mocker) -> None:
     """500 користувачів на одне місто → парсимо ОДИН раз."""

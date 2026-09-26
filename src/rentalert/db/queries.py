@@ -51,35 +51,6 @@ def touch_user(
         [username, first_name, chat_id],
     )
 
-
-def get_user(client: TursoClient, chat_id: str) -> dict[str, Any] | None:
-    """Повертає dict з налаштуваннями або None."""
-    rows = client.execute(
-        """
-        SELECT chat_id, country, language, is_premium, premium_until,
-               username, first_name, first_seen, last_seen, message_count
-        FROM user_settings
-        WHERE chat_id = ?
-        """,
-        [chat_id],
-    )
-    if not rows:
-        return None
-    r = rows[0]
-    return {
-        "chat_id": r[0],
-        "country": r[1] or "ua",
-        "language": r[2] or "uk",
-        "is_premium": bool(r[3]),
-        "premium_until": r[4],
-        "username": r[5] or "",
-        "first_name": r[6] or "",
-        "first_seen": r[7],
-        "last_seen": r[8],
-        "message_count": int(r[9] or 0),
-    }
-
-
 def get_user_country(client: TursoClient, chat_id: str) -> str:
     """Країна користувача (default 'ua')."""
     rows = client.execute(
@@ -101,6 +72,36 @@ def get_user_language(client: TursoClient, chat_id: str) -> str:
         return "uk"
     return str(rows[0][0])
 
+def get_user(client: TursoClient, chat_id: str) -> dict[str, Any] | None:
+    """Повертає dict з налаштуваннями або None."""
+    rows = client.execute(
+        """
+        SELECT chat_id, country, language, is_premium, premium_until,
+               username, first_name, first_seen, last_seen, message_count,
+               trial_ends_at, referred_by, referrals_count
+        FROM user_settings
+        WHERE chat_id = ?
+        """,
+        [chat_id],
+    )
+    if not rows:
+        return None
+    r = rows[0]
+    return {
+        "chat_id": r[0],
+        "country": r[1] or "ua",
+        "language": r[2] or "uk",
+        "is_premium": bool(r[3]),
+        "premium_until": r[4],
+        "username": r[5] or "",
+        "first_name": r[6] or "",
+        "first_seen": r[7],
+        "last_seen": r[8],
+        "message_count": int(r[9] or 0),
+        "trial_ends_at": r[10],
+        "referred_by": r[11],
+        "referrals_count": int(r[12] or 0),
+    }
 
 def set_user_country(client: TursoClient, chat_id: str, country: str) -> None:
     """Зберігає країну."""
@@ -146,6 +147,7 @@ def is_premium(client: TursoClient, chat_id: str) -> bool:
         return dt > datetime.now(UTC)
     except Exception:
         return False
+
 
 def set_trial_ends_at(
     client: TursoClient,
@@ -277,6 +279,8 @@ def total_paid_stars(client: TursoClient, chat_id: str) -> int:
         [chat_id],
     )
     return int(rows[0][0] or 0) if rows else 0
+
+
 # ═════════════════════════════════════════════════════════════
 # User cities
 # ═════════════════════════════════════════════════════════════
@@ -305,38 +309,6 @@ def clear_user_cities(client: TursoClient, chat_id: str) -> None:
         [chat_id],
     )
 
-
-def get_user(client: TursoClient, chat_id: str) -> dict[str, Any] | None:
-    """Повертає dict з налаштуваннями або None."""
-    rows = client.execute(
-        """
-        SELECT chat_id, country, language, is_premium, premium_until,
-               username, first_name, first_seen, last_seen, message_count,
-               trial_ends_at, referred_by, referrals_count
-        FROM user_settings
-        WHERE chat_id = ?
-        """,
-        [chat_id],
-    )
-    if not rows:
-        return None
-    r = rows[0]
-    return {
-        "chat_id": r[0],
-        "country": r[1] or "ua",
-        "language": r[2] or "uk",
-        "is_premium": bool(r[3]),
-        "premium_until": r[4],
-        "username": r[5] or "",
-        "first_name": r[6] or "",
-        "first_seen": r[7],
-        "last_seen": r[8],
-        "message_count": int(r[9] or 0),
-        "trial_ends_at": r[10],
-        "referred_by": r[11],
-        "referrals_count": int(r[12] or 0),
-    }
-
 def get_user_cities(client: TursoClient, chat_id: str) -> list[str]:
     """Міста користувача в порядку додавання."""
     rows = client.execute(
@@ -344,6 +316,7 @@ def get_user_cities(client: TursoClient, chat_id: str) -> list[str]:
         [chat_id],
     )
     return [str(r[0]) for r in rows]
+
 
 def get_all_user_cities(client: TursoClient) -> dict[str, list[str]]:
     """Усі підписки: {chat_id: [city_slug, ...]}."""

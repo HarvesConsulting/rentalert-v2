@@ -901,11 +901,7 @@ def _handle_buy(
 
     # Базова ціна (місяць) з каталогу
     monthly_stars = country.price_stars
-    stars = (
-        monthly_stars
-        if period == "monthly"
-        else int(monthly_stars * 12 * 0.85)
-    )
+    stars = monthly_stars if period == "monthly" else int(monthly_stars * 12 * 0.85)
 
     # 3. Payload (унікальний ID для обробки в successful_payment)
     payload = f"sub:{period}:{stars}"

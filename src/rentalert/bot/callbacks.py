@@ -891,23 +891,33 @@ def _handle_buy(
         ctx.notifier.answer_callback(cb_id, "❌")
         return
 
-    # 2. Ціни в Stars
-    prices = {
-        "monthly": 300,  # ⭐
-        "yearly": 2000,  # ⭐
-    }
-    stars = prices[period]
+    # 2. Беремо ціну з каталогу (за країною користувача)
+    country_code = user_svc.get_country(ctx.client, chat_id)
+    country = ctx.catalog.country(country_code)
+
+    if country is None:
+        ctx.notifier.answer_callback(cb_id, "❌")
+        return
+
+    # Базова ціна (місяць) з каталогу
+    monthly_stars = country.price_stars
+
+    if period == "monthly":
+        stars = monthly_stars
+    else:  # yearly — 12 місяців зі знижкою ~15%
+        stars = int(monthly_stars * 12 * 0.85)
 
     # 3. Payload (унікальний ID для обробки в successful_payment)
     payload = f"sub:{period}:{stars}"
 
     # 4. Назва та опис
+    country_label = T(f"country_{country_code}", "uk")
     if period == "monthly":
-        title = "RentAlert — 1 місяць"
-        description = "Доступ до нових оголошень на 30 днів"
+        title = f"RentAlert — {country_label} (1 місяць)"
+        description = f"Доступ до нових оголошень у {country_label} на 30 днів"
     else:
-        title = "RentAlert — 12 місяців"
-        description = "Доступ до нових оголошень на 365 днів (−17%)"
+        title = f"RentAlert — {country_label} (12 місяців)"
+        description = f"Доступ до нових оголошень у {country_label} на 365 днів (−15%)"
 
     # 5. Відповідаємо на callback (прибираємо «годинник»)
     ctx.notifier.answer_callback(cb_id)
@@ -936,5 +946,5 @@ def _handle_buy(
         ctx.client,
         chat_id,
         "buy_attempt",
-        {"period": period, "stars": stars},
+        {"period": period, "stars": stars, "country": country_code},
     )

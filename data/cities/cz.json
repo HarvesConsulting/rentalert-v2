@@ -5,7 +5,7 @@
       "slug": "abertamy",
       "name": "Abertamy",
       "region": "",
-      "priority": true,
+      "priority": false,
       "refs": {
         "bezrealitky": "439483"
       }
@@ -14,7 +14,7 @@
       "slug": "adamov",
       "name": "Adamov",
       "region": "",
-      "priority": true,
+      "priority": false,
       "refs": {
         "bezrealitky": "442566"
       }
@@ -23,7 +23,7 @@
       "slug": "andelska-hora",
       "name": "Andělská Hora",
       "region": "",
-      "priority": true,
+      "priority": false,
       "refs": {
         "bezrealitky": "439386"
       }
@@ -32,7 +32,7 @@
       "slug": "as",
       "name": "Aš",
       "region": "",
-      "priority": true,
+      "priority": false,
       "refs": {
         "bezrealitky": "439457"
       }
@@ -41,7 +41,7 @@
       "slug": "bakov-nad-jizerou",
       "name": "Bakov nad Jizerou",
       "region": "",
-      "priority": true,
+      "priority": false,
       "refs": {
         "bezrealitky": "437557"
       }
@@ -50,7 +50,7 @@
       "slug": "batelov",
       "name": "Batelov",
       "region": "",
-      "priority": true,
+      "priority": false,
       "refs": {
         "bezrealitky": "440426"
       }
@@ -59,7 +59,7 @@
       "slug": "bavorov",
       "name": "Bavorov",
       "region": "",
-      "priority": true,
+      "priority": false,
       "refs": {
         "bezrealitky": "438811"
       }
@@ -68,7 +68,7 @@
       "slug": "bechyne",
       "name": "Bechyně",
       "region": "",
-      "priority": true,
+      "priority": false,
       "refs": {
         "bezrealitky": "438670"
       }
@@ -77,7 +77,7 @@
       "slug": "benesov",
       "name": "Benešov",
       "region": "",
-      "priority": true,
+      "priority": false,
       "refs": {
         "bezrealitky": "440764"
       }
@@ -86,7 +86,7 @@
       "slug": "benesov-nad-ploucnici",
       "name": "Benešov nad Ploučnicí",
       "region": "",
-      "priority": true,
+      "priority": false,
       "refs": {
         "bezrealitky": "439573"
       }
@@ -365,7 +365,7 @@
       "slug": "brno",
       "name": "Brno",
       "region": "",
-      "priority": false,
+      "priority": true,
       "refs": {
         "bezrealitky": "442311"
       }
@@ -1697,7 +1697,7 @@
       "slug": "hradec-kralove",
       "name": "Hradec Králové",
       "region": "",
-      "priority": false,
+      "priority": true,
       "refs": {
         "bezrealitky": "442463"
       }
@@ -2903,7 +2903,7 @@
       "slug": "liberec",
       "name": "Liberec",
       "region": "",
-      "priority": false,
+      "priority": true,
       "refs": {
         "bezrealitky": "442455"
       }
@@ -4190,7 +4190,7 @@
       "slug": "olomouc",
       "name": "Olomouc",
       "region": "",
-      "priority": false,
+      "priority": true,
       "refs": {
         "bezrealitky": "442459"
       }
@@ -4271,7 +4271,7 @@
       "slug": "ostrava",
       "name": "Ostrava",
       "region": "",
-      "priority": false,
+      "priority": true,
       "refs": {
         "bezrealitky": "442461"
       }
@@ -4352,7 +4352,7 @@
       "slug": "pardubice",
       "name": "Pardubice",
       "region": "",
-      "priority": false,
+      "priority": true,
       "refs": {
         "bezrealitky": "442460"
       }
@@ -4496,7 +4496,7 @@
       "slug": "plzen",
       "name": "Plzeň",
       "region": "",
-      "priority": false,
+      "priority": true,
       "refs": {
         "bezrealitky": "442466"
       }
@@ -6827,7 +6827,7 @@
       "slug": "usti-nad-labem",
       "name": "Ústí nad Labem",
       "region": "",
-      "priority": false,
+      "priority": true,
       "refs": {
         "bezrealitky": "442452"
       }
@@ -7025,7 +7025,7 @@
       "slug": "ceske-budejovice",
       "name": "České Budějovice",
       "region": "",
-      "priority": false,
+      "priority": true,
       "refs": {
         "bezrealitky": "442321"
       }

@@ -51,13 +51,7 @@ def parser(source: Source) -> WillhabenParser:
 def _make_next_data(items: list[dict]) -> str:
     """Формує HTML з __NEXT_DATA__ для тесту."""
     data = {
-        "props": {
-            "pageProps": {
-                "searchResult": {
-                    "advertSummaryList": {"advertSummary": items}
-                }
-            }
-        }
+        "props": {"pageProps": {"searchResult": {"advertSummaryList": {"advertSummary": items}}}}
     }
     return f'<html><script id="__NEXT_DATA__" type="application/json">{json.dumps(data)}</script></html>'
 
@@ -82,14 +76,15 @@ def _sample_item(
                 {"name": "POSTCODE", "values": ["4643"]},
                 {"name": "DISTRICT", "values": ["Kirchdorf an der Krems"]},
                 {"name": "NUMBER_OF_ROOMS", "values": ["5"]},
-                {"name": "SEO_URL", "values": ["immobilien/d/.../einzigartige-wohnung-150-m-1980123758/"]},
+                {
+                    "name": "SEO_URL",
+                    "values": ["immobilien/d/.../einzigartige-wohnung-150-m-1980123758/"],
+                },
                 {"name": "PUBLISHED_String", "values": ["2026-09-27T17:20:32Z"]},
             ]
         },
         "advertImageList": {
-            "advertImage": [
-                {"mainImageUrl": "https://cache.willhaben.at/mmo/test.jpg"}
-            ]
+            "advertImage": [{"mainImageUrl": "https://cache.willhaben.at/mmo/test.jpg"}]
         },
     }
 

@@ -552,6 +552,7 @@ def debug_sources() -> Any:
 
     return jsonify(results)
 
+
 @app.route("/api/debug/willhaben")
 def debug_willhaben() -> Any:
     """Тимчасово: перевірити Willhaben з Render."""
@@ -582,22 +583,22 @@ def debug_willhaben() -> Any:
             end = r.text.find("</script>", start)
             data = _json.loads(r.text[start:end])
             rows_found = (
-                data.get("props", {})
-                .get("pageProps", {})
-                .get("searchResult", {})
-                .get("rowsFound")
+                data.get("props", {}).get("pageProps", {}).get("searchResult", {}).get("rowsFound")
             )
         except Exception as e:
             rows_found = f"error: {e}"
 
-    return jsonify({
-        "url": url,
-        "status": r.status_code,
-        "size": size,
-        "has_next_data": has_next,
-        "blocked": has_block,
-        "rows_found": rows_found,
-    })
+    return jsonify(
+        {
+            "url": url,
+            "status": r.status_code,
+            "size": size,
+            "has_next_data": has_next,
+            "blocked": has_block,
+            "rows_found": rows_found,
+        }
+    )
+
 
 @app.route("/api/users")
 def api_users() -> Any:

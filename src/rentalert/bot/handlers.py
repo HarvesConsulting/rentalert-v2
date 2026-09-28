@@ -579,6 +579,7 @@ def _send_subscription_status(chat_id: str, ctx: BotContext) -> None:
     lang = user_svc.get_language(ctx.client, chat_id)
     status = sub_svc.get_access_status(ctx.client, chat_id)
     reason = status.get("reason")
+    country_code = user_svc.get_country(ctx.client, chat_id)
 
     if reason == "admin":
         text = T("subscription_admin", lang)
@@ -593,7 +594,7 @@ def _send_subscription_status(chat_id: str, ctx: BotContext) -> None:
             until=_format_date(status["until"]),
             days=status["days_left"] or 0,
         )
-        buttons = _subscription_buttons(lang)
+        buttons = _subscription_buttons(lang, country_code, ctx.catalog)
     elif reason == "trial":
         text = T(
             "subscription_trial",
@@ -601,27 +602,35 @@ def _send_subscription_status(chat_id: str, ctx: BotContext) -> None:
             until=_format_date(status["until"]),
             days=status["days_left"] or 0,
         )
-        buttons = _subscription_buttons(lang)
+        buttons = _subscription_buttons(lang, country_code, ctx.catalog)
     else:  # trial_expired
         text = T("subscription_expired", lang)
-        buttons = _subscription_buttons(lang)
+        buttons = _subscription_buttons(lang, country_code, ctx.catalog)
 
     keyboard = {"inline_keyboard": buttons} if buttons else None
     ctx.notifier.send_message(chat_id, text, keyboard=keyboard)
 
 
-def _subscription_buttons(lang: str) -> list[list[dict[str, str]]]:
-    """Кнопки купівлі підписки."""
+def _subscription_buttons(
+    lang: str,
+    country_code: str,
+    catalog: Catalog,
+) -> list[list[dict[str, str]]]:
+    """Кнопки купівлі підписки з актуальними цінами."""
+    country = catalog.country(country_code)
+    monthly_stars = country.price_stars if country else 0
+    yearly_stars = int(monthly_stars * 12 * 0.85)
+
     return [
         [
             {
-                "text": T("subscription_buy_monthly", lang),
+                "text": T("subscription_buy_monthly", lang, stars=monthly_stars),
                 "callback_data": "buy:monthly",
             }
         ],
         [
             {
-                "text": T("subscription_buy_yearly", lang),
+                "text": T("subscription_buy_yearly", lang, stars=yearly_stars),
                 "callback_data": "buy:yearly",
             }
         ],

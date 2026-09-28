@@ -386,11 +386,7 @@ def _categories_for_country(country: str) -> list[tuple[str, str, str]]:
             ("apartment", "🏢", "Appartements"),
             ("house", "🏠", "Maisons"),
         ],
-                "at": [
-            ("apartment", "🏢", "Wohnungen"),
-            ("house", "🏠", "Häuser"),
-        ],
-                "at": [
+        "at": [
             ("apartment", "🏢", "Wohnungen"),
             ("house", "🏠", "Häuser"),
         ],

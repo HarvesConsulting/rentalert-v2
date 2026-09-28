@@ -8,9 +8,8 @@ from __future__ import annotations
 
 import json
 import logging
-import re
 from collections.abc import Callable
-from datetime import UTC, datetime
+from datetime import datetime
 from typing import Any
 
 from bs4 import BeautifulSoup
@@ -287,10 +286,7 @@ class WillhabenParser(Parser):
     @staticmethod
     def _extract_photo(item: dict[str, Any]) -> str:
         """Бере перше фото з advertImageList."""
-        images = (
-            item.get("advertImageList", {})
-            .get("advertImage", [])
-        )
+        images = item.get("advertImageList", {}).get("advertImage", [])
         if not images:
             return ""
         first = images[0]

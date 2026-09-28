@@ -332,6 +332,60 @@ def help_keyboard(lang: str = "uk") -> dict[str, Any]:
     }
 
 
+def popular_cities_keyboard(
+    cities: list[City],
+    lang: str = "uk",
+) -> dict[str, Any]:
+    """Кнопки з популярними містами (2 в ряд).
+
+    Args:
+        cities: список City (пріоритетні)
+        lang: мова
+    """
+    rows: list[list[dict[str, str]]] = []
+    row: list[dict[str, str]] = []
+
+    for c in cities:
+        row.append({
+            "text": c.name,
+            "callback_data": f"add_city:{c.slug}",
+        })
+        if len(row) == 2:
+            rows.append(row)
+            row = []
+
+    if row:
+        rows.append(row)
+
+    return {"inline_keyboard": rows}
+
+def popular_cities_keyboard(
+    cities: list[City],
+    lang: str = "uk",
+) -> dict[str, Any]:
+    """Кнопки з популярними містами (2 в ряд).
+
+    Args:
+        cities: список City (пріоритетні)
+        lang: мова
+    """
+    rows: list[list[dict[str, str]]] = []
+    row: list[dict[str, str]] = []
+
+    for c in cities:
+        row.append({
+            "text": c.name,
+            "callback_data": f"add_city:{c.slug}",
+        })
+        if len(row) == 2:
+            rows.append(row)
+            row = []
+
+    if row:
+        rows.append(row)
+
+    return {"inline_keyboard": rows}
+
 # ─────────────────────────────────────────────────────────────
 # Внутрішнє
 # ─────────────────────────────────────────────────────────────

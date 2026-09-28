@@ -307,15 +307,26 @@ def _send_my_cities(chat_id: str, ctx: BotContext) -> None:
 
 
 def _send_add_city_prompt(chat_id: str, ctx: BotContext) -> None:
+    """Показує запит + топ-5 популярних міст країни."""
     lang = user_svc.get_language(ctx.client, chat_id)
+    country = user_svc.get_country(ctx.client, chat_id)
     states.set_state(chat_id, states.STATE_WAITING_CITY)
 
-    ctx.notifier.send_message(
-        chat_id,
-        T("add_city_prompt", lang),
-        keyboard=kb.main_menu_keyboard(lang),
-    )
+    # Топ-5 пріоритетних міст країни
+    popular = [c for c in ctx.catalog.cities_of(country) if c.priority][:5]
 
+    if popular:
+        ctx.notifier.send_message(
+            chat_id,
+            T("add_city_prompt", lang),
+            keyboard=kb.popular_cities_keyboard(popular, lang),
+        )
+    else:
+        ctx.notifier.send_message(
+            chat_id,
+            T("add_city_prompt", lang),
+            keyboard=kb.main_menu_keyboard(lang),
+        )
 
 def _send_favorites(chat_id: str, ctx: BotContext) -> None:
     lang = user_svc.get_language(ctx.client, chat_id)

@@ -176,11 +176,16 @@ class WillhabenParser(Parser):
         """Витягує advertSummary з __NEXT_DATA__."""
         soup = BeautifulSoup(html, "html.parser")
         script = soup.find("script", id="__NEXT_DATA__")
-        if not script or not script.string:
+        if script is None:
+            return []
+
+        # mypy: script.string може бути None
+        script_text = getattr(script, "string", None)
+        if not script_text:
             return []
 
         try:
-            data = json.loads(script.string)
+            data = json.loads(script_text)
         except Exception as e:
             log.exception("JSON parse error: %s", e)
             return []
@@ -281,7 +286,8 @@ class WillhabenParser(Parser):
         seo_url = attrs.get("SEO_URL", "")
         if not seo_url:
             return ""
-        return f"{self.source.base_url}/iad/{seo_url}"
+        base_url: str = self.source.base_url
+        return f"{base_url}/iad/{seo_url}"
 
     @staticmethod
     def _extract_photo(item: dict[str, Any]) -> str:
@@ -291,7 +297,8 @@ class WillhabenParser(Parser):
             return ""
         first = images[0]
         if isinstance(first, dict):
-            return first.get("mainImageUrl", "") or first.get("referenceImageUrl", "")
+            url: str = first.get("mainImageUrl", "") or first.get("referenceImageUrl", "")
+            return str(url)
         return ""
 
     @staticmethod

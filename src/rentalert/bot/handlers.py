@@ -328,6 +328,7 @@ def _send_add_city_prompt(chat_id: str, ctx: BotContext) -> None:
             keyboard=kb.main_menu_keyboard(lang),
         )
 
+
 def _send_favorites(chat_id: str, ctx: BotContext) -> None:
     lang = user_svc.get_language(ctx.client, chat_id)
     favs = db.get_favorites(ctx.client, chat_id, limit=20)

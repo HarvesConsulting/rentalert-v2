@@ -346,10 +346,12 @@ def popular_cities_keyboard(
     row: list[dict[str, str]] = []
 
     for c in cities:
-        row.append({
-            "text": c.name,
-            "callback_data": f"add_city:{c.slug}",
-        })
+        row.append(
+            {
+                "text": c.name,
+                "callback_data": f"add_city:{c.slug}",
+            }
+        )
         if len(row) == 2:
             rows.append(row)
             row = []

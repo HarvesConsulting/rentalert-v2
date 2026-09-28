@@ -217,7 +217,7 @@ TEXTS: dict[str, dict[str, str]] = {
             "• 🇷🇴 Romania (OLX.ro)\n"
             "• 🇧🇬 Bulgaria (OLX.bg)\n"
             "• 🇩🇪 Germany (Kleinanzeigen)\n"
-            "• 🇪🇸 Spain (Habitaclia)\n\n"
+            "• 🇪🇸 Spain (Habitaclia)\n"
             "• 🇫🇷 France (Bien'ici)\n"
             "• GB United Kingdom (OpenRent)\n"
             "• 🇦🇹 Austria (Willhaben)\n\n"

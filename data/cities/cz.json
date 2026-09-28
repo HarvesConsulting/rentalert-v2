@@ -4,7 +4,7 @@
     {
       "slug": "abertamy",
       "name": "Abertamy",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439483"
@@ -13,7 +13,7 @@
     {
       "slug": "adamov",
       "name": "Adamov",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442566"
@@ -22,7 +22,7 @@
     {
       "slug": "andelska-hora",
       "name": "Andělská Hora",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439386"
@@ -31,7 +31,7 @@
     {
       "slug": "as",
       "name": "Aš",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439457"
@@ -40,7 +40,7 @@
     {
       "slug": "bakov-nad-jizerou",
       "name": "Bakov nad Jizerou",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437557"
@@ -49,7 +49,7 @@
     {
       "slug": "batelov",
       "name": "Batelov",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440426"
@@ -58,7 +58,7 @@
     {
       "slug": "bavorov",
       "name": "Bavorov",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438811"
@@ -67,7 +67,7 @@
     {
       "slug": "bechyne",
       "name": "Bechyně",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438670"
@@ -76,7 +76,7 @@
     {
       "slug": "benesov",
       "name": "Benešov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440764"
@@ -85,7 +85,7 @@
     {
       "slug": "benesov-nad-ploucnici",
       "name": "Benešov nad Ploučnicí",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439573"
@@ -94,7 +94,7 @@
     {
       "slug": "benatky-nad-jizerou",
       "name": "Benátky nad Jizerou",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436084"
@@ -103,7 +103,7 @@
     {
       "slug": "bernartice",
       "name": "Bernartice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437517"
@@ -112,7 +112,7 @@
     {
       "slug": "beroun",
       "name": "Beroun",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442333"
@@ -121,7 +121,7 @@
     {
       "slug": "besednice",
       "name": "Besednice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438505"
@@ -130,7 +130,7 @@
     {
       "slug": "bezdruzice",
       "name": "Bezdružice",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438870"
@@ -139,7 +139,7 @@
     {
       "slug": "bezno",
       "name": "Bezno",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437538"
@@ -148,7 +148,7 @@
     {
       "slug": "becov-nad-teplou",
       "name": "Bečov nad Teplou",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439489"
@@ -157,7 +157,7 @@
     {
       "slug": "blansko",
       "name": "Blansko",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441780"
@@ -166,7 +166,7 @@
     {
       "slug": "blatna",
       "name": "Blatná",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438799"
@@ -175,7 +175,7 @@
     {
       "slug": "blovice",
       "name": "Blovice",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438161"
@@ -184,7 +184,7 @@
     {
       "slug": "blizkovice",
       "name": "Blížkovice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437047"
@@ -193,7 +193,7 @@
     {
       "slug": "blsany",
       "name": "Blšany",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439362"
@@ -202,7 +202,7 @@
     {
       "slug": "bobrova",
       "name": "Bobrová",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "428062"
@@ -211,7 +211,7 @@
     {
       "slug": "bochov",
       "name": "Bochov",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439490"
@@ -220,7 +220,7 @@
     {
       "slug": "bohdalov",
       "name": "Bohdalov",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441720"
@@ -229,7 +229,7 @@
     {
       "slug": "bohumin",
       "name": "Bohumín",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436990"
@@ -238,7 +238,7 @@
     {
       "slug": "bohusovice-nad-ohri",
       "name": "Bohušovice nad Ohří",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439668"
@@ -247,7 +247,7 @@
     {
       "slug": "bojanov",
       "name": "Bojanov",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439960"
@@ -256,7 +256,7 @@
     {
       "slug": "bojkovice",
       "name": "Bojkovice",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437503"
@@ -265,7 +265,7 @@
     {
       "slug": "boleradice",
       "name": "Boleradice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441592"
@@ -274,7 +274,7 @@
     {
       "slug": "bor",
       "name": "Bor",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438869"
@@ -283,7 +283,7 @@
     {
       "slug": "borohradek",
       "name": "Borohrádek",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439903"
@@ -292,7 +292,7 @@
     {
       "slug": "borotin",
       "name": "Borotín",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436499"
@@ -301,7 +301,7 @@
     {
       "slug": "borovany",
       "name": "Borovany",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437840"
@@ -310,7 +310,7 @@
     {
       "slug": "boskovice",
       "name": "Boskovice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438114"
@@ -319,7 +319,7 @@
     {
       "slug": "bozejov",
       "name": "Božejov",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441091"
@@ -328,7 +328,7 @@
     {
       "slug": "bozi-dar",
       "name": "Boží Dar",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439451"
@@ -337,7 +337,7 @@
     {
       "slug": "brandys-nad-labem-stara-boleslav",
       "name": "Brandýs nad Labem-Stará Boleslav",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436110"
@@ -346,7 +346,7 @@
     {
       "slug": "brandys-nad-orlici",
       "name": "Brandýs nad Orlicí",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441209"
@@ -355,7 +355,7 @@
     {
       "slug": "brankovice",
       "name": "Brankovice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440728"
@@ -373,7 +373,7 @@
     {
       "slug": "brodce",
       "name": "Brodce",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437545"
@@ -382,7 +382,7 @@
     {
       "slug": "brodek-u-prostejova",
       "name": "Brodek u Prostějova",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438637"
@@ -391,7 +391,7 @@
     {
       "slug": "brodek-u-prerova",
       "name": "Brodek u Přerova",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438566"
@@ -400,7 +400,7 @@
     {
       "slug": "broumov",
       "name": "Broumov",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440653"
@@ -409,7 +409,7 @@
     {
       "slug": "brozany-nad-ohri",
       "name": "Brozany nad Ohří",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439674"
@@ -418,7 +418,7 @@
     {
       "slug": "brtnice",
       "name": "Brtnice",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440420"
@@ -427,7 +427,7 @@
     {
       "slug": "brumov-bylnice",
       "name": "Brumov-Bylnice",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "435554"
@@ -436,7 +436,7 @@
     {
       "slug": "bruntal",
       "name": "Bruntál",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436977"
@@ -445,7 +445,7 @@
     {
       "slug": "brusperk",
       "name": "Brušperk",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437869"
@@ -454,7 +454,7 @@
     {
       "slug": "buchlovice",
       "name": "Buchlovice",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437512"
@@ -463,7 +463,7 @@
     {
       "slug": "budisov",
       "name": "Budišov",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442139"
@@ -472,7 +472,7 @@
     {
       "slug": "budisov-nad-budisovkou",
       "name": "Budišov nad Budišovkou",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437588"
@@ -481,7 +481,7 @@
     {
       "slug": "budyne-nad-ohri",
       "name": "Budyně nad Ohří",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439626"
@@ -490,7 +490,7 @@
     {
       "slug": "bucovice",
       "name": "Bučovice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440734"
@@ -499,7 +499,7 @@
     {
       "slug": "bustehrad",
       "name": "Buštěhrad",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440963"
@@ -508,7 +508,7 @@
     {
       "slug": "bystre",
       "name": "Bystré",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436705"
@@ -517,7 +517,7 @@
     {
       "slug": "bystrice",
       "name": "Bystřice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440778"
@@ -526,7 +526,7 @@
     {
       "slug": "bystrice-nad-pernstejnem",
       "name": "Bystřice nad Pernštejnem",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441693"
@@ -535,7 +535,7 @@
     {
       "slug": "bystrice-pod-hostynem",
       "name": "Bystřice pod Hostýnem",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437702"
@@ -544,7 +544,7 @@
     {
       "slug": "bzenec",
       "name": "Bzenec",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441143"
@@ -553,7 +553,7 @@
     {
       "slug": "bilina",
       "name": "Bílina",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439352"
@@ -562,7 +562,7 @@
     {
       "slug": "bilovec",
       "name": "Bílovec",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436987"
@@ -571,7 +571,7 @@
     {
       "slug": "bile-podoli",
       "name": "Bílé Podolí",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441803"
@@ -580,7 +580,7 @@
     {
       "slug": "beharovice",
       "name": "Běhařovice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437210"
@@ -589,7 +589,7 @@
     {
       "slug": "bela-nad-radbuzou",
       "name": "Bělá nad Radbuzou",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439263"
@@ -598,7 +598,7 @@
     {
       "slug": "bela-pod-bezdezem",
       "name": "Bělá pod Bezdězem",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437528"
@@ -607,7 +607,7 @@
     {
       "slug": "belcice",
       "name": "Bělčice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438813"
@@ -616,7 +616,7 @@
     {
       "slug": "breclav",
       "name": "Břeclav",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441590"
@@ -625,7 +625,7 @@
     {
       "slug": "breznice",
       "name": "Březnice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442481"
@@ -634,7 +634,7 @@
     {
       "slug": "brezno",
       "name": "Březno",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437578"
@@ -643,7 +643,7 @@
     {
       "slug": "brezova",
       "name": "Březová",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439499"
@@ -652,7 +652,7 @@
     {
       "slug": "brezova-nad-svitavou",
       "name": "Březová nad Svitavou",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440290"
@@ -661,7 +661,7 @@
     {
       "slug": "bridlicna",
       "name": "Břidličná",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439389"
@@ -670,7 +670,7 @@
     {
       "slug": "cerhenice",
       "name": "Cerhenice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441309"
@@ -679,7 +679,7 @@
     {
       "slug": "cerhovice",
       "name": "Cerhovice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442331"
@@ -688,7 +688,7 @@
     {
       "slug": "chabarovice",
       "name": "Chabařovice",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440171"
@@ -697,7 +697,7 @@
     {
       "slug": "cheb",
       "name": "Cheb",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439454"
@@ -706,7 +706,7 @@
     {
       "slug": "chlum-u-trebone",
       "name": "Chlum u Třeboně",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437414"
@@ -715,7 +715,7 @@
     {
       "slug": "chlumec",
       "name": "Chlumec",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440268"
@@ -724,7 +724,7 @@
     {
       "slug": "chlumec-nad-cidlinou",
       "name": "Chlumec nad Cidlinou",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439247"
@@ -733,7 +733,7 @@
     {
       "slug": "chocen",
       "name": "Choceň",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440350"
@@ -742,7 +742,7 @@
     {
       "slug": "chodov",
       "name": "Chodov",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439557"
@@ -751,7 +751,7 @@
     {
       "slug": "chodova-plana",
       "name": "Chodová Planá",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438861"
@@ -760,7 +760,7 @@
     {
       "slug": "choltice",
       "name": "Choltice",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440342"
@@ -769,7 +769,7 @@
     {
       "slug": "chomutov",
       "name": "Chomutov",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436939"
@@ -778,7 +778,7 @@
     {
       "slug": "chotebor",
       "name": "Chotěboř",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440712"
@@ -787,7 +787,7 @@
     {
       "slug": "chotetov",
       "name": "Chotětov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437561"
@@ -796,7 +796,7 @@
     {
       "slug": "chrast",
       "name": "Chrast",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439988"
@@ -805,7 +805,7 @@
     {
       "slug": "chrastava",
       "name": "Chrastava",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436608"
@@ -814,7 +814,7 @@
     {
       "slug": "chropyne",
       "name": "Chropyně",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437408"
@@ -823,7 +823,7 @@
     {
       "slug": "chroustovice",
       "name": "Chroustovice",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439994"
@@ -832,7 +832,7 @@
     {
       "slug": "chrudim",
       "name": "Chrudim",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439959"
@@ -841,7 +841,7 @@
     {
       "slug": "chudenice",
       "name": "Chudenice",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439252"
@@ -850,7 +850,7 @@
     {
       "slug": "chvaletice",
       "name": "Chvaletice",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440323"
@@ -859,7 +859,7 @@
     {
       "slug": "chyse",
       "name": "Chyše",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439474"
@@ -868,7 +868,7 @@
     {
       "slug": "chynov",
       "name": "Chýnov",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438754"
@@ -877,7 +877,7 @@
     {
       "slug": "chribska",
       "name": "Chřibská",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439552"
@@ -886,7 +886,7 @@
     {
       "slug": "cvikov",
       "name": "Cvikov",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440203"
@@ -895,7 +895,7 @@
     {
       "slug": "citoliby",
       "name": "Cítoliby",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439273"
@@ -904,7 +904,7 @@
     {
       "slug": "dalesice",
       "name": "Dalešice",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442603"
@@ -913,7 +913,7 @@
     {
       "slug": "davle",
       "name": "Davle",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442240"
@@ -922,7 +922,7 @@
     {
       "slug": "dacice",
       "name": "Dačice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437440"
@@ -931,7 +931,7 @@
     {
       "slug": "dasice",
       "name": "Dašice",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440121"
@@ -940,7 +940,7 @@
     {
       "slug": "deblin",
       "name": "Deblín",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442026"
@@ -949,7 +949,7 @@
     {
       "slug": "desna",
       "name": "Desná",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436602"
@@ -958,7 +958,7 @@
     {
       "slug": "desenice",
       "name": "Dešenice",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439235"
@@ -967,7 +967,7 @@
     {
       "slug": "destna",
       "name": "Deštná",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437429"
@@ -976,7 +976,7 @@
     {
       "slug": "divisov",
       "name": "Divišov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440740"
@@ -985,7 +985,7 @@
     {
       "slug": "dobrovice",
       "name": "Dobrovice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437701"
@@ -994,7 +994,7 @@
     {
       "slug": "dobruska",
       "name": "Dobruška",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440632"
@@ -1003,7 +1003,7 @@
     {
       "slug": "dobrany",
       "name": "Dobřany",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438168"
@@ -1012,7 +1012,7 @@
     {
       "slug": "dobrichovice",
       "name": "Dobřichovice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442229"
@@ -1021,7 +1021,7 @@
     {
       "slug": "dobris",
       "name": "Dobříš",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441424"
@@ -1030,7 +1030,7 @@
     {
       "slug": "doksy",
       "name": "Doksy",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436584"
@@ -1039,7 +1039,7 @@
     {
       "slug": "dolni-benesov",
       "name": "Dolní Benešov",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437589"
@@ -1048,7 +1048,7 @@
     {
       "slug": "dolni-bousov",
       "name": "Dolní Bousov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437576"
@@ -1057,7 +1057,7 @@
     {
       "slug": "dolni-bukovsko",
       "name": "Dolní Bukovsko",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437822"
@@ -1066,7 +1066,7 @@
     {
       "slug": "dolni-cerekev",
       "name": "Dolní Cerekev",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440413"
@@ -1075,7 +1075,7 @@
     {
       "slug": "dolni-kounice",
       "name": "Dolní Kounice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442025"
@@ -1084,7 +1084,7 @@
     {
       "slug": "dolni-poustevna",
       "name": "Dolní Poustevna",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439584"
@@ -1093,7 +1093,7 @@
     {
       "slug": "dolni-cermna",
       "name": "Dolní Čermná",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440353"
@@ -1102,7 +1102,7 @@
     {
       "slug": "domazlice",
       "name": "Domažlice",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438629"
@@ -1111,7 +1111,7 @@
     {
       "slug": "doubravice-nad-svitavou",
       "name": "Doubravice nad Svitavou",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438100"
@@ -1120,7 +1120,7 @@
     {
       "slug": "doubravnik",
       "name": "Doubravník",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441701"
@@ -1129,7 +1129,7 @@
     {
       "slug": "doudleby-nad-orlici",
       "name": "Doudleby nad Orlicí",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440612"
@@ -1138,7 +1138,7 @@
     {
       "slug": "drahany",
       "name": "Drahany",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438592"
@@ -1147,7 +1147,7 @@
     {
       "slug": "drnholec",
       "name": "Drnholec",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441574"
@@ -1156,7 +1156,7 @@
     {
       "slug": "drasov",
       "name": "Drásov",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442488"
@@ -1165,7 +1165,7 @@
     {
       "slug": "dub",
       "name": "Dub",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436480"
@@ -1174,7 +1174,7 @@
     {
       "slug": "dub-nad-moravou",
       "name": "Dub nad Moravou",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438687"
@@ -1183,7 +1183,7 @@
     {
       "slug": "duba",
       "name": "Dubá",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440204"
@@ -1192,7 +1192,7 @@
     {
       "slug": "dubi",
       "name": "Dubí",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439348"
@@ -1201,7 +1201,7 @@
     {
       "slug": "dubnany",
       "name": "Dubňany",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441148"
@@ -1210,7 +1210,7 @@
     {
       "slug": "duchcov",
       "name": "Duchcov",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439349"
@@ -1219,7 +1219,7 @@
     {
       "slug": "dvur-kralove-nad-labem",
       "name": "Dvůr Králové nad Labem",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440162"
@@ -1228,7 +1228,7 @@
     {
       "slug": "decin",
       "name": "Děčín",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439579"
@@ -1237,7 +1237,7 @@
     {
       "slug": "drevohostice",
       "name": "Dřevohostice",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438585"
@@ -1246,7 +1246,7 @@
     {
       "slug": "frantiskovy-lazne",
       "name": "Františkovy Lázně",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439479"
@@ -1255,7 +1255,7 @@
     {
       "slug": "frenstat-pod-radhostem",
       "name": "Frenštát pod Radhoštěm",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437537"
@@ -1264,7 +1264,7 @@
     {
       "slug": "frymburk",
       "name": "Frymburk",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438516"
@@ -1273,7 +1273,7 @@
     {
       "slug": "frystak",
       "name": "Fryšták",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440759"
@@ -1282,7 +1282,7 @@
     {
       "slug": "frydek-mistek",
       "name": "Frýdek-Místek",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436980"
@@ -1291,7 +1291,7 @@
     {
       "slug": "frydlant",
       "name": "Frýdlant",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439060"
@@ -1300,7 +1300,7 @@
     {
       "slug": "frydlant-nad-ostravici",
       "name": "Frýdlant nad Ostravicí",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437876"
@@ -1309,7 +1309,7 @@
     {
       "slug": "fulnek",
       "name": "Fulnek",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437569"
@@ -1318,7 +1318,7 @@
     {
       "slug": "golcuv-jenikov",
       "name": "Golčův Jeníkov",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440525"
@@ -1327,7 +1327,7 @@
     {
       "slug": "habartov",
       "name": "Habartov",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439501"
@@ -1336,7 +1336,7 @@
     {
       "slug": "habry",
       "name": "Habry",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440714"
@@ -1345,7 +1345,7 @@
     {
       "slug": "hanusovice",
       "name": "Hanušovice",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438323"
@@ -1354,7 +1354,7 @@
     {
       "slug": "harrachov",
       "name": "Harrachov",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439012"
@@ -1363,7 +1363,7 @@
     {
       "slug": "hartmanice",
       "name": "Hartmanice",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436199"
@@ -1372,7 +1372,7 @@
     {
       "slug": "havlickova-borova",
       "name": "Havlíčkova Borová",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440715"
@@ -1381,7 +1381,7 @@
     {
       "slug": "havlickuv-brod",
       "name": "Havlíčkův Brod",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440699"
@@ -1390,7 +1390,7 @@
     {
       "slug": "havirov",
       "name": "Havířov",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436995"
@@ -1399,7 +1399,7 @@
     {
       "slug": "hejnice",
       "name": "Hejnice",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439065"
@@ -1408,7 +1408,7 @@
     {
       "slug": "heraltice",
       "name": "Heraltice",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442124"
@@ -1417,7 +1417,7 @@
     {
       "slug": "hermanuv-mestec",
       "name": "Heřmanův Městec",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439953"
@@ -1426,7 +1426,7 @@
     {
       "slug": "hlinsko",
       "name": "Hlinsko",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439995"
@@ -1435,7 +1435,7 @@
     {
       "slug": "hluboka-nad-vltavou",
       "name": "Hluboká nad Vltavou",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437812"
@@ -1444,7 +1444,7 @@
     {
       "slug": "hluk",
       "name": "Hluk",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437522"
@@ -1453,7 +1453,7 @@
     {
       "slug": "hlucin",
       "name": "Hlučín",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437592"
@@ -1462,7 +1462,7 @@
     {
       "slug": "hodkovice-nad-mohelkou",
       "name": "Hodkovice nad Mohelkou",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438995"
@@ -1471,7 +1471,7 @@
     {
       "slug": "hodonin",
       "name": "Hodonín",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442526"
@@ -1480,7 +1480,7 @@
     {
       "slug": "holany",
       "name": "Holany",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440179"
@@ -1489,7 +1489,7 @@
     {
       "slug": "holesov",
       "name": "Holešov",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437409"
@@ -1498,7 +1498,7 @@
     {
       "slug": "holice",
       "name": "Holice",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436725"
@@ -1507,7 +1507,7 @@
     {
       "slug": "holysov",
       "name": "Holýšov",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439251"
@@ -1516,7 +1516,7 @@
     {
       "slug": "hora-svate-kateriny",
       "name": "Hora Svaté Kateřiny",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439320"
@@ -1525,7 +1525,7 @@
     {
       "slug": "horazdovice",
       "name": "Horažďovice",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439218"
@@ -1534,7 +1534,7 @@
     {
       "slug": "horni-benesov",
       "name": "Horní Benešov",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439373"
@@ -1543,7 +1543,7 @@
     {
       "slug": "horni-blatna",
       "name": "Horní Blatná",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439487"
@@ -1552,7 +1552,7 @@
     {
       "slug": "horni-briza",
       "name": "Horní Bříza",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439738"
@@ -1561,7 +1561,7 @@
     {
       "slug": "horni-cerekev",
       "name": "Horní Cerekev",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441079"
@@ -1570,7 +1570,7 @@
     {
       "slug": "horni-jeleni",
       "name": "Horní Jelení",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440332"
@@ -1579,7 +1579,7 @@
     {
       "slug": "horni-jiretin",
       "name": "Horní Jiřetín",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439321"
@@ -1588,7 +1588,7 @@
     {
       "slug": "horni-plana",
       "name": "Horní Planá",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438528"
@@ -1597,7 +1597,7 @@
     {
       "slug": "horni-slavkov",
       "name": "Horní Slavkov",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439502"
@@ -1606,7 +1606,7 @@
     {
       "slug": "horsovsky-tyn",
       "name": "Horšovský Týn",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439172"
@@ -1615,7 +1615,7 @@
     {
       "slug": "hostinne",
       "name": "Hostinné",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440238"
@@ -1624,7 +1624,7 @@
     {
       "slug": "hostivice",
       "name": "Hostivice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442224"
@@ -1633,7 +1633,7 @@
     {
       "slug": "hostomice",
       "name": "Hostomice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436153"
@@ -1642,7 +1642,7 @@
     {
       "slug": "hostomice-2",
       "name": "Hostomice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436573"
@@ -1651,7 +1651,7 @@
     {
       "slug": "hostoun",
       "name": "Hostouň",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436194"
@@ -1660,7 +1660,7 @@
     {
       "slug": "horice",
       "name": "Hořice",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440006"
@@ -1669,7 +1669,7 @@
     {
       "slug": "horice-na-sumave",
       "name": "Hořice na Šumavě",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438532"
@@ -1678,7 +1678,7 @@
     {
       "slug": "horovice",
       "name": "Hořovice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442329"
@@ -1687,7 +1687,7 @@
     {
       "slug": "hostka",
       "name": "Hoštka",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439631"
@@ -1705,7 +1705,7 @@
     {
       "slug": "hradec-nad-moravici",
       "name": "Hradec nad Moravicí",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437637"
@@ -1714,7 +1714,7 @@
     {
       "slug": "hranice",
       "name": "Hranice",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438577"
@@ -1723,7 +1723,7 @@
     {
       "slug": "hranice-2",
       "name": "Hranice",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439466"
@@ -1732,7 +1732,7 @@
     {
       "slug": "hrob",
       "name": "Hrob",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439331"
@@ -1741,7 +1741,7 @@
     {
       "slug": "hrochuv-tynec",
       "name": "Hrochův Týnec",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439946"
@@ -1750,7 +1750,7 @@
     {
       "slug": "hronov",
       "name": "Hronov",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440683"
@@ -1759,7 +1759,7 @@
     {
       "slug": "hrotovice",
       "name": "Hrotovice",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442153"
@@ -1768,7 +1768,7 @@
     {
       "slug": "hroznetin",
       "name": "Hroznětín",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439468"
@@ -1777,7 +1777,7 @@
     {
       "slug": "hrusovany-nad-jevisovkou",
       "name": "Hrušovany nad Jevišovkou",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437242"
@@ -1786,7 +1786,7 @@
     {
       "slug": "hradek",
       "name": "Hrádek",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439827"
@@ -1795,7 +1795,7 @@
     {
       "slug": "hradek-nad-nisou",
       "name": "Hrádek nad Nisou",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438990"
@@ -1804,7 +1804,7 @@
     {
       "slug": "hulin",
       "name": "Hulín",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437391"
@@ -1813,7 +1813,7 @@
     {
       "slug": "humpolec",
       "name": "Humpolec",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441024"
@@ -1822,7 +1822,7 @@
     {
       "slug": "husinec",
       "name": "Husinec",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437227"
@@ -1831,7 +1831,7 @@
     {
       "slug": "hustopece",
       "name": "Hustopeče",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436876"
@@ -1840,7 +1840,7 @@
     {
       "slug": "hustopece-nad-becvou",
       "name": "Hustopeče nad Bečvou",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438333"
@@ -1849,7 +1849,7 @@
     {
       "slug": "hvezdlice",
       "name": "Hvězdlice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436878"
@@ -1858,7 +1858,7 @@
     {
       "slug": "ivanovice-na-hane",
       "name": "Ivanovice na Hané",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441912"
@@ -1867,7 +1867,7 @@
     {
       "slug": "ivancice",
       "name": "Ivančice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442061"
@@ -1876,7 +1876,7 @@
     {
       "slug": "jablonec-nad-jizerou",
       "name": "Jablonec nad Jizerou",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439142"
@@ -1885,7 +1885,7 @@
     {
       "slug": "jablonec-nad-nisou",
       "name": "Jablonec nad Nisou",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438931"
@@ -1894,7 +1894,7 @@
     {
       "slug": "jablonne-nad-orlici",
       "name": "Jablonné nad Orlicí",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440367"
@@ -1903,7 +1903,7 @@
     {
       "slug": "jablonne-v-podjestedi",
       "name": "Jablonné v Podještědí",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439066"
@@ -1912,7 +1912,7 @@
     {
       "slug": "jablunkov",
       "name": "Jablunkov",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437885"
@@ -1921,7 +1921,7 @@
     {
       "slug": "janov",
       "name": "Janov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439378"
@@ -1930,7 +1930,7 @@
     {
       "slug": "janovice-nad-uhlavou",
       "name": "Janovice nad Úhlavou",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439224"
@@ -1939,7 +1939,7 @@
     {
       "slug": "janske-lazne",
       "name": "Janské Lázně",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440242"
@@ -1948,7 +1948,7 @@
     {
       "slug": "jaromer",
       "name": "Jaroměř",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440640"
@@ -1957,7 +1957,7 @@
     {
       "slug": "jaromerice-nad-rokytnou",
       "name": "Jaroměřice nad Rokytnou",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442172"
@@ -1966,7 +1966,7 @@
     {
       "slug": "javornik",
       "name": "Javorník",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437059"
@@ -1975,7 +1975,7 @@
     {
       "slug": "jedovnice",
       "name": "Jedovnice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441784"
@@ -1984,7 +1984,7 @@
     {
       "slug": "jemnice",
       "name": "Jemnice",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442167"
@@ -1993,7 +1993,7 @@
     {
       "slug": "jesenice",
       "name": "Jesenice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436644"
@@ -2002,7 +2002,7 @@
     {
       "slug": "jesenice-2",
       "name": "Jesenice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436684"
@@ -2011,7 +2011,7 @@
     {
       "slug": "jesenik",
       "name": "Jeseník",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438766"
@@ -2020,7 +2020,7 @@
     {
       "slug": "jevisovice",
       "name": "Jevišovice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437234"
@@ -2029,7 +2029,7 @@
     {
       "slug": "jevicko",
       "name": "Jevíčko",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436647"
@@ -2038,7 +2038,7 @@
     {
       "slug": "jihlava",
       "name": "Jihlava",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440427"
@@ -2047,7 +2047,7 @@
     {
       "slug": "jilemnice",
       "name": "Jilemnice",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439145"
@@ -2056,7 +2056,7 @@
     {
       "slug": "jimramov",
       "name": "Jimramov",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441717"
@@ -2065,7 +2065,7 @@
     {
       "slug": "jince",
       "name": "Jince",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441426"
@@ -2074,7 +2074,7 @@
     {
       "slug": "jindrichuv-hradec",
       "name": "Jindřichův Hradec",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438489"
@@ -2083,7 +2083,7 @@
     {
       "slug": "jirkov",
       "name": "Jirkov",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439594"
@@ -2092,7 +2092,7 @@
     {
       "slug": "jistebnice",
       "name": "Jistebnice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438752"
@@ -2101,7 +2101,7 @@
     {
       "slug": "jicin",
       "name": "Jičín",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439917"
@@ -2110,7 +2110,7 @@
     {
       "slug": "jirikov",
       "name": "Jiříkov",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439563"
@@ -2119,7 +2119,7 @@
     {
       "slug": "jachymov",
       "name": "Jáchymov",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439473"
@@ -2128,7 +2128,7 @@
     {
       "slug": "jilove",
       "name": "Jílové",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436953"
@@ -2137,7 +2137,7 @@
     {
       "slug": "jilove-u-prahy",
       "name": "Jílové u Prahy",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442259"
@@ -2146,7 +2146,7 @@
     {
       "slug": "kadan",
       "name": "Kadaň",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439593"
@@ -2155,7 +2155,7 @@
     {
       "slug": "kamenice",
       "name": "Kamenice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436756"
@@ -2164,7 +2164,7 @@
     {
       "slug": "kamenice-nad-lipou",
       "name": "Kamenice nad Lipou",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441027"
@@ -2173,7 +2173,7 @@
     {
       "slug": "kamenicky-senov",
       "name": "Kamenický Šenov",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440182"
@@ -2182,7 +2182,7 @@
     {
       "slug": "kaplice",
       "name": "Kaplice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438536"
@@ -2191,7 +2191,7 @@
     {
       "slug": "kardasova-recice",
       "name": "Kardašova Řečice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438416"
@@ -2200,7 +2200,7 @@
     {
       "slug": "karlovy-vary",
       "name": "Karlovy Vary",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439482"
@@ -2209,7 +2209,7 @@
     {
       "slug": "karlstejn",
       "name": "Karlštejn",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436155"
@@ -2218,7 +2218,7 @@
     {
       "slug": "karolinka",
       "name": "Karolinka",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437084"
@@ -2227,7 +2227,7 @@
     {
       "slug": "karvina",
       "name": "Karviná",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436994"
@@ -2236,7 +2236,7 @@
     {
       "slug": "kasejovice",
       "name": "Kasejovice",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438155"
@@ -2245,7 +2245,7 @@
     {
       "slug": "katovice",
       "name": "Katovice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438008"
@@ -2254,7 +2254,7 @@
     {
       "slug": "kaznejov",
       "name": "Kaznějov",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439713"
@@ -2263,7 +2263,7 @@
     {
       "slug": "kasperske-hory",
       "name": "Kašperské Hory",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438195"
@@ -2272,7 +2272,7 @@
     {
       "slug": "kdyne",
       "name": "Kdyně",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439157"
@@ -2281,7 +2281,7 @@
     {
       "slug": "kelc",
       "name": "Kelč",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437033"
@@ -2290,7 +2290,7 @@
     {
       "slug": "kladno",
       "name": "Kladno",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440979"
@@ -2299,7 +2299,7 @@
     {
       "slug": "kladruby",
       "name": "Kladruby",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438867"
@@ -2308,7 +2308,7 @@
     {
       "slug": "klatovy",
       "name": "Klatovy",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438363"
@@ -2317,7 +2317,7 @@
     {
       "slug": "klecany",
       "name": "Klecany",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437165"
@@ -2326,7 +2326,7 @@
     {
       "slug": "klenci-pod-cerchovem",
       "name": "Klenčí pod Čerchovem",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439159"
@@ -2335,7 +2335,7 @@
     {
       "slug": "klimkovice",
       "name": "Klimkovice",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437339"
@@ -2344,7 +2344,7 @@
     {
       "slug": "klobouky-u-brna",
       "name": "Klobouky u Brna",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441334"
@@ -2353,7 +2353,7 @@
     {
       "slug": "klasterec-nad-ohri",
       "name": "Klášterec nad Ohří",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439615"
@@ -2362,7 +2362,7 @@
     {
       "slug": "kninice",
       "name": "Knínice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441776"
@@ -2371,7 +2371,7 @@
     {
       "slug": "knezeves",
       "name": "Kněževes",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442498"
@@ -2380,7 +2380,7 @@
     {
       "slug": "kojetin",
       "name": "Kojetín",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438345"
@@ -2389,7 +2389,7 @@
     {
       "slug": "kolinec",
       "name": "Kolinec",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438197"
@@ -2398,7 +2398,7 @@
     {
       "slug": "kolovec",
       "name": "Koloveč",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439168"
@@ -2407,7 +2407,7 @@
     {
       "slug": "kolin",
       "name": "Kolín",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441253"
@@ -2416,7 +2416,7 @@
     {
       "slug": "komarov",
       "name": "Komárov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442270"
@@ -2425,7 +2425,7 @@
     {
       "slug": "konice",
       "name": "Konice",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438468"
@@ -2434,7 +2434,7 @@
     {
       "slug": "kopidlno",
       "name": "Kopidlno",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440052"
@@ -2443,7 +2443,7 @@
     {
       "slug": "koprivnice",
       "name": "Kopřivnice",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437575"
@@ -2452,7 +2452,7 @@
     {
       "slug": "korycany",
       "name": "Koryčany",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437315"
@@ -2461,7 +2461,7 @@
     {
       "slug": "kosmonosy",
       "name": "Kosmonosy",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441952"
@@ -2470,7 +2470,7 @@
     {
       "slug": "kostelec-na-hane",
       "name": "Kostelec na Hané",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438449"
@@ -2479,7 +2479,7 @@
     {
       "slug": "kostelec-nad-labem",
       "name": "Kostelec nad Labem",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442349"
@@ -2488,7 +2488,7 @@
     {
       "slug": "kostelec-nad-orlici",
       "name": "Kostelec nad Orlicí",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440630"
@@ -2497,7 +2497,7 @@
     {
       "slug": "kostelec-nad-cernymi-lesy",
       "name": "Kostelec nad Černými lesy",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437123"
@@ -2506,7 +2506,7 @@
     {
       "slug": "kounice",
       "name": "Kounice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441566"
@@ -2515,7 +2515,7 @@
     {
       "slug": "kourim",
       "name": "Kouřim",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441312"
@@ -2524,7 +2524,7 @@
     {
       "slug": "kovarska",
       "name": "Kovářská",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439590"
@@ -2533,7 +2533,7 @@
     {
       "slug": "kostany",
       "name": "Košťany",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439356"
@@ -2542,7 +2542,7 @@
     {
       "slug": "kozlany",
       "name": "Kožlany",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439734"
@@ -2551,7 +2551,7 @@
     {
       "slug": "kralice-na-hane",
       "name": "Kralice na Hané",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438458"
@@ -2560,7 +2560,7 @@
     {
       "slug": "kralovice",
       "name": "Kralovice",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439733"
@@ -2569,7 +2569,7 @@
     {
       "slug": "kralupy-nad-vltavou",
       "name": "Kralupy nad Vltavou",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437612"
@@ -2578,7 +2578,7 @@
     {
       "slug": "kraslice",
       "name": "Kraslice",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439547"
@@ -2587,7 +2587,7 @@
     {
       "slug": "kravare",
       "name": "Kravaře",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437005"
@@ -2596,7 +2596,7 @@
     {
       "slug": "krnov",
       "name": "Krnov",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439377"
@@ -2605,7 +2605,7 @@
     {
       "slug": "kromeriz",
       "name": "Kroměříž",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437751"
@@ -2614,7 +2614,7 @@
     {
       "slug": "krucemburk",
       "name": "Krucemburk",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440668"
@@ -2623,7 +2623,7 @@
     {
       "slug": "krupka",
       "name": "Krupka",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439332"
@@ -2632,7 +2632,7 @@
     {
       "slug": "kryry",
       "name": "Kryry",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439295"
@@ -2641,7 +2641,7 @@
     {
       "slug": "kraliky",
       "name": "Králíky",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440386"
@@ -2650,7 +2650,7 @@
     {
       "slug": "kraluv-dvur",
       "name": "Králův Dvůr",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441863"
@@ -2659,7 +2659,7 @@
     {
       "slug": "krasno",
       "name": "Krásno",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436961"
@@ -2668,7 +2668,7 @@
     {
       "slug": "krasna-hora-nad-vltavou",
       "name": "Krásná Hora nad Vltavou",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441430"
@@ -2677,7 +2677,7 @@
     {
       "slug": "krasna-lipa",
       "name": "Krásná Lípa",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439562"
@@ -2686,7 +2686,7 @@
     {
       "slug": "krasne-udoli",
       "name": "Krásné Údolí",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439484"
@@ -2695,7 +2695,7 @@
     {
       "slug": "kunovice",
       "name": "Kunovice",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437383"
@@ -2704,7 +2704,7 @@
     {
       "slug": "kunvald",
       "name": "Kunvald",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440373"
@@ -2713,7 +2713,7 @@
     {
       "slug": "kunstat",
       "name": "Kunštát",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436850"
@@ -2722,7 +2722,7 @@
     {
       "slug": "kutna-hora",
       "name": "Kutná Hora",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441804"
@@ -2731,7 +2731,7 @@
     {
       "slug": "kurim",
       "name": "Kuřim",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442051"
@@ -2740,7 +2740,7 @@
     {
       "slug": "kyjov",
       "name": "Kyjov",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442517"
@@ -2749,7 +2749,7 @@
     {
       "slug": "kynsperk-nad-ohri",
       "name": "Kynšperk nad Ohří",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439548"
@@ -2758,7 +2758,7 @@
     {
       "slug": "kacov",
       "name": "Kácov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441809"
@@ -2767,7 +2767,7 @@
     {
       "slug": "kremze",
       "name": "Křemže",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438538"
@@ -2776,7 +2776,7 @@
     {
       "slug": "krinec",
       "name": "Křinec",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441525"
@@ -2785,7 +2785,7 @@
     {
       "slug": "krivoklat",
       "name": "Křivoklát",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442390"
@@ -2794,7 +2794,7 @@
     {
       "slug": "krivsoudov",
       "name": "Křivsoudov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441503"
@@ -2803,7 +2803,7 @@
     {
       "slug": "krizanov",
       "name": "Křižanov",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442597"
@@ -2812,7 +2812,7 @@
     {
       "slug": "krtiny",
       "name": "Křtiny",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441764"
@@ -2821,7 +2821,7 @@
     {
       "slug": "lanskroun",
       "name": "Lanškroun",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440376"
@@ -2830,7 +2830,7 @@
     {
       "slug": "lanzhot",
       "name": "Lanžhot",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442285"
@@ -2839,7 +2839,7 @@
     {
       "slug": "ledenice",
       "name": "Ledenice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437825"
@@ -2848,7 +2848,7 @@
     {
       "slug": "ledec-nad-sazavou",
       "name": "Ledeč nad Sázavou",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440675"
@@ -2857,7 +2857,7 @@
     {
       "slug": "ledvice",
       "name": "Ledvice",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439338"
@@ -2866,7 +2866,7 @@
     {
       "slug": "letohrad",
       "name": "Letohrad",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440375"
@@ -2875,7 +2875,7 @@
     {
       "slug": "letovice",
       "name": "Letovice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441762"
@@ -2884,7 +2884,7 @@
     {
       "slug": "levin",
       "name": "Levín",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436554"
@@ -2893,7 +2893,7 @@
     {
       "slug": "lhenice",
       "name": "Lhenice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438084"
@@ -2911,7 +2911,7 @@
     {
       "slug": "libice-nad-doubravou",
       "name": "Libice nad Doubravou",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440678"
@@ -2920,7 +2920,7 @@
     {
       "slug": "liblin",
       "name": "Liblín",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439826"
@@ -2929,7 +2929,7 @@
     {
       "slug": "libochovice",
       "name": "Libochovice",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439293"
@@ -2938,7 +2938,7 @@
     {
       "slug": "libusin",
       "name": "Libušín",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440994"
@@ -2947,7 +2947,7 @@
     {
       "slug": "liban",
       "name": "Libáň",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440004"
@@ -2956,7 +2956,7 @@
     {
       "slug": "libcice-nad-vltavou",
       "name": "Libčice nad Vltavou",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442248"
@@ -2965,7 +2965,7 @@
     {
       "slug": "libechov",
       "name": "Liběchov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437607"
@@ -2974,7 +2974,7 @@
     {
       "slug": "libstat",
       "name": "Libštát",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439143"
@@ -2983,7 +2983,7 @@
     {
       "slug": "lipnik-nad-becvou",
       "name": "Lipník nad Bečvou",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438348"
@@ -2992,7 +2992,7 @@
     {
       "slug": "litencice",
       "name": "Litenčice",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437319"
@@ -3001,7 +3001,7 @@
     {
       "slug": "liten",
       "name": "Liteň",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442328"
@@ -3010,7 +3010,7 @@
     {
       "slug": "litomysl",
       "name": "Litomyšl",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441896"
@@ -3019,7 +3019,7 @@
     {
       "slug": "litomerice",
       "name": "Litoměřice",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439670"
@@ -3028,7 +3028,7 @@
     {
       "slug": "litovel",
       "name": "Litovel",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438809"
@@ -3037,7 +3037,7 @@
     {
       "slug": "litultovice",
       "name": "Litultovice",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437644"
@@ -3046,7 +3046,7 @@
     {
       "slug": "litvinov",
       "name": "Litvínov",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436574"
@@ -3055,7 +3055,7 @@
     {
       "slug": "lisov",
       "name": "Lišov",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437681"
@@ -3064,7 +3064,7 @@
     {
       "slug": "loket",
       "name": "Loket",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439550"
@@ -3073,7 +3073,7 @@
     {
       "slug": "lom",
       "name": "Lom",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440208"
@@ -3082,7 +3082,7 @@
     {
       "slug": "lomnice",
       "name": "Lomnice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436855"
@@ -3091,7 +3091,7 @@
     {
       "slug": "lomnice-nad-luznici",
       "name": "Lomnice nad Lužnicí",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438424"
@@ -3100,7 +3100,7 @@
     {
       "slug": "lomnice-nad-popelkou",
       "name": "Lomnice nad Popelkou",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439144"
@@ -3109,7 +3109,7 @@
     {
       "slug": "louny",
       "name": "Louny",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439344"
@@ -3118,7 +3118,7 @@
     {
       "slug": "loucen",
       "name": "Loučeň",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441536"
@@ -3127,7 +3127,7 @@
     {
       "slug": "loucna-pod-klinovcem",
       "name": "Loučná pod Klínovcem",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439614"
@@ -3136,7 +3136,7 @@
     {
       "slug": "lounovice-pod-blanikem",
       "name": "Louňovice pod Blaníkem",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441464"
@@ -3145,7 +3145,7 @@
     {
       "slug": "lovosice",
       "name": "Lovosice",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439311"
@@ -3154,7 +3154,7 @@
     {
       "slug": "lostice",
       "name": "Loštice",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438351"
@@ -3163,7 +3163,7 @@
     {
       "slug": "luby",
       "name": "Luby",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439459"
@@ -3172,7 +3172,7 @@
     {
       "slug": "luhacovice",
       "name": "Luhačovice",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440860"
@@ -3181,7 +3181,7 @@
     {
       "slug": "luka-nad-jihlavou",
       "name": "Luka nad Jihlavou",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440594"
@@ -3190,7 +3190,7 @@
     {
       "slug": "lukavec",
       "name": "Lukavec",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "436918"
@@ -3199,7 +3199,7 @@
     {
       "slug": "lukov",
       "name": "Lukov",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438726"
@@ -3208,7 +3208,7 @@
     {
       "slug": "lucany-nad-nisou",
       "name": "Lučany nad Nisou",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438921"
@@ -3217,7 +3217,7 @@
     {
       "slug": "luze",
       "name": "Luže",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440033"
@@ -3226,7 +3226,7 @@
     {
       "slug": "lysice",
       "name": "Lysice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441752"
@@ -3235,7 +3235,7 @@
     {
       "slug": "lysa-nad-labem",
       "name": "Lysá nad Labem",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441528"
@@ -3244,7 +3244,7 @@
     {
       "slug": "lazne-bohdanec",
       "name": "Lázně Bohdaneč",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440111"
@@ -3253,7 +3253,7 @@
     {
       "slug": "lazne-belohrad",
       "name": "Lázně Bělohrad",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440011"
@@ -3262,7 +3262,7 @@
     {
       "slug": "lazne-kynzvart",
       "name": "Lázně Kynžvart",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439462"
@@ -3271,7 +3271,7 @@
     {
       "slug": "lazne-tousen",
       "name": "Lázně Toušeň",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437868"
@@ -3280,7 +3280,7 @@
     {
       "slug": "machov",
       "name": "Machov",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440651"
@@ -3289,7 +3289,7 @@
     {
       "slug": "malesov",
       "name": "Malešov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441820"
@@ -3298,7 +3298,7 @@
     {
       "slug": "malsice",
       "name": "Malšice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438756"
@@ -3307,7 +3307,7 @@
     {
       "slug": "manetin",
       "name": "Manětín",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439723"
@@ -3316,7 +3316,7 @@
     {
       "slug": "marianske-lazne",
       "name": "Mariánské Lázně",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439458"
@@ -3325,7 +3325,7 @@
     {
       "slug": "marsovice",
       "name": "Maršovice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441189"
@@ -3334,7 +3334,7 @@
     {
       "slug": "mastov",
       "name": "Mašťov",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439641"
@@ -3343,7 +3343,7 @@
     {
       "slug": "medlov",
       "name": "Medlov",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442528"
@@ -3352,7 +3352,7 @@
     {
       "slug": "mezibori",
       "name": "Meziboří",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440192"
@@ -3361,7 +3361,7 @@
     {
       "slug": "mezimesti",
       "name": "Meziměstí",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440693"
@@ -3370,7 +3370,7 @@
     {
       "slug": "mikulov",
       "name": "Mikulov",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442519"
@@ -3379,7 +3379,7 @@
     {
       "slug": "mikulovice",
       "name": "Mikulovice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438646"
@@ -3388,7 +3388,7 @@
     {
       "slug": "mikulasovice",
       "name": "Mikulášovice",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439569"
@@ -3397,7 +3397,7 @@
     {
       "slug": "miletin",
       "name": "Miletín",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440018"
@@ -3406,7 +3406,7 @@
     {
       "slug": "milevsko",
       "name": "Milevsko",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437377"
@@ -3415,7 +3415,7 @@
     {
       "slug": "milovice",
       "name": "Milovice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441533"
@@ -3424,7 +3424,7 @@
     {
       "slug": "mimon",
       "name": "Mimoň",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440190"
@@ -3433,7 +3433,7 @@
     {
       "slug": "miroslav",
       "name": "Miroslav",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438659"
@@ -3442,7 +3442,7 @@
     {
       "slug": "mirotice",
       "name": "Mirotice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437380"
@@ -3451,7 +3451,7 @@
     {
       "slug": "mirovice",
       "name": "Mirovice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437337"
@@ -3460,7 +3460,7 @@
     {
       "slug": "mirosov",
       "name": "Mirošov",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "439807"
@@ -3469,7 +3469,7 @@
     {
       "slug": "mlada-boleslav",
       "name": "Mladá Boleslav",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437559"
@@ -3478,7 +3478,7 @@
     {
       "slug": "mlada-vozice",
       "name": "Mladá Vožice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438772"
@@ -3487,7 +3487,7 @@
     {
       "slug": "mlade-buky",
       "name": "Mladé Buky",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440250"
@@ -3496,7 +3496,7 @@
     {
       "slug": "mlazovice",
       "name": "Mlázovice",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440010"
@@ -3505,7 +3505,7 @@
     {
       "slug": "mnichovice",
       "name": "Mnichovice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437902"
@@ -3514,7 +3514,7 @@
     {
       "slug": "mnichovo-hradiste",
       "name": "Mnichovo Hradiště",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437717"
@@ -3523,7 +3523,7 @@
     {
       "slug": "mnisek-pod-brdy",
       "name": "Mníšek pod Brdy",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442225"
@@ -3532,7 +3532,7 @@
     {
       "slug": "modrice",
       "name": "Modřice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442046"
@@ -3541,7 +3541,7 @@
     {
       "slug": "mohelnice",
       "name": "Mohelnice",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438316"
@@ -3550,7 +3550,7 @@
     {
       "slug": "mohelno",
       "name": "Mohelno",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442157"
@@ -3559,7 +3559,7 @@
     {
       "slug": "moravska-nova-ves",
       "name": "Moravská Nová Ves",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442283"
@@ -3568,7 +3568,7 @@
     {
       "slug": "moravska-trebova",
       "name": "Moravská Třebová",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441874"
@@ -3577,7 +3577,7 @@
     {
       "slug": "moravske-budejovice",
       "name": "Moravské Budějovice",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442155"
@@ -3586,7 +3586,7 @@
     {
       "slug": "moravsky-beroun",
       "name": "Moravský Beroun",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438549"
@@ -3595,7 +3595,7 @@
     {
       "slug": "moravsky-krumlov",
       "name": "Moravský Krumlov",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438657"
@@ -3604,7 +3604,7 @@
     {
       "slug": "morkovice-slizany",
       "name": "Morkovice-Slížany",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437018"
@@ -3613,7 +3613,7 @@
     {
       "slug": "most",
       "name": "Most",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436570"
@@ -3622,7 +3622,7 @@
     {
       "slug": "mrakotin",
       "name": "Mrákotín",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "436757"
@@ -3631,7 +3631,7 @@
     {
       "slug": "myto",
       "name": "Mýto",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436635"
@@ -3640,7 +3640,7 @@
     {
       "slug": "mecholupy",
       "name": "Měcholupy",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436562"
@@ -3649,7 +3649,7 @@
     {
       "slug": "melnik",
       "name": "Mělník",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437581"
@@ -3658,7 +3658,7 @@
     {
       "slug": "mestec-kralove",
       "name": "Městec Králové",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441539"
@@ -3667,7 +3667,7 @@
     {
       "slug": "mesto-albrechtice",
       "name": "Město Albrechtice",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437758"
@@ -3676,7 +3676,7 @@
     {
       "slug": "mesto-touskov",
       "name": "Město Touškov",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439722"
@@ -3685,7 +3685,7 @@
     {
       "slug": "mecin",
       "name": "Měčín",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438203"
@@ -3694,7 +3694,7 @@
     {
       "slug": "merin",
       "name": "Měřín",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441739"
@@ -3703,7 +3703,7 @@
     {
       "slug": "msec",
       "name": "Mšec",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442387"
@@ -3712,7 +3712,7 @@
     {
       "slug": "mseno",
       "name": "Mšeno",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437600"
@@ -3721,7 +3721,7 @@
     {
       "slug": "nalzovske-hory",
       "name": "Nalžovské Hory",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438210"
@@ -3730,7 +3730,7 @@
     {
       "slug": "napajedla",
       "name": "Napajedla",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440885"
@@ -3739,7 +3739,7 @@
     {
       "slug": "nasavrky",
       "name": "Nasavrky",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440030"
@@ -3748,7 +3748,7 @@
     {
       "slug": "naceradec",
       "name": "Načeradec",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441474"
@@ -3757,7 +3757,7 @@
     {
       "slug": "nechanice",
       "name": "Nechanice",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439108"
@@ -3766,7 +3766,7 @@
     {
       "slug": "nedvedice",
       "name": "Nedvědice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436885"
@@ -3775,7 +3775,7 @@
     {
       "slug": "nehvizdy",
       "name": "Nehvizdy",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437908"
@@ -3784,7 +3784,7 @@
     {
       "slug": "nejdek",
       "name": "Nejdek",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439476"
@@ -3793,7 +3793,7 @@
     {
       "slug": "nepomuk",
       "name": "Nepomuk",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438247"
@@ -3802,7 +3802,7 @@
     {
       "slug": "nepomysl",
       "name": "Nepomyšl",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439291"
@@ -3811,7 +3811,7 @@
     {
       "slug": "neratovice",
       "name": "Neratovice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437598"
@@ -3820,7 +3820,7 @@
     {
       "slug": "netolice",
       "name": "Netolice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438074"
@@ -3829,7 +3829,7 @@
     {
       "slug": "netvorice",
       "name": "Netvořice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441455"
@@ -3838,7 +3838,7 @@
     {
       "slug": "neustupov",
       "name": "Neustupov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441457"
@@ -3847,7 +3847,7 @@
     {
       "slug": "neveklov",
       "name": "Neveklov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441470"
@@ -3856,7 +3856,7 @@
     {
       "slug": "nezamyslice",
       "name": "Nezamyslice",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436809"
@@ -3865,7 +3865,7 @@
     {
       "slug": "nosislav",
       "name": "Nosislav",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442029"
@@ -3874,7 +3874,7 @@
     {
       "slug": "nova-bystrice",
       "name": "Nová Bystřice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438413"
@@ -3883,7 +3883,7 @@
     {
       "slug": "nova-cerekev",
       "name": "Nová Cerekev",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441037"
@@ -3892,7 +3892,7 @@
     {
       "slug": "nova-paka",
       "name": "Nová Paka",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440014"
@@ -3901,7 +3901,7 @@
     {
       "slug": "nova-role",
       "name": "Nová Role",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439475"
@@ -3910,7 +3910,7 @@
     {
       "slug": "nova-vcelnice",
       "name": "Nová Včelnice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438414"
@@ -3919,7 +3919,7 @@
     {
       "slug": "nova-rise",
       "name": "Nová Říše",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440597"
@@ -3928,7 +3928,7 @@
     {
       "slug": "nove-dvory",
       "name": "Nové Dvory",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441362"
@@ -3937,7 +3937,7 @@
     {
       "slug": "nove-hrady",
       "name": "Nové Hrady",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437690"
@@ -3946,7 +3946,7 @@
     {
       "slug": "nove-mesto-na-morave",
       "name": "Nové Město na Moravě",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441738"
@@ -3955,7 +3955,7 @@
     {
       "slug": "nove-mesto-nad-metuji",
       "name": "Nové Město nad Metují",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440694"
@@ -3964,7 +3964,7 @@
     {
       "slug": "nove-mesto-pod-smrkem",
       "name": "Nové Město pod Smrkem",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438984"
@@ -3973,7 +3973,7 @@
     {
       "slug": "nove-sedlo",
       "name": "Nové Sedlo",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436949"
@@ -3982,7 +3982,7 @@
     {
       "slug": "nove-straseci",
       "name": "Nové Strašecí",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442372"
@@ -3991,7 +3991,7 @@
     {
       "slug": "nove-veseli",
       "name": "Nové Veselí",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441730"
@@ -4000,7 +4000,7 @@
     {
       "slug": "novy-bor",
       "name": "Nový Bor",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440188"
@@ -4009,7 +4009,7 @@
     {
       "slug": "novy-bydzov",
       "name": "Nový Bydžov",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439104"
@@ -4018,7 +4018,7 @@
     {
       "slug": "novy-hrozenkov",
       "name": "Nový Hrozenkov",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442428"
@@ -4027,7 +4027,7 @@
     {
       "slug": "novy-hradek",
       "name": "Nový Hrádek",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440667"
@@ -4036,7 +4036,7 @@
     {
       "slug": "novy-jicin",
       "name": "Nový Jičín",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436988"
@@ -4045,7 +4045,7 @@
     {
       "slug": "novy-knin",
       "name": "Nový Knín",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441412"
@@ -4054,7 +4054,7 @@
     {
       "slug": "novy-rychnov",
       "name": "Nový Rychnov",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441040"
@@ -4063,7 +4063,7 @@
     {
       "slug": "nymburk",
       "name": "Nymburk",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441557"
@@ -4072,7 +4072,7 @@
     {
       "slug": "nachod",
       "name": "Náchod",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440663"
@@ -4081,7 +4081,7 @@
     {
       "slug": "namest-na-hane",
       "name": "Náměšť na Hané",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438522"
@@ -4090,7 +4090,7 @@
     {
       "slug": "namest-nad-oslavou",
       "name": "Náměšť nad Oslavou",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442152"
@@ -4099,7 +4099,7 @@
     {
       "slug": "nyrsko",
       "name": "Nýrsko",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438207"
@@ -4108,7 +4108,7 @@
     {
       "slug": "nyrany",
       "name": "Nýřany",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439715"
@@ -4117,7 +4117,7 @@
     {
       "slug": "nemcice-nad-hanou",
       "name": "Němčice nad Hanou",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438235"
@@ -4126,7 +4126,7 @@
     {
       "slug": "odolena-voda",
       "name": "Odolena Voda",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437168"
@@ -4135,7 +4135,7 @@
     {
       "slug": "odry",
       "name": "Odry",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437555"
@@ -4144,7 +4144,7 @@
     {
       "slug": "okrisky",
       "name": "Okříšky",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442202"
@@ -4153,7 +4153,7 @@
     {
       "slug": "olbramkostel",
       "name": "Olbramkostel",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438748"
@@ -4162,7 +4162,7 @@
     {
       "slug": "olbramovice",
       "name": "Olbramovice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437049"
@@ -4171,7 +4171,7 @@
     {
       "slug": "oleksovice",
       "name": "Oleksovice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438642"
@@ -4180,7 +4180,7 @@
     {
       "slug": "olesnice",
       "name": "Olešnice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436849"
@@ -4198,7 +4198,7 @@
     {
       "slug": "olovi",
       "name": "Oloví",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439540"
@@ -4207,7 +4207,7 @@
     {
       "slug": "opatov",
       "name": "Opatov",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "428058"
@@ -4216,7 +4216,7 @@
     {
       "slug": "opava",
       "name": "Opava",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437002"
@@ -4225,7 +4225,7 @@
     {
       "slug": "opocno",
       "name": "Opočno",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436528"
@@ -4234,7 +4234,7 @@
     {
       "slug": "orlova",
       "name": "Orlová",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437932"
@@ -4243,7 +4243,7 @@
     {
       "slug": "osek",
       "name": "Osek",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439341"
@@ -4252,7 +4252,7 @@
     {
       "slug": "osecna",
       "name": "Osečná",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438993"
@@ -4261,7 +4261,7 @@
     {
       "slug": "oslavany",
       "name": "Oslavany",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442067"
@@ -4279,7 +4279,7 @@
     {
       "slug": "ostrov",
       "name": "Ostrov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439481"
@@ -4288,7 +4288,7 @@
     {
       "slug": "ostrov-nad-oslavou",
       "name": "Ostrov nad Oslavou",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441613"
@@ -4297,7 +4297,7 @@
     {
       "slug": "ostrov-u-macochy",
       "name": "Ostrov u Macochy",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441789"
@@ -4306,7 +4306,7 @@
     {
       "slug": "ostrovacice",
       "name": "Ostrovačice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442065"
@@ -4315,7 +4315,7 @@
     {
       "slug": "osvetimany",
       "name": "Osvětimany",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437496"
@@ -4324,7 +4324,7 @@
     {
       "slug": "otrokovice",
       "name": "Otrokovice",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440877"
@@ -4333,7 +4333,7 @@
     {
       "slug": "pacov",
       "name": "Pacov",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441041"
@@ -4342,7 +4342,7 @@
     {
       "slug": "panensky-tynec",
       "name": "Panenský Týnec",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439299"
@@ -4360,7 +4360,7 @@
     {
       "slug": "paskov",
       "name": "Paskov",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437903"
@@ -4369,7 +4369,7 @@
     {
       "slug": "pavlikov",
       "name": "Pavlíkov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442365"
@@ -4378,7 +4378,7 @@
     {
       "slug": "pec-pod-snezkou",
       "name": "Pec pod Sněžkou",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440240"
@@ -4387,7 +4387,7 @@
     {
       "slug": "pecka",
       "name": "Pecka",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440025"
@@ -4396,7 +4396,7 @@
     {
       "slug": "pelhrimov",
       "name": "Pelhřimov",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441095"
@@ -4405,7 +4405,7 @@
     {
       "slug": "peruc",
       "name": "Peruc",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439288"
@@ -4414,7 +4414,7 @@
     {
       "slug": "petrvald",
       "name": "Petřvald",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436992"
@@ -4423,7 +4423,7 @@
     {
       "slug": "pecky",
       "name": "Pečky",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441289"
@@ -4432,7 +4432,7 @@
     {
       "slug": "pilnikov",
       "name": "Pilníkov",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436515"
@@ -4441,7 +4441,7 @@
     {
       "slug": "plana",
       "name": "Planá",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436595"
@@ -4450,7 +4450,7 @@
     {
       "slug": "plana-nad-luznici",
       "name": "Planá nad Lužnicí",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438767"
@@ -4459,7 +4459,7 @@
     {
       "slug": "plasy",
       "name": "Plasy",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439746"
@@ -4468,7 +4468,7 @@
     {
       "slug": "planany",
       "name": "Plaňany",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441270"
@@ -4477,7 +4477,7 @@
     {
       "slug": "plesna",
       "name": "Plesná",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439442"
@@ -4486,7 +4486,7 @@
     {
       "slug": "plumlov",
       "name": "Plumlov",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438228"
@@ -4504,7 +4504,7 @@
     {
       "slug": "planice",
       "name": "Plánice",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438219"
@@ -4513,7 +4513,7 @@
     {
       "slug": "pobezovice",
       "name": "Poběžovice",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436455"
@@ -4522,7 +4522,7 @@
     {
       "slug": "podborany",
       "name": "Podbořany",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439283"
@@ -4531,7 +4531,7 @@
     {
       "slug": "podhradi",
       "name": "Podhradí",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436770"
@@ -4540,7 +4540,7 @@
     {
       "slug": "podivin",
       "name": "Podivín",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442290"
@@ -4549,7 +4549,7 @@
     {
       "slug": "podebrady",
       "name": "Poděbrady",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437300"
@@ -4558,7 +4558,7 @@
     {
       "slug": "pohorelice",
       "name": "Pohořelice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436886"
@@ -4567,7 +4567,7 @@
     {
       "slug": "polesovice",
       "name": "Polešovice",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437113"
@@ -4576,7 +4576,7 @@
     {
       "slug": "police-nad-metuji",
       "name": "Police nad Metují",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440684"
@@ -4585,7 +4585,7 @@
     {
       "slug": "policka",
       "name": "Polička",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441881"
@@ -4594,7 +4594,7 @@
     {
       "slug": "polna",
       "name": "Polná",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440559"
@@ -4603,7 +4603,7 @@
     {
       "slug": "postoloprty",
       "name": "Postoloprty",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439272"
@@ -4612,7 +4612,7 @@
     {
       "slug": "potstat",
       "name": "Potštát",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436834"
@@ -4621,7 +4621,7 @@
     {
       "slug": "pozlovice",
       "name": "Pozlovice",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440836"
@@ -4630,7 +4630,7 @@
     {
       "slug": "pozorice",
       "name": "Pozořice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442068"
@@ -4639,7 +4639,7 @@
     {
       "slug": "pocatky",
       "name": "Počátky",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441042"
@@ -4648,7 +4648,7 @@
     {
       "slug": "prachatice",
       "name": "Prachatice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437239"
@@ -4666,7 +4666,7 @@
     {
       "slug": "prosec",
       "name": "Proseč",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "436777"
@@ -4675,7 +4675,7 @@
     {
       "slug": "prosimerice",
       "name": "Prosiměřice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437252"
@@ -4684,7 +4684,7 @@
     {
       "slug": "prostejov",
       "name": "Prostějov",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438618"
@@ -4693,7 +4693,7 @@
     {
       "slug": "protivanov",
       "name": "Protivanov",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438273"
@@ -4702,7 +4702,7 @@
     {
       "slug": "protivin",
       "name": "Protivín",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437349"
@@ -4711,7 +4711,7 @@
     {
       "slug": "pysely",
       "name": "Pyšely",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441504"
@@ -4720,7 +4720,7 @@
     {
       "slug": "pisek",
       "name": "Písek",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437521"
@@ -4729,7 +4729,7 @@
     {
       "slug": "prebuz",
       "name": "Přebuz",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439541"
@@ -4738,7 +4738,7 @@
     {
       "slug": "prelouc",
       "name": "Přelouč",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440298"
@@ -4747,7 +4747,7 @@
     {
       "slug": "prerov",
       "name": "Přerov",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438278"
@@ -4756,7 +4756,7 @@
     {
       "slug": "prestice",
       "name": "Přeštice",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439654"
@@ -4765,7 +4765,7 @@
     {
       "slug": "pribyslav",
       "name": "Přibyslav",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440452"
@@ -4774,7 +4774,7 @@
     {
       "slug": "primda",
       "name": "Přimda",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438887"
@@ -4783,7 +4783,7 @@
     {
       "slug": "pribor",
       "name": "Příbor",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437566"
@@ -4792,7 +4792,7 @@
     {
       "slug": "pribram",
       "name": "Příbram",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441396"
@@ -4801,7 +4801,7 @@
     {
       "slug": "pridoli",
       "name": "Přídolí",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438552"
@@ -4810,7 +4810,7 @@
     {
       "slug": "rabi",
       "name": "Rabí",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438216"
@@ -4819,7 +4819,7 @@
     {
       "slug": "radnice",
       "name": "Radnice",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439816"
@@ -4828,7 +4828,7 @@
     {
       "slug": "radomysl",
       "name": "Radomyšl",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438859"
@@ -4837,7 +4837,7 @@
     {
       "slug": "rajhrad",
       "name": "Rajhrad",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442073"
@@ -4846,7 +4846,7 @@
     {
       "slug": "rakovnik",
       "name": "Rakovník",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442374"
@@ -4855,7 +4855,7 @@
     {
       "slug": "ralsko",
       "name": "Ralsko",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436604"
@@ -4864,7 +4864,7 @@
     {
       "slug": "raspenava",
       "name": "Raspenava",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438980"
@@ -4873,7 +4873,7 @@
     {
       "slug": "rataje-nad-sazavou",
       "name": "Rataje nad Sázavou",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441838"
@@ -4882,7 +4882,7 @@
     {
       "slug": "rejstejn",
       "name": "Rejštejn",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438281"
@@ -4891,7 +4891,7 @@
     {
       "slug": "rokycany",
       "name": "Rokycany",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439783"
@@ -4900,7 +4900,7 @@
     {
       "slug": "rokytnice-nad-jizerou",
       "name": "Rokytnice nad Jizerou",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436617"
@@ -4909,7 +4909,7 @@
     {
       "slug": "rokytnice-nad-rokytnou",
       "name": "Rokytnice nad Rokytnou",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442180"
@@ -4918,7 +4918,7 @@
     {
       "slug": "rokytnice-v-orlickych-horach",
       "name": "Rokytnice v Orlických horách",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440092"
@@ -4927,7 +4927,7 @@
     {
       "slug": "ronov-nad-doubravou",
       "name": "Ronov nad Doubravou",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439962"
@@ -4936,7 +4936,7 @@
     {
       "slug": "rosice",
       "name": "Rosice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436874"
@@ -4945,7 +4945,7 @@
     {
       "slug": "rotava",
       "name": "Rotava",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439542"
@@ -4954,7 +4954,7 @@
     {
       "slug": "roudnice-nad-labem",
       "name": "Roudnice nad Labem",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439215"
@@ -4963,7 +4963,7 @@
     {
       "slug": "rousinov",
       "name": "Rousínov",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436905"
@@ -4972,7 +4972,7 @@
     {
       "slug": "rovensko-pod-troskami",
       "name": "Rovensko pod Troskami",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439050"
@@ -4981,7 +4981,7 @@
     {
       "slug": "roztoky",
       "name": "Roztoky",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436152"
@@ -4990,7 +4990,7 @@
     {
       "slug": "rocov",
       "name": "Ročov",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436560"
@@ -4999,7 +4999,7 @@
     {
       "slug": "rozmberk-nad-vltavou",
       "name": "Rožmberk nad Vltavou",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438555"
@@ -5008,7 +5008,7 @@
     {
       "slug": "rozmital-pod-tremsinem",
       "name": "Rožmitál pod Třemšínem",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441355"
@@ -5017,7 +5017,7 @@
     {
       "slug": "roznov-pod-radhostem",
       "name": "Rožnov pod Radhoštěm",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442433"
@@ -5026,7 +5026,7 @@
     {
       "slug": "rozdalovice",
       "name": "Rožďalovice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437277"
@@ -5035,7 +5035,7 @@
     {
       "slug": "rtyne-v-podkrkonosi",
       "name": "Rtyně v Podkrkonoší",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440255"
@@ -5044,7 +5044,7 @@
     {
       "slug": "rudna",
       "name": "Rudná",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436686"
@@ -5053,7 +5053,7 @@
     {
       "slug": "rudolfov",
       "name": "Rudolfov",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437670"
@@ -5062,7 +5062,7 @@
     {
       "slug": "rumburk",
       "name": "Rumburk",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439570"
@@ -5071,7 +5071,7 @@
     {
       "slug": "rychnov-nad-kneznou",
       "name": "Rychnov nad Kněžnou",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439901"
@@ -5080,7 +5080,7 @@
     {
       "slug": "rychnov-u-jablonce-nad-nisou",
       "name": "Rychnov u Jablonce nad Nisou",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438927"
@@ -5089,7 +5089,7 @@
     {
       "slug": "rychvald",
       "name": "Rychvald",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437940"
@@ -5098,7 +5098,7 @@
     {
       "slug": "rajec-jestrebi",
       "name": "Rájec-Jestřebí",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436847"
@@ -5107,7 +5107,7 @@
     {
       "slug": "rymarov",
       "name": "Rýmařov",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437752"
@@ -5116,7 +5116,7 @@
     {
       "slug": "sadska",
       "name": "Sadská",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437275"
@@ -5125,7 +5125,7 @@
     {
       "slug": "sedlec-prcice",
       "name": "Sedlec-Prčice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436678"
@@ -5134,7 +5134,7 @@
     {
       "slug": "sedlice",
       "name": "Sedlice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436485"
@@ -5143,7 +5143,7 @@
     {
       "slug": "sedlcany",
       "name": "Sedlčany",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441351"
@@ -5152,7 +5152,7 @@
     {
       "slug": "semily",
       "name": "Semily",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438971"
@@ -5161,7 +5161,7 @@
     {
       "slug": "senomaty",
       "name": "Senomaty",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440784"
@@ -5170,7 +5170,7 @@
     {
       "slug": "sepekov",
       "name": "Sepekov",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437331"
@@ -5179,7 +5179,7 @@
     {
       "slug": "sezemice",
       "name": "Sezemice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440293"
@@ -5188,7 +5188,7 @@
     {
       "slug": "sezimovo-usti",
       "name": "Sezimovo Ústí",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438734"
@@ -5197,7 +5197,7 @@
     {
       "slug": "sec",
       "name": "Seč",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439966"
@@ -5206,7 +5206,7 @@
     {
       "slug": "skalna",
       "name": "Skalná",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439441"
@@ -5215,7 +5215,7 @@
     {
       "slug": "skutec",
       "name": "Skuteč",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439965"
@@ -5224,7 +5224,7 @@
     {
       "slug": "slabce",
       "name": "Slabce",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440769"
@@ -5233,7 +5233,7 @@
     {
       "slug": "slany",
       "name": "Slaný",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440956"
@@ -5242,7 +5242,7 @@
     {
       "slug": "slatinany",
       "name": "Slatiňany",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439964"
@@ -5251,7 +5251,7 @@
     {
       "slug": "slavicin",
       "name": "Slavičín",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440915"
@@ -5260,7 +5260,7 @@
     {
       "slug": "slavkov-u-brna",
       "name": "Slavkov u Brna",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440788"
@@ -5269,7 +5269,7 @@
     {
       "slug": "slavonice",
       "name": "Slavonice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438429"
@@ -5278,7 +5278,7 @@
     {
       "slug": "slavetin",
       "name": "Slavětín",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "436559"
@@ -5287,7 +5287,7 @@
     {
       "slug": "sloup",
       "name": "Sloup",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436823"
@@ -5296,7 +5296,7 @@
     {
       "slug": "slusovice",
       "name": "Slušovice",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440917"
@@ -5305,7 +5305,7 @@
     {
       "slug": "smecno",
       "name": "Smečno",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440986"
@@ -5314,7 +5314,7 @@
     {
       "slug": "smirice",
       "name": "Smiřice",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439117"
@@ -5323,7 +5323,7 @@
     {
       "slug": "smrzovka",
       "name": "Smržovka",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438926"
@@ -5332,7 +5332,7 @@
     {
       "slug": "snezne",
       "name": "Sněžné",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442551"
@@ -5341,7 +5341,7 @@
     {
       "slug": "sobotka",
       "name": "Sobotka",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439873"
@@ -5350,7 +5350,7 @@
     {
       "slug": "sobeslav",
       "name": "Soběslav",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438740"
@@ -5359,7 +5359,7 @@
     {
       "slug": "sokolov",
       "name": "Sokolov",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439509"
@@ -5368,7 +5368,7 @@
     {
       "slug": "solnice",
       "name": "Solnice",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440084"
@@ -5377,7 +5377,7 @@
     {
       "slug": "sovinky",
       "name": "Sovínky",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441942"
@@ -5386,7 +5386,7 @@
     {
       "slug": "spalene-porici",
       "name": "Spálené Poříčí",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439660"
@@ -5395,7 +5395,7 @@
     {
       "slug": "spalov",
       "name": "Spálov",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437562"
@@ -5404,7 +5404,7 @@
     {
       "slug": "stara-rise",
       "name": "Stará Říše",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441179"
@@ -5413,7 +5413,7 @@
     {
       "slug": "stare-mesto",
       "name": "Staré Město",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437385"
@@ -5422,7 +5422,7 @@
     {
       "slug": "stare-mesto-2",
       "name": "Staré Město",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439435"
@@ -5431,7 +5431,7 @@
     {
       "slug": "stare-mesto-pod-landstejnem",
       "name": "Staré Město pod Landštejnem",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437483"
@@ -5440,7 +5440,7 @@
     {
       "slug": "stary-plzenec",
       "name": "Starý Plzenec",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438336"
@@ -5449,7 +5449,7 @@
     {
       "slug": "stankov",
       "name": "Staňkov",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439129"
@@ -5458,7 +5458,7 @@
     {
       "slug": "starec",
       "name": "Stařeč",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442095"
@@ -5467,7 +5467,7 @@
     {
       "slug": "stochov",
       "name": "Stochov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440952"
@@ -5476,7 +5476,7 @@
     {
       "slug": "stod",
       "name": "Stod",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439661"
@@ -5485,7 +5485,7 @@
     {
       "slug": "stonarov",
       "name": "Stonařov",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441183"
@@ -5494,7 +5494,7 @@
     {
       "slug": "strakonice",
       "name": "Strakonice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438853"
@@ -5503,7 +5503,7 @@
     {
       "slug": "strmilov",
       "name": "Strmilov",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437488"
@@ -5512,7 +5512,7 @@
     {
       "slug": "strunkovice-nad-blanici",
       "name": "Strunkovice nad Blanicí",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438078"
@@ -5521,7 +5521,7 @@
     {
       "slug": "straz",
       "name": "Stráž",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436592"
@@ -5530,7 +5530,7 @@
     {
       "slug": "straz-nad-nezarkou",
       "name": "Stráž nad Nežárkou",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437481"
@@ -5539,7 +5539,7 @@
     {
       "slug": "straz-pod-ralskem",
       "name": "Stráž pod Ralskem",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439007"
@@ -5548,7 +5548,7 @@
     {
       "slug": "strazek",
       "name": "Strážek",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441641"
@@ -5557,7 +5557,7 @@
     {
       "slug": "straznice",
       "name": "Strážnice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436907"
@@ -5566,7 +5566,7 @@
     {
       "slug": "strazny",
       "name": "Strážný",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438080"
@@ -5575,7 +5575,7 @@
     {
       "slug": "strazov",
       "name": "Strážov",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436208"
@@ -5584,7 +5584,7 @@
     {
       "slug": "studenka",
       "name": "Studénka",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437003"
@@ -5593,7 +5593,7 @@
     {
       "slug": "stadlec",
       "name": "Stádlec",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438606"
@@ -5602,7 +5602,7 @@
     {
       "slug": "starkov",
       "name": "Stárkov",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439932"
@@ -5611,7 +5611,7 @@
     {
       "slug": "stribro",
       "name": "Stříbro",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438877"
@@ -5620,7 +5620,7 @@
     {
       "slug": "suchdol",
       "name": "Suchdol",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441196"
@@ -5629,7 +5629,7 @@
     {
       "slug": "suchdol-nad-luznici",
       "name": "Suchdol nad Lužnicí",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437490"
@@ -5638,7 +5638,7 @@
     {
       "slug": "suchdol-nad-odrou",
       "name": "Suchdol nad Odrou",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437573"
@@ -5647,7 +5647,7 @@
     {
       "slug": "susice",
       "name": "Sušice",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438289"
@@ -5656,7 +5656,7 @@
     {
       "slug": "svatava",
       "name": "Svatava",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439503"
@@ -5665,7 +5665,7 @@
     {
       "slug": "svitavy",
       "name": "Svitavy",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436703"
@@ -5674,7 +5674,7 @@
     {
       "slug": "svitavka",
       "name": "Svitávka",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437999"
@@ -5683,7 +5683,7 @@
     {
       "slug": "svoboda-nad-upou",
       "name": "Svoboda nad Úpou",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440106"
@@ -5692,7 +5692,7 @@
     {
       "slug": "svojanov",
       "name": "Svojanov",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441910"
@@ -5701,7 +5701,7 @@
     {
       "slug": "svratka",
       "name": "Svratka",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441637"
@@ -5710,7 +5710,7 @@
     {
       "slug": "svetla-nad-sazavou",
       "name": "Světlá nad Sázavou",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440447"
@@ -5719,7 +5719,7 @@
     {
       "slug": "sazava",
       "name": "Sázava",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441203"
@@ -5728,7 +5728,7 @@
     {
       "slug": "tachov",
       "name": "Tachov",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438864"
@@ -5737,7 +5737,7 @@
     {
       "slug": "tanvald",
       "name": "Tanvald",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438925"
@@ -5746,7 +5746,7 @@
     {
       "slug": "telc",
       "name": "Telč",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441173"
@@ -5755,7 +5755,7 @@
     {
       "slug": "teplice",
       "name": "Teplice",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439351"
@@ -5764,7 +5764,7 @@
     {
       "slug": "teplice-nad-metuji",
       "name": "Teplice nad Metují",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439935"
@@ -5773,7 +5773,7 @@
     {
       "slug": "tepla",
       "name": "Teplá",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439453"
@@ -5782,7 +5782,7 @@
     {
       "slug": "terezin",
       "name": "Terezín",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439230"
@@ -5791,7 +5791,7 @@
     {
       "slug": "tisnov",
       "name": "Tišnov",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442005"
@@ -5800,7 +5800,7 @@
     {
       "slug": "tistin",
       "name": "Tištín",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438285"
@@ -5809,7 +5809,7 @@
     {
       "slug": "touzim",
       "name": "Toužim",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439519"
@@ -5818,7 +5818,7 @@
     {
       "slug": "tovacov",
       "name": "Tovačov",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438198"
@@ -5827,7 +5827,7 @@
     {
       "slug": "trhova-kamenice",
       "name": "Trhová Kamenice",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440128"
@@ -5836,7 +5836,7 @@
     {
       "slug": "trhove-sviny",
       "name": "Trhové Sviny",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437661"
@@ -5845,7 +5845,7 @@
     {
       "slug": "trhovy-stepanov",
       "name": "Trhový Štěpánov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441507"
@@ -5854,7 +5854,7 @@
     {
       "slug": "trmice",
       "name": "Trmice",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440172"
@@ -5863,7 +5863,7 @@
     {
       "slug": "troskotovice",
       "name": "Troskotovice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440927"
@@ -5872,7 +5872,7 @@
     {
       "slug": "trutnov",
       "name": "Trutnov",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440154"
@@ -5881,7 +5881,7 @@
     {
       "slug": "turnov",
       "name": "Turnov",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439028"
@@ -5890,7 +5890,7 @@
     {
       "slug": "tabor",
       "name": "Tábor",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438672"
@@ -5899,7 +5899,7 @@
     {
       "slug": "tyn-nad-vltavou",
       "name": "Týn nad Vltavou",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437663"
@@ -5908,7 +5908,7 @@
     {
       "slug": "tynec-nad-labem",
       "name": "Týnec nad Labem",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441249"
@@ -5917,7 +5917,7 @@
     {
       "slug": "tynec-nad-sazavou",
       "name": "Týnec nad Sázavou",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441509"
@@ -5926,7 +5926,7 @@
     {
       "slug": "tyniste-nad-orlici",
       "name": "Týniště nad Orlicí",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440087"
@@ -5935,7 +5935,7 @@
     {
       "slug": "trebechovice-pod-orebem",
       "name": "Třebechovice pod Orebem",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439882"
@@ -5944,7 +5944,7 @@
     {
       "slug": "trebenice",
       "name": "Třebenice",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "439234"
@@ -5953,7 +5953,7 @@
     {
       "slug": "trebon",
       "name": "Třeboň",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437495"
@@ -5962,7 +5962,7 @@
     {
       "slug": "trebic",
       "name": "Třebíč",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442133"
@@ -5971,7 +5971,7 @@
     {
       "slug": "tremosnice",
       "name": "Třemošnice",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440126"
@@ -5980,7 +5980,7 @@
     {
       "slug": "tremosna",
       "name": "Třemošná",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439762"
@@ -5989,7 +5989,7 @@
     {
       "slug": "trest",
       "name": "Třešť",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441174"
@@ -5998,7 +5998,7 @@
     {
       "slug": "trinec",
       "name": "Třinec",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437909"
@@ -6007,7 +6007,7 @@
     {
       "slug": "uhelna-pribram",
       "name": "Uhelná Příbram",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440446"
@@ -6016,7 +6016,7 @@
     {
       "slug": "uherske-hradiste",
       "name": "Uherské Hradiště",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437438"
@@ -6025,7 +6025,7 @@
     {
       "slug": "uhersky-brod",
       "name": "Uherský Brod",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437482"
@@ -6034,7 +6034,7 @@
     {
       "slug": "uhersky-ostroh",
       "name": "Uherský Ostroh",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437484"
@@ -6043,7 +6043,7 @@
     {
       "slug": "uhlirske-janovice",
       "name": "Uhlířské Janovice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441845"
@@ -6052,7 +6052,7 @@
     {
       "slug": "unhost",
       "name": "Unhošť",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440944"
@@ -6061,7 +6061,7 @@
     {
       "slug": "unicov",
       "name": "Uničov",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438432"
@@ -6070,7 +6070,7 @@
     {
       "slug": "valasske-klobouky",
       "name": "Valašské Klobouky",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440920"
@@ -6079,7 +6079,7 @@
     {
       "slug": "valasske-mezirici",
       "name": "Valašské Meziříčí",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "435549"
@@ -6088,7 +6088,7 @@
     {
       "slug": "valtice",
       "name": "Valtice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442303"
@@ -6097,7 +6097,7 @@
     {
       "slug": "vamberk",
       "name": "Vamberk",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440077"
@@ -6106,7 +6106,7 @@
     {
       "slug": "varnsdorf",
       "name": "Varnsdorf",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439609"
@@ -6115,7 +6115,7 @@
     {
       "slug": "vejprty",
       "name": "Vejprty",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439646"
@@ -6124,7 +6124,7 @@
     {
       "slug": "velesin",
       "name": "Velešín",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438456"
@@ -6133,7 +6133,7 @@
     {
       "slug": "velka-bystrice",
       "name": "Velká Bystřice",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438434"
@@ -6142,7 +6142,7 @@
     {
       "slug": "velka-bites",
       "name": "Velká Bíteš",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441629"
@@ -6151,7 +6151,7 @@
     {
       "slug": "velke-bilovice",
       "name": "Velké Bílovice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442304"
@@ -6160,7 +6160,7 @@
     {
       "slug": "velke-hamry",
       "name": "Velké Hamry",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438924"
@@ -6169,7 +6169,7 @@
     {
       "slug": "velke-mezirici",
       "name": "Velké Meziříčí",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441623"
@@ -6178,7 +6178,7 @@
     {
       "slug": "velke-nemcice",
       "name": "Velké Němčice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442293"
@@ -6187,7 +6187,7 @@
     {
       "slug": "velke-opatovice",
       "name": "Velké Opatovice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438174"
@@ -6196,7 +6196,7 @@
     {
       "slug": "velke-pavlovice",
       "name": "Velké Pavlovice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442294"
@@ -6205,7 +6205,7 @@
     {
       "slug": "velke-porici",
       "name": "Velké Poříčí",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440614"
@@ -6214,7 +6214,7 @@
     {
       "slug": "velky-vrestov",
       "name": "Velký Vřešťov",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440090"
@@ -6223,7 +6223,7 @@
     {
       "slug": "velky-ujezd",
       "name": "Velký Újezd",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438430"
@@ -6232,7 +6232,7 @@
     {
       "slug": "velky-senov",
       "name": "Velký Šenov",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439622"
@@ -6241,7 +6241,7 @@
     {
       "slug": "veltrusy",
       "name": "Veltrusy",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437632"
@@ -6250,7 +6250,7 @@
     {
       "slug": "velvary",
       "name": "Velvary",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440996"
@@ -6259,7 +6259,7 @@
     {
       "slug": "vernerice",
       "name": "Verneřice",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439623"
@@ -6268,7 +6268,7 @@
     {
       "slug": "veseli-nad-luznici",
       "name": "Veselí nad Lužnicí",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438594"
@@ -6277,7 +6277,7 @@
     {
       "slug": "veseli-nad-moravou",
       "name": "Veselí nad Moravou",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441137"
@@ -6286,7 +6286,7 @@
     {
       "slug": "veverska-bityska",
       "name": "Veverská Bítýška",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442011"
@@ -6295,7 +6295,7 @@
     {
       "slug": "vidnava",
       "name": "Vidnava",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438678"
@@ -6304,7 +6304,7 @@
     {
       "slug": "vilemov",
       "name": "Vilémov",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "436749"
@@ -6313,7 +6313,7 @@
     {
       "slug": "vimperk",
       "name": "Vimperk",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437974"
@@ -6322,7 +6322,7 @@
     {
       "slug": "vizovice",
       "name": "Vizovice",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440770"
@@ -6331,7 +6331,7 @@
     {
       "slug": "visnove",
       "name": "Višňové",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438843"
@@ -6340,7 +6340,7 @@
     {
       "slug": "vlachovo-brezi",
       "name": "Vlachovo Březí",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437977"
@@ -6349,7 +6349,7 @@
     {
       "slug": "vladislav",
       "name": "Vladislav",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442091"
@@ -6358,7 +6358,7 @@
     {
       "slug": "vlasim",
       "name": "Vlašim",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441511"
@@ -6367,7 +6367,7 @@
     {
       "slug": "vodnany",
       "name": "Vodňany",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438012"
@@ -6376,7 +6376,7 @@
     {
       "slug": "vojnuv-mestec",
       "name": "Vojnův Městec",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441632"
@@ -6385,7 +6385,7 @@
     {
       "slug": "volary",
       "name": "Volary",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437975"
@@ -6394,7 +6394,7 @@
     {
       "slug": "volyne",
       "name": "Volyně",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438747"
@@ -6403,7 +6403,7 @@
     {
       "slug": "votice",
       "name": "Votice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441514"
@@ -6412,7 +6412,7 @@
     {
       "slug": "vracov",
       "name": "Vracov",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441134"
@@ -6421,7 +6421,7 @@
     {
       "slug": "vranov-nad-dyji",
       "name": "Vranov nad Dyjí",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438857"
@@ -6430,7 +6430,7 @@
     {
       "slug": "vrany",
       "name": "Vraný",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441000"
@@ -6439,7 +6439,7 @@
     {
       "slug": "vratimov",
       "name": "Vratimov",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437340"
@@ -6448,7 +6448,7 @@
     {
       "slug": "vrbno-pod-pradedem",
       "name": "Vrbno pod Pradědem",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437806"
@@ -6457,7 +6457,7 @@
     {
       "slug": "vrchlabi",
       "name": "Vrchlabí",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440100"
@@ -6466,7 +6466,7 @@
     {
       "slug": "vrchotovy-janovice",
       "name": "Vrchotovy Janovice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441515"
@@ -6475,7 +6475,7 @@
     {
       "slug": "vroutek",
       "name": "Vroutek",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439323"
@@ -6484,7 +6484,7 @@
     {
       "slug": "vsetin",
       "name": "Vsetín",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437166"
@@ -6493,7 +6493,7 @@
     {
       "slug": "vysoke-myto",
       "name": "Vysoké Mýto",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440542"
@@ -6502,7 +6502,7 @@
     {
       "slug": "vysoke-veseli",
       "name": "Vysoké Veselí",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440620"
@@ -6511,7 +6511,7 @@
     {
       "slug": "vysoke-nad-jizerou",
       "name": "Vysoké nad Jizerou",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439038"
@@ -6520,7 +6520,7 @@
     {
       "slug": "vysoky-chlumec",
       "name": "Vysoký Chlumec",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441367"
@@ -6529,7 +6529,7 @@
     {
       "slug": "vyskov",
       "name": "Vyškov",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442276"
@@ -6538,7 +6538,7 @@
     {
       "slug": "vyssi-brod",
       "name": "Vyšší Brod",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438469"
@@ -6547,7 +6547,7 @@
     {
       "slug": "vemyslice",
       "name": "Vémyslice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438824"
@@ -6556,7 +6556,7 @@
     {
       "slug": "vitkov",
       "name": "Vítkov",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437635"
@@ -6565,7 +6565,7 @@
     {
       "slug": "vysluni",
       "name": "Výsluní",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439605"
@@ -6574,7 +6574,7 @@
     {
       "slug": "vcelakov",
       "name": "Včelákov",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440130"
@@ -6583,7 +6583,7 @@
     {
       "slug": "vetrny-jenikov",
       "name": "Větrný Jeníkov",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441171"
@@ -6592,7 +6592,7 @@
     {
       "slug": "vetrni",
       "name": "Větřní",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438467"
@@ -6601,7 +6601,7 @@
     {
       "slug": "vseruby",
       "name": "Všeruby",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436454"
@@ -6610,7 +6610,7 @@
     {
       "slug": "vseruby-2",
       "name": "Všeruby",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436628"
@@ -6619,7 +6619,7 @@
     {
       "slug": "vsetaty",
       "name": "Všetaty",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437531"
@@ -6628,7 +6628,7 @@
     {
       "slug": "zbiroh",
       "name": "Zbiroh",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438901"
@@ -6637,7 +6637,7 @@
     {
       "slug": "zbysov",
       "name": "Zbýšov",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442495"
@@ -6646,7 +6646,7 @@
     {
       "slug": "zdice",
       "name": "Zdice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440841"
@@ -6655,7 +6655,7 @@
     {
       "slug": "zdislava",
       "name": "Zdislava",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438968"
@@ -6664,7 +6664,7 @@
     {
       "slug": "zdislavice",
       "name": "Zdislavice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441516"
@@ -6673,7 +6673,7 @@
     {
       "slug": "zlate-hory",
       "name": "Zlaté Hory",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437055"
@@ -6682,7 +6682,7 @@
     {
       "slug": "zliv",
       "name": "Zliv",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436119"
@@ -6691,7 +6691,7 @@
     {
       "slug": "zlonice",
       "name": "Zlonice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441009"
@@ -6700,7 +6700,7 @@
     {
       "slug": "zlin",
       "name": "Zlín",
-      "region": "",
+      "region": "Zlínský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442449"
@@ -6709,7 +6709,7 @@
     {
       "slug": "znojmo",
       "name": "Znojmo",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437041"
@@ -6718,7 +6718,7 @@
     {
       "slug": "zruc-nad-sazavou",
       "name": "Zruč nad Sázavou",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441813"
@@ -6727,7 +6727,7 @@
     {
       "slug": "zubri",
       "name": "Zubří",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440854"
@@ -6736,7 +6736,7 @@
     {
       "slug": "zvikovec",
       "name": "Zvíkovec",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439780"
@@ -6745,7 +6745,7 @@
     {
       "slug": "zabreh",
       "name": "Zábřeh",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436966"
@@ -6754,7 +6754,7 @@
     {
       "slug": "zakupy",
       "name": "Zákupy",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438937"
@@ -6763,7 +6763,7 @@
     {
       "slug": "zapy",
       "name": "Zápy",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437114"
@@ -6772,7 +6772,7 @@
     {
       "slug": "zasada",
       "name": "Zásada",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438923"
@@ -6781,7 +6781,7 @@
     {
       "slug": "zasmuky",
       "name": "Zásmuky",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441298"
@@ -6790,7 +6790,7 @@
     {
       "slug": "ujezd-u-brna",
       "name": "Újezd u Brna",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442001"
@@ -6799,7 +6799,7 @@
     {
       "slug": "upice",
       "name": "Úpice",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440102"
@@ -6808,7 +6808,7 @@
     {
       "slug": "usobi",
       "name": "Úsobí",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440445"
@@ -6817,7 +6817,7 @@
     {
       "slug": "usov",
       "name": "Úsov",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436964"
@@ -6835,7 +6835,7 @@
     {
       "slug": "usti-nad-orlici",
       "name": "Ústí nad Orlicí",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441208"
@@ -6844,7 +6844,7 @@
     {
       "slug": "utery",
       "name": "Úterý",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439763"
@@ -6853,7 +6853,7 @@
     {
       "slug": "uvaly",
       "name": "Úvaly",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436105"
@@ -6862,7 +6862,7 @@
     {
       "slug": "ustek",
       "name": "Úštěk",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439175"
@@ -6871,7 +6871,7 @@
     {
       "slug": "cachrov",
       "name": "Čachrov",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439233"
@@ -6880,7 +6880,7 @@
     {
       "slug": "castolovice",
       "name": "Častolovice",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439906"
@@ -6889,7 +6889,7 @@
     {
       "slug": "cechtice",
       "name": "Čechtice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440755"
@@ -6898,7 +6898,7 @@
     {
       "slug": "celakovice",
       "name": "Čelákovice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437162"
@@ -6907,7 +6907,7 @@
     {
       "slug": "cernovice",
       "name": "Černovice",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442625"
@@ -6916,7 +6916,7 @@
     {
       "slug": "cernosice",
       "name": "Černošice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442242"
@@ -6925,7 +6925,7 @@
     {
       "slug": "cernosin",
       "name": "Černošín",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438873"
@@ -6934,7 +6934,7 @@
     {
       "slug": "cerna-hora",
       "name": "Černá Hora",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438111"
@@ -6943,7 +6943,7 @@
     {
       "slug": "cerny-dul",
       "name": "Černý Důl",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440058"
@@ -6952,7 +6952,7 @@
     {
       "slug": "cervena-recice",
       "name": "Červená Řečice",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441081"
@@ -6961,7 +6961,7 @@
     {
       "slug": "cervene-pecky",
       "name": "Červené Pečky",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441308"
@@ -6970,7 +6970,7 @@
     {
       "slug": "cerveny-kostelec",
       "name": "Červený Kostelec",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440656"
@@ -6979,7 +6979,7 @@
     {
       "slug": "ceska-bela",
       "name": "Česká Bělá",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440703"
@@ -6988,7 +6988,7 @@
     {
       "slug": "ceska-kamenice",
       "name": "Česká Kamenice",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439576"
@@ -6997,7 +6997,7 @@
     {
       "slug": "ceska-lipa",
       "name": "Česká Lípa",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440197"
@@ -7006,7 +7006,7 @@
     {
       "slug": "ceska-skalice",
       "name": "Česká Skalice",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440652"
@@ -7015,7 +7015,7 @@
     {
       "slug": "ceska-trebova",
       "name": "Česká Třebová",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441216"
@@ -7033,7 +7033,7 @@
     {
       "slug": "ceske-hermanice",
       "name": "České Heřmanice",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441217"
@@ -7042,7 +7042,7 @@
     {
       "slug": "ceske-velenice",
       "name": "České Velenice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437422"
@@ -7051,7 +7051,7 @@
     {
       "slug": "cesky-brod",
       "name": "Český Brod",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441303"
@@ -7060,7 +7060,7 @@
     {
       "slug": "cesky-dub",
       "name": "Český Dub",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439062"
@@ -7069,7 +7069,7 @@
     {
       "slug": "cesky-krumlov",
       "name": "Český Krumlov",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438508"
@@ -7078,7 +7078,7 @@
     {
       "slug": "cesky-tesin",
       "name": "Český Těšín",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437926"
@@ -7087,7 +7087,7 @@
     {
       "slug": "cesky-sternberk",
       "name": "Český Šternberk",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440723"
@@ -7096,7 +7096,7 @@
     {
       "slug": "cestice",
       "name": "Čestice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438775"
@@ -7105,7 +7105,7 @@
     {
       "slug": "caslav",
       "name": "Čáslav",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441800"
@@ -7114,7 +7114,7 @@
     {
       "slug": "revnice",
       "name": "Řevnice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442252"
@@ -7123,7 +7123,7 @@
     {
       "slug": "ricany",
       "name": "Říčany",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436100"
@@ -7132,7 +7132,7 @@
     {
       "slug": "satov",
       "name": "Šatov",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438713"
@@ -7141,7 +7141,7 @@
     {
       "slug": "senov",
       "name": "Šenov",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437013"
@@ -7150,7 +7150,7 @@
     {
       "slug": "sevetin",
       "name": "Ševětín",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437655"
@@ -7159,7 +7159,7 @@
     {
       "slug": "skvorec",
       "name": "Škvorec",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437871"
@@ -7168,7 +7168,7 @@
     {
       "slug": "slapanice",
       "name": "Šlapanice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436872"
@@ -7177,7 +7177,7 @@
     {
       "slug": "sluknov",
       "name": "Šluknov",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439618"
@@ -7186,7 +7186,7 @@
     {
       "slug": "spindleruv-mlyn",
       "name": "Špindlerův Mlýn",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440105"
@@ -7195,7 +7195,7 @@
     {
       "slug": "sternberk",
       "name": "Šternberk",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438507"
@@ -7204,7 +7204,7 @@
     {
       "slug": "stoky",
       "name": "Štoky",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440442"
@@ -7213,7 +7213,7 @@
     {
       "slug": "stramberk",
       "name": "Štramberk",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437599"
@@ -7222,7 +7222,7 @@
     {
       "slug": "stitary",
       "name": "Štítary",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "437045"
@@ -7231,7 +7231,7 @@
     {
       "slug": "stity",
       "name": "Štíty",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436965"
@@ -7240,7 +7240,7 @@
     {
       "slug": "stechovice",
       "name": "Štěchovice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "442421"
@@ -7249,7 +7249,7 @@
     {
       "slug": "steken",
       "name": "Štěkeň",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438848"
@@ -7258,7 +7258,7 @@
     {
       "slug": "stepanov-nad-svratkou",
       "name": "Štěpánov nad Svratkou",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441646"
@@ -7267,7 +7267,7 @@
     {
       "slug": "steti",
       "name": "Štětí",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "436548"
@@ -7276,7 +7276,7 @@
     {
       "slug": "sumperk",
       "name": "Šumperk",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438047"
@@ -7285,7 +7285,7 @@
     {
       "slug": "svihov",
       "name": "Švihov",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438280"
@@ -7294,7 +7294,7 @@
     {
       "slug": "svabenice",
       "name": "Švábenice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440739"
@@ -7303,7 +7303,7 @@
     {
       "slug": "zacler",
       "name": "Žacléř",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440098"
@@ -7312,7 +7312,7 @@
     {
       "slug": "zamberk",
       "name": "Žamberk",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440506"
@@ -7321,7 +7321,7 @@
     {
       "slug": "zandov",
       "name": "Žandov",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438936"
@@ -7330,7 +7330,7 @@
     {
       "slug": "zatec",
       "name": "Žatec",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439319"
@@ -7339,7 +7339,7 @@
     {
       "slug": "zdanice",
       "name": "Ždánice",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442477"
@@ -7348,7 +7348,7 @@
     {
       "slug": "zdirec-nad-doubravou",
       "name": "Ždírec nad Doubravou",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "440430"
@@ -7357,7 +7357,7 @@
     {
       "slug": "zebrak",
       "name": "Žebrák",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441983"
@@ -7366,7 +7366,7 @@
     {
       "slug": "zehusice",
       "name": "Žehušice",
-      "region": "",
+      "region": "Středočeský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441825"
@@ -7375,7 +7375,7 @@
     {
       "slug": "zeletava",
       "name": "Želetava",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "442115"
@@ -7384,7 +7384,7 @@
     {
       "slug": "zeleznice",
       "name": "Železnice",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440621"
@@ -7393,7 +7393,7 @@
     {
       "slug": "zelezna-ruda",
       "name": "Železná Ruda",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438302"
@@ -7402,7 +7402,7 @@
     {
       "slug": "zelezny-brod",
       "name": "Železný Brod",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438957"
@@ -7411,7 +7411,7 @@
     {
       "slug": "zernov",
       "name": "Žernov",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439891"
@@ -7420,7 +7420,7 @@
     {
       "slug": "zidlochovice",
       "name": "Židlochovice",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "441227"
@@ -7429,7 +7429,7 @@
     {
       "slug": "zinkovy",
       "name": "Žinkovy",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439701"
@@ -7438,7 +7438,7 @@
     {
       "slug": "zirovnice",
       "name": "Žirovnice",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "441089"
@@ -7447,7 +7447,7 @@
     {
       "slug": "zlutice",
       "name": "Žlutice",
-      "region": "",
+      "region": "Karlovarský kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "439517"
@@ -7456,7 +7456,7 @@
     {
       "slug": "zulova",
       "name": "Žulová",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "438668"
@@ -7465,7 +7465,7 @@
     {
       "slug": "zumberk",
       "name": "Žumberk",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": false,
       "refs": {
         "bezrealitky": "440143"
@@ -7474,7 +7474,7 @@
     {
       "slug": "zdar-nad-sazavou",
       "name": "Žďár nad Sázavou",
-      "region": "",
+      "region": "Kraj Vysočina",
       "priority": false,
       "refs": {
         "bezrealitky": "428066"

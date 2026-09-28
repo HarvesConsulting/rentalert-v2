@@ -5,6 +5,7 @@ from __future__ import annotations
 import logging
 import time
 from collections.abc import Callable
+from typing import Any
 
 from curl_cffi import requests as cffi_requests
 
@@ -103,9 +104,9 @@ query ListAdverts(
 class BezrealitkyParser(Parser):
     """Парсер Bezrealitky.cz через GraphQL API."""
 
-    def __init__(self, source) -> None:
+    def __init__(self, source: Any) -> None:
         super().__init__(source)
-        self._session = cffi_requests.Session(impersonate="chrome120")
+        self._session: Any = cffi_requests.Session(impersonate="chrome120")
 
     def fetch(
         self,
@@ -153,8 +154,11 @@ class BezrealitkyParser(Parser):
             if not raw_list:
                 break
 
-            page_listings = [self._parse_advert(raw, city) for raw in raw_list]
-            page_listings = [lst for lst in page_listings if lst is not None]
+            page_listings: list[Listing] = []
+            for raw in raw_list:
+                parsed = self._parse_advert(raw, city)
+                if parsed is not None:
+                    page_listings.append(parsed)
             all_listings.extend(page_listings)
 
             if seen_checker is not None:
@@ -178,7 +182,7 @@ class BezrealitkyParser(Parser):
         estate_types: list[str],
         limit: int,
         offset: int,
-    ) -> dict:
+    ) -> dict[str, Any]:
         variables = {
             "regionOsmIds": [region_id],
             "offerType": ["PRONAJEM"],
@@ -207,9 +211,10 @@ class BezrealitkyParser(Parser):
         if "errors" in data:
             raise RuntimeError(f"GraphQL errors: {data['errors']}")
 
-        return data["data"]["listAdverts"]
+        result: dict[str, Any] = data["data"]["listAdverts"]
+        return result
 
-    def _parse_advert(self, raw: dict, city: City) -> Listing | None:
+    def _parse_advert(self, raw: dict[str, Any], city: City) -> Listing | None:
         advert_id = raw.get("id")
         if not advert_id:
             return None
@@ -225,7 +230,10 @@ class BezrealitkyParser(Parser):
         photo = main_image.get("url", "")
 
         disposition_raw = raw.get("disposition")
-        rooms = DISPOSITION_MAP.get(disposition_raw, disposition_raw)
+        if disposition_raw is None:
+            rooms = None
+        else:
+            rooms = DISPOSITION_MAP.get(str(disposition_raw), str(disposition_raw))
         if rooms in (None, "UNDEFINED", ""):
             rooms = None
 

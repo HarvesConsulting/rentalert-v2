@@ -88,6 +88,15 @@
     "currency": "£",
     "free": false,
     "price_stars": 150
+  } ,
+  "at": {
+    "code": "at",
+    "name": "🇦🇹 Австрія",
+    "name_en": "Austria",
+    "language": "de",
+    "currency": "€",
+    "free": false,
+    "price_stars": 150
   }
 
 }

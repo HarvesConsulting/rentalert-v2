@@ -159,5 +159,21 @@
     "enabled_by_default": true,
     "categories": ["apartment", "house", "room"],
     "config": {}
+  },
+    "willhaben": {
+    "key": "willhaben",
+    "country": "at",
+    "name": "Willhaben",
+    "icon": "🇦🇹",
+    "kind": "willhaben",
+    "base_url": "https://www.willhaben.at",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house"],
+    "config": {
+      "category_urls": {
+        "apartment": "iad/immobilien/mietwohnungen",
+        "house": "iad/immobilien/haus-mieten"
+      }
+    }
   }
 }

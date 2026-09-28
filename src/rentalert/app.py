@@ -552,6 +552,52 @@ def debug_sources() -> Any:
 
     return jsonify(results)
 
+@app.route("/api/debug/willhaben")
+def debug_willhaben() -> Any:
+    """Тимчасово: перевірити Willhaben з Render."""
+    from curl_cffi import requests as cffi_requests
+
+    url = "https://www.willhaben.at/iad/immobilien/mietwohnungen/wien"
+
+    try:
+        r = cffi_requests.get(
+            url,
+            impersonate="chrome",
+            timeout=30,
+        )
+    except Exception as e:
+        return jsonify({"error": str(e)})
+
+    size = len(r.text)
+    has_next = "__NEXT_DATA__" in r.text
+    has_block = "IP-адресу заблоковано" in r.text or "blocked" in r.text.lower()
+
+    rows_found = None
+    if has_next:
+        import json as _json
+
+        try:
+            idx = r.text.find("__NEXT_DATA__")
+            start = r.text.find(">", idx) + 1
+            end = r.text.find("</script>", start)
+            data = _json.loads(r.text[start:end])
+            rows_found = (
+                data.get("props", {})
+                .get("pageProps", {})
+                .get("searchResult", {})
+                .get("rowsFound")
+            )
+        except Exception as e:
+            rows_found = f"error: {e}"
+
+    return jsonify({
+        "url": url,
+        "status": r.status_code,
+        "size": size,
+        "has_next_data": has_next,
+        "blocked": has_block,
+        "rows_found": rows_found,
+    })
 
 @app.route("/api/users")
 def api_users() -> Any:

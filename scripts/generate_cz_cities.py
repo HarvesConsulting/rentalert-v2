@@ -11,7 +11,6 @@ from __future__ import annotations
 import json
 import time
 from pathlib import Path
-from typing import Any
 
 import requests
 
@@ -59,16 +58,56 @@ def main():
     # Повний список можна взяти з https://www.csu.gov.cz/
     city_names = [
         # 50 найбільших (за ČSÚ 2024)
-        "Praha", "Brno", "Ostrava", "Plzeň", "Liberec", "Olomouc",
-        "České Budějovice", "Hradec Králové", "Pardubice", "Ústí nad Labem",
-        "Zlín", "Kladno", "Havířov", "Most", "Opava", "Frýdek-Místek",
-        "Jihlava", "Teplice", "Karviná", "Děčín", "Chomutov", "Karlovy Vary",
-        "Jablonec nad Nisou", "Mladá Boleslav", "Prostějov", "Přerov",
-        "Česká Lípa", "Třebíč", "Tábor", "Znojmo", "Příbram", "Cheb",
-        "Kolín", "Trutnov", "Kroměříž", "Šumperk", "Vsetín",
-        "Valašské Meziříčí", "Litoměřice", "Havlíčkův Brod", "Hodonín",
-        "Český Těšín", "Krnov", "Litvínov", "Jindřichův Hradec", "Vyškov",
-        "Blansko", "Břeclav", "Žatec", "Louny",
+        "Praha",
+        "Brno",
+        "Ostrava",
+        "Plzeň",
+        "Liberec",
+        "Olomouc",
+        "České Budějovice",
+        "Hradec Králové",
+        "Pardubice",
+        "Ústí nad Labem",
+        "Zlín",
+        "Kladno",
+        "Havířov",
+        "Most",
+        "Opava",
+        "Frýdek-Místek",
+        "Jihlava",
+        "Teplice",
+        "Karviná",
+        "Děčín",
+        "Chomutov",
+        "Karlovy Vary",
+        "Jablonec nad Nisou",
+        "Mladá Boleslav",
+        "Prostějov",
+        "Přerov",
+        "Česká Lípa",
+        "Třebíč",
+        "Tábor",
+        "Znojmo",
+        "Příbram",
+        "Cheb",
+        "Kolín",
+        "Trutnov",
+        "Kroměříž",
+        "Šumperk",
+        "Vsetín",
+        "Valašské Meziříčí",
+        "Litoměřice",
+        "Havlíčkův Brod",
+        "Hodonín",
+        "Český Těšín",
+        "Krnov",
+        "Litvínov",
+        "Jindřichův Hradec",
+        "Vyškov",
+        "Blansko",
+        "Břeclav",
+        "Žatec",
+        "Louny",
         # Додайте решту міст сюди вручну або завантажте з CSV
     ]
 
@@ -77,19 +116,31 @@ def main():
         print(f"[{i}/{len(city_names)}] {name}...", end=" ")
         info = search_city(name)
         if info:
-            cities.append({
-                "slug": name.lower()
+            cities.append(
+                {
+                    "slug": name.lower()
                     .replace(" ", "-")
-                    .replace("á", "a").replace("č", "c").replace("ď", "d")
-                    .replace("é", "e").replace("ě", "e").replace("í", "i")
-                    .replace("ň", "n").replace("ó", "o").replace("ř", "r")
-                    .replace("š", "s").replace("ť", "t").replace("ú", "u")
-                    .replace("ů", "u").replace("ý", "y").replace("ž", "z"),
-                "name": info["name"],
-                "region": "",  # буде порожнім, заповнимо окремо
-                "priority": i <= 10,
-                "refs": {"bezrealitky": info["osm_id"]},
-            })
+                    .replace("á", "a")
+                    .replace("č", "c")
+                    .replace("ď", "d")
+                    .replace("é", "e")
+                    .replace("ě", "e")
+                    .replace("í", "i")
+                    .replace("ň", "n")
+                    .replace("ó", "o")
+                    .replace("ř", "r")
+                    .replace("š", "s")
+                    .replace("ť", "t")
+                    .replace("ú", "u")
+                    .replace("ů", "u")
+                    .replace("ý", "y")
+                    .replace("ž", "z"),
+                    "name": info["name"],
+                    "region": "",  # буде порожнім, заповнимо окремо
+                    "priority": i <= 10,
+                    "refs": {"bezrealitky": info["osm_id"]},
+                }
+            )
             print(f"✅ {info['osm_id']}")
         else:
             print("❌")

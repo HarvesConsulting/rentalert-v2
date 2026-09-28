@@ -10,8 +10,8 @@
 from __future__ import annotations
 
 import json
-import time
 import re
+import time
 from pathlib import Path
 
 import requests
@@ -19,8 +19,8 @@ import requests
 # Список публічних дзеркал Overpass API (від найшвидшого до основного)
 OVERPASS_ENDPOINTS = [
     "https://overpass.private.coffee/api/interpreter",  # Менш відоме, частіше вільне
-    "https://overpass-api.de/api/interpreter",           # Офіційне, може бути зайняте
-    "https://overpass.kumi.systems/api/interpreter",     # Резервне
+    "https://overpass-api.de/api/interpreter",  # Офіційне, може бути зайняте
+    "https://overpass.kumi.systems/api/interpreter",  # Резервне
 ]
 
 QUERY = """
@@ -38,10 +38,7 @@ OUTPUT_PATH = Path("data/raw/cz_overpass_cities.json")
 def _slugify(name: str) -> str:
     """Створює URL-friendly slug з чеської назви."""
     # Транслітерація чеських діакритиків
-    translation = str.maketrans(
-        "áčďéěíňóřšťúůýžÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ",
-        "acdeeinorstuuyzACDEEINORSTUUYZ"
-    )
+    translation = str.maketrans("áčďéěíňóřšťúůýžÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ", "acdeeinorstuuyzACDEEINORSTUUYZ")
     name = name.translate(translation).lower()
     return re.sub(r"[^a-z0-9]+", "-", name).strip("-")
 
@@ -76,9 +73,7 @@ def fetch_cities() -> list[dict]:
             print(f"   ❌ Помилка: {e}")
             time.sleep(5)  # Пауза перед наступним сервером
 
-    raise RuntimeError(
-        f"Усі сервери Overpass не відповіли. Остання помилка: {last_error}"
-    )
+    raise RuntimeError(f"Усі сервери Overpass не відповіли. Остання помилка: {last_error}")
 
 
 def main() -> None:
@@ -91,15 +86,15 @@ def main() -> None:
         if not name:
             continue
 
-        cities.append({
-            "slug": _slugify(name),
-            "name": name,
-            "region": tags.get("addr:region", ""),
-            "priority": False,
-            "refs": {
-                "bezrealitky": f"R{el['id']}"
-            },
-        })
+        cities.append(
+            {
+                "slug": _slugify(name),
+                "name": name,
+                "region": tags.get("addr:region", ""),
+                "priority": False,
+                "refs": {"bezrealitky": f"R{el['id']}"},
+            }
+        )
 
     # Сортуємо за назвою
     cities.sort(key=lambda c: c["name"])

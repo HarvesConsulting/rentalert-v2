@@ -51,6 +51,7 @@ def test_registry_has_all_sources() -> None:
         "bienici",
         "openrent",
         "willhaben",
+        "bezrealitky",
     }
     assert set(keys) == expected
 

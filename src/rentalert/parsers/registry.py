@@ -27,6 +27,7 @@ def _register_parser_classes() -> None:
     if _PARSER_BY_KIND:
         return
 
+    from rentalert.parsers.bezrealitky import BezrealitkyParser
     from rentalert.parsers.bienici import BienIciParser
     from rentalert.parsers.dimria import DimriaParser
     from rentalert.parsers.habitaclia import HabitacliaParser
@@ -35,7 +36,6 @@ def _register_parser_classes() -> None:
     from rentalert.parsers.olx import OLXParser
     from rentalert.parsers.openrent import OpenRentParser
     from rentalert.parsers.willhaben import WillhabenParser
-    from rentalert.parsers.bezrealitky import BezrealitkyParser
 
     _PARSER_BY_KIND = {
         "olx": OLXParser,

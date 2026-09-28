@@ -4,8 +4,8 @@ from pathlib import Path
 
 from rentalert import config
 from rentalert.catalog.catalog import Catalog
-from rentalert.db.client import TursoClient
 from rentalert.db import queries as db
+from rentalert.db.client import TursoClient
 from rentalert.parsers.registry import build_registry
 from rentalert.services.aggregator import fetch_city_now
 
@@ -31,7 +31,7 @@ def main() -> None:
     print(f"✅ Отримано і збережено: {len(listings)} оголошень")
 
     if listings:
-        print(f"\n   Приклад:")
+        print("\n   Приклад:")
         first = listings[0]
         print(f"   ID:       {first.id}")
         print(f"   Title:    {first.title}")

@@ -4,7 +4,7 @@ import inspect
 from pathlib import Path
 
 from rentalert.catalog.catalog import Catalog
-from rentalert.parsers.registry import build_registry, PARSER_REGISTRY
+from rentalert.parsers.registry import PARSER_REGISTRY, build_registry
 
 
 def main() -> None:

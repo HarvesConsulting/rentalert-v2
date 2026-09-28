@@ -4,8 +4,8 @@ from pathlib import Path
 
 from rentalert import config
 from rentalert.catalog.catalog import Catalog
-from rentalert.db.client import TursoClient
 from rentalert.db import queries as db
+from rentalert.db.client import TursoClient
 from rentalert.parsers.registry import build_registry
 from rentalert.services.aggregator import run_aggregation_cycle
 
@@ -36,7 +36,7 @@ def main() -> None:
         recent_hours=24,
     )
     print()
-    print(f"✅ Статистика:")
+    print("✅ Статистика:")
     print(f"   pairs_checked:    {stats.pairs_checked}")
     print(f"   listings_fetched: {stats.listings_fetched}")
     print(f"   listings_new:     {stats.listings_new}")

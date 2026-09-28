@@ -364,7 +364,7 @@
     {
       "slug": "brno",
       "name": "Brno",
-      "region": "",
+      "region": "Jihomoravský kraj",
       "priority": true,
       "refs": {
         "bezrealitky": "442311"
@@ -1696,7 +1696,7 @@
     {
       "slug": "hradec-kralove",
       "name": "Hradec Králové",
-      "region": "",
+      "region": "Královéhradecký kraj",
       "priority": true,
       "refs": {
         "bezrealitky": "442463"
@@ -2902,7 +2902,7 @@
     {
       "slug": "liberec",
       "name": "Liberec",
-      "region": "",
+      "region": "Liberecký kraj",
       "priority": true,
       "refs": {
         "bezrealitky": "442455"
@@ -4189,7 +4189,7 @@
     {
       "slug": "olomouc",
       "name": "Olomouc",
-      "region": "",
+      "region": "Olomoucký kraj",
       "priority": true,
       "refs": {
         "bezrealitky": "442459"
@@ -4270,7 +4270,7 @@
     {
       "slug": "ostrava",
       "name": "Ostrava",
-      "region": "",
+      "region": "Moravskoslezský kraj",
       "priority": true,
       "refs": {
         "bezrealitky": "442461"
@@ -4351,7 +4351,7 @@
     {
       "slug": "pardubice",
       "name": "Pardubice",
-      "region": "",
+      "region": "Pardubický kraj",
       "priority": true,
       "refs": {
         "bezrealitky": "442460"
@@ -4495,7 +4495,7 @@
     {
       "slug": "plzen",
       "name": "Plzeň",
-      "region": "",
+      "region": "Plzeňský kraj",
       "priority": true,
       "refs": {
         "bezrealitky": "442466"
@@ -6826,7 +6826,7 @@
     {
       "slug": "usti-nad-labem",
       "name": "Ústí nad Labem",
-      "region": "",
+      "region": "Ústecký kraj",
       "priority": true,
       "refs": {
         "bezrealitky": "442452"
@@ -7024,7 +7024,7 @@
     {
       "slug": "ceske-budejovice",
       "name": "České Budějovice",
-      "region": "",
+      "region": "Jihočeský kraj",
       "priority": true,
       "refs": {
         "bezrealitky": "442321"

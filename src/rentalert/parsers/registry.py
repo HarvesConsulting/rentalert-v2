@@ -35,6 +35,7 @@ def _register_parser_classes() -> None:
     from rentalert.parsers.olx import OLXParser
     from rentalert.parsers.openrent import OpenRentParser
     from rentalert.parsers.willhaben import WillhabenParser
+    from rentalert.parsers.bezrealitky import BezrealitkyParser
 
     _PARSER_BY_KIND = {
         "olx": OLXParser,
@@ -45,6 +46,7 @@ def _register_parser_classes() -> None:
         "bienici": BienIciParser,
         "openrent": OpenRentParser,
         "willhaben": WillhabenParser,
+        "bezrealitky": BezrealitkyParser,
     }
 
 

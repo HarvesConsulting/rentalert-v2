@@ -160,7 +160,7 @@
     "categories": ["apartment", "house", "room"],
     "config": {}
   },
-    "willhaben": {
+     "willhaben": {
     "key": "willhaben",
     "country": "at",
     "name": "Willhaben",
@@ -173,6 +173,22 @@
       "category_urls": {
         "apartment": "iad/immobilien/mietwohnungen",
         "house": "iad/immobilien/haus-mieten"
+      }
+    }
+  },
+  "bezrealitky": {
+    "key": "bezrealitky",
+    "country": "cz",
+    "name": "Bezrealitky",
+    "icon": "🇨🇿",
+    "kind": "bezrealitky",
+    "base_url": "https://www.bezrealitky.cz",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house"],
+    "config": {
+      "estate_types": {
+        "apartment": "BYT",
+        "house": "DUM"
       }
     }
   }

@@ -1,0 +1,7484 @@
+{
+  "country": "cz",
+  "cities": [
+    {
+      "slug": "abertamy",
+      "name": "Abertamy",
+      "region": "",
+      "priority": true,
+      "refs": {
+        "bezrealitky": "R439483"
+      }
+    },
+    {
+      "slug": "adamov",
+      "name": "Adamov",
+      "region": "",
+      "priority": true,
+      "refs": {
+        "bezrealitky": "R442566"
+      }
+    },
+    {
+      "slug": "andelska-hora",
+      "name": "Andělská Hora",
+      "region": "",
+      "priority": true,
+      "refs": {
+        "bezrealitky": "R439386"
+      }
+    },
+    {
+      "slug": "as",
+      "name": "Aš",
+      "region": "",
+      "priority": true,
+      "refs": {
+        "bezrealitky": "R439457"
+      }
+    },
+    {
+      "slug": "bakov-nad-jizerou",
+      "name": "Bakov nad Jizerou",
+      "region": "",
+      "priority": true,
+      "refs": {
+        "bezrealitky": "R437557"
+      }
+    },
+    {
+      "slug": "batelov",
+      "name": "Batelov",
+      "region": "",
+      "priority": true,
+      "refs": {
+        "bezrealitky": "R440426"
+      }
+    },
+    {
+      "slug": "bavorov",
+      "name": "Bavorov",
+      "region": "",
+      "priority": true,
+      "refs": {
+        "bezrealitky": "R438811"
+      }
+    },
+    {
+      "slug": "bechyne",
+      "name": "Bechyně",
+      "region": "",
+      "priority": true,
+      "refs": {
+        "bezrealitky": "R438670"
+      }
+    },
+    {
+      "slug": "benesov",
+      "name": "Benešov",
+      "region": "",
+      "priority": true,
+      "refs": {
+        "bezrealitky": "R440764"
+      }
+    },
+    {
+      "slug": "benesov-nad-ploucnici",
+      "name": "Benešov nad Ploučnicí",
+      "region": "",
+      "priority": true,
+      "refs": {
+        "bezrealitky": "R439573"
+      }
+    },
+    {
+      "slug": "benatky-nad-jizerou",
+      "name": "Benátky nad Jizerou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436084"
+      }
+    },
+    {
+      "slug": "bernartice",
+      "name": "Bernartice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437517"
+      }
+    },
+    {
+      "slug": "beroun",
+      "name": "Beroun",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442333"
+      }
+    },
+    {
+      "slug": "besednice",
+      "name": "Besednice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438505"
+      }
+    },
+    {
+      "slug": "bezdruzice",
+      "name": "Bezdružice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438870"
+      }
+    },
+    {
+      "slug": "bezno",
+      "name": "Bezno",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437538"
+      }
+    },
+    {
+      "slug": "becov-nad-teplou",
+      "name": "Bečov nad Teplou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439489"
+      }
+    },
+    {
+      "slug": "blansko",
+      "name": "Blansko",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441780"
+      }
+    },
+    {
+      "slug": "blatna",
+      "name": "Blatná",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438799"
+      }
+    },
+    {
+      "slug": "blovice",
+      "name": "Blovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438161"
+      }
+    },
+    {
+      "slug": "blizkovice",
+      "name": "Blížkovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437047"
+      }
+    },
+    {
+      "slug": "blsany",
+      "name": "Blšany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439362"
+      }
+    },
+    {
+      "slug": "bobrova",
+      "name": "Bobrová",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R428062"
+      }
+    },
+    {
+      "slug": "bochov",
+      "name": "Bochov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439490"
+      }
+    },
+    {
+      "slug": "bohdalov",
+      "name": "Bohdalov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441720"
+      }
+    },
+    {
+      "slug": "bohumin",
+      "name": "Bohumín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436990"
+      }
+    },
+    {
+      "slug": "bohusovice-nad-ohri",
+      "name": "Bohušovice nad Ohří",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439668"
+      }
+    },
+    {
+      "slug": "bojanov",
+      "name": "Bojanov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439960"
+      }
+    },
+    {
+      "slug": "bojkovice",
+      "name": "Bojkovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437503"
+      }
+    },
+    {
+      "slug": "boleradice",
+      "name": "Boleradice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441592"
+      }
+    },
+    {
+      "slug": "bor",
+      "name": "Bor",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438869"
+      }
+    },
+    {
+      "slug": "borohradek",
+      "name": "Borohrádek",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439903"
+      }
+    },
+    {
+      "slug": "borotin",
+      "name": "Borotín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436499"
+      }
+    },
+    {
+      "slug": "borovany",
+      "name": "Borovany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437840"
+      }
+    },
+    {
+      "slug": "boskovice",
+      "name": "Boskovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438114"
+      }
+    },
+    {
+      "slug": "bozejov",
+      "name": "Božejov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441091"
+      }
+    },
+    {
+      "slug": "bozi-dar",
+      "name": "Boží Dar",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439451"
+      }
+    },
+    {
+      "slug": "brandys-nad-labem-stara-boleslav",
+      "name": "Brandýs nad Labem-Stará Boleslav",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436110"
+      }
+    },
+    {
+      "slug": "brandys-nad-orlici",
+      "name": "Brandýs nad Orlicí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441209"
+      }
+    },
+    {
+      "slug": "brankovice",
+      "name": "Brankovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440728"
+      }
+    },
+    {
+      "slug": "brno",
+      "name": "Brno",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438171"
+      }
+    },
+    {
+      "slug": "brodce",
+      "name": "Brodce",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437545"
+      }
+    },
+    {
+      "slug": "brodek-u-prostejova",
+      "name": "Brodek u Prostějova",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438637"
+      }
+    },
+    {
+      "slug": "brodek-u-prerova",
+      "name": "Brodek u Přerova",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438566"
+      }
+    },
+    {
+      "slug": "broumov",
+      "name": "Broumov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440653"
+      }
+    },
+    {
+      "slug": "brozany-nad-ohri",
+      "name": "Brozany nad Ohří",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439674"
+      }
+    },
+    {
+      "slug": "brtnice",
+      "name": "Brtnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440420"
+      }
+    },
+    {
+      "slug": "brumov-bylnice",
+      "name": "Brumov-Bylnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R435554"
+      }
+    },
+    {
+      "slug": "bruntal",
+      "name": "Bruntál",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436977"
+      }
+    },
+    {
+      "slug": "brusperk",
+      "name": "Brušperk",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437869"
+      }
+    },
+    {
+      "slug": "buchlovice",
+      "name": "Buchlovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437512"
+      }
+    },
+    {
+      "slug": "budisov",
+      "name": "Budišov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442139"
+      }
+    },
+    {
+      "slug": "budisov-nad-budisovkou",
+      "name": "Budišov nad Budišovkou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437588"
+      }
+    },
+    {
+      "slug": "budyne-nad-ohri",
+      "name": "Budyně nad Ohří",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439626"
+      }
+    },
+    {
+      "slug": "bucovice",
+      "name": "Bučovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440734"
+      }
+    },
+    {
+      "slug": "bustehrad",
+      "name": "Buštěhrad",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440963"
+      }
+    },
+    {
+      "slug": "bystre",
+      "name": "Bystré",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436705"
+      }
+    },
+    {
+      "slug": "bystrice",
+      "name": "Bystřice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440778"
+      }
+    },
+    {
+      "slug": "bystrice-nad-pernstejnem",
+      "name": "Bystřice nad Pernštejnem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441693"
+      }
+    },
+    {
+      "slug": "bystrice-pod-hostynem",
+      "name": "Bystřice pod Hostýnem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437702"
+      }
+    },
+    {
+      "slug": "bzenec",
+      "name": "Bzenec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441143"
+      }
+    },
+    {
+      "slug": "bilina",
+      "name": "Bílina",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439352"
+      }
+    },
+    {
+      "slug": "bilovec",
+      "name": "Bílovec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436987"
+      }
+    },
+    {
+      "slug": "bile-podoli",
+      "name": "Bílé Podolí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441803"
+      }
+    },
+    {
+      "slug": "beharovice",
+      "name": "Běhařovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437210"
+      }
+    },
+    {
+      "slug": "bela-nad-radbuzou",
+      "name": "Bělá nad Radbuzou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439263"
+      }
+    },
+    {
+      "slug": "bela-pod-bezdezem",
+      "name": "Bělá pod Bezdězem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437528"
+      }
+    },
+    {
+      "slug": "belcice",
+      "name": "Bělčice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438813"
+      }
+    },
+    {
+      "slug": "breclav",
+      "name": "Břeclav",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441590"
+      }
+    },
+    {
+      "slug": "breznice",
+      "name": "Březnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442481"
+      }
+    },
+    {
+      "slug": "brezno",
+      "name": "Březno",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437578"
+      }
+    },
+    {
+      "slug": "brezova",
+      "name": "Březová",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439499"
+      }
+    },
+    {
+      "slug": "brezova-nad-svitavou",
+      "name": "Březová nad Svitavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440290"
+      }
+    },
+    {
+      "slug": "bridlicna",
+      "name": "Břidličná",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439389"
+      }
+    },
+    {
+      "slug": "cerhenice",
+      "name": "Cerhenice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441309"
+      }
+    },
+    {
+      "slug": "cerhovice",
+      "name": "Cerhovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442331"
+      }
+    },
+    {
+      "slug": "chabarovice",
+      "name": "Chabařovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440171"
+      }
+    },
+    {
+      "slug": "cheb",
+      "name": "Cheb",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439454"
+      }
+    },
+    {
+      "slug": "chlum-u-trebone",
+      "name": "Chlum u Třeboně",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437414"
+      }
+    },
+    {
+      "slug": "chlumec",
+      "name": "Chlumec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440268"
+      }
+    },
+    {
+      "slug": "chlumec-nad-cidlinou",
+      "name": "Chlumec nad Cidlinou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439247"
+      }
+    },
+    {
+      "slug": "chocen",
+      "name": "Choceň",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440350"
+      }
+    },
+    {
+      "slug": "chodov",
+      "name": "Chodov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439557"
+      }
+    },
+    {
+      "slug": "chodova-plana",
+      "name": "Chodová Planá",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438861"
+      }
+    },
+    {
+      "slug": "choltice",
+      "name": "Choltice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440342"
+      }
+    },
+    {
+      "slug": "chomutov",
+      "name": "Chomutov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436939"
+      }
+    },
+    {
+      "slug": "chotebor",
+      "name": "Chotěboř",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440712"
+      }
+    },
+    {
+      "slug": "chotetov",
+      "name": "Chotětov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437561"
+      }
+    },
+    {
+      "slug": "chrast",
+      "name": "Chrast",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439988"
+      }
+    },
+    {
+      "slug": "chrastava",
+      "name": "Chrastava",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436608"
+      }
+    },
+    {
+      "slug": "chropyne",
+      "name": "Chropyně",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437408"
+      }
+    },
+    {
+      "slug": "chroustovice",
+      "name": "Chroustovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439994"
+      }
+    },
+    {
+      "slug": "chrudim",
+      "name": "Chrudim",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439959"
+      }
+    },
+    {
+      "slug": "chudenice",
+      "name": "Chudenice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439252"
+      }
+    },
+    {
+      "slug": "chvaletice",
+      "name": "Chvaletice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440323"
+      }
+    },
+    {
+      "slug": "chyse",
+      "name": "Chyše",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439474"
+      }
+    },
+    {
+      "slug": "chynov",
+      "name": "Chýnov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438754"
+      }
+    },
+    {
+      "slug": "chribska",
+      "name": "Chřibská",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439552"
+      }
+    },
+    {
+      "slug": "cvikov",
+      "name": "Cvikov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440203"
+      }
+    },
+    {
+      "slug": "citoliby",
+      "name": "Cítoliby",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439273"
+      }
+    },
+    {
+      "slug": "dalesice",
+      "name": "Dalešice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442603"
+      }
+    },
+    {
+      "slug": "davle",
+      "name": "Davle",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442240"
+      }
+    },
+    {
+      "slug": "dacice",
+      "name": "Dačice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437440"
+      }
+    },
+    {
+      "slug": "dasice",
+      "name": "Dašice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440121"
+      }
+    },
+    {
+      "slug": "deblin",
+      "name": "Deblín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442026"
+      }
+    },
+    {
+      "slug": "desna",
+      "name": "Desná",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436602"
+      }
+    },
+    {
+      "slug": "desenice",
+      "name": "Dešenice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439235"
+      }
+    },
+    {
+      "slug": "destna",
+      "name": "Deštná",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437429"
+      }
+    },
+    {
+      "slug": "divisov",
+      "name": "Divišov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440740"
+      }
+    },
+    {
+      "slug": "dobrovice",
+      "name": "Dobrovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437701"
+      }
+    },
+    {
+      "slug": "dobruska",
+      "name": "Dobruška",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440632"
+      }
+    },
+    {
+      "slug": "dobrany",
+      "name": "Dobřany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438168"
+      }
+    },
+    {
+      "slug": "dobrichovice",
+      "name": "Dobřichovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442229"
+      }
+    },
+    {
+      "slug": "dobris",
+      "name": "Dobříš",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441424"
+      }
+    },
+    {
+      "slug": "doksy",
+      "name": "Doksy",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436584"
+      }
+    },
+    {
+      "slug": "dolni-benesov",
+      "name": "Dolní Benešov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437589"
+      }
+    },
+    {
+      "slug": "dolni-bousov",
+      "name": "Dolní Bousov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437576"
+      }
+    },
+    {
+      "slug": "dolni-bukovsko",
+      "name": "Dolní Bukovsko",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437822"
+      }
+    },
+    {
+      "slug": "dolni-cerekev",
+      "name": "Dolní Cerekev",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440413"
+      }
+    },
+    {
+      "slug": "dolni-kounice",
+      "name": "Dolní Kounice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442025"
+      }
+    },
+    {
+      "slug": "dolni-poustevna",
+      "name": "Dolní Poustevna",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439584"
+      }
+    },
+    {
+      "slug": "dolni-cermna",
+      "name": "Dolní Čermná",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440353"
+      }
+    },
+    {
+      "slug": "domazlice",
+      "name": "Domažlice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438629"
+      }
+    },
+    {
+      "slug": "doubravice-nad-svitavou",
+      "name": "Doubravice nad Svitavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438100"
+      }
+    },
+    {
+      "slug": "doubravnik",
+      "name": "Doubravník",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441701"
+      }
+    },
+    {
+      "slug": "doudleby-nad-orlici",
+      "name": "Doudleby nad Orlicí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440612"
+      }
+    },
+    {
+      "slug": "drahany",
+      "name": "Drahany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438592"
+      }
+    },
+    {
+      "slug": "drnholec",
+      "name": "Drnholec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441574"
+      }
+    },
+    {
+      "slug": "drasov",
+      "name": "Drásov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442488"
+      }
+    },
+    {
+      "slug": "dub",
+      "name": "Dub",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436480"
+      }
+    },
+    {
+      "slug": "dub-nad-moravou",
+      "name": "Dub nad Moravou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438687"
+      }
+    },
+    {
+      "slug": "duba",
+      "name": "Dubá",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440204"
+      }
+    },
+    {
+      "slug": "dubi",
+      "name": "Dubí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439348"
+      }
+    },
+    {
+      "slug": "dubnany",
+      "name": "Dubňany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441148"
+      }
+    },
+    {
+      "slug": "duchcov",
+      "name": "Duchcov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439349"
+      }
+    },
+    {
+      "slug": "dvur-kralove-nad-labem",
+      "name": "Dvůr Králové nad Labem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440162"
+      }
+    },
+    {
+      "slug": "decin",
+      "name": "Děčín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439579"
+      }
+    },
+    {
+      "slug": "drevohostice",
+      "name": "Dřevohostice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438585"
+      }
+    },
+    {
+      "slug": "frantiskovy-lazne",
+      "name": "Františkovy Lázně",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439479"
+      }
+    },
+    {
+      "slug": "frenstat-pod-radhostem",
+      "name": "Frenštát pod Radhoštěm",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437537"
+      }
+    },
+    {
+      "slug": "frymburk",
+      "name": "Frymburk",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438516"
+      }
+    },
+    {
+      "slug": "frystak",
+      "name": "Fryšták",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440759"
+      }
+    },
+    {
+      "slug": "frydek-mistek",
+      "name": "Frýdek-Místek",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436980"
+      }
+    },
+    {
+      "slug": "frydlant",
+      "name": "Frýdlant",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439060"
+      }
+    },
+    {
+      "slug": "frydlant-nad-ostravici",
+      "name": "Frýdlant nad Ostravicí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437876"
+      }
+    },
+    {
+      "slug": "fulnek",
+      "name": "Fulnek",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437569"
+      }
+    },
+    {
+      "slug": "golcuv-jenikov",
+      "name": "Golčův Jeníkov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440525"
+      }
+    },
+    {
+      "slug": "habartov",
+      "name": "Habartov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439501"
+      }
+    },
+    {
+      "slug": "habry",
+      "name": "Habry",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440714"
+      }
+    },
+    {
+      "slug": "hanusovice",
+      "name": "Hanušovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438323"
+      }
+    },
+    {
+      "slug": "harrachov",
+      "name": "Harrachov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439012"
+      }
+    },
+    {
+      "slug": "hartmanice",
+      "name": "Hartmanice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436199"
+      }
+    },
+    {
+      "slug": "havlickova-borova",
+      "name": "Havlíčkova Borová",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440715"
+      }
+    },
+    {
+      "slug": "havlickuv-brod",
+      "name": "Havlíčkův Brod",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440699"
+      }
+    },
+    {
+      "slug": "havirov",
+      "name": "Havířov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436995"
+      }
+    },
+    {
+      "slug": "hejnice",
+      "name": "Hejnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439065"
+      }
+    },
+    {
+      "slug": "heraltice",
+      "name": "Heraltice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442124"
+      }
+    },
+    {
+      "slug": "hermanuv-mestec",
+      "name": "Heřmanův Městec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439953"
+      }
+    },
+    {
+      "slug": "hlinsko",
+      "name": "Hlinsko",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439995"
+      }
+    },
+    {
+      "slug": "hluboka-nad-vltavou",
+      "name": "Hluboká nad Vltavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437812"
+      }
+    },
+    {
+      "slug": "hluk",
+      "name": "Hluk",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437522"
+      }
+    },
+    {
+      "slug": "hlucin",
+      "name": "Hlučín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437592"
+      }
+    },
+    {
+      "slug": "hodkovice-nad-mohelkou",
+      "name": "Hodkovice nad Mohelkou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438995"
+      }
+    },
+    {
+      "slug": "hodonin",
+      "name": "Hodonín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442526"
+      }
+    },
+    {
+      "slug": "holany",
+      "name": "Holany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440179"
+      }
+    },
+    {
+      "slug": "holesov",
+      "name": "Holešov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437409"
+      }
+    },
+    {
+      "slug": "holice",
+      "name": "Holice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436725"
+      }
+    },
+    {
+      "slug": "holysov",
+      "name": "Holýšov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439251"
+      }
+    },
+    {
+      "slug": "hora-svate-kateriny",
+      "name": "Hora Svaté Kateřiny",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439320"
+      }
+    },
+    {
+      "slug": "horazdovice",
+      "name": "Horažďovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439218"
+      }
+    },
+    {
+      "slug": "horni-benesov",
+      "name": "Horní Benešov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439373"
+      }
+    },
+    {
+      "slug": "horni-blatna",
+      "name": "Horní Blatná",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439487"
+      }
+    },
+    {
+      "slug": "horni-briza",
+      "name": "Horní Bříza",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439738"
+      }
+    },
+    {
+      "slug": "horni-cerekev",
+      "name": "Horní Cerekev",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441079"
+      }
+    },
+    {
+      "slug": "horni-jeleni",
+      "name": "Horní Jelení",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440332"
+      }
+    },
+    {
+      "slug": "horni-jiretin",
+      "name": "Horní Jiřetín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439321"
+      }
+    },
+    {
+      "slug": "horni-plana",
+      "name": "Horní Planá",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438528"
+      }
+    },
+    {
+      "slug": "horni-slavkov",
+      "name": "Horní Slavkov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439502"
+      }
+    },
+    {
+      "slug": "horsovsky-tyn",
+      "name": "Horšovský Týn",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439172"
+      }
+    },
+    {
+      "slug": "hostinne",
+      "name": "Hostinné",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440238"
+      }
+    },
+    {
+      "slug": "hostivice",
+      "name": "Hostivice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442224"
+      }
+    },
+    {
+      "slug": "hostomice",
+      "name": "Hostomice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436153"
+      }
+    },
+    {
+      "slug": "hostomice-2",
+      "name": "Hostomice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436573"
+      }
+    },
+    {
+      "slug": "hostoun",
+      "name": "Hostouň",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436194"
+      }
+    },
+    {
+      "slug": "horice",
+      "name": "Hořice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440006"
+      }
+    },
+    {
+      "slug": "horice-na-sumave",
+      "name": "Hořice na Šumavě",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438532"
+      }
+    },
+    {
+      "slug": "horovice",
+      "name": "Hořovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442329"
+      }
+    },
+    {
+      "slug": "hostka",
+      "name": "Hoštka",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439631"
+      }
+    },
+    {
+      "slug": "hradec-kralove",
+      "name": "Hradec Králové",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439071"
+      }
+    },
+    {
+      "slug": "hradec-nad-moravici",
+      "name": "Hradec nad Moravicí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437637"
+      }
+    },
+    {
+      "slug": "hranice",
+      "name": "Hranice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438577"
+      }
+    },
+    {
+      "slug": "hranice-2",
+      "name": "Hranice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439466"
+      }
+    },
+    {
+      "slug": "hrob",
+      "name": "Hrob",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439331"
+      }
+    },
+    {
+      "slug": "hrochuv-tynec",
+      "name": "Hrochův Týnec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439946"
+      }
+    },
+    {
+      "slug": "hronov",
+      "name": "Hronov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440683"
+      }
+    },
+    {
+      "slug": "hrotovice",
+      "name": "Hrotovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442153"
+      }
+    },
+    {
+      "slug": "hroznetin",
+      "name": "Hroznětín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439468"
+      }
+    },
+    {
+      "slug": "hrusovany-nad-jevisovkou",
+      "name": "Hrušovany nad Jevišovkou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437242"
+      }
+    },
+    {
+      "slug": "hradek",
+      "name": "Hrádek",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439827"
+      }
+    },
+    {
+      "slug": "hradek-nad-nisou",
+      "name": "Hrádek nad Nisou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438990"
+      }
+    },
+    {
+      "slug": "hulin",
+      "name": "Hulín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437391"
+      }
+    },
+    {
+      "slug": "humpolec",
+      "name": "Humpolec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441024"
+      }
+    },
+    {
+      "slug": "husinec",
+      "name": "Husinec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437227"
+      }
+    },
+    {
+      "slug": "hustopece",
+      "name": "Hustopeče",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436876"
+      }
+    },
+    {
+      "slug": "hustopece-nad-becvou",
+      "name": "Hustopeče nad Bečvou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438333"
+      }
+    },
+    {
+      "slug": "hvezdlice",
+      "name": "Hvězdlice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436878"
+      }
+    },
+    {
+      "slug": "ivanovice-na-hane",
+      "name": "Ivanovice na Hané",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441912"
+      }
+    },
+    {
+      "slug": "ivancice",
+      "name": "Ivančice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442061"
+      }
+    },
+    {
+      "slug": "jablonec-nad-jizerou",
+      "name": "Jablonec nad Jizerou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439142"
+      }
+    },
+    {
+      "slug": "jablonec-nad-nisou",
+      "name": "Jablonec nad Nisou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438931"
+      }
+    },
+    {
+      "slug": "jablonne-nad-orlici",
+      "name": "Jablonné nad Orlicí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440367"
+      }
+    },
+    {
+      "slug": "jablonne-v-podjestedi",
+      "name": "Jablonné v Podještědí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439066"
+      }
+    },
+    {
+      "slug": "jablunkov",
+      "name": "Jablunkov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437885"
+      }
+    },
+    {
+      "slug": "janov",
+      "name": "Janov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439378"
+      }
+    },
+    {
+      "slug": "janovice-nad-uhlavou",
+      "name": "Janovice nad Úhlavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439224"
+      }
+    },
+    {
+      "slug": "janske-lazne",
+      "name": "Janské Lázně",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440242"
+      }
+    },
+    {
+      "slug": "jaromer",
+      "name": "Jaroměř",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440640"
+      }
+    },
+    {
+      "slug": "jaromerice-nad-rokytnou",
+      "name": "Jaroměřice nad Rokytnou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442172"
+      }
+    },
+    {
+      "slug": "javornik",
+      "name": "Javorník",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437059"
+      }
+    },
+    {
+      "slug": "jedovnice",
+      "name": "Jedovnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441784"
+      }
+    },
+    {
+      "slug": "jemnice",
+      "name": "Jemnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442167"
+      }
+    },
+    {
+      "slug": "jesenice",
+      "name": "Jesenice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436644"
+      }
+    },
+    {
+      "slug": "jesenice-2",
+      "name": "Jesenice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436684"
+      }
+    },
+    {
+      "slug": "jesenik",
+      "name": "Jeseník",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438766"
+      }
+    },
+    {
+      "slug": "jevisovice",
+      "name": "Jevišovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437234"
+      }
+    },
+    {
+      "slug": "jevicko",
+      "name": "Jevíčko",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436647"
+      }
+    },
+    {
+      "slug": "jihlava",
+      "name": "Jihlava",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440427"
+      }
+    },
+    {
+      "slug": "jilemnice",
+      "name": "Jilemnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439145"
+      }
+    },
+    {
+      "slug": "jimramov",
+      "name": "Jimramov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441717"
+      }
+    },
+    {
+      "slug": "jince",
+      "name": "Jince",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441426"
+      }
+    },
+    {
+      "slug": "jindrichuv-hradec",
+      "name": "Jindřichův Hradec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438489"
+      }
+    },
+    {
+      "slug": "jirkov",
+      "name": "Jirkov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439594"
+      }
+    },
+    {
+      "slug": "jistebnice",
+      "name": "Jistebnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438752"
+      }
+    },
+    {
+      "slug": "jicin",
+      "name": "Jičín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439917"
+      }
+    },
+    {
+      "slug": "jirikov",
+      "name": "Jiříkov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439563"
+      }
+    },
+    {
+      "slug": "jachymov",
+      "name": "Jáchymov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439473"
+      }
+    },
+    {
+      "slug": "jilove",
+      "name": "Jílové",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436953"
+      }
+    },
+    {
+      "slug": "jilove-u-prahy",
+      "name": "Jílové u Prahy",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442259"
+      }
+    },
+    {
+      "slug": "kadan",
+      "name": "Kadaň",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439593"
+      }
+    },
+    {
+      "slug": "kamenice",
+      "name": "Kamenice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436756"
+      }
+    },
+    {
+      "slug": "kamenice-nad-lipou",
+      "name": "Kamenice nad Lipou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441027"
+      }
+    },
+    {
+      "slug": "kamenicky-senov",
+      "name": "Kamenický Šenov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440182"
+      }
+    },
+    {
+      "slug": "kaplice",
+      "name": "Kaplice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438536"
+      }
+    },
+    {
+      "slug": "kardasova-recice",
+      "name": "Kardašova Řečice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438416"
+      }
+    },
+    {
+      "slug": "karlovy-vary",
+      "name": "Karlovy Vary",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439482"
+      }
+    },
+    {
+      "slug": "karlstejn",
+      "name": "Karlštejn",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436155"
+      }
+    },
+    {
+      "slug": "karolinka",
+      "name": "Karolinka",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437084"
+      }
+    },
+    {
+      "slug": "karvina",
+      "name": "Karviná",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436994"
+      }
+    },
+    {
+      "slug": "kasejovice",
+      "name": "Kasejovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438155"
+      }
+    },
+    {
+      "slug": "katovice",
+      "name": "Katovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438008"
+      }
+    },
+    {
+      "slug": "kaznejov",
+      "name": "Kaznějov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439713"
+      }
+    },
+    {
+      "slug": "kasperske-hory",
+      "name": "Kašperské Hory",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438195"
+      }
+    },
+    {
+      "slug": "kdyne",
+      "name": "Kdyně",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439157"
+      }
+    },
+    {
+      "slug": "kelc",
+      "name": "Kelč",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437033"
+      }
+    },
+    {
+      "slug": "kladno",
+      "name": "Kladno",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440979"
+      }
+    },
+    {
+      "slug": "kladruby",
+      "name": "Kladruby",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438867"
+      }
+    },
+    {
+      "slug": "klatovy",
+      "name": "Klatovy",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438363"
+      }
+    },
+    {
+      "slug": "klecany",
+      "name": "Klecany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437165"
+      }
+    },
+    {
+      "slug": "klenci-pod-cerchovem",
+      "name": "Klenčí pod Čerchovem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439159"
+      }
+    },
+    {
+      "slug": "klimkovice",
+      "name": "Klimkovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437339"
+      }
+    },
+    {
+      "slug": "klobouky-u-brna",
+      "name": "Klobouky u Brna",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441334"
+      }
+    },
+    {
+      "slug": "klasterec-nad-ohri",
+      "name": "Klášterec nad Ohří",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439615"
+      }
+    },
+    {
+      "slug": "kninice",
+      "name": "Knínice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441776"
+      }
+    },
+    {
+      "slug": "knezeves",
+      "name": "Kněževes",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442498"
+      }
+    },
+    {
+      "slug": "kojetin",
+      "name": "Kojetín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438345"
+      }
+    },
+    {
+      "slug": "kolinec",
+      "name": "Kolinec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438197"
+      }
+    },
+    {
+      "slug": "kolovec",
+      "name": "Koloveč",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439168"
+      }
+    },
+    {
+      "slug": "kolin",
+      "name": "Kolín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441253"
+      }
+    },
+    {
+      "slug": "komarov",
+      "name": "Komárov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442270"
+      }
+    },
+    {
+      "slug": "konice",
+      "name": "Konice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438468"
+      }
+    },
+    {
+      "slug": "kopidlno",
+      "name": "Kopidlno",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440052"
+      }
+    },
+    {
+      "slug": "koprivnice",
+      "name": "Kopřivnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437575"
+      }
+    },
+    {
+      "slug": "korycany",
+      "name": "Koryčany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437315"
+      }
+    },
+    {
+      "slug": "kosmonosy",
+      "name": "Kosmonosy",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441952"
+      }
+    },
+    {
+      "slug": "kostelec-na-hane",
+      "name": "Kostelec na Hané",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438449"
+      }
+    },
+    {
+      "slug": "kostelec-nad-labem",
+      "name": "Kostelec nad Labem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442349"
+      }
+    },
+    {
+      "slug": "kostelec-nad-orlici",
+      "name": "Kostelec nad Orlicí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440630"
+      }
+    },
+    {
+      "slug": "kostelec-nad-cernymi-lesy",
+      "name": "Kostelec nad Černými lesy",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437123"
+      }
+    },
+    {
+      "slug": "kounice",
+      "name": "Kounice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441566"
+      }
+    },
+    {
+      "slug": "kourim",
+      "name": "Kouřim",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441312"
+      }
+    },
+    {
+      "slug": "kovarska",
+      "name": "Kovářská",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439590"
+      }
+    },
+    {
+      "slug": "kostany",
+      "name": "Košťany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439356"
+      }
+    },
+    {
+      "slug": "kozlany",
+      "name": "Kožlany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439734"
+      }
+    },
+    {
+      "slug": "kralice-na-hane",
+      "name": "Kralice na Hané",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438458"
+      }
+    },
+    {
+      "slug": "kralovice",
+      "name": "Kralovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439733"
+      }
+    },
+    {
+      "slug": "kralupy-nad-vltavou",
+      "name": "Kralupy nad Vltavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437612"
+      }
+    },
+    {
+      "slug": "kraslice",
+      "name": "Kraslice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439547"
+      }
+    },
+    {
+      "slug": "kravare",
+      "name": "Kravaře",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437005"
+      }
+    },
+    {
+      "slug": "krnov",
+      "name": "Krnov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439377"
+      }
+    },
+    {
+      "slug": "kromeriz",
+      "name": "Kroměříž",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437751"
+      }
+    },
+    {
+      "slug": "krucemburk",
+      "name": "Krucemburk",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440668"
+      }
+    },
+    {
+      "slug": "krupka",
+      "name": "Krupka",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439332"
+      }
+    },
+    {
+      "slug": "kryry",
+      "name": "Kryry",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439295"
+      }
+    },
+    {
+      "slug": "kraliky",
+      "name": "Králíky",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440386"
+      }
+    },
+    {
+      "slug": "kraluv-dvur",
+      "name": "Králův Dvůr",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441863"
+      }
+    },
+    {
+      "slug": "krasno",
+      "name": "Krásno",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436961"
+      }
+    },
+    {
+      "slug": "krasna-hora-nad-vltavou",
+      "name": "Krásná Hora nad Vltavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441430"
+      }
+    },
+    {
+      "slug": "krasna-lipa",
+      "name": "Krásná Lípa",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439562"
+      }
+    },
+    {
+      "slug": "krasne-udoli",
+      "name": "Krásné Údolí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439484"
+      }
+    },
+    {
+      "slug": "kunovice",
+      "name": "Kunovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437383"
+      }
+    },
+    {
+      "slug": "kunvald",
+      "name": "Kunvald",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440373"
+      }
+    },
+    {
+      "slug": "kunstat",
+      "name": "Kunštát",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436850"
+      }
+    },
+    {
+      "slug": "kutna-hora",
+      "name": "Kutná Hora",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441804"
+      }
+    },
+    {
+      "slug": "kurim",
+      "name": "Kuřim",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442051"
+      }
+    },
+    {
+      "slug": "kyjov",
+      "name": "Kyjov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442517"
+      }
+    },
+    {
+      "slug": "kynsperk-nad-ohri",
+      "name": "Kynšperk nad Ohří",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439548"
+      }
+    },
+    {
+      "slug": "kacov",
+      "name": "Kácov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441809"
+      }
+    },
+    {
+      "slug": "kremze",
+      "name": "Křemže",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438538"
+      }
+    },
+    {
+      "slug": "krinec",
+      "name": "Křinec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441525"
+      }
+    },
+    {
+      "slug": "krivoklat",
+      "name": "Křivoklát",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442390"
+      }
+    },
+    {
+      "slug": "krivsoudov",
+      "name": "Křivsoudov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441503"
+      }
+    },
+    {
+      "slug": "krizanov",
+      "name": "Křižanov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442597"
+      }
+    },
+    {
+      "slug": "krtiny",
+      "name": "Křtiny",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441764"
+      }
+    },
+    {
+      "slug": "lanskroun",
+      "name": "Lanškroun",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440376"
+      }
+    },
+    {
+      "slug": "lanzhot",
+      "name": "Lanžhot",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442285"
+      }
+    },
+    {
+      "slug": "ledenice",
+      "name": "Ledenice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437825"
+      }
+    },
+    {
+      "slug": "ledec-nad-sazavou",
+      "name": "Ledeč nad Sázavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440675"
+      }
+    },
+    {
+      "slug": "ledvice",
+      "name": "Ledvice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439338"
+      }
+    },
+    {
+      "slug": "letohrad",
+      "name": "Letohrad",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440375"
+      }
+    },
+    {
+      "slug": "letovice",
+      "name": "Letovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441762"
+      }
+    },
+    {
+      "slug": "levin",
+      "name": "Levín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436554"
+      }
+    },
+    {
+      "slug": "lhenice",
+      "name": "Lhenice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438084"
+      }
+    },
+    {
+      "slug": "liberec",
+      "name": "Liberec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439073"
+      }
+    },
+    {
+      "slug": "libice-nad-doubravou",
+      "name": "Libice nad Doubravou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440678"
+      }
+    },
+    {
+      "slug": "liblin",
+      "name": "Liblín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439826"
+      }
+    },
+    {
+      "slug": "libochovice",
+      "name": "Libochovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439293"
+      }
+    },
+    {
+      "slug": "libusin",
+      "name": "Libušín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440994"
+      }
+    },
+    {
+      "slug": "liban",
+      "name": "Libáň",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440004"
+      }
+    },
+    {
+      "slug": "libcice-nad-vltavou",
+      "name": "Libčice nad Vltavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442248"
+      }
+    },
+    {
+      "slug": "libechov",
+      "name": "Liběchov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437607"
+      }
+    },
+    {
+      "slug": "libstat",
+      "name": "Libštát",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439143"
+      }
+    },
+    {
+      "slug": "lipnik-nad-becvou",
+      "name": "Lipník nad Bečvou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438348"
+      }
+    },
+    {
+      "slug": "litencice",
+      "name": "Litenčice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437319"
+      }
+    },
+    {
+      "slug": "liten",
+      "name": "Liteň",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442328"
+      }
+    },
+    {
+      "slug": "litomysl",
+      "name": "Litomyšl",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441896"
+      }
+    },
+    {
+      "slug": "litomerice",
+      "name": "Litoměřice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439670"
+      }
+    },
+    {
+      "slug": "litovel",
+      "name": "Litovel",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438809"
+      }
+    },
+    {
+      "slug": "litultovice",
+      "name": "Litultovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437644"
+      }
+    },
+    {
+      "slug": "litvinov",
+      "name": "Litvínov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436574"
+      }
+    },
+    {
+      "slug": "lisov",
+      "name": "Lišov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437681"
+      }
+    },
+    {
+      "slug": "loket",
+      "name": "Loket",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439550"
+      }
+    },
+    {
+      "slug": "lom",
+      "name": "Lom",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440208"
+      }
+    },
+    {
+      "slug": "lomnice",
+      "name": "Lomnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436855"
+      }
+    },
+    {
+      "slug": "lomnice-nad-luznici",
+      "name": "Lomnice nad Lužnicí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438424"
+      }
+    },
+    {
+      "slug": "lomnice-nad-popelkou",
+      "name": "Lomnice nad Popelkou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439144"
+      }
+    },
+    {
+      "slug": "louny",
+      "name": "Louny",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439344"
+      }
+    },
+    {
+      "slug": "loucen",
+      "name": "Loučeň",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441536"
+      }
+    },
+    {
+      "slug": "loucna-pod-klinovcem",
+      "name": "Loučná pod Klínovcem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439614"
+      }
+    },
+    {
+      "slug": "lounovice-pod-blanikem",
+      "name": "Louňovice pod Blaníkem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441464"
+      }
+    },
+    {
+      "slug": "lovosice",
+      "name": "Lovosice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439311"
+      }
+    },
+    {
+      "slug": "lostice",
+      "name": "Loštice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438351"
+      }
+    },
+    {
+      "slug": "luby",
+      "name": "Luby",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439459"
+      }
+    },
+    {
+      "slug": "luhacovice",
+      "name": "Luhačovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440860"
+      }
+    },
+    {
+      "slug": "luka-nad-jihlavou",
+      "name": "Luka nad Jihlavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440594"
+      }
+    },
+    {
+      "slug": "lukavec",
+      "name": "Lukavec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436918"
+      }
+    },
+    {
+      "slug": "lukov",
+      "name": "Lukov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438726"
+      }
+    },
+    {
+      "slug": "lucany-nad-nisou",
+      "name": "Lučany nad Nisou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438921"
+      }
+    },
+    {
+      "slug": "luze",
+      "name": "Luže",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440033"
+      }
+    },
+    {
+      "slug": "lysice",
+      "name": "Lysice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441752"
+      }
+    },
+    {
+      "slug": "lysa-nad-labem",
+      "name": "Lysá nad Labem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441528"
+      }
+    },
+    {
+      "slug": "lazne-bohdanec",
+      "name": "Lázně Bohdaneč",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440111"
+      }
+    },
+    {
+      "slug": "lazne-belohrad",
+      "name": "Lázně Bělohrad",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440011"
+      }
+    },
+    {
+      "slug": "lazne-kynzvart",
+      "name": "Lázně Kynžvart",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439462"
+      }
+    },
+    {
+      "slug": "lazne-tousen",
+      "name": "Lázně Toušeň",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437868"
+      }
+    },
+    {
+      "slug": "machov",
+      "name": "Machov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440651"
+      }
+    },
+    {
+      "slug": "malesov",
+      "name": "Malešov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441820"
+      }
+    },
+    {
+      "slug": "malsice",
+      "name": "Malšice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438756"
+      }
+    },
+    {
+      "slug": "manetin",
+      "name": "Manětín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439723"
+      }
+    },
+    {
+      "slug": "marianske-lazne",
+      "name": "Mariánské Lázně",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439458"
+      }
+    },
+    {
+      "slug": "marsovice",
+      "name": "Maršovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441189"
+      }
+    },
+    {
+      "slug": "mastov",
+      "name": "Mašťov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439641"
+      }
+    },
+    {
+      "slug": "medlov",
+      "name": "Medlov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442528"
+      }
+    },
+    {
+      "slug": "mezibori",
+      "name": "Meziboří",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440192"
+      }
+    },
+    {
+      "slug": "mezimesti",
+      "name": "Meziměstí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440693"
+      }
+    },
+    {
+      "slug": "mikulov",
+      "name": "Mikulov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442519"
+      }
+    },
+    {
+      "slug": "mikulovice",
+      "name": "Mikulovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438646"
+      }
+    },
+    {
+      "slug": "mikulasovice",
+      "name": "Mikulášovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439569"
+      }
+    },
+    {
+      "slug": "miletin",
+      "name": "Miletín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440018"
+      }
+    },
+    {
+      "slug": "milevsko",
+      "name": "Milevsko",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437377"
+      }
+    },
+    {
+      "slug": "milovice",
+      "name": "Milovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441533"
+      }
+    },
+    {
+      "slug": "mimon",
+      "name": "Mimoň",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440190"
+      }
+    },
+    {
+      "slug": "miroslav",
+      "name": "Miroslav",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438659"
+      }
+    },
+    {
+      "slug": "mirotice",
+      "name": "Mirotice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437380"
+      }
+    },
+    {
+      "slug": "mirovice",
+      "name": "Mirovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437337"
+      }
+    },
+    {
+      "slug": "mirosov",
+      "name": "Mirošov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439807"
+      }
+    },
+    {
+      "slug": "mlada-boleslav",
+      "name": "Mladá Boleslav",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437559"
+      }
+    },
+    {
+      "slug": "mlada-vozice",
+      "name": "Mladá Vožice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438772"
+      }
+    },
+    {
+      "slug": "mlade-buky",
+      "name": "Mladé Buky",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440250"
+      }
+    },
+    {
+      "slug": "mlazovice",
+      "name": "Mlázovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440010"
+      }
+    },
+    {
+      "slug": "mnichovice",
+      "name": "Mnichovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437902"
+      }
+    },
+    {
+      "slug": "mnichovo-hradiste",
+      "name": "Mnichovo Hradiště",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437717"
+      }
+    },
+    {
+      "slug": "mnisek-pod-brdy",
+      "name": "Mníšek pod Brdy",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442225"
+      }
+    },
+    {
+      "slug": "modrice",
+      "name": "Modřice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442046"
+      }
+    },
+    {
+      "slug": "mohelnice",
+      "name": "Mohelnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438316"
+      }
+    },
+    {
+      "slug": "mohelno",
+      "name": "Mohelno",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442157"
+      }
+    },
+    {
+      "slug": "moravska-nova-ves",
+      "name": "Moravská Nová Ves",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442283"
+      }
+    },
+    {
+      "slug": "moravska-trebova",
+      "name": "Moravská Třebová",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441874"
+      }
+    },
+    {
+      "slug": "moravske-budejovice",
+      "name": "Moravské Budějovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442155"
+      }
+    },
+    {
+      "slug": "moravsky-beroun",
+      "name": "Moravský Beroun",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438549"
+      }
+    },
+    {
+      "slug": "moravsky-krumlov",
+      "name": "Moravský Krumlov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438657"
+      }
+    },
+    {
+      "slug": "morkovice-slizany",
+      "name": "Morkovice-Slížany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437018"
+      }
+    },
+    {
+      "slug": "most",
+      "name": "Most",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436570"
+      }
+    },
+    {
+      "slug": "mrakotin",
+      "name": "Mrákotín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436757"
+      }
+    },
+    {
+      "slug": "myto",
+      "name": "Mýto",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436635"
+      }
+    },
+    {
+      "slug": "mecholupy",
+      "name": "Měcholupy",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436562"
+      }
+    },
+    {
+      "slug": "melnik",
+      "name": "Mělník",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437581"
+      }
+    },
+    {
+      "slug": "mestec-kralove",
+      "name": "Městec Králové",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441539"
+      }
+    },
+    {
+      "slug": "mesto-albrechtice",
+      "name": "Město Albrechtice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437758"
+      }
+    },
+    {
+      "slug": "mesto-touskov",
+      "name": "Město Touškov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439722"
+      }
+    },
+    {
+      "slug": "mecin",
+      "name": "Měčín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438203"
+      }
+    },
+    {
+      "slug": "merin",
+      "name": "Měřín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441739"
+      }
+    },
+    {
+      "slug": "msec",
+      "name": "Mšec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442387"
+      }
+    },
+    {
+      "slug": "mseno",
+      "name": "Mšeno",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437600"
+      }
+    },
+    {
+      "slug": "nalzovske-hory",
+      "name": "Nalžovské Hory",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438210"
+      }
+    },
+    {
+      "slug": "napajedla",
+      "name": "Napajedla",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440885"
+      }
+    },
+    {
+      "slug": "nasavrky",
+      "name": "Nasavrky",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440030"
+      }
+    },
+    {
+      "slug": "naceradec",
+      "name": "Načeradec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441474"
+      }
+    },
+    {
+      "slug": "nechanice",
+      "name": "Nechanice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439108"
+      }
+    },
+    {
+      "slug": "nedvedice",
+      "name": "Nedvědice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436885"
+      }
+    },
+    {
+      "slug": "nehvizdy",
+      "name": "Nehvizdy",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437908"
+      }
+    },
+    {
+      "slug": "nejdek",
+      "name": "Nejdek",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439476"
+      }
+    },
+    {
+      "slug": "nepomuk",
+      "name": "Nepomuk",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438247"
+      }
+    },
+    {
+      "slug": "nepomysl",
+      "name": "Nepomyšl",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439291"
+      }
+    },
+    {
+      "slug": "neratovice",
+      "name": "Neratovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437598"
+      }
+    },
+    {
+      "slug": "netolice",
+      "name": "Netolice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438074"
+      }
+    },
+    {
+      "slug": "netvorice",
+      "name": "Netvořice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441455"
+      }
+    },
+    {
+      "slug": "neustupov",
+      "name": "Neustupov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441457"
+      }
+    },
+    {
+      "slug": "neveklov",
+      "name": "Neveklov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441470"
+      }
+    },
+    {
+      "slug": "nezamyslice",
+      "name": "Nezamyslice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436809"
+      }
+    },
+    {
+      "slug": "nosislav",
+      "name": "Nosislav",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442029"
+      }
+    },
+    {
+      "slug": "nova-bystrice",
+      "name": "Nová Bystřice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438413"
+      }
+    },
+    {
+      "slug": "nova-cerekev",
+      "name": "Nová Cerekev",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441037"
+      }
+    },
+    {
+      "slug": "nova-paka",
+      "name": "Nová Paka",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440014"
+      }
+    },
+    {
+      "slug": "nova-role",
+      "name": "Nová Role",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439475"
+      }
+    },
+    {
+      "slug": "nova-vcelnice",
+      "name": "Nová Včelnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438414"
+      }
+    },
+    {
+      "slug": "nova-rise",
+      "name": "Nová Říše",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440597"
+      }
+    },
+    {
+      "slug": "nove-dvory",
+      "name": "Nové Dvory",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441362"
+      }
+    },
+    {
+      "slug": "nove-hrady",
+      "name": "Nové Hrady",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437690"
+      }
+    },
+    {
+      "slug": "nove-mesto-na-morave",
+      "name": "Nové Město na Moravě",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441738"
+      }
+    },
+    {
+      "slug": "nove-mesto-nad-metuji",
+      "name": "Nové Město nad Metují",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440694"
+      }
+    },
+    {
+      "slug": "nove-mesto-pod-smrkem",
+      "name": "Nové Město pod Smrkem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438984"
+      }
+    },
+    {
+      "slug": "nove-sedlo",
+      "name": "Nové Sedlo",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436949"
+      }
+    },
+    {
+      "slug": "nove-straseci",
+      "name": "Nové Strašecí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442372"
+      }
+    },
+    {
+      "slug": "nove-veseli",
+      "name": "Nové Veselí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441730"
+      }
+    },
+    {
+      "slug": "novy-bor",
+      "name": "Nový Bor",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440188"
+      }
+    },
+    {
+      "slug": "novy-bydzov",
+      "name": "Nový Bydžov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439104"
+      }
+    },
+    {
+      "slug": "novy-hrozenkov",
+      "name": "Nový Hrozenkov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442428"
+      }
+    },
+    {
+      "slug": "novy-hradek",
+      "name": "Nový Hrádek",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440667"
+      }
+    },
+    {
+      "slug": "novy-jicin",
+      "name": "Nový Jičín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436988"
+      }
+    },
+    {
+      "slug": "novy-knin",
+      "name": "Nový Knín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441412"
+      }
+    },
+    {
+      "slug": "novy-rychnov",
+      "name": "Nový Rychnov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441040"
+      }
+    },
+    {
+      "slug": "nymburk",
+      "name": "Nymburk",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441557"
+      }
+    },
+    {
+      "slug": "nachod",
+      "name": "Náchod",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440663"
+      }
+    },
+    {
+      "slug": "namest-na-hane",
+      "name": "Náměšť na Hané",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438522"
+      }
+    },
+    {
+      "slug": "namest-nad-oslavou",
+      "name": "Náměšť nad Oslavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442152"
+      }
+    },
+    {
+      "slug": "nyrsko",
+      "name": "Nýrsko",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438207"
+      }
+    },
+    {
+      "slug": "nyrany",
+      "name": "Nýřany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439715"
+      }
+    },
+    {
+      "slug": "nemcice-nad-hanou",
+      "name": "Němčice nad Hanou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438235"
+      }
+    },
+    {
+      "slug": "odolena-voda",
+      "name": "Odolena Voda",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437168"
+      }
+    },
+    {
+      "slug": "odry",
+      "name": "Odry",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437555"
+      }
+    },
+    {
+      "slug": "okrisky",
+      "name": "Okříšky",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442202"
+      }
+    },
+    {
+      "slug": "olbramkostel",
+      "name": "Olbramkostel",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438748"
+      }
+    },
+    {
+      "slug": "olbramovice",
+      "name": "Olbramovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437049"
+      }
+    },
+    {
+      "slug": "oleksovice",
+      "name": "Oleksovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438642"
+      }
+    },
+    {
+      "slug": "olesnice",
+      "name": "Olešnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436849"
+      }
+    },
+    {
+      "slug": "olomouc",
+      "name": "Olomouc",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437057"
+      }
+    },
+    {
+      "slug": "olovi",
+      "name": "Oloví",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439540"
+      }
+    },
+    {
+      "slug": "opatov",
+      "name": "Opatov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R428058"
+      }
+    },
+    {
+      "slug": "opava",
+      "name": "Opava",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437002"
+      }
+    },
+    {
+      "slug": "opocno",
+      "name": "Opočno",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436528"
+      }
+    },
+    {
+      "slug": "orlova",
+      "name": "Orlová",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437932"
+      }
+    },
+    {
+      "slug": "osek",
+      "name": "Osek",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439341"
+      }
+    },
+    {
+      "slug": "osecna",
+      "name": "Osečná",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438993"
+      }
+    },
+    {
+      "slug": "oslavany",
+      "name": "Oslavany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442067"
+      }
+    },
+    {
+      "slug": "ostrava",
+      "name": "Ostrava",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437354"
+      }
+    },
+    {
+      "slug": "ostrov",
+      "name": "Ostrov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439481"
+      }
+    },
+    {
+      "slug": "ostrov-nad-oslavou",
+      "name": "Ostrov nad Oslavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441613"
+      }
+    },
+    {
+      "slug": "ostrov-u-macochy",
+      "name": "Ostrov u Macochy",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441789"
+      }
+    },
+    {
+      "slug": "ostrovacice",
+      "name": "Ostrovačice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442065"
+      }
+    },
+    {
+      "slug": "osvetimany",
+      "name": "Osvětimany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437496"
+      }
+    },
+    {
+      "slug": "otrokovice",
+      "name": "Otrokovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440877"
+      }
+    },
+    {
+      "slug": "pacov",
+      "name": "Pacov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441041"
+      }
+    },
+    {
+      "slug": "panensky-tynec",
+      "name": "Panenský Týnec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439299"
+      }
+    },
+    {
+      "slug": "pardubice",
+      "name": "Pardubice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440145"
+      }
+    },
+    {
+      "slug": "paskov",
+      "name": "Paskov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437903"
+      }
+    },
+    {
+      "slug": "pavlikov",
+      "name": "Pavlíkov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442365"
+      }
+    },
+    {
+      "slug": "pec-pod-snezkou",
+      "name": "Pec pod Sněžkou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440240"
+      }
+    },
+    {
+      "slug": "pecka",
+      "name": "Pecka",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440025"
+      }
+    },
+    {
+      "slug": "pelhrimov",
+      "name": "Pelhřimov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441095"
+      }
+    },
+    {
+      "slug": "peruc",
+      "name": "Peruc",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439288"
+      }
+    },
+    {
+      "slug": "petrvald",
+      "name": "Petřvald",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436992"
+      }
+    },
+    {
+      "slug": "pecky",
+      "name": "Pečky",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441289"
+      }
+    },
+    {
+      "slug": "pilnikov",
+      "name": "Pilníkov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436515"
+      }
+    },
+    {
+      "slug": "plana",
+      "name": "Planá",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436595"
+      }
+    },
+    {
+      "slug": "plana-nad-luznici",
+      "name": "Planá nad Lužnicí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438767"
+      }
+    },
+    {
+      "slug": "plasy",
+      "name": "Plasy",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439746"
+      }
+    },
+    {
+      "slug": "planany",
+      "name": "Plaňany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441270"
+      }
+    },
+    {
+      "slug": "plesna",
+      "name": "Plesná",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439442"
+      }
+    },
+    {
+      "slug": "plumlov",
+      "name": "Plumlov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438228"
+      }
+    },
+    {
+      "slug": "plzen",
+      "name": "Plzeň",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438344"
+      }
+    },
+    {
+      "slug": "planice",
+      "name": "Plánice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438219"
+      }
+    },
+    {
+      "slug": "pobezovice",
+      "name": "Poběžovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436455"
+      }
+    },
+    {
+      "slug": "podborany",
+      "name": "Podbořany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439283"
+      }
+    },
+    {
+      "slug": "podhradi",
+      "name": "Podhradí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436770"
+      }
+    },
+    {
+      "slug": "podivin",
+      "name": "Podivín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442290"
+      }
+    },
+    {
+      "slug": "podebrady",
+      "name": "Poděbrady",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437300"
+      }
+    },
+    {
+      "slug": "pohorelice",
+      "name": "Pohořelice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436886"
+      }
+    },
+    {
+      "slug": "polesovice",
+      "name": "Polešovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437113"
+      }
+    },
+    {
+      "slug": "police-nad-metuji",
+      "name": "Police nad Metují",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440684"
+      }
+    },
+    {
+      "slug": "policka",
+      "name": "Polička",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441881"
+      }
+    },
+    {
+      "slug": "polna",
+      "name": "Polná",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440559"
+      }
+    },
+    {
+      "slug": "postoloprty",
+      "name": "Postoloprty",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439272"
+      }
+    },
+    {
+      "slug": "potstat",
+      "name": "Potštát",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436834"
+      }
+    },
+    {
+      "slug": "pozlovice",
+      "name": "Pozlovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440836"
+      }
+    },
+    {
+      "slug": "pozorice",
+      "name": "Pozořice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442068"
+      }
+    },
+    {
+      "slug": "pocatky",
+      "name": "Počátky",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441042"
+      }
+    },
+    {
+      "slug": "prachatice",
+      "name": "Prachatice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437239"
+      }
+    },
+    {
+      "slug": "praha",
+      "name": "Praha",
+      "region": "Hlavní město Praha",
+      "priority": true,
+      "refs": {
+        "bezrealitky": "R439840"
+      }
+    },
+    {
+      "slug": "prosec",
+      "name": "Proseč",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436777"
+      }
+    },
+    {
+      "slug": "prosimerice",
+      "name": "Prosiměřice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437252"
+      }
+    },
+    {
+      "slug": "prostejov",
+      "name": "Prostějov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438618"
+      }
+    },
+    {
+      "slug": "protivanov",
+      "name": "Protivanov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438273"
+      }
+    },
+    {
+      "slug": "protivin",
+      "name": "Protivín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437349"
+      }
+    },
+    {
+      "slug": "pysely",
+      "name": "Pyšely",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441504"
+      }
+    },
+    {
+      "slug": "pisek",
+      "name": "Písek",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437521"
+      }
+    },
+    {
+      "slug": "prebuz",
+      "name": "Přebuz",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439541"
+      }
+    },
+    {
+      "slug": "prelouc",
+      "name": "Přelouč",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440298"
+      }
+    },
+    {
+      "slug": "prerov",
+      "name": "Přerov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438278"
+      }
+    },
+    {
+      "slug": "prestice",
+      "name": "Přeštice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439654"
+      }
+    },
+    {
+      "slug": "pribyslav",
+      "name": "Přibyslav",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440452"
+      }
+    },
+    {
+      "slug": "primda",
+      "name": "Přimda",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438887"
+      }
+    },
+    {
+      "slug": "pribor",
+      "name": "Příbor",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437566"
+      }
+    },
+    {
+      "slug": "pribram",
+      "name": "Příbram",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441396"
+      }
+    },
+    {
+      "slug": "pridoli",
+      "name": "Přídolí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438552"
+      }
+    },
+    {
+      "slug": "rabi",
+      "name": "Rabí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438216"
+      }
+    },
+    {
+      "slug": "radnice",
+      "name": "Radnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439816"
+      }
+    },
+    {
+      "slug": "radomysl",
+      "name": "Radomyšl",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438859"
+      }
+    },
+    {
+      "slug": "rajhrad",
+      "name": "Rajhrad",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442073"
+      }
+    },
+    {
+      "slug": "rakovnik",
+      "name": "Rakovník",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442374"
+      }
+    },
+    {
+      "slug": "ralsko",
+      "name": "Ralsko",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436604"
+      }
+    },
+    {
+      "slug": "raspenava",
+      "name": "Raspenava",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438980"
+      }
+    },
+    {
+      "slug": "rataje-nad-sazavou",
+      "name": "Rataje nad Sázavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441838"
+      }
+    },
+    {
+      "slug": "rejstejn",
+      "name": "Rejštejn",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438281"
+      }
+    },
+    {
+      "slug": "rokycany",
+      "name": "Rokycany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439783"
+      }
+    },
+    {
+      "slug": "rokytnice-nad-jizerou",
+      "name": "Rokytnice nad Jizerou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436617"
+      }
+    },
+    {
+      "slug": "rokytnice-nad-rokytnou",
+      "name": "Rokytnice nad Rokytnou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442180"
+      }
+    },
+    {
+      "slug": "rokytnice-v-orlickych-horach",
+      "name": "Rokytnice v Orlických horách",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440092"
+      }
+    },
+    {
+      "slug": "ronov-nad-doubravou",
+      "name": "Ronov nad Doubravou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439962"
+      }
+    },
+    {
+      "slug": "rosice",
+      "name": "Rosice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436874"
+      }
+    },
+    {
+      "slug": "rotava",
+      "name": "Rotava",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439542"
+      }
+    },
+    {
+      "slug": "roudnice-nad-labem",
+      "name": "Roudnice nad Labem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439215"
+      }
+    },
+    {
+      "slug": "rousinov",
+      "name": "Rousínov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436905"
+      }
+    },
+    {
+      "slug": "rovensko-pod-troskami",
+      "name": "Rovensko pod Troskami",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439050"
+      }
+    },
+    {
+      "slug": "roztoky",
+      "name": "Roztoky",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436152"
+      }
+    },
+    {
+      "slug": "rocov",
+      "name": "Ročov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436560"
+      }
+    },
+    {
+      "slug": "rozmberk-nad-vltavou",
+      "name": "Rožmberk nad Vltavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438555"
+      }
+    },
+    {
+      "slug": "rozmital-pod-tremsinem",
+      "name": "Rožmitál pod Třemšínem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441355"
+      }
+    },
+    {
+      "slug": "roznov-pod-radhostem",
+      "name": "Rožnov pod Radhoštěm",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442433"
+      }
+    },
+    {
+      "slug": "rozdalovice",
+      "name": "Rožďalovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437277"
+      }
+    },
+    {
+      "slug": "rtyne-v-podkrkonosi",
+      "name": "Rtyně v Podkrkonoší",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440255"
+      }
+    },
+    {
+      "slug": "rudna",
+      "name": "Rudná",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436686"
+      }
+    },
+    {
+      "slug": "rudolfov",
+      "name": "Rudolfov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437670"
+      }
+    },
+    {
+      "slug": "rumburk",
+      "name": "Rumburk",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439570"
+      }
+    },
+    {
+      "slug": "rychnov-nad-kneznou",
+      "name": "Rychnov nad Kněžnou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439901"
+      }
+    },
+    {
+      "slug": "rychnov-u-jablonce-nad-nisou",
+      "name": "Rychnov u Jablonce nad Nisou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438927"
+      }
+    },
+    {
+      "slug": "rychvald",
+      "name": "Rychvald",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437940"
+      }
+    },
+    {
+      "slug": "rajec-jestrebi",
+      "name": "Rájec-Jestřebí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436847"
+      }
+    },
+    {
+      "slug": "rymarov",
+      "name": "Rýmařov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437752"
+      }
+    },
+    {
+      "slug": "sadska",
+      "name": "Sadská",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437275"
+      }
+    },
+    {
+      "slug": "sedlec-prcice",
+      "name": "Sedlec-Prčice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436678"
+      }
+    },
+    {
+      "slug": "sedlice",
+      "name": "Sedlice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436485"
+      }
+    },
+    {
+      "slug": "sedlcany",
+      "name": "Sedlčany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441351"
+      }
+    },
+    {
+      "slug": "semily",
+      "name": "Semily",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438971"
+      }
+    },
+    {
+      "slug": "senomaty",
+      "name": "Senomaty",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440784"
+      }
+    },
+    {
+      "slug": "sepekov",
+      "name": "Sepekov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437331"
+      }
+    },
+    {
+      "slug": "sezemice",
+      "name": "Sezemice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440293"
+      }
+    },
+    {
+      "slug": "sezimovo-usti",
+      "name": "Sezimovo Ústí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438734"
+      }
+    },
+    {
+      "slug": "sec",
+      "name": "Seč",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439966"
+      }
+    },
+    {
+      "slug": "skalna",
+      "name": "Skalná",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439441"
+      }
+    },
+    {
+      "slug": "skutec",
+      "name": "Skuteč",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439965"
+      }
+    },
+    {
+      "slug": "slabce",
+      "name": "Slabce",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440769"
+      }
+    },
+    {
+      "slug": "slany",
+      "name": "Slaný",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440956"
+      }
+    },
+    {
+      "slug": "slatinany",
+      "name": "Slatiňany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439964"
+      }
+    },
+    {
+      "slug": "slavicin",
+      "name": "Slavičín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440915"
+      }
+    },
+    {
+      "slug": "slavkov-u-brna",
+      "name": "Slavkov u Brna",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440788"
+      }
+    },
+    {
+      "slug": "slavonice",
+      "name": "Slavonice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438429"
+      }
+    },
+    {
+      "slug": "slavetin",
+      "name": "Slavětín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436559"
+      }
+    },
+    {
+      "slug": "sloup",
+      "name": "Sloup",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436823"
+      }
+    },
+    {
+      "slug": "slusovice",
+      "name": "Slušovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440917"
+      }
+    },
+    {
+      "slug": "smecno",
+      "name": "Smečno",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440986"
+      }
+    },
+    {
+      "slug": "smirice",
+      "name": "Smiřice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439117"
+      }
+    },
+    {
+      "slug": "smrzovka",
+      "name": "Smržovka",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438926"
+      }
+    },
+    {
+      "slug": "snezne",
+      "name": "Sněžné",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442551"
+      }
+    },
+    {
+      "slug": "sobotka",
+      "name": "Sobotka",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439873"
+      }
+    },
+    {
+      "slug": "sobeslav",
+      "name": "Soběslav",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438740"
+      }
+    },
+    {
+      "slug": "sokolov",
+      "name": "Sokolov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439509"
+      }
+    },
+    {
+      "slug": "solnice",
+      "name": "Solnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440084"
+      }
+    },
+    {
+      "slug": "sovinky",
+      "name": "Sovínky",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441942"
+      }
+    },
+    {
+      "slug": "spalene-porici",
+      "name": "Spálené Poříčí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439660"
+      }
+    },
+    {
+      "slug": "spalov",
+      "name": "Spálov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437562"
+      }
+    },
+    {
+      "slug": "stara-rise",
+      "name": "Stará Říše",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441179"
+      }
+    },
+    {
+      "slug": "stare-mesto",
+      "name": "Staré Město",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437385"
+      }
+    },
+    {
+      "slug": "stare-mesto-2",
+      "name": "Staré Město",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439435"
+      }
+    },
+    {
+      "slug": "stare-mesto-pod-landstejnem",
+      "name": "Staré Město pod Landštejnem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437483"
+      }
+    },
+    {
+      "slug": "stary-plzenec",
+      "name": "Starý Plzenec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438336"
+      }
+    },
+    {
+      "slug": "stankov",
+      "name": "Staňkov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439129"
+      }
+    },
+    {
+      "slug": "starec",
+      "name": "Stařeč",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442095"
+      }
+    },
+    {
+      "slug": "stochov",
+      "name": "Stochov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440952"
+      }
+    },
+    {
+      "slug": "stod",
+      "name": "Stod",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439661"
+      }
+    },
+    {
+      "slug": "stonarov",
+      "name": "Stonařov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441183"
+      }
+    },
+    {
+      "slug": "strakonice",
+      "name": "Strakonice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438853"
+      }
+    },
+    {
+      "slug": "strmilov",
+      "name": "Strmilov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437488"
+      }
+    },
+    {
+      "slug": "strunkovice-nad-blanici",
+      "name": "Strunkovice nad Blanicí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438078"
+      }
+    },
+    {
+      "slug": "straz",
+      "name": "Stráž",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436592"
+      }
+    },
+    {
+      "slug": "straz-nad-nezarkou",
+      "name": "Stráž nad Nežárkou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437481"
+      }
+    },
+    {
+      "slug": "straz-pod-ralskem",
+      "name": "Stráž pod Ralskem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439007"
+      }
+    },
+    {
+      "slug": "strazek",
+      "name": "Strážek",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441641"
+      }
+    },
+    {
+      "slug": "straznice",
+      "name": "Strážnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436907"
+      }
+    },
+    {
+      "slug": "strazny",
+      "name": "Strážný",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438080"
+      }
+    },
+    {
+      "slug": "strazov",
+      "name": "Strážov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436208"
+      }
+    },
+    {
+      "slug": "studenka",
+      "name": "Studénka",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437003"
+      }
+    },
+    {
+      "slug": "stadlec",
+      "name": "Stádlec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438606"
+      }
+    },
+    {
+      "slug": "starkov",
+      "name": "Stárkov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439932"
+      }
+    },
+    {
+      "slug": "stribro",
+      "name": "Stříbro",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438877"
+      }
+    },
+    {
+      "slug": "suchdol",
+      "name": "Suchdol",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441196"
+      }
+    },
+    {
+      "slug": "suchdol-nad-luznici",
+      "name": "Suchdol nad Lužnicí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437490"
+      }
+    },
+    {
+      "slug": "suchdol-nad-odrou",
+      "name": "Suchdol nad Odrou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437573"
+      }
+    },
+    {
+      "slug": "susice",
+      "name": "Sušice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438289"
+      }
+    },
+    {
+      "slug": "svatava",
+      "name": "Svatava",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439503"
+      }
+    },
+    {
+      "slug": "svitavy",
+      "name": "Svitavy",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436703"
+      }
+    },
+    {
+      "slug": "svitavka",
+      "name": "Svitávka",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437999"
+      }
+    },
+    {
+      "slug": "svoboda-nad-upou",
+      "name": "Svoboda nad Úpou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440106"
+      }
+    },
+    {
+      "slug": "svojanov",
+      "name": "Svojanov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441910"
+      }
+    },
+    {
+      "slug": "svratka",
+      "name": "Svratka",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441637"
+      }
+    },
+    {
+      "slug": "svetla-nad-sazavou",
+      "name": "Světlá nad Sázavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440447"
+      }
+    },
+    {
+      "slug": "sazava",
+      "name": "Sázava",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441203"
+      }
+    },
+    {
+      "slug": "tachov",
+      "name": "Tachov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438864"
+      }
+    },
+    {
+      "slug": "tanvald",
+      "name": "Tanvald",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438925"
+      }
+    },
+    {
+      "slug": "telc",
+      "name": "Telč",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441173"
+      }
+    },
+    {
+      "slug": "teplice",
+      "name": "Teplice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439351"
+      }
+    },
+    {
+      "slug": "teplice-nad-metuji",
+      "name": "Teplice nad Metují",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439935"
+      }
+    },
+    {
+      "slug": "tepla",
+      "name": "Teplá",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439453"
+      }
+    },
+    {
+      "slug": "terezin",
+      "name": "Terezín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439230"
+      }
+    },
+    {
+      "slug": "tisnov",
+      "name": "Tišnov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442005"
+      }
+    },
+    {
+      "slug": "tistin",
+      "name": "Tištín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438285"
+      }
+    },
+    {
+      "slug": "touzim",
+      "name": "Toužim",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439519"
+      }
+    },
+    {
+      "slug": "tovacov",
+      "name": "Tovačov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438198"
+      }
+    },
+    {
+      "slug": "trhova-kamenice",
+      "name": "Trhová Kamenice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440128"
+      }
+    },
+    {
+      "slug": "trhove-sviny",
+      "name": "Trhové Sviny",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437661"
+      }
+    },
+    {
+      "slug": "trhovy-stepanov",
+      "name": "Trhový Štěpánov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441507"
+      }
+    },
+    {
+      "slug": "trmice",
+      "name": "Trmice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440172"
+      }
+    },
+    {
+      "slug": "troskotovice",
+      "name": "Troskotovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440927"
+      }
+    },
+    {
+      "slug": "trutnov",
+      "name": "Trutnov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440154"
+      }
+    },
+    {
+      "slug": "turnov",
+      "name": "Turnov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439028"
+      }
+    },
+    {
+      "slug": "tabor",
+      "name": "Tábor",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438672"
+      }
+    },
+    {
+      "slug": "tyn-nad-vltavou",
+      "name": "Týn nad Vltavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437663"
+      }
+    },
+    {
+      "slug": "tynec-nad-labem",
+      "name": "Týnec nad Labem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441249"
+      }
+    },
+    {
+      "slug": "tynec-nad-sazavou",
+      "name": "Týnec nad Sázavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441509"
+      }
+    },
+    {
+      "slug": "tyniste-nad-orlici",
+      "name": "Týniště nad Orlicí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440087"
+      }
+    },
+    {
+      "slug": "trebechovice-pod-orebem",
+      "name": "Třebechovice pod Orebem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439882"
+      }
+    },
+    {
+      "slug": "trebenice",
+      "name": "Třebenice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439234"
+      }
+    },
+    {
+      "slug": "trebon",
+      "name": "Třeboň",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437495"
+      }
+    },
+    {
+      "slug": "trebic",
+      "name": "Třebíč",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442133"
+      }
+    },
+    {
+      "slug": "tremosnice",
+      "name": "Třemošnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440126"
+      }
+    },
+    {
+      "slug": "tremosna",
+      "name": "Třemošná",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439762"
+      }
+    },
+    {
+      "slug": "trest",
+      "name": "Třešť",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441174"
+      }
+    },
+    {
+      "slug": "trinec",
+      "name": "Třinec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437909"
+      }
+    },
+    {
+      "slug": "uhelna-pribram",
+      "name": "Uhelná Příbram",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440446"
+      }
+    },
+    {
+      "slug": "uherske-hradiste",
+      "name": "Uherské Hradiště",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437438"
+      }
+    },
+    {
+      "slug": "uhersky-brod",
+      "name": "Uherský Brod",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437482"
+      }
+    },
+    {
+      "slug": "uhersky-ostroh",
+      "name": "Uherský Ostroh",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437484"
+      }
+    },
+    {
+      "slug": "uhlirske-janovice",
+      "name": "Uhlířské Janovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441845"
+      }
+    },
+    {
+      "slug": "unhost",
+      "name": "Unhošť",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440944"
+      }
+    },
+    {
+      "slug": "unicov",
+      "name": "Uničov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438432"
+      }
+    },
+    {
+      "slug": "valasske-klobouky",
+      "name": "Valašské Klobouky",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440920"
+      }
+    },
+    {
+      "slug": "valasske-mezirici",
+      "name": "Valašské Meziříčí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R435549"
+      }
+    },
+    {
+      "slug": "valtice",
+      "name": "Valtice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442303"
+      }
+    },
+    {
+      "slug": "vamberk",
+      "name": "Vamberk",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440077"
+      }
+    },
+    {
+      "slug": "varnsdorf",
+      "name": "Varnsdorf",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439609"
+      }
+    },
+    {
+      "slug": "vejprty",
+      "name": "Vejprty",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439646"
+      }
+    },
+    {
+      "slug": "velesin",
+      "name": "Velešín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438456"
+      }
+    },
+    {
+      "slug": "velka-bystrice",
+      "name": "Velká Bystřice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438434"
+      }
+    },
+    {
+      "slug": "velka-bites",
+      "name": "Velká Bíteš",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441629"
+      }
+    },
+    {
+      "slug": "velke-bilovice",
+      "name": "Velké Bílovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442304"
+      }
+    },
+    {
+      "slug": "velke-hamry",
+      "name": "Velké Hamry",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438924"
+      }
+    },
+    {
+      "slug": "velke-mezirici",
+      "name": "Velké Meziříčí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441623"
+      }
+    },
+    {
+      "slug": "velke-nemcice",
+      "name": "Velké Němčice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442293"
+      }
+    },
+    {
+      "slug": "velke-opatovice",
+      "name": "Velké Opatovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438174"
+      }
+    },
+    {
+      "slug": "velke-pavlovice",
+      "name": "Velké Pavlovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442294"
+      }
+    },
+    {
+      "slug": "velke-porici",
+      "name": "Velké Poříčí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440614"
+      }
+    },
+    {
+      "slug": "velky-vrestov",
+      "name": "Velký Vřešťov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440090"
+      }
+    },
+    {
+      "slug": "velky-ujezd",
+      "name": "Velký Újezd",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438430"
+      }
+    },
+    {
+      "slug": "velky-senov",
+      "name": "Velký Šenov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439622"
+      }
+    },
+    {
+      "slug": "veltrusy",
+      "name": "Veltrusy",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437632"
+      }
+    },
+    {
+      "slug": "velvary",
+      "name": "Velvary",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440996"
+      }
+    },
+    {
+      "slug": "vernerice",
+      "name": "Verneřice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439623"
+      }
+    },
+    {
+      "slug": "veseli-nad-luznici",
+      "name": "Veselí nad Lužnicí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438594"
+      }
+    },
+    {
+      "slug": "veseli-nad-moravou",
+      "name": "Veselí nad Moravou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441137"
+      }
+    },
+    {
+      "slug": "veverska-bityska",
+      "name": "Veverská Bítýška",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442011"
+      }
+    },
+    {
+      "slug": "vidnava",
+      "name": "Vidnava",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438678"
+      }
+    },
+    {
+      "slug": "vilemov",
+      "name": "Vilémov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436749"
+      }
+    },
+    {
+      "slug": "vimperk",
+      "name": "Vimperk",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437974"
+      }
+    },
+    {
+      "slug": "vizovice",
+      "name": "Vizovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440770"
+      }
+    },
+    {
+      "slug": "visnove",
+      "name": "Višňové",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438843"
+      }
+    },
+    {
+      "slug": "vlachovo-brezi",
+      "name": "Vlachovo Březí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437977"
+      }
+    },
+    {
+      "slug": "vladislav",
+      "name": "Vladislav",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442091"
+      }
+    },
+    {
+      "slug": "vlasim",
+      "name": "Vlašim",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441511"
+      }
+    },
+    {
+      "slug": "vodnany",
+      "name": "Vodňany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438012"
+      }
+    },
+    {
+      "slug": "vojnuv-mestec",
+      "name": "Vojnův Městec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441632"
+      }
+    },
+    {
+      "slug": "volary",
+      "name": "Volary",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437975"
+      }
+    },
+    {
+      "slug": "volyne",
+      "name": "Volyně",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438747"
+      }
+    },
+    {
+      "slug": "votice",
+      "name": "Votice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441514"
+      }
+    },
+    {
+      "slug": "vracov",
+      "name": "Vracov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441134"
+      }
+    },
+    {
+      "slug": "vranov-nad-dyji",
+      "name": "Vranov nad Dyjí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438857"
+      }
+    },
+    {
+      "slug": "vrany",
+      "name": "Vraný",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441000"
+      }
+    },
+    {
+      "slug": "vratimov",
+      "name": "Vratimov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437340"
+      }
+    },
+    {
+      "slug": "vrbno-pod-pradedem",
+      "name": "Vrbno pod Pradědem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437806"
+      }
+    },
+    {
+      "slug": "vrchlabi",
+      "name": "Vrchlabí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440100"
+      }
+    },
+    {
+      "slug": "vrchotovy-janovice",
+      "name": "Vrchotovy Janovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441515"
+      }
+    },
+    {
+      "slug": "vroutek",
+      "name": "Vroutek",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439323"
+      }
+    },
+    {
+      "slug": "vsetin",
+      "name": "Vsetín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437166"
+      }
+    },
+    {
+      "slug": "vysoke-myto",
+      "name": "Vysoké Mýto",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440542"
+      }
+    },
+    {
+      "slug": "vysoke-veseli",
+      "name": "Vysoké Veselí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440620"
+      }
+    },
+    {
+      "slug": "vysoke-nad-jizerou",
+      "name": "Vysoké nad Jizerou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439038"
+      }
+    },
+    {
+      "slug": "vysoky-chlumec",
+      "name": "Vysoký Chlumec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441367"
+      }
+    },
+    {
+      "slug": "vyskov",
+      "name": "Vyškov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442276"
+      }
+    },
+    {
+      "slug": "vyssi-brod",
+      "name": "Vyšší Brod",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438469"
+      }
+    },
+    {
+      "slug": "vemyslice",
+      "name": "Vémyslice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438824"
+      }
+    },
+    {
+      "slug": "vitkov",
+      "name": "Vítkov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437635"
+      }
+    },
+    {
+      "slug": "vysluni",
+      "name": "Výsluní",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439605"
+      }
+    },
+    {
+      "slug": "vcelakov",
+      "name": "Včelákov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440130"
+      }
+    },
+    {
+      "slug": "vetrny-jenikov",
+      "name": "Větrný Jeníkov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441171"
+      }
+    },
+    {
+      "slug": "vetrni",
+      "name": "Větřní",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438467"
+      }
+    },
+    {
+      "slug": "vseruby",
+      "name": "Všeruby",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436454"
+      }
+    },
+    {
+      "slug": "vseruby-2",
+      "name": "Všeruby",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436628"
+      }
+    },
+    {
+      "slug": "vsetaty",
+      "name": "Všetaty",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437531"
+      }
+    },
+    {
+      "slug": "zbiroh",
+      "name": "Zbiroh",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438901"
+      }
+    },
+    {
+      "slug": "zbysov",
+      "name": "Zbýšov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442495"
+      }
+    },
+    {
+      "slug": "zdice",
+      "name": "Zdice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440841"
+      }
+    },
+    {
+      "slug": "zdislava",
+      "name": "Zdislava",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438968"
+      }
+    },
+    {
+      "slug": "zdislavice",
+      "name": "Zdislavice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441516"
+      }
+    },
+    {
+      "slug": "zlate-hory",
+      "name": "Zlaté Hory",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437055"
+      }
+    },
+    {
+      "slug": "zliv",
+      "name": "Zliv",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436119"
+      }
+    },
+    {
+      "slug": "zlonice",
+      "name": "Zlonice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441009"
+      }
+    },
+    {
+      "slug": "zlin",
+      "name": "Zlín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440910"
+      }
+    },
+    {
+      "slug": "znojmo",
+      "name": "Znojmo",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437041"
+      }
+    },
+    {
+      "slug": "zruc-nad-sazavou",
+      "name": "Zruč nad Sázavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441813"
+      }
+    },
+    {
+      "slug": "zubri",
+      "name": "Zubří",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440854"
+      }
+    },
+    {
+      "slug": "zvikovec",
+      "name": "Zvíkovec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439780"
+      }
+    },
+    {
+      "slug": "zabreh",
+      "name": "Zábřeh",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436966"
+      }
+    },
+    {
+      "slug": "zakupy",
+      "name": "Zákupy",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438937"
+      }
+    },
+    {
+      "slug": "zapy",
+      "name": "Zápy",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437114"
+      }
+    },
+    {
+      "slug": "zasada",
+      "name": "Zásada",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438923"
+      }
+    },
+    {
+      "slug": "zasmuky",
+      "name": "Zásmuky",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441298"
+      }
+    },
+    {
+      "slug": "ujezd-u-brna",
+      "name": "Újezd u Brna",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442001"
+      }
+    },
+    {
+      "slug": "upice",
+      "name": "Úpice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440102"
+      }
+    },
+    {
+      "slug": "usobi",
+      "name": "Úsobí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440445"
+      }
+    },
+    {
+      "slug": "usov",
+      "name": "Úsov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436964"
+      }
+    },
+    {
+      "slug": "usti-nad-labem",
+      "name": "Ústí nad Labem",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440166"
+      }
+    },
+    {
+      "slug": "usti-nad-orlici",
+      "name": "Ústí nad Orlicí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441208"
+      }
+    },
+    {
+      "slug": "utery",
+      "name": "Úterý",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439763"
+      }
+    },
+    {
+      "slug": "uvaly",
+      "name": "Úvaly",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436105"
+      }
+    },
+    {
+      "slug": "ustek",
+      "name": "Úštěk",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439175"
+      }
+    },
+    {
+      "slug": "cachrov",
+      "name": "Čachrov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439233"
+      }
+    },
+    {
+      "slug": "castolovice",
+      "name": "Častolovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439906"
+      }
+    },
+    {
+      "slug": "cechtice",
+      "name": "Čechtice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440755"
+      }
+    },
+    {
+      "slug": "celakovice",
+      "name": "Čelákovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437162"
+      }
+    },
+    {
+      "slug": "cernovice",
+      "name": "Černovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442625"
+      }
+    },
+    {
+      "slug": "cernosice",
+      "name": "Černošice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442242"
+      }
+    },
+    {
+      "slug": "cernosin",
+      "name": "Černošín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438873"
+      }
+    },
+    {
+      "slug": "cerna-hora",
+      "name": "Černá Hora",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438111"
+      }
+    },
+    {
+      "slug": "cerny-dul",
+      "name": "Černý Důl",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440058"
+      }
+    },
+    {
+      "slug": "cervena-recice",
+      "name": "Červená Řečice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441081"
+      }
+    },
+    {
+      "slug": "cervene-pecky",
+      "name": "Červené Pečky",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441308"
+      }
+    },
+    {
+      "slug": "cerveny-kostelec",
+      "name": "Červený Kostelec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440656"
+      }
+    },
+    {
+      "slug": "ceska-bela",
+      "name": "Česká Bělá",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440703"
+      }
+    },
+    {
+      "slug": "ceska-kamenice",
+      "name": "Česká Kamenice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439576"
+      }
+    },
+    {
+      "slug": "ceska-lipa",
+      "name": "Česká Lípa",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440197"
+      }
+    },
+    {
+      "slug": "ceska-skalice",
+      "name": "Česká Skalice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440652"
+      }
+    },
+    {
+      "slug": "ceska-trebova",
+      "name": "Česká Třebová",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441216"
+      }
+    },
+    {
+      "slug": "ceske-budejovice",
+      "name": "České Budějovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437861"
+      }
+    },
+    {
+      "slug": "ceske-hermanice",
+      "name": "České Heřmanice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441217"
+      }
+    },
+    {
+      "slug": "ceske-velenice",
+      "name": "České Velenice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437422"
+      }
+    },
+    {
+      "slug": "cesky-brod",
+      "name": "Český Brod",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441303"
+      }
+    },
+    {
+      "slug": "cesky-dub",
+      "name": "Český Dub",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439062"
+      }
+    },
+    {
+      "slug": "cesky-krumlov",
+      "name": "Český Krumlov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438508"
+      }
+    },
+    {
+      "slug": "cesky-tesin",
+      "name": "Český Těšín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437926"
+      }
+    },
+    {
+      "slug": "cesky-sternberk",
+      "name": "Český Šternberk",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440723"
+      }
+    },
+    {
+      "slug": "cestice",
+      "name": "Čestice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438775"
+      }
+    },
+    {
+      "slug": "caslav",
+      "name": "Čáslav",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441800"
+      }
+    },
+    {
+      "slug": "revnice",
+      "name": "Řevnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442252"
+      }
+    },
+    {
+      "slug": "ricany",
+      "name": "Říčany",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436100"
+      }
+    },
+    {
+      "slug": "satov",
+      "name": "Šatov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438713"
+      }
+    },
+    {
+      "slug": "senov",
+      "name": "Šenov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437013"
+      }
+    },
+    {
+      "slug": "sevetin",
+      "name": "Ševětín",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437655"
+      }
+    },
+    {
+      "slug": "skvorec",
+      "name": "Škvorec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437871"
+      }
+    },
+    {
+      "slug": "slapanice",
+      "name": "Šlapanice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436872"
+      }
+    },
+    {
+      "slug": "sluknov",
+      "name": "Šluknov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439618"
+      }
+    },
+    {
+      "slug": "spindleruv-mlyn",
+      "name": "Špindlerův Mlýn",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440105"
+      }
+    },
+    {
+      "slug": "sternberk",
+      "name": "Šternberk",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438507"
+      }
+    },
+    {
+      "slug": "stoky",
+      "name": "Štoky",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440442"
+      }
+    },
+    {
+      "slug": "stramberk",
+      "name": "Štramberk",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437599"
+      }
+    },
+    {
+      "slug": "stitary",
+      "name": "Štítary",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R437045"
+      }
+    },
+    {
+      "slug": "stity",
+      "name": "Štíty",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436965"
+      }
+    },
+    {
+      "slug": "stechovice",
+      "name": "Štěchovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442421"
+      }
+    },
+    {
+      "slug": "steken",
+      "name": "Štěkeň",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438848"
+      }
+    },
+    {
+      "slug": "stepanov-nad-svratkou",
+      "name": "Štěpánov nad Svratkou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441646"
+      }
+    },
+    {
+      "slug": "steti",
+      "name": "Štětí",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R436548"
+      }
+    },
+    {
+      "slug": "sumperk",
+      "name": "Šumperk",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438047"
+      }
+    },
+    {
+      "slug": "svihov",
+      "name": "Švihov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438280"
+      }
+    },
+    {
+      "slug": "svabenice",
+      "name": "Švábenice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440739"
+      }
+    },
+    {
+      "slug": "zacler",
+      "name": "Žacléř",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440098"
+      }
+    },
+    {
+      "slug": "zamberk",
+      "name": "Žamberk",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440506"
+      }
+    },
+    {
+      "slug": "zandov",
+      "name": "Žandov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438936"
+      }
+    },
+    {
+      "slug": "zatec",
+      "name": "Žatec",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439319"
+      }
+    },
+    {
+      "slug": "zdanice",
+      "name": "Ždánice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442477"
+      }
+    },
+    {
+      "slug": "zdirec-nad-doubravou",
+      "name": "Ždírec nad Doubravou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440430"
+      }
+    },
+    {
+      "slug": "zebrak",
+      "name": "Žebrák",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441983"
+      }
+    },
+    {
+      "slug": "zehusice",
+      "name": "Žehušice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441825"
+      }
+    },
+    {
+      "slug": "zeletava",
+      "name": "Želetava",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R442115"
+      }
+    },
+    {
+      "slug": "zeleznice",
+      "name": "Železnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440621"
+      }
+    },
+    {
+      "slug": "zelezna-ruda",
+      "name": "Železná Ruda",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438302"
+      }
+    },
+    {
+      "slug": "zelezny-brod",
+      "name": "Železný Brod",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438957"
+      }
+    },
+    {
+      "slug": "zernov",
+      "name": "Žernov",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439891"
+      }
+    },
+    {
+      "slug": "zidlochovice",
+      "name": "Židlochovice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441227"
+      }
+    },
+    {
+      "slug": "zinkovy",
+      "name": "Žinkovy",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439701"
+      }
+    },
+    {
+      "slug": "zirovnice",
+      "name": "Žirovnice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R441089"
+      }
+    },
+    {
+      "slug": "zlutice",
+      "name": "Žlutice",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R439517"
+      }
+    },
+    {
+      "slug": "zulova",
+      "name": "Žulová",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R438668"
+      }
+    },
+    {
+      "slug": "zumberk",
+      "name": "Žumberk",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R440143"
+      }
+    },
+    {
+      "slug": "zdar-nad-sazavou",
+      "name": "Žďár nad Sázavou",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "bezrealitky": "R428066"
+      }
+    }
+  ]
+}

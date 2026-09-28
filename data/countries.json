@@ -97,6 +97,14 @@
     "currency": "€",
     "free": false,
     "price_stars": 150
+  },
+  "cz": {
+    "code": "cz",
+    "name": "🇨🇿 Чехія",
+    "name_en": "Czechia",
+    "language": "cs",
+    "currency": "Kč",
+    "free": false,
+    "price_stars": 100
   }
-
 }

@@ -179,10 +179,7 @@ def _handle_country(
         ctx.notifier.answer_callback(cb_id, T(f"country_{country}", lang))
         return
 
-    # Змінюємо країну (це також виставить мову за замовчуванням)
     user_svc.set_country(ctx.client, chat_id, country)
-
-    # Після зміни країни — беремо НОВУ мову
     lang = user_svc.get_language(ctx.client, chat_id)
     country_label = T(f"country_{country}", lang)
 
@@ -192,11 +189,28 @@ def _handle_country(
         "country_change",
         {"from": old, "to": country},
     )
-
-    # Toast (не повідомлення у чаті)
     ctx.notifier.answer_callback(cb_id, f"✅ {country_label}")
 
-    # Одне повідомлення — головне меню
+    # ── НОВЕ: перемальовуємо той самий екран ──
+    if message_id:
+        current = user_svc.get_country(ctx.client, chat_id)
+        countries = [
+            {
+                "code": c.code,
+                "name": T(f"country_{c.code}", lang),
+                "free": c.free,
+                "price_stars": c.price_stars,
+            }
+            for c in ctx.catalog.all_countries()
+        ]
+        current_country = ctx.catalog.country(current)
+        current_label = T(f"country_{current}", lang) if current_country else current
+        text = f"🌍 <b>Поточна країна:</b> {current_label}\n\n" + T("country_selector_title", lang)
+        keyboard = kb.country_selector_keyboard(countries, current, lang)
+        ctx.notifier.edit_message(chat_id, message_id, text, keyboard=keyboard)
+        return
+
+    # Fallback, якщо message_id немає
     from rentalert.bot.handlers import _send_main_menu
 
     _send_main_menu(chat_id, ctx)
@@ -552,7 +566,11 @@ def _show_country_selector(chat_id: str, ctx: BotContext) -> None:
         for c in ctx.catalog.all_countries()
     ]
 
-    text = T("country_selector_title", lang)
+    # ── НОВЕ: індикатор поточної країни ──
+    current_country = ctx.catalog.country(current)
+    current_label = T(f"country_{current}", lang) if current_country else current
+    text = f"🌍 <b>Поточна країна:</b> {current_label}\n\n" + T("country_selector_title", lang)
+
     keyboard = kb.country_selector_keyboard(countries, current, lang)
     ctx.notifier.send_message(chat_id, text, keyboard=keyboard)
 

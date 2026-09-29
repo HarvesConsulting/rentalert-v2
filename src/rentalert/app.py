@@ -421,10 +421,12 @@ def api_stats() -> Any:
     if _ctx is None:
         return jsonify({"error": "not ready"}), 503
 
-    if config.ADMIN_API_TOKEN:
-        token = request.args.get("token") or request.headers.get("X-Admin-Token", "")
-        if token != config.ADMIN_API_TOKEN:
-            return jsonify({"error": "unauthorized"}), 401
+    if not config.ADMIN_API_TOKEN:
+        return jsonify({"error": "admin disabled"}), 403
+
+    token = request.args.get("token") or request.headers.get("X-Admin-Token", "")
+    if token != config.ADMIN_API_TOKEN:
+        return jsonify({"error": "unauthorized"}), 401
 
     rows = _ctx.client.execute(
         """
@@ -613,10 +615,12 @@ def api_users() -> Any:
     if _ctx is None:
         return jsonify({"error": "not ready"}), 503
 
-    if config.ADMIN_API_TOKEN:
-        token = request.args.get("token") or request.headers.get("X-Admin-Token", "")
-        if token != config.ADMIN_API_TOKEN:
-            return jsonify({"error": "unauthorized"}), 401
+    if not config.ADMIN_API_TOKEN:
+        return jsonify({"error": "admin disabled"}), 403
+
+    token = request.args.get("token") or request.headers.get("X-Admin-Token", "")
+    if token != config.ADMIN_API_TOKEN:
+        return jsonify({"error": "unauthorized"}), 401
 
     rows = _ctx.client.execute(
         """

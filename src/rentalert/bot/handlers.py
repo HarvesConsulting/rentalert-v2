@@ -130,6 +130,10 @@ def _handle_command(chat_id: str, text: str, ctx: BotContext) -> None:
         _maybe_warn_about_expired_access(chat_id, ctx)
         return
 
+    if text.startswith("/stats"):
+        _handle_stats_command(chat_id, ctx)
+        return
+
     if text.startswith("/help"):
         _send_help(chat_id, ctx)
         return
@@ -626,6 +630,66 @@ def _send_subscription_status(chat_id: str, ctx: BotContext) -> None:
     keyboard = {"inline_keyboard": buttons} if buttons else None
     ctx.notifier.send_message(chat_id, text, keyboard=keyboard)
 
+def _handle_stats_command(chat_id: str, ctx: BotContext) -> None:
+    """Команда /stats — статистика для адміна."""
+    # 1. Перевірка, що користувач — адмін
+    status = sub_svc.get_access_status(ctx.client, chat_id)
+    if status.get("reason") != "admin":
+        ctx.notifier.send_message(
+            chat_id,
+            "❌ Команда тільки для адміністратора.",
+        )
+        return
+
+    # 2. Отримуємо статистику
+    from rentalert import config
+
+    stats = db.get_admin_stats(ctx.client)
+
+    # 3. Формуємо повідомлення
+    lines = [
+        "📊 <b>RentAlert — статистика</b>",
+        "",
+        f"👥 <b>Користувачів:</b> {stats['users']}",
+        f"📋 <b>Підписок:</b> {stats['subscriptions']}",
+        f"📚 <b>Оголошень у БД:</b> {stats['listings']}",
+        "",
+        f"📈 <b>Нових за 24 год:</b> {stats['new_24h']}",
+        f"📈 <b>Нових за 7 днів:</b> {stats['new_7d']}",
+        "",
+    ]
+
+    # Платежі
+    lines.append("💰 <b>Платежі:</b>")
+    lines.append(f"  • Всього: {stats['payments_count']}")
+    lines.append(f"  • Зірок: {stats['payments_stars']}")
+    lines.append("")
+
+    # Топ міст
+    if stats.get("top_cities"):
+        lines.append("🔝 <b>Топ-5 міст:</b>")
+        for i, (slug, cnt) in enumerate(stats["top_cities"], 1):
+            lines.append(f"  {i}. {slug} — {cnt}")
+        lines.append("")
+
+    # Розподіл по джерелах
+    if stats.get("by_source"):
+        lines.append("📡 <b>По джерелах:</b>")
+        for key, cnt in stats["by_source"][:5]:
+            lines.append(f"  • {key}: {cnt}")
+
+    # Остання активність
+    if stats.get("last_activity"):
+        lines.append("")
+        lines.append(f"⏰ Остання активність: {stats['last_activity']}")
+
+    text_msg = "\n".join(lines)
+
+    ctx.notifier.send_message(
+        chat_id,
+        text_msg,
+        keyboard=kb.main_menu_keyboard(user_svc.get_language(ctx.client, chat_id)),
+    )
 
 def _subscription_buttons(
     lang: str,

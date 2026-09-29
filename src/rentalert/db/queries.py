@@ -827,6 +827,84 @@ def count_favorites(client: TursoClient, chat_id: str) -> int:
         return 0
     return int(rows[0][0] or 0)
 
+# ═════════════════════════════════════════════════════════════
+# Admin statistics
+# ═════════════════════════════════════════════════════════════
+
+
+def get_admin_stats(client: TursoClient) -> dict[str, Any]:
+    """Загальна статистика для адміна."""
+    stats: dict[str, Any] = {}
+
+    # Користувачі
+    rows = client.execute("SELECT COUNT(*) FROM user_settings")
+    stats["users"] = int(rows[0][0]) if rows else 0
+
+    # Підписки
+    rows = client.execute("SELECT COUNT(*) FROM user_cities")
+    stats["subscriptions"] = int(rows[0][0]) if rows else 0
+
+    # Оголошення
+    rows = client.execute("SELECT COUNT(*) FROM seen_listings")
+    stats["listings"] = int(rows[0][0]) if rows else 0
+
+    # Нові оголошення за 24 год
+    rows = client.execute(
+        """
+        SELECT COUNT(*) FROM seen_listings
+        WHERE first_seen >= datetime('now', '-1 day')
+        """
+    )
+    stats["new_24h"] = int(rows[0][0]) if rows else 0
+
+    # Нові оголошення за 7 днів
+    rows = client.execute(
+        """
+        SELECT COUNT(*) FROM seen_listings
+        WHERE first_seen >= datetime('now', '-7 days')
+        """
+    )
+    stats["new_7d"] = int(rows[0][0]) if rows else 0
+
+    # Розподіл по джерелах
+    rows = client.execute(
+        """
+        SELECT source_key, COUNT(*) AS cnt
+        FROM seen_listings
+        GROUP BY source_key
+        ORDER BY cnt DESC
+        """
+    )
+    stats["by_source"] = [(str(r[0]), int(r[1])) for r in rows]
+
+    # Топ-5 міст
+    rows = client.execute(
+        """
+        SELECT city_slug, COUNT(*) AS cnt
+        FROM seen_listings
+        GROUP BY city_slug
+        ORDER BY cnt DESC
+        LIMIT 5
+        """
+    )
+    stats["top_cities"] = [(str(r[0]), int(r[1])) for r in rows]
+
+    # Платежі
+    rows = client.execute("SELECT COUNT(*) FROM payments")
+    stats["payments_count"] = int(rows[0][0]) if rows else 0
+
+    rows = client.execute(
+        "SELECT COALESCE(SUM(amount_stars), 0) FROM payments"
+    )
+    stats["payments_stars"] = int(rows[0][0]) if rows else 0
+
+    # Остання активність
+    rows = client.execute(
+        "SELECT MAX(first_seen) FROM seen_listings"
+    )
+    stats["last_activity"] = str(rows[0][0]) if rows and rows[0][0] else None
+
+    return stats
 
 # ═════════════════════════════════════════════════════════════
 # Activity log

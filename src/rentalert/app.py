@@ -51,7 +51,7 @@ def _setup_logging() -> None:
                     "levelname": "level",
                     "name": "logger",
                 },
-                json_ensure_ascii=False, 
+                json_ensure_ascii=False,
             )
         )
 

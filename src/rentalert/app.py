@@ -14,6 +14,11 @@ from typing import Any
 from apscheduler.schedulers.background import BackgroundScheduler
 from flask import Flask, jsonify, request
 
+# ─────────────────────────────────────────────────────────────
+# Логування
+# ─────────────────────────────────────────────────────────────
+from pythonjsonlogger import json as jsonlogger
+
 from rentalert import config
 from rentalert.bot.callbacks import handle_callback
 from rentalert.bot.handlers import BotContext, handle_update
@@ -26,14 +31,36 @@ from rentalert.services.aggregator import run_aggregation_cycle
 from rentalert.services.notifier import TelegramNotifier
 from rentalert.translations import T
 
-# ─────────────────────────────────────────────────────────────
-# Логування
-# ─────────────────────────────────────────────────────────────
 
-logging.basicConfig(
-    level=getattr(logging, config.LOG_LEVEL, logging.INFO),
-    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
-)
+def _setup_logging() -> None:
+    """Налаштовує JSON-логування для прода, текстове — для dev."""
+    level = getattr(logging, config.LOG_LEVEL, logging.INFO)
+
+    handler = logging.StreamHandler()
+
+    if config.DEBUG:
+        # Локально — людський формат
+        handler.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s"))
+    else:
+        # Прод — JSON
+        handler.setFormatter(
+            jsonlogger.JsonFormatter(
+                "%(asctime)s %(levelname)s %(name)s %(message)s",
+                rename_fields={
+                    "asctime": "ts",
+                    "levelname": "level",
+                    "name": "logger",
+                },
+            )
+        )
+
+    root = logging.getLogger()
+    root.handlers.clear()
+    root.addHandler(handler)
+    root.setLevel(level)
+
+
+_setup_logging()
 log = logging.getLogger(__name__)
 
 # ─────────────────────────────────────────────────────────────

@@ -287,9 +287,14 @@ def _send_country_selector(chat_id: str, ctx: BotContext) -> None:
         for c in ctx.catalog.all_countries()
     ]
 
+    # ── НОВЕ: індикатор поточної країни ──
+    current_country = ctx.catalog.country(current)
+    current_label = T(f"country_{current}", lang) if current_country else current
+    text = f"🌍 <b>Поточна країна:</b> {current_label}\n\n" + T("country_selector_title", lang)
+
     ctx.notifier.send_message(
         chat_id,
-        T("country_selector_title", lang),
+        text,
         keyboard=kb.country_selector_keyboard(countries, current, lang),
     )
 

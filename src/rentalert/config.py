@@ -32,3 +32,4 @@ ADMIN_API_TOKEN: str = os.environ.get("ADMIN_API_TOKEN", "")
 PORT: int = int(os.environ.get("PORT", "3000"))
 RENDER_EXTERNAL_URL: str = os.environ.get("RENDER_EXTERNAL_URL", "")
 LOG_LEVEL: str = os.environ.get("LOG_LEVEL", "INFO")
+DEBUG: bool = os.environ.get("DEBUG", "false").lower() == "true"

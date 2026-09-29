@@ -455,151 +455,160 @@ def api_stats() -> Any:
     )
 
 
-@app.route("/api/debug/njuskalo")
-def debug_njuskalo() -> Any:
-    """Тимчасово: перевірити, що повертає NJUSKALO з Render."""
-    from bs4 import BeautifulSoup
-    from curl_cffi import requests as cffi_requests
+if config.DEBUG:
 
-    url = "https://www.njuskalo.hr/iznajmljivanje-stanova/zagreb"
-    try:
-        r = cffi_requests.get(url, impersonate="chrome", timeout=30)
-    except Exception as e:
-        return jsonify({"error": str(e)})
+    @app.route("/api/debug/njuskalo")
+    def debug_njuskalo() -> Any:
+        """Тимчасово: перевірити, що повертає NJUSKALO з Render."""
+        from bs4 import BeautifulSoup
+        from curl_cffi import requests as cffi_requests
 
-    soup = BeautifulSoup(r.text, "html.parser")
+        url = "https://www.njuskalo.hr/iznajmljivanje-stanova/zagreb"
+        try:
+            r = cffi_requests.get(url, impersonate="chrome", timeout=30)
+        except Exception as e:
+            return jsonify({"error": str(e)})
 
-    items_regular = soup.find_all(
-        "li",
-        class_=lambda x: x and "EntityList-item" in x and "EntityList-item--Regular" in x,
-    )
-    items_all = soup.find_all(
-        "li",
-        class_=lambda x: x and "EntityList-item" in x,
-    )
-
-    return jsonify(
-        {
-            "url": url,
-            "status": r.status_code,
-            "size": len(r.text),
-            "title": ((soup.title.string or "") if soup.title else "")[:200],
-            "items_regular": len(items_regular),
-            "items_all": len(items_all),
-            "text_sample": r.text[:1000],
-        }
-    )
-
-
-@app.route("/api/debug/sources")
-def debug_sources() -> Any:
-    """Перевіряє, які джерела доступні з Render."""
-    from bs4 import BeautifulSoup
-    from curl_cffi import requests as cffi_requests
-
-    results: dict[str, Any] = {}
-
-    # OLX.ua API
-    try:
-        r = cffi_requests.get(
-            "https://www.olx.ua/api/v1/offers/",
-            params={"city_id": 268, "category_id": 1760, "limit": 3},
-            impersonate="chrome",
-            timeout=30,
-        )
-        results["olx_ua"] = {
-            "status": r.status_code,
-            "size": len(r.text),
-            "is_json": r.text.strip().startswith("{"),
-            "preview": r.text[:150],
-        }
-    except Exception as e:
-        results["olx_ua"] = {"error": str(e)}
-
-    # Kleinanzeigen
-    try:
-        r = cffi_requests.get(
-            "https://www.kleinanzeigen.de/s-wohnung-mieten/berlin/c203l3331",
-            impersonate="chrome",
-            timeout=30,
-        )
         soup = BeautifulSoup(r.text, "html.parser")
-        title = soup.title.string if soup.title and soup.title.string else ""
-        results["kleinanzeigen"] = {
-            "status": r.status_code,
-            "size": len(r.text),
-            "title": title[:100],
-            "articles": len(soup.find_all("article")),
-        }
-    except Exception as e:
-        results["kleinanzeigen"] = {"error": str(e)}
 
-    # Habitaclia
-    try:
-        r = cffi_requests.get(
-            "https://www.habitaclia.com/alquiler-madrid.htm",
-            impersonate="chrome",
-            timeout=30,
+        items_regular = soup.find_all(
+            "li",
+            class_=lambda x: x and "EntityList-item" in x and "EntityList-item--Regular" in x,
         )
-        soup = BeautifulSoup(r.text, "html.parser")
-        title = soup.title.string if soup.title and soup.title.string else ""
-        results["habitaclia"] = {
-            "status": r.status_code,
-            "size": len(r.text),
-            "title": title[:100],
-            "articles": len(soup.find_all("article")),
-        }
-    except Exception as e:
-        results["habitaclia"] = {"error": str(e)}
-
-    return jsonify(results)
-
-
-@app.route("/api/debug/willhaben")
-def debug_willhaben() -> Any:
-    """Тимчасово: перевірити Willhaben з Render."""
-    from curl_cffi import requests as cffi_requests
-
-    url = "https://www.willhaben.at/iad/immobilien/mietwohnungen/wien"
-
-    try:
-        r = cffi_requests.get(
-            url,
-            impersonate="chrome",
-            timeout=30,
+        items_all = soup.find_all(
+            "li",
+            class_=lambda x: x and "EntityList-item" in x,
         )
-    except Exception as e:
-        return jsonify({"error": str(e)})
 
-    size = len(r.text)
-    has_next = "__NEXT_DATA__" in r.text
-    has_block = "IP-адресу заблоковано" in r.text or "blocked" in r.text.lower()
+        return jsonify(
+            {
+                "url": url,
+                "status": r.status_code,
+                "size": len(r.text),
+                "title": ((soup.title.string or "") if soup.title else "")[:200],
+                "items_regular": len(items_regular),
+                "items_all": len(items_all),
+                "text_sample": r.text[:1000],
+            }
+        )
 
-    rows_found = None
-    if has_next:
-        import json as _json
+
+if config.DEBUG:
+
+    @app.route("/api/debug/sources")
+    def debug_sources() -> Any:
+        """Перевіряє, які джерела доступні з Render."""
+        from bs4 import BeautifulSoup
+        from curl_cffi import requests as cffi_requests
+
+        results: dict[str, Any] = {}
+
+        # OLX.ua API
+        try:
+            r = cffi_requests.get(
+                "https://www.olx.ua/api/v1/offers/",
+                params={"city_id": 268, "category_id": 1760, "limit": 3},
+                impersonate="chrome",
+                timeout=30,
+            )
+            results["olx_ua"] = {
+                "status": r.status_code,
+                "size": len(r.text),
+                "is_json": r.text.strip().startswith("{"),
+                "preview": r.text[:150],
+            }
+        except Exception as e:
+            results["olx_ua"] = {"error": str(e)}
+
+        # Kleinanzeigen
+        try:
+            r = cffi_requests.get(
+                "https://www.kleinanzeigen.de/s-wohnung-mieten/berlin/c203l3331",
+                impersonate="chrome",
+                timeout=30,
+            )
+            soup = BeautifulSoup(r.text, "html.parser")
+            title = soup.title.string if soup.title and soup.title.string else ""
+            results["kleinanzeigen"] = {
+                "status": r.status_code,
+                "size": len(r.text),
+                "title": title[:100],
+                "articles": len(soup.find_all("article")),
+            }
+        except Exception as e:
+            results["kleinanzeigen"] = {"error": str(e)}
+
+        # Habitaclia
+        try:
+            r = cffi_requests.get(
+                "https://www.habitaclia.com/alquiler-madrid.htm",
+                impersonate="chrome",
+                timeout=30,
+            )
+            soup = BeautifulSoup(r.text, "html.parser")
+            title = soup.title.string if soup.title and soup.title.string else ""
+            results["habitaclia"] = {
+                "status": r.status_code,
+                "size": len(r.text),
+                "title": title[:100],
+                "articles": len(soup.find_all("article")),
+            }
+        except Exception as e:
+            results["habitaclia"] = {"error": str(e)}
+
+        return jsonify(results)
+
+
+if config.DEBUG:
+
+    @app.route("/api/debug/willhaben")
+    def debug_willhaben() -> Any:
+        """Тимчасово: перевірити Willhaben з Render."""
+        from curl_cffi import requests as cffi_requests
+
+        url = "https://www.willhaben.at/iad/immobilien/mietwohnungen/wien"
 
         try:
-            idx = r.text.find("__NEXT_DATA__")
-            start = r.text.find(">", idx) + 1
-            end = r.text.find("</script>", start)
-            data = _json.loads(r.text[start:end])
-            rows_found = (
-                data.get("props", {}).get("pageProps", {}).get("searchResult", {}).get("rowsFound")
+            r = cffi_requests.get(
+                url,
+                impersonate="chrome",
+                timeout=30,
             )
         except Exception as e:
-            rows_found = f"error: {e}"
+            return jsonify({"error": str(e)})
 
-    return jsonify(
-        {
-            "url": url,
-            "status": r.status_code,
-            "size": size,
-            "has_next_data": has_next,
-            "blocked": has_block,
-            "rows_found": rows_found,
-        }
-    )
+        size = len(r.text)
+        has_next = "__NEXT_DATA__" in r.text
+        has_block = "IP-адресу заблоковано" in r.text or "blocked" in r.text.lower()
+
+        rows_found = None
+        if has_next:
+            import json as _json
+
+            try:
+                idx = r.text.find("__NEXT_DATA__")
+                start = r.text.find(">", idx) + 1
+                end = r.text.find("</script>", start)
+                data = _json.loads(r.text[start:end])
+                rows_found = (
+                    data.get("props", {})
+                    .get("pageProps", {})
+                    .get("searchResult", {})
+                    .get("rowsFound")
+                )
+            except Exception as e:
+                rows_found = f"error: {e}"
+
+        return jsonify(
+            {
+                "url": url,
+                "status": r.status_code,
+                "size": size,
+                "has_next_data": has_next,
+                "blocked": has_block,
+                "rows_found": rows_found,
+            }
+        )
 
 
 @app.route("/api/users")

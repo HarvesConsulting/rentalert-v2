@@ -102,7 +102,7 @@ TEXTS: dict[str, dict[str, str]] = {
             "• 🇫🇷 Франція (Bien'ici)\n"
             "• 🇬🇧 Велика Британія (OpenRent)\n"
             "• 🇦🇹 Австрія (Willhaben)\n"
-            "• CZ Чехія (Bezrealitky)\n\n"
+            "• 🇨🇿 Чехія (Bezrealitky)\n\n"
             "✅ <b>Переваги:</b>\n"
             "• ⚡ Нові оголошення кожні 2 хвилини\n"
             "• 🔔 Тільки нові — без спаму\n"
@@ -224,7 +224,7 @@ TEXTS: dict[str, dict[str, str]] = {
             "• 🇫🇷 France (Bien'ici)\n"
             "• GB United Kingdom (OpenRent)\n"
             "• 🇦🇹 Austria (Willhaben)\n"
-            "• 🇨🇿 Чехія (Bezrealitky)\n\n"
+            '• 🇨🇿 Czech Republic (Bezrealitky)\n\n"'
             "✅ <b>Benefits:</b>\n"
             "• ⚡ New listings every 2 minutes\n"
             "• 🔔 Only new — no spam\n"

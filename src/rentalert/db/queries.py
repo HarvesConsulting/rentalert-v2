@@ -827,6 +827,7 @@ def count_favorites(client: TursoClient, chat_id: str) -> int:
         return 0
     return int(rows[0][0] or 0)
 
+
 # ═════════════════════════════════════════════════════════════
 # Admin statistics
 # ═════════════════════════════════════════════════════════════
@@ -893,18 +894,15 @@ def get_admin_stats(client: TursoClient) -> dict[str, Any]:
     rows = client.execute("SELECT COUNT(*) FROM payments")
     stats["payments_count"] = int(rows[0][0]) if rows else 0
 
-    rows = client.execute(
-        "SELECT COALESCE(SUM(amount_stars), 0) FROM payments"
-    )
+    rows = client.execute("SELECT COALESCE(SUM(amount_stars), 0) FROM payments")
     stats["payments_stars"] = int(rows[0][0]) if rows else 0
 
     # Остання активність
-    rows = client.execute(
-        "SELECT MAX(first_seen) FROM seen_listings"
-    )
+    rows = client.execute("SELECT MAX(first_seen) FROM seen_listings")
     stats["last_activity"] = str(rows[0][0]) if rows and rows[0][0] else None
 
     return stats
+
 
 # ═════════════════════════════════════════════════════════════
 # Activity log

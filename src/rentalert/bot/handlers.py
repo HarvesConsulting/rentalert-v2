@@ -630,6 +630,7 @@ def _send_subscription_status(chat_id: str, ctx: BotContext) -> None:
     keyboard = {"inline_keyboard": buttons} if buttons else None
     ctx.notifier.send_message(chat_id, text, keyboard=keyboard)
 
+
 def _handle_stats_command(chat_id: str, ctx: BotContext) -> None:
     """Команда /stats — статистика для адміна."""
     # 1. Перевірка, що користувач — адмін
@@ -688,6 +689,7 @@ def _handle_stats_command(chat_id: str, ctx: BotContext) -> None:
         text_msg,
         keyboard=kb.main_menu_keyboard(user_svc.get_language(ctx.client, chat_id)),
     )
+
 
 def _subscription_buttons(
     lang: str,

@@ -642,8 +642,6 @@ def _handle_stats_command(chat_id: str, ctx: BotContext) -> None:
         return
 
     # 2. Отримуємо статистику
-    from rentalert import config
-
     stats = db.get_admin_stats(ctx.client)
 
     # 3. Формуємо повідомлення

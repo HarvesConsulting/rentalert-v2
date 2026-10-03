@@ -903,6 +903,7 @@ def get_admin_stats(client: TursoClient) -> dict[str, Any]:
 
     return stats
 
+
 def get_subscribers_list(client, limit: int = 200) -> list[dict]:
     """Список користувачів з підписками (для адмін-команди /subscribers).
 
@@ -932,19 +933,22 @@ def get_subscribers_list(client, limit: int = 200) -> list[dict]:
 
     result: list[dict] = []
     for r in rows:
-        result.append({
-            "chat_id": r[0],
-            "username": r[1] or "",
-            "first_name": r[2] or "",
-            "country": r[3] or "ua",
-            "language": r[4] or "uk",
-            "is_premium": bool(r[5]),
-            "premium_until": r[6],
-            "trial_ends_at": r[7],
-            "last_seen": r[8],
-            "cities_count": int(r[9] or 0),
-        })
+        result.append(
+            {
+                "chat_id": r[0],
+                "username": r[1] or "",
+                "first_name": r[2] or "",
+                "country": r[3] or "ua",
+                "language": r[4] or "uk",
+                "is_premium": bool(r[5]),
+                "premium_until": r[6],
+                "trial_ends_at": r[7],
+                "last_seen": r[8],
+                "cities_count": int(r[9] or 0),
+            }
+        )
     return result
+
 
 # ═════════════════════════════════════════════════════════════
 # Activity log

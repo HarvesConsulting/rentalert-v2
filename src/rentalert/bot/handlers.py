@@ -134,6 +134,10 @@ def _handle_command(chat_id: str, text: str, ctx: BotContext) -> None:
         _handle_stats_command(chat_id, ctx)
         return
 
+    if text.startswith("/subscribers"):
+        _handle_subscribers_command(chat_id, ctx)
+        return
+
     if text.startswith("/help"):
         _send_help(chat_id, ctx)
         return
@@ -695,6 +699,70 @@ def _handle_stats_command(chat_id: str, ctx: BotContext) -> None:
         keyboard=kb.main_menu_keyboard(user_svc.get_language(ctx.client, chat_id)),
     )
 
+def _handle_subscribers_command(chat_id: str, ctx: BotContext) -> None:
+    """Команда /subscribers — список підписників для адміна."""
+    # 1. Перевірка адміна (та сама логіка, що й у /stats)
+    status = sub_svc.get_access_status(ctx.client, chat_id)
+    if status.get("reason") != "admin":
+        ctx.notifier.send_message(
+            chat_id,
+            "❌ Команда тільки для адміністратора.",
+        )
+        return
+
+    # 2. Отримуємо список
+    subs = db.get_subscribers_list(ctx.client, limit=200)
+
+    if not subs:
+        ctx.notifier.send_message(chat_id, "📋 Підписників немає.")
+        return
+
+    # 3. Рахуємо активних (premium / trial / free_country)
+    now_iso = datetime.now(UTC).isoformat()
+    active = 0
+    for s in subs:
+        if s["country"] == "ua":
+            active += 1
+        elif s["is_premium"] and s["premium_until"] and s["premium_until"] > now_iso:
+            active += 1
+        elif s["trial_ends_at"] and s["trial_ends_at"] > now_iso:
+            active += 1
+
+    # 4. Формуємо текст
+    lines = [
+        "👥 <b>Список підписників</b>",
+        "",
+        f"📊 Всього: <b>{len(subs)}</b> | Активних: <b>{active}</b>",
+        "",
+    ]
+
+    for i, s in enumerate(subs, 1):
+        # Визначаємо статус
+        if s["country"] == "ua":
+            badge = "🆓"
+        elif s["is_premium"] and s["premium_until"] and s["premium_until"] > now_iso:
+            badge = "💎"
+        elif s["trial_ends_at"] and s["trial_ends_at"] > now_iso:
+            badge = "🎁"
+        else:
+            badge = "⏸"
+
+        name = s["first_name"] or "—"
+        username = f" @{s['username']}" if s["username"] else ""
+        cities = s["cities_count"]
+
+        lines.append(
+            f"{i}. {badge} <code>{s['chat_id']}</code> "
+            f"{name}{username} · {s['country']} · {cities} міст"
+        )
+
+    text_msg = "\n".join(lines)
+
+    # 5. Telegram має ліміт 4096 символів — якщо більше, ріжемо
+    if len(text_msg) > 4000:
+        text_msg = text_msg[:3990] + "\n…(скорочено)"
+
+    ctx.notifier.send_message(chat_id, text_msg)
 
 def _subscription_buttons(
     lang: str,

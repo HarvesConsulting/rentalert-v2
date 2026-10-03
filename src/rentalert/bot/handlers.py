@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import logging
 from dataclasses import dataclass
+from datetime import UTC, datetime
 from typing import Any
 
 from rentalert.bot import keyboards as kb
@@ -699,6 +700,7 @@ def _handle_stats_command(chat_id: str, ctx: BotContext) -> None:
         keyboard=kb.main_menu_keyboard(user_svc.get_language(ctx.client, chat_id)),
     )
 
+
 def _handle_subscribers_command(chat_id: str, ctx: BotContext) -> None:
     """Команда /subscribers — список підписників для адміна."""
     # 1. Перевірка адміна (та сама логіка, що й у /stats)
@@ -721,11 +723,11 @@ def _handle_subscribers_command(chat_id: str, ctx: BotContext) -> None:
     now_iso = datetime.now(UTC).isoformat()
     active = 0
     for s in subs:
-        if s["country"] == "ua":
-            active += 1
-        elif s["is_premium"] and s["premium_until"] and s["premium_until"] > now_iso:
-            active += 1
-        elif s["trial_ends_at"] and s["trial_ends_at"] > now_iso:
+        if (
+            s["country"] == "ua"
+            or (s["is_premium"] and s["premium_until"] and s["premium_until"] > now_iso)
+            or (s["trial_ends_at"] and s["trial_ends_at"] > now_iso)
+        ):
             active += 1
 
     # 4. Формуємо текст

@@ -766,6 +766,7 @@ def _handle_subscribers_command(chat_id: str, ctx: BotContext) -> None:
 
     ctx.notifier.send_message(chat_id, text_msg)
 
+
 def _subscription_buttons(
     lang: str,
     country_code: str,

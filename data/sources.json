@@ -56,9 +56,9 @@
     "categories": ["apartment", "house", "room"],
     "config": {
       "category_ids": {
-        "apartment": 16,
-        "house": 16,
-        "room": 16
+        "apartment": 4777,
+        "house": 4781,
+        "room": 5212
       }
     }
   },

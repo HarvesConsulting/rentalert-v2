@@ -155,14 +155,15 @@ class HabitacliaParser(Parser):
 
     @staticmethod
     def _make_page_url(city_slug: str, page: int) -> str:
-        """Формує URL сторінки (нова структура Habitaclia).
+        """Формує URL сторінки з фільтром 'тільки нові'.
 
-        URL: /alquiler/viviendas/{slug}/s?orden=publicacion&pagina=N
+        URL: /alquiler/viviendas/{slug}/nuevos/s?pagina=N
+        Сортування за датою вмикається автоматично (Más recientes).
         """
         base = "https://www.habitaclia.com"
-        url = f"{base}/alquiler/viviendas/{city_slug}/s?orden=publicacion"
+        url = f"{base}/alquiler/viviendas/{city_slug}/nuevos/s"
         if page > 1:
-            url += f"&pagina={page}"
+            url += f"?pagina={page}"
         return url
 
     def _parse_article(

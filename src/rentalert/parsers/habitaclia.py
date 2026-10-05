@@ -82,9 +82,16 @@ class HabitacliaParser(Parser):
         city: City,
         seen_checker: Callable[[list[str]], bool] | None = None,
     ) -> list[Listing]:
-        """Завантажує всі сторінки, поки не догнали оновлення."""
+        """Завантажує всі сторінки, поки не догнали оновлення.
+
+        Особливість: якщо на сторінці всі оголошення вже в БД — НЕ зупиняємось,
+        а йдемо далі. Зупиняємось тільки якщо 3 сторінки підряд без нових.
+        Це важливо для /nuevos/, де старіші оголошення можуть бути на стор. 1,
+        а новіші — глибше.
+        """
         all_listings: list[Listing] = []
         seen_in_run: set[str] = set()
+        empty_pages_streak = 0  # скільки сторінок підряд без нових
 
         for page in range(1, self.MAX_PAGES + 1):
             url = self._make_page_url(city_slug, page)
@@ -128,20 +135,46 @@ class HabitacliaParser(Parser):
                 except Exception as e:
                     log.exception("Помилка парсингу article: %s", e)
 
+            # Якщо сторінка взагалі порожня (усі article відкинуті) —
+            # це дивно, але продовжуємо, раптом далі щось є
             if not page_listings:
-                log.info("Habitaclia %s: сторінка %d — всі дублікати — СТОП", city_slug, page)
-                break
+                empty_pages_streak += 1
+                log.info(
+                    "Habitaclia %s: сторінка %d — всі дублікати (%d підряд)",
+                    city_slug,
+                    page,
+                    empty_pages_streak,
+                )
+                if empty_pages_streak >= 3:
+                    log.info(
+                        "Habitaclia %s: 3 порожні сторінки підряд — СТОП",
+                        city_slug,
+                    )
+                    break
+                continue
 
-            # Перевірка: чи всі вже в БД?
+            # Перевірка: чи ВСІ id зі сторінки вже в БД?
             if seen_checker:
                 page_ids = [lst.id for lst in page_listings]
                 if seen_checker(page_ids):
+                    empty_pages_streak += 1
                     log.info(
-                        "Habitaclia %s: сторінка %d — всі вже в БД — СТОП",
+                        "Habitaclia %s: сторінка %d — всі вже в БД (%d підряд)",
                         city_slug,
                         page,
+                        empty_pages_streak,
                     )
-                    break
+                    if empty_pages_streak >= 3:
+                        log.info(
+                            "Habitaclia %s: 3 сторінки без нових — СТОП",
+                            city_slug,
+                        )
+                        break
+                    # КЛЮЧОВА ЗМІНА: не break, а continue
+                    continue
+
+            # Знайшли нові — скидаємо лічильник
+            empty_pages_streak = 0
 
             all_listings.extend(page_listings)
             log.info(

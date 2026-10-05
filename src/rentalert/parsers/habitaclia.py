@@ -180,11 +180,21 @@ class HabitacliaParser(Parser):
         if not href:
             return None
 
-        # ID з URL: /i16708000002842.htm → 16708000002842
-        m = re.search(r"/i(\d+)\.htm", href)
-        if not m:
+        # ID: підтримуємо обидва формати:
+        #   1) legacy:  /i16708000002842.htm
+        #   2) новий:   /alquiler/.../<UUID>/d
+        m_legacy = re.search(r"/i(\d+)\.htm", href)
+        m_new = re.search(
+            r"/([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})/d",
+            href,
+        )
+
+        if m_legacy:
+            ad_id = m_legacy.group(1)
+        elif m_new:
+            ad_id = m_new.group(1)
+        else:
             return None
-        ad_id = m.group(1)
 
         url_full = f"{self.source.base_url}{href}" if href.startswith("/") else href
 
@@ -202,8 +212,6 @@ class HabitacliaParser(Parser):
         photo = self._extract_photo(art)
         rooms, _baths, _floor = self._extract_features(art)
 
-        # Додаємо ціну до title (щоб уникнути візуальних дублікатів,
-        # бо Habitaclia — агрегатор і часто дає однакові title)
         if price:
             title = f"{title} — {price}"
 
@@ -220,7 +228,7 @@ class HabitacliaParser(Parser):
             category=category_key,
             category_icon=icon,
             category_label=label,
-            created_at=None,  # Habitaclia не показує час у списку
+            created_at=None,
             raw={},
         )
 

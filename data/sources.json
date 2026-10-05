@@ -122,6 +122,17 @@
     "categories": ["apartment", "house", "room"],
     "config": {}
   },
+  "pisos": {
+  "key": "pisos",
+  "country": "es",
+  "name": "Pisos.com",
+  "icon": "🇪🇸",
+  "kind": "pisos",
+  "base_url": "https://www.pisos.com",
+  "enabled_by_default": true,
+  "categories": ["apartment", "house", "room"],
+  "config": {}
+},
     "nekretnine": {
     "key": "nekretnine",
     "country": "hr",

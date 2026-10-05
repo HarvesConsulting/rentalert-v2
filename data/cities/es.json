@@ -232,7 +232,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "habitaclia": "madrid"
+        "habitaclia": "madrid",
+        "pisos": "madrid_capital_zona_urbana"
       }
     },
     {

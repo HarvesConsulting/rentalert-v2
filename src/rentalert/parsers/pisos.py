@@ -24,7 +24,6 @@ from rentalert.parsers.stealth import (
 log = logging.getLogger(__name__)
 
 
-# Ключові слова для фільтрації категорій за заголовком
 _APARTMENT_WORDS = ("piso", "apartamento", "ático", "estudio", "dúplex")
 _HOUSE_WORDS = ("casa", "chalet", "villa", "adosado", "pareado")
 _ROOM_WORDS = ("habitación", "cuarto")
@@ -33,7 +32,7 @@ _ROOM_WORDS = ("habitación", "cuarto")
 class PisosParser(Parser):
     """Парсер Pisos.com (ES)."""
 
-    MAX_PAGES = 10  # запобіжник від зациклення
+    MAX_PAGES = 10
 
     def fetch(
         self,
@@ -70,10 +69,6 @@ class PisosParser(Parser):
         log.info("Pisos %s: %d оголошень (відфільтровано)", city_slug, len(result))
         return result
 
-    # ─────────────────────────────────────────────────────
-    # Внутрішнє
-    # ─────────────────────────────────────────────────────
-
     def _fetch_all_pages(
         self,
         *,
@@ -88,7 +83,6 @@ class PisosParser(Parser):
 
         for page in range(1, self.MAX_PAGES + 1):
             url = self._make_page_url(city_slug, page)
-
             human_delay()
 
             try:
@@ -112,7 +106,6 @@ class PisosParser(Parser):
                 break
 
             soup = BeautifulSoup(response.text, "html.parser")
-            # Картки мають клас ad-preview
             cards = soup.find_all("div", class_="ad-preview")
 
             if not cards:
@@ -170,10 +163,7 @@ class PisosParser(Parser):
 
     @staticmethod
     def _make_page_url(city_slug: str, page: int) -> str:
-        """Формує URL сторінки.
-
-        URL: /alquiler/pisos-{slug}/{page}/
-        """
+        """Формує URL сторінки."""
         base = "https://www.pisos.com"
         url = f"{base}/alquiler/pisos-{city_slug}/"
         if page > 1:
@@ -194,26 +184,21 @@ class PisosParser(Parser):
         href = card.get("data-lnk-href") or ""
         url_full = f"https://www.pisos.com{href}" if href.startswith("/") else href
 
-        # Заголовок
         title_el = card.select_one(".ad-preview__title")
         title = title_el.get_text(strip=True) if title_el else ""
         if not title:
             return None
 
-        # Категорія за заголовком
         category_key, icon, label = self._detect_category(title)
         if category_key is None:
             return None
 
-        # Ціна
         price_el = card.select_one(".ad-preview__price")
         price = price_el.get_text(strip=True) if price_el else ""
 
-        # Локація
         location_el = card.select_one(".ad-preview__subtitle")
         location = location_el.get_text(strip=True) if location_el else ""
 
-        # Характеристики: кімнати, ванні, площа
         chars = card.select(".ad-preview__char")
         rooms: str | None = None
         for ch in chars:
@@ -224,14 +209,11 @@ class PisosParser(Parser):
                     rooms = m.group(1)
                 break
 
-        # Фото
         photo = self._extract_photo(card)
 
-        # Опис (може бути відсутній)
         desc_el = card.select_one(".ad-preview__description")
         description = desc_el.get_text(strip=True) if desc_el else ""
 
-        # Додаємо опис до raw (він може бути довгий, обрізаємо)
         raw: dict[str, Any] = {
             "description": description[:500] if description else "",
         }
@@ -253,59 +235,40 @@ class PisosParser(Parser):
             raw=raw,
         )
 
+    @staticmethod
+    def _extract_photo(card: Any) -> str:
+        """Витягує URL фото з картки Pisos.com."""
+        main_img = card.select_one(".carousel__main-photo img, .carousel__main-photo--mosaic img")
 
-@staticmethod
-def _extract_photo(card: Any) -> str:
-    """Витягує URL фото з картки Pisos.com.
+        candidates: list[Any] = []
+        if main_img:
+            candidates.append(main_img)
+        candidates.extend(card.find_all("img"))
 
-    Підтримує:
-      - звичайний src
-      - lazy-loading через data-src, data-original, data-lazy-src
-      - srcset
-      - fallback на будь-який img з fotos.imghs.net / imghs.net
-      - ігнорує placeholder-и (data:image/...)
-    """
-    # 1. Основний селектор (картка з каруселлю)
-    main_img = card.select_one(".carousel__main-photo img, .carousel__main-photo--mosaic img")
+        for candidate in candidates:
+            if not candidate:
+                continue
 
-    # 2. Усі img у картці (порядок: основний перший, потім решта)
-    candidates: list[Any] = []
-    if main_img:
-        candidates.append(main_img)
-    candidates.extend(card.find_all("img"))
+            src = (
+                candidate.get("src")
+                or candidate.get("data-src")
+                or candidate.get("data-original")
+                or candidate.get("data-lazy-src")
+                or ""
+            )
 
-    for candidate in candidates:
-        if not candidate:
-            continue
+            if not src or src.startswith("data:"):
+                srcset = candidate.get("srcset", "") or ""
+                if srcset:
+                    src = srcset.split(",")[0].strip().split(" ")[0]
 
-        # Пробуємо різні атрибути для URL
-        src = (
-            candidate.get("src")
-            or candidate.get("data-src")
-            or candidate.get("data-original")
-            or candidate.get("data-lazy-src")
-            or ""
-        )
+            if not src or src.startswith("data:"):
+                continue
 
-        # Якщо src порожній або placeholder — пробуємо srcset
-        if not src or src.startswith("data:"):
-            srcset = candidate.get("srcset", "") or ""
-            if srcset:
-                # srcset = "url1 1x, url2 2x" — беремо перший URL
-                src = srcset.split(",")[0].strip().split(" ")[0]
+            if "fotos.imghs.net" in src or "imghs.net" in src:
+                return src
 
-        if not src or src.startswith("data:"):
-            continue
-
-        # Реальне фото оголошення (Pisos використовує fotos.imghs.net)
-        if "fotos.imghs.net" in src or "imghs.net" in src:
-            return src
-
-    return ""
-
-    # ─────────────────────────────────────────────────────
-    # Витягування категорії
-    # ─────────────────────────────────────────────────────
+        return ""
 
     @staticmethod
     def _detect_category(title: str) -> tuple[str | None, str, str]:

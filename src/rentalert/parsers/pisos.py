@@ -225,8 +225,7 @@ class PisosParser(Parser):
                 break
 
         # Фото
-        img = card.select_one(".carousel__main-photo img, .carousel__main-photo--mosaic img")
-        photo = img.get("src", "") if img else ""
+        photo = self._extract_photo(card)
 
         # Опис (може бути відсутній)
         desc_el = card.select_one(".ad-preview__description")
@@ -253,6 +252,57 @@ class PisosParser(Parser):
             created_at=None,
             raw=raw,
         )
+
+@staticmethod
+def _extract_photo(card: Any) -> str:
+    """Витягує URL фото з картки Pisos.com.
+
+    Підтримує:
+      - звичайний src
+      - lazy-loading через data-src, data-original, data-lazy-src
+      - srcset
+      - fallback на будь-який img з fotos.imghs.net / imghs.net
+      - ігнорує placeholder-и (data:image/...)
+    """
+    # 1. Основний селектор (картка з каруселлю)
+    main_img = card.select_one(
+        ".carousel__main-photo img, .carousel__main-photo--mosaic img"
+    )
+
+    # 2. Усі img у картці (порядок: основний перший, потім решта)
+    candidates: list[Any] = []
+    if main_img:
+        candidates.append(main_img)
+    candidates.extend(card.find_all("img"))
+
+    for candidate in candidates:
+        if not candidate:
+            continue
+
+        # Пробуємо різні атрибути для URL
+        src = (
+            candidate.get("src")
+            or candidate.get("data-src")
+            or candidate.get("data-original")
+            or candidate.get("data-lazy-src")
+            or ""
+        )
+
+        # Якщо src порожній або placeholder — пробуємо srcset
+        if not src or src.startswith("data:"):
+            srcset = candidate.get("srcset", "") or ""
+            if srcset:
+                # srcset = "url1 1x, url2 2x" — беремо перший URL
+                src = srcset.split(",")[0].strip().split(" ")[0]
+
+        if not src or src.startswith("data:"):
+            continue
+
+        # Реальне фото оголошення (Pisos використовує fotos.imghs.net)
+        if "fotos.imghs.net" in src or "imghs.net" in src:
+            return src
+
+    return ""
 
     # ─────────────────────────────────────────────────────
     # Витягування категорії

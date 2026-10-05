@@ -253,6 +253,7 @@ class PisosParser(Parser):
             raw=raw,
         )
 
+
 @staticmethod
 def _extract_photo(card: Any) -> str:
     """Витягує URL фото з картки Pisos.com.
@@ -265,9 +266,7 @@ def _extract_photo(card: Any) -> str:
       - ігнорує placeholder-и (data:image/...)
     """
     # 1. Основний селектор (картка з каруселлю)
-    main_img = card.select_one(
-        ".carousel__main-photo img, .carousel__main-photo--mosaic img"
-    )
+    main_img = card.select_one(".carousel__main-photo img, .carousel__main-photo--mosaic img")
 
     # 2. Усі img у картці (порядок: основний перший, потім решта)
     candidates: list[Any] = []

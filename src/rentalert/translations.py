@@ -224,7 +224,7 @@ TEXTS: dict[str, dict[str, str]] = {
             "• 🇫🇷 France (Bien'ici)\n"
             "• GB United Kingdom (OpenRent)\n"
             "• 🇦🇹 Austria (Willhaben)\n"
-            '• 🇨🇿 Czech Republic (Bezrealitky)\n\n'
+            "• 🇨🇿 Czech Republic (Bezrealitky)\n\n"
             "✅ <b>Benefits:</b>\n"
             "• ⚡ New listings every 2 minutes\n"
             "• 🔔 Only new — no spam\n"

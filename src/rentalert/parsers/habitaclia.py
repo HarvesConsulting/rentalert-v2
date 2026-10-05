@@ -157,12 +157,12 @@ class HabitacliaParser(Parser):
     def _make_page_url(city_slug: str, page: int) -> str:
         """Формує URL сторінки (нова структура Habitaclia).
 
-        URL: /alquiler/viviendas/{slug}/s?pagina=N
+        URL: /alquiler/viviendas/{slug}/s?orden=publicacion&pagina=N
         """
         base = "https://www.habitaclia.com"
-        url = f"{base}/alquiler/viviendas/{city_slug}/s"
+        url = f"{base}/alquiler/viviendas/{city_slug}/s?orden=publicacion"
         if page > 1:
-            url += f"?pagina={page}"
+            url += f"&pagina={page}"
         return url
 
     def _parse_article(

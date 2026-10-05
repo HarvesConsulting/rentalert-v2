@@ -98,7 +98,7 @@ TEXTS: dict[str, dict[str, str]] = {
             "• 🇷🇴 Румунія (OLX.ro)\n"
             "• 🇧🇬 Болгарія (OLX.bg)\n"
             "• 🇩🇪 Німеччина (Kleinanzeigen)\n"
-            "• 🇪🇸 Іспанія (Habitaclia)\n"
+            "• 🇪🇸 Іспанія (Habitaclia + Pisos.com)\n"
             "• 🇫🇷 Франція (Bien'ici)\n"
             "• 🇬🇧 Велика Британія (OpenRent)\n"
             "• 🇦🇹 Австрія (Willhaben)\n"
@@ -220,11 +220,11 @@ TEXTS: dict[str, dict[str, str]] = {
             "• 🇷🇴 Romania (OLX.ro)\n"
             "• 🇧🇬 Bulgaria (OLX.bg)\n"
             "• 🇩🇪 Germany (Kleinanzeigen)\n"
-            "• 🇪🇸 Spain (Habitaclia)\n"
+            "• 🇪🇸 Spain (Habitaclia + Pisos.com)\n"
             "• 🇫🇷 France (Bien'ici)\n"
             "• GB United Kingdom (OpenRent)\n"
             "• 🇦🇹 Austria (Willhaben)\n"
-            '• 🇨🇿 Czech Republic (Bezrealitky)\n\n"'
+            '• 🇨🇿 Czech Republic (Bezrealitky)\n\n'
             "✅ <b>Benefits:</b>\n"
             "• ⚡ New listings every 2 minutes\n"
             "• 🔔 Only new — no spam\n"

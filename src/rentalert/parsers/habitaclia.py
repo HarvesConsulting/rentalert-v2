@@ -190,13 +190,17 @@ class HabitacliaParser(Parser):
     def _make_page_url(city_slug: str, page: int) -> str:
         """Формує URL сторінки з фільтром 'тільки нові'.
 
-        URL: /alquiler/viviendas/{slug}/nuevos/s?pagina=N
+        URL: /alquiler/viviendas/{slug}/nuevos/s/{page}
+        Наприклад:
+          - стор. 1: /alquiler/viviendas/barcelona/nuevos/s
+          - стор. 2: /alquiler/viviendas/barcelona/nuevos/s/2
+          - стор. 3: /alquiler/viviendas/barcelona/nuevos/s/3
         Сортування за датою вмикається автоматично (Más recientes).
         """
         base = "https://www.habitaclia.com"
         url = f"{base}/alquiler/viviendas/{city_slug}/nuevos/s"
         if page > 1:
-            url += f"?pagina={page}"
+            url += f"/{page}"
         return url
 
     def _parse_article(

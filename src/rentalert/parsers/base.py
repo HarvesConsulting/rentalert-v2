@@ -69,9 +69,6 @@ class Listing:
     rooms: str | None
     """Кількість кімнат як рядок ('2') або None."""
 
-    area_m2: float | None
-    """Площа в м² (28.5) або None, якщо невідомо."""
-
     category: str
     """Ключ категорії: 'apartment', 'house', 'room', 'daily'."""
 
@@ -83,6 +80,9 @@ class Listing:
 
     created_at: datetime | None
     """Час публікації (UTC) або None, якщо невідомо."""
+
+    area_m2: float | None = None
+    """Площа в м² (28.5) або None, якщо невідомо."""
 
     raw: dict[str, Any] = field(default_factory=dict)
     """Оригінальні дані з джерела (для дебагу, не для UI)."""

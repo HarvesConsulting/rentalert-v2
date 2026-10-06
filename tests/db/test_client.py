@@ -37,7 +37,9 @@ def test_encode_arg_int() -> None:
 
 
 def test_encode_arg_float() -> None:
-    assert TursoClient._encode_arg(3.14) == {"type": "float", "value": "3.14"}
+    # Turso не має типу "float" — передаємо як text,
+    # SQLite через type affinity збереже у REAL
+    assert TursoClient._encode_arg(3.14) == {"type": "text", "value": "3.14"}
 
 
 def test_encode_arg_str() -> None:

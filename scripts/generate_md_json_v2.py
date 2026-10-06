@@ -8,21 +8,20 @@
 
 import json
 import re
-import unicodedata
 from pathlib import Path
 
 # Топ-10 пріоритетних (з тих, що ми знайшли)
 PRIORITY_IDS = {
-    13859,   # Кишинёв
-    14247,   # Бельцы
-    13495,   # Тирасполь (треба перевірити, чи є)
-    13498,   # Бендеры
-    13167,   # Кагул
-    14407,   # Унгень
-    12938,   # Сороки
-    14027,   # Оргеев
-    13359,   # Комрат
-    14186,   # Единец
+    13859,  # Кишинёв
+    14247,  # Бельцы
+    13495,  # Тирасполь (треба перевірити, чи є)
+    13498,  # Бендеры
+    13167,  # Кагул
+    14407,  # Унгень
+    12938,  # Сороки
+    14027,  # Оргеев
+    13359,  # Комрат
+    14186,  # Единец
 }
 
 # Скорочення для slug (щоб не дублювати)
@@ -45,11 +44,39 @@ def transliterate_ru(text: str) -> str:
     if not text:
         return ""
     mapping = {
-        "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "e",
-        "ж": "zh", "з": "z", "и": "i", "й": "i", "к": "k", "л": "l", "м": "m",
-        "н": "n", "о": "o", "п": "p", "р": "r", "с": "s", "т": "t", "у": "u",
-        "ф": "f", "х": "h", "ц": "c", "ч": "ch", "ш": "sh", "щ": "sh",
-        "ъ": "", "ы": "y", "ь": "", "э": "e", "ю": "yu", "я": "ya",
+        "а": "a",
+        "б": "b",
+        "в": "v",
+        "г": "g",
+        "д": "d",
+        "е": "e",
+        "ё": "e",
+        "ж": "zh",
+        "з": "z",
+        "и": "i",
+        "й": "i",
+        "к": "k",
+        "л": "l",
+        "м": "m",
+        "н": "n",
+        "о": "o",
+        "п": "p",
+        "р": "r",
+        "с": "s",
+        "т": "t",
+        "у": "u",
+        "ф": "f",
+        "х": "h",
+        "ц": "c",
+        "ч": "ch",
+        "ш": "sh",
+        "щ": "sh",
+        "ъ": "",
+        "ы": "y",
+        "ь": "",
+        "э": "e",
+        "ю": "yu",
+        "я": "ya",
     }
     s = text.lower()
     result = "".join(mapping.get(c, c) for c in s)
@@ -100,14 +127,16 @@ def main() -> None:
         if transliterate_ru(name):
             aliases.append(transliterate_ru(name))
 
-        cities.append({
-            "slug": slug,
-            "name": name,           # залишаємо російською (як у 999.md)
-            "region": region,
-            "priority": city_id in PRIORITY_IDS,
-            "refs": {"999md": city_id},
-            "aliases": aliases,
-        })
+        cities.append(
+            {
+                "slug": slug,
+                "name": name,  # залишаємо російською (як у 999.md)
+                "region": region,
+                "priority": city_id in PRIORITY_IDS,
+                "refs": {"999md": city_id},
+                "aliases": aliases,
+            }
+        )
 
     # Сортуємо: спочатку priority, потім за назвою
     cities.sort(key=lambda c: (not c["priority"], c["name"]))
@@ -128,7 +157,9 @@ def main() -> None:
 
     print("\nТоп-15 міст:")
     for c in cities[:15]:
-        print(f"  {c['slug']:<20} | {c['name']:<22} | refs={c['refs']['999md']} | {'⭐' if c['priority'] else '  '}")
+        print(
+            f"  {c['slug']:<20} | {c['name']:<22} | refs={c['refs']['999md']} | {'⭐' if c['priority'] else '  '}"
+        )
 
 
 if __name__ == "__main__":

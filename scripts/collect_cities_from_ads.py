@@ -62,12 +62,18 @@ def search_ads(region_id: int, limit: int = 50) -> list[int]:
             "source": "AD_SOURCE_DESKTOP_REDESIGN",
             "subCategoryId": 1406,  # будинки
             "filters": [
-                {"filterId": 16, "features": [
-                    {"featureId": 1, "optionIds": [912]},   # оренда
-                ]},
-                {"filterId": 8, "features": [
-                    {"featureId": 7, "optionIds": [region_id]},   # region
-                ]},
+                {
+                    "filterId": 16,
+                    "features": [
+                        {"featureId": 1, "optionIds": [912]},  # оренда
+                    ],
+                },
+                {
+                    "filterId": 8,
+                    "features": [
+                        {"featureId": 7, "optionIds": [region_id]},  # region
+                    ],
+                },
             ],
             "pagination": {"skip": 0, "limit": limit},
         }

@@ -30,14 +30,16 @@ def main() -> None:
 
         priority = m["id"] in {13495, 13498, 14186}
 
-        data["cities"].append({
-            "slug": slug,
-            "name": m["name"],
-            "region": m["region_name"],
-            "priority": priority,
-            "refs": {"999md": m["id"]},
-            "aliases": [m["name"].lower()],
-        })
+        data["cities"].append(
+            {
+                "slug": slug,
+                "name": m["name"],
+                "region": m["region_name"],
+                "priority": priority,
+                "refs": {"999md": m["id"]},
+                "aliases": [m["name"].lower()],
+            }
+        )
         added += 1
         print(f"  + {m['name']} ({m['id']}) → {slug}")
 

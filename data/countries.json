@@ -106,5 +106,14 @@
     "currency": "Kč",
     "free": false,
     "price_stars": 100
-  }
+  },
+  "md": {
+  "code": "md",
+  "name": "🇲🇩 Молдова",
+  "name_en": "Moldova",
+  "language": "ro",
+  "currency": "MDL",
+  "free": false,
+  "price_stars": 100
+}
 }

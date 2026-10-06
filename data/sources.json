@@ -123,17 +123,17 @@
     "config": {}
   },
   "pisos": {
-  "key": "pisos",
-  "country": "es",
-  "name": "Pisos.com",
-  "icon": "🇪🇸",
-  "kind": "pisos",
-  "base_url": "https://www.pisos.com",
-  "enabled_by_default": true,
-  "categories": ["apartment", "house", "room"],
-  "config": {}
-},
-    "nekretnine": {
+    "key": "pisos",
+    "country": "es",
+    "name": "Pisos.com",
+    "icon": "🇪🇸",
+    "kind": "pisos",
+    "base_url": "https://www.pisos.com",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house", "room"],
+    "config": {}
+  },
+  "nekretnine": {
     "key": "nekretnine",
     "country": "hr",
     "name": "Nekretnine.hr",
@@ -159,7 +159,7 @@
     "enabled_by_default": true,
     "categories": ["apartment", "house"],
     "config": {}
-  }  ,
+  },
   "openrent": {
     "key": "openrent",
     "country": "gb",
@@ -171,7 +171,7 @@
     "categories": ["apartment", "house", "room"],
     "config": {}
   },
-     "willhaben": {
+  "willhaben": {
     "key": "willhaben",
     "country": "at",
     "name": "Willhaben",
@@ -202,5 +202,16 @@
         "house": "DUM"
       }
     }
+  },
+  "999md": {
+    "key": "999md",
+    "country": "md",
+    "name": "999.md",
+    "icon": "🇲🇩",
+    "kind": "999md",
+    "base_url": "https://999.md",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house"],
+    "config": {}
   }
 }

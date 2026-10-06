@@ -1,0 +1,40 @@
+{
+  "country": "md",
+  "cities": [
+    {"slug": "chisinau", "name": "Chișinău", "region": "Chișinău", "priority": true, "refs": {"999md": 13859}},
+    {"slug": "balti", "name": "Bălți", "region": "Bălți", "priority": true, "refs": {"999md": 14247}},
+    {"slug": "tiraspol", "name": "Tiraspol", "region": "Stînga Nistrului", "priority": true, "refs": {"999md": 13495}},
+    {"slug": "bender", "name": "Bender", "region": "Stînga Nistrului", "priority": true, "refs": {"999md": 13498}},
+    {"slug": "cahul", "name": "Cahul", "region": "Cahul", "priority": true, "refs": {"999md": 13167}},
+    {"slug": "ungheni", "name": "Ungheni", "region": "Ungheni", "priority": true, "refs": {"999md": 14407}},
+    {"slug": "soroca", "name": "Soroca", "region": "Soroca", "priority": true, "refs": {"999md": 12938}},
+    {"slug": "orhei", "name": "Orhei", "region": "Orhei", "priority": true, "refs": {"999md": 14027}},
+    {"slug": "comrat", "name": "Comrat", "region": "Gagauzia", "priority": true, "refs": {"999md": 13359}},
+    {"slug": "edinet", "name": "Edineț", "region": "Edineț", "priority": true, "refs": {"999md": 14186}},
+
+    {"slug": "briceni", "name": "Briceni", "region": "Briceni", "priority": false, "refs": {"999md": 13841}},
+    {"slug": "drochia", "name": "Drochia", "region": "Drochia", "priority": false, "refs": {"999md": 13345}},
+    {"slug": "dubasari", "name": "Dubăsari", "region": "Stînga Nistrului", "priority": false, "refs": {"999md": 13482}},
+    {"slug": "causeni", "name": "Căușeni", "region": "Căușeni", "priority": false, "refs": {"999md": 13215}},
+    {"slug": "leova", "name": "Leova", "region": "Leova", "priority": false, "refs": {"999md": 13276}},
+    {"slug": "anenii-noi", "name": "Anenii Noi", "region": "Anenii Noi", "priority": false, "refs": {"999md": 14423}},
+    {"slug": "ocnita", "name": "Ocnița", "region": "Ocnița", "priority": false, "refs": {"999md": 14263}},
+    {"slug": "ribnita", "name": "Rîbnița", "region": "Stînga Nistrului", "priority": false, "refs": {"999md": 13012}},
+    {"slug": "straseni", "name": "Strășeni", "region": "Strășeni", "priority": false, "refs": {"999md": 14415}},
+    {"slug": "singerei", "name": "Sîngerei", "region": "Sîngerei", "priority": false, "refs": {"999md": 14426}},
+    {"slug": "telenesti", "name": "Telenești", "region": "Telenești", "priority": false, "refs": {"999md": 13789}},
+    {"slug": "falesti", "name": "Fălești", "region": "Fălești", "priority": false, "refs": {"999md": 14424}},
+    {"slug": "floresti", "name": "Florești", "region": "Florești", "priority": false, "refs": {"999md": 12913}},
+    {"slug": "ceadir-lunga", "name": "Ceadîr-Lunga", "region": "Gagauzia", "priority": false, "refs": {"999md": 13361}},
+    {"slug": "ialoveni", "name": "Ialoveni", "region": "Ialoveni", "priority": false, "refs": {"999md": 13932}},
+
+    {"slug": "codru", "name": "Codru", "region": "Chișinău", "priority": false, "refs": {"999md": 13942}},
+    {"slug": "durlești", "name": "Durlești", "region": "Chișinău", "priority": false, "refs": {"999md": 13917}},
+    {"slug": "cricova", "name": "Cricova", "region": "Chișinău", "priority": false, "refs": {"999md": 14031}},
+    {"slug": "stauceni", "name": "Stăuceni", "region": "Chișinău", "priority": false, "refs": {"999md": 12926}},
+    {"slug": "golerkani", "name": "Golercani", "region": "Chișinău", "priority": false, "refs": {"999md": 14026}},
+    {"slug": "elizaveta", "name": "Elizaveta", "region": "Bălți", "priority": false, "refs": {"999md": 14155}},
+    {"slug": "svetlyi", "name": "Svetlyi", "region": "Stînga Nistrului", "priority": false, "refs": {"999md": 13448}},
+    {"slug": "ustia", "name": "Ustia", "region": "Dubăsari", "priority": false, "refs": {"999md": 14008}}
+  ]
+}

@@ -32,6 +32,7 @@ def _register_parser_classes() -> None:
     from rentalert.parsers.dimria import DimriaParser
     from rentalert.parsers.habitaclia import HabitacliaParser
     from rentalert.parsers.kleinanzeigen import KleinanzeigenParser
+    from rentalert.parsers.md999 import Parser999Md
     from rentalert.parsers.nekretnine import NekretnineParser
     from rentalert.parsers.olx import OLXParser
     from rentalert.parsers.openrent import OpenRentParser
@@ -49,6 +50,7 @@ def _register_parser_classes() -> None:
         "openrent": OpenRentParser,
         "willhaben": WillhabenParser,
         "bezrealitky": BezrealitkyParser,
+        "999md": Parser999Md,
     }
 
 

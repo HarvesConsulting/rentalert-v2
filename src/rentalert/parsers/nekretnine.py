@@ -231,6 +231,8 @@ class NekretnineParser(Parser):
             link=url_full,
             photo=photo,
             rooms=rooms,
+
+            area_m2=None,
             category=category_key,
             category_icon=icon,
             category_label=label,

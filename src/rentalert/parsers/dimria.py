@@ -170,6 +170,8 @@ class DimriaParser(Parser):
             link=f"https://dom.ria.com/uk/realty-{realty_id}.html",
             photo=photo,
             rooms=rooms,
+
+            area_m2=None,
             category="apartment",
             category_icon="🏘",
             category_label="DIM.RIA",

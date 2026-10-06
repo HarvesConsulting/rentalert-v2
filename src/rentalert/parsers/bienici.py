@@ -230,6 +230,8 @@ class BienIciParser(Parser):
             link=link,
             photo=photo,
             rooms=str(rooms) if rooms else None,
+
+            area_m2=None,
             category=category_key,
             category_icon=icon,
             category_label=label,

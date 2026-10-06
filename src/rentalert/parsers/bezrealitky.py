@@ -255,6 +255,8 @@ class BezrealitkyParser(Parser):
             link=link,
             photo=photo,
             rooms=rooms,
+
+            area_m2=None,
             category=category,
             category_icon=category_icon,
             category_label=category_label,

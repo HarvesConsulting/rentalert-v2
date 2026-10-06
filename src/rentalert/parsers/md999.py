@@ -127,9 +127,7 @@ class Parser999Md(Parser):
         """Повертає оголошення 999.md для міста й категорій."""
         location_id = self.external_id(city)
         if location_id is None:
-            log.warning(
-                "City %r не має refs для %r", city.slug, self.source.key
-            )
+            log.warning("City %r не має refs для %r", city.slug, self.source.key)
             return []
 
         supported = self.filter_categories(categories)
@@ -153,9 +151,7 @@ class Parser999Md(Parser):
                     seen_checker=seen_checker,
                 )
             except Exception as e:
-                log.exception(
-                    "999.md %s/%s failed: %s", city.slug, cat, e
-                )
+                log.exception("999.md %s/%s failed: %s", city.slug, cat, e)
                 continue
 
             for lst in batch:
@@ -213,9 +209,7 @@ class Parser999Md(Parser):
                         seen_in_run.add(listing.id)
                         page_listings.append(listing)
                 except Exception as e:
-                    log.exception(
-                        "999.md advert %s failed: %s", ad.get("id"), e
-                    )
+                    log.exception("999.md advert %s failed: %s", ad.get("id"), e)
 
             # Контракт seen_checker (з base.py):
             #   True = УСІ передані ID вже є в БД.
@@ -224,7 +218,9 @@ class Parser999Md(Parser):
                 if seen_checker(page_ids):
                     log.info(
                         "999.md %s/%s: вся сторінка (%d) вже відома, стоп",
-                        city.slug, category, len(page_ids),
+                        city.slug,
+                        category,
+                        len(page_ids),
                     )
                     break
 
@@ -256,7 +252,8 @@ class Parser999Md(Parser):
         except (TypeError, ValueError):
             log.warning(
                 "999.md: невалідний location_id=%r для %s",
-                location_id, subcategory_id,
+                location_id,
+                subcategory_id,
             )
             return None
 
@@ -307,14 +304,13 @@ class Parser999Md(Parser):
         if isinstance(result, dict):
             log.debug(
                 "999.md searchAds count=%s skip=%s",
-                result.get("count"), skip,
+                result.get("count"),
+                skip,
             )
             return result
         return None
 
-    def _fetch_advert(
-        self, ad: dict, city: City, category: str
-    ) -> Listing | None:
+    def _fetch_advert(self, ad: dict, city: City, category: str) -> Listing | None:
         """Завантажує деталі оголошення через advert(id).
 
         ⚠️ advert(input: {id: ...}) очікує ID як РЯДОК.
@@ -349,17 +345,20 @@ class Parser999Md(Parser):
 
     def _post(self, query: str, variables: dict) -> dict | None:
         """POST-запит до 999.md GraphQL з retry."""
+
         def _do_post(url: str, **kwargs) -> Any:
             return self._session.post(url, **kwargs)
 
         # stealth_headers + Content-Type для JSON
-        headers = stealth_headers({
-            "Content-Type": "application/json",
-            "Accept": "application/json",
-            "lang": "ru",
-            "Origin": "https://999.md",
-            "Referer": "https://999.md/",
-        })
+        headers = stealth_headers(
+            {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "lang": "ru",
+                "Origin": "https://999.md",
+                "Referer": "https://999.md/",
+            }
+        )
 
         response = fetch_with_retry(
             _do_post,
@@ -395,9 +394,7 @@ class Parser999Md(Parser):
     # Мапінг
     # ─────────────────────────────────────────────────────
 
-    def _parse_advert(
-        self, advert: dict, city: City, category: str
-    ) -> Listing | None:
+    def _parse_advert(self, advert: dict, city: City, category: str) -> Listing | None:
         """Мапить Advert (з alias) → Listing."""
         advert_id = advert.get("id")
         if not advert_id:
@@ -406,9 +403,7 @@ class Parser999Md(Parser):
         title = advert.get("title") or "999.md"
 
         # ── Ціна ──
-        price_str = self._format_price(
-            (advert.get("price") or {}).get("value") or {}
-        )
+        price_str = self._format_price((advert.get("price") or {}).get("value") or {})
 
         # ── Локація ──
         street = (advert.get("street") or {}).get("value") or ""
@@ -428,9 +423,7 @@ class Parser999Md(Parser):
         location = ", ".join(location_parts) or city.name
 
         # ── Фото ──
-        photo = self._first_photo(
-            (advert.get("photos") or {}).get("value")
-        )
+        photo = self._first_photo((advert.get("photos") or {}).get("value"))
 
         # ── Категорія ──
         icon, label = self._category_meta(category)
@@ -511,10 +504,8 @@ class Parser999Md(Parser):
         if first.startswith("http"):
             return first
         # Інакше — будуємо URL на справжньому CDN
-        return (
-            "https://i.simpalsmedia.com/999.md/"
-            f"BoardImages/900x900//{first}"
-        )
+        return f"https://i.simpalsmedia.com/999.md/BoardImages/900x900//{first}"
+
     @staticmethod
     def _format_price(price_data: dict) -> str:
         """Форматує ціну: '450 €', '1 200 MDL'."""

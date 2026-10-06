@@ -19,7 +19,7 @@ from curl_cffi import requests as cffi_requests
 
 from rentalert.catalog.models import City
 from rentalert.parsers.base import Listing, Parser
-from rentalert.parsers.stealth import human_delay, stealth_headers
+from rentalert.parsers.stealth import human_delay
 
 log = logging.getLogger(__name__)
 
@@ -83,11 +83,11 @@ class OpenRentParser(Parser):
 
         response = cffi_requests.get(
             url,
-            impersonate="chrome150",   # найновіший
+            impersonate="chrome150",  # найновіший
             headers=headers,
             timeout=30,
         )
-        
+
         if response.status_code != 200:
             log.warning("OpenRent %s → HTTP %d", url, response.status_code)
             return []

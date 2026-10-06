@@ -20,12 +20,12 @@ HEADERS = {
 
 # Тільки ті, що точно є в 0.16.3
 IMPERSONATIONS = [
-    "chrome131",       # поточний у парсері
-    "chrome136",       # новіший
-    "chrome142",       # ще новіший
+    "chrome131",  # поточний у парсері
+    "chrome136",  # новіший
+    "chrome142",  # ще новіший
     "chrome145",
     "chrome146",
-    "chrome150",       # найновіший
+    "chrome150",  # найновіший
     "firefox135",
     "firefox144",
     "firefox147",

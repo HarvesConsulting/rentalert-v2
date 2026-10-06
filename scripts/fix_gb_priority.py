@@ -29,7 +29,6 @@ PRIORITY_REGIONS = {
     "warwickshire",
     "oxfordshire",
     "cambridgeshire",
-    "norfolk",
     "hertfordshire",
     "bedfordshire",
     "berkshire",
@@ -47,7 +46,6 @@ PRIORITY_REGIONS = {
     "north-yorkshire",
     "west-sussex",
     "east-sussex",
-    "somerset",
     "sussex",
 }
 

@@ -1,0 +1,233 @@
+[
+  {
+    "id": 13859,
+    "name": "Кишинёв",
+    "region_id": 12900,
+    "region_name": "Кишинёв мун.",
+    "example_ad": 105395041
+  },
+  {
+    "id": 13933,
+    "name": "Думбрава",
+    "region_id": 12900,
+    "region_name": "Кишинёв мун.",
+    "example_ad": 101293817
+  },
+  {
+    "id": 14398,
+    "name": "Сынжера",
+    "region_id": 12900,
+    "region_name": "Кишинёв мун.",
+    "example_ad": 104234323
+  },
+  {
+    "id": 12926,
+    "name": "Ставчены",
+    "region_id": 12900,
+    "region_name": "Кишинёв мун.",
+    "example_ad": 104767325
+  },
+  {
+    "id": 13917,
+    "name": "Дурлешты",
+    "region_id": 12900,
+    "region_name": "Кишинёв мун.",
+    "example_ad": 105231349
+  },
+  {
+    "id": 14402,
+    "name": "Бубуечь",
+    "region_id": 12900,
+    "region_name": "Кишинёв мун.",
+    "example_ad": 105453472
+  },
+  {
+    "id": 12952,
+    "name": "Трушены",
+    "region_id": 12900,
+    "region_name": "Кишинёв мун.",
+    "example_ad": 105147207
+  },
+  {
+    "id": 14401,
+    "name": "Бачой",
+    "region_id": 12900,
+    "region_name": "Кишинёв мун.",
+    "example_ad": 105537792
+  },
+  {
+    "id": 14247,
+    "name": "Бельцы",
+    "region_id": 12912,
+    "region_name": "Бельцы мун.",
+    "example_ad": 105543575
+  },
+  {
+    "id": 13451,
+    "name": "Бессарабка",
+    "region_id": 12901,
+    "region_name": "Бессарабка",
+    "example_ad": 103711218
+  },
+  {
+    "id": 14003,
+    "name": "Кошница",
+    "region_id": 12879,
+    "region_name": "Дубоссары",
+    "example_ad": 104238923
+  },
+  {
+    "id": 12966,
+    "name": "Пырыта",
+    "region_id": 12879,
+    "region_name": "Дубоссары",
+    "example_ad": 77657684
+  },
+  {
+    "id": 13796,
+    "name": "Гербовец",
+    "region_id": 12907,
+    "region_name": "Калараш",
+    "example_ad": 105551324
+  },
+  {
+    "id": 13562,
+    "name": "Новые Селишты",
+    "region_id": 12907,
+    "region_name": "Калараш",
+    "example_ad": 105529394
+  },
+  {
+    "id": 13807,
+    "name": "Питушка",
+    "region_id": 12907,
+    "region_name": "Калараш",
+    "example_ad": 102909133
+  },
+  {
+    "id": 13011,
+    "name": "Каменка",
+    "region_id": 12874,
+    "region_name": "Каменка",
+    "example_ad": 105495010
+  },
+  {
+    "id": 13215,
+    "name": "Каушаны",
+    "region_id": 12903,
+    "region_name": "Каушаны",
+    "example_ad": 104239969
+  },
+  {
+    "id": 13359,
+    "name": "Комрат",
+    "region_id": 12875,
+    "region_name": "Комрат",
+    "example_ad": 105256424
+  },
+  {
+    "id": 13983,
+    "name": "Драсличены",
+    "region_id": 12888,
+    "region_name": "Криуляны",
+    "example_ad": 66564206
+  },
+  {
+    "id": 13995,
+    "name": "Оницканы",
+    "region_id": 12888,
+    "region_name": "Криуляны",
+    "example_ad": 79799570
+  },
+  {
+    "id": 42876,
+    "name": "Кетросу",
+    "region_id": 12905,
+    "region_name": "Новые Анены",
+    "example_ad": 105544070
+  },
+  {
+    "id": 13923,
+    "name": "Максимовка",
+    "region_id": 12905,
+    "region_name": "Новые Анены",
+    "example_ad": 102040936
+  },
+  {
+    "id": 14027,
+    "name": "Оргеев",
+    "region_id": 12909,
+    "region_name": "Оргеев",
+    "example_ad": 88086051
+  },
+  {
+    "id": 12979,
+    "name": "Иванча",
+    "region_id": 12909,
+    "region_name": "Оргеев",
+    "example_ad": 104808966
+  },
+  {
+    "id": 12938,
+    "name": "Сороки",
+    "region_id": 12899,
+    "region_name": "Сороки",
+    "example_ad": 105429219
+  },
+  {
+    "id": 12999,
+    "name": "Кожушна",
+    "region_id": 12910,
+    "region_name": "Страшены",
+    "example_ad": 105559249
+  },
+  {
+    "id": 14414,
+    "name": "Негрешты",
+    "region_id": 12910,
+    "region_name": "Страшены",
+    "example_ad": 104923219
+  },
+  {
+    "id": 14407,
+    "name": "Унгень",
+    "region_id": 12870,
+    "region_name": "Унгены",
+    "example_ad": 104175052
+  },
+  {
+    "id": 13587,
+    "name": "Лукачены",
+    "region_id": 12887,
+    "region_name": "Фалешты",
+    "example_ad": 101279571
+  },
+  {
+    "id": 13361,
+    "name": "Чадыр-Лунга",
+    "region_id": 12871,
+    "region_name": "Чадыр-Лунга",
+    "example_ad": 105317489
+  },
+  {
+    "id": 13708,
+    "name": "Данчены",
+    "region_id": 12886,
+    "region_name": "Яловены",
+    "example_ad": 104242241
+  },
+  {
+    "id": 13932,
+    "name": "Яловены",
+    "region_id": 12886,
+    "region_name": "Яловены",
+    "example_ad": 105094629
+  },
+  {
+    "id": 13078,
+    "name": "Улму",
+    "region_id": 12886,
+    "region_name": "Яловены",
+    "example_ad": 105519006
+  }
+]

@@ -1,0 +1,3453 @@
+{
+  "id": 32,
+  "type": "FILTER_TYPE_OPTIONS",
+  "title": {
+    "translated": "Регион",
+    "__typename": "I18NTr"
+  },
+  "collapsed": true,
+  "units": null,
+  "hasSearch": true,
+  "displayMode": "CHECKBOXES",
+  "__typename": "Filter",
+  "features": [
+    {
+      "id": 7,
+      "fid": "",
+      "type": "FEATURE_OPTIONS",
+      "parentId": 0,
+      "childId": 8,
+      "title": {
+        "translated": "Регион",
+        "__typename": "I18NTr"
+      },
+      "seoAlias": null,
+      "__typename": "Feature",
+      "options": [
+        {
+          "id": 12900,
+          "title": {
+            "i18n": {
+              "ro": "Chișinău mun.",
+              "ru": "Кишинёв мун.",
+              "__typename": "I18NKey"
+            },
+            "translated": "Кишинёв мун.",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12900_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": [
+              {
+                "id": 13859,
+                "title": {
+                  "i18n": {
+                    "ro": "Chișinău",
+                    "ru": "Кишинёв",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Кишинёв",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "13859_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": [
+                    {
+                      "id": 15672,
+                      "title": {
+                        "i18n": {
+                          "ro": "Aeroport",
+                          "ru": "Аэропорт",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Аэропорт",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13859,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15665,
+                      "title": {
+                        "i18n": {
+                          "ro": "Botanica",
+                          "ru": "Ботаника",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Ботаника",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13859,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15666,
+                      "title": {
+                        "i18n": {
+                          "ro": "Buiucani",
+                          "ru": "Буюканы",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Буюканы",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13859,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15667,
+                      "title": {
+                        "i18n": {
+                          "ro": "Râșcani",
+                          "ru": "Рышкановка",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Рышкановка",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13859,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15671,
+                      "title": {
+                        "i18n": {
+                          "ro": "Sculeni",
+                          "ru": "Скулянка",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Скулянка",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13859,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15670,
+                      "title": {
+                        "i18n": {
+                          "ro": "Poșta Veche",
+                          "ru": "Старая Почта",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Старая Почта",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13859,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15668,
+                      "title": {
+                        "i18n": {
+                          "ro": "Telecentru",
+                          "ru": "Телецентр",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Телецентр",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13859,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15664,
+                      "title": {
+                        "i18n": {
+                          "ro": "Centru",
+                          "ru": "Центр",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Центр",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13859,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15669,
+                      "title": {
+                        "i18n": {
+                          "ro": "Ciocana",
+                          "ru": "Чокана",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Чокана",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13859,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": 14401,
+                "title": {
+                  "i18n": {
+                    "ro": "Bacioi",
+                    "ru": "Бачой",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Бачой",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14401_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 13938,
+                "title": {
+                  "i18n": {
+                    "ro": "Brăila",
+                    "ru": "Браила",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Браила",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "13938_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14402,
+                "title": {
+                  "i18n": {
+                    "ro": "Bubuieci",
+                    "ru": "Бубуечь",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Бубуечь",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14402_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 13980,
+                "title": {
+                  "i18n": {
+                    "ro": "Budești",
+                    "ru": "Будешты",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Будешты",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "13980_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14185,
+                "title": {
+                  "i18n": {
+                    "ro": "Buneți",
+                    "ru": "Бунец",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Бунец",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14185_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14403,
+                "title": {
+                  "i18n": {
+                    "ro": "Bîc",
+                    "ru": "Бык",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Бык",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14403_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14062,
+                "title": {
+                  "i18n": {
+                    "ro": "Vadul lui Vodă",
+                    "ru": "Вадул-луй-Водэ",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Вадул-луй-Водэ",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14062_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 12934,
+                "title": {
+                  "i18n": {
+                    "ro": "Vatra",
+                    "ru": "Ватра",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Ватра",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "12934_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14034,
+                "title": {
+                  "i18n": {
+                    "ro": "Văduleni",
+                    "ru": "Вэдулень",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Вэдулень",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14034_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 12919,
+                "title": {
+                  "i18n": {
+                    "ro": "Ghidighici",
+                    "ru": "Гидигич",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Гидигич",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "12919_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14033,
+                "title": {
+                  "i18n": {
+                    "ro": "Goian",
+                    "ru": "Гоян",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Гоян",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14033_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14010,
+                "title": {
+                  "i18n": {
+                    "ro": "Grătiești",
+                    "ru": "Гратиешты",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Гратиешты",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14010_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 12978,
+                "title": {
+                  "i18n": {
+                    "ro": "Hulboaca",
+                    "ru": "Гульбоака",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Гульбоака",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "12978_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 13826,
+                "title": {
+                  "i18n": {
+                    "ro": "Dobrogea",
+                    "ru": "Добружа",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Добружа",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "13826_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 13933,
+                "title": {
+                  "i18n": {
+                    "ro": "Dumbrava",
+                    "ru": "Думбрава",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Думбрава",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "13933_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 13917,
+                "title": {
+                  "i18n": {
+                    "ro": "Durlești",
+                    "ru": "Дурлешты",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Дурлешты",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "13917_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14222,
+                "title": {
+                  "i18n": {
+                    "ro": "Cheltuitori",
+                    "ru": "Келтуитор",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Келтуитор",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14222_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 13942,
+                "title": {
+                  "i18n": {
+                    "ro": "Codru",
+                    "ru": "Кодру",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Кодру",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "13942_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 13915,
+                "title": {
+                  "i18n": {
+                    "ro": "Colonița",
+                    "ru": "Колоница",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Колоница",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "13915_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 13017,
+                "title": {
+                  "i18n": {
+                    "ro": "Condrița",
+                    "ru": "Кондрица",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Кондрица",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "13017_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14031,
+                "title": {
+                  "i18n": {
+                    "ro": "Cricova",
+                    "ru": "Криково",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Криково",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14031_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14011,
+                "title": {
+                  "i18n": {
+                    "ro": "Cruzești",
+                    "ru": "Крузешты",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Крузешты",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14011_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14000,
+                "title": {
+                  "i18n": {
+                    "ro": "Goianul Nou",
+                    "ru": "Новые Гояны",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Новые Гояны",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14000_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 13931,
+                "title": {
+                  "i18n": {
+                    "ro": "Revaca",
+                    "ru": "Ревака",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Ревака",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "13931_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 12926,
+                "title": {
+                  "i18n": {
+                    "ro": "Stăuceni",
+                    "ru": "Ставчены",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Ставчены",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "12926_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 13930,
+                "title": {
+                  "i18n": {
+                    "ro": "Străisteni",
+                    "ru": "Страйстены",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Страйстены",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "13930_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14398,
+                "title": {
+                  "i18n": {
+                    "ro": "Sîngera",
+                    "ru": "Сынжера",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Сынжера",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14398_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 13925,
+                "title": {
+                  "i18n": {
+                    "ro": "Tohatin",
+                    "ru": "Тогатин",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Тогатин",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "13925_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 12952,
+                "title": {
+                  "i18n": {
+                    "ro": "Trușeni",
+                    "ru": "Трушены",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Трушены",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "12952_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14032,
+                "title": {
+                  "i18n": {
+                    "ro": "Făurești",
+                    "ru": "Фаурешты",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Фаурешты",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14032_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14400,
+                "title": {
+                  "i18n": {
+                    "ro": "Frumușica",
+                    "ru": "Фрумушика",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Фрумушика",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14400_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 13945,
+                "title": {
+                  "i18n": {
+                    "ro": "Humulești",
+                    "ru": "Хумулешть",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Хумулешть",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "13945_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14256,
+                "title": {
+                  "i18n": {
+                    "ro": "Ceroborta",
+                    "ru": "Чероборта",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Чероборта",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14256_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14061,
+                "title": {
+                  "i18n": {
+                    "ro": "Ciorescu",
+                    "ru": "Чореску",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Чореску",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12900,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14061_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": 12885,
+          "title": {
+            "i18n": {
+              "ro": "Tiraspol mun.",
+              "ru": "Тирасполь мун.",
+              "__typename": "I18NKey"
+            },
+            "translated": "Тирасполь мун.",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12885_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": [
+              {
+                "id": 13495,
+                "title": {
+                  "i18n": {
+                    "ro": "Tiraspol",
+                    "ru": "Тирасполь",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Тирасполь",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12885,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "13495_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": [
+                    {
+                      "id": 20472,
+                      "title": {
+                        "i18n": {
+                          "ro": "Balca",
+                          "ru": "Балка",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Балка",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20456,
+                      "title": {
+                        "i18n": {
+                          "ro": "Belîe Kazarmî",
+                          "ru": "Белые казармы",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Белые казармы",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20454,
+                      "title": {
+                        "i18n": {
+                          "ro": "Borodinka",
+                          "ru": "Бородинка",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Бородинка",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20458,
+                      "title": {
+                        "i18n": {
+                          "ro": "Microraionul de Vest",
+                          "ru": "Западный",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Западный",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20455,
+                      "title": {
+                        "i18n": {
+                          "ro": "Kirovski",
+                          "ru": "Кировский",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Кировский",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20453,
+                      "title": {
+                        "i18n": {
+                          "ro": "Chirpici",
+                          "ru": "Кирпичи",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Кирпичи",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20452,
+                      "title": {
+                        "i18n": {
+                          "ro": "Krasnâe Kazarmî",
+                          "ru": "Красные казармы",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Красные казармы",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20449,
+                      "title": {
+                        "i18n": {
+                          "ro": "Larionova",
+                          "ru": "Ларионова",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Ларионова",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20447,
+                      "title": {
+                        "i18n": {
+                          "ro": "Lecigorodoc",
+                          "ru": "Лечгородок",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Лечгородок",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20457,
+                      "title": {
+                        "i18n": {
+                          "ro": "Mecinikov",
+                          "ru": "Мечникова",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Мечникова",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20448,
+                      "title": {
+                        "i18n": {
+                          "ro": "Nii",
+                          "ru": "НИИ",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "НИИ",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15690,
+                      "title": {
+                        "i18n": {
+                          "ro": "Periferie",
+                          "ru": "Окраина",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Окраина",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20459,
+                      "title": {
+                        "i18n": {
+                          "ro": "Orion",
+                          "ru": "Орион",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Орион",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20446,
+                      "title": {
+                        "i18n": {
+                          "ro": "Raionul Parcului",
+                          "ru": "Район Парка",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Район Парка",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20460,
+                      "title": {
+                        "i18n": {
+                          "ro": "Microraionul de Nord",
+                          "ru": "Север",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Север",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20461,
+                      "title": {
+                        "i18n": {
+                          "ro": "Sovhoz",
+                          "ru": "Совхоз",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Совхоз",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20471,
+                      "title": {
+                        "i18n": {
+                          "ro": "Microraionul Textiliştilor",
+                          "ru": "Текстильщиков",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Текстильщиков",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20451,
+                      "title": {
+                        "i18n": {
+                          "ro": "Str. Pravda",
+                          "ru": "Улица Правды",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Улица Правды",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20450,
+                      "title": {
+                        "i18n": {
+                          "ro": "Fedico",
+                          "ru": "Федько",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Федько",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15689,
+                      "title": {
+                        "i18n": {
+                          "ro": "Centru",
+                          "ru": "Центр",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Центр",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 20445,
+                      "title": {
+                        "i18n": {
+                          "ro": "Cepaeva",
+                          "ru": "Чапаева",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Чапаева",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 13495,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": 12912,
+          "title": {
+            "i18n": {
+              "ro": "Bălți mun.",
+              "ru": "Бельцы мун.",
+              "__typename": "I18NKey"
+            },
+            "translated": "Бельцы мун.",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12912_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": [
+              {
+                "id": 14247,
+                "title": {
+                  "i18n": {
+                    "ro": "Bălți",
+                    "ru": "Бельцы",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Бельцы",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12912,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14247_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": [
+                    {
+                      "id": 15681,
+                      "title": {
+                        "i18n": {
+                          "ro": "10 cartier",
+                          "ru": "10 квартал",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "10 квартал",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 25211,
+                      "title": {
+                        "i18n": {
+                          "ro": "5 cartier",
+                          "ru": "5 квартал",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "5 квартал",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15677,
+                      "title": {
+                        "i18n": {
+                          "ro": "6 cartier",
+                          "ru": "6 квартал",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "6 квартал",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15678,
+                      "title": {
+                        "i18n": {
+                          "ro": "7 cartier",
+                          "ru": "7 квартал",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "7 квартал",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15679,
+                      "title": {
+                        "i18n": {
+                          "ro": "8 cartier",
+                          "ru": "8 квартал",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "8 квартал",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15680,
+                      "title": {
+                        "i18n": {
+                          "ro": "9 cartier",
+                          "ru": "9 квартал",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "9 квартал",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15684,
+                      "title": {
+                        "i18n": {
+                          "ro": "Autogara",
+                          "ru": "Автовокзал",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Автовокзал",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15683,
+                      "title": {
+                        "i18n": {
+                          "ro": "Aeroport",
+                          "ru": "Аэропорт",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Аэропорт",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15675,
+                      "title": {
+                        "i18n": {
+                          "ro": "BAM",
+                          "ru": "БАМ",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "БАМ",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15682,
+                      "title": {
+                        "i18n": {
+                          "ro": "Dvoreanskoe gnezdo",
+                          "ru": "Дворянское гнездо",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Дворянское гнездо",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 22170,
+                      "title": {
+                        "i18n": {
+                          "ro": "Podul Chișinăului",
+                          "ru": "Кишиневский мост",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Кишиневский мост",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 23719,
+                      "title": {
+                        "i18n": {
+                          "ro": "Molodova",
+                          "ru": "Молодово",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Молодово",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 21287,
+                      "title": {
+                        "i18n": {
+                          "ro": "Bălții Noi",
+                          "ru": "Новые Бельцы",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Новые Бельцы",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15686,
+                      "title": {
+                        "i18n": {
+                          "ro": "Pole ciudes",
+                          "ru": "Поле Чудес",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Поле Чудес",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15676,
+                      "title": {
+                        "i18n": {
+                          "ro": "Paminteni",
+                          "ru": "Пэмынтены",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Пэмынтены",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15685,
+                      "title": {
+                        "i18n": {
+                          "ro": "Gara de nord",
+                          "ru": "Северный Вокзал",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Северный Вокзал",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 40014,
+                      "title": {
+                        "i18n": {
+                          "ro": "Steluța",
+                          "ru": "Стелуца",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Стелуца",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    },
+                    {
+                      "id": 15674,
+                      "title": {
+                        "i18n": {
+                          "ro": "Centru",
+                          "ru": "Центр",
+                          "__typename": "I18NKey"
+                        },
+                        "translated": "Центр",
+                        "__typename": "I18NTr"
+                      },
+                      "parentId": 14247,
+                      "hasChildren": true,
+                      "seoAlias": null,
+                      "checked": false,
+                      "__typename": "Option"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": 14155,
+                "title": {
+                  "i18n": {
+                    "ro": "Elizaveta",
+                    "ru": "Елизавета",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Елизавета",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12912,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14155_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              },
+              {
+                "id": 14219,
+                "title": {
+                  "i18n": {
+                    "ro": "Sadovoe",
+                    "ru": "Садовое",
+                    "__typename": "I18NKey"
+                  },
+                  "translated": "Садовое",
+                  "__typename": "I18NTr"
+                },
+                "parentId": 12912,
+                "hasChildren": true,
+                "seoAlias": null,
+                "checked": false,
+                "__typename": "Option",
+                "feature": {
+                  "id": 9,
+                  "fid": "14219_9",
+                  "type": "FEATURE_OPTIONS",
+                  "parentId": 8,
+                  "childId": 0,
+                  "title": {
+                    "translated": "Сектор",
+                    "__typename": "I18NTr"
+                  },
+                  "seoAlias": null,
+                  "__typename": "Feature",
+                  "options": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": 12882,
+          "title": {
+            "i18n": {
+              "ro": "Bender mun.",
+              "ru": "Бендеры мун.",
+              "__typename": "I18NKey"
+            },
+            "translated": "Бендеры мун.",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12882_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12901,
+          "title": {
+            "i18n": {
+              "ro": "Basarabeasca",
+              "ru": "Бессарабка",
+              "__typename": "I18NKey"
+            },
+            "translated": "Бессарабка",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12901_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12898,
+          "title": {
+            "i18n": {
+              "ro": "Briceni",
+              "ru": "Бричаны",
+              "__typename": "I18NKey"
+            },
+            "translated": "Бричаны",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12898_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12878,
+          "title": {
+            "i18n": {
+              "ro": "Vulcănești",
+              "ru": "Вулканешты",
+              "__typename": "I18NKey"
+            },
+            "translated": "Вулканешты",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12878_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12904,
+          "title": {
+            "i18n": {
+              "ro": "Glodeni",
+              "ru": "Глодяны",
+              "__typename": "I18NKey"
+            },
+            "translated": "Глодяны",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12904_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12873,
+          "title": {
+            "i18n": {
+              "ro": "Grigoriopol",
+              "ru": "Григориополь",
+              "__typename": "I18NKey"
+            },
+            "translated": "Григориополь",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12873_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 17475,
+          "title": {
+            "i18n": {
+              "ro": "Dnestrovsk",
+              "ru": "Днестровск",
+              "__typename": "I18NKey"
+            },
+            "translated": "Днестровск",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "17475_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12896,
+          "title": {
+            "i18n": {
+              "ro": "Dondușeni",
+              "ru": "Дондюшаны",
+              "__typename": "I18NKey"
+            },
+            "translated": "Дондюшаны",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12896_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12893,
+          "title": {
+            "i18n": {
+              "ro": "Drochia",
+              "ru": "Дрокия",
+              "__typename": "I18NKey"
+            },
+            "translated": "Дрокия",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12893_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12879,
+          "title": {
+            "i18n": {
+              "ro": "Dubăsari",
+              "ru": "Дубоссары",
+              "__typename": "I18NKey"
+            },
+            "translated": "Дубоссары",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12879_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12895,
+          "title": {
+            "i18n": {
+              "ro": "Edineț",
+              "ru": "Единцы",
+              "__typename": "I18NKey"
+            },
+            "translated": "Единцы",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12895_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12908,
+          "title": {
+            "i18n": {
+              "ro": "Cahul",
+              "ru": "Кагул",
+              "__typename": "I18NKey"
+            },
+            "translated": "Кагул",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12908_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12907,
+          "title": {
+            "i18n": {
+              "ro": "Călărași",
+              "ru": "Калараш",
+              "__typename": "I18NKey"
+            },
+            "translated": "Калараш",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12907_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12874,
+          "title": {
+            "i18n": {
+              "ro": "Camenca",
+              "ru": "Каменка",
+              "__typename": "I18NKey"
+            },
+            "translated": "Каменка",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12874_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12890,
+          "title": {
+            "i18n": {
+              "ro": "Cantemir",
+              "ru": "Кантемир",
+              "__typename": "I18NKey"
+            },
+            "translated": "Кантемир",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12890_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12903,
+          "title": {
+            "i18n": {
+              "ro": "Căușeni",
+              "ru": "Каушаны",
+              "__typename": "I18NKey"
+            },
+            "translated": "Каушаны",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12903_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12875,
+          "title": {
+            "i18n": {
+              "ro": "Comrat",
+              "ru": "Комрат",
+              "__typename": "I18NKey"
+            },
+            "translated": "Комрат",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12875_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12888,
+          "title": {
+            "i18n": {
+              "ro": "Criuleni",
+              "ru": "Криуляны",
+              "__typename": "I18NKey"
+            },
+            "translated": "Криуляны",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12888_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12881,
+          "title": {
+            "i18n": {
+              "ro": "Leova",
+              "ru": "Леова",
+              "__typename": "I18NKey"
+            },
+            "translated": "Леова",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12881_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12877,
+          "title": {
+            "i18n": {
+              "ro": "Nisporeni",
+              "ru": "Ниспорены",
+              "__typename": "I18NKey"
+            },
+            "translated": "Ниспорены",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12877_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12905,
+          "title": {
+            "i18n": {
+              "ro": "Anenii Noi",
+              "ru": "Новые Анены",
+              "__typename": "I18NKey"
+            },
+            "translated": "Новые Анены",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12905_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12902,
+          "title": {
+            "i18n": {
+              "ro": "Ocnița",
+              "ru": "Окница",
+              "__typename": "I18NKey"
+            },
+            "translated": "Окница",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12902_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12909,
+          "title": {
+            "i18n": {
+              "ro": "Orhei",
+              "ru": "Оргеев",
+              "__typename": "I18NKey"
+            },
+            "translated": "Оргеев",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12909_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12891,
+          "title": {
+            "i18n": {
+              "ro": "Rezina",
+              "ru": "Резина",
+              "__typename": "I18NKey"
+            },
+            "translated": "Резина",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12891_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12883,
+          "title": {
+            "i18n": {
+              "ro": "Rîbnița",
+              "ru": "Рыбница",
+              "__typename": "I18NKey"
+            },
+            "translated": "Рыбница",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12883_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12897,
+          "title": {
+            "i18n": {
+              "ro": "Rîșcani",
+              "ru": "Рышканы",
+              "__typename": "I18NKey"
+            },
+            "translated": "Рышканы",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12897_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12884,
+          "title": {
+            "i18n": {
+              "ro": "Slobozia",
+              "ru": "Слободзея",
+              "__typename": "I18NKey"
+            },
+            "translated": "Слободзея",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12884_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12899,
+          "title": {
+            "i18n": {
+              "ro": "Soroca",
+              "ru": "Сороки",
+              "__typename": "I18NKey"
+            },
+            "translated": "Сороки",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12899_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12910,
+          "title": {
+            "i18n": {
+              "ro": "Strășeni",
+              "ru": "Страшены",
+              "__typename": "I18NKey"
+            },
+            "translated": "Страшены",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12910_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12906,
+          "title": {
+            "i18n": {
+              "ro": "Sîngerei",
+              "ru": "Сынжерей",
+              "__typename": "I18NKey"
+            },
+            "translated": "Сынжерей",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12906_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12894,
+          "title": {
+            "i18n": {
+              "ro": "Taraclia",
+              "ru": "Тараклия",
+              "__typename": "I18NKey"
+            },
+            "translated": "Тараклия",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12894_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12892,
+          "title": {
+            "i18n": {
+              "ro": "Telenești",
+              "ru": "Теленешты",
+              "__typename": "I18NKey"
+            },
+            "translated": "Теленешты",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12892_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12870,
+          "title": {
+            "i18n": {
+              "ro": "Ungheni",
+              "ru": "Унгены",
+              "__typename": "I18NKey"
+            },
+            "translated": "Унгены",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12870_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12887,
+          "title": {
+            "i18n": {
+              "ro": "Fălești",
+              "ru": "Фалешты",
+              "__typename": "I18NKey"
+            },
+            "translated": "Фалешты",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12887_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12911,
+          "title": {
+            "i18n": {
+              "ro": "Florești",
+              "ru": "Флорешты",
+              "__typename": "I18NKey"
+            },
+            "translated": "Флорешты",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12911_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12876,
+          "title": {
+            "i18n": {
+              "ro": "Hîncești",
+              "ru": "Хынчешты",
+              "__typename": "I18NKey"
+            },
+            "translated": "Хынчешты",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12876_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12871,
+          "title": {
+            "i18n": {
+              "ro": "Ciadîr-Lunga",
+              "ru": "Чадыр-Лунга",
+              "__typename": "I18NKey"
+            },
+            "translated": "Чадыр-Лунга",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12871_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12889,
+          "title": {
+            "i18n": {
+              "ro": "Cimișlia",
+              "ru": "Чимишлия",
+              "__typename": "I18NKey"
+            },
+            "translated": "Чимишлия",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12889_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12880,
+          "title": {
+            "i18n": {
+              "ro": "Șoldănești",
+              "ru": "Шолданешты",
+              "__typename": "I18NKey"
+            },
+            "translated": "Шолданешты",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12880_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12872,
+          "title": {
+            "i18n": {
+              "ro": "Ștefan-Vodă",
+              "ru": "Штефан-Водэ",
+              "__typename": "I18NKey"
+            },
+            "translated": "Штефан-Водэ",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12872_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        },
+        {
+          "id": 12886,
+          "title": {
+            "i18n": {
+              "ro": "Ialoveni",
+              "ru": "Яловены",
+              "__typename": "I18NKey"
+            },
+            "translated": "Яловены",
+            "__typename": "I18NTr"
+          },
+          "parentId": null,
+          "hasChildren": true,
+          "seoAlias": null,
+          "checked": false,
+          "__typename": "Option",
+          "feature": {
+            "id": 8,
+            "fid": "12886_8",
+            "type": "FEATURE_OPTIONS",
+            "parentId": 7,
+            "childId": 9,
+            "title": {
+              "translated": "Населённый пункт",
+              "__typename": "I18NTr"
+            },
+            "seoAlias": null,
+            "__typename": "Feature",
+            "options": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "fid": "",
+      "type": "FEATURE_OPTIONS",
+      "parentId": 7,
+      "childId": 9,
+      "title": {
+        "translated": "Населённый пункт",
+        "__typename": "I18NTr"
+      },
+      "seoAlias": null,
+      "__typename": "Feature",
+      "options": []
+    },
+    {
+      "id": 9,
+      "fid": "",
+      "type": "FEATURE_OPTIONS",
+      "parentId": 8,
+      "childId": 0,
+      "title": {
+        "translated": "Сектор",
+        "__typename": "I18NTr"
+      },
+      "seoAlias": null,
+      "__typename": "Feature",
+      "options": []
+    }
+  ]
+}

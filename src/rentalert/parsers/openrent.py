@@ -70,25 +70,24 @@ class OpenRentParser(Parser):
 
         human_delay()
 
-        headers = stealth_headers()
-        headers["Accept"] = (
-            "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
-        )
-        headers["Accept-Language"] = "en-GB,en;q=0.9"
-        headers["Referer"] = "https://www.openrent.co.uk/"
-        headers["Sec-Fetch-Dest"] = "document"
-        headers["Sec-Fetch-Mode"] = "navigate"
-        headers["Sec-Fetch-Site"] = "same-origin"
-        headers["Sec-Fetch-User"] = "?1"
-        headers["Upgrade-Insecure-Requests"] = "1"
+        headers = {
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+            "Accept-Language": "en-GB,en;q=0.9",
+            "Referer": "https://www.openrent.co.uk/",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-User": "?1",
+            "Upgrade-Insecure-Requests": "1",
+        }
 
         response = cffi_requests.get(
             url,
-            impersonate="chrome131",
+            impersonate="chrome150",   # найновіший
             headers=headers,
             timeout=30,
         )
-
+        
         if response.status_code != 200:
             log.warning("OpenRent %s → HTTP %d", url, response.status_code)
             return []

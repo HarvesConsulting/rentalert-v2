@@ -24,7 +24,7 @@ logging.basicConfig(
 def main() -> None:
     client = TursoClient(
         url=os.environ["TURSO_DATABASE_URL"],
-        token=os.environ["TURSO_AUTH_TOKEN"],        # ← правильно
+        token=os.environ["TURSO_AUTH_TOKEN"],  # ← правильно
     )
 
     print("\n" + "=" * 60)

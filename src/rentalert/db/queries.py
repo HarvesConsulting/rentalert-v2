@@ -446,8 +446,20 @@ def save_listing(
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         [
-            id, source_key, city_slug, title, price, location, link, photo,
-            rooms, area_m2, category, category_icon, category_label, created_at,
+            id,
+            source_key,
+            city_slug,
+            title,
+            price,
+            location,
+            link,
+            photo,
+            rooms,
+            area_m2,
+            category,
+            category_icon,
+            category_label,
+            created_at,
         ],
     )
 

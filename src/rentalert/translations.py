@@ -66,6 +66,7 @@ TEXTS: dict[str, dict[str, str]] = {
         "country_gb": "🇬🇧 Велика Британія",
         "country_at": "🇦🇹 Австрія",
         "country_cz": "🇨🇿 Чехія",
+        "country_md": "🇲🇩 Молдова",
         # ─── Мої міста ───
         "my_cities_title": "📍 <b>Мої міста</b> ({count}):",
         "my_cities_empty": "📍 <b>Мої міста</b>\n\nУ вас ще немає доданих міст.\n\nНатисніть <b>➕ Додати місто</b>, щоб почати.",
@@ -102,7 +103,8 @@ TEXTS: dict[str, dict[str, str]] = {
             "• 🇫🇷 Франція (Bien'ici)\n"
             "• 🇬🇧 Велика Британія (OpenRent)\n"
             "• 🇦🇹 Австрія (Willhaben)\n"
-            "• 🇨🇿 Чехія (Bezrealitky)\n\n"
+            "• 🇨🇿 Чехія (Bezrealitky)\n"
+            "• 🇲🇩 Молдова (999.md)\n\n"
             "✅ <b>Переваги:</b>\n"
             "• ⚡ Нові оголошення кожні 2 хвилини\n"
             "• 🔔 Тільки нові — без спаму\n"
@@ -192,6 +194,7 @@ TEXTS: dict[str, dict[str, str]] = {
         "country_gb": "🇬🇧 United Kingdom",
         "country_at": "🇦🇹 Austria",
         "country_cz": "🇨🇿 Czechia",
+        "country_md": "🇲🇩 Moldova",
         # ─── My cities ───
         "my_cities_title": "📍 <b>My cities</b> ({count}):",
         "my_cities_empty": "📍 <b>My cities</b>\n\nYou haven't added any cities yet.\n\nTap <b>➕ Add City</b> to start.",
@@ -224,7 +227,8 @@ TEXTS: dict[str, dict[str, str]] = {
             "• 🇫🇷 France (Bien'ici)\n"
             "• GB United Kingdom (OpenRent)\n"
             "• 🇦🇹 Austria (Willhaben)\n"
-            "• 🇨🇿 Czech Republic (Bezrealitky)\n\n"
+            "• 🇨🇿 Czech Republic (Bezrealitky)\n"
+            "• 🇲🇩 Moldova (999.md)\n\n"
             "✅ <b>Benefits:</b>\n"
             "• ⚡ New listings every 2 minutes\n"
             "• 🔔 Only new — no spam\n"

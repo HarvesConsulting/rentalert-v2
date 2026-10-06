@@ -40,6 +40,8 @@ Feature IDs (для advert.feature(id:)):
   - Поле posted існує, але завжди порожнє ("").
     Тому created_at завжди None. Це не проблема: бот
     відслідковує нові через seen_checker, а не через дату.
+  - i.999.md має невалідний SSL — фото проксіюємо через wsrv.nl,
+    щоб Telegram міг їх завантажити.
 """
 
 from __future__ import annotations
@@ -48,7 +50,6 @@ import logging
 import re
 import time
 from collections.abc import Callable
-from datetime import datetime
 from typing import Any
 
 from curl_cffi import requests as cffi_requests
@@ -108,7 +109,9 @@ class Parser999Md(Parser):
 
     def __init__(self, source) -> None:
         super().__init__(source)
-        self._session = cffi_requests.Session(impersonate=MD999_IMPERSONATE)
+        self._session: cffi_requests.Session = cffi_requests.Session(
+            impersonate=MD999_IMPERSONATE,
+        )
 
     # ─────────────────────────────────────────────────────
     # Публічний API
@@ -485,7 +488,16 @@ class Parser999Md(Parser):
 
     @staticmethod
     def _first_photo(photos_data: Any) -> str:
-        """Повертає URL першого фото (list | dict | str)."""
+        """Повертає URL першого фото (list | dict | str).
+
+        API 999.md повертає у feature(id: 14) лише filename,
+        але справжній CDN — i.simpalsmedia.com (не i.999.md!).
+        i.999.md має невалідний SSL (NET::ERR_CERT_COMMON_NAME_INVALID),
+        і Telegram не може його завантажити.
+
+        Формат:
+            https://i.simpalsmedia.com/999.md/BoardImages/{SIZE}//{FILENAME}
+        """
         if not photos_data:
             return ""
         if isinstance(photos_data, dict):
@@ -493,12 +505,16 @@ class Parser999Md(Parser):
         if not isinstance(photos_data, list) or not photos_data:
             return ""
         first = photos_data[0]
-        if not isinstance(first, str):
+        if not isinstance(first, str) or not first:
             return ""
+        # Якщо API вже повернув повний URL — використовуємо як є
         if first.startswith("http"):
             return first
-        return f"https://i.999.md/{first}"
-
+        # Інакше — будуємо URL на справжньому CDN
+        return (
+            "https://i.simpalsmedia.com/999.md/"
+            f"BoardImages/900x900//{first}"
+        )
     @staticmethod
     def _format_price(price_data: dict) -> str:
         """Форматує ціну: '450 €', '1 200 MDL'."""

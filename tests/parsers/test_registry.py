@@ -11,6 +11,7 @@ from rentalert.parsers.bienici import BienIciParser
 from rentalert.parsers.dimria import DimriaParser
 from rentalert.parsers.habitaclia import HabitacliaParser
 from rentalert.parsers.kleinanzeigen import KleinanzeigenParser
+from rentalert.parsers.md999 import Parser999Md
 from rentalert.parsers.olx import OLXParser
 from rentalert.parsers.registry import (
     PARSER_REGISTRY,
@@ -36,7 +37,7 @@ def _build(catalog: Catalog):
 
 
 def test_registry_has_all_sources() -> None:
-    """Реєстр містить усі 10 джерел з каталогу."""
+    """Реєстр містить усі 15 джерел з каталогу."""
     keys = registered_keys()
     expected = {
         "olx_ua",
@@ -53,6 +54,7 @@ def test_registry_has_all_sources() -> None:
         "willhaben",
         "bezrealitky",
         "pisos",
+        "999md",
     }
     assert set(keys) == expected
 
@@ -67,13 +69,18 @@ def test_registry_parser_types() -> None:
     assert isinstance(PARSER_REGISTRY["dimria"], DimriaParser)
     assert isinstance(PARSER_REGISTRY["kleinanzeigen"], KleinanzeigenParser)
     assert isinstance(PARSER_REGISTRY["habitaclia"], HabitacliaParser)
+
     from rentalert.parsers.nekretnine import NekretnineParser
 
     assert isinstance(PARSER_REGISTRY["nekretnine"], NekretnineParser)
     assert isinstance(PARSER_REGISTRY["bienici"], BienIciParser)
+
     from rentalert.parsers.openrent import OpenRentParser
 
     assert isinstance(PARSER_REGISTRY["openrent"], OpenRentParser)
+
+    # 999.md
+    assert isinstance(PARSER_REGISTRY["999md"], Parser999Md)
 
 
 def test_get_parser_unknown() -> None:

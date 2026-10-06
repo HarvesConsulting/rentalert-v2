@@ -431,6 +431,7 @@ def save_listing(
     link: str = "",
     photo: str = "",
     rooms: str | None = None,
+    area_m2: float | None = None,
     category: str = "",
     category_icon: str = "🏠",
     category_label: str = "",
@@ -441,23 +442,12 @@ def save_listing(
         """
         INSERT OR IGNORE INTO seen_listings
             (id, source_key, city_slug, title, price, location, link, photo,
-             rooms, category, category_icon, category_label, created_at)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+             rooms, area_m2, category, category_icon, category_label, created_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         [
-            id,
-            source_key,
-            city_slug,
-            title,
-            price,
-            location,
-            link,
-            photo,
-            rooms,
-            category,
-            category_icon,
-            category_label,
-            created_at,
+            id, source_key, city_slug, title, price, location, link, photo,
+            rooms, area_m2, category, category_icon, category_label, created_at,
         ],
     )
 

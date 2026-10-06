@@ -40,8 +40,8 @@ Feature IDs (для advert.feature(id:)):
   - Поле posted існує, але завжди порожнє ("").
     Тому created_at завжди None. Це не проблема: бот
     відслідковує нові через seen_checker, а не через дату.
-  - i.999.md має невалідний SSL — фото проксіюємо через wsrv.nl,
-    щоб Telegram міг їх завантажити.
+  - i.999.md має невалідний SSL — використовуємо справжній
+    CDN i.simpalsmedia.com для фото.
 """
 
 from __future__ import annotations
@@ -434,6 +434,9 @@ class Parser999Md(Parser):
         # ── Rooms з title ──
         rooms = self._extract_rooms(title)
 
+        # ── Площа з title ──
+        area_m2 = self._extract_area(title)
+
         # ── created_at ──
         # 999.md не повертає дату публікації (posted="").
         # Це не проблема: бот відслідковує нові через seen_checker.
@@ -449,6 +452,7 @@ class Parser999Md(Parser):
             link=link,
             photo=photo,
             rooms=rooms,
+            area_m2=area_m2,
             category=category,
             category_icon=icon,
             category_label=label,
@@ -478,6 +482,24 @@ class Parser999Md(Parser):
             if m:
                 return m.group(1)
         return None
+
+    @staticmethod
+    def _extract_area(title: str) -> float | None:
+        """Витягує площу з title: '28 м²', '75 кв.м', '50 m2'.
+
+        Повертає float (28.5) або None, якщо не вдалось.
+        """
+        if not title:
+            return None
+        # Формати: "28 м²", "28м²", "28 m²", "28 m2", "28 кв.м", "28 кв м"
+        pattern = r"(\d+(?:[.,]\d+)?)\s*(?:м²|m²|m2|кв\.?\s*м)"
+        m = re.search(pattern, title, re.IGNORECASE)
+        if not m:
+            return None
+        try:
+            return float(m.group(1).replace(",", "."))
+        except ValueError:
+            return None
 
     @staticmethod
     def _first_photo(photos_data: Any) -> str:

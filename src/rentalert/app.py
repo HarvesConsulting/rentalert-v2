@@ -28,6 +28,7 @@ from rentalert.db.schema import init_schema
 from rentalert.parsers.registry import PARSER_REGISTRY, build_registry
 from rentalert.services import user as user_svc
 from rentalert.services.aggregator import run_aggregation_cycle
+from rentalert.services.market import get_deal_score
 from rentalert.services.notifier import TelegramNotifier
 from rentalert.translations import T
 
@@ -205,10 +206,28 @@ def _notify_user(chat_id: str, city_slug: str, listings: list[Any]) -> None:
 
         lines = [f"{icon} <b>{i}. {price}</b>"]
         if lst.rooms:
-            lines.append(f"🛏 {lst.rooms} кімн.")
+            lines.append(f"🚪 {lst.rooms} кімн.")
         lines.append(title)
         if location:
-            lines.append(f"📍 {location}")
+            lines.append(f"📌 {location}")
+
+        # Deal Score: порівнюємо з медіаною по (місто, сектор, категорія, кімнати)
+        try:
+            score = get_deal_score(
+                _ctx.client,
+                city_slug=lst.city_slug,
+                location=lst.location,
+                category=lst.category,
+                rooms=lst.rooms,
+                price_str=lst.price,
+                area_m2=lst.area_m2,
+            )
+            if score is not None:
+                lines.append(f"{score.emoji} {score.label}")
+        except Exception:
+            # Deal Score не критичний — якщо не вийшло, просто без нього
+            pass
+
         if link:
             lines.append(f'🔗 <a href="{link}">Відкрити</a>')
 

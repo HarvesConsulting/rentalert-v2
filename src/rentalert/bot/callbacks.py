@@ -36,6 +36,7 @@ from rentalert.bot.handlers import (
 from rentalert.db import queries as db
 from rentalert.services import user as user_svc
 from rentalert.services.aggregator import fetch_city_now
+from rentalert.services.market import get_deal_score
 from rentalert.translations import T
 
 log = logging.getLogger(__name__)
@@ -306,10 +307,27 @@ def _handle_add_city(
 
         lines = [f"{icon} <b>{i}. {price}</b>"]
         if lst.rooms:
-            lines.append(f"🛏 {lst.rooms} кімн.")
+            lines.append(f"🚪 {lst.rooms} кімн.")
         lines.append(title)
         if location:
-            lines.append(f"📍 {location}")
+            lines.append(f"📌 {location}")
+
+        # Deal Score
+        try:
+            score = get_deal_score(
+                ctx.client,
+                city_slug=lst.city_slug,
+                location=lst.location,
+                category=lst.category,
+                rooms=lst.rooms,
+                price_str=lst.price,
+                area_m2=lst.area_m2,
+            )
+            if score is not None:
+                lines.append(f"{score.emoji} {score.label}")
+        except Exception:
+            pass
+
         if link:
             lines.append(f'🔗 <a href="{link}">Відкрити</a>')
 

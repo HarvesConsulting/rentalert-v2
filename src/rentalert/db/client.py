@@ -132,5 +132,7 @@ class TursoClient:
         if isinstance(value, int):
             return {"type": "integer", "value": str(value)}
         if isinstance(value, float):
-            return {"type": "float", "value": str(value)}
+            # Turso не має типу "float" — передаємо як text,
+            # SQLite через type affinity збереже у REAL
+            return {"type": "text", "value": str(value)}
         return {"type": "text", "value": str(value)}

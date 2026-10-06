@@ -298,6 +298,7 @@ def _fetch_and_save(
             link=lst.link,
             photo=lst.photo,
             rooms=lst.rooms,
+            area_m2=lst.area_m2,
             category=lst.category,
             category_icon=lst.category_icon,
             category_label=lst.category_label,

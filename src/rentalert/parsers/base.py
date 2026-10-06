@@ -69,6 +69,9 @@ class Listing:
     rooms: str | None
     """Кількість кімнат як рядок ('2') або None."""
 
+    area_m2: float | None
+    """Площа в м² (28.5) або None, якщо невідомо."""
+
     category: str
     """Ключ категорії: 'apartment', 'house', 'room', 'daily'."""
 

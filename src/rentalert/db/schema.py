@@ -67,6 +67,7 @@ TABLES: list[str] = [
         link            TEXT,
         photo           TEXT,
         rooms           TEXT,
+        area_m2         REAL,
         category        TEXT,
         category_icon   TEXT,
         category_label  TEXT,
@@ -126,6 +127,18 @@ TABLES: list[str] = [
         raw_payload   TEXT
     )
     """,
+    # ─── Ринкові ціни (Deal Score) ───
+    """
+    CREATE TABLE IF NOT EXISTS market_prices (
+        id              INTEGER PRIMARY KEY AUTOINCREMENT,
+        city_slug       TEXT NOT NULL,
+        location_key    TEXT NOT NULL,
+        median_price_m2 REAL NOT NULL,
+        sample_size     INTEGER NOT NULL,
+        computed_at     DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+        UNIQUE (city_slug, location_key)
+    )
+    """,
 ]
 
 
@@ -157,6 +170,7 @@ MIGRATIONS: list[tuple[str, str, str]] = [
     ("user_settings", "trial_ends_at", "DATETIME"),
     ("user_settings", "referred_by", "TEXT"),
     ("user_settings", "referrals_count", "INTEGER DEFAULT 0"),
+    ("seen_listings", "area_m2", "REAL"),
 ]
 
 PAYMENTS_TABLE = """

@@ -639,6 +639,62 @@ if config.DEBUG:
         )
 
 
+if config.DEBUG:
+
+    @app.route("/api/debug/openrent")
+    def debug_openrent() -> Any:
+        """Тимчасово: перевірити OpenRent з Render."""
+        import curl_cffi
+        from curl_cffi import requests as cffi_requests
+
+        url = "https://www.openrent.co.uk/properties-to-rent/kent"
+
+        headers = {
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+            "Accept-Language": "en-GB,en;q=0.9",
+            "Referer": "https://www.openrent.co.uk/",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-User": "?1",
+            "Upgrade-Insecure-Requests": "1",
+        }
+
+        result: dict[str, Any] = {
+            "curl_cffi_version": curl_cffi.__version__,
+            "url": url,
+        }
+
+        for imp in ("chrome131", "chrome150", "firefox144"):
+            try:
+                r = cffi_requests.get(
+                    url,
+                    impersonate=imp,
+                    headers=headers,
+                    timeout=20,
+                )
+                result[f"impersonate_{imp}"] = {
+                    "http": r.status_code,
+                    "server": r.headers.get("server"),
+                    "content_type": r.headers.get("content-type"),
+                    "body_first_300": r.text[:300],
+                }
+            except Exception as e:
+                result[f"impersonate_{imp}"] = {"error": str(e)}
+
+        try:
+            r_ip = cffi_requests.get(
+                "https://api.ipify.org?format=json",
+                impersonate="chrome150",
+                timeout=10,
+            )
+            result["render_ip"] = r_ip.json().get("ip")
+        except Exception as e:
+            result["render_ip"] = f"error: {e}"
+
+        return jsonify(result)
+
+
 @app.route("/api/users")
 def api_users() -> Any:
     """Список користувачів (тільки для адміна)."""

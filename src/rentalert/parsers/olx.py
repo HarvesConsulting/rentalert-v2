@@ -7,6 +7,7 @@
 from __future__ import annotations
 
 import logging
+import re
 from collections.abc import Callable
 from datetime import datetime
 from typing import Any
@@ -236,6 +237,7 @@ class OLXParser(Parser):
         price_label = self._extract_price(item)
         location_str = self._extract_location(item)
         rooms = self._extract_rooms(item)
+        area_m2 = self._extract_area(item)
         photo = self._extract_photo(item)
         created_at = self._extract_created_at(item)
 
@@ -251,7 +253,7 @@ class OLXParser(Parser):
             link=url,
             photo=photo,
             rooms=rooms,
-            area_m2=None,
+            area_m2=area_m2,
             category=category_key,
             category_icon=category_icon,
             category_label=category_label,
@@ -300,6 +302,64 @@ class OLXParser(Parser):
                     raw = None
                 if raw:
                     return str(raw)
+        return None
+
+    @staticmethod
+    def _extract_area(item: dict[str, Any]) -> float | None:
+        """Витягує площу в м².
+
+        Спочатку — з params (поле з назвою "Площадь", "Powierzchnia", "Área", ...),
+        потім — з title ("75 м²", "50 m2", "75 кв.м").
+        """
+        # 1. З params
+        for param in item.get("params", []) or []:
+            key = (param.get("key") or "").lower()
+            name = (param.get("name") or "").lower()
+
+            # Ключі для площі у різних мовах
+            is_area = (
+                key == "m"  # OLX UA/PL часто використовує "m"
+                or "площад" in name  # російська
+                or "powierzchnia" in name  # польська
+                or "área" in name  # португальська
+                or "suprafață" in name  # румунська
+                or "площ" in name  # болгарська
+                or "area" in key
+                or "size" in key
+            )
+            if not is_area:
+                continue
+
+            value = param.get("value")
+            if isinstance(value, dict):
+                raw = value.get("key") or value.get("label") or ""
+            elif value:
+                raw = str(value)
+            else:
+                continue
+
+            if raw:
+                m = re.search(r"(\d+(?:[.,]\d+)?)", str(raw))
+                if m:
+                    try:
+                        return float(m.group(1).replace(",", "."))
+                    except ValueError:
+                        pass
+
+        # 2. Fallback: з title
+        title = item.get("title") or ""
+        if title:
+            m = re.search(
+                r"(\d+(?:[.,]\d+)?)\s*(?:м²|m²|m2|кв\.?\s*м)",
+                title,
+                re.IGNORECASE,
+            )
+            if m:
+                try:
+                    return float(m.group(1).replace(",", "."))
+                except ValueError:
+                    pass
+
         return None
 
     @staticmethod

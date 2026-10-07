@@ -162,8 +162,16 @@ class KleinanzeigenParser(Parser):
             return None
 
         location = self._extract_location(art)
-        rooms, _area = self._extract_rooms_area(art)
+        rooms, area_str = self._extract_rooms_area(art)
         price = self._extract_price(art)
+
+        # Конвертуємо площу з рядка у float
+        area_m2: float | None = None
+        if area_str:
+            try:
+                area_m2 = float(area_str)
+            except (TypeError, ValueError):
+                area_m2 = None
 
         icon, label = self._category_meta(category_key)
 
@@ -177,7 +185,7 @@ class KleinanzeigenParser(Parser):
             link=url_full,
             photo=photo,
             rooms=rooms,
-            area_m2=None,
+            area_m2=area_m2,
             category=category_key,
             category_icon=icon,
             category_label=label,

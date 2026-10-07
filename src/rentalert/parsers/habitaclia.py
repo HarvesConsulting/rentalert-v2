@@ -249,6 +249,7 @@ class HabitacliaParser(Parser):
         location = self._extract_location(art)
         photo = self._extract_photo(art)
         rooms, _baths, _floor = self._extract_features(art)
+        area_m2 = self._extract_area(art)
 
         if price:
             title = f"{title} — {price}"
@@ -263,7 +264,7 @@ class HabitacliaParser(Parser):
             link=url_full,
             photo=photo,
             rooms=rooms,
-            area_m2=None,
+            area_m2=area_m2,
             category=category_key,
             category_icon=icon,
             category_label=label,
@@ -326,6 +327,45 @@ class HabitacliaParser(Parser):
                     floor = text
 
         return rooms, baths, floor
+
+    @staticmethod
+    def _extract_area(art: Any) -> float | None:
+        """Витягує площу з тексту картки: '75 m²', '75 m2', '75 metros'."""
+        # 1. Шукаємо серед span'ів з svg (як rooms/baths/floor)
+        for span in art.find_all("span"):
+            svg = span.find("svg")
+            if not svg:
+                continue
+            svg_title = svg.get("data-title", "")
+            if svg_title in (
+                "area",
+                "surface",
+                "ruler_outline",
+                "surface_outline",
+                "square_outline",
+            ):
+                text = span.get_text(strip=True)
+                m = re.search(r"(\d+(?:[.,]\d+)?)", text)
+                if m:
+                    try:
+                        return float(m.group(1).replace(",", "."))
+                    except ValueError:
+                        pass
+
+        # 2. Fallback: шукаємо у всьому тексті article
+        text_all = art.get_text(" ", strip=True)
+        m = re.search(
+            r"(\d+(?:[.,]\d+)?)\s*(?:m²|m2|metros?\s*cuadrados?)",
+            text_all,
+            re.IGNORECASE,
+        )
+        if m:
+            try:
+                return float(m.group(1).replace(",", "."))
+            except ValueError:
+                pass
+
+        return None
 
     @staticmethod
     def _detect_category(title: str) -> tuple[str | None, str, str]:

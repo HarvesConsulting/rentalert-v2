@@ -236,6 +236,8 @@ class WillhabenParser(Parser):
 
         category_icon, category_label = self._category_meta(category_key)
 
+        area_m2 = self._extract_area(item)
+
         return Listing(
             id=self.make_id(item_id),
             source_key=self.source.key,
@@ -246,7 +248,7 @@ class WillhabenParser(Parser):
             link=link,
             photo=photo,
             rooms=rooms,
-            area_m2=None,
+            area_m2=area_m2,
             category=category_key,
             category_icon=category_icon,
             category_label=category_label,
@@ -301,6 +303,28 @@ class WillhabenParser(Parser):
             url: str = first.get("mainImageUrl", "") or first.get("referenceImageUrl", "")
             return str(url)
         return ""
+
+    @staticmethod
+    def _extract_area(item: dict[str, Any]) -> float | None:
+        """Витягує площу з attributes.ESTATE_SIZE/LIVING_AREA."""
+        attrs = item.get("attributes", {})
+        attr_list = attrs.get("attribute", [])
+
+        for attr in attr_list:
+            name = attr.get("name", "")
+            if name == "ESTATE_SIZE/LIVING_AREA":
+                values = attr.get("values", [])
+                if values:
+                    try:
+                        # Значення може бути "56" або "55,8"
+                        raw = str(values[0]).replace(",", ".")
+                        val = float(raw)
+                        if 5 <= val <= 2000:
+                            return val
+                    except (ValueError, TypeError):
+                        pass
+
+        return None
 
     @staticmethod
     def _parse_date(raw: str | None) -> datetime | None:

@@ -17,8 +17,8 @@ def main() -> None:
         params={
             "offset": 0,
             "limit": 3,
-            "city_id": 96,          # Київ
-            "category_id": 1760,    # Квартири (оренда)
+            "city_id": 96,  # Київ
+            "category_id": 1760,  # Квартири (оренда)
             "sort_by": "created_at:desc",
         },
         headers=HEADERS,

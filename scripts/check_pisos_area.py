@@ -29,7 +29,7 @@ def main() -> None:
     print()
 
     # 2. _extract_area
-    print(f"=== _extract_area ===")
+    print("=== _extract_area ===")
     print(f"Результат: {PisosParser._extract_area(card)}")
     print()
 
@@ -45,6 +45,7 @@ def main() -> None:
     # 4. Пошук "m²" у тексті
     print("=== Пошук 'm²' ===")
     import re
+
     m = re.search(r"(\d+(?:[.,]\d+)?)\s*m", text)
     print(f"Regex match: {m.group(0) if m else 'НЕМАЄ'}")
 

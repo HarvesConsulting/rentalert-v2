@@ -172,6 +172,39 @@ def _run_aggregation() -> None:
         _aggregation_lock.release()
 
 
+def _maybe_recompute_market() -> None:
+    """Перераховує market_prices раз на добу.
+
+    Перевіряє, чи минуло > 23 години з останнього перерахунку.
+    Якщо так — запускає.
+    """
+    if _ctx is None:
+        return
+
+    try:
+        # Перевіряємо час останнього перерахунку
+        rows = _ctx.client.execute("SELECT MAX(computed_at) FROM market_prices")
+        last_computed = rows[0][0] if rows else None
+
+        if last_computed:
+            from datetime import UTC, datetime, timedelta
+
+            try:
+                last_dt = datetime.fromisoformat(str(last_computed).replace("Z", "+00:00"))
+                if datetime.now(UTC) - last_dt < timedelta(hours=23):
+                    return  # не пройшло 23 години
+            except Exception:
+                pass
+
+        # Запускаємо перерахунок
+        from rentalert.services.market import recompute_market_prices
+
+        count = recompute_market_prices(_ctx.client, days=30, min_sample=3)
+        log.info("market_prices: оновлено %d груп", count)
+    except Exception as e:
+        log.exception("Помилка recompute_market_prices: %s", e)
+
+
 def _notify_user(chat_id: str, city_slug: str, listings: list[Any]) -> None:
     """Callback для агрегатора: надсилає сповіщення користувачу."""
     if _ctx is None:
@@ -316,6 +349,14 @@ def api_wake() -> tuple[str, int]:
 
     # Миттєво повертаємо 200 + агрегація у фоні
     threading.Thread(target=_run_aggregation, daemon=True).start()
+
+    # Recompute market_prices раз на добу
+    threading.Thread(target=_maybe_recompute_market, daemon=True).start()
+
+    # Миттєво повертаємо 200 + агрегація у фоні
+    threading.Thread(target=_run_aggregation, daemon=True).start()
+
+    return "ok", 200
 
     return "ok", 200
 

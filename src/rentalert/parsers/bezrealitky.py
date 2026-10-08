@@ -245,6 +245,14 @@ class BezrealitkyParser(Parser):
         uri = raw.get("uri", "")
         link = f"https://www.bezrealitky.cz/nemovitosti-byty-domy/{uri}" if uri else ""
 
+        surface = raw.get("surface")
+        area_m2: float | None = None
+        if surface:
+            try:
+                area_m2 = float(surface)
+            except (ValueError, TypeError):
+                area_m2 = None
+
         return Listing(
             id=self.make_id(advert_id),
             source_key=self.source.key,
@@ -255,7 +263,7 @@ class BezrealitkyParser(Parser):
             link=link,
             photo=photo,
             rooms=rooms,
-            area_m2=None,
+            area_m2=area_m2,
             category=category,
             category_icon=category_icon,
             category_label=category_label,

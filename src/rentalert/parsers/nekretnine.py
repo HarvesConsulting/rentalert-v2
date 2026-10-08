@@ -218,6 +218,7 @@ class NekretnineParser(Parser):
 
         # Кімнати: спроба з title (npr. "Dvosobni", "Trosobni", "3-sobni")
         rooms = self._extract_rooms(title)
+        area_m2 = self._extract_area(card)
 
         icon, label = self._category_meta(category_key)
 
@@ -231,7 +232,7 @@ class NekretnineParser(Parser):
             link=url_full,
             photo=photo,
             rooms=rooms,
-            area_m2=None,
+            area_m2=area_m2,
             category=category_key,
             category_icon=icon,
             category_label=label,
@@ -267,6 +268,27 @@ class NekretnineParser(Parser):
             if word in t:
                 return num
 
+        return None
+
+    @staticmethod
+    def _extract_area(card: Any) -> float | None:
+        """Витягує площу з картки: '55 m²', '55m²', '55 m2'."""
+        # Беремо весь текст картки
+        text = card.get_text(" ", strip=True)
+
+        # Шукаємо "55 m²" / "55m²" / "55 m2" / "55,5 m²"
+        m = re.search(
+            r"(\d+(?:[.,]\d+)?)\s*m(?:²|2)\b",
+            text,
+            re.IGNORECASE,
+        )
+        if m:
+            try:
+                val = float(m.group(1).replace(",", "."))
+                if 5 <= val <= 2000:
+                    return val
+            except ValueError:
+                pass
         return None
 
     def _category_meta(self, category_key: str) -> tuple[str, str]:

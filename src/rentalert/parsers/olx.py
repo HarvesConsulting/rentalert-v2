@@ -317,8 +317,11 @@ class OLXParser(Parser):
             name = (param.get("name") or "").lower()
 
             # Ключі для площі у різних мовах
+            # Ключі для площі у різних мовах
             is_area = (
-                key == "m"  # OLX UA/PL часто використовує "m"
+                key == "total_area"  # ← ОСЬ ГОЛОВНЕ
+                or key == "m"  # OLX.pt/ro/bg
+                or key == "area"
                 or "площад" in name  # російська
                 or "powierzchnia" in name  # польська
                 or "área" in name  # португальська

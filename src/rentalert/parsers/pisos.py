@@ -209,6 +209,7 @@ class PisosParser(Parser):
                     rooms = m.group(1)
                 break
 
+        area_m2 = self._extract_area(card)
         photo = self._extract_photo(card)
 
         desc_el = card.select_one(".ad-preview__description")
@@ -228,7 +229,7 @@ class PisosParser(Parser):
             link=url_full,
             photo=photo,
             rooms=rooms,
-            area_m2=None,
+            area_m2=area_m2,
             category=category_key,
             category_icon=icon,
             category_label=label,
@@ -270,6 +271,38 @@ class PisosParser(Parser):
                 return src
 
         return ""
+
+    @staticmethod
+    def _extract_area(card: Any) -> float | None:
+        """Витягує площу: '75 m²', '75 m2', '75 metros cuadrados'."""
+        # 1. Шукаємо серед усіх елементів з текстом
+        text_all = card.get_text(" ", strip=True)
+
+        # Шукаємо "75 m²" або "75 m2" або "75 metros cuadrados"
+        m = re.search(
+            r"(\d+(?:[.,]\d+)?)\s*(?:m²|m2|metros?\s*cuadrados?)",
+            text_all,
+            re.IGNORECASE,
+        )
+        if m:
+            try:
+                return float(m.group(1).replace(",", "."))
+            except ValueError:
+                pass
+
+        # 2. Шукаємо серед <span> з класом, що містить "surface" або "area" або "size"
+        for span in card.find_all(["span", "div", "li"]):
+            class_str = " ".join(span.get("class", [])).lower()
+            if any(kw in class_str for kw in ("area", "surface", "size", "metraje", "superficie")):
+                text = span.get_text(strip=True)
+                m = re.search(r"(\d+(?:[.,]\d+)?)", text)
+                if m:
+                    try:
+                        return float(m.group(1).replace(",", "."))
+                    except ValueError:
+                        pass
+
+        return None
 
     @staticmethod
     def _detect_category(title: str) -> tuple[str | None, str, str]:

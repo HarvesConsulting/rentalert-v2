@@ -54,7 +54,7 @@ def main() -> None:
     )
     for r in rows:
         print(f"  {r[0]} | {r[1]:.2f} €/м² | {r[2]} оголошень")
-            # Всі групи olx_pt
+        # Всі групи olx_pt
     print("\n=== Всі групи market_prices для olx_pt ===")
     rows = client.execute(
         """

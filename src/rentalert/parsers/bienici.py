@@ -203,6 +203,15 @@ class BienIciParser(Parser):
         # Кімнати / площа
         rooms = item.get("roomsQuantity")
         area = item.get("surfaceArea")
+        # Конвертуємо площу в float
+        area_m2: float | None = None
+        if area is not None:
+            try:
+                val = float(area)
+                if 5 <= val <= 2000:
+                    area_m2 = val
+            except (ValueError, TypeError):
+                area_m2 = None
 
         # Фото
         photo = ""
@@ -230,7 +239,7 @@ class BienIciParser(Parser):
             link=link,
             photo=photo,
             rooms=str(rooms) if rooms else None,
-            area_m2=None,
+            area_m2=area_m2,
             category=category_key,
             category_icon=icon,
             category_label=label,

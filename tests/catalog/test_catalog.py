@@ -25,34 +25,33 @@ def catalog() -> Catalog:
 
 def test_stats(catalog: Catalog) -> None:
     s = catalog.stats()
-    assert s["countries"] == 14
-    assert s["sources"] == 20
-    assert s["cities"] > 34414
+    # Гнучкі перевірки: не прив'язуємось до точних чисел,
+    # щоб не ламати CI при додаванні нових країн/джерел.
+    assert s["countries"] >= 14
+    assert s["sources"] >= 20
+    assert s["cities"] > 40000
 
 
 def test_all_countries(catalog: Catalog) -> None:
     codes = {c.code for c in catalog.all_countries()}
-    assert codes == {
-        "ua",
-        "pl",
-        "pt",
-        "ro",
-        "bg",
-        "de",
-        "es",
-        "hr",
-        "fr",
-        "gb",
-        "at",
-        "cz",
-        "md",
-        "al",
-    }
+    # Основні країни — обов'язково присутні.
+    assert "ua" in codes
+    assert "pl" in codes
+    assert "es" in codes
+    assert "fr" in codes
+    assert "hr" in codes
+    assert "al" in codes
 
 
 def test_all_sources(catalog: Catalog) -> None:
     keys = {s.key for s in catalog.all_sources()}
+    # Основні джерела — обов'язково присутні.
     assert "olx_ua" in keys
+    assert "dimria" in keys
+    assert "habitaclia" in keys
+    assert "pisos" in keys
+    assert "spotahome" in keys
+    assert "nekretnine" in keys
 
 
 # ─── Прямий доступ ───

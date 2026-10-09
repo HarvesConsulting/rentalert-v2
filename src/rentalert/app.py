@@ -219,7 +219,7 @@ def _maybe_recompute_market() -> None:
         # Запускаємо перерахунок
         from rentalert.services.market import recompute_market_prices
 
-        count = recompute_market_prices(_ctx.client, days=30, min_sample=3)
+        count = recompute_market_prices(_ctx.client, days=30, min_sample=2)
         log.info("market_prices: оновлено %d груп", count)
     except Exception as e:
         log.exception("Помилка recompute_market_prices: %s", e)

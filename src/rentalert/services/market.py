@@ -122,7 +122,7 @@ def recompute_market_prices(
     client: TursoClient,
     *,
     days: int = 30,
-    min_sample: int = 5,
+    min_sample: int = 2,
 ) -> int:
     """Рахує медіани ціни за м² і пише в market_prices.
 
@@ -163,7 +163,14 @@ def recompute_market_prices(
             continue
         price_m2 = price / area_f
         # Sanity: відсіюємо явні помилки
-        if price_m2 < 0.5 or price_m2 > 10000:
+        if price_m2 < 1.0 or price_m2 > 10000:
+            continue
+            # Відсіюємо residence/coliving з аномально великою кількістю кімнат
+        try:
+            rooms_int = int(rooms) if rooms else 0
+        except (TypeError, ValueError):
+            rooms_int = 0
+        if rooms_int > 15:
             continue
         key = make_location_key(
             str(city_slug),

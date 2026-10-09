@@ -7,7 +7,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "olx_pt": 8
+        "olx_pt": 8,
+        "spotahome_pt": "faro"
       }
     },
     {
@@ -16,7 +17,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "olx_pt": 11
+        "olx_pt": 11,
+        "spotahome_pt": "lisbon"
       }
     },
     {
@@ -25,7 +27,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "olx_pt": 13
+        "olx_pt": 13,
+        "spotahome_pt": "porto"
       }
     },
     {
@@ -34,7 +37,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "olx_pt": 1
+        "olx_pt": 1,
+        "spotahome_pt": "aveiro"
       }
     },
     {
@@ -43,7 +47,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "olx_pt": 2
+        "olx_pt": 2,
+        "spotahome_pt": "beja"
       }
     },
     {
@@ -52,7 +57,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "olx_pt": 3
+        "olx_pt": 3,
+        "spotahome_pt": "braga"
       }
     },
     {
@@ -61,7 +67,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "olx_pt": 4
+        "olx_pt": 4,
+        "spotahome_pt": "braganca"
       }
     },
     {
@@ -79,7 +86,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "olx_pt": 6
+        "olx_pt": 6,
+        "spotahome_pt": "coimbra"
       }
     },
     {
@@ -88,7 +96,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "olx_pt": 9
+        "olx_pt": 9,
+        "spotahome_pt": "guarda"
       }
     },
     {
@@ -106,7 +115,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "olx_pt": 31
+        "olx_pt": 31,
+        "spotahome_pt": "funchal"
       }
     },
     {
@@ -169,7 +179,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "olx_pt": 10
+        "olx_pt": 10,
+        "spotahome_pt": "leiria"
       }
     },
     {
@@ -187,7 +198,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "olx_pt": 14
+        "olx_pt": 14,
+        "spotahome_pt": "santarem"
       }
     },
     {
@@ -196,7 +208,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "olx_pt": 15
+        "olx_pt": 15,
+        "spotahome_pt": "setubal"
       }
     },
     {
@@ -223,7 +236,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "olx_pt": 18
+        "olx_pt": 18,
+        "spotahome_pt": "viseu"
       }
     },
     {
@@ -232,7 +246,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "olx_pt": 7
+        "olx_pt": 7,
+        "spotahome_pt": "evora"
       }
     }
   ]

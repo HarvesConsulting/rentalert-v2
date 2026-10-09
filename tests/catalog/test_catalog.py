@@ -26,7 +26,7 @@ def catalog() -> Catalog:
 def test_stats(catalog: Catalog) -> None:
     s = catalog.stats()
     assert s["countries"] == 13
-    assert s["sources"] == 15
+    assert s["sources"] == 19
     assert s["cities"] > 34414
 
 

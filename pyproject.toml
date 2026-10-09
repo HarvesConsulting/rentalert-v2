@@ -29,7 +29,10 @@ dev = [
     "pytest-cov>=4.1",
     "ruff==0.16.8",
     "mypy>=1.10",
-    "types-beautifulsoup4",
+    "types-beautifulsoup4",    
+]
+playwright = [
+    "playwright>=1.40",
 ]
 
 [project.scripts]

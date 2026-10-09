@@ -7,7 +7,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-7444"
+        "bienici": "-7444",
+        "spotahome_fr": "paris"
       }
     },
     {
@@ -16,7 +17,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-76469"
+        "bienici": "-76469",
+        "spotahome_fr": "marseille"
       }
     },
     {
@@ -25,7 +27,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-120965"
+        "bienici": "-120965",
+        "spotahome_fr": "lyon"
       }
     },
     {
@@ -34,7 +37,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-35738"
+        "bienici": "-35738",
+        "spotahome_fr": "toulouse"
       }
     },
     {
@@ -43,7 +47,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-170100"
+        "bienici": "-170100",
+        "spotahome_fr": "nice"
       }
     },
     {
@@ -52,7 +57,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-59874"
+        "bienici": "-59874",
+        "spotahome_fr": "nantes"
       }
     },
     {
@@ -61,7 +67,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-28722"
+        "bienici": "-28722",
+        "spotahome_fr": "montpellier"
       }
     },
     {
@@ -70,7 +77,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-71033"
+        "bienici": "-71033",
+        "spotahome_fr": "strasbourg"
       }
     },
     {
@@ -79,7 +87,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-105270"
+        "bienici": "-105270",
+        "spotahome_fr": "bordeaux"
       }
     },
     {
@@ -88,7 +97,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-58404"
+        "bienici": "-58404",
+        "spotahome_fr": "lille"
       }
     },
     {
@@ -97,7 +107,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-54517"
+        "bienici": "-54517",
+        "spotahome_fr": "rennes"
       }
     },
     {
@@ -106,7 +117,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-35280"
+        "bienici": "-35280",
+        "spotahome_fr": "toulon"
       }
     },
     {
@@ -115,7 +127,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-36458"
+        "bienici": "-36458",
+        "spotahome_fr": "reims"
       }
     },
     {
@@ -142,7 +155,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-120989"
+        "bienici": "-120989",
+        "spotahome_fr": "villeurbanne"
       }
     },
     {
@@ -151,7 +165,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-74090"
+        "bienici": "-74090",
+        "spotahome_fr": "dijon"
       }
     },
     {
@@ -160,7 +175,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-178351"
+        "bienici": "-178351",
+        "spotahome_fr": "angers"
       }
     },
     {
@@ -169,7 +185,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-80348"
+        "bienici": "-80348",
+        "spotahome_fr": "grenoble"
       }
     },
     {
@@ -187,7 +204,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-378685"
+        "bienici": "-378685",
+        "spotahome_fr": "nimes"
       }
     },
     {
@@ -232,7 +250,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-1076124"
+        "bienici": "-1076124",
+        "spotahome_fr": "brest"
       }
     },
     {
@@ -241,7 +260,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-76306"
+        "bienici": "-76306",
+        "spotahome_fr": "tours"
       }
     },
     {
@@ -250,7 +270,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-114347"
+        "bienici": "-114347",
+        "spotahome_fr": "amiens"
       }
     },
     {
@@ -259,7 +280,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-6791758"
+        "bienici": "-6791758",
+        "spotahome_fr": "annecy"
       }
     },
     {
@@ -268,7 +290,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-114172"
+        "bienici": "-114172",
+        "spotahome_fr": "limoges"
       }
     },
     {
@@ -277,7 +300,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-450381"
+        "bienici": "-450381",
+        "spotahome_fr": "metz"
       }
     },
     {
@@ -286,7 +310,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-18000"
+        "bienici": "-18000",
+        "spotahome_fr": "perpignan"
       }
     },
     {
@@ -304,7 +329,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-103599"
+        "bienici": "-103599",
+        "spotahome_fr": "besancon"
       }
     },
     {
@@ -313,7 +339,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-75628"
+        "bienici": "-75628",
+        "spotahome_fr": "rouen"
       }
     },
     {
@@ -322,7 +349,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-147559"
+        "bienici": "-147559",
+        "spotahome_fr": "orleans"
       }
     },
     {
@@ -340,7 +368,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-149197"
+        "bienici": "-149197",
+        "spotahome_fr": "caen"
       }
     },
     {
@@ -367,7 +396,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-38246"
+        "bienici": "-38246",
+        "spotahome_fr": "mulhouse"
       }
     },
     {
@@ -376,7 +406,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-52399"
+        "bienici": "-52399",
+        "spotahome_fr": "nancy"
       }
     },
     {
@@ -385,7 +416,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-59551"
+        "bienici": "-59551",
+        "spotahome_fr": "tourcoing"
       }
     },
     {
@@ -394,7 +426,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-59043"
+        "bienici": "-59043",
+        "spotahome_fr": "roubaix"
       }
     },
     {
@@ -457,7 +490,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-132348"
+        "bienici": "-132348",
+        "spotahome_fr": "poitiers"
       }
     },
     {
@@ -484,7 +518,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-139610"
+        "bienici": "-139610",
+        "spotahome_fr": "dunkerque"
       }
     },
     {
@@ -556,7 +591,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-162431"
+        "bienici": "-162431",
+        "spotahome_fr": "pau"
       }
     },
     {
@@ -583,7 +619,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-105275"
+        "bienici": "-105275",
+        "spotahome_fr": "merignac"
       }
     },
     {
@@ -601,7 +638,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-74687"
+        "bienici": "-74687",
+        "spotahome_fr": "antibes"
       }
     },
     {
@@ -646,7 +684,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-91734"
+        "bienici": "-91734",
+        "spotahome_fr": "cannes"
       }
     },
     {
@@ -709,7 +748,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-286380"
+        "bienici": "-286380",
+        "spotahome_fr": "calais"
       }
     },
     {
@@ -718,7 +758,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-105281"
+        "bienici": "-105281",
+        "spotahome_fr": "pessac"
       }
     },
     {
@@ -745,7 +786,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-164210"
+        "bienici": "-164210",
+        "spotahome_fr": "venissieux"
       }
     },
     {
@@ -763,7 +805,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-37586"
+        "bienici": "-37586",
+        "spotahome_fr": "valence"
       }
     },
     {
@@ -853,7 +896,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-414972"
+        "bienici": "-414972",
+        "spotahome_fr": "troyes"
       }
     },
     {
@@ -880,7 +924,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-74386"
+        "bienici": "-74386",
+        "spotahome_fr": "chambery"
       }
     },
     {
@@ -943,7 +988,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-30305"
+        "bienici": "-30305",
+        "spotahome_fr": "lorient"
       }
     },
     {
@@ -997,7 +1043,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-192306"
+        "bienici": "-192306",
+        "spotahome_fr": "vannes"
       }
     },
     {
@@ -1006,7 +1053,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-158311"
+        "bienici": "-158311",
+        "spotahome_fr": "beauvais"
       }
     },
     {
@@ -1069,7 +1117,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "bienici": "-166713"
+        "bienici": "-166713",
+        "spotahome_fr": "bayonne"
       }
     },
     {

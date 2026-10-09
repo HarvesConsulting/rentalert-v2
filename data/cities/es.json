@@ -8,7 +8,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "albacete",
-        "pisos": "albacete"
+        "pisos": "albacete",
+        "spotahome": "albacete"
       }
     },
     {
@@ -18,7 +19,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "alcobendas",
-        "pisos": "alcobendas"
+        "pisos": "alcobendas",
+        "spotahome": "alcobendas"
       }
     },
     {
@@ -28,7 +30,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "alcorcon",
-        "pisos": "alcorcon"
+        "pisos": "alcorcon",
+        "spotahome": "alcorcon"
       }
     },
     {
@@ -38,7 +41,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "algeciras",
-        "pisos": "algeciras"
+        "pisos": "algeciras",
+        "spotahome": "algeciras"
       }
     },
     {
@@ -48,7 +52,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "alicante",
-        "pisos": "alicante"
+        "pisos": "alicante",
+        "spotahome": "alicante"
       }
     },
     {
@@ -58,7 +63,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "almeria",
-        "pisos": "almeria"
+        "pisos": "almeria",
+        "spotahome": "almeria"
       }
     },
     {
@@ -68,7 +74,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "badajoz",
-        "pisos": "badajoz"
+        "pisos": "badajoz",
+        "spotahome": "badajoz"
       }
     },
     {
@@ -78,7 +85,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "badalona",
-        "pisos": "badalona"
+        "pisos": "badalona",
+        "spotahome": "badalona"
       }
     },
     {
@@ -98,7 +106,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "barcelona",
-        "pisos": "barcelona"
+        "pisos": "barcelona",
+        "spotahome": "barcelona"
       }
     },
     {
@@ -108,7 +117,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "bilbao",
-        "pisos": "bilbao"
+        "pisos": "bilbao",
+        "spotahome": "bilbao"
       }
     },
     {
@@ -118,7 +128,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "burgos",
-        "pisos": "burgos"
+        "pisos": "burgos",
+        "spotahome": "burgos"
       }
     },
     {
@@ -128,7 +139,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "cadiz",
-        "pisos": "cadiz"
+        "pisos": "cadiz",
+        "spotahome": "cadiz"
       }
     },
     {
@@ -138,7 +150,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "cartagena",
-        "pisos": "cartagena"
+        "pisos": "cartagena",
+        "spotahome": "cartagena"
       }
     },
     {
@@ -148,7 +161,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "cordoba",
-        "pisos": "cordoba"
+        "pisos": "cordoba",
+        "spotahome": "cordoba"
       }
     },
     {
@@ -158,7 +172,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "fuenlabrada",
-        "pisos": "fuenlabrada"
+        "pisos": "fuenlabrada",
+        "spotahome": "fuenlabrada"
       }
     },
     {
@@ -168,7 +183,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "getafe",
-        "pisos": "getafe"
+        "pisos": "getafe",
+        "spotahome": "getafe"
       }
     },
     {
@@ -178,7 +194,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "gijon",
-        "pisos": "gijon_concejo_xixon_conceyu_gijon"
+        "pisos": "gijon_concejo_xixon_conceyu_gijon",
+        "spotahome": "gijon"
       }
     },
     {
@@ -198,7 +215,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "huelva",
-        "pisos": "huelva_capital"
+        "pisos": "huelva_capital",
+        "spotahome": "huelva"
       }
     },
     {
@@ -208,7 +226,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "jaen",
-        "pisos": "jaen"
+        "pisos": "jaen",
+        "spotahome": "jaen"
       }
     },
     {
@@ -218,7 +237,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "leganes",
-        "pisos": "leganes"
+        "pisos": "leganes",
+        "spotahome": "leganes"
       }
     },
     {
@@ -228,7 +248,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "leon",
-        "pisos": "leon"
+        "pisos": "leon",
+        "spotahome": "leon"
       }
     },
     {
@@ -248,7 +269,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "logrono",
-        "pisos": "logrono"
+        "pisos": "logrono",
+        "spotahome": "logrono"
       }
     },
     {
@@ -258,7 +280,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "madrid",
-        "pisos": "madrid_capital_zona_urbana"
+        "pisos": "madrid_capital_zona_urbana",
+        "spotahome": "madrid"
       }
     },
     {
@@ -267,7 +290,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "habitaclia": "marbella"
+        "habitaclia": "marbella",
+        "spotahome": "marbella"
       }
     },
     {
@@ -277,7 +301,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "mataro",
-        "pisos": "mataro"
+        "pisos": "mataro",
+        "spotahome": "mataro"
       }
     },
     {
@@ -287,7 +312,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "murcia",
-        "pisos": "murcia"
+        "pisos": "murcia",
+        "spotahome": "murcia"
       }
     },
     {
@@ -297,7 +323,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "malaga",
-        "pisos": "malaga"
+        "pisos": "malaga",
+        "spotahome": "malaga"
       }
     },
     {
@@ -307,7 +334,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "mostoles",
-        "pisos": "mostoles"
+        "pisos": "mostoles",
+        "spotahome": "mostoles"
       }
     },
     {
@@ -335,7 +363,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "oviedo",
-        "pisos": "oviedo"
+        "pisos": "oviedo",
+        "spotahome": "oviedo"
       }
     },
     {
@@ -345,7 +374,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "parla",
-        "pisos": "parla"
+        "pisos": "parla",
+        "spotahome": "parla"
       }
     },
     {
@@ -355,7 +385,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "reus",
-        "pisos": "reus"
+        "pisos": "reus",
+        "spotahome": "reus"
       }
     },
     {
@@ -364,7 +395,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "habitaclia": "sabadell"
+        "habitaclia": "sabadell",
+        "spotahome": "sabadell"
       }
     },
     {
@@ -374,7 +406,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "salamanca",
-        "pisos": "salamanca"
+        "pisos": "salamanca",
+        "spotahome": "salamanca"
       }
     },
     {
@@ -384,7 +417,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "santander",
-        "pisos": "santander"
+        "pisos": "santander",
+        "spotahome": "santander"
       }
     },
     {
@@ -404,7 +438,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "tarragona",
-        "pisos": "tarragona_capital"
+        "pisos": "tarragona_capital",
+        "spotahome": "tarragona"
       }
     },
     {
@@ -414,7 +449,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "telde",
-        "pisos": "telde"
+        "pisos": "telde",
+        "spotahome": "telde"
       }
     },
     {
@@ -424,7 +460,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "terrassa",
-        "pisos": "terrassa"
+        "pisos": "terrassa",
+        "spotahome": "terrassa"
       }
     },
     {
@@ -434,7 +471,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "valencia",
-        "pisos": "valencia_capital_zona_urbana"
+        "pisos": "valencia_capital_zona_urbana",
+        "spotahome": "valencia"
       }
     },
     {
@@ -444,7 +482,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "valladolid",
-        "pisos": "valladolid"
+        "pisos": "valladolid",
+        "spotahome": "valladolid"
       }
     },
     {
@@ -453,7 +492,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "habitaclia": "vigo"
+        "habitaclia": "vigo",
+        "spotahome": "vigo"
       }
     },
     {
@@ -463,7 +503,8 @@
       "priority": true,
       "refs": {
         "habitaclia": "zaragoza",
-        "pisos": "zaragoza"
+        "pisos": "zaragoza",
+        "spotahome": "zaragoza"
       }
     },
     {
@@ -593,7 +634,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "alcantarilla",
-        "pisos": "alcantarilla"
+        "pisos": "alcantarilla",
+        "spotahome": "alcantarilla"
       }
     },
     {
@@ -862,7 +904,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "antequera",
-        "pisos": "antequera"
+        "pisos": "antequera",
+        "spotahome": "antequera"
       }
     },
     {
@@ -882,7 +925,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "aranjuez",
-        "pisos": "aranjuez"
+        "pisos": "aranjuez",
+        "spotahome": "aranjuez"
       }
     },
     {
@@ -952,7 +996,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "arona",
-        "pisos": "arona"
+        "pisos": "arona",
+        "spotahome": "arona"
       }
     },
     {
@@ -962,7 +1007,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "arrecife",
-        "pisos": "arrecife"
+        "pisos": "arrecife",
+        "spotahome": "arrecife"
       }
     },
     {
@@ -971,7 +1017,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "habitaclia": "arroyomolinos"
+        "habitaclia": "arroyomolinos",
+        "spotahome": "arroyomolinos"
       }
     },
     {
@@ -1021,7 +1068,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "aviles",
-        "pisos": "aviles"
+        "pisos": "aviles",
+        "spotahome": "aviles"
       }
     },
     {
@@ -1150,7 +1198,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "benalmadena",
-        "pisos": "benalmadena"
+        "pisos": "benalmadena",
+        "spotahome": "benalmadena"
       }
     },
     {
@@ -1180,7 +1229,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "benidorm",
-        "pisos": "benidorm"
+        "pisos": "benidorm",
+        "spotahome": "benidorm"
       }
     },
     {
@@ -1230,7 +1280,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "blanes",
-        "pisos": "blanes"
+        "pisos": "blanes",
+        "spotahome": "blanes"
       }
     },
     {
@@ -1367,7 +1418,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "habitaclia": "calafell"
+        "habitaclia": "calafell",
+        "spotahome": "calafell"
       }
     },
     {
@@ -1467,7 +1519,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "cambrils",
-        "pisos": "cambrils"
+        "pisos": "cambrils",
+        "spotahome": "cambrils"
       }
     },
     {
@@ -1587,7 +1640,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "castelldefels",
-        "pisos": "castelldefels"
+        "pisos": "castelldefels",
+        "spotahome": "castelldefels"
       }
     },
     {
@@ -1647,7 +1701,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "ceuta",
-        "pisos": "ceuta"
+        "pisos": "ceuta",
+        "spotahome": "ceuta"
       }
     },
     {
@@ -1747,7 +1802,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "coslada",
-        "pisos": "coslada"
+        "pisos": "coslada",
+        "spotahome": "coslada"
       }
     },
     {
@@ -1786,7 +1842,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "cuenca",
-        "pisos": "cuenca"
+        "pisos": "cuenca",
+        "spotahome": "cuenca"
       }
     },
     {
@@ -1825,7 +1882,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "caceres",
-        "pisos": "caceres"
+        "pisos": "caceres",
+        "spotahome": "caceres"
       }
     },
     {
@@ -1855,7 +1913,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "denia",
-        "pisos": "denia"
+        "pisos": "denia",
+        "spotahome": "denia"
       }
     },
     {
@@ -1885,7 +1944,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "elda",
-        "pisos": "elda"
+        "pisos": "elda",
+        "spotahome": "elda"
       }
     },
     {
@@ -1935,7 +1995,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "estepona",
-        "pisos": "estepona"
+        "pisos": "estepona",
+        "spotahome": "estepona"
       }
     },
     {
@@ -1965,7 +2026,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "ferrol",
-        "pisos": "ferrol"
+        "pisos": "ferrol",
+        "spotahome": "ferrol"
       }
     },
     {
@@ -2013,7 +2075,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "habitaclia": "fuengirola"
+        "habitaclia": "fuengirola",
+        "spotahome": "fuengirola"
       }
     },
     {
@@ -2033,7 +2096,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "galapagar",
-        "pisos": "galapagar"
+        "pisos": "galapagar",
+        "spotahome": "galapagar"
       }
     },
     {
@@ -2043,7 +2107,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "gandia",
-        "pisos": "gandia"
+        "pisos": "gandia",
+        "spotahome": "gandia"
       }
     },
     {
@@ -2063,7 +2128,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "gava",
-        "pisos": "gava"
+        "pisos": "gava",
+        "spotahome": "gava"
       }
     },
     {
@@ -2113,7 +2179,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "gondomar",
-        "pisos": "gondomar"
+        "pisos": "gondomar",
+        "spotahome": "gondomar"
       }
     },
     {
@@ -2133,7 +2200,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "granollers",
-        "pisos": "granollers"
+        "pisos": "granollers",
+        "spotahome": "granollers"
       }
     },
     {
@@ -2153,7 +2221,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "guadalajara",
-        "pisos": "guadalajara"
+        "pisos": "guadalajara",
+        "spotahome": "guadalajara"
       }
     },
     {
@@ -2243,7 +2312,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "huesca",
-        "pisos": "huesca"
+        "pisos": "huesca",
+        "spotahome": "huesca"
       }
     },
     {
@@ -2263,7 +2333,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "igualada",
-        "pisos": "igualada"
+        "pisos": "igualada",
+        "spotahome": "igualada"
       }
     },
     {
@@ -2312,7 +2383,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "jaca",
-        "pisos": "jaca"
+        "pisos": "jaca",
+        "spotahome": "jaca"
       }
     },
     {
@@ -2401,7 +2473,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "llanes",
-        "pisos": "llanes"
+        "pisos": "llanes",
+        "spotahome": "llanes"
       }
     },
     {
@@ -2460,7 +2533,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "lugo",
-        "pisos": "lugo"
+        "pisos": "lugo",
+        "spotahome": "lugo"
       }
     },
     {
@@ -2479,7 +2553,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "majadahonda",
-        "pisos": "majadahonda"
+        "pisos": "majadahonda",
+        "spotahome": "majadahonda"
       }
     },
     {
@@ -2508,7 +2583,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "manises",
-        "pisos": "manises"
+        "pisos": "manises",
+        "spotahome": "manises"
       }
     },
     {
@@ -2518,7 +2594,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "manresa",
-        "pisos": "manresa"
+        "pisos": "manresa",
+        "spotahome": "manresa"
       }
     },
     {
@@ -2647,7 +2724,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "melilla",
-        "pisos": "melilla"
+        "pisos": "melilla",
+        "spotahome": "melilla"
       }
     },
     {
@@ -2676,7 +2754,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "habitaclia": "mislata"
+        "habitaclia": "mislata",
+        "spotahome": "mislata"
       }
     },
     {
@@ -2726,7 +2805,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "moncada",
-        "pisos": "moncada"
+        "pisos": "moncada",
+        "spotahome": "moncada"
       }
     },
     {
@@ -2833,7 +2913,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "merida",
-        "pisos": "merida"
+        "pisos": "merida",
+        "spotahome": "merida"
       }
     },
     {
@@ -2873,7 +2954,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "nerja",
-        "pisos": "nerja"
+        "pisos": "nerja",
+        "spotahome": "nerja"
       }
     },
     {
@@ -2903,7 +2985,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "nijar",
-        "pisos": "nijar"
+        "pisos": "nijar",
+        "spotahome": "nijar"
       }
     },
     {
@@ -2953,7 +3036,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "olot",
-        "pisos": "olot"
+        "pisos": "olot",
+        "spotahome": "olot"
       }
     },
     {
@@ -3082,7 +3166,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "palencia",
-        "pisos": "palencia"
+        "pisos": "palencia",
+        "spotahome": "palencia"
       }
     },
     {
@@ -3102,7 +3187,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "paterna",
-        "pisos": "paterna"
+        "pisos": "paterna",
+        "spotahome": "paterna"
       }
     },
     {
@@ -3122,7 +3208,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "peniscola",
-        "pisos": "peniscola"
+        "pisos": "peniscola",
+        "spotahome": "peniscola"
       }
     },
     {
@@ -3171,7 +3258,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "pinto",
-        "pisos": "pinto"
+        "pisos": "pinto",
+        "spotahome": "pinto"
       }
     },
     {
@@ -3191,7 +3279,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "plasencia",
-        "pisos": "plasencia"
+        "pisos": "plasencia",
+        "spotahome": "plasencia"
       }
     },
     {
@@ -3211,7 +3300,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "ponferrada",
-        "pisos": "ponferrada"
+        "pisos": "ponferrada",
+        "spotahome": "ponferrada"
       }
     },
     {
@@ -3251,7 +3341,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "portugalete",
-        "pisos": "portugalete"
+        "pisos": "portugalete",
+        "spotahome": "portugalete"
       }
     },
     {
@@ -3360,7 +3451,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "ribadeo",
-        "pisos": "ribadeo"
+        "pisos": "ribadeo",
+        "spotahome": "ribadeo"
       }
     },
     {
@@ -3380,7 +3472,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "ripollet",
-        "pisos": "ripollet"
+        "pisos": "ripollet",
+        "spotahome": "ripollet"
       }
     },
     {
@@ -3399,7 +3492,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "ronda",
-        "pisos": "ronda"
+        "pisos": "ronda",
+        "spotahome": "ronda"
       }
     },
     {
@@ -3429,7 +3523,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "rubi",
-        "pisos": "rubi"
+        "pisos": "rubi",
+        "spotahome": "rubi"
       }
     },
     {
@@ -3449,7 +3544,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "salou",
-        "pisos": "salou"
+        "pisos": "salou",
+        "spotahome": "salou"
       }
     },
     {
@@ -3459,7 +3555,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "salt",
-        "pisos": "salt"
+        "pisos": "salt",
+        "spotahome": "salt"
       }
     },
     {
@@ -3508,7 +3605,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "sanxenxo",
-        "pisos": "sanxenxo"
+        "pisos": "sanxenxo",
+        "spotahome": "sanxenxo"
       }
     },
     {
@@ -3616,7 +3714,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "sitges",
-        "pisos": "sitges"
+        "pisos": "sitges",
+        "spotahome": "sitges"
       }
     },
     {
@@ -3636,7 +3735,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "soria",
-        "pisos": "soria"
+        "pisos": "soria",
+        "spotahome": "soria"
       }
     },
     {
@@ -3686,7 +3786,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "tarifa",
-        "pisos": "tarifa"
+        "pisos": "tarifa",
+        "spotahome": "tarifa"
       }
     },
     {
@@ -3726,7 +3827,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "teruel",
-        "pisos": "teruel"
+        "pisos": "teruel",
+        "spotahome": "teruel"
       }
     },
     {
@@ -3756,7 +3858,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "toledo",
-        "pisos": "toledo"
+        "pisos": "toledo",
+        "spotahome": "toledo"
       }
     },
     {
@@ -3845,7 +3948,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "torrelavega",
-        "pisos": "torrelavega"
+        "pisos": "torrelavega",
+        "spotahome": "torrelavega"
       }
     },
     {
@@ -3864,7 +3968,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "habitaclia": "torremolinos"
+        "habitaclia": "torremolinos",
+        "spotahome": "torremolinos"
       }
     },
     {
@@ -3874,7 +3979,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "torrevieja",
-        "pisos": "torrevieja"
+        "pisos": "torrevieja",
+        "spotahome": "torrevieja"
       }
     },
     {
@@ -3913,7 +4019,8 @@
       "region": "",
       "priority": false,
       "refs": {
-        "habitaclia": "trujillo"
+        "habitaclia": "trujillo",
+        "spotahome": "trujillo"
       }
     },
     {
@@ -4013,7 +4120,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "valdemoro",
-        "pisos": "valdemoro"
+        "pisos": "valdemoro",
+        "spotahome": "valdemoro"
       }
     },
     {
@@ -4083,7 +4191,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "vic",
-        "pisos": "vic"
+        "pisos": "vic",
+        "spotahome": "vic"
       }
     },
     {
@@ -4093,7 +4202,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "viladecans",
-        "pisos": "viladecans"
+        "pisos": "viladecans",
+        "spotahome": "viladecans"
       }
     },
     {
@@ -4249,7 +4359,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "zamora",
-        "pisos": "zamora"
+        "pisos": "zamora",
+        "spotahome": "zamora"
       }
     },
     {
@@ -4298,7 +4409,8 @@
       "priority": false,
       "refs": {
         "habitaclia": "avila",
-        "pisos": "avila"
+        "pisos": "avila",
+        "spotahome": "avila"
       }
     },
     {

@@ -7,7 +7,8 @@
       "region": "Bavaria",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "7518"
+        "kleinanzeigen": "7518",
+        "spotahome_de": "augsburg"
       }
     },
     {
@@ -16,7 +17,8 @@
       "region": "Berlin",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "3331"
+        "kleinanzeigen": "3331",
+        "spotahome_de": "berlin"
       }
     },
     {
@@ -25,7 +27,8 @@
       "region": "North Rhine-Westphalia",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "1056"
+        "kleinanzeigen": "1056",
+        "spotahome_de": "bielefeld"
       }
     },
     {
@@ -34,7 +37,8 @@
       "region": "North Rhine-Westphalia",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "1932"
+        "kleinanzeigen": "1932",
+        "spotahome_de": "bochum"
       }
     },
     {
@@ -43,7 +47,8 @@
       "region": "North Rhine-Westphalia",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "1038"
+        "kleinanzeigen": "1038",
+        "spotahome_de": "bonn"
       }
     },
     {
@@ -52,7 +57,8 @@
       "region": "Bremen",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "1"
+        "kleinanzeigen": "1",
+        "spotahome_de": "bremen"
       }
     },
     {
@@ -61,7 +67,8 @@
       "region": "North Rhine-Westphalia",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "1085"
+        "kleinanzeigen": "1085",
+        "spotahome_de": "dortmund"
       }
     },
     {
@@ -70,7 +77,8 @@
       "region": "Saxony",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "3820"
+        "kleinanzeigen": "3820",
+        "spotahome_de": "dresden"
       }
     },
     {
@@ -79,7 +87,8 @@
       "region": "North Rhine-Westphalia",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "2131"
+        "kleinanzeigen": "2131",
+        "spotahome_de": "duisburg"
       }
     },
     {
@@ -97,7 +106,8 @@
       "region": "Lower Saxony",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "2027"
+        "kleinanzeigen": "2027",
+        "spotahome_de": "essen"
       }
     },
     {
@@ -115,7 +125,8 @@
       "region": "Hamburg",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "940"
+        "kleinanzeigen": "940",
+        "spotahome_de": "hamburg"
       }
     },
     {
@@ -124,7 +135,8 @@
       "region": "Lower Saxony",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "3155"
+        "kleinanzeigen": "3155",
+        "spotahome_de": "hannover"
       }
     },
     {
@@ -133,7 +145,8 @@
       "region": "Baden-Württemberg",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "9186"
+        "kleinanzeigen": "9186",
+        "spotahome_de": "karlsruhe"
       }
     },
     {
@@ -142,7 +155,8 @@
       "region": "Schleswig-Holstein",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "663"
+        "kleinanzeigen": "663",
+        "spotahome_de": "kiel"
       }
     },
     {
@@ -160,7 +174,8 @@
       "region": "Saxony",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "4233"
+        "kleinanzeigen": "4233",
+        "spotahome_de": "leipzig"
       }
     },
     {
@@ -169,7 +184,8 @@
       "region": "Baden-Württemberg",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "7971"
+        "kleinanzeigen": "7971",
+        "spotahome_de": "mannheim"
       }
     },
     {
@@ -205,7 +221,8 @@
       "region": "Baden-Württemberg",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "2555"
+        "kleinanzeigen": "2555",
+        "spotahome_de": "stuttgart"
       }
     },
     {
@@ -214,7 +231,8 @@
       "region": "Hessen",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "9489"
+        "kleinanzeigen": "9489",
+        "spotahome_de": "wiesbaden"
       }
     },
     {
@@ -223,7 +241,8 @@
       "region": "North Rhine-Westphalia",
       "priority": true,
       "refs": {
-        "kleinanzeigen": "1561"
+        "kleinanzeigen": "1561",
+        "spotahome_de": "wuppertal"
       }
     },
     {

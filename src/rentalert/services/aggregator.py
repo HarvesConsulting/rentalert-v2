@@ -112,6 +112,8 @@ def run_aggregation_cycle(
         if city is None or parser is None:
             continue
 
+        log.info("  🔄 %s/%s...", city_slug, source_key)
+
         try:
             listings = _fetch_and_save(
                 parser=parser,

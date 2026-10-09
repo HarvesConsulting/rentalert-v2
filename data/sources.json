@@ -213,5 +213,49 @@
     "enabled_by_default": true,
     "categories": ["apartment", "house"],
     "config": {}
+  },
+    "spotahome": {
+    "key": "spotahome",
+    "country": "es",
+    "name": "Spotahome (ES)",
+    "icon": "🏠",
+    "kind": "spotahome",
+    "base_url": "https://www.spotahome.com",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house", "room"],
+    "config": {}
+  },
+  "spotahome_pt": {
+    "key": "spotahome_pt",
+    "country": "pt",
+    "name": "Spotahome (PT)",
+    "icon": "🏠",
+    "kind": "spotahome",
+    "base_url": "https://www.spotahome.com",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house", "room"],
+    "config": {}
+  },
+  "spotahome_de": {
+    "key": "spotahome_de",
+    "country": "de",
+    "name": "Spotahome (DE)",
+    "icon": "🏠",
+    "kind": "spotahome",
+    "base_url": "https://www.spotahome.com",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house", "room"],
+    "config": {}
+  },
+  "spotahome_fr": {
+    "key": "spotahome_fr",
+    "country": "fr",
+    "name": "Spotahome (FR)",
+    "icon": "🏠",
+    "kind": "spotahome",
+    "base_url": "https://www.spotahome.com",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house", "room"],
+    "config": {}
   }
 }

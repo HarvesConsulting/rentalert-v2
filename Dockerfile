@@ -1,34 +1,51 @@
 # ─────────────────────────────────────────────────────────────
 # RentAlert v2 — Dockerfile
 #
-# Використовує офіційний образ Playwright з Python 3.11 + Chromium.
-# Потрібен для підтримки Spotahome-парсера на проді.
+# Python 3.11 + Playwright + Chromium
 # ─────────────────────────────────────────────────────────────
 
-FROM mcr.microsoft.com/playwright/python:v1.48.0-jammy
+FROM python:3.11-slim
 
-# Робоча директорія
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    wget \
+    ca-certificates \
+    fonts-liberation \
+    libnss3 \
+    libnspr4 \
+    libatk1.0-0 \
+    libatk-bridge2.0-0 \
+    libcups2 \
+    libdrm2 \
+    libdbus-1-3 \
+    libxkbcommon0 \
+    libatspi2.0-0 \
+    libxcomposite1 \
+    libxdamage1 \
+    libxfixes3 \
+    libxrandr2 \
+    libgbm1 \
+    libpango-1.0-0 \
+    libcairo2 \
+    libasound2 \
+    && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /app
 
-# Змінні середовища
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     PIP_NO_CACHE_DIR=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=1
 
-# 1. Копіюємо метадані проекту
 COPY pyproject.toml README.md ./
-
-# 2. Копіюємо код і дані
 COPY src/ ./src/
 COPY data/ ./data/
 
-# 3. Встановлюємо залежності (включно з playwright)
 RUN pip install --upgrade pip && \
     pip install -e ".[playwright]"
 
-# 4. Health check (Render сам перевіряє /health)
+RUN playwright install chromium && \
+    playwright install-deps chromium
+
 EXPOSE 10000
 
-# 5. Команда запуску
 CMD gunicorn --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 120 "rentalert.app:app"

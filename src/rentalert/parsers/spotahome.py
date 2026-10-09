@@ -21,7 +21,7 @@ from __future__ import annotations
 import logging
 import re
 from collections.abc import Callable
-from typing import Any
+from typing import Any, ClassVar
 
 from rentalert.catalog.models import City
 from rentalert.parsers.base import Listing, Parser
@@ -67,7 +67,28 @@ class SpotahomeParser(Parser):
 
     BASE_URL = "https://www.spotahome.com"
     MAX_PAGES = 10  # запобіжник від зациклення
-    PAGE_WAIT_MS = 4000  # чекаємо 6 сек на рендеринг React
+    PAGE_WAIT_MS = 6000  # fallback, якщо wait_for_function не спрацював
+    LOADER_TIMEOUT_MS = 20000  # чекаємо до 20 сек на React Router loaderData
+
+    # Chrome flags для мінімізації RAM (важливо для Render Free plan 512 MB)
+    CHROMIUM_ARGS: ClassVar[list[str]] = [
+        "--no-sandbox",
+        "--disable-dev-shm-usage",
+        "--disable-gpu",
+        "--single-process",
+        "--no-zygote",
+        "--no-first-run",
+        "--disable-extensions",
+        "--disable-background-networking",
+        "--disable-background-timer-throttling",
+        "--disable-backgrounding-occluded-windows",
+        "--disable-renderer-backgrounding",
+        "--disable-features=TranslateUI,BlinkGenPropertyTrees,IsolateOrigins,site-per-process",
+        "--disable-ipc-flooding-protection",
+        "--disable-blink-features=AutomationControlled",
+        "--js-flags=--max-old-space-size=128",
+        "--memory-pressure-off",
+    ]
 
     # ─────────────────────────────────────────────────────────
     # Публічний API
@@ -96,24 +117,7 @@ class SpotahomeParser(Parser):
             with sync_playwright() as pw:
                 browser = pw.chromium.launch(
                     headless=True,
-                    args=[
-                        "--no-sandbox",
-                        "--disable-dev-shm-usage",
-                        "--disable-gpu",
-                        "--single-process",
-                        "--no-zygote",
-                        "--no-first-run",
-                        "--disable-extensions",
-                        "--disable-background-networking",
-                        "--disable-background-timer-throttling",
-                        "--disable-backgrounding-occluded-windows",
-                        "--disable-renderer-backgrounding",
-                        "--disable-features=TranslateUI,BlinkGenPropertyTrees,IsolateOrigins,site-per-process",
-                        "--disable-ipc-flooding-protection",
-                        "--disable-blink-features=AutomationControlled",
-                        "--js-flags=--max-old-space-size=128",
-                        "--memory-pressure-off",
-                    ],
+                    args=self.CHROMIUM_ARGS,
                 )
                 context = browser.new_context(
                     locale="es-ES",
@@ -176,10 +180,9 @@ class SpotahomeParser(Parser):
 
             try:
                 page.goto(url, wait_until="domcontentloaded", timeout=60_000)
-                # Чекаємо рендеринг React Router
-                page.wait_for_timeout(self.PAGE_WAIT_MS)
-                # Прокрутка для підвантаження карток
-                # Прокрутка для підвантаження карток (1 раз, а не 3)
+                # Чекаємо, поки React Router завантажить marketplace-search
+                self._wait_for_loader(page)
+                # Прокрутка для підвантаження карток (1 раз для економії RAM)
                 page.mouse.wheel(0, 3000)
                 page.wait_for_timeout(600)
             except Exception as e:
@@ -265,6 +268,31 @@ class SpotahomeParser(Parser):
         return base
 
     # ─────────────────────────────────────────────────────────
+    # Очікування React Router
+    # ─────────────────────────────────────────────────────────
+
+    def _wait_for_loader(self, page) -> None:
+        """Чекає, поки React Router завантажить marketplace-search.
+
+        Спочатку пробуємо `wait_for_function` з таймаутом. Якщо не вдалось —
+        fallback на фіксоване очікування.
+        """
+        try:
+            page.wait_for_function(
+                """
+                () => {
+                    const r = window.__reactRouterDataRouter;
+                    return !!(r && r.state && r.state.loaderData
+                              && r.state.loaderData['marketplace-search']);
+                }
+                """,
+                timeout=self.LOADER_TIMEOUT_MS,
+            )
+        except Exception:
+            # Fallback — стара логіка з фіксованим таймаутом
+            page.wait_for_timeout(self.PAGE_WAIT_MS)
+
+    # ─────────────────────────────────────────────────────────
     # Витягування даних з React Router
     # ─────────────────────────────────────────────────────────
 
@@ -310,7 +338,11 @@ class SpotahomeParser(Parser):
             return []
 
         # initialHomecards може бути dict (id → listing) або list
-        raw_listings = list(homecards.values()) if isinstance(homecards, dict) else list(homecards)
+        raw_listings = (
+            list(homecards.values())
+            if isinstance(homecards, dict)
+            else list(homecards)
+        )
 
         currency = raw_data.get("currency", "EUR")
         result: list[Listing] = []
@@ -356,7 +388,11 @@ class SpotahomeParser(Parser):
 
         # URL
         url_path = raw.get("url") or ""
-        url_full = f"{self.BASE_URL}{url_path}" if url_path.startswith("/") else url_path
+        url_full = (
+            f"{self.BASE_URL}{url_path}"
+            if url_path.startswith("/")
+            else url_path
+        )
 
         # Фото
         photo = raw.get("mainPhotoUrl") or ""

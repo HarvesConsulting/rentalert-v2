@@ -13,6 +13,7 @@
 from __future__ import annotations
 
 import logging
+import unicodedata
 from collections.abc import Callable
 from typing import Any, ClassVar
 
@@ -71,10 +72,13 @@ class SpotahomeParser(Parser):
         *,
         seen_checker: Callable[[list[str]], bool] | None = None,
     ) -> list[Listing]:
-        city_slug = self.external_id(city)
-        if city_slug is None:
-            log.warning("City %r не має refs для %r", city.slug, self.source.key)
-            return []
+        """Завантажує оголошення для міста.
+
+        seen_checker не використовується (JSON-API не дає пагінації,
+        тому рання зупинка неможлива). Параметр залишено для сумісності
+        з базовим інтерфейсом Parser.
+        """
+        city_slug = city.slug  # канонічний slug для БД
 
         wanted_categories = set(self.filter_categories(categories))
         if not wanted_categories:
@@ -130,7 +134,7 @@ class SpotahomeParser(Parser):
 
         # Список «синонімів» міста — бо Spotahome пише по-різному
         # (Malaga / Málaga, Lisbon / Lisboa, Milan / Milano, ...)
-        wanted_names = self._city_aliases(str(city_slug))
+        wanted_names = self._city_aliases(city_slug)
 
         result: list[Listing] = []
         seen_in_run: set[str] = set()
@@ -171,7 +175,7 @@ class SpotahomeParser(Parser):
 
     @staticmethod
     def _city_aliases(city_slug: str) -> set[str]:
-        """Повертає всі можливі написання міста (lowercase)."""
+        """Повертає всі можливі написання міста (lowercase, без діакритики)."""
         slug = city_slug.lower()
         aliases = {slug}
         extra = {
@@ -186,15 +190,11 @@ class SpotahomeParser(Parser):
             "rome": {"roma"},
             "florence": {"firenze"},
             "seville": {"sevilla"},
-            "bordeaux": set(),
             "turin": {"torino"},
             "naples": {"napoli"},
         }
         if slug in extra:
             aliases |= extra[slug]
-        # Прибираємо діакритику з усіх варіантів
-        # (Málaga → malaga)
-        import unicodedata
 
         result: set[str] = set()
         for a in aliases:

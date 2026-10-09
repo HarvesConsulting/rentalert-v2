@@ -132,7 +132,22 @@
     "enabled_by_default": true,
     "categories": ["apartment", "house", "room"],
     "config": {}
-  },
+  },"merrjep": {
+  "key": "merrjep",
+  "country": "al",
+  "name": "MerrJep.al",
+  "icon": "🇦🇱",
+  "kind": "merrjep",
+  "base_url": "https://www.merrjep.al",
+  "enabled_by_default": true,
+  "categories": ["apartment", "house"],
+  "config": {
+    "category_slugs": {
+      "apartment": "apartamente",
+      "house": "shtepi"
+    }
+  }
+},
   "nekretnine": {
     "key": "nekretnine",
     "country": "hr",

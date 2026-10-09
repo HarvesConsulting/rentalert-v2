@@ -44,8 +44,15 @@ _TYPE_TO_CATEGORY: dict[str, tuple[str, str, str]] = {
 }
 
 _CURRENCY_SYMBOLS: dict[str, str] = {
-    "EUR": "€", "USD": "$", "GBP": "£", "PLN": "zł",
-    "RON": "lei", "UAH": "грн", "MDL": "MDL", "CZK": "Kč", "BGN": "лв",
+    "EUR": "€",
+    "USD": "$",
+    "GBP": "£",
+    "PLN": "zł",
+    "RON": "lei",
+    "UAH": "грн",
+    "MDL": "MDL",
+    "CZK": "Kč",
+    "BGN": "лв",
 }
 
 
@@ -60,9 +67,7 @@ class SpotahomeParser(Parser):
 
     # Ендпоінт, який використовує фронтенд для пошуку.
     # ⚠️ Якщо він не працює — побачиш warning у логах, і ми підберемо інший.
-    SEARCH_ENDPOINT: ClassVar[str] = (
-        "https://www.spotahome.com/api/public/marketplace-search"
-    )
+    SEARCH_ENDPOINT: ClassVar[str] = "https://www.spotahome.com/api/public/marketplace-search"
 
     HEADERS: ClassVar[dict[str, str]] = {
         "User-Agent": (
@@ -109,7 +114,9 @@ class SpotahomeParser(Parser):
         result = [lst for lst in all_listings if lst.category in wanted]
         log.info(
             "Spotahome %s: %d оголошень (відфільтровано з %d)",
-            city_slug, len(result), len(all_listings),
+            city_slug,
+            len(result),
+            len(all_listings),
         )
         return result
 
@@ -141,7 +148,8 @@ class SpotahomeParser(Parser):
                 if payload is None:
                     log.info(
                         "Spotahome %s: стор. %d — немає даних, СТОП",
-                        city_slug, page_num,
+                        city_slug,
+                        page_num,
                     )
                     break
 
@@ -155,12 +163,15 @@ class SpotahomeParser(Parser):
                     empty_streak += 1
                     log.info(
                         "Spotahome %s: стор. %d — 0 нових (%d підряд)",
-                        city_slug, page_num, empty_streak,
+                        city_slug,
+                        page_num,
+                        empty_streak,
                     )
                     if empty_streak >= self.MAX_EMPTY_PAGES:
                         log.info(
                             "Spotahome %s: %d порожніх сторінок підряд — СТОП",
-                            city_slug, self.MAX_EMPTY_PAGES,
+                            city_slug,
+                            self.MAX_EMPTY_PAGES,
                         )
                         break
                     continue
@@ -171,12 +182,15 @@ class SpotahomeParser(Parser):
                         empty_streak += 1
                         log.info(
                             "Spotahome %s: стор. %d — всі вже в БД (%d підряд)",
-                            city_slug, page_num, empty_streak,
+                            city_slug,
+                            page_num,
+                            empty_streak,
                         )
                         if empty_streak >= self.MAX_EMPTY_PAGES:
                             log.info(
                                 "Spotahome %s: %d сторінок без нових — СТОП",
-                                city_slug, self.MAX_EMPTY_PAGES,
+                                city_slug,
+                                self.MAX_EMPTY_PAGES,
                             )
                             break
                         continue
@@ -185,7 +199,9 @@ class SpotahomeParser(Parser):
                 all_listings.extend(new_on_page)
                 log.info(
                     "Spotahome %s: стор. %d — %d нових",
-                    city_slug, page_num, len(new_on_page),
+                    city_slug,
+                    page_num,
+                    len(new_on_page),
                 )
 
         return all_listings
@@ -195,7 +211,10 @@ class SpotahomeParser(Parser):
     # ─────────────────────────────────────────────────────────
 
     def _request_page(
-        self, client: httpx.Client, city_slug: str, page_num: int,
+        self,
+        client: httpx.Client,
+        city_slug: str,
+        page_num: int,
     ) -> dict[str, Any] | None:
         """Робить один запит до JSON-API. Повертає dict або None."""
 
@@ -214,8 +233,10 @@ class SpotahomeParser(Parser):
         if resp.status_code != 200:
             log.warning(
                 "Spotahome %s: %s → HTTP %d (body[:200]=%r)",
-                city_slug, self.SEARCH_ENDPOINT,
-                resp.status_code, resp.text[:200],
+                city_slug,
+                self.SEARCH_ENDPOINT,
+                resp.status_code,
+                resp.text[:200],
             )
             return None
 
@@ -224,13 +245,17 @@ class SpotahomeParser(Parser):
         except ValueError:
             log.warning(
                 "Spotahome %s: відповідь не JSON (content-type=%r, body[:200]=%r)",
-                city_slug, resp.headers.get("content-type"), resp.text[:200],
+                city_slug,
+                resp.headers.get("content-type"),
+                resp.text[:200],
             )
             return None
 
         if not isinstance(data, dict):
             log.warning(
-                "Spotahome %s: JSON не dict, а %s", city_slug, type(data).__name__,
+                "Spotahome %s: JSON не dict, а %s",
+                city_slug,
+                type(data).__name__,
             )
             return None
 
@@ -238,7 +263,9 @@ class SpotahomeParser(Parser):
         # Це допоможе підібрати правильний шлях, якщо структура інша.
         log.info(
             "Spotahome %s: стор. %d — ключі JSON: %s",
-            city_slug, page_num, list(data.keys()),
+            city_slug,
+            page_num,
+            list(data.keys()),
         )
 
         return data
@@ -248,7 +275,9 @@ class SpotahomeParser(Parser):
     # ─────────────────────────────────────────────────────────
 
     def _parse_homecards(
-        self, payload: dict[str, Any], city_slug: str,
+        self,
+        payload: dict[str, Any],
+        city_slug: str,
     ) -> list[Listing]:
         """Витягує список карток з відповіді.
 
@@ -264,7 +293,8 @@ class SpotahomeParser(Parser):
         if not homecards:
             log.warning(
                 "Spotahome %s: не знайдено homecards у відповіді. keys=%s",
-                city_slug, list(payload.keys()),
+                city_slug,
+                list(payload.keys()),
             )
             return []
 
@@ -275,7 +305,8 @@ class SpotahomeParser(Parser):
         else:
             log.warning(
                 "Spotahome %s: homecards несподіваного типу: %s",
-                city_slug, type(homecards).__name__,
+                city_slug,
+                type(homecards).__name__,
             )
             return []
 
@@ -300,7 +331,10 @@ class SpotahomeParser(Parser):
         return result
 
     def _parse_one(
-        self, raw: dict[str, Any], city_slug: str, currency: str,
+        self,
+        raw: dict[str, Any],
+        city_slug: str,
+        currency: str,
     ) -> Listing | None:
         external_id = str(raw.get("id", "")).strip()
         if not external_id:

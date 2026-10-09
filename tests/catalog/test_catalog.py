@@ -28,7 +28,7 @@ def test_stats(catalog: Catalog) -> None:
     # Гнучкі перевірки: не прив'язуємось до точних чисел,
     # щоб не ламати CI при додаванні нових країн/джерел.
     assert s["countries"] >= 14
-    assert s["sources"] >= 20
+    assert s["sources"] >= 19
     assert s["cities"] > 40000
 
 

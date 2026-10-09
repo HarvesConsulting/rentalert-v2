@@ -1,20 +1,12 @@
-"""Тести для SpotahomeParser на реалістичній JSON-фікстурі."""
+﻿"""Тести для SpotahomeParser (JSON-API)."""
 
 from __future__ import annotations
-
-import json
-from pathlib import Path
-
-import pytest
 
 from rentalert.catalog.models import Source
 from rentalert.parsers.spotahome import SpotahomeParser
 
-FIXTURES = Path(__file__).parent.parent / "fixtures"
 
-
-@pytest.fixture
-def spotahome_source() -> Source:
+def make_source() -> Source:
     return Source(
         key="spotahome",
         country="es",
@@ -28,67 +20,106 @@ def spotahome_source() -> Source:
     )
 
 
-@pytest.fixture
-def homecards_data() -> dict:
-    with open(FIXTURES / "spotahome_homecards.json", encoding="utf-8-sig") as f:
-        return json.load(f)
+def make_parser() -> SpotahomeParser:
+    return SpotahomeParser(make_source())
 
 
-@pytest.fixture
-def parser(spotahome_source: Source) -> SpotahomeParser:
-    return SpotahomeParser(spotahome_source)
+# ─────────────────────────────────────────────────────────────
+# _parse_one
+# ─────────────────────────────────────────────────────────────
+
+def test_parse_one_basic() -> None:
+    parser = make_parser()
+    raw = {
+        "id": 118242,
+        "type": "room_shared",
+        "title": "Room in shared flat",
+        "pricePerMonth": 940,
+        "currencySymbol": "€",
+        "url": "/barcelona/for-rent:rooms/118242",
+        "mainPhotoUrl": "https://photos.spotahome.com/x.jpg",
+        "city": "barcelona",
+        "area": 85,
+        "numberOfBedrooms": 3,
+        "location": {"city": "Barcelona", "street": "Carrer X"},
+    }
+    lst = parser._parse_one(raw, "barcelona")
+
+    assert lst is not None
+    assert lst.id == "spotahome:118242"
+    assert lst.category == "room"
+    assert lst.price == "940 €"
+    assert lst.area_m2 == 85.0
+    assert lst.rooms == "3"
+    assert lst.location == "Barcelona, Carrer X"
+    assert lst.link == "https://www.spotahome.com/barcelona/for-rent:rooms/118242"
+    assert lst.photo == "https://photos.spotahome.com/x.jpg"
 
 
-def test_parse_homecards_basic(parser, homecards_data) -> None:
-    listings = parser._parse_homecards(homecards_data, "barcelona")
-    assert len(listings) == 2
-    assert listings[0].id.startswith("spotahome:")
+def test_parse_one_missing_id() -> None:
+    parser = make_parser()
+    assert parser._parse_one({}, "madrid") is None
 
 
-def test_parse_homecards_fields(parser, homecards_data) -> None:
-    first = parser._parse_homecards(homecards_data, "barcelona")[0]
-    assert first.id == "spotahome:118242"
-    assert first.price == "940 €"
-    assert first.category == "room"
-    assert first.area_m2 == 85.0
+def test_parse_one_no_price() -> None:
+    parser = make_parser()
+    raw = {"id": 1, "type": "apartment", "currencySymbol": "€"}
+    lst = parser._parse_one(raw, "madrid")
+    assert lst is not None
+    assert lst.price == "—"
 
 
-def test_parse_homecards_empty(parser) -> None:
-    assert parser._parse_homecards({}, "barcelona") == []
+# ─────────────────────────────────────────────────────────────
+# _city_aliases
+# ─────────────────────────────────────────────────────────────
+
+def test_city_aliases_basic() -> None:
+    assert "madrid" in SpotahomeParser._city_aliases("madrid")
 
 
-@pytest.mark.parametrize(
-    ("type_in", "cat_out"),
-    [
-        ("apartment", "apartment"),
-        ("studio", "apartment"),
-        ("house", "house"),
-        ("villa", "house"),
-        ("room_shared", "room"),
-        ("room", "room"),
-    ],
-)
-def test_category_mapping(parser, type_in, cat_out) -> None:
-    data = {"currency": "EUR", "homecards": [{"id": "1", "type": type_in}]}
-    assert parser._parse_homecards(data, "madrid")[0].category == cat_out
+def test_city_aliases_diacritics() -> None:
+    aliases = SpotahomeParser._city_aliases("malaga")
+    assert "malaga" in aliases
+    assert "málaga" in aliases
 
 
-@pytest.mark.parametrize(
-    ("inp", "cur", "out"),
-    [
-        ("940", "EUR", "940 €"),
-        ("1234.56", "EUR", "1234.56 €"),
-        ("500", "USD", "500 $"),
-        ("500", "PLN", "500 zł"),
-    ],
-)
-def test_format_price(inp, cur, out) -> None:
-    assert SpotahomeParser._format_price(inp, cur) == out
+def test_city_aliases_synonyms() -> None:
+    assert "lisboa" in SpotahomeParser._city_aliases("lisbon")
+    assert "milano" in SpotahomeParser._city_aliases("milan")
 
 
-def test_make_id(parser) -> None:
+# ─────────────────────────────────────────────────────────────
+# Category mapping
+# ─────────────────────────────────────────────────────────────
+
+def test_category_mapping() -> None:
+    parser = make_parser()
+    cases = {
+        "apartment": "apartment",
+        "studio": "apartment",
+        "flat": "apartment",
+        "house": "house",
+        "villa": "house",
+        "room_shared": "room",
+        "room": "room",
+        "residence": "apartment",
+    }
+    for type_in, cat_out in cases.items():
+        raw = {"id": 1, "type": type_in, "currencySymbol": "€"}
+        lst = parser._parse_one(raw, "madrid")
+        assert lst is not None
+        assert lst.category == cat_out, f"type {type_in} → {lst.category}, want {cat_out}"
+
+
+# ─────────────────────────────────────────────────────────────
+# make_id / filter_categories (базові)
+# ─────────────────────────────────────────────────────────────
+
+def test_make_id() -> None:
+    parser = make_parser()
     assert parser.make_id("118242") == "spotahome:118242"
 
 
-def test_filter_categories(parser) -> None:
+def test_filter_categories() -> None:
+    parser = make_parser()
     assert parser.filter_categories(["apartment", "daily"]) == ["apartment"]

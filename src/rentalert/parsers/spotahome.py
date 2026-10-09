@@ -13,6 +13,7 @@
 from __future__ import annotations
 
 import logging
+import re
 import unicodedata
 from collections.abc import Callable
 from typing import Any, ClassVar
@@ -175,9 +176,15 @@ class SpotahomeParser(Parser):
 
     @staticmethod
     def _city_aliases(city_slug: str) -> set[str]:
-        """Повертає всі можливі написання міста (lowercase, без діакритики)."""
+        """Повертає всі можливі написання міста.
+
+        Обробляє slug типу "paris-75056" → базове ім'я "paris".
+        """
         slug = city_slug.lower()
-        aliases = {slug}
+        # Прибираємо суфікс -<number> (наприклад, paris-75056 → paris)
+        base = re.sub(r"-\d+$", "", slug)
+
+        aliases = {slug, base}
         extra = {
             "malaga": {"málaga"},
             "lisbon": {"lisboa"},
@@ -193,9 +200,12 @@ class SpotahomeParser(Parser):
             "turin": {"torino"},
             "naples": {"napoli"},
         }
-        if slug in extra:
-            aliases |= extra[slug]
+        # Шукаємо extra і для slug, і для base
+        for key in (slug, base):
+            if key in extra:
+                aliases |= extra[key]
 
+        # Прибираємо діакритику з усіх варіантів
         result: set[str] = set()
         for a in aliases:
             result.add(a)

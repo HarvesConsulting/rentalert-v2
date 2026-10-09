@@ -5,7 +5,7 @@
 # Потрібен для підтримки Spotahome-парсера на проді.
 # ─────────────────────────────────────────────────────────────
 
-FROM mcr.microsoft.com/playwright/python:v1.40.0-jammy
+FROM mcr.microsoft.com/playwright/python:v1.48.0-jammy
 
 # Робоча директорія
 WORKDIR /app

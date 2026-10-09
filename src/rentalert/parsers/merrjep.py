@@ -13,7 +13,7 @@ import json
 import logging
 import re
 from collections.abc import Callable
-from typing import Any, ClassVar
+from typing import Any
 
 from bs4 import BeautifulSoup
 from curl_cffi import requests as cffi_requests
@@ -79,7 +79,9 @@ class MerrjepParser(Parser):
                 if not items:
                     log.info(
                         "MerrJep %s/%s: стор. %d — порожня, СТОП",
-                        city_slug, cat_key, page,
+                        city_slug,
+                        cat_key,
+                        page,
                     )
                     break
 
@@ -101,7 +103,10 @@ class MerrjepParser(Parser):
 
                 log.info(
                     "MerrJep %s/%s: стор. %d — %d нових",
-                    city_slug, cat_key, page, new_on_page,
+                    city_slug,
+                    cat_key,
+                    page,
+                    new_on_page,
                 )
 
                 # Якщо на сторінці нічого нового — СТОП
@@ -110,21 +115,22 @@ class MerrjepParser(Parser):
 
         log.info(
             "MerrJep %s: %d оголошень (усі категорії)",
-            city_slug, len(all_listings),
+            city_slug,
+            len(all_listings),
         )
         return all_listings
 
     def _make_url(self, city_slug: str, category_slug: str, page: int) -> str:
-        url = (
-            f"{self.BASE_URL}/njoftime/imobiliare-vendbanime/"
-            f"{category_slug}/me-qera/{city_slug}"
-        )
+        url = f"{self.BASE_URL}/njoftime/imobiliare-vendbanime/{category_slug}/me-qera/{city_slug}"
         if page > 1:
             url += f"?page={page}"
         return url
 
     def _fetch_page(
-        self, url: str, city_slug: str, page: int,
+        self,
+        url: str,
+        city_slug: str,
+        page: int,
     ) -> list[dict[str, Any]]:
         """Завантажує сторінку і витягує ItemList з JSON-LD."""
         try:
@@ -161,7 +167,9 @@ class MerrjepParser(Parser):
         return []
 
     def _parse_one(
-        self, raw: dict[str, Any], city_slug: str,
+        self,
+        raw: dict[str, Any],
+        city_slug: str,
     ) -> Listing | None:
         url = raw.get("url") or ""
         if not url:

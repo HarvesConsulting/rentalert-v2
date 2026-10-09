@@ -1,19 +1,14 @@
-"""SpotahomeParser — парсер Spotahome.com (React Router + Playwright).
+"""SpotahomeParser — парсер Spotahome.com через JSON-API.
 
 Обслуговує source 'spotahome'.
 
-Особливість: сайт рендериться через React Router 8 — дані оголошень
-не в HTML, а в window.__reactRouterDataRouter.state.loaderData.
-Тому BeautifulSoup не працює — використовуємо Playwright (sync API).
+Раніше використовував Playwright + React Router loaderData, але це
+на Render Free (512 MB) стабільно падало без логів — Chromium з'їдав
+пам'ять і процес убивався ззовні.
 
-Категорії:
-    apartment (apartment, studio, flat)
-    house (house, chalet, villa)
-    room (room_shared, room_private)
-
-Приклад:
-    parser = SpotahomeParser(source)
-    listings = parser.fetch(city, ["apartment", "room"])
+Тепер: намагаємось витягнути дані з JSON-ендпоінта, який використовує
+сам фронтенд. Якщо ендпоінт не відповідає або структура змінилась —
+повертаємо [] і пишемо детальний warning у логи.
 """
 
 from __future__ import annotations
@@ -22,6 +17,8 @@ import logging
 import re
 from collections.abc import Callable
 from typing import Any, ClassVar
+
+import httpx
 
 from rentalert.catalog.models import City
 from rentalert.parsers.base import Listing, Parser
@@ -35,60 +32,49 @@ log = logging.getLogger(__name__)
 # ─────────────────────────────────────────────────────────────
 
 _TYPE_TO_CATEGORY: dict[str, tuple[str, str, str]] = {
-    # apartment
     "apartment": ("apartment", "🏢", "Piso"),
     "studio": ("apartment", "🏢", "Piso"),
     "flat": ("apartment", "🏢", "Piso"),
-    # house
     "house": ("house", "🏠", "Casa"),
     "chalet": ("house", "🏠", "Casa"),
     "villa": ("house", "🏠", "Casa"),
-    # room
     "room_shared": ("room", "🚪", "Habitación"),
     "room_private": ("room", "🚪", "Habitación"),
     "room": ("room", "🚪", "Habitación"),
 }
 
 _CURRENCY_SYMBOLS: dict[str, str] = {
-    "EUR": "€",
-    "USD": "$",
-    "GBP": "£",
-    "PLN": "zł",
-    "RON": "lei",
-    "UAH": "грн",
-    "MDL": "MDL",
-    "CZK": "Kč",
-    "BGN": "лв",
+    "EUR": "€", "USD": "$", "GBP": "£", "PLN": "zł",
+    "RON": "lei", "UAH": "грн", "MDL": "MDL", "CZK": "Kč", "BGN": "лв",
 }
 
 
 class SpotahomeParser(Parser):
-    """Парсер Spotahome.com (Playwright + React Router loaderData)."""
+    """Парсер Spotahome.com через JSON-API (без браузера)."""
 
     BASE_URL = "https://www.spotahome.com"
-    MAX_PAGES = 10  # запобіжник від зациклення
-    PAGE_WAIT_MS = 6000  # fallback, якщо wait_for_function не спрацював
-    LOADER_TIMEOUT_MS = 20000  # чекаємо до 20 сек на React Router loaderData
+    MAX_PAGES = 10
+    PAGE_SIZE = 30  # скільки карток на сторінку просити
+    TIMEOUT_SEC = 25.0
+    MAX_EMPTY_PAGES = 3  # 3 порожні сторінки підряд → стоп
 
-    # Chrome flags для мінімізації RAM (важливо для Render Free plan 512 MB)
-    CHROMIUM_ARGS: ClassVar[list[str]] = [
-        "--no-sandbox",
-        "--disable-dev-shm-usage",
-        "--disable-gpu",
-        "--single-process",
-        "--no-zygote",
-        "--no-first-run",
-        "--disable-extensions",
-        "--disable-background-networking",
-        "--disable-background-timer-throttling",
-        "--disable-backgrounding-occluded-windows",
-        "--disable-renderer-backgrounding",
-        "--disable-features=TranslateUI,BlinkGenPropertyTrees,IsolateOrigins,site-per-process",
-        "--disable-ipc-flooding-protection",
-        "--disable-blink-features=AutomationControlled",
-        "--js-flags=--max-old-space-size=128",
-        "--memory-pressure-off",
-    ]
+    # Ендпоінт, який використовує фронтенд для пошуку.
+    # ⚠️ Якщо він не працює — побачиш warning у логах, і ми підберемо інший.
+    SEARCH_ENDPOINT: ClassVar[str] = (
+        "https://www.spotahome.com/api/public/marketplace-search"
+    )
+
+    HEADERS: ClassVar[dict[str, str]] = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/131.0.0.0 Safari/537.36"
+        ),
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+        "Referer": "https://www.spotahome.com/",
+        "Origin": "https://www.spotahome.com",
+    }
 
     # ─────────────────────────────────────────────────────────
     # Публічний API
@@ -101,9 +87,6 @@ class SpotahomeParser(Parser):
         *,
         seen_checker: Callable[[list[str]], bool] | None = None,
     ) -> list[Listing]:
-        """Завантажує оголошення для міста й категорій."""
-        from playwright.sync_api import sync_playwright
-
         city_slug = self.external_id(city)
         if city_slug is None:
             log.warning("City %r не має refs для %r", city.slug, self.source.key)
@@ -114,31 +97,11 @@ class SpotahomeParser(Parser):
             return []
 
         try:
-            with sync_playwright() as pw:
-                browser = pw.chromium.launch(
-                    headless=True,
-                    args=self.CHROMIUM_ARGS,
-                )
-                context = browser.new_context(
-                    locale="es-ES",
-                    user_agent=(
-                        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                        "AppleWebKit/537.36 (KHTML, like Gecko) "
-                        "Chrome/131.0.0.0 Safari/537.36"
-                    ),
-                    viewport={"width": 1920, "height": 1080},
-                )
-                page = context.new_page()
-
-                try:
-                    all_listings = self._fetch_all_pages(
-                        page=page,
-                        city_slug=str(city_slug),
-                        city=city,
-                        seen_checker=seen_checker,
-                    )
-                finally:
-                    browser.close()
+            all_listings = self._fetch_all_pages(
+                city_slug=str(city_slug),
+                city=city,
+                seen_checker=seen_checker,
+            )
         except Exception as e:
             log.exception("Spotahome %s failed: %s", city_slug, e)
             return []
@@ -146,9 +109,7 @@ class SpotahomeParser(Parser):
         result = [lst for lst in all_listings if lst.category in wanted]
         log.info(
             "Spotahome %s: %d оголошень (відфільтровано з %d)",
-            city_slug,
-            len(result),
-            len(all_listings),
+            city_slug, len(result), len(all_listings),
         )
         return result
 
@@ -159,191 +120,176 @@ class SpotahomeParser(Parser):
     def _fetch_all_pages(
         self,
         *,
-        page,
         city_slug: str,
         city: City,
         seen_checker: Callable[[list[str]], bool] | None = None,
     ) -> list[Listing]:
-        """Завантажує всі сторінки, поки не догнали оновлення.
-
-        Логіка як у Habitaclia: 3 сторінки підряд без нових → стоп.
-        """
         all_listings: list[Listing] = []
         seen_in_run: set[str] = set()
-        empty_pages_streak = 0
+        empty_streak = 0
 
-        for page_num in range(1, self.MAX_PAGES + 1):
-            url = self._make_page_url(city_slug, page_num)
-            log.debug("Spotahome %s → стор. %d: %s", city_slug, page_num, url)
+        with httpx.Client(
+            headers=self.HEADERS,
+            timeout=self.TIMEOUT_SEC,
+            follow_redirects=True,
+            http2=False,  # http2 іноді ламає Cloudflare-фронти
+        ) as client:
+            for page_num in range(1, self.MAX_PAGES + 1):
+                human_delay(min_sec=0.8, max_sec=2.0)
 
-            human_delay(min_sec=1.5, max_sec=3.5)
-
-            try:
-                page.goto(url, wait_until="domcontentloaded", timeout=60_000)
-                # Чекаємо, поки React Router завантажить marketplace-search
-                self._wait_for_loader(page)
-                # Прокрутка для підвантаження карток (1 раз для економії RAM)
-                page.mouse.wheel(0, 3000)
-                page.wait_for_timeout(600)
-            except Exception as e:
-                log.warning(
-                    "Spotahome %s page %d → помилка: %s",
-                    city_slug,
-                    page_num,
-                    e,
-                )
-                break
-
-            raw_data = self._extract_loader_data(page)
-            if raw_data is None:
-                log.info(
-                    "Spotahome %s: стор. %d — немає loaderData, СТОП",
-                    city_slug,
-                    page_num,
-                )
-                break
-
-            page_listings = self._parse_homecards(raw_data, city.slug)
-
-            # Немає нових — рахуємо порожні сторінки
-            new_on_page = [lst for lst in page_listings if lst.id not in seen_in_run]
-            for lst in new_on_page:
-                seen_in_run.add(lst.id)
-
-            if not new_on_page:
-                empty_pages_streak += 1
-                log.info(
-                    "Spotahome %s: стор. %d — 0 нових (%d підряд)",
-                    city_slug,
-                    page_num,
-                    empty_pages_streak,
-                )
-                if empty_pages_streak >= 3:
+                payload = self._request_page(client, city_slug, page_num)
+                if payload is None:
                     log.info(
-                        "Spotahome %s: 3 порожні сторінки підряд — СТОП",
-                        city_slug,
+                        "Spotahome %s: стор. %d — немає даних, СТОП",
+                        city_slug, page_num,
                     )
                     break
-                continue
 
-            # Перевірка seen_checker
-            if seen_checker:
-                page_ids = [lst.id for lst in new_on_page]
-                if seen_checker(page_ids):
-                    empty_pages_streak += 1
+                page_listings = self._parse_homecards(payload, city.slug)
+
+                new_on_page = [lst for lst in page_listings if lst.id not in seen_in_run]
+                for lst in new_on_page:
+                    seen_in_run.add(lst.id)
+
+                if not new_on_page:
+                    empty_streak += 1
                     log.info(
-                        "Spotahome %s: стор. %d — всі вже в БД (%d підряд)",
-                        city_slug,
-                        page_num,
-                        empty_pages_streak,
+                        "Spotahome %s: стор. %d — 0 нових (%d підряд)",
+                        city_slug, page_num, empty_streak,
                     )
-                    if empty_pages_streak >= 3:
+                    if empty_streak >= self.MAX_EMPTY_PAGES:
                         log.info(
-                            "Spotahome %s: 3 сторінки без нових — СТОП",
-                            city_slug,
+                            "Spotahome %s: %d порожніх сторінок підряд — СТОП",
+                            city_slug, self.MAX_EMPTY_PAGES,
                         )
                         break
                     continue
 
-            empty_pages_streak = 0
-            all_listings.extend(new_on_page)
-            log.info(
-                "Spotahome %s: стор. %d — %d нових",
-                city_slug,
-                page_num,
-                len(new_on_page),
-            )
+                if seen_checker:
+                    page_ids = [lst.id for lst in new_on_page]
+                    if seen_checker(page_ids):
+                        empty_streak += 1
+                        log.info(
+                            "Spotahome %s: стор. %d — всі вже в БД (%d підряд)",
+                            city_slug, page_num, empty_streak,
+                        )
+                        if empty_streak >= self.MAX_EMPTY_PAGES:
+                            log.info(
+                                "Spotahome %s: %d сторінок без нових — СТОП",
+                                city_slug, self.MAX_EMPTY_PAGES,
+                            )
+                            break
+                        continue
+
+                empty_streak = 0
+                all_listings.extend(new_on_page)
+                log.info(
+                    "Spotahome %s: стор. %d — %d нових",
+                    city_slug, page_num, len(new_on_page),
+                )
 
         return all_listings
 
-    @staticmethod
-    def _make_page_url(city_slug: str, page_num: int) -> str:
-        """Формує URL сторінки.
-
-        URL: /s/{slug}?page=N
-        """
-        base = f"https://www.spotahome.com/s/{city_slug}"
-        if page_num > 1:
-            base += f"?page={page_num}"
-        return base
-
     # ─────────────────────────────────────────────────────────
-    # Очікування React Router
+    # HTTP-запит
     # ─────────────────────────────────────────────────────────
 
-    def _wait_for_loader(self, page) -> None:
-        """Чекає, поки React Router завантажить marketplace-search.
+    def _request_page(
+        self, client: httpx.Client, city_slug: str, page_num: int,
+    ) -> dict[str, Any] | None:
+        """Робить один запит до JSON-API. Повертає dict або None."""
 
-        Спочатку пробуємо `wait_for_function` з таймаутом. Якщо не вдалось —
-        fallback на фіксоване очікування.
-        """
+        params = {
+            "city": city_slug,
+            "page": page_num,
+            "pageSize": self.PAGE_SIZE,
+        }
+
         try:
-            page.wait_for_function(
-                """
-                () => {
-                    const r = window.__reactRouterDataRouter;
-                    return !!(r && r.state && r.state.loaderData
-                              && r.state.loaderData['marketplace-search']);
-                }
-                """,
-                timeout=self.LOADER_TIMEOUT_MS,
-            )
-        except Exception:
-            # Fallback — стара логіка з фіксованим таймаутом
-            page.wait_for_timeout(self.PAGE_WAIT_MS)
-
-    # ─────────────────────────────────────────────────────────
-    # Витягування даних з React Router
-    # ─────────────────────────────────────────────────────────
-
-    @staticmethod
-    def _extract_loader_data(page) -> dict[str, Any] | None:
-        """Витягує marketplace-search з React Router loaderData."""
-        try:
-            data = page.evaluate("""
-                () => {
-                    const r = window.__reactRouterDataRouter;
-                    if (!r?.state?.loaderData) return null;
-                    const ms = r.state.loaderData['marketplace-search'];
-                    if (!ms) return null;
-                    return {
-                        city: ms.city,
-                        cityName: ms.carouselCityName,
-                        currency: ms.currencyIsoCode || 'EUR',
-                        priceUnit: ms.carouselPriceUnit || 'month',
-                        homecards: ms.initialHomecards,
-                    };
-                }
-            """)
-            # page.evaluate() повертає Any — валідуємо тип
-            if not isinstance(data, dict):
-                return None
-            return data
-        except Exception as e:
-            log.warning("Spotahome: помилка витягування loaderData: %s", e)
+            resp = client.get(self.SEARCH_ENDPOINT, params=params)
+        except httpx.HTTPError as e:
+            log.warning("Spotahome %s: HTTP помилка: %s", city_slug, e)
             return None
 
+        if resp.status_code != 200:
+            log.warning(
+                "Spotahome %s: %s → HTTP %d (body[:200]=%r)",
+                city_slug, self.SEARCH_ENDPOINT,
+                resp.status_code, resp.text[:200],
+            )
+            return None
+
+        try:
+            data = resp.json()
+        except ValueError:
+            log.warning(
+                "Spotahome %s: відповідь не JSON (content-type=%r, body[:200]=%r)",
+                city_slug, resp.headers.get("content-type"), resp.text[:200],
+            )
+            return None
+
+        if not isinstance(data, dict):
+            log.warning(
+                "Spotahome %s: JSON не dict, а %s", city_slug, type(data).__name__,
+            )
+            return None
+
+        # Діагностика: що взагалі в ключах відповіді.
+        # Це допоможе підібрати правильний шлях, якщо структура інша.
+        log.info(
+            "Spotahome %s: стор. %d — ключі JSON: %s",
+            city_slug, page_num, list(data.keys()),
+        )
+
+        return data
+
     # ─────────────────────────────────────────────────────────
-    # Парсинг карток
+    # Парсинг
     # ─────────────────────────────────────────────────────────
 
     def _parse_homecards(
-        self,
-        raw_data: dict[str, Any],
-        city_slug: str,
+        self, payload: dict[str, Any], city_slug: str,
     ) -> list[Listing]:
-        """Парсить initialHomecards → list[Listing]."""
-        homecards = raw_data.get("homecards")
+        """Витягує список карток з відповіді.
+
+        Пробує кілька можливих шляхів, бо структура може відрізнятись
+        залежно від версії API.
+        """
+        homecards = (
+            payload.get("homecards")
+            or payload.get("initialHomecards")
+            or (payload.get("data") or {}).get("homecards")
+            or (payload.get("data") or {}).get("initialHomecards")
+        )
         if not homecards:
+            log.warning(
+                "Spotahome %s: не знайдено homecards у відповіді. keys=%s",
+                city_slug, list(payload.keys()),
+            )
             return []
 
-        # initialHomecards може бути dict (id → listing) або list
-        raw_listings = list(homecards.values()) if isinstance(homecards, dict) else list(homecards)
+        if isinstance(homecards, dict):
+            raw_listings = list(homecards.values())
+        elif isinstance(homecards, list):
+            raw_listings = homecards
+        else:
+            log.warning(
+                "Spotahome %s: homecards несподіваного типу: %s",
+                city_slug, type(homecards).__name__,
+            )
+            return []
 
-        currency = raw_data.get("currency", "EUR")
+        currency = (
+            payload.get("currency")
+            or payload.get("currencyIsoCode")
+            or (payload.get("data") or {}).get("currencyIsoCode")
+            or "EUR"
+        )
+
         result: list[Listing] = []
-
         for raw in raw_listings:
+            if not isinstance(raw, dict):
+                continue
             try:
                 lst = self._parse_one(raw, city_slug, currency)
                 if lst is not None:
@@ -354,53 +300,36 @@ class SpotahomeParser(Parser):
         return result
 
     def _parse_one(
-        self,
-        raw: dict[str, Any],
-        city_slug: str,
-        currency: str,
+        self, raw: dict[str, Any], city_slug: str, currency: str,
     ) -> Listing | None:
-        """Парсить одну картку."""
         external_id = str(raw.get("id", "")).strip()
         if not external_id:
             return None
 
-        # Категорія
         stype = (raw.get("type") or "").lower()
-        cat_tuple = _TYPE_TO_CATEGORY.get(stype)
-        if cat_tuple is None:
-            cat_tuple = ("apartment", "🏢", "Piso")
+        cat_tuple = _TYPE_TO_CATEGORY.get(stype, ("apartment", "🏢", "Piso"))
         category_key, icon, label = cat_tuple
 
-        # Ціна
         price = self._format_price(raw.get("displayPrice"), currency)
 
-        # Локація
         loc = raw.get("location") or {}
-        location_parts = [
-            loc.get("city") or "",
-            loc.get("street") or "",
-        ]
+        location_parts = [loc.get("city") or "", loc.get("street") or ""]
         location = ", ".join(p for p in location_parts if p)
 
-        # URL
         url_path = raw.get("url") or ""
         url_full = f"{self.BASE_URL}{url_path}" if url_path.startswith("/") else url_path
 
-        # Фото
         photo = raw.get("mainPhotoUrl") or ""
 
-        # Кімнати
         rooms_raw = raw.get("numberOfBedrooms")
         rooms = str(rooms_raw) if rooms_raw is not None else None
 
-        # Площа
         area_raw = raw.get("area")
         try:
             area_m2 = float(area_raw) if area_raw is not None else None
         except (TypeError, ValueError):
             area_m2 = None
 
-        # Title — додаємо ціну, як у Habitaclia
         title = raw.get("title") or ""
         if price and price != "—":
             title = f"{title} — {price}"
@@ -418,47 +347,34 @@ class SpotahomeParser(Parser):
             category=category_key,
             category_icon=icon,
             category_label=label,
-            created_at=None,  # Spotahome не дає точної дати
+            created_at=None,
             area_m2=area_m2,
             raw=raw,
         )
 
     @staticmethod
     def _format_price(display_price: Any, currency: str) -> str:
-        """Формує рядок ціни: '940 €' або '1234.56 €'.
-
-        Підтримує обидва формати:
-          • "1234.56"  — крапка як десяткова
-          • "1.234,56" — кома як десяткова, крапка як тисячі
-          • "1,234.56" — кома як тисячі, крапка як десяткова
-        """
         if display_price is None or display_price == "":
             return "—"
         try:
             s = str(display_price).strip()
             s = re.sub(r"[^\d.,]", "", s)
-
             if not s:
                 return "—"
 
-            # Визначаємо десятковий розділювач
             dot_pos = s.rfind(".")
             comma_pos = s.rfind(",")
 
             if dot_pos == -1 and comma_pos == -1:
-                # Немає розділювачів: "940"
                 val = float(s)
             elif dot_pos > comma_pos:
-                # Крапка правіше: "1234.56" або "1,234.56" — крапка десяткова
-                s = s.replace(",", "")  # видаляємо коми-тисячні
+                s = s.replace(",", "")
                 val = float(s)
             elif comma_pos > dot_pos:
-                # Кома правіше: "1.234,56" — кома десяткова
-                s = s.replace(".", "")  # видаляємо крапки-тисячні
+                s = s.replace(".", "")
                 s = s.replace(",", ".")
                 val = float(s)
             else:
-                # Рівні позиції (не мало б бути) — fallback
                 val = float(s.replace(",", "."))
 
             symbol = _CURRENCY_SYMBOLS.get(currency.upper(), currency)

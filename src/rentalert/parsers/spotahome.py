@@ -23,7 +23,6 @@ import re
 from collections.abc import Callable
 from typing import Any
 
-from playwright.sync_api import sync_playwright
 
 from rentalert.catalog.models import City
 from rentalert.parsers.base import Listing, Parser
@@ -83,6 +82,8 @@ class SpotahomeParser(Parser):
         seen_checker: Callable[[list[str]], bool] | None = None,
     ) -> list[Listing]:
         """Завантажує оголошення для міста й категорій."""
+        from playwright.sync_api import sync_playwright
+        
         city_slug = self.external_id(city)
         if city_slug is None:
             log.warning(

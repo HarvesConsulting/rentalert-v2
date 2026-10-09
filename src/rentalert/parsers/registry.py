@@ -37,7 +37,6 @@ def _register_parser_classes() -> None:
     from rentalert.parsers.olx import OLXParser
     from rentalert.parsers.openrent import OpenRentParser
     from rentalert.parsers.pisos import PisosParser
-    from rentalert.parsers.spotahome import SpotahomeParser
     from rentalert.parsers.willhaben import WillhabenParser
 
     _PARSER_BY_KIND = {
@@ -52,8 +51,22 @@ def _register_parser_classes() -> None:
         "willhaben": WillhabenParser,
         "bezrealitky": BezrealitkyParser,
         "999md": Parser999Md,
-        "spotahome": SpotahomeParser,
     }
+
+    # Spotahome — опційний (потребує Playwright + Chromium).
+    # Якщо Playwright не встановлено — реєструємо без нього,
+    # інші парсери продовжують працювати.
+    try:
+        from rentalert.parsers.spotahome import SpotahomeParser
+    except ImportError as e:
+        log.warning(
+            "Spotahome parser недоступний (Playwright не встановлено?): %s", e
+        )
+    else:
+        _PARSER_BY_KIND["spotahome"] = SpotahomeParser
+        _PARSER_BY_KIND["spotahome_pt"] = SpotahomeParser
+        _PARSER_BY_KIND["spotahome_de"] = SpotahomeParser
+        _PARSER_BY_KIND["spotahome_fr"] = SpotahomeParser
 
 
 # ─────────────────────────────────────────────────────────────

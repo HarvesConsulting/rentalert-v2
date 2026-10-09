@@ -67,7 +67,7 @@ class SpotahomeParser(Parser):
 
     BASE_URL = "https://www.spotahome.com"
     MAX_PAGES = 10  # запобіжник від зациклення
-    PAGE_WAIT_MS = 6000  # чекаємо 6 сек на рендеринг React
+    PAGE_WAIT_MS = 4000  # чекаємо 6 сек на рендеринг React
 
     # ─────────────────────────────────────────────────────────
     # Публічний API
@@ -94,7 +94,27 @@ class SpotahomeParser(Parser):
 
         try:
             with sync_playwright() as pw:
-                browser = pw.chromium.launch(headless=True)
+                browser = pw.chromium.launch(
+                    headless=True,
+                    args=[
+                        "--no-sandbox",
+                        "--disable-dev-shm-usage",
+                        "--disable-gpu",
+                        "--single-process",
+                        "--no-zygote",
+                        "--no-first-run",
+                        "--disable-extensions",
+                        "--disable-background-networking",
+                        "--disable-background-timer-throttling",
+                        "--disable-backgrounding-occluded-windows",
+                        "--disable-renderer-backgrounding",
+                        "--disable-features=TranslateUI,BlinkGenPropertyTrees,IsolateOrigins,site-per-process",
+                        "--disable-ipc-flooding-protection",
+                        "--disable-blink-features=AutomationControlled",
+                        "--js-flags=--max-old-space-size=128",
+                        "--memory-pressure-off",
+                    ],
+                )
                 context = browser.new_context(
                     locale="es-ES",
                     user_agent=(
@@ -159,9 +179,9 @@ class SpotahomeParser(Parser):
                 # Чекаємо рендеринг React Router
                 page.wait_for_timeout(self.PAGE_WAIT_MS)
                 # Прокрутка для підвантаження карток
-                for _ in range(3):
-                    page.mouse.wheel(0, 3000)
-                    page.wait_for_timeout(800)
+                # Прокрутка для підвантаження карток (1 раз, а не 3)
+                page.mouse.wheel(0, 3000)
+                page.wait_for_timeout(600)
             except Exception as e:
                 log.warning(
                     "Spotahome %s page %d → помилка: %s",

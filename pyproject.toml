@@ -32,6 +32,7 @@ dev = [
     "mypy>=1.10",
     "types-beautifulsoup4",    
 ]
+
 [project.scripts]
 rentalert = "rentalert.__main__:main"
 
@@ -90,10 +91,6 @@ exclude = ["build/", "dist/"]
 [[tool.mypy.overrides]]
 module = "rentalert.__main__"
 ignore_errors = true
-
-[[tool.mypy.overrides]]
-module = ["playwright.*"]
-ignore_missing_imports = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

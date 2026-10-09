@@ -89,17 +89,26 @@ def make_location_key(
 ) -> str:
     """Формує ключ групи для порівняння цін.
 
-    Локація зазвичай: "str. X, Сектор, Місто, Регіон".
-    Беремо ДРУГИЙ компонент (сектор), якщо є.
-    Інакше — перший (вулиця) або місто.
+    Формати location:
+      Habitaclia: "Centro, Madrid Capital"              → sector = "centro"
+      Pisos:      "Sol (Distrito Centro, Madrid Capital)" → sector = "sol"
+
+    Логіка:
+      1. Прибираємо все в дужках разом з дужками (там часто сміття).
+      2. Беремо ПЕРШИЙ компонент до коми (район).
+      3. Нормалізуємо пробіли.
     """
-    parts = [p.strip().lower() for p in (location or "").split(",") if p.strip()]
-    if len(parts) >= 2:
-        sector = parts[1]
-    elif parts:
-        sector = parts[0]
-    else:
+    loc = (location or "").lower()
+    # 1. Прибираємо все в дужках разом з дужками
+    loc = re.sub(r"\([^)]*\)", "", loc)
+    # 2. Беремо перший компонент до коми
+    sector = loc.split(",")[0].strip()
+    # 3. Якщо порожньо — city_slug
+    if not sector:
         sector = city_slug
+    # 4. Нормалізуємо пробіли
+    sector = re.sub(r"\s+", " ", sector).strip()
+
     rooms_key = rooms or "any"
     return f"{city_slug}|{sector}|{category}|{rooms_key}"
 
@@ -164,6 +173,12 @@ def recompute_market_prices(
         )
         groups.setdefault((str(city_slug), key), []).append(price_m2)
 
+        # Fallback-група по місту (без району) — для випадків,
+        # коли точний район невідомий, або Pisos/Habitaclia
+        # використовують різні назви районів.
+        city_key = f"{city_slug}|{city_slug}|{category or ''}|{rooms or 'any'}"
+        groups.setdefault((str(city_slug), city_key), []).append(price_m2)
+
     count = 0
     for (city_slug, key), prices in groups.items():
         if len(prices) < min_sample:
@@ -223,6 +238,19 @@ def get_deal_score(
         """,
         [city_slug, key],
     )
+
+    # Fallback: якщо точної групи немає — пробуємо групу по місту.
+    if not rows:
+        city_key = f"{city_slug}|{city_slug}|{category}|{rooms or 'any'}"
+        rows = client.execute(
+            """
+            SELECT median_price_m2, sample_size
+            FROM market_prices
+            WHERE city_slug = ? AND location_key = ?
+            """,
+            [city_slug, city_key],
+        )
+
     if not rows:
         return None
     median, sample_size = rows[0]

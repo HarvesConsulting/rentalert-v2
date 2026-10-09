@@ -1,4 +1,4 @@
-﻿"""Тести для SpotahomeParser на реалістичній JSON-фікстурі."""
+"""Тести для SpotahomeParser на реалістичній JSON-фікстурі."""
 
 from __future__ import annotations
 
@@ -16,9 +16,14 @@ FIXTURES = Path(__file__).parent.parent / "fixtures"
 @pytest.fixture
 def spotahome_source() -> Source:
     return Source(
-        key="spotahome", country="es", name="Spotahome", icon="🏠",
-        kind="spotahome", base_url="https://www.spotahome.com",
-        enabled_by_default=True, categories=("apartment", "house", "room"),
+        key="spotahome",
+        country="es",
+        name="Spotahome",
+        icon="🏠",
+        kind="spotahome",
+        base_url="https://www.spotahome.com",
+        enabled_by_default=True,
+        categories=("apartment", "house", "room"),
         config={},
     )
 
@@ -54,9 +59,14 @@ def test_parse_homecards_empty(parser) -> None:
 
 @pytest.mark.parametrize(
     ("type_in", "cat_out"),
-    [("apartment", "apartment"), ("studio", "apartment"),
-     ("house", "house"), ("villa", "house"),
-     ("room_shared", "room"), ("room", "room")],
+    [
+        ("apartment", "apartment"),
+        ("studio", "apartment"),
+        ("house", "house"),
+        ("villa", "house"),
+        ("room_shared", "room"),
+        ("room", "room"),
+    ],
 )
 def test_category_mapping(parser, type_in, cat_out) -> None:
     data = {"currency": "EUR", "homecards": [{"id": "1", "type": type_in}]}
@@ -65,8 +75,12 @@ def test_category_mapping(parser, type_in, cat_out) -> None:
 
 @pytest.mark.parametrize(
     ("inp", "cur", "out"),
-    [("940", "EUR", "940 €"), ("1234.56", "EUR", "1234.56 €"),
-     ("500", "USD", "500 $"), ("500", "PLN", "500 zł")],
+    [
+        ("940", "EUR", "940 €"),
+        ("1234.56", "EUR", "1234.56 €"),
+        ("500", "USD", "500 $"),
+        ("500", "PLN", "500 zł"),
+    ],
 )
 def test_format_price(inp, cur, out) -> None:
     assert SpotahomeParser._format_price(inp, cur) == out

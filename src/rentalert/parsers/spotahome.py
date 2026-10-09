@@ -36,17 +36,17 @@ log = logging.getLogger(__name__)
 
 _TYPE_TO_CATEGORY: dict[str, tuple[str, str, str]] = {
     # apartment
-    "apartment":    ("apartment", "🏢", "Piso"),
-    "studio":       ("apartment", "🏢", "Piso"),
-    "flat":         ("apartment", "🏢", "Piso"),
+    "apartment": ("apartment", "🏢", "Piso"),
+    "studio": ("apartment", "🏢", "Piso"),
+    "flat": ("apartment", "🏢", "Piso"),
     # house
-    "house":        ("house",     "🏠", "Casa"),
-    "chalet":       ("house",     "🏠", "Casa"),
-    "villa":        ("house",     "🏠", "Casa"),
+    "house": ("house", "🏠", "Casa"),
+    "chalet": ("house", "🏠", "Casa"),
+    "villa": ("house", "🏠", "Casa"),
     # room
-    "room_shared":  ("room",      "🚪", "Habitación"),
-    "room_private": ("room",      "🚪", "Habitación"),
-    "room":         ("room",      "🚪", "Habitación"),
+    "room_shared": ("room", "🚪", "Habitación"),
+    "room_private": ("room", "🚪", "Habitación"),
+    "room": ("room", "🚪", "Habitación"),
 }
 
 _CURRENCY_SYMBOLS: dict[str, str] = {
@@ -85,9 +85,7 @@ class SpotahomeParser(Parser):
 
         city_slug = self.external_id(city)
         if city_slug is None:
-            log.warning(
-                "City %r не має refs для %r", city.slug, self.source.key
-            )
+            log.warning("City %r не має refs для %r", city.slug, self.source.key)
             return []
 
         wanted = set(self.filter_categories(categories))
@@ -167,7 +165,9 @@ class SpotahomeParser(Parser):
             except Exception as e:
                 log.warning(
                     "Spotahome %s page %d → помилка: %s",
-                    city_slug, page_num, e,
+                    city_slug,
+                    page_num,
+                    e,
                 )
                 break
 
@@ -175,7 +175,8 @@ class SpotahomeParser(Parser):
             if raw_data is None:
                 log.info(
                     "Spotahome %s: стор. %d — немає loaderData, СТОП",
-                    city_slug, page_num,
+                    city_slug,
+                    page_num,
                 )
                 break
 
@@ -190,7 +191,9 @@ class SpotahomeParser(Parser):
                 empty_pages_streak += 1
                 log.info(
                     "Spotahome %s: стор. %d — 0 нових (%d підряд)",
-                    city_slug, page_num, empty_pages_streak,
+                    city_slug,
+                    page_num,
+                    empty_pages_streak,
                 )
                 if empty_pages_streak >= 3:
                     log.info(
@@ -207,7 +210,9 @@ class SpotahomeParser(Parser):
                     empty_pages_streak += 1
                     log.info(
                         "Spotahome %s: стор. %d — всі вже в БД (%d підряд)",
-                        city_slug, page_num, empty_pages_streak,
+                        city_slug,
+                        page_num,
+                        empty_pages_streak,
                     )
                     if empty_pages_streak >= 3:
                         log.info(
@@ -221,7 +226,9 @@ class SpotahomeParser(Parser):
             all_listings.extend(new_on_page)
             log.info(
                 "Spotahome %s: стор. %d — %d нових",
-                city_slug, page_num, len(new_on_page),
+                city_slug,
+                page_num,
+                len(new_on_page),
             )
 
         return all_listings
@@ -329,11 +336,7 @@ class SpotahomeParser(Parser):
 
         # URL
         url_path = raw.get("url") or ""
-        url_full = (
-            f"{self.BASE_URL}{url_path}"
-            if url_path.startswith("/")
-            else url_path
-        )
+        url_full = f"{self.BASE_URL}{url_path}" if url_path.startswith("/") else url_path
 
         # Фото
         photo = raw.get("mainPhotoUrl") or ""

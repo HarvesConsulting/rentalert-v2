@@ -59,9 +59,7 @@ def _register_parser_classes() -> None:
     try:
         from rentalert.parsers.spotahome import SpotahomeParser
     except ImportError as e:
-        log.warning(
-            "Spotahome parser недоступний (Playwright не встановлено?): %s", e
-        )
+        log.warning("Spotahome parser недоступний (Playwright не встановлено?): %s", e)
     else:
         _PARSER_BY_KIND["spotahome"] = SpotahomeParser
         _PARSER_BY_KIND["spotahome_pt"] = SpotahomeParser

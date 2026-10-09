@@ -2,6 +2,15 @@
   "country": "fr",
   "cities": [
     {
+      "slug": "paris",
+      "name": "Paris",
+      "region": "",
+      "priority": false,
+      "refs": {
+        "spotahome_fr": "paris"
+      }
+    },
+    {
       "slug": "paris-75056",
       "name": "Paris",
       "region": "",

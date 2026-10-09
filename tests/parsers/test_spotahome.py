@@ -1,4 +1,4 @@
-﻿"""Тести для SpotahomeParser (JSON-API)."""
+"""Тести для SpotahomeParser (JSON-API)."""
 
 from __future__ import annotations
 
@@ -27,6 +27,7 @@ def make_parser() -> SpotahomeParser:
 # ─────────────────────────────────────────────────────────────
 # _parse_one
 # ─────────────────────────────────────────────────────────────
+
 
 def test_parse_one_basic() -> None:
     parser = make_parser()
@@ -73,6 +74,7 @@ def test_parse_one_no_price() -> None:
 # _city_aliases
 # ─────────────────────────────────────────────────────────────
 
+
 def test_city_aliases_basic() -> None:
     assert "madrid" in SpotahomeParser._city_aliases("madrid")
 
@@ -91,6 +93,7 @@ def test_city_aliases_synonyms() -> None:
 # ─────────────────────────────────────────────────────────────
 # Category mapping
 # ─────────────────────────────────────────────────────────────
+
 
 def test_category_mapping() -> None:
     parser = make_parser()
@@ -114,6 +117,7 @@ def test_category_mapping() -> None:
 # ─────────────────────────────────────────────────────────────
 # make_id / filter_categories (базові)
 # ─────────────────────────────────────────────────────────────
+
 
 def test_make_id() -> None:
     parser = make_parser()

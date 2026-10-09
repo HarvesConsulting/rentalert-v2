@@ -115,5 +115,13 @@
   "currency": "MDL",
   "free": false,
   "price_stars": 100
+}, "al": {
+  "code": "al",
+  "name": "🇦🇱 Албанія",
+  "name_en": "Albania",
+  "language": "sq",
+  "currency": "L",
+  "free": false,
+  "price_stars": 100
 }
 }

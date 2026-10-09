@@ -338,11 +338,7 @@ class SpotahomeParser(Parser):
             return []
 
         # initialHomecards може бути dict (id → listing) або list
-        raw_listings = (
-            list(homecards.values())
-            if isinstance(homecards, dict)
-            else list(homecards)
-        )
+        raw_listings = list(homecards.values()) if isinstance(homecards, dict) else list(homecards)
 
         currency = raw_data.get("currency", "EUR")
         result: list[Listing] = []
@@ -388,11 +384,7 @@ class SpotahomeParser(Parser):
 
         # URL
         url_path = raw.get("url") or ""
-        url_full = (
-            f"{self.BASE_URL}{url_path}"
-            if url_path.startswith("/")
-            else url_path
-        )
+        url_full = f"{self.BASE_URL}{url_path}" if url_path.startswith("/") else url_path
 
         # Фото
         photo = raw.get("mainPhotoUrl") or ""

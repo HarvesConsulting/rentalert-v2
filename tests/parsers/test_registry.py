@@ -37,7 +37,7 @@ def _build(catalog: Catalog):
 
 
 def test_registry_has_all_sources() -> None:
-    """Реєстр містить усі 15 джерел з каталогу."""
+    """Реєстр містить усі джерела з каталогу."""
     keys = registered_keys()
     expected = {
         "olx_ua",
@@ -49,6 +49,7 @@ def test_registry_has_all_sources() -> None:
         "kleinanzeigen",
         "habitaclia",
         "nekretnine",
+        "merrjep",  # ← додано
         "bienici",
         "openrent",
         "willhaben",

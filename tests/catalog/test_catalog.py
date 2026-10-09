@@ -32,7 +32,22 @@ def test_stats(catalog: Catalog) -> None:
 
 def test_all_countries(catalog: Catalog) -> None:
     codes = {c.code for c in catalog.all_countries()}
-    assert codes == {"ua", "pl", "pt", "ro", "bg", "de", "es", "hr", "fr", "gb", "at", "cz", "md", "al",}
+    assert codes == {
+        "ua",
+        "pl",
+        "pt",
+        "ro",
+        "bg",
+        "de",
+        "es",
+        "hr",
+        "fr",
+        "gb",
+        "at",
+        "cz",
+        "md",
+        "al",
+    }
 
 
 def test_all_sources(catalog: Catalog) -> None:

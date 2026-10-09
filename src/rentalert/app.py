@@ -6,8 +6,10 @@ Startup запускається ліниво — у worker process при пе�
 
 from __future__ import annotations
 
+import contextlib
 import logging
 import threading
+import time
 from pathlib import Path
 from typing import Any
 
@@ -74,6 +76,8 @@ _scheduler: BackgroundScheduler | None = None
 _ready = threading.Event()
 _startup_lock = threading.Lock()
 _aggregation_lock = threading.Lock()
+_aggregation_started_at: float | None = None
+_AGGREGATION_MAX_SECONDS = 600  # 10 хв — максимум на весь цикл
 
 AGGREGATION_INTERVAL_MINUTES = 15
 
@@ -149,16 +153,31 @@ def _ensure_startup() -> None:
 
 
 def _run_aggregation() -> None:
-    """Один цикл агрегації (з lock — запобігає паралельним запускам)."""
+    """Один цикл агрегації (з lock + watchdog)."""
+    global _aggregation_started_at
+
     if _ctx is None:
         log.warning("_ctx не готовий — пропускаю агрегацію")
         return
 
-    # Якщо вже запущено — пропускаємо
+    # Watchdog: якщо попередній цикл висить довше за ліміт — примусово скидаємо lock
+    if _aggregation_lock.locked() and _aggregation_started_at is not None:
+        elapsed = time.time() - _aggregation_started_at
+        if elapsed > _AGGREGATION_MAX_SECONDS:
+            log.error(
+                "⚠️ Попередня агрегація висить %.0f сек (ліміт %d) — примусово скидаю lock",
+                elapsed,
+                _AGGREGATION_MAX_SECONDS,
+            )
+            with contextlib.suppress(RuntimeError):
+                _aggregation_lock.release()
+            _aggregation_started_at = None
+
     if not _aggregation_lock.acquire(blocking=False):
         log.info("⏭ Агрегація вже запущена — пропускаю")
         return
 
+    _aggregation_started_at = time.time()
     try:
         stats = run_aggregation_cycle(
             _ctx.catalog,
@@ -169,6 +188,7 @@ def _run_aggregation() -> None:
     except Exception as e:
         log.exception("Агрегація впала: %s", e)
     finally:
+        _aggregation_started_at = None
         _aggregation_lock.release()
 
 
@@ -347,16 +367,11 @@ def api_wake() -> tuple[str, int]:
     if _ctx is None:
         return "not ready", 503
 
-    # Миттєво повертаємо 200 + агрегація у фоні
+    # Агрегація у фоні — ТІЛЬКИ ОДИН запуск
     threading.Thread(target=_run_aggregation, daemon=True).start()
 
     # Recompute market_prices раз на добу
     threading.Thread(target=_maybe_recompute_market, daemon=True).start()
-
-    # Миттєво повертаємо 200 + агрегація у фоні
-    threading.Thread(target=_run_aggregation, daemon=True).start()
-
-    return "ok", 200
 
     return "ok", 200
 

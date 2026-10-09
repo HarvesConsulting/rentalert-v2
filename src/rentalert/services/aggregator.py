@@ -6,6 +6,7 @@
 
 from __future__ import annotations
 
+import concurrent.futures
 import logging
 from collections.abc import Callable
 from dataclasses import dataclass
@@ -19,6 +20,8 @@ from rentalert.parsers.base import Listing
 from rentalert.parsers.registry import PARSER_REGISTRY
 
 log = logging.getLogger(__name__)
+
+PAIR_TIMEOUT_SEC = 120
 
 
 # ─────────────────────────────────────────────────────────────
@@ -104,6 +107,10 @@ def run_aggregation_cycle(
     fresh_by_pair: dict[tuple[str, str], list[Listing]] = {}
     cutoff = datetime.now(UTC) - timedelta(hours=recent_hours)
 
+    # Таймаут на одну пару (місто × джерело). Якщо парсер висить довше —
+    # цикл іде далі, а завислий потік залишається сам (daemon вб'ється при
+    # завершенні процесу).
+
     for city_slug, source_key in pairs:
         stats.pairs_checked += 1
 
@@ -115,13 +122,28 @@ def run_aggregation_cycle(
         log.info("  🔄 %s/%s...", city_slug, source_key)
 
         try:
-            listings = _fetch_and_save(
-                parser=parser,
-                city=city,
-                source_key=source_key,
-                client=client,
-                cutoff=cutoff,
+            with concurrent.futures.ThreadPoolExecutor(
+                max_workers=1,
+                thread_name_prefix=f"pair-{city_slug}-{source_key}",
+            ) as ex:
+                future = ex.submit(
+                    _fetch_and_save,
+                    parser=parser,
+                    city=city,
+                    source_key=source_key,
+                    client=client,
+                    cutoff=cutoff,
+                )
+                listings = future.result(timeout=PAIR_TIMEOUT_SEC)
+        except concurrent.futures.TimeoutError:
+            log.error(
+                "⏱ %s/%s: таймаут %d сек — пропускаю пару",
+                city_slug,
+                source_key,
+                PAIR_TIMEOUT_SEC,
             )
+            stats.errors += 1
+            continue
         except Exception as e:
             log.exception("Помилка fetch %s/%s: %s", city_slug, source_key, e)
             stats.errors += 1

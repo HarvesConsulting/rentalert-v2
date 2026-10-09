@@ -98,6 +98,10 @@ ignore_missing_imports = true
 module = "rentalert.__main__"
 ignore_errors = true
 
+[[tool.mypy.overrides]]
+module = ["playwright.*"]
+ignore_missing_imports = true
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py"]

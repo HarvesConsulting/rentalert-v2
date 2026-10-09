@@ -71,7 +71,7 @@ class MerrjepParser(Parser):
                 continue
 
             for page in range(1, self.MAX_PAGES + 1):
-                human_delay(min_sec=0.8, max_sec=1.8)
+                human_delay(min_sec=2.0, max_sec=4.0)
 
                 url = self._make_url(str(city_slug), cat_slug, page)
                 items = self._fetch_page(url, str(city_slug), page)

@@ -250,6 +250,9 @@ class MerrjepParser(Parser):
         # Кімнати з name (наприклад "2+1" → 3, "3-dhome" → 3)
         rooms = self._extract_rooms(name)
 
+        # Площа з name (наприклад "72 m²", "72m2")
+        area_m2 = self._extract_area(name)
+
         # Локація з name (остання частина після коми)
         location = self._extract_location(name, city_slug)
 
@@ -272,9 +275,24 @@ class MerrjepParser(Parser):
             category_icon=icon,
             category_label=label,
             created_at=None,
-            area_m2=None,
+            area_m2=area_m2,
             raw=raw,
         )
+
+    @staticmethod
+    def _extract_area(name: str) -> float | None:
+        """Витягує площу з назви: '72 m²', '72m2', '72 m^2'."""
+        m = re.search(
+            r"(\d+(?:[.,]\d+)?)\s*(?:m²|m2|m\^2)",
+            name,
+            re.IGNORECASE,
+        )
+        if m:
+            try:
+                return float(m.group(1).replace(",", "."))
+            except ValueError:
+                return None
+        return None
 
     @staticmethod
     def _detect_category(name: str) -> tuple[str, str, str]:

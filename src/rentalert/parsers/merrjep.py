@@ -5,6 +5,10 @@
 Особливість: сайт рендерить картки через JS, але в HTML є
 <script type="application/ld+json"> з усіма оголошеннями (schema.org).
 Тому BeautifulSoup + json.loads — достатньо.
+
+seen_checker: callback (list[str]) -> bool. Приймає список ID і
+повертає True, якщо ВСІ вони вже в БД. Використовується для ранньої
+зупинки парсингу, щоб не робити зайвих запитів.
 """
 
 from __future__ import annotations
@@ -44,7 +48,10 @@ class MerrjepParser(Parser):
     """Парсер MerrJep.al через JSON-LD (schema.org)."""
 
     BASE_URL = "https://www.merrjep.al"
-    MAX_PAGES = 5
+    MAX_PAGES = 3  # зменшено з 5, щоб менше 503
+
+    # Якщо 3 сторінки підряд усі в БД — зупиняємось
+    EMPTY_STREAK_LIMIT = 3
 
     def fetch(
         self,
@@ -62,13 +69,14 @@ class MerrjepParser(Parser):
         if not wanted:
             return []
 
-        # Збираємо всі оголошення з усіх категорій
         all_listings: list[Listing] = []
         seen_ids: set[str] = set()
 
         for cat_key, cat_slug in _CATEGORY_SLUGS.items():
             if cat_key not in wanted:
                 continue
+
+            empty_streak = 0
 
             for page in range(1, self.MAX_PAGES + 1):
                 human_delay(min_sec=2.0, max_sec=4.0)
@@ -85,7 +93,7 @@ class MerrjepParser(Parser):
                     )
                     break
 
-                new_on_page = 0
+                page_listings: list[Listing] = []
                 for raw in items:
                     try:
                         lst = self._parse_one(raw, city.slug)
@@ -98,20 +106,54 @@ class MerrjepParser(Parser):
                     seen_ids.add(lst.id)
 
                     if lst.category in wanted:
-                        all_listings.append(lst)
-                        new_on_page += 1
+                        page_listings.append(lst)
 
                 log.info(
-                    "MerrJep %s/%s: стор. %d — %d нових",
+                    "MerrJep %s/%s: стор. %d — %d оголошень",
                     city_slug,
                     cat_key,
                     page,
-                    new_on_page,
+                    len(page_listings),
                 )
 
-                # Якщо на сторінці нічого нового — СТОП
-                if new_on_page == 0:
-                    break
+                # ── Перевірка seen_checker ──
+                # Якщо всі оголошення на сторінці вже в БД — рахуємо streak
+                if seen_checker and page_listings:
+                    page_ids = [lst.id for lst in page_listings]
+                    if seen_checker(page_ids):
+                        empty_streak += 1
+                        log.info(
+                            "MerrJep %s/%s: стор. %d — всі вже в БД (%d підряд)",
+                            city_slug,
+                            cat_key,
+                            page,
+                            empty_streak,
+                        )
+                        if empty_streak >= self.EMPTY_STREAK_LIMIT:
+                            log.info(
+                                "MerrJep %s/%s: %d сторінок без нових — СТОП",
+                                city_slug,
+                                cat_key,
+                                self.EMPTY_STREAK_LIMIT,
+                            )
+                            break
+                        continue
+
+                # Якщо на сторінці нічого нового (в межах fetch) — СТОП
+                if not page_listings:
+                    empty_streak += 1
+                    if empty_streak >= self.EMPTY_STREAK_LIMIT:
+                        log.info(
+                            "MerrJep %s/%s: %d порожніх сторінок підряд — СТОП",
+                            city_slug,
+                            cat_key,
+                            self.EMPTY_STREAK_LIMIT,
+                        )
+                        break
+                    continue
+
+                empty_streak = 0
+                all_listings.extend(page_listings)
 
         log.info(
             "MerrJep %s: %d оголошень (усі категорії)",
@@ -243,7 +285,6 @@ class MerrjepParser(Parser):
             return "house", "🏠", "Shtëpi"
         if "dhome" in n or "dhomë" in n:
             return "room", "🚪", "Dhomë"
-        # За замовчуванням — apartment (більшість оголошень)
         return "apartment", "🏢", "Apartament"
 
     @staticmethod
@@ -253,12 +294,10 @@ class MerrjepParser(Parser):
         'Apartament 2+1' → 3
         '3-dhome' → 3
         """
-        # Формат "2+1", "3+1", "2 + 1"
         m = re.search(r"(\d+)\s*\+\s*(\d+)", name)
         if m:
             return str(int(m.group(1)) + int(m.group(2)))
 
-        # Формат "3-dhome", "2 dhome", "3 dhoma"
         m = re.search(r"(\d+)\s*[- ]?\s*dhom", name, re.IGNORECASE)
         if m:
             return m.group(1)
@@ -268,10 +307,8 @@ class MerrjepParser(Parser):
     @staticmethod
     def _extract_location(name: str, city_slug: str) -> str:
         """Локація — остання частина після коми + місто."""
-        # Прибираємо зайві лапки
         cleaned = name.replace('"', "").replace("'", "").strip()
 
-        # Беремо після останньої коми або після "NE" (в албанській)
         parts = [p.strip() for p in cleaned.split(",") if p.strip()]
         if len(parts) >= 2:
             return f"{parts[-1]}, {city_slug}"

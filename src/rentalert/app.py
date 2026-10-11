@@ -346,7 +346,7 @@ def api_check_all() -> tuple[str, int]:
         return "not ready", 503
 
     # Запускаємо у фоновому потоці, щоб не блокувати HTTP-відповідь
-    threading.Thread(target=_run_aggregation, daemon=True).start()
+    # threading.Thread(target=_run_aggregation, daemon=True).start()
 
     return "ok", 200
 
@@ -368,7 +368,7 @@ def api_wake() -> tuple[str, int]:
         return "not ready", 503
 
     # Агрегація у фоні — ТІЛЬКИ ОДИН запуск
-    threading.Thread(target=_run_aggregation, daemon=True).start()
+    # threading.Thread(target=_run_aggregation, daemon=True).start()
 
     # Recompute market_prices раз на добу
     threading.Thread(target=_maybe_recompute_market, daemon=True).start()

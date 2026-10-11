@@ -119,6 +119,21 @@ def run_aggregation_cycle(
         if city is None or parser is None:
             continue
 
+        # Priming: перший парсинг пари (city, source) → зберігаємо
+        # оголошення в БД, але не надсилаємо сповіщень.
+        # Захищає від спаму при першому запуску нового джерела.
+        is_first = db.is_first_run_for_pair(
+            client,
+            city_slug=city_slug,
+            source_key=source_key,
+        )
+        if is_first:
+            log.info(
+                "  🆕 %s/%s: перший запуск — priming (без сповіщень)",
+                city_slug,
+                source_key,
+            )
+
         log.info("  🔄 %s/%s...", city_slug, source_key)
 
         try:
@@ -133,6 +148,7 @@ def run_aggregation_cycle(
                     source_key=source_key,
                     client=client,
                     cutoff=cutoff,
+                    save_only=is_first,
                 )
                 listings = future.result(timeout=PAIR_TIMEOUT_SEC)
         except concurrent.futures.TimeoutError:
@@ -267,6 +283,7 @@ def _fetch_and_save(
     source_key: str,
     client: TursoClient,
     cutoff: datetime,
+    save_only: bool = False,
 ) -> list[Listing]:
     """Парсить, дедуплікує, зберігає, повертає свіжі нові оголошення."""
     source = parser.source
@@ -329,7 +346,9 @@ def _fetch_and_save(
             created_at=lst.created_at.isoformat() if lst.created_at else None,
         )
 
-        fresh.append(lst)
+        # Priming: зберігаємо, але не повертаємо — щоб не слати сповіщень
+        if not save_only:
+            fresh.append(lst)
 
     return fresh
 

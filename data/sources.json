@@ -273,5 +273,16 @@
     "enabled_by_default": true,
     "categories": ["apartment", "house", "room"],
     "config": {}
+  },
+  "storia_ro": {
+    "key": "storia_ro",
+    "country": "ro",
+    "name": "Storia.ro",
+    "icon": "🟣",
+    "kind": "storia",
+    "base_url": "https://www.storia.ro",
+    "enabled_by_default": true,
+    "categories": ["apartment"],
+    "config": {}
   }
 }

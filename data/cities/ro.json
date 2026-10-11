@@ -7,7 +7,8 @@
       "region": "Arad",
       "priority": true,
       "refs": {
-        "olx_ro": 90749
+        "olx_ro": 90749,
+        "storia_ro": "arad"
       }
     },
     {
@@ -16,7 +17,8 @@
       "region": "Brasov",
       "priority": true,
       "refs": {
-        "olx_ro": 26711
+        "olx_ro": 26711,
+        "storia_ro": "brasov"
       }
     },
     {
@@ -25,7 +27,8 @@
       "region": "Bucuresti - Ilfov",
       "priority": true,
       "refs": {
-        "olx_ro": 1
+        "olx_ro": 1,
+        "storia_ro": "bucuresti"
       }
     },
     {
@@ -34,7 +37,8 @@
       "region": "Cluj",
       "priority": true,
       "refs": {
-        "olx_ro": 52953
+        "olx_ro": 52953,
+        "storia_ro": "cluj/cluj--napoca"
       }
     },
     {
@@ -43,7 +47,8 @@
       "region": "Constanta",
       "priority": true,
       "refs": {
-        "olx_ro": 74335
+        "olx_ro": 74335,
+        "storia_ro": "constanta"
       }
     },
     {
@@ -52,7 +57,8 @@
       "region": "Dolj",
       "priority": true,
       "refs": {
-        "olx_ro": 81351
+        "olx_ro": 81351,
+        "storia_ro": "dolj/craiova"
       }
     },
     {
@@ -61,7 +67,8 @@
       "region": "Iasi",
       "priority": true,
       "refs": {
-        "olx_ro": 39939
+        "olx_ro": 39939,
+        "storia_ro": "iasi"
       }
     },
     {
@@ -70,7 +77,8 @@
       "region": "Bihor",
       "priority": true,
       "refs": {
-        "olx_ro": 49313
+        "olx_ro": 49313,
+        "storia_ro": "bihor/oradea"
       }
     },
     {
@@ -79,7 +87,8 @@
       "region": "Sibiu",
       "priority": true,
       "refs": {
-        "olx_ro": 33555
+        "olx_ro": 33555,
+        "storia_ro": "sibiu"
       }
     },
     {
@@ -88,7 +97,8 @@
       "region": "Timis",
       "priority": true,
       "refs": {
-        "olx_ro": 97487
+        "olx_ro": 97487,
+        "storia_ro": "timis/timisoara"
       }
     },
     {
@@ -223,7 +233,8 @@
       "region": "Vrancea",
       "priority": false,
       "refs": {
-        "olx_ro": 79685
+        "olx_ro": 79685,
+        "storia_ro": "vrancea/adjud"
       }
     },
     {
@@ -358,7 +369,8 @@
       "region": "Constanta",
       "priority": false,
       "refs": {
-        "olx_ro": 74235
+        "olx_ro": 74235,
+        "storia_ro": "constanta/agigea"
       }
     },
     {
@@ -439,7 +451,8 @@
       "region": "Alba",
       "priority": false,
       "refs": {
-        "olx_ro": 24701
+        "olx_ro": 24701,
+        "storia_ro": "alba/aiud"
       }
     },
     {
@@ -466,7 +479,8 @@
       "region": "Botosani",
       "priority": false,
       "refs": {
-        "olx_ro": 39195
+        "olx_ro": 39195,
+        "storia_ro": "alba"
       }
     },
     {
@@ -475,7 +489,8 @@
       "region": "Tulcea",
       "priority": false,
       "refs": {
-        "olx_ro": 78839
+        "olx_ro": 78839,
+        "storia_ro": "alba"
       }
     },
     {
@@ -484,7 +499,8 @@
       "region": "Alba",
       "priority": false,
       "refs": {
-        "olx_ro": 24723
+        "olx_ro": 24723,
+        "storia_ro": "alba/alba-iulia"
       }
     },
     {
@@ -691,7 +707,8 @@
       "region": "Teleorman",
       "priority": false,
       "refs": {
-        "olx_ro": 69235
+        "olx_ro": 69235,
+        "storia_ro": "teleorman/alexandria"
       }
     },
     {
@@ -1087,7 +1104,8 @@
       "region": "Cluj",
       "priority": false,
       "refs": {
-        "olx_ro": 52665
+        "olx_ro": 52665,
+        "storia_ro": "cluj/apahida"
       }
     },
     {
@@ -1375,7 +1393,8 @@
       "region": "Iasi",
       "priority": false,
       "refs": {
-        "olx_ro": 39595
+        "olx_ro": 39595,
+        "storia_ro": "iasi/aroneanu"
       }
     },
     {
@@ -1555,7 +1574,8 @@
       "region": "Prahova",
       "priority": false,
       "refs": {
-        "olx_ro": 66087
+        "olx_ro": 66087,
+        "storia_ro": "prahova/azuga"
       }
     },
     {
@@ -1663,7 +1683,8 @@
       "region": "Bacau",
       "priority": false,
       "refs": {
-        "olx_ro": 34959
+        "olx_ro": 34959,
+        "storia_ro": "bacau"
       }
     },
     {
@@ -1717,7 +1738,8 @@
       "region": "Cluj",
       "priority": false,
       "refs": {
-        "olx_ro": 52693
+        "olx_ro": 52693,
+        "storia_ro": "cluj/baciu"
       }
     },
     {
@@ -1843,7 +1865,8 @@
       "region": "Maramures",
       "priority": false,
       "refs": {
-        "olx_ro": 55935
+        "olx_ro": 55935,
+        "storia_ro": "maramures/baia-mare"
       }
     },
     {
@@ -2329,7 +2352,8 @@
       "region": "Olt",
       "priority": false,
       "refs": {
-        "olx_ro": 87489
+        "olx_ro": 87489,
+        "storia_ro": "olt/bals"
       }
     },
     {
@@ -2734,7 +2758,8 @@
       "region": "Vaslui",
       "priority": false,
       "refs": {
-        "olx_ro": 46649
+        "olx_ro": 46649,
+        "storia_ro": "vaslui/barlad"
       }
     },
     {
@@ -2752,7 +2777,8 @@
       "region": "Iasi",
       "priority": false,
       "refs": {
-        "olx_ro": 39621
+        "olx_ro": 39621,
+        "storia_ro": "iasi/barnova"
       }
     },
     {
@@ -2887,7 +2913,8 @@
       "region": "Arges",
       "priority": false,
       "refs": {
-        "olx_ro": 59675
+        "olx_ro": 59675,
+        "storia_ro": "arges/bascov"
       }
     },
     {
@@ -3049,7 +3076,8 @@
       "region": "Timis",
       "priority": false,
       "refs": {
-        "olx_ro": 96957
+        "olx_ro": 96957,
+        "storia_ro": "timis/beba-veche"
       }
     },
     {
@@ -3139,7 +3167,8 @@
       "region": "Bihor",
       "priority": false,
       "refs": {
-        "olx_ro": 48845
+        "olx_ro": 48845,
+        "storia_ro": "bihor/beius"
       }
     },
     {
@@ -3166,7 +3195,8 @@
       "region": "Calarasi",
       "priority": false,
       "refs": {
-        "olx_ro": 61801
+        "olx_ro": 61801,
+        "storia_ro": "calarasi/belciugatele"
       }
     },
     {
@@ -3832,7 +3862,8 @@
       "region": "Alba",
       "priority": false,
       "refs": {
-        "olx_ro": 25523
+        "olx_ro": 25523,
+        "storia_ro": "alba/blaj"
       }
     },
     {
@@ -3886,7 +3917,8 @@
       "region": "Prahova",
       "priority": false,
       "refs": {
-        "olx_ro": 66157
+        "olx_ro": 66157,
+        "storia_ro": "prahova/blejoi"
       }
     },
     {
@@ -4453,7 +4485,8 @@
       "region": "Suceava",
       "priority": false,
       "refs": {
-        "olx_ro": 45023
+        "olx_ro": 45023,
+        "storia_ro": "suceava/bosanci"
       }
     },
     {
@@ -4543,7 +4576,8 @@
       "region": "Botosani",
       "priority": false,
       "refs": {
-        "olx_ro": 37653
+        "olx_ro": 37653,
+        "storia_ro": "botosani"
       }
     },
     {
@@ -4615,7 +4649,8 @@
       "region": "Arges",
       "priority": false,
       "refs": {
-        "olx_ro": 59737
+        "olx_ro": 59737,
+        "storia_ro": "arges/bradu"
       }
     },
     {
@@ -4669,7 +4704,8 @@
       "region": "Braila",
       "priority": false,
       "refs": {
-        "olx_ro": 69963
+        "olx_ro": 69963,
+        "storia_ro": "braila"
       }
     },
     {
@@ -5803,7 +5839,8 @@
       "region": "Prahova",
       "priority": false,
       "refs": {
-        "olx_ro": 66231
+        "olx_ro": 66231,
+        "storia_ro": "prahova/busteni"
       }
     },
     {
@@ -5902,7 +5939,8 @@
       "region": "Buzau",
       "priority": false,
       "refs": {
-        "olx_ro": 72473
+        "olx_ro": 72473,
+        "storia_ro": "buzau"
       }
     },
     {
@@ -6091,7 +6129,8 @@
       "region": "Cluj",
       "priority": false,
       "refs": {
-        "olx_ro": 52797
+        "olx_ro": 52797,
+        "storia_ro": "calarasi"
       }
     },
     {
@@ -6100,7 +6139,8 @@
       "region": "Dolj",
       "priority": false,
       "refs": {
-        "olx_ro": 81267
+        "olx_ro": 81267,
+        "storia_ro": "calarasi"
       }
     },
     {
@@ -6109,7 +6149,8 @@
       "region": "Botosani",
       "priority": false,
       "refs": {
-        "olx_ro": 38951
+        "olx_ro": 38951,
+        "storia_ro": "calarasi"
       }
     },
     {
@@ -6118,7 +6159,8 @@
       "region": "Calarasi",
       "priority": false,
       "refs": {
-        "olx_ro": 61821
+        "olx_ro": 61821,
+        "storia_ro": "calarasi"
       }
     },
     {
@@ -6469,7 +6511,8 @@
       "region": "Cluj",
       "priority": false,
       "refs": {
-        "olx_ro": 52817
+        "olx_ro": 52817,
+        "storia_ro": "cluj/campia-turzii"
       }
     },
     {
@@ -6478,7 +6521,8 @@
       "region": "Prahova",
       "priority": false,
       "refs": {
-        "olx_ro": 66239
+        "olx_ro": 66239,
+        "storia_ro": "prahova/campina"
       }
     },
     {
@@ -6514,7 +6558,8 @@
       "region": "Arges",
       "priority": false,
       "refs": {
-        "olx_ro": 59829
+        "olx_ro": 59829,
+        "storia_ro": "arges/campulung"
       }
     },
     {
@@ -6523,7 +6568,8 @@
       "region": "Suceava",
       "priority": false,
       "refs": {
-        "olx_ro": 45105
+        "olx_ro": 45105,
+        "storia_ro": "suceava/campulung-moldovenesc"
       }
     },
     {
@@ -6730,7 +6776,8 @@
       "region": "Olt",
       "priority": false,
       "refs": {
-        "olx_ro": 87559
+        "olx_ro": 87559,
+        "storia_ro": "olt/caracal"
       }
     },
     {
@@ -6865,7 +6912,8 @@
       "region": "Dolj",
       "priority": false,
       "refs": {
-        "olx_ro": 81337
+        "olx_ro": 81337,
+        "storia_ro": "dolj/carcea"
       }
     },
     {
@@ -6883,7 +6931,8 @@
       "region": "Satu Mare",
       "priority": false,
       "refs": {
-        "olx_ro": 58145
+        "olx_ro": 58145,
+        "storia_ro": "satu-mare/carei"
       }
     },
     {
@@ -7225,7 +7274,8 @@
       "region": "Satu Mare",
       "priority": false,
       "refs": {
-        "olx_ro": 58151
+        "olx_ro": 58151,
+        "storia_ro": "satu-mare/cauas"
       }
     },
     {
@@ -7594,7 +7644,8 @@
       "region": "Constanta",
       "priority": false,
       "refs": {
-        "olx_ro": 74291
+        "olx_ro": 74291,
+        "storia_ro": "constanta/cernavoda"
       }
     },
     {
@@ -7945,7 +7996,8 @@
       "region": "Cluj",
       "priority": false,
       "refs": {
-        "olx_ro": 52901
+        "olx_ro": 52901,
+        "storia_ro": "cluj/chinteni"
       }
     },
     {
@@ -8044,7 +8096,8 @@
       "region": "Arad",
       "priority": false,
       "refs": {
-        "olx_ro": 92613
+        "olx_ro": 92613,
+        "storia_ro": "arad/chisineu--cris"
       }
     },
     {
@@ -8494,7 +8547,8 @@
       "region": "Sibiu",
       "priority": false,
       "refs": {
-        "olx_ro": 32697
+        "olx_ro": 32697,
+        "storia_ro": "sibiu/cisnadie"
       }
     },
     {
@@ -8638,7 +8692,8 @@
       "region": "Iasi",
       "priority": false,
       "refs": {
-        "olx_ro": 39691
+        "olx_ro": 39691,
+        "storia_ro": "iasi/ciurea"
       }
     },
     {
@@ -8908,7 +8963,8 @@
       "region": "Brasov",
       "priority": false,
       "refs": {
-        "olx_ro": 28267
+        "olx_ro": 28267,
+        "storia_ro": "brasov/codlea"
       }
     },
     {
@@ -9430,7 +9486,8 @@
       "region": "Olt",
       "priority": false,
       "refs": {
-        "olx_ro": 87597
+        "olx_ro": 87597,
+        "storia_ro": "olt/corabia"
       }
     },
     {
@@ -9997,7 +10054,8 @@
       "region": "Constanta",
       "priority": false,
       "refs": {
-        "olx_ro": 76497
+        "olx_ro": 76497,
+        "storia_ro": "constanta/costinesti"
       }
     },
     {
@@ -10141,7 +10199,8 @@
       "region": "Iasi",
       "priority": false,
       "refs": {
-        "olx_ro": 39725
+        "olx_ro": 39725,
+        "storia_ro": "covasna"
       }
     },
     {
@@ -10150,7 +10209,8 @@
       "region": "Covasna",
       "priority": false,
       "refs": {
-        "olx_ro": 101127
+        "olx_ro": 101127,
+        "storia_ro": "covasna"
       }
     },
     {
@@ -10447,7 +10507,8 @@
       "region": "Mures",
       "priority": false,
       "refs": {
-        "olx_ro": 30349
+        "olx_ro": 30349,
+        "storia_ro": "mures/cristesti"
       }
     },
     {
@@ -10474,7 +10535,8 @@
       "region": "Sibiu",
       "priority": false,
       "refs": {
-        "olx_ro": 32703
+        "olx_ro": 32703,
+        "storia_ro": "sibiu/cristian"
       }
     },
     {
@@ -10483,7 +10545,8 @@
       "region": "Brasov",
       "priority": false,
       "refs": {
-        "olx_ro": 28279
+        "olx_ro": 28279,
+        "storia_ro": "brasov/cristian"
       }
     },
     {
@@ -10681,7 +10744,8 @@
       "region": "Alba",
       "priority": false,
       "refs": {
-        "olx_ro": 25753
+        "olx_ro": 25753,
+        "storia_ro": "alba/cugir"
       }
     },
     {
@@ -10798,7 +10862,8 @@
       "region": "Arges",
       "priority": false,
       "refs": {
-        "olx_ro": 60035
+        "olx_ro": 60035,
+        "storia_ro": "arges/curtea-de-arges"
       }
     },
     {
@@ -11455,7 +11520,8 @@
       "region": "Cluj",
       "priority": false,
       "refs": {
-        "olx_ro": 54815
+        "olx_ro": 54815,
+        "storia_ro": "cluj/dej"
       }
     },
     {
@@ -11536,7 +11602,8 @@
       "region": "Hunedoara",
       "priority": false,
       "refs": {
-        "olx_ro": 94695
+        "olx_ro": 94695,
+        "storia_ro": "hunedoara/deva"
       }
     },
     {
@@ -11662,7 +11729,8 @@
       "region": "Satu Mare",
       "priority": false,
       "refs": {
-        "olx_ro": 58213
+        "olx_ro": 58213,
+        "storia_ro": "satu-mare/doba"
       }
     },
     {
@@ -12058,7 +12126,8 @@
       "region": "Botosani",
       "priority": false,
       "refs": {
-        "olx_ro": 39085
+        "olx_ro": 39085,
+        "storia_ro": "botosani/dorohoi"
       }
     },
     {
@@ -12184,7 +12253,8 @@
       "region": "Valcea",
       "priority": false,
       "refs": {
-        "olx_ro": 89045
+        "olx_ro": 89045,
+        "storia_ro": "valcea/dragasani"
       }
     },
     {
@@ -12634,7 +12704,8 @@
       "region": "Timis",
       "priority": false,
       "refs": {
-        "olx_ro": 97123
+        "olx_ro": 97123,
+        "storia_ro": "timis/dumbravita"
       }
     },
     {
@@ -12751,7 +12822,8 @@
       "region": "Constanta",
       "priority": false,
       "refs": {
-        "olx_ro": 76543
+        "olx_ro": 76543,
+        "storia_ro": "constanta/eforie"
       }
     },
     {
@@ -12877,7 +12949,8 @@
       "region": "Brasov",
       "priority": false,
       "refs": {
-        "olx_ro": 28291
+        "olx_ro": 28291,
+        "storia_ro": "brasov/fagaras"
       }
     },
     {
@@ -12922,7 +12995,8 @@
       "region": "Suceava",
       "priority": false,
       "refs": {
-        "olx_ro": 45253
+        "olx_ro": 45253,
+        "storia_ro": "suceava/falticeni"
       }
     },
     {
@@ -13138,7 +13212,8 @@
       "region": "Cluj",
       "priority": false,
       "refs": {
-        "olx_ro": 54827
+        "olx_ro": 54827,
+        "storia_ro": "cluj/feleacu"
       }
     },
     {
@@ -13210,7 +13285,8 @@
       "region": "Ialomita",
       "priority": false,
       "refs": {
-        "olx_ro": 65577
+        "olx_ro": 65577,
+        "storia_ro": "ialomita/fetesti"
       }
     },
     {
@@ -13309,7 +13385,8 @@
       "region": "Dolj",
       "priority": false,
       "refs": {
-        "olx_ro": 83943
+        "olx_ro": 83943,
+        "storia_ro": "dolj/filiasi"
       }
     },
     {
@@ -13435,7 +13512,8 @@
       "region": "Cluj",
       "priority": false,
       "refs": {
-        "olx_ro": 54845
+        "olx_ro": 54845,
+        "storia_ro": "cluj/floresti"
       }
     },
     {
@@ -13561,7 +13639,8 @@
       "region": "Vrancea",
       "priority": false,
       "refs": {
-        "olx_ro": 79885
+        "olx_ro": 79885,
+        "storia_ro": "vrancea/focsani"
       }
     },
     {
@@ -13930,7 +14009,8 @@
       "region": "Dambovita",
       "priority": false,
       "refs": {
-        "olx_ro": 63029
+        "olx_ro": 63029,
+        "storia_ro": "dambovita/gaesti"
       }
     },
     {
@@ -13993,7 +14073,8 @@
       "region": "Alba",
       "priority": false,
       "refs": {
-        "olx_ro": 26659
+        "olx_ro": 26659,
+        "storia_ro": "galati"
       }
     },
     {
@@ -14002,7 +14083,8 @@
       "region": "Galati",
       "priority": false,
       "refs": {
-        "olx_ro": 76959
+        "olx_ro": 76959,
+        "storia_ro": "galati"
       }
     },
     {
@@ -14011,7 +14093,8 @@
       "region": "Hunedoara",
       "priority": false,
       "refs": {
-        "olx_ro": 96583
+        "olx_ro": 96583,
+        "storia_ro": "galati"
       }
     },
     {
@@ -14596,7 +14679,8 @@
       "region": "Cluj",
       "priority": false,
       "refs": {
-        "olx_ro": 54891
+        "olx_ro": 54891,
+        "storia_ro": "cluj/gherla"
       }
     },
     {
@@ -14686,7 +14770,8 @@
       "region": "Brasov",
       "priority": false,
       "refs": {
-        "olx_ro": 28303
+        "olx_ro": 28303,
+        "storia_ro": "brasov/ghimbav"
       }
     },
     {
@@ -14776,7 +14861,8 @@
       "region": "Timis",
       "priority": false,
       "refs": {
-        "olx_ro": 97191
+        "olx_ro": 97191,
+        "storia_ro": "timis/ghiroda"
       }
     },
     {
@@ -14839,7 +14925,8 @@
       "region": "Timis",
       "priority": false,
       "refs": {
-        "olx_ro": 97215
+        "olx_ro": 97215,
+        "storia_ro": "timis/giroc"
       }
     },
     {
@@ -14911,7 +14998,8 @@
       "region": "Giurgiu",
       "priority": false,
       "refs": {
-        "olx_ro": 64249
+        "olx_ro": 64249,
+        "storia_ro": "giurgiu"
       }
     },
     {
@@ -15577,7 +15665,8 @@
       "region": "Suceava",
       "priority": false,
       "refs": {
-        "olx_ro": 45363
+        "olx_ro": 45363,
+        "storia_ro": "suceava/gura-humorului"
       }
     },
     {
@@ -15946,7 +16035,8 @@
       "region": "Brasov",
       "priority": false,
       "refs": {
-        "olx_ro": 28309
+        "olx_ro": 28309,
+        "storia_ro": "brasov/harman"
       }
     },
     {
@@ -16216,7 +16306,8 @@
       "region": "Iasi",
       "priority": false,
       "refs": {
-        "olx_ro": 39923
+        "olx_ro": 39923,
+        "storia_ro": "iasi/holboca"
       }
     },
     {
@@ -16378,7 +16469,8 @@
       "region": "Suceava",
       "priority": false,
       "refs": {
-        "olx_ro": 45379
+        "olx_ro": 45379,
+        "storia_ro": "suceava/horodnic-de-sus"
       }
     },
     {
@@ -16468,7 +16560,8 @@
       "region": "Hunedoara",
       "priority": false,
       "refs": {
-        "olx_ro": 95443
+        "olx_ro": 95443,
+        "storia_ro": "hunedoara"
       }
     },
     {
@@ -16504,7 +16597,8 @@
       "region": "Vaslui",
       "priority": false,
       "refs": {
-        "olx_ro": 47791
+        "olx_ro": 47791,
+        "storia_ro": "vaslui/husi"
       }
     },
     {
@@ -16855,7 +16949,8 @@
       "region": "Bucuresti - Ilfov",
       "priority": false,
       "refs": {
-        "olx_ro": 101129
+        "olx_ro": 101129,
+        "storia_ro": "ilfov"
       }
     },
     {
@@ -17107,7 +17202,8 @@
       "region": "Suceava",
       "priority": false,
       "refs": {
-        "olx_ro": 45401
+        "olx_ro": 45401,
+        "storia_ro": "suceava/ipotesti"
       }
     },
     {
@@ -18547,7 +18643,8 @@
       "region": "Mures",
       "priority": false,
       "refs": {
-        "olx_ro": 30613
+        "olx_ro": 30613,
+        "storia_ro": "mures/livezeni"
       }
     },
     {
@@ -18718,7 +18815,8 @@
       "region": "Mures",
       "priority": false,
       "refs": {
-        "olx_ro": 30629
+        "olx_ro": 30629,
+        "storia_ro": "mures/ludus"
       }
     },
     {
@@ -18745,7 +18843,8 @@
       "region": "Timis",
       "priority": false,
       "refs": {
-        "olx_ro": 97265
+        "olx_ro": 97265,
+        "storia_ro": "timis/lugoj"
       }
     },
     {
@@ -18790,7 +18889,8 @@
       "region": "Constanta",
       "priority": false,
       "refs": {
-        "olx_ro": 76615
+        "olx_ro": 76615,
+        "storia_ro": "constanta/lumina"
       }
     },
     {
@@ -19123,7 +19223,8 @@
       "region": "Hunedoara",
       "priority": false,
       "refs": {
-        "olx_ro": 96079
+        "olx_ro": 96079,
+        "storia_ro": "hunedoara/lupeni"
       }
     },
     {
@@ -19222,7 +19323,8 @@
       "region": "Tulcea",
       "priority": false,
       "refs": {
-        "olx_ro": 78859
+        "olx_ro": 78859,
+        "storia_ro": "tulcea/macin"
       }
     },
     {
@@ -19555,7 +19657,8 @@
       "region": "Dolj",
       "priority": false,
       "refs": {
-        "olx_ro": 84061
+        "olx_ro": 84061,
+        "storia_ro": "dolj/malu-mare"
       }
     },
     {
@@ -19780,7 +19883,8 @@
       "region": "Constanta",
       "priority": false,
       "refs": {
-        "olx_ro": 76625
+        "olx_ro": 76625,
+        "storia_ro": "constanta/mangalia"
       }
     },
     {
@@ -19924,7 +20028,8 @@
       "region": "Bihor",
       "priority": false,
       "refs": {
-        "olx_ro": 49283
+        "olx_ro": 49283,
+        "storia_ro": "bihor/marghita"
       }
     },
     {
@@ -20230,7 +20335,8 @@
       "region": "Constanta",
       "priority": false,
       "refs": {
-        "olx_ro": 76635
+        "olx_ro": 76635,
+        "storia_ro": "constanta/medgidia"
       }
     },
     {
@@ -20239,7 +20345,8 @@
       "region": "Sibiu",
       "priority": false,
       "refs": {
-        "olx_ro": 32771
+        "olx_ro": 32771,
+        "storia_ro": "sibiu/medias"
       }
     },
     {
@@ -20527,7 +20634,8 @@
       "region": "Harghita",
       "priority": false,
       "refs": {
-        "olx_ro": 29481
+        "olx_ro": 29481,
+        "storia_ro": "harghita/miercurea-ciuc"
       }
     },
     {
@@ -20599,7 +20707,8 @@
       "region": "Cluj",
       "priority": false,
       "refs": {
-        "olx_ro": 55031
+        "olx_ro": 55031,
+        "storia_ro": "cluj/mihai-viteazu"
       }
     },
     {
@@ -20905,7 +21014,8 @@
       "region": "Arges",
       "priority": false,
       "refs": {
-        "olx_ro": 60231
+        "olx_ro": 60231,
+        "storia_ro": "arges/mioveni"
       }
     },
     {
@@ -20968,7 +21078,8 @@
       "region": "Iasi",
       "priority": false,
       "refs": {
-        "olx_ro": 42435
+        "olx_ro": 42435,
+        "storia_ro": "iasi/miroslava"
       }
     },
     {
@@ -21274,7 +21385,8 @@
       "region": "Bacau",
       "priority": false,
       "refs": {
-        "olx_ro": 36671
+        "olx_ro": 36671,
+        "storia_ro": "bacau/moinesti"
       }
     },
     {
@@ -21454,7 +21566,8 @@
       "region": "Timis",
       "priority": false,
       "refs": {
-        "olx_ro": 97313
+        "olx_ro": 97313,
+        "storia_ro": "timis/mosnita-noua"
       }
     },
     {
@@ -21715,7 +21828,8 @@
       "region": "Constanta",
       "priority": false,
       "refs": {
-        "olx_ro": 76667
+        "olx_ro": 76667,
+        "storia_ro": "constanta/murfatlar"
       }
     },
     {
@@ -21895,7 +22009,8 @@
       "region": "Constanta",
       "priority": false,
       "refs": {
-        "olx_ro": 76673
+        "olx_ro": 76673,
+        "storia_ro": "constanta/navodari"
       }
     },
     {
@@ -22516,7 +22631,8 @@
       "region": "Alba",
       "priority": false,
       "refs": {
-        "olx_ro": 26103
+        "olx_ro": 26103,
+        "storia_ro": "alba/ocna-mures"
       }
     },
     {
@@ -22858,7 +22974,8 @@
       "region": "Bacau",
       "priority": false,
       "refs": {
-        "olx_ro": 36761
+        "olx_ro": 36761,
+        "storia_ro": "bacau/onesti"
       }
     },
     {
@@ -23074,7 +23191,8 @@
       "region": "Mehedinti",
       "priority": false,
       "refs": {
-        "olx_ro": 87225
+        "olx_ro": 87225,
+        "storia_ro": "mehedinti/orsova"
       }
     },
     {
@@ -23272,7 +23390,8 @@
       "region": "Constanta",
       "priority": false,
       "refs": {
-        "olx_ro": 76709
+        "olx_ro": 76709,
+        "storia_ro": "constanta/ovidiu"
       }
     },
     {
@@ -23722,7 +23841,8 @@
       "region": "Prahova",
       "priority": false,
       "refs": {
-        "olx_ro": 66609
+        "olx_ro": 66609,
+        "storia_ro": "prahova/paulesti"
       }
     },
     {
@@ -24244,7 +24364,8 @@
       "region": "Hunedoara",
       "priority": false,
       "refs": {
-        "olx_ro": 96147
+        "olx_ro": 96147,
+        "storia_ro": "hunedoara/petrosani"
       }
     },
     {
@@ -24334,7 +24455,8 @@
       "region": "Neamt",
       "priority": false,
       "refs": {
-        "olx_ro": 43323
+        "olx_ro": 43323,
+        "storia_ro": "neamt/piatra--neamt"
       }
     },
     {
@@ -24370,7 +24492,8 @@
       "region": "Dolj",
       "priority": false,
       "refs": {
-        "olx_ro": 84151
+        "olx_ro": 84151,
+        "storia_ro": "dolj/pielesti"
       }
     },
     {
@@ -24586,7 +24709,8 @@
       "region": "Arges",
       "priority": false,
       "refs": {
-        "olx_ro": 60321
+        "olx_ro": 60321,
+        "storia_ro": "arges/pitesti"
       }
     },
     {
@@ -24730,7 +24854,8 @@
       "region": "Prahova",
       "priority": false,
       "refs": {
-        "olx_ro": 66613
+        "olx_ro": 66613,
+        "storia_ro": "prahova/ploiesti"
       }
     },
     {
@@ -24829,7 +24954,8 @@
       "region": "Constanta",
       "priority": false,
       "refs": {
-        "olx_ro": 76739
+        "olx_ro": 76739,
+        "storia_ro": "constanta/poarta-alba"
       }
     },
     {
@@ -24865,7 +24991,8 @@
       "region": "Dolj",
       "priority": false,
       "refs": {
-        "olx_ro": 84177
+        "olx_ro": 84177,
+        "storia_ro": "dolj/podari"
       }
     },
     {
@@ -25396,7 +25523,8 @@
       "region": "Iasi",
       "priority": false,
       "refs": {
-        "olx_ro": 42533
+        "olx_ro": 42533,
+        "storia_ro": "iasi/popricani"
       }
     },
     {
@@ -25630,7 +25758,8 @@
       "region": "Brasov",
       "priority": false,
       "refs": {
-        "olx_ro": 28401
+        "olx_ro": 28401,
+        "storia_ro": "brasov/predeal"
       }
     },
     {
@@ -26206,7 +26335,8 @@
       "region": "Suceava",
       "priority": false,
       "refs": {
-        "olx_ro": 45563
+        "olx_ro": 45563,
+        "storia_ro": "suceava/radauti"
       }
     },
     {
@@ -26332,7 +26462,8 @@
       "region": "Buzau",
       "priority": false,
       "refs": {
-        "olx_ro": 73953
+        "olx_ro": 73953,
+        "storia_ro": "buzau/ramnicu-sarat"
       }
     },
     {
@@ -26341,7 +26472,8 @@
       "region": "Valcea",
       "priority": false,
       "refs": {
-        "olx_ro": 89649
+        "olx_ro": 89649,
+        "storia_ro": "valcea/ramnicu-valcea"
       }
     },
     {
@@ -26449,7 +26581,8 @@
       "region": "Brasov",
       "priority": false,
       "refs": {
-        "olx_ro": 28417
+        "olx_ro": 28417,
+        "storia_ro": "brasov/rasnov"
       }
     },
     {
@@ -26629,7 +26762,8 @@
       "region": "Maramures",
       "priority": false,
       "refs": {
-        "olx_ro": 56995
+        "olx_ro": 56995,
+        "storia_ro": "maramures/recea"
       }
     },
     {
@@ -26692,7 +26826,8 @@
       "region": "Iasi",
       "priority": false,
       "refs": {
-        "olx_ro": 39663
+        "olx_ro": 39663,
+        "storia_ro": "iasi/rediu"
       }
     },
     {
@@ -26728,7 +26863,8 @@
       "region": "Mures",
       "priority": false,
       "refs": {
-        "olx_ro": 30823
+        "olx_ro": 30823,
+        "storia_ro": "mures/reghin"
       }
     },
     {
@@ -26962,7 +27098,8 @@
       "region": "Neamt",
       "priority": false,
       "refs": {
-        "olx_ro": 44319
+        "olx_ro": 44319,
+        "storia_ro": "neamt/roman"
       }
     },
     {
@@ -27277,7 +27414,8 @@
       "region": "Gorj",
       "priority": false,
       "refs": {
-        "olx_ro": 84979
+        "olx_ro": 84979,
+        "storia_ro": "gorj/rovinari"
       }
     },
     {
@@ -27655,7 +27793,8 @@
       "region": "Brasov",
       "priority": false,
       "refs": {
-        "olx_ro": 28439
+        "olx_ro": 28439,
+        "storia_ro": "brasov/sacele"
       }
     },
     {
@@ -28096,7 +28235,8 @@
       "region": "Mures",
       "priority": false,
       "refs": {
-        "olx_ro": 30835
+        "olx_ro": 30835,
+        "storia_ro": "mures/sancraiu-de-mures"
       }
     },
     {
@@ -28141,7 +28281,8 @@
       "region": "Mures",
       "priority": false,
       "refs": {
-        "olx_ro": 30839
+        "olx_ro": 30839,
+        "storia_ro": "mures/sangeorgiu-de-mures"
       }
     },
     {
@@ -28204,7 +28345,8 @@
       "region": "Bihor",
       "priority": false,
       "refs": {
-        "olx_ro": 51327
+        "olx_ro": 51327,
+        "storia_ro": "bihor/sanmartin"
       }
     },
     {
@@ -28312,7 +28454,8 @@
       "region": "Brasov",
       "priority": false,
       "refs": {
-        "olx_ro": 28445
+        "olx_ro": 28445,
+        "storia_ro": "brasov/sanpetru"
       }
     },
     {
@@ -28393,7 +28536,8 @@
       "region": "Bihor",
       "priority": false,
       "refs": {
-        "olx_ro": 51337
+        "olx_ro": 51337,
+        "storia_ro": "bihor/santandrei"
       }
     },
     {
@@ -28834,7 +28978,8 @@
       "region": "Suceava",
       "priority": false,
       "refs": {
-        "olx_ro": 45601
+        "olx_ro": 45601,
+        "storia_ro": "satu-mare"
       }
     },
     {
@@ -28843,7 +28988,8 @@
       "region": "Satu Mare",
       "priority": false,
       "refs": {
-        "olx_ro": 58409
+        "olx_ro": 58409,
+        "storia_ro": "satu-mare"
       }
     },
     {
@@ -28852,7 +28998,8 @@
       "region": "Mehedinti",
       "priority": false,
       "refs": {
-        "olx_ro": 87385
+        "olx_ro": 87385,
+        "storia_ro": "satu-mare"
       }
     },
     {
@@ -28861,7 +29008,8 @@
       "region": "Harghita",
       "priority": false,
       "refs": {
-        "olx_ro": 29239
+        "olx_ro": 29239,
+        "storia_ro": "satu-mare"
       }
     },
     {
@@ -29041,7 +29189,8 @@
       "region": "Cluj",
       "priority": false,
       "refs": {
-        "olx_ro": 55221
+        "olx_ro": 55221,
+        "storia_ro": "cluj/savadisla"
       }
     },
     {
@@ -29131,7 +29280,8 @@
       "region": "Suceava",
       "priority": false,
       "refs": {
-        "olx_ro": 45609
+        "olx_ro": 45609,
+        "storia_ro": "suceava/scheia"
       }
     },
     {
@@ -29275,7 +29425,8 @@
       "region": "Alba",
       "priority": false,
       "refs": {
-        "olx_ro": 26355
+        "olx_ro": 26355,
+        "storia_ro": "alba/sebes"
       }
     },
     {
@@ -29401,7 +29552,8 @@
       "region": "Maramures",
       "priority": false,
       "refs": {
-        "olx_ro": 57061
+        "olx_ro": 57061,
+        "storia_ro": "maramures/seini"
       }
     },
     {
@@ -29428,7 +29580,8 @@
       "region": "Sibiu",
       "priority": false,
       "refs": {
-        "olx_ro": 33549
+        "olx_ro": 33549,
+        "storia_ro": "sibiu/selimbar"
       }
     },
     {
@@ -29563,7 +29716,8 @@
       "region": "Covasna",
       "priority": false,
       "refs": {
-        "olx_ro": 28763
+        "olx_ro": 28763,
+        "storia_ro": "covasna/sfantu-gheorghe"
       }
     },
     {
@@ -29698,7 +29852,8 @@
       "region": "Maramures",
       "priority": false,
       "refs": {
-        "olx_ro": 57071
+        "olx_ro": 57071,
+        "storia_ro": "maramures/sighetu-marmatiei"
       }
     },
     {
@@ -29716,7 +29871,8 @@
       "region": "Mures",
       "priority": false,
       "refs": {
-        "olx_ro": 30935
+        "olx_ro": 30935,
+        "storia_ro": "mures/sighisoara"
       }
     },
     {
@@ -29824,7 +29980,8 @@
       "region": "Hunedoara",
       "priority": false,
       "refs": {
-        "olx_ro": 96727
+        "olx_ro": 96727,
+        "storia_ro": "hunedoara/simeria"
       }
     },
     {
@@ -29878,7 +30035,8 @@
       "region": "Salaj",
       "priority": false,
       "refs": {
-        "olx_ro": 57717
+        "olx_ro": 57717,
+        "storia_ro": "salaj/simleu-silvaniei"
       }
     },
     {
@@ -29923,7 +30081,8 @@
       "region": "Prahova",
       "priority": false,
       "refs": {
-        "olx_ro": 69029
+        "olx_ro": 69029,
+        "storia_ro": "prahova/sinaia"
       }
     },
     {
@@ -30139,7 +30298,8 @@
       "region": "Olt",
       "priority": false,
       "refs": {
-        "olx_ro": 88057
+        "olx_ro": 88057,
+        "storia_ro": "olt/slatina"
       }
     },
     {
@@ -30220,7 +30380,8 @@
       "region": "Sibiu",
       "priority": false,
       "refs": {
-        "olx_ro": 34891
+        "olx_ro": 34891,
+        "storia_ro": "sibiu/slimnic"
       }
     },
     {
@@ -30301,7 +30462,8 @@
       "region": "Ialomita",
       "priority": false,
       "refs": {
-        "olx_ro": 65709
+        "olx_ro": 65709,
+        "storia_ro": "ialomita/slobozia"
       }
     },
     {
@@ -30463,7 +30625,8 @@
       "region": "Arad",
       "priority": false,
       "refs": {
-        "olx_ro": 92965
+        "olx_ro": 92965,
+        "storia_ro": "arad/sofronea"
       }
     },
     {
@@ -30868,7 +31031,8 @@
       "region": "Mehedinti",
       "priority": false,
       "refs": {
-        "olx_ro": 87387
+        "olx_ro": 87387,
+        "storia_ro": "mehedinti/stangaceaua"
       }
     },
     {
@@ -30913,7 +31077,8 @@
       "region": "Bacau",
       "priority": false,
       "refs": {
-        "olx_ro": 37479
+        "olx_ro": 37479,
+        "storia_ro": "bacau/stefan-cel-mare"
       }
     },
     {
@@ -30949,7 +31114,8 @@
       "region": "Arges",
       "priority": false,
       "refs": {
-        "olx_ro": 61607
+        "olx_ro": 61607,
+        "storia_ro": "arges/stefanesti"
       }
     },
     {
@@ -31282,7 +31448,8 @@
       "region": "Suceava",
       "priority": false,
       "refs": {
-        "olx_ro": 45653
+        "olx_ro": 45653,
+        "storia_ro": "suceava"
       }
     },
     {
@@ -31426,7 +31593,8 @@
       "region": "Sibiu",
       "priority": false,
       "refs": {
-        "olx_ro": 34897
+        "olx_ro": 34897,
+        "storia_ro": "sibiu/sura-mare"
       }
     },
     {
@@ -31804,7 +31972,8 @@
       "region": "Dambovita",
       "priority": false,
       "refs": {
-        "olx_ro": 63351
+        "olx_ro": 63351,
+        "storia_ro": "dambovita/targoviste"
       }
     },
     {
@@ -31840,7 +32009,8 @@
       "region": "Gorj",
       "priority": false,
       "refs": {
-        "olx_ro": 85169
+        "olx_ro": 85169,
+        "storia_ro": "gorj/targu-jiu"
       }
     },
     {
@@ -31858,7 +32028,8 @@
       "region": "Neamt",
       "priority": false,
       "refs": {
-        "olx_ro": 44907
+        "olx_ro": 44907,
+        "storia_ro": "neamt/targu-neamt"
       }
     },
     {
@@ -31867,7 +32038,8 @@
       "region": "Bacau",
       "priority": false,
       "refs": {
-        "olx_ro": 37503
+        "olx_ro": 37503,
+        "storia_ro": "bacau/targu-ocna"
       }
     },
     {
@@ -31894,7 +32066,8 @@
       "region": "Mures",
       "priority": false,
       "refs": {
-        "olx_ro": 30987
+        "olx_ro": 30987,
+        "storia_ro": "mures/targu-mures"
       }
     },
     {
@@ -31948,7 +32121,8 @@
       "region": "Brasov",
       "priority": false,
       "refs": {
-        "olx_ro": 28485
+        "olx_ro": 28485,
+        "storia_ro": "brasov/tarlungeni"
       }
     },
     {
@@ -31993,7 +32167,8 @@
       "region": "Mures",
       "priority": false,
       "refs": {
-        "olx_ro": 32479
+        "olx_ro": 32479,
+        "storia_ro": "mures/tarnaveni"
       }
     },
     {
@@ -32236,7 +32411,8 @@
       "region": "Maramures",
       "priority": false,
       "refs": {
-        "olx_ro": 57159
+        "olx_ro": 57159,
+        "storia_ro": "maramures/tautii--magheraus"
       }
     },
     {
@@ -32281,7 +32457,8 @@
       "region": "Constanta",
       "priority": false,
       "refs": {
-        "olx_ro": 76775
+        "olx_ro": 76775,
+        "storia_ro": "constanta/techirghiol"
       }
     },
     {
@@ -32290,7 +32467,8 @@
       "region": "Galati",
       "priority": false,
       "refs": {
-        "olx_ro": 78659
+        "olx_ro": 78659,
+        "storia_ro": "galati/tecuci"
       }
     },
     {
@@ -33307,7 +33485,8 @@
       "region": "Tulcea",
       "priority": false,
       "refs": {
-        "olx_ro": 78971
+        "olx_ro": 78971,
+        "storia_ro": "tulcea"
       }
     },
     {
@@ -33406,7 +33585,8 @@
       "region": "Cluj",
       "priority": false,
       "refs": {
-        "olx_ro": 55259
+        "olx_ro": 55259,
+        "storia_ro": "cluj/turda"
       }
     },
     {
@@ -33469,7 +33649,8 @@
       "region": "Teleorman",
       "priority": false,
       "refs": {
-        "olx_ro": 69899
+        "olx_ro": 69899,
+        "storia_ro": "teleorman/turnu-magurele"
       }
     },
     {
@@ -33937,7 +34118,8 @@
       "region": "Hunedoara",
       "priority": false,
       "refs": {
-        "olx_ro": 96813
+        "olx_ro": 96813,
+        "storia_ro": "hunedoara/uricani"
       }
     },
     {
@@ -34261,7 +34443,8 @@
       "region": "Brasov",
       "priority": false,
       "refs": {
-        "olx_ro": 28465
+        "olx_ro": 28465,
+        "storia_ro": "valcea"
       }
     },
     {
@@ -34576,7 +34759,8 @@
       "region": "Iasi",
       "priority": false,
       "refs": {
-        "olx_ro": 42791
+        "olx_ro": 42791,
+        "storia_ro": "iasi/valea-lupului"
       }
     },
     {
@@ -35278,7 +35462,8 @@
       "region": "Vaslui",
       "priority": false,
       "refs": {
-        "olx_ro": 48221
+        "olx_ro": 48221,
+        "storia_ro": "vaslui"
       }
     },
     {
@@ -35989,7 +36174,8 @@
       "region": "Arad",
       "priority": false,
       "refs": {
-        "olx_ro": 93037
+        "olx_ro": 93037,
+        "storia_ro": "arad/vladimirescu"
       }
     },
     {
@@ -36205,7 +36391,8 @@
       "region": "Mehedinti",
       "priority": false,
       "refs": {
-        "olx_ro": 85879
+        "olx_ro": 85879,
+        "storia_ro": "vrancea"
       }
     },
     {
@@ -36259,7 +36446,8 @@
       "region": "Hunedoara",
       "priority": false,
       "refs": {
-        "olx_ro": 96889
+        "olx_ro": 96889,
+        "storia_ro": "hunedoara/vulcan"
       }
     },
     {
@@ -36439,7 +36627,8 @@
       "region": "Salaj",
       "priority": false,
       "refs": {
-        "olx_ro": 57769
+        "olx_ro": 57769,
+        "storia_ro": "salaj/zalau"
       }
     },
     {
@@ -36511,7 +36700,8 @@
       "region": "Brasov",
       "priority": false,
       "refs": {
-        "olx_ro": 28553
+        "olx_ro": 28553,
+        "storia_ro": "brasov/zarnesti"
       }
     },
     {

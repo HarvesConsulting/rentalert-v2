@@ -60,6 +60,7 @@ def test_registry_has_all_sources() -> None:
         "spotahome_de",
         "spotahome_fr",
         "999md",
+        "storia_ro",
     }
     assert set(keys) == expected
 

@@ -464,6 +464,26 @@ def save_listing(
     )
 
 
+def is_first_run_for_pair(
+    client: TursoClient,
+    *,
+    city_slug: str,
+    source_key: str,
+) -> bool:
+    """Чи пара (city, source) парситься вперше?
+
+    Використовується для priming: при першому парсингу зберігаємо
+    оголошення в БД, але не надсилаємо сповіщень (щоб уникнути спаму).
+
+    SELECT 1 ... LIMIT 1 — швидко навіть на мільйонах рядків.
+    """
+    rows = client.execute(
+        "SELECT 1 FROM seen_listings WHERE city_slug = ? AND source_key = ? LIMIT 1",
+        [city_slug, source_key],
+    )
+    return not rows
+
+
 def get_listing(
     client: TursoClient,
     listing_id: str,

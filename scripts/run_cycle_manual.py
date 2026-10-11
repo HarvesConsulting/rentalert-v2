@@ -46,11 +46,19 @@ def main() -> None:
     print("🚀 Запускаю цикл агрегації...")
     print()
 
+    # Якщо задано CITY_SLUG (через workflow_dispatch) — парсимо тільки його
+    import os
+
+    only_city_slug = os.environ.get("CITY_SLUG") or None
+    if only_city_slug:
+        print(f"🎯 Запуск для одного міста: {only_city_slug}")
+
     stats = run_aggregation_cycle(
         catalog,
         client,
         notify_fn,
         recent_hours=24,
+        only_city_slug=only_city_slug,
     )
 
     print()

@@ -75,6 +75,7 @@ TEXTS: dict[str, dict[str, str]] = {
         "add_city_prompt": "🏢 <b>Додати місто</b>\n\nНапишіть назву (наприклад, <code>Київ</code>):\n\n<i>Підказка: можна писати частину назви.</i>",
         "city_search_results": "🔍 Знайдено {count} міст.\n\nНатисніть, щоб додати:",
         "first_show_loading": "🔎 <b>{city}</b> — шукаю оголошення(1-2хв)",
+        "first_show_pending": "✅ <b>{city}</b> додано!\n\n🔍 Шукаю оголошення...\nПерші результати прийдуть протягом <b>1-2 хвилин</b>.\n\n<i>Можете закрити чат — бот надішле сповіщення.</i>",
         "first_show_empty": "😕 <b>{city}</b> — поки що немає оголошень.\n\nНові будуть приходити автоматично (кожні 15 хв).",
         "first_show_header": "🔔 <b>{city}</b> — ось що є зараз ({count}):",
         "first_show_footer": "✅ <b>Місто додано!</b>\n\n📬 Нові оголошення будуть приходити <b>автоматично</b>.\n⏱ Перший цикл — приблизно через <b>15 хв</b>.\n\n<i>Можете закрити чат — бот працює у фоні.</i>",
@@ -205,6 +206,7 @@ TEXTS: dict[str, dict[str, str]] = {
         # ─── Add city ───
         "add_city_prompt": "🏢 <b>Add City</b>\n\nType the name (e.g., <code>Warsaw</code>):\n\n<i>Tip: you can type part of the name.</i>",
         "city_search_results": "🔍 Found {count} cities.\n\nTap to add:",
+        "first_show_pending": "✅ <b>{city}</b> added!\n\n🔍 Searching for listings...\nFirst results will arrive within <b>1-2 minutes</b>.\n\n<i>You can close the chat — the bot will send a notification.</i>",
         "error_short_query": "❓ <b>Query too short.</b>\n\nEnter at least 2 characters.",
         "error_city_not_found": "😕 City «{query}» not found.\n\nTry another name or change country in ⚙️ Settings.",
         # ─── Favorites ───

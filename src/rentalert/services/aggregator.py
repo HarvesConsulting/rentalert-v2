@@ -62,6 +62,7 @@ def run_aggregation_cycle(
     notify_fn: NotifyFn,
     *,
     recent_hours: int = RECENT_HOURS,
+    only_city_slug: str | None = None,
 ) -> AggregationStats:
     """Один цикл агрегації.
 
@@ -82,10 +83,13 @@ def run_aggregation_cycle(
         log.info("Немає підписок — цикл пропущено")
         return stats
 
-    # 2. Унікальні міста для парсингу — окремий легкий запит.
-    #    Не тягнемо всі пари (chat_id, city_slug), бо парсити
-    #    треба кожне місто ЛИШЕ ОДИН раз.
-    distinct_cities = db.get_distinct_city_slugs(client)
+    # 2. Унікальні міста для парсингу.
+    #    Якщо only_city_slug задано — парсимо тільки це місто.
+    if only_city_slug:
+        distinct_cities = [only_city_slug]
+        log.info("🎯 Обмежено одним містом: %s", only_city_slug)
+    else:
+        distinct_cities = db.get_distinct_city_slugs(client)
 
     # 3. Унікальні пари (city_slug, source_key)
     pairs: set[tuple[str, str]] = set()

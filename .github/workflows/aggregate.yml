@@ -2,14 +2,19 @@ name: Aggregate OLX
 
 on:
   schedule:
-    # Запускати кожні 30 хвилин (мінімальний інтервал GitHub — 5 хвилин)
+    # Запускати кожні 30 хвилин
     - cron: '*/30 * * * *'
-  workflow_dispatch:  # Дозволяє запускати вручну з вкладки Actions
+  workflow_dispatch:
+    inputs:
+      city_slug:
+        description: 'Місто для парсингу (необов’язково — якщо порожньо, всі міста)'
+        required: false
+        type: string
 
 jobs:
   aggregate:
-    runs-on: ubuntu-latest  # IP-адреси Azure, спробуємо їх
-    timeout-minutes: 30     # Запобіжник від зациклення
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
@@ -33,4 +38,5 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           ADMIN_CHAT_IDS: ${{ secrets.ADMIN_CHAT_IDS }}
+          CITY_SLUG: ${{ inputs.city_slug }}
         run: python scripts/run_cycle_manual.py

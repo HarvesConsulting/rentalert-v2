@@ -53,3 +53,6 @@ scripts/.cache_fr.json
 
 # ׂטלקאסמג³ עוסעט
 test_olx*.py
+
+# ׂטלקאסמג³ proxy-עוסעט
+scripts/proxy_*.py

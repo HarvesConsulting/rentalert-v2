@@ -106,7 +106,7 @@ class OLXParser(Parser):
         seen_in_run: set[str] = set()
         offset = 0
 
-        session: cffi_requests.Session = cffi_requests.Session(impersonate="chrome")
+        session: cffi_requests.Session = cffi_requests.Session(impersonate="chrome131")
 
         for page in range(1, self.MAX_PAGES + 1):
             params = {

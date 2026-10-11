@@ -50,3 +50,6 @@ data/*.local.json
 *.sqlite3
 *.log
 scripts/.cache_fr.json
+
+# ׂטלקאסמג³ עוסעט
+test_olx*.py

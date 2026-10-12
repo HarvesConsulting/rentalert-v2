@@ -21,7 +21,7 @@ from rentalert.parsers.registry import PARSER_REGISTRY
 
 log = logging.getLogger(__name__)
 
-PAIR_TIMEOUT_SEC = 120
+PAIR_TIMEOUT_SEC = 180
 
 
 # ─────────────────────────────────────────────────────────────

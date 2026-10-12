@@ -89,7 +89,7 @@ class OLXParser(Parser):
     # Внутрішнє
     # ─────────────────────────────────────────────────────
 
-    MAX_PAGES = 5  # запобіжник від зациклення
+    MAX_PAGES = 3  # запобіжник від зациклення
 
     def _fetch_category(
         self,
@@ -109,6 +109,7 @@ class OLXParser(Parser):
         session: cffi_requests.Session = cffi_requests.Session(impersonate="chrome131")
 
         for page in range(1, self.MAX_PAGES + 1):
+            log.info("  → %s: сторінка %d (offset=%d)", category_key, page, offset)
             params = {
                 "offset": offset,
                 "limit": 40,

@@ -78,3 +78,12 @@ scripts/otodom_debug*.json
 scripts/check_rightmove*.py
 scripts/rightmove_debug*.json
 scripts/rightmove_sample.json
+
+# Debug-файли парсерів
+scripts/*_debug.json
+scripts/*_debug*.json
+scripts/immobiliare_*.html
+
+scripts/wikicasa_*_debug.json
+scripts/wikicasa_fields.json
+scripts/wikicasa_card_debug.json

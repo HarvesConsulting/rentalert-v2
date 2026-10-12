@@ -62,6 +62,7 @@ TEXTS: dict[str, dict[str, str]] = {
         "country_de": "🇩🇪 Німеччина",
         "country_es": "🇪🇸 Іспанія",
         "country_hr": "🇭🇷 Хорватія",
+        "country_it": "🇮🇹 Італія",
         "country_al": "🇦🇱 Албанія",
         "country_fr": "🇫🇷 Франція",
         "country_gb": "🇬🇧 Велика Британія",
@@ -103,9 +104,10 @@ TEXTS: dict[str, dict[str, str]] = {
             "• 🇩🇪 Німеччина (Kleinanzeigen + Spotahome)\n"
             "• 🇪🇸 Іспанія (Habitaclia + Pisos.com + Spotahome)\n"
             "• 🇭🇷 Хорватія (Nekretnine.hr)\n"
+            "• 🇮🇹 Італія (Wikicasa)\n"
             "• 🇦🇱 Албанія (MerrJep.al)\n"
             "• 🇫🇷 Франція (Bien'ici + Spotahome)\n"
-            "• 🇬🇧 Велика Британія (OpenRent)\n"
+            "• 🇬🇧 Велика Британія (OpenRent + Rightmove)\n"
             "• 🇦🇹 Австрія (Willhaben)\n"
             "• 🇨🇿 Чехія (Bezrealitky)\n"
             "• 🇲🇩 Молдова (999.md)\n\n"
@@ -194,6 +196,7 @@ TEXTS: dict[str, dict[str, str]] = {
         "country_de": "🇩🇪 Germany",
         "country_es": "🇪🇸 Spain",
         "country_hr": "🇭🇷 Croatia",
+        "country_it": "🇮🇹 Italy",
         "country_al": "🇦🇱 Albania",
         "country_fr": "🇫🇷 France",
         "country_gb": "🇬🇧 United Kingdom",
@@ -231,9 +234,10 @@ TEXTS: dict[str, dict[str, str]] = {
             "• 🇩🇪 Germany (Kleinanzeigen + Spotahome)\n"
             "• 🇪🇸 Spain (Habitaclia + Pisos.com + Spotahome)\n"
             "• 🇭🇷 Croatia (Nekretnine.hr)\n"
+            "• 🇮🇹 Italy (Wikicasa)\n"
             "• 🇦🇱 Albania (MerrJep.al)\n"
             "• 🇫🇷 France (Bien'ici + Spotahome)\n"
-            "• GB United Kingdom (OpenRent)\n"
+            "• 🇬🇧 United Kingdom (OpenRent + Rightmove)\n"
             "• 🇦🇹 Austria (Willhaben)\n"
             "• 🇨🇿 Czech Republic (Bezrealitky)\n"
             "• 🇲🇩 Moldova (999.md)\n\n"

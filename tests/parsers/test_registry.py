@@ -64,6 +64,7 @@ def test_registry_has_all_sources() -> None:
         "otodim_ua",
         "otodom_pl",
         "rightmove",
+        "wikicasa",
     }
     assert set(keys) == expected
 

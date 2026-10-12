@@ -123,5 +123,13 @@
   "currency": "L",
   "free": false,
   "price_stars": 100
-}
+}  ,"it": {
+    "code": "it",
+    "name": "🇮🇹 Італія",
+    "name_en": "Italy",
+    "language": "it",
+    "currency": "€",
+    "free": false,
+    "price_stars": 100
+  }
 }

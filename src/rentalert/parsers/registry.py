@@ -42,6 +42,7 @@ def _register_parser_classes() -> None:
     from rentalert.parsers.pisos import PisosParser
     from rentalert.parsers.rightmove import RightmoveParser
     from rentalert.parsers.storia import StoriaParser
+    from rentalert.parsers.wikicasa import WikicasaParser
     from rentalert.parsers.willhaben import WillhabenParser
 
     _PARSER_BY_KIND = {
@@ -61,6 +62,7 @@ def _register_parser_classes() -> None:
         "otodim": OtodimParser,
         "otodom": OtodomParser,
         "rightmove": RightmoveParser,
+        "wikicasa": WikicasaParser,
     }
 
     # Spotahome — опційний (потребує Playwright + Chromium).

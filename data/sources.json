@@ -317,5 +317,16 @@
     "enabled_by_default": true,
     "categories": ["apartment", "house"],
     "config": {}
+  },
+  "wikicasa": {
+    "key": "wikicasa",
+    "country": "it",
+    "name": "Wikicasa",
+    "icon": "🇮🇹",
+    "kind": "wikicasa",
+    "base_url": "https://www.wikicasa.it",
+    "enabled_by_default": true,
+    "categories": ["apartment"],
+    "config": {}
   } 
 }

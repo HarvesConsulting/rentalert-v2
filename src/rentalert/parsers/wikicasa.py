@@ -10,6 +10,7 @@ from __future__ import annotations
 import contextlib
 import logging
 import re
+import time
 from collections.abc import Callable
 from datetime import UTC, datetime
 
@@ -21,7 +22,6 @@ from rentalert.parsers.base import Listing, Parser
 from rentalert.parsers.stealth import (
     fetch_with_retry,
     human_delay,
-    stealth_headers,
 )
 
 log = logging.getLogger(__name__)
@@ -36,6 +36,12 @@ _SQM_RE = re.compile(r"(\d+(?:[.,]\d+)?)")
 _CATEGORY_ICONS = {"apartment": "🏢", "house": "🏠", "room": "🚪"}
 _CATEGORY_LABELS = {
     "it": {"apartment": "Appartamenti", "house": "Case", "room": "Stanze"},
+}
+# Спеціальні заголовки для Wikicasa — прості, як у локальному тесті
+_WIKICASA_HEADERS: dict[str, str] = {
+    "Accept": "text/html",
+    "Accept-Language": "it-IT,it;q=0.9",
+    "Referer": "https://www.wikicasa.it/",
 }
 
 
@@ -71,24 +77,46 @@ class WikicasaParser(Parser):
             response = fetch_with_retry(
                 session.get,
                 url,
-                headers=stealth_headers(
-                    {
-                        "Accept-Language": "it-IT,it;q=0.9,en;q=0.8",
-                        "Referer": "https://www.wikicasa.it/",
-                    }
-                ),
+                headers=_WIKICASA_HEADERS,
                 timeout=30,
             )
 
-            if response is None or response.status_code != 200:
+            if response is None:
+                log.warning("Wikicasa %s: сторінка %d → мережа", city.slug, page)
+                break
+
+            if response.status_code == 403:
+                # Cloudflare може пропустити другу спробу після паузи
+                log.warning(
+                    "Wikicasa %s: сторінка %d → HTTP 403 (Cloudflare). Пауза 30 сек і повтор...",
+                    city.slug,
+                    page,
+                )
+                time.sleep(30)
+
+                response = fetch_with_retry(
+                    session.get,
+                    url,
+                    headers=_WIKICASA_HEADERS,
+                    timeout=30,
+                )
+
+                if response is None or response.status_code != 200:
+                    log.error(
+                        "Wikicasa %s: повтор не вдався (HTTP %s). СТОП.",
+                        city.slug,
+                        response.status_code if response else "None",
+                    )
+                    break
+
+            elif response.status_code != 200:
                 log.warning(
                     "Wikicasa %s: сторінка %d → HTTP %s",
                     city.slug,
                     page,
-                    response.status_code if response else "None",
+                    response.status_code,
                 )
                 break
-
             page_listings = self._parse_page(response.text, city.slug)
             if not page_listings:
                 log.info("Wikicasa %s: сторінка %d порожня — СТОП", city.slug, page)

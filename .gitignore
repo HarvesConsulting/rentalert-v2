@@ -56,3 +56,7 @@ test_olx*.py
 
 # ׂטלקאסמג³ proxy-עוסעט
 scripts/proxy_*.py
+
+test_olx*.py
+test_bucuresti.py
+scripts/proxy_*.py

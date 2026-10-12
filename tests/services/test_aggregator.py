@@ -430,8 +430,8 @@ def test_cycle_parses_distinct_cities_only(catalog, listing, mocker) -> None:
     assert notify.call_count == 500
 
 
-def test_cycle_old_listings_not_saved(catalog, mocker) -> None:
-    """Старі оголошення (>6 год) не зберігаються в БД і не надсилаються."""
+def test_cycle_old_listings_saved_but_not_notified(catalog, mocker) -> None:
+    """Старі оголошення (>6 год) ЗБЕРІГАЮТЬСЯ в БД, але НЕ надсилаються."""
     from datetime import UTC, datetime, timedelta
 
     from rentalert.catalog.models import Source
@@ -499,8 +499,8 @@ def test_cycle_old_listings_not_saved(catalog, mocker) -> None:
 
     stats = run_aggregation_cycle(catalog, client, notify)
 
-    # Старе НЕ збережено
-    mock_save.assert_not_called()
-    # І НЕ надіслано
+    # Старе ЗБЕРЕЖЕНО (нова логіка — для базової лінії)
+    mock_save.assert_called_once()
+    # Але НЕ надіслано (бо старі не свіжі)
     assert stats.listings_new == 0
     notify.assert_not_called()

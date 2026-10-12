@@ -306,5 +306,16 @@
     "enabled_by_default": true,
     "categories": ["apartment"],
     "config": {}
+  },
+  "rightmove": {
+    "key": "rightmove",
+    "country": "gb",
+    "name": "Rightmove",
+    "icon": "🇬🇧",
+    "kind": "rightmove",
+    "base_url": "https://www.rightmove.co.uk",
+    "enabled_by_default": true,
+    "categories": ["apartment", "house"],
+    "config": {}
   } 
 }

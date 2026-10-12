@@ -1,0 +1,187 @@
+{
+  "london": {
+    "name": "London",
+    "rightmove_id": "87490",
+    "display_name": "London"
+  },
+  "kent": {
+    "name": "Kent",
+    "rightmove_id": "61307",
+    "display_name": "Kent"
+  },
+  "essex": {
+    "name": "Essex",
+    "rightmove_id": "61299",
+    "display_name": "Essex"
+  },
+  "hampshire": {
+    "name": "Hampshire",
+    "rightmove_id": "61303",
+    "display_name": "Hampshire"
+  },
+  "lancashire": {
+    "name": "Lancashire",
+    "rightmove_id": "61308",
+    "display_name": "Lancashire"
+  },
+  "bedfordshire": {
+    "name": "Bedfordshire",
+    "rightmove_id": "61286",
+    "display_name": "Bedfordshire"
+  },
+  "berkshire": {
+    "name": "Berkshire",
+    "rightmove_id": "61287",
+    "display_name": "Berkshire"
+  },
+  "buckinghamshire": {
+    "name": "Buckinghamshire",
+    "rightmove_id": "61289",
+    "display_name": "Buckinghamshire"
+  },
+  "cambridgeshire": {
+    "name": "Cambridgeshire",
+    "rightmove_id": "61291",
+    "display_name": "Cambridgeshire"
+  },
+  "cheshire": {
+    "name": "Cheshire",
+    "rightmove_id": "61293",
+    "display_name": "Cheshire"
+  },
+  "cornwall": {
+    "name": "Cornwall",
+    "rightmove_id": "61294",
+    "display_name": "Cornwall"
+  },
+  "cumbria": {
+    "name": "Cumbria",
+    "rightmove_id": "61213",
+    "display_name": "Cumbria"
+  },
+  "derbyshire": {
+    "name": "Derbyshire",
+    "rightmove_id": "61296",
+    "display_name": "Derbyshire"
+  },
+  "devon": {
+    "name": "Devon",
+    "rightmove_id": "61297",
+    "display_name": "Devon"
+  },
+  "dorset": {
+    "name": "Dorset",
+    "rightmove_id": "61298",
+    "display_name": "Dorset"
+  },
+  "durham": {
+    "name": "Durham",
+    "rightmove_id": "460",
+    "display_name": "Durham, County Durham"
+  },
+  "east-sussex": {
+    "name": "East Sussex",
+    "rightmove_id": "61534",
+    "display_name": "East Sussex"
+  },
+  "gloucestershire": {
+    "name": "Gloucestershire",
+    "rightmove_id": "61302",
+    "display_name": "Gloucestershire"
+  },
+  "herefordshire": {
+    "name": "Herefordshire",
+    "rightmove_id": "61304",
+    "display_name": "Herefordshire"
+  },
+  "hertfordshire": {
+    "name": "Hertfordshire",
+    "rightmove_id": "61305",
+    "display_name": "Hertfordshire"
+  },
+  "leicestershire": {
+    "name": "Leicestershire",
+    "rightmove_id": "61309",
+    "display_name": "Leicestershire"
+  },
+  "norfolk": {
+    "name": "Norfolk",
+    "rightmove_id": "61314",
+    "display_name": "Norfolk"
+  },
+  "north-yorkshire": {
+    "name": "North Yorkshire",
+    "rightmove_id": "61394",
+    "display_name": "North Yorkshire"
+  },
+  "northamptonshire": {
+    "name": "Northamptonshire",
+    "rightmove_id": "61315",
+    "display_name": "Northamptonshire"
+  },
+  "northumberland": {
+    "name": "Northumberland",
+    "rightmove_id": "61333",
+    "display_name": "Northumberland"
+  },
+  "nottinghamshire": {
+    "name": "Nottinghamshire",
+    "rightmove_id": "61316",
+    "display_name": "Nottinghamshire"
+  },
+  "oxfordshire": {
+    "name": "Oxfordshire",
+    "rightmove_id": "61317",
+    "display_name": "Oxfordshire"
+  },
+  "shropshire": {
+    "name": "Shropshire",
+    "rightmove_id": "61321",
+    "display_name": "Shropshire"
+  },
+  "somerset": {
+    "name": "Somerset",
+    "rightmove_id": "61322",
+    "display_name": "Somerset"
+  },
+  "staffordshire": {
+    "name": "Staffordshire",
+    "rightmove_id": "61323",
+    "display_name": "Staffordshire"
+  },
+  "suffolk": {
+    "name": "Suffolk",
+    "rightmove_id": "61330",
+    "display_name": "Suffolk"
+  },
+  "surrey": {
+    "name": "Surrey",
+    "rightmove_id": "61324",
+    "display_name": "Surrey"
+  },
+  "sussex": {
+    "name": "Sussex",
+    "rightmove_id": "61325",
+    "display_name": "Sussex"
+  },
+  "warwickshire": {
+    "name": "Warwickshire",
+    "rightmove_id": "61327",
+    "display_name": "Warwickshire"
+  },
+  "west-sussex": {
+    "name": "West Sussex",
+    "rightmove_id": "61399",
+    "display_name": "West Sussex"
+  },
+  "wiltshire": {
+    "name": "Wiltshire",
+    "rightmove_id": "61328",
+    "display_name": "Wiltshire"
+  },
+  "worcestershire": {
+    "name": "Worcestershire",
+    "rightmove_id": "61329",
+    "display_name": "Worcestershire"
+  }
+}

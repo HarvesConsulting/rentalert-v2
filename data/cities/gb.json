@@ -7,7 +7,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "london"
+        "openrent": "london",
+        "rightmove": "REGION^87490"
       }
     },
     {
@@ -16,7 +17,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "kent"
+        "openrent": "kent",
+        "rightmove": "REGION^61307"
       }
     },
     {
@@ -25,7 +27,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "essex"
+        "openrent": "essex",
+        "rightmove": "REGION^61299"
       }
     },
     {
@@ -34,7 +37,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "hampshire"
+        "openrent": "hampshire",
+        "rightmove": "REGION^61303"
       }
     },
     {
@@ -43,7 +47,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "lancashire"
+        "openrent": "lancashire",
+        "rightmove": "REGION^61308"
       }
     },
     {
@@ -52,7 +57,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "bedfordshire"
+        "openrent": "bedfordshire",
+        "rightmove": "REGION^61286"
       }
     },
     {
@@ -61,7 +67,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "berkshire"
+        "openrent": "berkshire",
+        "rightmove": "REGION^61287"
       }
     },
     {
@@ -70,7 +77,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "buckinghamshire"
+        "openrent": "buckinghamshire",
+        "rightmove": "REGION^61289"
       }
     },
     {
@@ -79,7 +87,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "cambridgeshire"
+        "openrent": "cambridgeshire",
+        "rightmove": "REGION^61291"
       }
     },
     {
@@ -88,7 +97,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "cheshire"
+        "openrent": "cheshire",
+        "rightmove": "REGION^61293"
       }
     },
     {
@@ -97,7 +107,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "cornwall"
+        "openrent": "cornwall",
+        "rightmove": "REGION^61294"
       }
     },
     {
@@ -106,7 +117,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "cumbria"
+        "openrent": "cumbria",
+        "rightmove": "REGION^61213"
       }
     },
     {
@@ -115,7 +127,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "derbyshire"
+        "openrent": "derbyshire",
+        "rightmove": "REGION^61296"
       }
     },
     {
@@ -124,7 +137,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "devon"
+        "openrent": "devon",
+        "rightmove": "REGION^61297"
       }
     },
     {
@@ -133,7 +147,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "dorset"
+        "openrent": "dorset",
+        "rightmove": "REGION^61298"
       }
     },
     {
@@ -142,7 +157,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "durham"
+        "openrent": "durham",
+        "rightmove": "REGION^460"
       }
     },
     {
@@ -151,7 +167,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "east-sussex"
+        "openrent": "east-sussex",
+        "rightmove": "REGION^61534"
       }
     },
     {
@@ -160,7 +177,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "gloucestershire"
+        "openrent": "gloucestershire",
+        "rightmove": "REGION^61302"
       }
     },
     {
@@ -169,7 +187,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "herefordshire"
+        "openrent": "herefordshire",
+        "rightmove": "REGION^61304"
       }
     },
     {
@@ -178,7 +197,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "hertfordshire"
+        "openrent": "hertfordshire",
+        "rightmove": "REGION^61305"
       }
     },
     {
@@ -187,7 +207,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "leicestershire"
+        "openrent": "leicestershire",
+        "rightmove": "REGION^61309"
       }
     },
     {
@@ -196,7 +217,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "norfolk"
+        "openrent": "norfolk",
+        "rightmove": "REGION^61314"
       }
     },
     {
@@ -205,7 +227,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "north-yorkshire"
+        "openrent": "north-yorkshire",
+        "rightmove": "REGION^61394"
       }
     },
     {
@@ -214,7 +237,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "northamptonshire"
+        "openrent": "northamptonshire",
+        "rightmove": "REGION^61315"
       }
     },
     {
@@ -223,7 +247,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "northumberland"
+        "openrent": "northumberland",
+        "rightmove": "REGION^61333"
       }
     },
     {
@@ -232,7 +257,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "nottinghamshire"
+        "openrent": "nottinghamshire",
+        "rightmove": "REGION^61316"
       }
     },
     {
@@ -241,7 +267,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "oxfordshire"
+        "openrent": "oxfordshire",
+        "rightmove": "REGION^61317"
       }
     },
     {
@@ -250,7 +277,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "shropshire"
+        "openrent": "shropshire",
+        "rightmove": "REGION^61321"
       }
     },
     {
@@ -259,7 +287,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "somerset"
+        "openrent": "somerset",
+        "rightmove": "REGION^61322"
       }
     },
     {
@@ -268,7 +297,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "staffordshire"
+        "openrent": "staffordshire",
+        "rightmove": "REGION^61323"
       }
     },
     {
@@ -277,7 +307,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "suffolk"
+        "openrent": "suffolk",
+        "rightmove": "REGION^61330"
       }
     },
     {
@@ -286,7 +317,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "surrey"
+        "openrent": "surrey",
+        "rightmove": "REGION^61324"
       }
     },
     {
@@ -295,7 +327,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "sussex"
+        "openrent": "sussex",
+        "rightmove": "REGION^61325"
       }
     },
     {
@@ -304,7 +337,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "warwickshire"
+        "openrent": "warwickshire",
+        "rightmove": "REGION^61327"
       }
     },
     {
@@ -313,7 +347,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "west-sussex"
+        "openrent": "west-sussex",
+        "rightmove": "REGION^61399"
       }
     },
     {
@@ -322,7 +357,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "wiltshire"
+        "openrent": "wiltshire",
+        "rightmove": "REGION^61328"
       }
     },
     {
@@ -331,7 +367,8 @@
       "region": "",
       "priority": true,
       "refs": {
-        "openrent": "worcestershire"
+        "openrent": "worcestershire",
+        "rightmove": "REGION^61329"
       }
     },
     {

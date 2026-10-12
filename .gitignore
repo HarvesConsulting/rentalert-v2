@@ -73,3 +73,8 @@ scripts/otodim_regions_map.json
 scripts/debug_*.py
 
 scripts/otodom_debug*.json
+
+# Rightmove debug
+scripts/check_rightmove*.py
+scripts/rightmove_debug*.json
+scripts/rightmove_sample.json

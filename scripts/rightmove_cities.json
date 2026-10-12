@@ -1,0 +1,566 @@
+{
+  "london": {
+    "display_name": "London",
+    "location_identifier": "87490",
+    "raw": {
+      "id": "87490",
+      "type": "REGION",
+      "displayName": "London",
+      "highlighting": "<span class='highlightLetter'>London</span>",
+      "highlights": [
+        {
+          "text": "London",
+          "highlighted": true
+        }
+      ]
+    }
+  },
+  "manchester": {
+    "display_name": "Manchester, Greater Manchester",
+    "location_identifier": "904",
+    "raw": {
+      "id": "904",
+      "type": "REGION",
+      "displayName": "Manchester, Greater Manchester",
+      "highlighting": "<span class='highlightLetter'>Manchester</span>, Greater <span class='highlightLetter'>Manchester</span>",
+      "highlights": [
+        {
+          "text": "Manchester",
+          "highlighted": true
+        },
+        {
+          "text": ", Greater ",
+          "highlighted": false
+        },
+        {
+          "text": "Manchester",
+          "highlighted": true
+        }
+      ]
+    }
+  },
+  "birmingham": {
+    "display_name": "Birmingham",
+    "location_identifier": "162",
+    "raw": {
+      "id": "162",
+      "type": "REGION",
+      "displayName": "Birmingham",
+      "highlighting": "<span class='highlightLetter'>Birmingham</span>",
+      "highlights": [
+        {
+          "text": "Birmingham",
+          "highlighted": true
+        }
+      ]
+    }
+  },
+  "leeds": {
+    "display_name": "Leeds, West Yorkshire",
+    "location_identifier": "787",
+    "raw": {
+      "id": "787",
+      "type": "REGION",
+      "displayName": "Leeds, West Yorkshire",
+      "highlighting": "<span class='highlightLetter'>Leeds</span>, West Yorkshire",
+      "highlights": [
+        {
+          "text": "Leeds",
+          "highlighted": true
+        },
+        {
+          "text": ", West Yorkshire",
+          "highlighted": false
+        }
+      ]
+    }
+  },
+  "liverpool": {
+    "display_name": "Liverpool, Merseyside",
+    "location_identifier": "813",
+    "raw": {
+      "id": "813",
+      "type": "REGION",
+      "displayName": "Liverpool, Merseyside",
+      "highlighting": "<span class='highlightLetter'>Liverpool</span>, Merseyside",
+      "highlights": [
+        {
+          "text": "Liverpool",
+          "highlighted": true
+        },
+        {
+          "text": ", Merseyside",
+          "highlighted": false
+        }
+      ]
+    }
+  },
+  "sheffield": {
+    "display_name": "Sheffield",
+    "location_identifier": "1195",
+    "raw": {
+      "id": "1195",
+      "type": "REGION",
+      "displayName": "Sheffield",
+      "highlighting": "<span class='highlightLetter'>Sheffield</span>",
+      "highlights": [
+        {
+          "text": "Sheffield",
+          "highlighted": true
+        }
+      ]
+    }
+  },
+  "bristol": {
+    "display_name": "Bristol",
+    "location_identifier": "219",
+    "raw": {
+      "id": "219",
+      "type": "REGION",
+      "displayName": "Bristol",
+      "highlighting": "<span class='highlightLetter'>Bristol</span>",
+      "highlights": [
+        {
+          "text": "Bristol",
+          "highlighted": true
+        }
+      ]
+    }
+  },
+  "nottingham": {
+    "display_name": "Nottingham, Nottinghamshire",
+    "location_identifier": "1019",
+    "raw": {
+      "id": "1019",
+      "type": "REGION",
+      "displayName": "Nottingham, Nottinghamshire",
+      "highlighting": "<span class='highlightLetter'>Nottingham</span>, <span class='highlightLetter'>Nottinghamshire</span>",
+      "highlights": [
+        {
+          "text": "Nottingham",
+          "highlighted": true
+        },
+        {
+          "text": ", ",
+          "highlighted": false
+        },
+        {
+          "text": "Nottinghamshire",
+          "highlighted": true
+        }
+      ]
+    }
+  },
+  "leicester": {
+    "display_name": "Leicester, Leicestershire",
+    "location_identifier": "789",
+    "raw": {
+      "id": "789",
+      "type": "REGION",
+      "displayName": "Leicester, Leicestershire",
+      "highlighting": "<span class='highlightLetter'>Leicester</span>, <span class='highlightLetter'>Leicestershire</span>",
+      "highlights": [
+        {
+          "text": "Leicester",
+          "highlighted": true
+        },
+        {
+          "text": ", ",
+          "highlighted": false
+        },
+        {
+          "text": "Leicestershire",
+          "highlighted": true
+        }
+      ]
+    }
+  },
+  "coventry": {
+    "display_name": "Coventry, West Midlands",
+    "location_identifier": "368",
+    "raw": {
+      "id": "368",
+      "type": "REGION",
+      "displayName": "Coventry, West Midlands",
+      "highlighting": "<span class='highlightLetter'>Coventry</span>, West Midlands",
+      "highlights": [
+        {
+          "text": "Coventry",
+          "highlighted": true
+        },
+        {
+          "text": ", West Midlands",
+          "highlighted": false
+        }
+      ]
+    }
+  },
+  "bradford": {
+    "display_name": "Bradford, West Yorkshire",
+    "location_identifier": "198",
+    "raw": {
+      "id": "198",
+      "type": "REGION",
+      "displayName": "Bradford, West Yorkshire",
+      "highlighting": "<span class='highlightLetter'>Bradford</span>, West Yorkshire",
+      "highlights": [
+        {
+          "text": "Bradford",
+          "highlighted": true
+        },
+        {
+          "text": ", West Yorkshire",
+          "highlighted": false
+        }
+      ]
+    }
+  },
+  "cardiff": {
+    "display_name": "Cardiff(City)",
+    "location_identifier": "281",
+    "raw": {
+      "id": "281",
+      "type": "REGION",
+      "displayName": "Cardiff(City)",
+      "highlighting": "<span class='highlightLetter'>Cardiff</span>(City)",
+      "highlights": [
+        {
+          "text": "Cardiff",
+          "highlighted": true
+        },
+        {
+          "text": "(City)",
+          "highlighted": false
+        }
+      ]
+    }
+  },
+  "belfast": {
+    "display_name": "Belfast, County Antrim, Northern Ireland",
+    "location_identifier": "133",
+    "raw": {
+      "id": "133",
+      "type": "REGION",
+      "displayName": "Belfast, County Antrim, Northern Ireland",
+      "highlighting": "<span class='highlightLetter'>Belfast</span>, County Antrim, Northern Ireland",
+      "highlights": [
+        {
+          "text": "Belfast",
+          "highlighted": true
+        },
+        {
+          "text": ", County Antrim, Northern Ireland",
+          "highlighted": false
+        }
+      ]
+    }
+  },
+  "glasgow": {
+    "display_name": "Glasgow",
+    "location_identifier": "550",
+    "raw": {
+      "id": "550",
+      "type": "REGION",
+      "displayName": "Glasgow",
+      "highlighting": "<span class='highlightLetter'>Glasgow</span>",
+      "highlights": [
+        {
+          "text": "Glasgow",
+          "highlighted": true
+        }
+      ]
+    }
+  },
+  "edinburgh": {
+    "display_name": "Edinburgh",
+    "location_identifier": "475",
+    "raw": {
+      "id": "475",
+      "type": "REGION",
+      "displayName": "Edinburgh",
+      "highlighting": "<span class='highlightLetter'>Edinburgh</span>",
+      "highlights": [
+        {
+          "text": "Edinburgh",
+          "highlighted": true
+        }
+      ]
+    }
+  },
+  "brighton": {
+    "display_name": "Brighton, East Sussex",
+    "location_identifier": "93554",
+    "raw": {
+      "id": "93554",
+      "type": "REGION",
+      "displayName": "Brighton, East Sussex",
+      "highlighting": "<span class='highlightLetter'>Brighton</span>, East Sussex",
+      "highlights": [
+        {
+          "text": "Brighton",
+          "highlighted": true
+        },
+        {
+          "text": ", East Sussex",
+          "highlighted": false
+        }
+      ]
+    }
+  },
+  "southampton": {
+    "display_name": "Southampton, Hampshire",
+    "location_identifier": "1231",
+    "raw": {
+      "id": "1231",
+      "type": "REGION",
+      "displayName": "Southampton, Hampshire",
+      "highlighting": "<span class='highlightLetter'>Southampton</span>, Hampshire",
+      "highlights": [
+        {
+          "text": "Southampton",
+          "highlighted": true
+        },
+        {
+          "text": ", Hampshire",
+          "highlighted": false
+        }
+      ]
+    }
+  },
+  "portsmouth": {
+    "display_name": "Portsmouth, Hampshire",
+    "location_identifier": "1089",
+    "raw": {
+      "id": "1089",
+      "type": "REGION",
+      "displayName": "Portsmouth, Hampshire",
+      "highlighting": "<span class='highlightLetter'>Portsmouth</span>, Hampshire",
+      "highlights": [
+        {
+          "text": "Portsmouth",
+          "highlighted": true
+        },
+        {
+          "text": ", Hampshire",
+          "highlighted": false
+        }
+      ]
+    }
+  },
+  "reading": {
+    "display_name": "Reading, Berkshire",
+    "location_identifier": "1114",
+    "raw": {
+      "id": "1114",
+      "type": "REGION",
+      "displayName": "Reading, Berkshire",
+      "highlighting": "<span class='highlightLetter'>Reading</span>, Berkshire",
+      "highlights": [
+        {
+          "text": "Reading",
+          "highlighted": true
+        },
+        {
+          "text": ", Berkshire",
+          "highlighted": false
+        }
+      ]
+    }
+  },
+  "oxford": {
+    "display_name": "Oxford, Oxfordshire",
+    "location_identifier": "1036",
+    "raw": {
+      "id": "1036",
+      "type": "REGION",
+      "displayName": "Oxford, Oxfordshire",
+      "highlighting": "<span class='highlightLetter'>Oxford</span>, <span class='highlightLetter'>Oxfordshire</span>",
+      "highlights": [
+        {
+          "text": "Oxford",
+          "highlighted": true
+        },
+        {
+          "text": ", ",
+          "highlighted": false
+        },
+        {
+          "text": "Oxfordshire",
+          "highlighted": true
+        }
+      ]
+    }
+  },
+  "cambridge": {
+    "display_name": "Cambridge, Cambridgeshire",
+    "location_identifier": "274",
+    "raw": {
+      "id": "274",
+      "type": "REGION",
+      "displayName": "Cambridge, Cambridgeshire",
+      "highlighting": "<span class='highlightLetter'>Cambridge</span>, <span class='highlightLetter'>Cambridgeshire</span>",
+      "highlights": [
+        {
+          "text": "Cambridge",
+          "highlighted": true
+        },
+        {
+          "text": ", ",
+          "highlighted": false
+        },
+        {
+          "text": "Cambridgeshire",
+          "highlighted": true
+        }
+      ]
+    }
+  },
+  "york": {
+    "display_name": "York, North Yorkshire",
+    "location_identifier": "1498",
+    "raw": {
+      "id": "1498",
+      "type": "REGION",
+      "displayName": "York, North Yorkshire",
+      "highlighting": "<span class='highlightLetter'>York</span>, North <span class='highlightLetter'>Yorkshire</span>",
+      "highlights": [
+        {
+          "text": "York",
+          "highlighted": true
+        },
+        {
+          "text": ", North ",
+          "highlighted": false
+        },
+        {
+          "text": "Yorkshire",
+          "highlighted": true
+        }
+      ]
+    }
+  },
+  "bath": {
+    "display_name": "Bath, Somerset",
+    "location_identifier": "116",
+    "raw": {
+      "id": "116",
+      "type": "REGION",
+      "displayName": "Bath, Somerset",
+      "highlighting": "<span class='highlightLetter'>Bath</span>, Somerset",
+      "highlights": [
+        {
+          "text": "Bath",
+          "highlighted": true
+        },
+        {
+          "text": ", Somerset",
+          "highlighted": false
+        }
+      ]
+    }
+  },
+  "exeter": {
+    "display_name": "Exeter, Devon",
+    "location_identifier": "494",
+    "raw": {
+      "id": "494",
+      "type": "REGION",
+      "displayName": "Exeter, Devon",
+      "highlighting": "<span class='highlightLetter'>Exeter</span>, Devon",
+      "highlights": [
+        {
+          "text": "Exeter",
+          "highlighted": true
+        },
+        {
+          "text": ", Devon",
+          "highlighted": false
+        }
+      ]
+    }
+  },
+  "plymouth": {
+    "display_name": "Plymouth, Devon",
+    "location_identifier": "1073",
+    "raw": {
+      "id": "1073",
+      "type": "REGION",
+      "displayName": "Plymouth, Devon",
+      "highlighting": "<span class='highlightLetter'>Plymouth</span>, Devon",
+      "highlights": [
+        {
+          "text": "Plymouth",
+          "highlighted": true
+        },
+        {
+          "text": ", Devon",
+          "highlighted": false
+        }
+      ]
+    }
+  },
+  "luton": {
+    "display_name": "Luton, Bedfordshire",
+    "location_identifier": "876",
+    "raw": {
+      "id": "876",
+      "type": "REGION",
+      "displayName": "Luton, Bedfordshire",
+      "highlighting": "<span class='highlightLetter'>Luton</span>, Bedfordshire",
+      "highlights": [
+        {
+          "text": "Luton",
+          "highlighted": true
+        },
+        {
+          "text": ", Bedfordshire",
+          "highlighted": false
+        }
+      ]
+    }
+  },
+  "northampton": {
+    "display_name": "Northampton, Northamptonshire",
+    "location_identifier": "1014",
+    "raw": {
+      "id": "1014",
+      "type": "REGION",
+      "displayName": "Northampton, Northamptonshire",
+      "highlighting": "<span class='highlightLetter'>Northampton</span>, <span class='highlightLetter'>Northamptonshire</span>",
+      "highlights": [
+        {
+          "text": "Northampton",
+          "highlighted": true
+        },
+        {
+          "text": ", ",
+          "highlighted": false
+        },
+        {
+          "text": "Northamptonshire",
+          "highlighted": true
+        }
+      ]
+    }
+  },
+  "norwich": {
+    "display_name": "Norwich, Norfolk",
+    "location_identifier": "1018",
+    "raw": {
+      "id": "1018",
+      "type": "REGION",
+      "displayName": "Norwich, Norfolk",
+      "highlighting": "<span class='highlightLetter'>Norwich</span>, Norfolk",
+      "highlights": [
+        {
+          "text": "Norwich",
+          "highlighted": true
+        },
+        {
+          "text": ", Norfolk",
+          "highlighted": false
+        }
+      ]
+    }
+  }
+}

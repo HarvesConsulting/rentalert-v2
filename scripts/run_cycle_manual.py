@@ -64,6 +64,24 @@ def main() -> None:
     print()
     print(f"📊 Статистика: {stats}")
 
+    # ── Перший показ: 5 з кожного джерела ──
+    first_show_chat_id = os.environ.get("CHAT_ID") or None
+    if first_show_chat_id and only_city_slug:
+        print(f"🎁 Перший показ для {first_show_chat_id}: {only_city_slug}")
+        try:
+            from notify_standalone import send_first_show
+
+            send_first_show(
+                client,
+                catalog,
+                notifier,
+                first_show_chat_id,
+                only_city_slug,
+            )
+            print("✅ Перший показ надіслано")
+        except Exception as e:
+            print(f"❌ Помилка першого показу: {e}")
+
 
 if __name__ == "__main__":
     main()

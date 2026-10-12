@@ -51,7 +51,7 @@ GITHUB_REPO = "HarvesConsulting/rentalert-v2"
 GITHUB_WORKFLOW = "aggregate.yml"
 
 
-def _trigger_aggregate_workflow(city_slug: str) -> None:
+def _trigger_aggregate_workflow(city_slug: str, chat_id: str) -> None:
     """Тригерить GitHub Actions для парсингу конкретного міста.
 
     Викликається після додавання міста, щоб користувач отримав
@@ -71,7 +71,10 @@ def _trigger_aggregate_workflow(city_slug: str) -> None:
             },
             json={
                 "ref": "main",
-                "inputs": {"city_slug": city_slug},
+                "inputs": {
+                    "city_slug": city_slug,
+                    "chat_id": chat_id,
+                },
             },
             timeout=10,
         )
@@ -296,7 +299,7 @@ def _handle_add_city(
     name = city.name if city else city_slug
 
     # Тригеримо GitHub Actions для миттєвого парсингу (1-2 хв)
-    _trigger_aggregate_workflow(city_slug)
+    _trigger_aggregate_workflow(city_slug, chat_id)
 
     db.log_activity(
         ctx.client,

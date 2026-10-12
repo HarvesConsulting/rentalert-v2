@@ -9,6 +9,7 @@ import logging
 from typing import Any
 
 from rentalert.catalog.catalog import Catalog
+from rentalert.db import queries as db
 from rentalert.db.client import TursoClient
 from rentalert.services import subscription as sub_svc
 from rentalert.services import user as user_svc
@@ -111,3 +112,108 @@ def make_notify_fn(
             )
 
     return notify
+
+
+def send_first_show(
+    client: TursoClient,
+    catalog: Catalog,
+    notifier: TelegramNotifier,
+    chat_id: str,
+    city_slug: str,
+    *,
+    per_source: int = 5,
+) -> None:
+    """Надсилає перші N оголошень з КОЖНОГО джерела після додавання міста.
+
+    Викликається з run_cycle_manual.py, коли є CHAT_ID env var.
+    """
+
+    lang = user_svc.get_language(client, chat_id)
+    city = catalog.city(city_slug)
+    city_name = city.name if city else city_slug
+
+    grouped = db.get_recent_listings_by_city(client, city_slug, per_source=per_source)
+
+    if not grouped:
+        notifier.send_message(
+            chat_id,
+            T("first_show_empty", lang, city=city_name),
+        )
+        return
+
+    total = sum(len(v) for v in grouped.values())
+    notifier.send_message(
+        chat_id,
+        T("first_show_header", lang, city=city_name, count=total),
+    )
+
+    for source_key, items in grouped.items():
+        source = catalog.source(source_key)
+        source_name = source.name if source else source_key
+        icon = source.icon if source else "🏠"
+
+        notifier.send_message(
+            chat_id,
+            f"{icon} <b>{source_name}</b> ({len(items)})",
+        )
+
+        for i, row in enumerate(items, 1):
+            price = row["price"] or "—"
+            title = (row["title"] or "")[:100]
+            location = row["location"] or ""
+            link = row["link"] or ""
+            photo = row["photo"] or ""
+            rooms = row["rooms"]
+            icon_cat = row["category_icon"] or "🏠"
+
+            lines = [f"{icon_cat} <b>{i}. {price}</b>"]
+            if rooms:
+                lines.append(f"🚪 {rooms} кімн.")
+            lines.append(title)
+            if location:
+                lines.append(f"📌 {location}")
+
+            try:
+                score = get_deal_score(
+                    client,
+                    city_slug=row["city_slug"],
+                    location=row["location"],
+                    category=row["category"],
+                    rooms=row["rooms"],
+                    price_str=row["price"],
+                    area_m2=row["area_m2"],
+                )
+                if score is not None:
+                    lines.append(f"{score.emoji} {score.label}")
+            except Exception:
+                pass
+
+            if link:
+                lines.append(f'🔗 <a href="{link}">Відкрити</a>')
+
+            caption = "\n".join(lines)
+            buttons = [
+                [
+                    {
+                        "text": T("btn_add_favorite", lang),
+                        "callback_data": f"fav:{row['id']}",
+                    },
+                    {
+                        "text": T("btn_ignore", lang),
+                        "callback_data": f"ign:{row['id']}",
+                    },
+                ]
+            ]
+            keyboard = {"inline_keyboard": buttons}
+
+            notifier.send_photo_or_message(
+                chat_id,
+                photo,
+                caption,
+                keyboard=keyboard,
+            )
+
+    notifier.send_message(
+        chat_id,
+        T("first_show_footer", lang),
+    )

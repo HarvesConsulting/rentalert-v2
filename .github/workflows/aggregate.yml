@@ -11,6 +11,10 @@ on:
         description: 'Місто для парсингу (необов’язково — якщо порожньо, всі міста)'
         required: false
         type: string
+      chat_id:
+        description: 'Chat ID для першого показу (необов’язково)'
+        required: false
+        type: string
 
 jobs:
   aggregate:
@@ -40,4 +44,5 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           ADMIN_CHAT_IDS: ${{ secrets.ADMIN_CHAT_IDS }}
           CITY_SLUG: ${{ inputs.city_slug }}
+          CHAT_ID: ${{ inputs.chat_id }}
         run: python scripts/run_cycle_manual.py

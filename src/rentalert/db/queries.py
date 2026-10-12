@@ -989,3 +989,61 @@ def log_activity(
         "INSERT INTO user_activity (chat_id, action, details) VALUES (?, ?, ?)",
         [chat_id, action, details_json],
     )
+
+
+def get_recent_listings_by_city(
+    client: TursoClient,
+    city_slug: str,
+    *,
+    per_source: int = 5,
+) -> dict[str, list[dict]]:
+    """Повертає N найновіших оголошень для міста, згруповані за source_key.
+
+    Використовується для "першого показу" — коли користувач додає місто,
+    бот надсилає по N оголошень з КОЖНОГО джерела.
+
+    Args:
+        client: Turso клієнт
+        city_slug: slug міста
+        per_source: скільки оголошень на джерело
+
+    Returns:
+        {"olx_pl": [...], "otodom_pl": [...]}
+    """
+    rows = client.execute(
+        """
+        SELECT id, source_key, city_slug, title, price, location, link, photo,
+               rooms, area_m2, category, category_icon, category_label, created_at
+        FROM seen_listings
+        WHERE city_slug = ?
+        ORDER BY rowid DESC
+        """,
+        [city_slug],
+    )
+
+    by_source: dict[str, list[dict]] = {}
+    for r in rows:
+        source_key = r[1]
+        bucket = by_source.setdefault(source_key, [])
+        if len(bucket) >= per_source:
+            continue
+        bucket.append(
+            {
+                "id": r[0],
+                "source_key": r[1],
+                "city_slug": r[2],
+                "title": r[3],
+                "price": r[4],
+                "location": r[5],
+                "link": r[6],
+                "photo": r[7],
+                "rooms": r[8],
+                "area_m2": r[9],
+                "category": r[10],
+                "category_icon": r[11],
+                "category_label": r[12],
+                "created_at": r[13],
+            }
+        )
+
+    return by_source

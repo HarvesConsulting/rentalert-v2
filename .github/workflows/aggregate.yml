@@ -1,9 +1,10 @@
 name: Aggregate OLX
 
 on:
-  schedule:
-    # Запускати кожні 30 хвилин
-    - cron: '*/30 * * * *'
+  # GitHub schedule ненадійний на free tier — використовуємо repository_dispatch
+  # з cron-job.org
+  repository_dispatch:
+    types: [aggregate]
   workflow_dispatch:
     inputs:
       city_slug:

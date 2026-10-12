@@ -995,31 +995,38 @@ def get_recent_listings_by_city(
     client: TursoClient,
     city_slug: str,
     *,
+    enabled_categories: set[str] | None = None,
     per_source: int = 5,
 ) -> dict[str, list[dict]]:
     """Повертає N найновіших оголошень для міста, згруповані за source_key.
 
-    Використовується для "першого показу" — коли користувач додає місто,
-    бот надсилає по N оголошень з КОЖНОГО джерела.
-
     Args:
-        client: Turso клієнт
-        city_slug: slug міста
-        per_source: скільки оголошень на джерело
-
-    Returns:
-        {"olx_pl": [...], "otodom_pl": [...]}
+        enabled_categories: якщо задано — тільки ці категорії.
+                           Порожній set = всі категорії.
     """
-    rows = client.execute(
-        """
-        SELECT id, source_key, city_slug, title, price, location, link, photo,
-               rooms, area_m2, category, category_icon, category_label, created_at
-        FROM seen_listings
-        WHERE city_slug = ?
-        ORDER BY rowid DESC
-        """,
-        [city_slug],
-    )
+    if enabled_categories:
+        placeholders = ",".join("?" * len(enabled_categories))
+        rows = client.execute(
+            f"""
+            SELECT id, source_key, city_slug, title, price, location, link, photo,
+                   rooms, area_m2, category, category_icon, category_label, created_at
+            FROM seen_listings
+            WHERE city_slug = ? AND category IN ({placeholders})
+            ORDER BY rowid DESC
+            """,
+            [city_slug, *enabled_categories],
+        )
+    else:
+        rows = client.execute(
+            """
+            SELECT id, source_key, city_slug, title, price, location, link, photo,
+                   rooms, area_m2, category, category_icon, category_label, created_at
+            FROM seen_listings
+            WHERE city_slug = ?
+            ORDER BY rowid DESC
+            """,
+            [city_slug],
+        )
 
     by_source: dict[str, list[dict]] = {}
     for r in rows:

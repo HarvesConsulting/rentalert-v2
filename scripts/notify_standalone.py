@@ -132,7 +132,16 @@ def send_first_show(
     city = catalog.city(city_slug)
     city_name = city.name if city else city_slug
 
-    grouped = db.get_recent_listings_by_city(client, city_slug, per_source=per_source)
+    # Отримуємо категорії користувача для фільтра
+    country = user_svc.get_country(client, chat_id)
+    enabled_categories = user_svc.get_categories(client, chat_id, country)
+
+    grouped = db.get_recent_listings_by_city(
+        client,
+        city_slug,
+        enabled_categories=enabled_categories or None,
+        per_source=per_source,
+    )
 
     if not grouped:
         notifier.send_message(

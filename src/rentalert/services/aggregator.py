@@ -289,7 +289,15 @@ def _fetch_and_save(
     cutoff: datetime,
     save_only: bool = False,
 ) -> list[Listing]:
-    """Парсить, дедуплікує, зберігає, повертає свіжі нові оголошення."""
+    """Парсить, дедуплікує, зберігає, повертає свіжі нові оголошення.
+
+    Логіка:
+      1. Парсимо ВСІ оголошення з джерела.
+      2. Зберігаємо в БД УСІ нові (незалежно від created_at).
+         Це потрібно, щоб наступного разу seen_checker спрацював
+         і парсер не тягнув 20 сторінок.
+      3. Сповіщення (return) тільки для свіжих (>= cutoff) і не save_only.
+    """
     source = parser.source
 
     # Callback: чи ВСІ id з переданого списку вже в БД?
@@ -315,7 +323,7 @@ def _fetch_and_save(
     if not listings:
         return []
 
-    # Дедуплікація
+    # Дедуплікація: що вже в БД?
     ids = [lst.id for lst in listings]
     seen = db.get_seen_ids(client, ids)
 
@@ -324,14 +332,7 @@ def _fetch_and_save(
         if lst.id in seen:
             continue
 
-        # Фільтр свіжості — ПЕРЕД збереженням
-        is_fresh = lst.created_at is None or lst.created_at >= cutoff
-
-        if not is_fresh:
-            # Старе — не зберігаємо, не показуємо
-            continue
-
-        # Зберігаємо у БД (тільки свіжі)
+        # Зберігаємо в БД УСІ нові (навіть старі) — для базової лінії
         db.save_listing(
             client,
             id=lst.id,
@@ -350,8 +351,11 @@ def _fetch_and_save(
             created_at=lst.created_at.isoformat() if lst.created_at else None,
         )
 
-        # Priming: зберігаємо, але не повертаємо — щоб не слати сповіщень
-        if not save_only:
+        # Сповіщення тільки для свіжих
+        is_fresh = lst.created_at is None or lst.created_at >= cutoff
+
+        # Priming (перший запуск): зберігаємо, але не повертаємо
+        if not save_only and is_fresh:
             fresh.append(lst)
 
     return fresh

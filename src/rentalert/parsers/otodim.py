@@ -4,6 +4,7 @@
 
 URL: /uk/rezultaty/orenda/kvartyry/{region_slug}?page=N
 """
+
 from __future__ import annotations
 
 import json
@@ -13,6 +14,7 @@ from datetime import UTC, datetime
 from typing import Any
 
 from bs4 import BeautifulSoup
+from bs4.element import Tag
 from curl_cffi import requests as cffi_requests
 
 from rentalert.catalog.models import City
@@ -30,9 +32,16 @@ SOURCE_KEY = "otodim_ua"
 _SEARCH_URL = "https://otodim.com.ua/uk/rezultaty/orenda/kvartyry/{slug}"
 
 _ROOMS_MAP = {
-    "ONE": "1", "TWO": "2", "THREE": "3", "FOUR": "4",
-    "FIVE": "5", "SIX": "6", "SEVEN": "7", "EIGHT": "8",
-    "NINE": "9", "TEN": "10",
+    "ONE": "1",
+    "TWO": "2",
+    "THREE": "3",
+    "FOUR": "4",
+    "FIVE": "5",
+    "SIX": "6",
+    "SEVEN": "7",
+    "EIGHT": "8",
+    "NINE": "9",
+    "TEN": "10",
 }
 
 _ESTATE_MAP = {
@@ -79,17 +88,20 @@ class OtodimParser(Parser):
             response = fetch_with_retry(
                 session.get,
                 url,
-                headers=stealth_headers({
-                    "Accept-Language": "uk-UA,uk;q=0.9,en;q=0.8",
-                    "Referer": "https://otodim.com.ua/",
-                }),
+                headers=stealth_headers(
+                    {
+                        "Accept-Language": "uk-UA,uk;q=0.9,en;q=0.8",
+                        "Referer": "https://otodim.com.ua/",
+                    }
+                ),
                 timeout=30,
             )
 
             if response is None or response.status_code != 200:
                 log.warning(
                     "Otodim %s: сторінка %d → HTTP %s",
-                    city.slug, page,
+                    city.slug,
+                    page,
                     response.status_code if response else "None",
                 )
                 break
@@ -114,14 +126,17 @@ class OtodimParser(Parser):
                 if seen_checker(page_ids):
                     log.info(
                         "Otodim %s: сторінка %d — всі вже в БД — СТОП",
-                        city.slug, page,
+                        city.slug,
+                        page,
                     )
                     break
 
             listings.extend(fresh_page)
             log.info(
                 "Otodim %s: сторінка %d — %d оголошень",
-                city.slug, page, len(fresh_page),
+                city.slug,
+                page,
+                len(fresh_page),
             )
 
         return listings
@@ -129,12 +144,16 @@ class OtodimParser(Parser):
     def _parse_page(self, html: str, city_slug: str) -> list[Listing]:
         soup = BeautifulSoup(html, "html.parser")
         script = soup.find("script", id="__NEXT_DATA__")
-        if not script:
+        if not isinstance(script, Tag):
+            return []
+
+        raw_json = script.string
+        if not isinstance(raw_json, str):
             return []
 
         try:
-            data = json.loads(script.string)
-        except (json.JSONDecodeError, TypeError):
+            data = json.loads(raw_json)
+        except json.JSONDecodeError:
             return []
 
         page_props = data.get("props", {}).get("pageProps", {})

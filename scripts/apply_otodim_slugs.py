@@ -4,6 +4,7 @@
     python scripts/apply_otodim_slugs.py --dry-run
     python scripts/apply_otodim_slugs.py
 """
+
 from __future__ import annotations
 
 import argparse

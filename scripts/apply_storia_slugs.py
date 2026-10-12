@@ -4,6 +4,7 @@
     python scripts/apply_storia_slugs.py --dry-run   # подивитись, що буде
     python scripts/apply_storia_slugs.py             # записати
 """
+
 from __future__ import annotations
 
 import argparse
@@ -75,9 +76,7 @@ def main() -> None:
         print("Немає змін — файл не перезаписуємо")
         return
 
-    backup = CITIES_FILE.with_suffix(
-        f".json.bak-{datetime.now().strftime('%Y%m%d-%H%M%S')}"
-    )
+    backup = CITIES_FILE.with_suffix(f".json.bak-{datetime.now().strftime('%Y%m%d-%H%M%S')}")
     shutil.copy2(CITIES_FILE, backup)
     print(f"\nБекап: {backup.name}")
 

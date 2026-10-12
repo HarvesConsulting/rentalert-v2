@@ -60,3 +60,11 @@ scripts/proxy_*.py
 test_olx*.py
 test_bucuresti.py
 scripts/proxy_*.py
+
+# Бекапи data-файлів
+*.bak-*
+
+# Тимчасові debug-скрипти
+scripts/check_*.py
+scripts/otodim_debug*.json
+scripts/otodim_regions_map.json

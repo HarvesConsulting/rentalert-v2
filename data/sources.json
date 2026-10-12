@@ -284,5 +284,16 @@
     "enabled_by_default": true,
     "categories": ["apartment"],
     "config": {}
-  }
+  },
+  "otodim_ua": {
+    "key": "otodim_ua",
+    "country": "ua",
+    "name": "Otodim",
+    "icon": "🏘",
+    "kind": "otodim",
+    "base_url": "https://otodim.com.ua",
+    "enabled_by_default": true,
+    "categories": ["apartment"],
+    "config": {}
+  }  
 }

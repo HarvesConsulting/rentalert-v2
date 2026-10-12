@@ -8,7 +8,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 132,
-        "dimria": 15
+        "dimria": 15,
+        "otodim_ua": "ivano-frankivska-oblast"
       }
     },
     {
@@ -18,7 +19,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 313,
-        "dimria": 1
+        "dimria": 1,
+        "otodim_ua": "vinnytska-oblast"
       }
     },
     {
@@ -28,7 +30,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 121,
-        "dimria": 11
+        "dimria": 11,
+        "otodim_ua": "dnipropetrovska-oblast"
       }
     },
     {
@@ -38,7 +41,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 324,
-        "dimria": 2
+        "dimria": 2,
+        "otodim_ua": "zhytomyrska-oblast"
       }
     },
     {
@@ -48,7 +52,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 194,
-        "dimria": 14498
+        "dimria": 14498,
+        "otodim_ua": "zaporizka-oblast"
       }
     },
     {
@@ -58,7 +63,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 268,
-        "dimria": 10
+        "dimria": 10,
+        "otodim_ua": "kyiv"
       }
     },
     {
@@ -68,7 +74,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 69,
-        "dimria": 16
+        "dimria": 16,
+        "otodim_ua": "kirovohradska-oblast"
       }
     },
     {
@@ -78,7 +85,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 72,
-        "dimria": 18
+        "dimria": 18,
+        "otodim_ua": "volynska-oblast"
       }
     },
     {
@@ -88,7 +96,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 176,
-        "dimria": 6261
+        "dimria": 6261,
+        "otodim_ua": "lvivska-oblast"
       }
     },
     {
@@ -98,7 +107,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 85,
-        "dimria": 297
+        "dimria": 297,
+        "otodim_ua": "mykolaivska-oblast"
       }
     },
     {
@@ -108,7 +118,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 62,
-        "dimria": 12
+        "dimria": 12,
+        "otodim_ua": "odeska-oblast"
       }
     },
     {
@@ -118,7 +129,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 284,
-        "dimria": 20
+        "dimria": 20,
+        "otodim_ua": "poltavska-oblast"
       }
     },
     {
@@ -128,7 +140,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 124,
-        "dimria": 13018
+        "dimria": 13018,
+        "otodim_ua": "rivnenska-oblast"
       }
     },
     {
@@ -138,7 +151,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 47,
-        "dimria": 8
+        "dimria": 8,
+        "otodim_ua": "sumska-oblast"
       }
     },
     {
@@ -148,7 +162,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 362,
-        "dimria": 3
+        "dimria": 3,
+        "otodim_ua": "ternopilska-oblast"
       }
     },
     {
@@ -158,7 +173,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 247,
-        "dimria": 22
+        "dimria": 22,
+        "otodim_ua": "zakarpatska-oblast"
       }
     },
     {
@@ -168,7 +184,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 280,
-        "dimria": 7
+        "dimria": 7,
+        "otodim_ua": "kharkivska-oblast"
       }
     },
     {
@@ -178,7 +195,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 101,
-        "dimria": 4
+        "dimria": 4,
+        "otodim_ua": "khmelnytska-oblast"
       }
     },
     {
@@ -188,7 +206,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 145,
-        "dimria": 9309
+        "dimria": 9309,
+        "otodim_ua": "cherkaska-oblast"
       }
     },
     {
@@ -198,7 +217,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 369,
-        "dimria": 46
+        "dimria": 46,
+        "otodim_ua": "chernivetska-oblast"
       }
     },
     {
@@ -208,7 +228,8 @@
       "priority": true,
       "refs": {
         "olx_ua": 178,
-        "dimria": 6
+        "dimria": 6,
+        "otodim_ua": "chernihivska-oblast"
       }
     },
     {

@@ -62,6 +62,7 @@ def test_registry_has_all_sources() -> None:
         "999md",
         "storia_ro",
         "otodim_ua",
+        "otodom_pl",
     }
     assert set(keys) == expected
 

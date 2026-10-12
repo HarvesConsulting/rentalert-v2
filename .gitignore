@@ -68,3 +68,8 @@ scripts/proxy_*.py
 scripts/check_*.py
 scripts/otodim_debug*.json
 scripts/otodim_regions_map.json
+
+# Debug-скрипти
+scripts/debug_*.py
+
+scripts/otodom_debug*.json

@@ -7,7 +7,8 @@
       "region": "Podlaskie",
       "priority": true,
       "refs": {
-        "olx_pl": 1079
+        "olx_pl": 1079,
+        "otodom_pl": "podlaskie/bialystok/bialystok/bialystok"
       }
     },
     {
@@ -25,7 +26,8 @@
       "region": "Pomorskie",
       "priority": true,
       "refs": {
-        "olx_pl": 5659
+        "olx_pl": 5659,
+        "otodom_pl": "pomorskie/gdansk/gdansk/gdansk"
       }
     },
     {
@@ -34,7 +36,8 @@
       "region": "Pomorskie",
       "priority": true,
       "refs": {
-        "olx_pl": 5849
+        "olx_pl": 5849,
+        "otodom_pl": "pomorskie/gdynia/gdynia/gdynia"
       }
     },
     {
@@ -43,7 +46,8 @@
       "region": "Śląskie",
       "priority": true,
       "refs": {
-        "olx_pl": 7691
+        "olx_pl": 7691,
+        "otodom_pl": "slaskie/katowice/katowice/katowice"
       }
     },
     {
@@ -52,7 +56,8 @@
       "region": "Małopolskie",
       "priority": true,
       "refs": {
-        "olx_pl": 8959
+        "olx_pl": 8959,
+        "otodom_pl": "malopolskie/krakow/krakow/krakow"
       }
     },
     {
@@ -61,7 +66,8 @@
       "region": "Lubelskie",
       "priority": true,
       "refs": {
-        "olx_pl": 10119
+        "olx_pl": 10119,
+        "otodom_pl": "lubelskie/lublin/lublin/lublin"
       }
     },
     {
@@ -70,7 +76,8 @@
       "region": "Wielkopolskie",
       "priority": true,
       "refs": {
-        "olx_pl": 13983
+        "olx_pl": 13983,
+        "otodom_pl": "wielkopolskie/poznan/poznan/poznan"
       }
     },
     {
@@ -79,7 +86,8 @@
       "region": "Zachodniopomorskie",
       "priority": true,
       "refs": {
-        "olx_pl": 16705
+        "olx_pl": 16705,
+        "otodom_pl": "zachodniopomorskie/szczecin/szczecin/szczecin"
       }
     },
     {
@@ -88,7 +96,8 @@
       "region": "Mazowieckie",
       "priority": true,
       "refs": {
-        "olx_pl": 17871
+        "olx_pl": 17871,
+        "otodom_pl": "mazowieckie/warszawa/warszawa/warszawa"
       }
     },
     {
@@ -97,7 +106,8 @@
       "region": "Dolnośląskie",
       "priority": true,
       "refs": {
-        "olx_pl": 19701
+        "olx_pl": 19701,
+        "otodom_pl": "dolnoslaskie/wroclaw/wroclaw/wroclaw"
       }
     },
     {
@@ -106,7 +116,8 @@
       "region": "Łódzkie",
       "priority": true,
       "refs": {
-        "olx_pl": 10609
+        "olx_pl": 10609,
+        "otodom_pl": "lodzkie/lodz/lodz/lodz"
       }
     },
     {
@@ -727,7 +738,8 @@
       "region": "Śląskie",
       "priority": false,
       "refs": {
-        "olx_pl": 4197
+        "olx_pl": 4197,
+        "otodom_pl": "slaskie/bytom/bytom/bytom"
       }
     },
     {
@@ -907,7 +919,8 @@
       "region": "Śląskie",
       "priority": false,
       "refs": {
-        "olx_pl": 22611
+        "olx_pl": 22611,
+        "otodom_pl": "slaskie/chorzow/chorzow/chorzow"
       }
     },
     {
@@ -1141,7 +1154,8 @@
       "region": "Śląskie",
       "priority": false,
       "refs": {
-        "olx_pl": 4765
+        "olx_pl": 4765,
+        "otodom_pl": "slaskie/czestochowa/czestochowa/czestochowa"
       }
     },
     {
@@ -1429,7 +1443,8 @@
       "region": "Śląskie",
       "priority": false,
       "refs": {
-        "olx_pl": 4905
+        "olx_pl": 4905,
+        "otodom_pl": "slaskie/dabrowa-gornicza/dabrowa-gornicza/dabrowa-gornicza"
       }
     },
     {
@@ -1654,7 +1669,8 @@
       "region": "Śląskie",
       "priority": false,
       "refs": {
-        "olx_pl": 6091
+        "olx_pl": 6091,
+        "otodom_pl": "slaskie/gliwice/gliwice/gliwice"
       }
     },
     {
@@ -1762,7 +1778,8 @@
       "region": "Lubuskie",
       "priority": false,
       "refs": {
-        "olx_pl": 6331
+        "olx_pl": 6331,
+        "otodom_pl": "lubuskie/gorzow-wielkopolski/gorzow-wielkopolski/gorzow-wielkopolski"
       }
     },
     {
@@ -2464,7 +2481,8 @@
       "region": "Śląskie",
       "priority": false,
       "refs": {
-        "olx_pl": 7225
+        "olx_pl": 7225,
+        "otodom_pl": "slaskie/jaworzno/jaworzno/jaworzno"
       }
     },
     {
@@ -2509,7 +2527,8 @@
       "region": "Dolnośląskie",
       "priority": false,
       "refs": {
-        "olx_pl": 7257
+        "olx_pl": 7257,
+        "otodom_pl": "dolnoslaskie/jelenia-gora/jelenia-gora/jelenia-gora"
       }
     },
     {
@@ -2662,7 +2681,8 @@
       "region": "Wielkopolskie",
       "priority": false,
       "refs": {
-        "olx_pl": 7509
+        "olx_pl": 7509,
+        "otodom_pl": "wielkopolskie/kalisz/kalisz/kalisz"
       }
     },
     {
@@ -2833,7 +2853,8 @@
       "region": "Świętokrzyskie",
       "priority": false,
       "refs": {
-        "olx_pl": 7971
+        "olx_pl": 7971,
+        "otodom_pl": "swietokrzyskie/kielce/kielce/kielce"
       }
     },
     {
@@ -3031,7 +3052,8 @@
       "region": "Wielkopolskie",
       "priority": false,
       "refs": {
-        "olx_pl": 8523
+        "olx_pl": 8523,
+        "otodom_pl": "wielkopolskie/konin/konin/konin"
       }
     },
     {
@@ -3103,7 +3125,8 @@
       "region": "Zachodniopomorskie",
       "priority": false,
       "refs": {
-        "olx_pl": 8679
+        "olx_pl": 8679,
+        "otodom_pl": "zachodniopomorskie/koszalin/koszalin/koszalin"
       }
     },
     {
@@ -3715,7 +3738,8 @@
       "region": "Dolnośląskie",
       "priority": false,
       "refs": {
-        "olx_pl": 9775
+        "olx_pl": 9775,
+        "otodom_pl": "dolnoslaskie/legnica/legnica/legnica"
       }
     },
     {
@@ -4579,7 +4603,8 @@
       "region": "Śląskie",
       "priority": false,
       "refs": {
-        "olx_pl": 50917
+        "olx_pl": 50917,
+        "otodom_pl": "slaskie/myslowice/myslowice/myslowice"
       }
     },
     {
@@ -4921,7 +4946,8 @@
       "region": "Małopolskie",
       "priority": false,
       "refs": {
-        "olx_pl": 33369
+        "olx_pl": 33369,
+        "otodom_pl": "malopolskie/nowy-sacz/nowy-sacz/nowy-sacz"
       }
     },
     {
@@ -5173,7 +5199,8 @@
       "region": "Opolskie",
       "priority": false,
       "refs": {
-        "olx_pl": 12885
+        "olx_pl": 12885,
+        "otodom_pl": "opolskie/opole/opole/opole"
       }
     },
     {
@@ -5731,7 +5758,8 @@
       "region": "Łódzkie",
       "priority": false,
       "refs": {
-        "olx_pl": 13573
+        "olx_pl": 13573,
+        "otodom_pl": "lodzkie/piotrkow-trybunalski/piotrkow-trybunalski/piotrkow-trybunalski"
       }
     },
     {
@@ -6226,7 +6254,8 @@
       "region": "Mazowieckie",
       "priority": false,
       "refs": {
-        "olx_pl": 13663
+        "olx_pl": 13663,
+        "otodom_pl": "mazowieckie/plock/plock/plock"
       }
     },
     {
@@ -6325,7 +6354,8 @@
       "region": "Mazowieckie",
       "priority": false,
       "refs": {
-        "olx_pl": 14673
+        "olx_pl": 14673,
+        "otodom_pl": "mazowieckie/radom/radom/radom"
       }
     },
     {
@@ -6631,7 +6661,8 @@
       "region": "Śląskie",
       "priority": false,
       "refs": {
-        "olx_pl": 15041
+        "olx_pl": 15041,
+        "otodom_pl": "slaskie/ruda-slaska/ruda-slaska/ruda-slaska"
       }
     },
     {
@@ -6703,7 +6734,8 @@
       "region": "Śląskie",
       "priority": false,
       "refs": {
-        "olx_pl": 15167
+        "olx_pl": 15167,
+        "otodom_pl": "slaskie/rybnik/rybnik/rybnik"
       }
     },
     {
@@ -6838,7 +6870,8 @@
       "region": "Podkarpackie",
       "priority": false,
       "refs": {
-        "olx_pl": 15241
+        "olx_pl": 15241,
+        "otodom_pl": "podkarpackie/rzeszow/rzeszow/rzeszow"
       }
     },
     {
@@ -7000,7 +7033,8 @@
       "region": "Mazowieckie",
       "priority": false,
       "refs": {
-        "olx_pl": 15459
+        "olx_pl": 15459,
+        "otodom_pl": "mazowieckie/siedlce/siedlce/siedlce"
       }
     },
     {
@@ -7288,7 +7322,8 @@
       "region": "Śląskie",
       "priority": false,
       "refs": {
-        "olx_pl": 16027
+        "olx_pl": 16027,
+        "otodom_pl": "slaskie/sosnowiec/sosnowiec/sosnowiec"
       }
     },
     {
@@ -7756,7 +7791,8 @@
       "region": "Podlaskie",
       "priority": false,
       "refs": {
-        "olx_pl": 37573
+        "olx_pl": 37573,
+        "otodom_pl": "podlaskie/suwalki/suwalki/suwalki"
       }
     },
     {
@@ -8062,7 +8098,8 @@
       "region": "Pomorskie",
       "priority": false,
       "refs": {
-        "olx_pl": 15833
+        "olx_pl": 15833,
+        "otodom_pl": "pomorskie/slupsk/slupsk/slupsk"
       }
     },
     {
@@ -8404,7 +8441,8 @@
       "region": "Śląskie",
       "priority": false,
       "refs": {
-        "olx_pl": 17705
+        "olx_pl": 17705,
+        "otodom_pl": "slaskie/tychy/tychy/tychy"
       }
     },
     {
@@ -8557,7 +8595,8 @@
       "region": "Dolnośląskie",
       "priority": false,
       "refs": {
-        "olx_pl": 17829
+        "olx_pl": 17829,
+        "otodom_pl": "dolnoslaskie/walbrzych/walbrzych/walbrzych"
       }
     },
     {
@@ -9223,7 +9262,8 @@
       "region": "Śląskie",
       "priority": false,
       "refs": {
-        "olx_pl": 20327
+        "olx_pl": 20327,
+        "otodom_pl": "slaskie/zabrze/zabrze/zabrze"
       }
     },
     {
@@ -9502,7 +9542,8 @@
       "region": "Lubuskie",
       "priority": false,
       "refs": {
-        "olx_pl": 20787
+        "olx_pl": 20787,
+        "otodom_pl": "lubuskie/zielona-gora/zielona-gora/zielona-gora"
       }
     },
     {

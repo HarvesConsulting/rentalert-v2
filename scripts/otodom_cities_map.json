@@ -1,0 +1,212 @@
+{
+  "warszawa": {
+    "name": "Warszawa",
+    "otodom_slug": "mazowieckie/warszawa/warszawa/warszawa",
+    "items": 37
+  },
+  "krakow": {
+    "name": "Kraków",
+    "otodom_slug": "malopolskie/krakow/krakow/krakow",
+    "items": 36
+  },
+  "lodz": {
+    "name": "Łódź",
+    "otodom_slug": "lodzkie/lodz/lodz/lodz",
+    "items": 37
+  },
+  "wroclaw": {
+    "name": "Wrocław",
+    "otodom_slug": "dolnoslaskie/wroclaw/wroclaw/wroclaw",
+    "items": 37
+  },
+  "poznan": {
+    "name": "Poznań",
+    "otodom_slug": "wielkopolskie/poznan/poznan/poznan",
+    "items": 37
+  },
+  "gdansk": {
+    "name": "Gdańsk",
+    "otodom_slug": "pomorskie/gdansk/gdansk/gdansk",
+    "items": 37
+  },
+  "szczecin": {
+    "name": "Szczecin",
+    "otodom_slug": "zachodniopomorskie/szczecin/szczecin/szczecin",
+    "items": 37
+  },
+  "lublin": {
+    "name": "Lublin",
+    "otodom_slug": "lubelskie/lublin/lublin/lublin",
+    "items": 31
+  },
+  "katowice": {
+    "name": "Katowice",
+    "otodom_slug": "slaskie/katowice/katowice/katowice",
+    "items": 37
+  },
+  "bialystok": {
+    "name": "Białystok",
+    "otodom_slug": "podlaskie/bialystok/bialystok/bialystok",
+    "items": 37
+  },
+  "gdynia": {
+    "name": "Gdynia",
+    "otodom_slug": "pomorskie/gdynia/gdynia/gdynia",
+    "items": 37
+  },
+  "czestochowa": {
+    "name": "Częstochowa",
+    "otodom_slug": "slaskie/czestochowa/czestochowa/czestochowa",
+    "items": 37
+  },
+  "radom": {
+    "name": "Radom",
+    "otodom_slug": "mazowieckie/radom/radom/radom",
+    "items": 37
+  },
+  "sosnowiec": {
+    "name": "Sosnowiec",
+    "otodom_slug": "slaskie/sosnowiec/sosnowiec/sosnowiec",
+    "items": 37
+  },
+  "kielce": {
+    "name": "Kielce",
+    "otodom_slug": "swietokrzyskie/kielce/kielce/kielce",
+    "items": 37
+  },
+  "rzeszow": {
+    "name": "Rzeszów",
+    "otodom_slug": "podkarpackie/rzeszow/rzeszow/rzeszow",
+    "items": 37
+  },
+  "gliwice": {
+    "name": "Gliwice",
+    "otodom_slug": "slaskie/gliwice/gliwice/gliwice",
+    "items": 37
+  },
+  "zabrze": {
+    "name": "Zabrze",
+    "otodom_slug": "slaskie/zabrze/zabrze/zabrze",
+    "items": 37
+  },
+  "bytom": {
+    "name": "Bytom",
+    "otodom_slug": "slaskie/bytom/bytom/bytom",
+    "items": 37
+  },
+  "zielona-gora": {
+    "name": "Zielona Góra",
+    "otodom_slug": "lubuskie/zielona-gora/zielona-gora/zielona-gora",
+    "items": 37
+  },
+  "rybnik": {
+    "name": "Rybnik",
+    "otodom_slug": "slaskie/rybnik/rybnik/rybnik",
+    "items": 37
+  },
+  "ruda-slaska": {
+    "name": "Ruda Śląska",
+    "otodom_slug": "slaskie/ruda-slaska/ruda-slaska/ruda-slaska",
+    "items": 37
+  },
+  "opole": {
+    "name": "Opole",
+    "otodom_slug": "opolskie/opole/opole/opole",
+    "items": 37
+  },
+  "tychy": {
+    "name": "Tychy",
+    "otodom_slug": "slaskie/tychy/tychy/tychy",
+    "items": 37
+  },
+  "gorzow-wielkopolski": {
+    "name": "Gorzów Wielkopolski",
+    "otodom_slug": "lubuskie/gorzow-wielkopolski/gorzow-wielkopolski/gorzow-wielkopolski",
+    "items": 37
+  },
+  "plock": {
+    "name": "Płock",
+    "otodom_slug": "mazowieckie/plock/plock/plock",
+    "items": 37
+  },
+  "dabrowa-gornicza": {
+    "name": "Dąbrowa Górnicza",
+    "otodom_slug": "slaskie/dabrowa-gornicza/dabrowa-gornicza/dabrowa-gornicza",
+    "items": 37
+  },
+  "walbrzych": {
+    "name": "Wałbrzych",
+    "otodom_slug": "dolnoslaskie/walbrzych/walbrzych/walbrzych",
+    "items": 33
+  },
+  "tarnow": {
+    "name": "Tarnów",
+    "otodom_slug": "malopolskie/tarnow/tarnow/tarnow",
+    "items": 15
+  },
+  "chorzow": {
+    "name": "Chorzów",
+    "otodom_slug": "slaskie/chorzow/chorzow/chorzow",
+    "items": 37
+  },
+  "koszalin": {
+    "name": "Koszalin",
+    "otodom_slug": "zachodniopomorskie/koszalin/koszalin/koszalin",
+    "items": 29
+  },
+  "kalisz": {
+    "name": "Kalisz",
+    "otodom_slug": "wielkopolskie/kalisz/kalisz/kalisz",
+    "items": 37
+  },
+  "legnica": {
+    "name": "Legnica",
+    "otodom_slug": "dolnoslaskie/legnica/legnica/legnica",
+    "items": 37
+  },
+  "slupsk": {
+    "name": "Słupsk",
+    "otodom_slug": "pomorskie/slupsk/slupsk/slupsk",
+    "items": 37
+  },
+  "jaworzno": {
+    "name": "Jaworzno",
+    "otodom_slug": "slaskie/jaworzno/jaworzno/jaworzno",
+    "items": 23
+  },
+  "nowy-sacz": {
+    "name": "Nowy Sącz",
+    "otodom_slug": "malopolskie/nowy-sacz/nowy-sacz/nowy-sacz",
+    "items": 18
+  },
+  "jelenia-gora": {
+    "name": "Jelenia Góra",
+    "otodom_slug": "dolnoslaskie/jelenia-gora/jelenia-gora/jelenia-gora",
+    "items": 31
+  },
+  "siedlce": {
+    "name": "Siedlce",
+    "otodom_slug": "mazowieckie/siedlce/siedlce/siedlce",
+    "items": 6
+  },
+  "myslowice": {
+    "name": "Mysłowice",
+    "otodom_slug": "slaskie/myslowice/myslowice/myslowice",
+    "items": 37
+  },
+  "konin": {
+    "name": "Konin",
+    "otodom_slug": "wielkopolskie/konin/konin/konin",
+    "items": 19
+  },
+  "peterkow-trybunalski": {
+    "name": "Piotrków Trybunalski",
+    "otodom_slug": "lodzkie/piotrkow-trybunalski/piotrkow-trybunalski/piotrkow-trybunalski",
+    "items": 14
+  },
+  "suwalki": {
+    "name": "Suwałki",
+    "otodom_slug": "podlaskie/suwalki/suwalki/suwalki",
+    "items": 4
+  }
+}

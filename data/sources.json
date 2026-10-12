@@ -295,5 +295,16 @@
     "enabled_by_default": true,
     "categories": ["apartment"],
     "config": {}
-  }  
+  },
+  "otodom_pl": {
+    "key": "otodom_pl",
+    "country": "pl",
+    "name": "Otodom",
+    "icon": "🏘",
+    "kind": "otodom",
+    "base_url": "https://www.otodom.pl",
+    "enabled_by_default": true,
+    "categories": ["apartment"],
+    "config": {}
+  } 
 }

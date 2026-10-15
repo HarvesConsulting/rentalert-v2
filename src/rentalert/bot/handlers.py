@@ -118,16 +118,60 @@ def _handle_command(chat_id: str, text: str, ctx: BotContext) -> None:
     if text.startswith("/start"):
         states.clear_state(chat_id)
 
-        # 1. Даємо trial, якщо ще немає
-        sub_svc.ensure_trial(ctx.client, chat_id)
+        # ── Обробка deep link з TumbleWeed ──
+        # Формат: "/start from_tumbleweed_5071743411_kropyvnytskyi"
+        parts = text.split()
+        if len(parts) >= 2 and parts[1].startswith("from_tumbleweed_"):
+            payload = parts[1][len("from_tumbleweed_"):]
+            payload_parts = payload.split("_", 1)
+            tw_chat_id = payload_parts[0]
+            city_slug = payload_parts[1] if len(payload_parts) > 1 else ""
 
+            log.info(
+                "🔗 Deep link з TumbleWeed: tw_chat_id=%s, city=%s",
+                tw_chat_id, city_slug,
+            )
+
+            # Trial
+            sub_svc.ensure_trial(ctx.client, chat_id)
+
+            # Країна UA за замовчуванням
+            user_svc.set_country(ctx.client, chat_id, "ua")
+
+            # Додаємо місто, якщо воно є
+            city = ctx.catalog.city(city_slug) if city_slug else None
+            if city:
+                user_svc.add_city(ctx.client, chat_id, city_slug)
+                log.info("✅ Додано місто з TumbleWeed: %s", city.name)
+
+                # Тригеримо GitHub Actions для швидкого парсингу
+                try:
+                    from rentalert.bot.callbacks import _trigger_aggregate_workflow
+                    _trigger_aggregate_workflow(city_slug, chat_id)
+                    log.info("✅ Тригернуто парсинг для %s", city_slug)
+                except Exception as e:
+                    log.warning("Не вдалось тригернути парсинг: %s", e)
+
+                lang = user_svc.get_language(ctx.client, chat_id)
+                ctx.notifier.send_message(
+                    chat_id,
+                    f"👋 <b>Привіт!</b>\n\n"
+                    f"🏠 Шукаю житло у <b>{city.name}</b>...\n\n"
+                    f"⏳ Перші оголошення надійдуть за 1-2 хв.",
+                    keyboard=kb.main_menu_keyboard(lang),
+                )
+                _maybe_warn_about_expired_access(chat_id, ctx)
+                return
+            else:
+                log.warning("Місто не знайдено у каталозі: %s", city_slug)
+
+        # Звичайний /start
+        sub_svc.ensure_trial(ctx.client, chat_id)
         user = db.get_user(ctx.client, chat_id)
         if user is None or not user.get("first_seen"):
             _send_country_selector(chat_id, ctx)
         else:
             _send_main_menu(chat_id, ctx)
-
-        # 2. Інформуємо, якщо trial/premium закінчився
         _maybe_warn_about_expired_access(chat_id, ctx)
         return
 

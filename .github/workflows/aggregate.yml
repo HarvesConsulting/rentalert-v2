@@ -1,8 +1,6 @@
 name: Aggregate OLX
 
 on:
-  # GitHub schedule ненадійний на free tier — використовуємо repository_dispatch
-  # з cron-job.org
   repository_dispatch:
     types: [aggregate]
   workflow_dispatch:
@@ -35,6 +33,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -e ".[dev]"
+
+      - name: Cleanup old
+        env:
+          PYTHONUNBUFFERED: "1"
+          TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+        run: python -u scripts/cleanup_old_listings.py
 
       - name: Run aggregation
         env:

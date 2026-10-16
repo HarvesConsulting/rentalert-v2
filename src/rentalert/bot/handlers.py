@@ -122,14 +122,15 @@ def _handle_command(chat_id: str, text: str, ctx: BotContext) -> None:
         # Формат: "/start from_tumbleweed_5071743411_kropyvnytskyi"
         parts = text.split()
         if len(parts) >= 2 and parts[1].startswith("from_tumbleweed_"):
-            payload = parts[1][len("from_tumbleweed_"):]
+            payload = parts[1][len("from_tumbleweed_") :]
             payload_parts = payload.split("_", 1)
             tw_chat_id = payload_parts[0]
             city_slug = payload_parts[1] if len(payload_parts) > 1 else ""
 
             log.info(
                 "🔗 Deep link з TumbleWeed: tw_chat_id=%s, city=%s",
-                tw_chat_id, city_slug,
+                tw_chat_id,
+                city_slug,
             )
 
             # Trial
@@ -147,6 +148,7 @@ def _handle_command(chat_id: str, text: str, ctx: BotContext) -> None:
                 # Тригеримо GitHub Actions для швидкого парсингу
                 try:
                     from rentalert.bot.callbacks import _trigger_aggregate_workflow
+
                     _trigger_aggregate_workflow(city_slug, chat_id)
                     log.info("✅ Тригернуто парсинг для %s", city_slug)
                 except Exception as e:

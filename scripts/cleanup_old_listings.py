@@ -1,4 +1,5 @@
 """Видаляє оголошення оренди старіші за N днів з Turso (RentAlert)."""
+
 from __future__ import annotations
 
 import sys

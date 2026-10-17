@@ -209,12 +209,15 @@ def _maybe_recompute_market() -> None:
         if last_computed:
             from datetime import UTC, datetime, timedelta
 
-            try:
-                last_dt = datetime.fromisoformat(str(last_computed).replace("Z", "+00:00"))
-                if datetime.now(UTC) - last_dt < timedelta(hours=23):
-                    return  # не пройшло 23 години
-            except Exception:
-                pass
+        try:
+            last_dt = datetime.fromisoformat(str(last_computed).replace("Z", "+00:00"))
+            # Якщо naive — припускаємо UTC (бо SQLite CURRENT_TIMESTAMP = UTC)
+            if last_dt.tzinfo is None:
+                last_dt = last_dt.replace(tzinfo=UTC)
+            if datetime.now(UTC) - last_dt < timedelta(hours=23):
+                return
+        except Exception as e:
+            log.warning("_maybe_recompute_market: parse failed: %s", e)
 
         # Запускаємо перерахунок
         from rentalert.services.market import recompute_market_prices
